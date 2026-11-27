@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-27T08:15:21.991913+00:00",
+  "as_of_utc": "2026-11-27T08:31:47.470029+00:00",
   "attempts": [
     {
       "path": "nb-moments-001/results/moments/receipt.json",
@@ -253,6 +253,28 @@
       "individual_peak_rss_bytes": 322535424,
       "sampled_group_peak_rss_bytes": 322535424,
       "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "nonlinear-map-pilot-001/results/moment/receipt.json",
+      "receipt_sha256": "5ee8c9d13e5f6f3e1dd846e48a40ff5527512fc8fd9907e87be3144d181ef7f8",
+      "status": "FAIL",
+      "wall_s": 68.17454112507403,
+      "error": "RuntimeError: Host memory pressure not normal",
+      "exit": -15,
+      "individual_peak_rss_bytes": 777437184,
+      "sampled_group_peak_rss_bytes": 682967040,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "nonlinear-map-pilot-002/results/moment/receipt.json",
+      "receipt_sha256": "29e83ac69b18c91967aff30b1fe21101e1134464febfff32918e72aa3a3ecfa2",
+      "status": "FAIL",
+      "wall_s": 48.29496137518436,
+      "error": "RuntimeError: Native command exit 1",
+      "exit": 1,
+      "individual_peak_rss_bytes": 912670720,
+      "sampled_group_peak_rss_bytes": 910524416,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
     }
   ],
   "totals": {
@@ -261,11 +283,11 @@
       "wall_s": 849.9306160854176
     },
     "FAIL": {
-      "attempts": 9,
-      "wall_s": 151.23127624951303
+      "attempts": 11,
+      "wall_s": 267.7007787497714
     }
   },
-  "total_guarded_wall_s": 1001.1618923349306,
+  "total_guarded_wall_s": 1117.631394835189,
   "scope": "Account for terminal guarded native attempts, including failed/prelaunch ones.\n\nThis excludes launch-watch waiting, compilation, downloads, Python analyses and\nunmetered model use. Guard PASS is not scientific or physical acceptance.",
   "cpu_time_energy_model_cost": "Not instrumented; no estimates inferred"
 }
