@@ -1047,3 +1047,30 @@ Its complete sums/Ritz checks and independent full-image/mode analysis remain
 required before further spending. No code/threshold changes.184tests/193Python
 compilations/moment replay lastPASS; diffcheckPASS. CI46076819164 on c434224
 PASS. No gap or response accepted; scientific goal remains active.
+
+
+## Second restart complete32 basis checked;48-vector extension admitted
+
+Restart008 terminal PASS229.42983570834622s; individualpeak1169539072B,
+sampledgroup1032306688B. Owner31020/session80770 terminal exit0. All postrun
+inputs and public/consumed manifest checked. Six complete uncached sums for the
+first new vector PASS: maxdifference8.673617379884035e-19 versus frozenbound
+2.095867740888329e-13; not exhaustive independent all-column recomputation.
+New guarded total9105.438999167494s (151.76min), historical189.29min separate.
+Independent restarted_basis004 PASS:32columns, Gram1.7985612998927536e-14,
+projection1.509903313490213e-14; all real full-image residual checks PASS.
+Tracked mode4 lambda1.0018604172219503, residual9.348706507466526e-7.
+restart_mode002 PASS: overlap0.999999999988997, reduction4.804994612582921,
+same-sign averages and lambda>1; advance_to48=true. Seed gate1e-9 still fails
+by935x. No converged nonlinear gap or response accepted.
+
+Decision: apply next16 vectors to reach48 using four sequential contiguous
+segments021–024, each600s/3GiB/quiet120, one heavy owner. Forecast14–16native
+minutes from the latest13.99min application, not a bound; about88.24min remains
+in the4h pilot. Full native/independent and mode checks required before further
+expansion. No cheaper projected-only residual can answer full-image convergence.
+A transient controller will use the unchanged stage/guard/certify functions,
+halt on any failure, and publish each verified checkpoint before advancing.
+No automatic retry, threshold change or budget increase.021 staged prospectively.
+No maintained code changed;184tests/193compilations/moment replay lastPASS,
+diffcheckPASS. PublicCI46077210123 on4c72e18 PASS. Scientific goal active.
