@@ -1,0 +1,45 @@
+{
+  "counts": [
+    66867,
+    67940,
+    67940,
+    100,
+    512,
+    26,
+    32768
+  ],
+  "grids": [
+    {
+      "side": 1,
+      "states": 66867,
+      "index_groups": 13312,
+      "resolved_groups": 1024,
+      "resolved_states": 54579,
+      "resolved_off_energy_grid": 0,
+      "resolved_duplicate_energy_groups": 0,
+      "single_state_groups": 12288,
+      "single_states_on_energy_grid": 0,
+      "single_state_nonuniform_weights": 0,
+      "single_state_min_abs_xi": 0.02746698894735289
+    },
+    {
+      "side": 2,
+      "states": 67940,
+      "index_groups": 13312,
+      "resolved_groups": 1024,
+      "resolved_states": 55652,
+      "resolved_off_energy_grid": 0,
+      "resolved_duplicate_energy_groups": 0,
+      "single_state_groups": 12288,
+      "single_states_on_energy_grid": 0,
+      "single_state_nonuniform_weights": 0,
+      "single_state_min_abs_xi": 0.03618931172011575
+    }
+  ],
+  "sha256": {
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.meta": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.bin": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37",
+    "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/source-qe/SCTK/src/sctk_ini_delta.f90": "db9b4472bc0e1452cb58db009544a6ae77299b2e1ae3b5c4dc2f898503c706fe"
+  },
+  "scope": "Read-only energy/index grouping audit; no gap transfer or response validation."
+}

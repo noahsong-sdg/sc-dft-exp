@@ -1,5 +1,24 @@
 # Research restart ledger
 
+## Latest priority — anisotropic response mapping audited; full validation live
+
+Previous turn made progress: terminal candidate verifier published719e48b,
+CI45974551718 SUCCESS. Native owner54858/PID1480 verified live at07:14,
+813632KiB RSS,28704/66867 progress rows. No terminal result or residual conclusion yet.
+
+Read-only native state audit:1024 resolved band/cell groups per side,
+54579/55652 resolved states, all exactly on xi0 with no duplicate energy per
+group. Each side also has12288 off-grid single states, all weight1/512.
+Owning retained store_d3k source distinguishes these branches. Persisted JSON
+binds source/state hashes; script reproduces the audit in under one second.
+GAP_RESPONSE_MAPPING_GATE.md specifies a same-cell anisotropic first/second
+moment comparison, keeping fallback states and avoiding unqualified fine-grid
+gap transfer. This is mapping evidence, not gap or physical response validation.
+Compileall/diffcheck PASS; no production source changed or native job launched.
+
+Next: keep polling54858, strict terminal candidate readback, then enrichment
+if full targets fail or conditioning/refinement if they pass. Goal active.
+
 ## Latest priority — full candidate validation live; terminal verifier qualified
 
 Native PID1480 / owner54858 verified live at elapsed03:58,882864KiB RSS;
