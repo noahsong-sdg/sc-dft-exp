@@ -1,5 +1,22 @@
 # Research restart ledger
 
+## Latest — build004 live; public band pilot staged with corrected execution trace
+
+Sole heavy owner session43299/PID76499 passednormal120s11:45:43Z; LAPACK
+completed, QE make inprogress. Prior324fd1e public CI45992953127PASS. Pollsame
+owner. No response run or rank37 watcher active.
+
+New PUBLIC_BAND_REPLAY_GATE.md traces fixed-density eight-point calibration,
+with stage_public_band_pilot.py + public_band_pilot_analysis.py. XML1024points
+are NOT response derivative grid: read_a2fsave discards XML et, reads897irreducible
+bands and expands32³. Initial XML8³ hypothesis corrected before anynativepilot.
+Eight-point replay instead tests density reconstruction/cost; no refinement claim.
+Source QE cutoffs/eigenvalues conversione2=2verified. Exact public context,
+40/320Ry,32/24FFT,26bands; original hashpreserved; nooffsetfit; <=1e-6Ry208value
+replay target; guard180s/3GiB after120normal. Notstagedagainstanexe orlaunched.
+All99 researchtestsPASS7.492s, maintainedcompileall/diffcheckPASS. Nativeintegration
+pending. No full-gridband orrefinement run inferred fromthispilot.
+
 ## Latest — attempt003 terminal; both QE export boundaries tested; retry004 waiting
 
 Owner17058/98608 TERMINALFAIL248.847201s/476594176B, at private
