@@ -1,0 +1,278 @@
+{
+  "question": "Qualify selected nonlinear Q0 map rows with reused8.05K Z before full solve",
+  "source_point": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare",
+  "physical_temperature_kelvin": 8.05,
+  "nx": 100,
+  "nmf": 10,
+  "ne": 50,
+  "fortran_flags": "retained Makefile O2 ffp-contractoff plus fcheckall on new driver",
+  "native_guard_seconds": 120,
+  "native_group_rss_cap_bytes": 3221225472,
+  "preflight": "Same old initialization/fullZ geometry required bitwise; whole source input hash binds nmf omitted by Z schema",
+  "acceptance": "Finite nonlinear weights; exponential occupation reference; selected tile explicit sum vs BLAS; sampled coefficients vs uncached native_pair; not a converged gap or full map",
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/full-z.meta",
+      "bytes": 309,
+      "sha256": "289418f57bb1421baad2320e53e81aba35ee520ed39dd6eccb16b0718284e6da"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.meta",
+      "bytes": 335,
+      "sha256": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/full-z.bin",
+      "bytes": 1087040,
+      "sha256": "1877dee70b514f9fc8d97be68307a0b6ebc761933339b1164f9b34fb43114c60"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native.in",
+      "bytes": 379,
+      "sha256": "ce2ec10e9163b44a28febb9dc0a0c466a1158f5c84fe7eb960c1de6aa9d9c358"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.bin",
+      "bytes": 6523840,
+      "sha256": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/nonlinear_map_probe.f90",
+      "bytes": 5306,
+      "sha256": "297bf66507c60733c0de281a9f93c5ca29642179d0b598787cad2a2db50d1813"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/nonlinear_map_probe.mk",
+      "bytes": 366,
+      "sha256": "5c9ede02f37a3bdb36cae91e0bd867611bc528e3e7327719f498bb459e74086b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/nonlinear-map-pilot-001/matdyn0",
+      "bytes": 1916,
+      "sha256": "96bf9e490721008167c28f83b76b13e47fe88d78b7eff6d95a1807c603dda5c8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/nonlinear-map-pilot-001/native.in",
+      "bytes": 430,
+      "sha256": "8aebd2e7b1f538a2ec39489e24a146bf93689bab92812de62ea65fd0bb4e9dcc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/nonlinear-map-pilot-001/nonlinear-map-probe.x",
+      "bytes": 7750136,
+      "sha256": "ef2267604d7aac8c524abe0f9d62ba4077ca7503ff792b938ee422a42c893224"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/nonlinear-map-pilot-001/map-control.in",
+      "bytes": 139,
+      "sha256": "81c10f2ae79de44b1a886cbefa5ddfb4bf16f9b52184d3844bc0cd7a43344e42"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/native_state_io.o",
+      "bytes": 23328,
+      "sha256": "be8e93b433cecc238145b032dc28e4ee8363854e11f4e066ed9a3dacd6391dfd"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/gauss_common_seed_test.o",
+      "bytes": 3272,
+      "sha256": "e1d89a7e89201fa87734ac839de5ad359cb0b0738c5dd46d885bec2bca693085"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/grid_probe_v3.o",
+      "bytes": 8504,
+      "sha256": "5501f1ec47f395441927382b9ccbeecc7d40ab42ec9802c7e651239a06d185f3"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/tiled_operator.o",
+      "bytes": 9744,
+      "sha256": "e3abcdfc8eb9afa79c6d5cafd075e0d2fc120a9bec03a7ed7db3c4b56417e65a"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/native_rotation.o",
+      "bytes": 20312,
+      "sha256": "5727ba89c3b384505e9fb8ae5313663f54834b8ca46f8dfa1846f05368f6f0be"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/cached_kel.o",
+      "bytes": 6344,
+      "sha256": "df0e6e8e714b23d748a3b9ccbd2fef318d589f3f2b38389fcf1fe306bf2c2853"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/io_reader.o",
+      "bytes": 7512,
+      "sha256": "22eb69c58d08423142f3762895e9169b5416b7df6192bbbd564718c67d6f4b30"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/streamed_coulomb.o",
+      "bytes": 12456,
+      "sha256": "8df65ae6466818b6e1551dbfd5474c42ac199fad5b7dccb9f47946a3bbca1f15"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/tc_subspace.o",
+      "bytes": 30488,
+      "sha256": "68907b9bc78902522175605037e84aae55073e4fc8864644f6d818377e97d636"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/slab_operator.o",
+      "bytes": 9480,
+      "sha256": "98f9a8d077b56765dddf99087143027f0d6ce7e44814de4b52064165a7f776be"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/memory_observations.o",
+      "bytes": 2352,
+      "sha256": "b48bc7df41b79eeed3a1dfad3b2071c7ebd1d8885ef15c1aac680f733127d8f0"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/slab_z.o",
+      "bytes": 6824,
+      "sha256": "95a6c2e744f870c6e1c6d38db5c9bfaba42ae1da6e1eaf1c52212b0b3ee9d77a"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/saved_coulomb.o",
+      "bytes": 7448,
+      "sha256": "99926e9ffd4e94f8ee28588d76b9ee2e9d49a9741ed53416a40450d4c5b98506"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/block_linear_operator.o",
+      "bytes": 7328,
+      "sha256": "18ed2e14a03b700766b2fea7012fcb38423803fe518d349d4dc6f00309f6b254"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/hash_stream.o",
+      "bytes": 1672,
+      "sha256": "b94c34243ce2358e594f2c7dacddcf2b5be85897429f5d53043007e61b3bdf1c"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/zsf_workspace.o",
+      "bytes": 10248,
+      "sha256": "db0aa8a09a2595e50e1a7c4f64b1b6063fb82442bc4054b2c61b868f5edbaa70"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/qualification_driver.o",
+      "bytes": 17656,
+      "sha256": "78f394ad23ca3571e9e377441709c9f42d53d5367aba615b6d3246a88cfd517a"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/cached_phonon.o",
+      "bytes": 2880,
+      "sha256": "ecb9bc1a484efad35f45ef5461575926ceff0aa4160c8286a560014095daaafd"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/grid_probe.o",
+      "bytes": 7560,
+      "sha256": "34328f0ea60b5c6d33f0cb80d4c459a75955cb3363284de7f111b8a467b4d08b"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/native_oracle_z.o",
+      "bytes": 6040,
+      "sha256": "8867ff2a6fcf16e9681d0e9998da6242cb8cf9d078509f7f32876cb853a8565c"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/grid_probe_v2.o",
+      "bytes": 8088,
+      "sha256": "9b5aa4d5d167baf425effaebe074eb2cd921fba19a71196dceb3b572feb2076c"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/tc_native_oracle.o",
+      "bytes": 9544,
+      "sha256": "fbe9fc9a241fe746640b2e5db9c28a016ae64124fe9371c12d6b17d35ae7a7aa"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/native_coefficients.o",
+      "bytes": 5352,
+      "sha256": "2c08993c87b8fc3671d6ff222e5fd129e18dd269123f8abcf9060b0ce9cb50eb"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/gauss_o0.o",
+      "bytes": 2304,
+      "sha256": "5dc014687ccb223d56f01c641ded86e15e9042db3ee7f0314e31d304b67f1228"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/init_only.o",
+      "bytes": 3592,
+      "sha256": "a369f821bc1ecd54ac4010331a163d78335df00da0bd5d90362aed6082da0dec"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/hash_pipe.o",
+      "bytes": 952,
+      "sha256": "eb9b9c7968baab43ee97bf76c9e68098eb7048b9fa70d6dfa4947dbce3dcbb87"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/build/memory_macos.o",
+      "bytes": 784,
+      "sha256": "1db785abafbd74029018da69e55575b2c39f97f4ab051be895fb37523e8ee1ec"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/nb-tc-benchmark-v1/scdft/tiled_operator.f90",
+      "bytes": 6437,
+      "sha256": "02df9cd10583e10e7141f20a1378e5a284f1576e9dc87d273bc647de2a4d3489"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/nb-tc-benchmark-v1/scdft/cached_phonon.f90",
+      "bytes": 2258,
+      "sha256": "6a6303ef53ccc0012cec27a72ddaf7a5d1869993d1b0890f0ad857a18196e200"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/nb-tc-benchmark-v1/scdft/cached_kel.f90",
+      "bytes": 2378,
+      "sha256": "d430878241d595fcdb824e3733d15f1272e4d5d4e335103ac94a2a1081286456"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/nb-tc-benchmark-v1/scdft/tc_native_oracle.f90",
+      "bytes": 4812,
+      "sha256": "0def51ff70762bd25419d4ad5feab668003dcf026d0f5a6f27826aeceb60eae2"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/nb-tc-benchmark-v1/memory-study-v1/slab_operator.f90",
+      "bytes": 2607,
+      "sha256": "ebf038d85a48e6034476bad18be7a95748f4e6f75b9537a61779c63a050ea3f8"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/nb-tc-benchmark-v1/memory-study-v1/saved_coulomb.f90",
+      "bytes": 2732,
+      "sha256": "8705f20423dd1331738ac8bda90ed2932c77c83f9096da44943bfa088b2abcaf"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/nb-tc-benchmark-v1/memory-study-v1/streamed_coulomb.f90",
+      "bytes": 5882,
+      "sha256": "eeeabec84483caa6a4ea1a92d84785da8543ec4f0d2ec21ce8056620fb964e14"
+    }
+  ],
+  "attempt001_resource_receipt": {
+    "status": "FAIL",
+    "error": "RuntimeError: Host memory pressure not normal",
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/nonlinear-map-pilot-001/nonlinear-map-probe.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/nonlinear-map-pilot-001/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/nonlinear-map-pilot-001",
+    "wall_s": 68.17454112507403,
+    "exit": -15,
+    "max_individual_descendant_rss_bytes": 777437184,
+    "sampled_peak_group_rss_bytes": 682967040,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 120,
+    "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+  },
+  "attempt002_policy": "Same executable, point/input/control; fresh directory,120 quiet seconds and GFORTRAN_UNBUFFERED_ALL=y; unchanged120s/3GiB guard. Single resource-failure retry.",
+  "attempt002_resource_receipt": {
+    "status": "FAIL",
+    "error": "RuntimeError: Native command exit 1",
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/nonlinear-map-pilot-002/nonlinear-map-probe.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/nonlinear-map-pilot-002/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/nonlinear-map-pilot-002",
+    "wall_s": 48.29496137518436,
+    "exit": 1,
+    "max_individual_descendant_rss_bytes": 912670720,
+    "sampled_peak_group_rss_bytes": 910524416,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 120,
+    "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+  },
+  "attempt002_failure": "Native dx0 differs from reference; strict compatibility gate retained; no accepted map or saved-Z reuse"
+}

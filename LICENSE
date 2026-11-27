@@ -18,3 +18,7 @@ source and is distributed under the same GNU General Public License.
 Exception: research/fixtures/pinned_symm_dosk.f90 is an unmodified SCTK
 routine, copyright Mitsuaki Kawamura, under the GNU General Public License
 version 2 or later. See its header and licenses/GPL-2.0.txt.
+
+Exception: research/nonlinear_map_probe.f90 is distributed under GNU GPL
+version 2 or later, as stated in its header; it uses the retained SCTK-derived
+native operator interface. See licenses/GPL-2.0.txt.

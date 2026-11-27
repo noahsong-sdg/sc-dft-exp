@@ -1,0 +1,11 @@
+{
+  "decimal_precision": 80,
+  "difference_step": "1e-24",
+  "acceptance": "absolute1e-16 + relative2e-12 per scalar",
+  "scope": "Q0 finite-T scalar nonlinear weight and Jacobian; no native map or converged gap",
+  "case_count": 125,
+  "max_occupation_absolute_error": 5.551115123125783e-17,
+  "max_derivative_absolute_error": 5.820766091346741e-11,
+  "zero_energy_limit": "chi=0; dchi/ddelta=dk*beta/4, not zero",
+  "max_fraction_of_acceptance_tolerance": 0.0003809830164400555
+}

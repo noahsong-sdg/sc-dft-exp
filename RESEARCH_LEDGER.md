@@ -1,5 +1,55 @@
 # Research restart ledger
 
+## Latest priority — nonlinear saved-state gate rejected; audit quadrature reuse
+
+Previous goal turn made progress:55 offline tests PASS(2.456s), compileall and
+diff checks PASS; selected nonlinear driver boundschecked build PASS. Both
+native owners now TERMINAL:49823 pressure-stop68.175s/777437184bytes,78820
+exact-state rejection48.295s/912670720bytes. No live campaign native owners.
+Retry002 passed xi0 comparison and counts66867/67940 but failed dx0 exactbits;
+saved Z was NOT accepted and no selected map result. See NONLINEAR_REUSE_GATE.md
+and nonlinear_map_build_manifest.json. Scalar nonlinear Jacobian125 Decimal80
+checks PASS separately; not fullnativeJacobian or gapconvergence.
+
+Next concrete action: quantify fresh grid differences and test explicit serialized
+quadrature input as a new reuse experiment, preserving failed exact regeneration.
+Historical GRID_SEED_CONTROL.md reports13-ULP dx0 weight52; do not assume current
+allarray differences without fresh audit. Existing test-only common-seed object
+MUST NOT be linked into a solver. Use saved xi0/dx0 as declared, hash-identified
+numerical inputs only if all subsequent fresh state arrays match reference
+exactly before saved Z. Do not weaken verify_initialized_state/read_full_Z or
+claim independent native portability. Source point nx100-mf10-T8p05-b16-s29/
+prepare contains native-init.bin/meta and full-z.bin/meta; check manifest.
+A new Mac Z calculation is the alternative if reuse fails. No blanket laptop
+infeasibility conclusion follows from this compatibility rejection. Goal remains
+active; ceiling2026-11-27T17:41Z unchanged.
+
+
+## Latest priority — isolated nonlinear map qualification, retry waiting
+
+Previous goal turn made progress:395f912 accuracy controls andf6af289 resource
+accounting public; CI45964367637 verified SUCCESS. New selected nonlinear map
+driver builds boundschecked with immutable retained dependencies. Exact geometry/
+saved8.05K Z checks precede selected kernel rows/uncached-pair and BLAS controls.
+No full residual or converged gap claim. See research/NONLINEAR_REUSE_GATE.md
+and nonlinear_map_build_manifest.json for hashes/input binding/limitations.
+
+Owner49823 TERMINAL FAIL: hostpressure stop at68.175s, peak777437184bytes, not
+a compatibility/numerical verdict. Console buffered; stopping phase unknown.
+Verified LIVE owner78820, PID62454, raw/run-nonlinear-map-pilot-002.py, fresh
+retry002. Same executable/input/sourcepoint; prerequisite now120 quiet normal
+seconds plus unbuffered logging, unchanged120s/3GiB guard. Latest verified
+pressure1 with0 quietseconds, no child. Pollsamehandle; do not duplicate launch.
+Only one resource retry authorized by this checkpoint; investigate further
+failures before another. Treat stale phase infailed001 watcher as superseded.
+
+Independent nonlinear scalar weight/Jacobian probe passes125 Decimal80-digit
+finite-difference cases. Exactzero chi=0 but derivative=dk*beta/4. Not a full
+native Jacobian qualification. New output reader rejects stale/incomplete and
+nonfinite schemas. Latest full offline suite53 PASS before newscalar2 tests;
+scalar2 tests PASS separately. Goal incomplete; ceiling2026-11-27T17:41Z.
+
+
 ## Latest priority — native accuracy controls complete; nonlinear reuse audit
 
 Previous goal turn made progress: symmetry findingcfdd7e4 public and CI45963179303

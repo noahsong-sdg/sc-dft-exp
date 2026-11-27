@@ -23,6 +23,7 @@ Current campaign: [scientific decision checkpoint](research/DECISION_STATUS.md),
 [thermal-factor finding](research/CURRENT_IDENTITY_FINDING.md),
 [held-out boundary tests](research/THERMAL_BOUNDARY_RESULT.md),
 [reviewable pinned-source correction](research/patches/README.md),
+[nonlinear equilibrium-gap reuse gate](research/NONLINEAR_REUSE_GATE.md),
 [workflow costs](research/WORKFLOW_COSTS.md), and
 [response figures](research/figures/README.md). The thermal correction is checked on
 synthetic fixtures, imposed-gap Nb geometry, and a documented converged frozen
