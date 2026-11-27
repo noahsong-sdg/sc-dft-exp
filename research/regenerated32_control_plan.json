@@ -1,0 +1,12 @@
+{
+  "recorded_utc": "2026-11-27T14:09:17.467266+00:00",
+  "question": "Separate same-grid band regeneration from electronic-grid refinement in the fourth-order diagnostic",
+  "evidence": "Original32 replay agrees with released897point bands within4.152e-7Ry, not bitwise. New64sharesall897points with the same error scale. Numerical smallness in energy alone does not bound response derivative error.",
+  "protocol": "After the registered64response completes, generate automatic32bands from the same saved density/cutoffs/26bands as48/64, serialize with owningQE writer, and run the same qualified combined fourth-order probe. Preserve original32/48/64comparison unchanged and report regeneration shifts separately.",
+  "observables": "At2/4/8K, report S32_regenerated/S32_released-1 and its ratio to the original32to48difference. Also compare the consistent-generation32/48/64series. No arbitrary negligible-effect threshold or physical accuracy claim.",
+  "acceptance": "Same density/cutoffs;shared-energy1e-6Ry,min100points,nooffset;allXMLcoordinates/energies/weightspreserved;native/context/inputchecks;compiledprobealreadyexact48qualified. No hand-edited a2Fsavegrid metadata.",
+  "budget": "Forecast100s bands +2s serialization +30s response; guards600/120/120s;120normal seconds before each,oneheavyowner. Expected total remains below initial4nativewallhours. Do not modify scripts pinned by unfinished64protocols.",
+  "reason_existing32not_directly_reused": "Existing897-coordinate replay uses an explicit point list and has no a2Fsave. A new automatic32control avoids guessing its missing mesh serialization metadata.",
+  "original_third_grid_hypothesis_unchanged": true,
+  "physical_response_claim": false
+}

@@ -1,0 +1,135 @@
+{
+  "command": [
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize64-001/a2f-serialize.x",
+    "-in",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize64-001/native.in"
+  ],
+  "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize64-001",
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid64-001/scratch/pwscf.save/data-file-schema.xml",
+      "bytes": 10001977,
+      "sha256": "6812bbaeb021cbeba28d7db8bf37e9ffaeea43df75cea363b72e16b4810678d0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize64-001/scratch/pwscf.save/data-file-schema.xml",
+      "bytes": 10001977,
+      "sha256": "6812bbaeb021cbeba28d7db8bf37e9ffaeea43df75cea363b72e16b4810678d0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid64-001/scratch/pwscf.save/charge-density.dat",
+      "bytes": 331888,
+      "sha256": "1eb9af07995d970ae1c5ea73ce7a0ac83a54a7987d667509efb9204672289205"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize64-001/scratch/pwscf.save/charge-density.dat",
+      "bytes": 331888,
+      "sha256": "1eb9af07995d970ae1c5ea73ce7a0ac83a54a7987d667509efb9204672289205"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid64-001/scratch/pwscf.save/paw.txt",
+      "bytes": 3755,
+      "sha256": "0c7aa84653216c5ecac06f052f9c46c1a6b37a36ade321e3354335afbe2d2706"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize64-001/scratch/pwscf.save/paw.txt",
+      "bytes": 3755,
+      "sha256": "0c7aa84653216c5ecac06f052f9c46c1a6b37a36ade321e3354335afbe2d2706"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid64-001/scratch/pwscf.save/Nb.pbe-spn-kjpaw_psl.0.3.0.UPF",
+      "bytes": 2052531,
+      "sha256": "ccf07218ea34daaa63ff57d9f44ca8b4b529728cccbc8f74dd5fc804ac01e48e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize64-001/scratch/pwscf.save/Nb.pbe-spn-kjpaw_psl.0.3.0.UPF",
+      "bytes": 2052531,
+      "sha256": "ccf07218ea34daaa63ff57d9f44ca8b4b529728cccbc8f74dd5fc804ac01e48e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid64-001/reference.json",
+      "bytes": 712998,
+      "sha256": "d4205fae604591bcccb6df0e5654787f7fbb7415de7e54b94eb12628d516ea11"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize64-001/reference.json",
+      "bytes": 712998,
+      "sha256": "d4205fae604591bcccb6df0e5654787f7fbb7415de7e54b94eb12628d516ea11"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize64-001/a2f-serialize.x",
+      "bytes": 7457344,
+      "sha256": "dd6f16029a59afcc7e6ad2ebdce0c9c2384b82c89bf7781600f3f8fb5a78ae8e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize64-001/native.in",
+      "bytes": 97,
+      "sha256": "605e7108b4811062bda53b608305ad5ba0eb3a3e2765a5ebac2112923962e0b4"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_band_grid64_manifest.json",
+      "bytes": 5222,
+      "sha256": "0f23aacf64527c14e89a7c6a3652f658f902c2ef99cde19d57d032bf4ceb03fc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid64-001/results/bands/receipt.json",
+      "bytes": 656,
+      "sha256": "fb35aeea143fc823090da66e4e00ca20d310686f534406728fe715add65de009"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/stage_band_serialization.py",
+      "bytes": 3570,
+      "sha256": "201c6759162e69802bb66f6d15f928ffdb5d433325f892ca844064aa4d7e2563"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_band_grid64_result.json",
+      "bytes": 2108,
+      "sha256": "0a374fa8c323f75bf52c79d1f5ecdc79eefa6f2009239ae00bf8cb9d244edb94"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_a2f_build_manifest.json",
+      "bytes": 123914,
+      "sha256": "5f533b09d72fe3dba52d94d9a443f26c9dd3a8238073fbea85ada686289a1990"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/macos_native_guard.py",
+      "bytes": 8195,
+      "sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+    }
+  ],
+  "grid": [
+    64,
+    64,
+    64
+  ],
+  "expected_points": 6273,
+  "minimum_common_reference_points": 100,
+  "acceptance_max_eigenvalue_difference_ry": 1e-06,
+  "guard_seconds": 120,
+  "source_band_directory": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid64-001",
+  "source_band_manifest": "/Users/noahs/Developer/sc-dft-exp/research/public_band_grid64_manifest.json",
+  "original_band_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid64-001/pw.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid64-001/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid64-001",
+    "wall_s": 826.5420493334532,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 116391936,
+    "sampled_peak_group_rss_bytes": 116391936,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 1800.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "source_xml_sha256": "6812bbaeb021cbeba28d7db8bf37e9ffaeea43df75cea363b72e16b4810678d0",
+  "scope": "Stage owning QE XML-to-a2F serialization after a completed fixed-density run. New serialization action, not a repeat diagonalization or a passing original a2Fsave output protocol.",
+  "launch_normal_seconds": 120,
+  "rss_cap_bytes": 3221225472,
+  "source_revision": "c4f0944",
+  "decision": "Full64XML nativePASS826.542s,6273points26bands;897sharedpoints max4.152e-7Ry passes1e-6 unchanged target. Existing owning serializer passed48all-data roundtrip. Forecast~2s,120s/3GiB cap. Staged only while combined48responseowner17318 is active; no watcher."
+}

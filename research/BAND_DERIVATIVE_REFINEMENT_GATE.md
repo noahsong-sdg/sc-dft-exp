@@ -286,3 +286,17 @@ not corrupted-data errors. No continuum or physical-error bound is produced.
 Changed hypothesis, baseline, context, temperature, grid and failed-receipt
 fixtures reject.132offline testsPASS11.568s; maintained-source compilation,
 moment-refinement replay and diff checksPASS. Native64response is still pending.
+
+
+## Same-grid regeneration control identified before64response
+
+The new64XMLshares all897released32points and differs by at most4.152e-7Ry,
+within the unchanged1e-6target but not bitwise. The original32response uses
+released bands;48/64use regenerated bands. Energy agreement alone does not bound
+finite-difference response error. regenerated32_control_plan.json therefore
+registers one same-grid automatic32response control, after the64protocol finishes.
+It must preserve the original registered three-grid analysis and separately
+measure regeneration's contribution. Existing explicit897-point replay lacks
+a2Fsave; no grid metadata will be guessed to use it as a serialized mesh.
+Forecast~132s total native work fits the initial4hceiling; guards600/120/120s.
+Do not edit scripts pinned by unfinished64protocols to add32support prematurely.

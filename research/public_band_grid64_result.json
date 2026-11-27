@@ -1,0 +1,45 @@
+{
+  "terminal_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid64-001/pw.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid64-001/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid64-001",
+    "wall_s": 826.5420493334532,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 116391936,
+    "sampled_peak_group_rss_bytes": 116391936,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 1800.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "grid": [
+    64,
+    64,
+    64
+  ],
+  "xml_irreducible_points": 6273,
+  "bands_per_point": 26,
+  "xml_weight_sum": 2.0,
+  "shared_reference_points": 897,
+  "max_shared_eigenvalue_difference_ry": 4.1517320514827816e-07,
+  "acceptance_max_eigenvalue_difference_ry": 1e-06,
+  "minimum_common_reference_points": 100,
+  "xml_shared_point_target_met": true,
+  "all_immutable_parent_inputs_unchanged": true,
+  "separate_serialization_required": true,
+  "a2fsave_present": false,
+  "energy_offset_fitted": false,
+  "physical_response_verified": false,
+  "sha256": {
+    "/Users/noahs/Developer/sc-dft-exp/research/public_band_grid64_manifest.json": "0f23aacf64527c14e89a7c6a3652f658f902c2ef99cde19d57d032bf4ceb03fc",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid64-001/scratch/pwscf.save/data-file-schema.xml": "6812bbaeb021cbeba28d7db8bf37e9ffaeea43df75cea363b72e16b4810678d0",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid64-001/reference.json": "d4205fae604591bcccb6df0e5654787f7fbb7415de7e54b94eb12628d516ea11",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid64-001/results/bands/receipt.json": "fb35aeea143fc823090da66e4e00ca20d310686f534406728fe715add65de009"
+  },
+  "scope": "Fixed-density64 XML bands; separate owning serialization required before response. Shared-point agreement is not new-point derivative accuracy."
+}

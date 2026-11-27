@@ -2004,3 +2004,20 @@ accuracy certificate.132localtestsPASS11.568s; compileall/momentreplay/diffcheck
 PASS. No64response exists yet. Sole64bandowner94314is live at4727/6273points,
 CPU619s. Following its terminal receipt, run combined48response, then64owning
 serialization, then64response under the previously frozen resource gates.
+
+
+##64bands terminalPASS; combined48response now owns native slot
+
+64bandguardPASS826.542049s/116391936B.6273XMLpoints,26bands,weightsum2;
+allimmutableparentinputs unchanged. Shared897referencepoints max4.151732e-7Ry
+passes unchanged1e-6target. public_band_grid64_result.json records XML-only
+acceptance; a2Fsave absent as expected, separate owning serialization required.
+Combined48native owner17318/session5548 waits120normal seconds then900s.
+64serializer rootraw/public-a2f-serialize64-001 is frozen but has no watcher.
+
+A causal control is registered in regenerated32_control_plan.json before any
+64response: original32band data are released,48/64are regenerated, and energy
+agreement does not bound derivative effects. After64response, add explicit
+automatic32generation/owningserialization/response to isolate regeneration.
+Do not edit scripts pinned by ongoing64protocols. Original third-grid hypothesis
+and comparisons remain intact. Forecast132native seconds, initial4hbudgetfits.
