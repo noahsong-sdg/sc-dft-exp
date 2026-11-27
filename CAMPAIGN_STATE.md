@@ -58,10 +58,15 @@ source, qualify cached/direct upstream calc_Zsf including context invalidation,
 then measure bounded partial sums before compatible full8.05KZ generation.
 Source lead: native-macos-v1/work/project/nb-tc-benchmark-v1/scdft/.
 Old partial timing is historical and does not qualify current Mac fullZ cost.
-Portable-z-build001 staged for unchanged source compile +1200bitwise direct
-upstream checks, forcedcollision/contextchanges.142offline testsPASS25.637s;
-compileall/moment/diffPASS. Prospective manifest published before guardedlaunch.
-120s/3GiB/quiet120. No watcher at staging.
+Portable-z-build001 terminalPASS4.908844s/135364608B.1200bitwise direct-upstream
+Zsf checksPASS incl contextchanges/collisions. All input/manifest/receipt/link
+readbacksPASS. Slab compiles but runtime/fullZ unqualified. Guardedtotal172.350853s.
+142testsPASS25.637s; compileall/momentPASS. One original trailing-space comment
+preserved in slab_z import; staged-diff whitespace warning recorded, not hidden.
+No owner remains. Partialdriver drafted but not staged/qualified yet. It must use
+upstream read_Coulomb retaining BOTH transformed channels; saved gap reader only
+retains pairingnci and cannot supply Z. Partial4x64rows direct-vs-cached at8.05K
+on fresh Mac geometry is next, then measured forecast before fullZ.
 
 New native pilot ceiling4wallhours, prior campaign189.29min accounted separately.
 Hardware rechecked:M5/10cores/32GiB,normalpressure,~151GBfree. Preserve dirty

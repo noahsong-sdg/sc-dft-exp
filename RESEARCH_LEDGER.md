@@ -2302,3 +2302,17 @@ mf/wmf/emin/nci/nmf changes. Slab interface compiles but is not executed.
 Freshportable-z-build001,120s/3GiB/quiet120, no microscopic or retainedstate data.
 142testsPASS25.637s; compileall/momentreplay/diffPASS. CI46039840637PASS on69c0d2b.
 Native equality/build remain unproved until guard terminal and readback.
+
+
+### Source-only Z cache qualification PASS
+
+Portable-z-build001PASS4.908844s/135364608B.1200direct-upstream scalar comparisons
+bitwise equal, including contexts/hits/forcedcollisions. Slab compiles; no slab
+runtime/fullZ qualification yet. All input/manifest/receipt/library/executable
+readbacksPASS. New guardedtotal172.350853s.142testsPASS25.637s; compileall/moment
+PASS. Working-tree diffcheckPASS before staging; stagedcheck flagged one original
+trailing-space comment in byte-preserved slab_z.f90. This imported byte is kept
+explicitly; no clean staged-whitespace claim. CI46040142021 on52ab0f4PASS.
+Source trace: saved_coulomb retains only pairingnci, but Z needs both channels;
+next partial driver uses upstream read_Coulomb and checks complete transformed
+coefficienthash. No reuse of missing renormalization data. No owner remains.

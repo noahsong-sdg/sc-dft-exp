@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/usr/bin/make",
+      "-f",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/z_build.mk",
+      "RESEARCH=/Users/noahs/Developer/sc-dft-exp/research",
+      "QE_ROOT=/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe",
+      "qualify-z"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-build-001",
+    "wall_s": 4.908844249788672,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 135364608,
+    "sampled_peak_group_rss_bytes": 80183296,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 120.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "checks": 1200,
+  "all_checks_bitwise_equal": true,
+  "contexts": [
+    "mf",
+    "wmf live contraction",
+    "emin clamping key",
+    "nci",
+    "nmf",
+    "one-slot collisions and hits"
+  ],
+  "all_declared_inputs_unchanged": true,
+  "public_and_consumed_manifest_equal": true,
+  "all_explicit_link_archives_pinned": true,
+  "historical_objects_used": false,
+  "executable_sha256": "4d0764b4b79dcfc7a464ab0a1a3fd7a70a18f429f1982fbc95f0e89b12b6dab7",
+  "objects": {
+    "zsf_workspace.o": "5986e3f006f10429a68fdbc6aade49a0dfe828d0213e24cf5cdb27ba0c6e38c2",
+    "slab_z.o": "61c1f6d412a2c8719244c9e7121eb77eb7f1c50c26cca8d0c598cb58bbcadfd4",
+    "native_rotation.o": "b98591370fe48885a7c31dfc901702a80ec3a8c26e133165dc6d2ca91881db85",
+    "slab_operator.o": "b4c27ee55f2a9412927a260200850bd0f7747198e8abee67780bb942e4722023"
+  },
+  "full_Z_qualified": false,
+  "slab_runtime_qualified": false,
+  "native_campaign_total_s": 172.35085329118988
+}
