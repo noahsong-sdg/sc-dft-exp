@@ -1,0 +1,158 @@
+{
+  "status": "PASS",
+  "basis_sha256": "9a0925bb7c465240a02dda0be5d021fb2dd9c7e48e09055098c54753fabf1dc9",
+  "reduced_sha256": "bb9a9d7d13dc1b3291765e834bbbb0e6a933715deb374328ec195f64fe80e642",
+  "analysis_source_sha256": "e6f7b7732d9328347f434b62269f52d0c8c0c97bc927e95ae1e10f16a5219af5",
+  "gram_error": 1.554312234475219e-14,
+  "projection_error": 5.684341886080802e-14,
+  "real_modes": [
+    {
+      "index": 1,
+      "eigenvalue": -2.978017343015072,
+      "relative_residual": 1.9018837269604547e-14,
+      "native_channel": 1
+    },
+    {
+      "index": 2,
+      "eigenvalue": 2.978017343015077,
+      "relative_residual": 2.4368137672155144e-13,
+      "native_channel": 0
+    },
+    {
+      "index": 3,
+      "eigenvalue": 1.0018603310720402,
+      "relative_residual": 6.9139582830067785e-09,
+      "native_channel": 1
+    },
+    {
+      "index": 4,
+      "eigenvalue": -1.0018603316721237,
+      "relative_residual": 7.905455909997634e-09,
+      "native_channel": 0
+    },
+    {
+      "index": 5,
+      "eigenvalue": 0.7471975550966172,
+      "relative_residual": 4.121470292208027e-06,
+      "native_channel": -1
+    },
+    {
+      "index": 6,
+      "eigenvalue": -0.7471975934580293,
+      "relative_residual": 1.470276449354396e-07,
+      "native_channel": 0
+    },
+    {
+      "index": 7,
+      "eigenvalue": 0.5059024267834678,
+      "relative_residual": 0.0002573590851054742,
+      "native_channel": -1
+    },
+    {
+      "index": 8,
+      "eigenvalue": 0.5058843691306336,
+      "relative_residual": 0.0011529648009895946,
+      "native_channel": -1
+    },
+    {
+      "index": 11,
+      "eigenvalue": 0.4877316869205424,
+      "relative_residual": 0.0006878670594585869,
+      "native_channel": -1
+    },
+    {
+      "index": 12,
+      "eigenvalue": -0.5058935229111989,
+      "relative_residual": 0.0005826421817195401,
+      "native_channel": -1
+    },
+    {
+      "index": 13,
+      "eigenvalue": -0.5058977419751085,
+      "relative_residual": 0.0005505719772081972,
+      "native_channel": -1
+    },
+    {
+      "index": 14,
+      "eigenvalue": -0.4876818145774204,
+      "relative_residual": 0.0013029502183227854,
+      "native_channel": -1
+    },
+    {
+      "index": 17,
+      "eigenvalue": -0.14879322416706223,
+      "relative_residual": 0.8251367290096926,
+      "native_channel": -1
+    },
+    {
+      "index": 18,
+      "eigenvalue": 0.12867703592418334,
+      "relative_residual": 0.8398405775731271,
+      "native_channel": -1
+    },
+    {
+      "index": 19,
+      "eigenvalue": 0.08943578956511444,
+      "relative_residual": 0.9013528001001059,
+      "native_channel": -1
+    },
+    {
+      "index": 20,
+      "eigenvalue": -0.10171065482737507,
+      "relative_residual": 0.8944255598365877,
+      "native_channel": -1
+    },
+    {
+      "index": 21,
+      "eigenvalue": -0.07920296536326965,
+      "relative_residual": 0.9265650730385169,
+      "native_channel": -1
+    },
+    {
+      "index": 22,
+      "eigenvalue": 0.06327980384544568,
+      "relative_residual": 0.9448008178827554,
+      "native_channel": -1
+    },
+    {
+      "index": 23,
+      "eigenvalue": -0.053600047036981055,
+      "relative_residual": 0.9573575347585604,
+      "native_channel": -1
+    },
+    {
+      "index": 24,
+      "eigenvalue": -0.038602079211336744,
+      "relative_residual": 0.9798684193913583,
+      "native_channel": -1
+    },
+    {
+      "index": 25,
+      "eigenvalue": -0.03494456520819995,
+      "relative_residual": 0.9830377730579918,
+      "native_channel": -1
+    },
+    {
+      "index": 26,
+      "eigenvalue": -0.022835932877971945,
+      "relative_residual": 0.991101814508777,
+      "native_channel": -1
+    },
+    {
+      "index": 31,
+      "eigenvalue": 0.04149129589806162,
+      "relative_residual": 0.9778452911379466,
+      "native_channel": -1
+    },
+    {
+      "index": 32,
+      "eigenvalue": 0.03368774028015763,
+      "relative_residual": 0.9837371206941635,
+      "native_channel": -1
+    }
+  ],
+  "selected_index": 3,
+  "basis_columns": 32,
+  "gap_converged": false,
+  "physical_response_verified": false
+}

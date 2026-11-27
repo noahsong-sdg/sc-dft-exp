@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "restart_sha256": "3f12cc7fd0343c6e596f63faccc1828761764fc8c4d4eabb93960de5294391a2",
+  "basis_sha256": "9a0925bb7c465240a02dda0be5d021fb2dd9c7e48e09055098c54753fabf1dc9",
+  "analysis_sha256": "03d06a641673226804e2e7f4d53dddd2be83b5d59ed6820dafdd5b768b3f7d03",
+  "analysis_source_sha256": "5ab968383dfeaed721c51b36a3044f28f97cf6014f2f0740e125097a914f20e3",
+  "parent_target_eigenvalue": 1.001860326842337,
+  "parent_target_relative_residual": 3.295623755505303e-08,
+  "tracked_mode": {
+    "index": 3,
+    "eigenvalue": 1.0018603310720402,
+    "relative_residual": 6.9139582830067785e-09,
+    "native_channel": 1,
+    "normalized_overlap": 0.9999999999999997
+  },
+  "same_sign_fermi_averages": true,
+  "residual_reduction": 4.766623720604928,
+  "advance_to48": true,
+  "criterion": "Overlap>=0.99, residual reduction>=2, same-sign Fermi averages, lambda>1; independent native/image checks required.",
+  "gap_seed_qualified": false,
+  "physical_response_verified": false
+}

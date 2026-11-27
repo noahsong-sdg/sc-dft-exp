@@ -1316,3 +1316,26 @@ inputs and public/consumed manifest equality PASS. Full-image result complete:
 True. Independent residual/mode check still required
 after012. No automatic continuation beyond012; no gap/response acceptance.
 Unchanged sources/thresholds; last184tests/193compilations/moment PASS.
+
+
+## Third-restart32-vector independent checkpoint
+
+restart-sweep012 terminal PASS; all four segments total842.3867872916162s.
+New guarded total11723.498872417807s (195.39min), historical189.29min separate.
+restarted_basis007 PASS: Gram1.554312234475219e-14, projection5.684341886080802e-14;
+all real full-image Ritz residuals independently recomputed. restart_mode003
+PASS: selected/tracked3 lambda1.0018603310720402, residual6.9139582830067785e-9,
+overlap0.9999999999999997, same-sign Fermi averages, reduction4.766623720604928.
+Seed still fails1e-9 by6.91x. No nonlinear gap/response acceptance.
+Decision: next16vectors to48 via029–032, four600s/3GiB/quiet120 segments.
+Forecast14–16native min from latest14.04min, not bound; remaining44.61min
+in4hpilot. Worst-case40min fits. No automatic extension/retry beyond032.
+Full native/oracle and independent continuity/residual checks required next.
+No cheaper projected-only arithmetic measures these new full images.
+
+Added scalar Q0-gap continuation controls; targeted3tests PASS. Initial finite-Q
+step/roundoff failures and the60-digit exponential oracle are documented in
+Q0_GAP_CONTINUATION_GATE.md. Conditional scalar result, not native material or
+physical-vertex acceptance. Final gate:187offline tests PASS11.842s,194maintained
+Python source compilations PASS, moment_refinement.py exit0, diffcheckPASS.
+No separate typecheck configured. No maintained production/native source changed.
