@@ -2404,3 +2404,16 @@ Oracle import staging note: staged whitespace check flagged the original trailin
 spaces on comment line69 in byte-preserved native_oracle_z.f90. Kept to preserve
 source provenance; no clean staged-whitespace claim for this import. The earlier
 working-tree diff check did not include untracked imports.
+
+
+### Fresh gap-basis source closure recovered
+
+Traced freshgeometry -> fullZ -> linear_weights -> tiledpairimages -> projected
+Rayleigh-Ritz -> reducedcandidate -> fullresidual. Byte-preserved public migration
+of block_linear_operator and tc_subspace removes another historical custom-source
+dependency. Origin/content hashes verified; source-only make dry-runPASS with no
+historicalobjectpaths. Staged whitespace checkPASS. No actual compile/application
+yet; next must measure bounded actual-input operation and uncached oracle before
+forecasting full16-vector setup. See FRESH_BASIS_PLAN.md. Earlier150tests remain
+the last full offline gate; this migration changes no maintained Python source.
+Production001 remains live; most recent row marker9232/66867. No new heavy job.

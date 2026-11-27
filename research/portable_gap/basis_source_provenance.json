@@ -1,0 +1,14 @@
+{
+  "block_linear_operator.f90": {
+    "origin": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/nb-tc-benchmark-v1/scdft/block_linear_operator.f90",
+    "bytes": 3535,
+    "sha256": "716fbc0bd7d14001a18bc3fbf263ac0a3db9cf6582711e664fcb1c01d3650fa4",
+    "arithmetic_changed": false
+  },
+  "tc_subspace.f90": {
+    "origin": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/nb-tc-benchmark-v1/frontier-completeness-v1/tc_subspace.f90",
+    "bytes": 10282,
+    "sha256": "f65161cd947fa2f5dca95e92a670d15b46c9c4082c8127cd4159fb9650849a84",
+    "arithmetic_changed": false
+  }
+}
