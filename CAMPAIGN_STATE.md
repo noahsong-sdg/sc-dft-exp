@@ -456,3 +456,19 @@ Enrichment003 stages32769:49152 from002, samebatchcontext andphysicaloperator;
 32-roworder/600s/3GiB/quiet120 unchanged.250–300s estimate notbound.169offline
 regressions/182Pythoncompilation/moment gates lastPASS; no nativecodechanged.
 PublicCI46057988984 ona121b41PASS. EnlargedRitz/gap/response remainincomplete.
+
+
+## Enrichment003 certified through49152; final004 staged
+
+Enrichment003 terminalPASS193.252430s/988413952B individualpeak (group990134272B).
+Rows32769:49152 took149.504s. Nativebitwise checkpointserialization and independent
+context/counts/beta/shape/finite/allcolumnpadding checksPASS. Public/consumed
+manifests identical; allpostruninputs/16linkedarchivesverified; no historical
+customobjectpath. Guardedtotal3913.167157s. Old8015/session18096 terminal.
+No nativeowner atcertification. Newimagescomplete through49152, notfullbasisyet.
+
+Finalenrichment004 stages49153:66867 (17715rows) from003. Samebatchcontext and
+physicaloperator,600s/3GiB/quiet120. Estimate250–300s includingcoldsetup plus
+finaloracle/Ritz, notbound. Completeonlythen normalize, uncachedoracle, append16
+toold16 for32-dimensionalRitz.169offline/182Pythoncompile/moment gates lastPASS;
+no nativecodechanged. PublicCI46058643704 on5d912cfPASS. Gap/response incomplete.
