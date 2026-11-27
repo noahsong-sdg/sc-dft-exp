@@ -2316,3 +2316,17 @@ explicitly; no clean staged-whitespace claim. CI46040142021 on52ab0f4PASS.
 Source trace: saved_coulomb retains only pairingnci, but Z needs both channels;
 next partial driver uses upstream read_Coulomb and checks complete transformed
 coefficienthash. No reuse of missing renormalization data. No owner remains.
+
+
+### Prospective actual-input partial Z comparison at8.05K
+
+Freshportable-z-partial001 stages source compile, upstream fulltwochannel
+Coulomb read with complete coefficienthash, strict freshMacinitialization check,
+then four64leftrow blocks/allrightstates. Run uncached upstream Zsf then cached
+Zsf in identical accumulation order; require finite and bitwiseequal saved arrays.
+17,392,640pairs/arm, not fullZ or Fermiaverage. Publicprefix_operator migrated
+byte-for-byte. Bound300s/3GiB/quiet120; forecast covers initialization plus both
+arms, current timing required before fullZforecast. No retainedZ consumed.
+143testsPASS26.739s; compileall/moment/diffchecksPASS; newimport stagedwhitespace
+checksPASS (earlier slab_z byte-preserved warning remains historical).
+CI46040584163PASS on4af9389. No watcher exists at staging.

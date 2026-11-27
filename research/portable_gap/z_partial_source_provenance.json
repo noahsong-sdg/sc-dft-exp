@@ -1,0 +1,5 @@
+{
+  "source": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/z-reuse-capacity-v1/prefix_operator.f90",
+  "sha256": "f53f9e7bb9a18a4d158ec0cbd8314e72b8b24cbb6f9e7ab5f4ae37e6448fa129",
+  "migration": "byte-for-byte bounded left interval; native pair expressions retained"
+}

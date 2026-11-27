@@ -67,6 +67,10 @@ No owner remains. Partialdriver drafted but not staged/qualified yet. It must us
 upstream read_Coulomb retaining BOTH transformed channels; saved gap reader only
 retains pairingnci and cannot supply Z. Partial4x64rows direct-vs-cached at8.05K
 on fresh Mac geometry is next, then measured forecast before fullZ.
+Portable-z-partial001 now staged: both transformedchannels, exactfreshcontext,
+4x64leftrows/allrightstates in direct/cached arms at8.05K, bitwisearraygate.
+143testsPASS26.739s; compileall/moment/diffPASS. Public prospective manifest before
+launch;300s/3GiB/quiet120. No watcher exists at staging.
 
 New native pilot ceiling4wallhours, prior campaign189.29min accounted separately.
 Hardware rechecked:M5/10cores/32GiB,normalpressure,~151GBfree. Preserve dirty
