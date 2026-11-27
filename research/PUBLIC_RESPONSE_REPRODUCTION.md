@@ -155,3 +155,28 @@ and tetrahedron arithmetic changes are deliberately not imported. Native output
 comparison must establish whether the response-only calculation agrees.
 Attempt004 starts from another fresh extraction, with its own manifest and guard;
 no scientific acceptance or numerical tolerance has changed.
+
+
+## Historical protocol identities versus a fresh reproduction
+
+A native manifest freezes consumed source scripts as well as scientific inputs.
+Later additions such as explicit64-grid selection deliberately change script
+hashes. Do not edit an old manifest's hashes to make a current-tree verification
+pass. The original32/48indexed and fourth-order result protocols can be
+inspected at commitada2ff0, before the explicit64extension. The extension is
+52da06a; explicit indexed/fourth geometry composition is8f4bb52. File hashes,
+not a nearby commit label alone, are authoritative for consumed identities.
+
+Historical receipts contain this machine's absolute paths. They are evidence of
+the recorded run, not a portable authorization to execute elsewhere. For a fresh
+reproduction, retrieve pinned public inputs, build/stage a new directory with the
+selected source revision and current machine paths, freeze new prospective
+identities, execute under the resource gate, and compare scientific exports.
+Keep the historical receipt and the new reproduction distinct. A fresh result
+can reproduce the mathematics without pretending it is the original execution.
+
+The retained reduced-gap basis has an additional boundary: its parent setup
+trace is historical and the original64-column parent payload is absent. The
+compressed solve is not a complete public cold-start reproduction even if a
+full residual later passes. Public response-input reproduction and retained-basis
+stationarity are separate evidence chains.
