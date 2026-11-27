@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "temperature_kelvin": 2,
+      "second64": 0.008736116053270538,
+      "fourth64": 0.008906227812731963,
+      "stencil_difference64": 0.00017011175946142487,
+      "stencil_difference48": 0.0003416579337411352,
+      "difference_ratio64_over48": 0.4979008027084595,
+      "conditional_prediction64": 0.00019218258772938854,
+      "conditional_prediction_relative_discrepancy": -0.11484301740718317,
+      "fourth_vs_second64_fraction": 0.019472241259631637
+    },
+    {
+      "temperature_kelvin": 4,
+      "second64": 0.008122379554816069,
+      "fourth64": 0.008280540942707098,
+      "stencil_difference64": 0.00015816138789102874,
+      "stencil_difference48": 0.0003176603878918341,
+      "difference_ratio64_over48": 0.4978945878038906,
+      "conditional_prediction64": 0.00017868396818915668,
+      "conditional_prediction_relative_discrepancy": -0.11485406612641669,
+      "fourth_vs_second64_fraction": 0.01947229710500894
+    },
+    {
+      "temperature_kelvin": 8,
+      "second64": 0.005072323500906084,
+      "fourth64": 0.005171094749647874,
+      "stencil_difference64": 9.877124874179029e-05,
+      "stencil_difference48": 0.00019838528951459863,
+      "difference_ratio64_over48": 0.4978758706528086,
+      "conditional_prediction64": 0.00011159172535196173,
+      "conditional_prediction_relative_discrepancy": -0.11488734106167364,
+      "fourth_vs_second64_fraction": 0.019472584649647542
+    }
+  ],
+  "dos_curvature_and_energy_axes_bitwise_equal": true,
+  "continuum_error_bounded": false,
+  "physical_response_verified": false,
+  "sha256": {
+    "research/stencil64_control_plan.json": "60da1c36cf8c7ec835542079f9e1142a036fbe2cbcebb61dd8b1ee062d465167",
+    "research/public_indexed_second_response64_result.json": "e69cfeaec506fd08352e191cbe20921f1cfa4f518c5723ece5704b3bfc1e2297",
+    "research/public_indexed_fourth_response64_result.json": "5b9c67a984af7bc82a014732b3e111e390892ec3aca286537c649754863527b1",
+    "/Users/noahs/Developer/sc-dft-exp/research/stencil_control_analysis.py": "4b0c09d50a4c8303261168410436333b985a53ea57688a0a9fa783117dbe9e32",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/velocity-moments.txt": "9e4a51fb24e8e45cc7afa6d157de08a79a4cf733e82d7ddd5a4bd612f9461b9d",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/cell-moments-raw.txt": "f2e3ce38fd936ae1884f2eba41f64b798a486cadd2344ee4c4bc9a9217b2f828",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/cell-moments-raw.bin": "028389fa4b3de1ceb3cd7d58e2d7d7122d1e989a7385c4bd09e7f2f23892db0d",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/cell-moments-averaged.txt": "a5c393b7035bd024d11d3a0ebff520554819f8c2f47339b3cd275771be49dd0d",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/cell-moments-averaged.bin": "4738f2b77f80abe45ae570378dd33b3be467bba0aa9cb909e025402937139290",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-fourth-response64-001/velocity-moments.txt": "7c1b9cfdf2c837f1a9b2c9f7f3ffd488bfb4462e20eddc27a84ea578d666bfa9",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-fourth-response64-001/cell-moments-raw.txt": "f2e3ce38fd936ae1884f2eba41f64b798a486cadd2344ee4c4bc9a9217b2f828",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-fourth-response64-001/cell-moments-raw.bin": "8585bc6a9d123be19ff16e9070ce0d476a29645dc4fa3b9dc2c8e6f59e0e9cb8",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-fourth-response64-001/cell-moments-averaged.txt": "a5c393b7035bd024d11d3a0ebff520554819f8c2f47339b3cd275771be49dd0d",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-fourth-response64-001/cell-moments-averaged.bin": "178a8e13858be41c0b5ed78291c1f0c1f5cbfade7e06db973ea7b6e22983e3a9"
+  },
+  "scope": "Read a prospectively registered same-band64 stencil control; no accuracy bound."
+}

@@ -40,6 +40,15 @@ class RefinedResponseStagingTest(unittest.TestCase):
                 self.assertEqual(result64['grid'],[64]*3)
                 self.assertEqual(result64['guard_seconds'],900)
                 checker.assert_called_once_with(bands,serialized,grid=64)
+            with patch('stage_refined_response.check_serialization',return_value=checked) as checker:
+                result32=stage(build,inputs,bands,band_manifest,root/'serialized32',manifest,
+                    serialization_manifest=serialized,grid=32)
+                self.assertEqual(result32['grid'],[32]*3)
+                self.assertEqual(result32['guard_seconds'],120)
+                checker.assert_called_once_with(bands,serialized,grid=32)
+            with self.assertRaisesRegex(ValueError,'serialization'):
+                stage(build,inputs,bands,band_manifest,root/'unqualified32',manifest,grid=32)
+            self.assertFalse((root/'unqualified32').exists())
             with self.assertRaisesRegex(ValueError,'serialization'):
                 stage(build,inputs,bands,band_manifest,root/'unqualified64',manifest,grid=64)
             self.assertFalse((root/'unqualified64').exists())

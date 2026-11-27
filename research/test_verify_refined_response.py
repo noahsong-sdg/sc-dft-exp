@@ -52,6 +52,12 @@ import verify_refined_response
                 self.assertTrue(verify(root,path,guard_seconds=900,grid=64)['diagnostic_readback_pass'])
                 with self.assertRaises(ValueError):
                     verify(root,path,guard_seconds=900)
+                manifest['grid']=[32]*3;manifest['guard_seconds']=120
+                path.write_text(json.dumps(manifest));terminal['continuous_deadline_s']=120
+                receipt.write_text(json.dumps(terminal));controls['dimensions'][3]=32**3
+                self.assertTrue(verify(root,path,guard_seconds=120,grid=32)['diagnostic_readback_pass'])
+                with self.assertRaisesRegex(ValueError,'declared refined-response'):
+                    verify(root,path,guard_seconds=900,grid=32)
                 manifest['grid']=[48]*3
                 controls['dimensions'][3]=48**3
                 manifest['guard_seconds']=240;path.write_text(json.dumps(manifest))

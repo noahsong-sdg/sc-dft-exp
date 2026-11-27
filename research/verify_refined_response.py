@@ -1,4 +1,4 @@
-"""Read back a declared48/64cubed imposed-gap response, without claiming convergence."""
+"""Read back a declared32/48/64cubed imposed-gap response, without claiming convergence."""
 import argparse
 import json
 from pathlib import Path
@@ -13,7 +13,9 @@ from public_band_pilot_analysis import verify_postrun_inputs
 def verify(directory, manifest_path, guard_seconds=240,grid=48):
     root=Path(directory).absolute();manifest_path=Path(manifest_path).absolute()
     manifest=json.loads(manifest_path.read_text())
-    if (grid not in (48,64) or guard_seconds not in (240,900) or manifest['cwd']!=str(root) or manifest['grid']!=[grid]*3
+    deadlines={32:(120,),48:(240,900),64:(900,)}
+    if (grid not in deadlines or guard_seconds not in deadlines.get(grid,())
+            or manifest['cwd']!=str(root) or manifest['grid']!=[grid]*3
             or manifest['response_cell_grid']!=8 or manifest['guard_seconds']!=guard_seconds):
         raise ValueError('Changed declared refined-response protocol')
     if json.loads((root/'run-manifest.json').read_text())!=manifest:
@@ -44,7 +46,7 @@ def verify(directory, manifest_path, guard_seconds=240,grid=48):
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('directory',type=Path);parser.add_argument('manifest_path',type=Path)
-    parser.add_argument('--guard-seconds',type=int,default=240,choices=(240,900),
+    parser.add_argument('--guard-seconds',type=int,default=240,choices=(120,240,900),
                         help='Explicit prospective protocol deadline; no automatic retry')
-    parser.add_argument('--grid',type=int,choices=(48,64),default=48)
+    parser.add_argument('--grid',type=int,choices=(32,48,64),default=48)
     print(json.dumps(verify(**vars(parser.parse_args())),indent=2,allow_nan=False))

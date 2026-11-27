@@ -16,6 +16,9 @@ class BandSerializationTest(unittest.TestCase):
     def test_explicit64_writer_and_readback(self):
         self.check_grid(64)
 
+    def test_explicit32_writer_and_readback(self):
+        self.check_grid(32)
+
     def check_grid(self, grid):
         with tempfile.TemporaryDirectory() as folder:
             root=Path(folder).resolve();bands=root/'bands';save=bands/'scratch/pwscf.save';save.mkdir(parents=True)
@@ -30,12 +33,12 @@ class BandSerializationTest(unittest.TestCase):
             parent_manifest.write_text(json.dumps(dict(cwd=str(bands),grid=[grid]*3,command=command,
                 files=[dict(path=str(save/'charge-density.dat'),bytes=8,sha256=digest(save/'charge-density.dat'))])))
             receipt=bands/'results/bands/receipt.json';receipt.parent.mkdir(parents=True)
-            receipt.write_text(json.dumps(dict(status='FAIL',error='failed',exit=1,command=command,cwd=str(bands),continuous_deadline_s=1200 if grid==48 else 1800)))
+            receipt.write_text(json.dumps(dict(status='FAIL',error='failed',exit=1,command=command,cwd=str(bands),continuous_deadline_s={32:600,48:1200,64:1800}[grid])))
             exe=root/'source.x';exe.write_text('serializer')
             with self.assertRaisesRegex(ValueError,'did not pass'):
                 stage(exe,bands,parent_manifest,root/'failed',grid=grid)
             self.assertFalse((root/'failed').exists())
-            receipt.write_text(json.dumps(dict(status='PASS',error=None,exit=0,command=command,cwd=str(bands),continuous_deadline_s=1200 if grid==48 else 1800)))
+            receipt.write_text(json.dumps(dict(status='PASS',error=None,exit=0,command=command,cwd=str(bands),continuous_deadline_s={32:600,48:1200,64:1800}[grid])))
             run=root/'serialization';manifest=stage(exe,bands,parent_manifest,run,grid=grid)
             terminal=run/'results/serialize/receipt.json';terminal.parent.mkdir(parents=True)
             terminal.write_text(json.dumps(dict(status='PASS',error=None,exit=0,command=manifest['command'],cwd=str(run),continuous_deadline_s=120)))
@@ -44,7 +47,7 @@ class BandSerializationTest(unittest.TestCase):
             output=run/'scratch/pwscf.a2Fsave';output.write_text(text)
             result=verify(run,run/'run-manifest.json',grid=grid)
             self.assertTrue(result['shared_point_and_serialization_targets_met'])
-            if grid==64:
+            if grid!=48:
                 with self.assertRaisesRegex(ValueError,'Changed declared'):
                     verify(run,run/'run-manifest.json')
                 with self.assertRaisesRegex(ValueError,'Expected declared48'):

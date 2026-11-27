@@ -1,4 +1,4 @@
-"""Stage declared48/64cubed fixed-density XML bands; serialize separately."""
+"""Stage declared32/48/64cubed fixed-density XML bands; serialize separately."""
 import argparse
 import json
 from pathlib import Path
@@ -9,8 +9,8 @@ from stage_public_dense_bands import dense_reference
 
 
 def stage(build, inputs, destination, manifest_path=RESEARCH/'public_response_inputs.json',grid=48):
-    if grid not in (48,64):
-        raise ValueError('Only declared48/64cubed band protocols are supported')
+    if grid not in (32,48,64):
+        raise ValueError('Only declared32/48/64cubed band protocols are supported')
     build,inputs,root=[Path(p).absolute() for p in (build,inputs,destination)]
     built=json.loads((build/'build-result.json').read_text())
     if built.get('point_capacity',40000)<grid**3:
@@ -37,7 +37,7 @@ def stage(build, inputs, destination, manifest_path=RESEARCH/'public_response_in
     for path in (build/'build-result.json',Path(__file__),RESEARCH/'stage_public_dense_bands.py'):
         result['files'].append(dict(path=str(path),bytes=path.stat().st_size,sha256=digest(path)))
     result.pop('points')
-    result.update(grid=[grid]*3,guard_seconds=1200 if grid==48 else 1800,minimum_common_reference_points=100,
+    result.update(grid=[grid]*3,guard_seconds={32:600,48:1200,64:1800}[grid],minimum_common_reference_points=100,
                   scope=__doc__.strip()+' Derivative-grid experiment; physical response qualification remains separate.')
     (root/'run-manifest.json').write_text(json.dumps(result,indent=2)+'\n')
     return result
@@ -47,5 +47,5 @@ if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     for name in ('build','inputs','destination'):
         parser.add_argument(name,type=Path)
-    parser.add_argument('--grid',type=int,choices=(48,64),default=48)
+    parser.add_argument('--grid',type=int,choices=(32,48,64),default=48)
     print(json.dumps(stage(**vars(parser.parse_args())),indent=2))

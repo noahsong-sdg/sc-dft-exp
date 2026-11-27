@@ -54,13 +54,10 @@ postprocessing entry point is not established by this trace.
 
 [campaign_native_resource_accounting.json](campaign_native_resource_accounting.json)
 snapshots terminal native guard receipts, including prelaunch and failed attempts.
-Recompute with `python3 research/resource_accounting.py`. Snapshot as of
-2026-11-27T13:50:29.721170+00:00 records71 terminal guarded attempts,
-9979.667s (166.33min):
-8924.429s in55 guard-PASS attempts and
-1055.237s in16 failures. The live64-grid band
-run is excluded until terminal. Guard-PASS is process acceptance, not scientific
-acceptance; rank38 separately passes both registered stationary residuals.
+Recompute with `python3 research/resource_accounting.py`. Latest committed terminal snapshot records75guarded attempts and11065.181s
+(184.42min). The fourth-order64response is included; the prospective second-order
+64control is excluded until terminal. Guard-PASS is process acceptance, not
+scientific acceptance. Rank38 separately passes stationary-residual targets.
 
 This includes guarded build/download work and failed attempts. It excludes
 launch-watch waiting, unguarded compilation/acquisition/analysis, and model use.
@@ -115,3 +112,7 @@ Combined indexed/fourth48response:83.878123s, all eight exports bitwise equal
 to the227.040529s original fourth48baseline. Observed single-pair ratio2.70679x;
 relink2.545802s is separate. These timings do not include cold microscopic input
 generation or establish a statistical speedup. Refresh JSON for full attempt costs.
+
+Fourth64response:173.621s/881MB, serializer1.473s. Registered comparison
+contracts the absolute step but reverses its sign at all temperatures. This
+provides a negative control on monotone extrapolation, not a physical prediction.

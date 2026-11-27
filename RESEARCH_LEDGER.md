@@ -2069,3 +2069,21 @@ D=F4−F2; conditional h²prediction D64=.5625D48 is frozen, without a tuned
 acceptance tolerance. DOS/curvature must be unchanged for stencil attribution.
 Forecast180s,guard900s/3GiB,120normal seconds,oneowner; initial4hbudgetfits.
 Then the separatelyregistered automatic32control isolates band regeneration.
+
+
+## Same-band64stencil control PASS; explicit32reconstruction staged
+
+Second64native172.032562s/925024256B PASS. StrictreadbackPASS. DOS/curvature/
+energy axes bitwise equal across stencils, raw and averaged. D64/D48≈.4979;
+frozenleadingh²prediction.5625missesby−11.5%;fourth/secondresponse≈+1.947%.
+No fitted exponent or accuracy bound. stencil64_control_result.json owns results.
+
+The registered same-grid32control was blocked by explicit48/64-only protocol
+selection. Smallest coherent extension adds32to band staging, owning serializer,
+response staging/readback, with600/120/120s guards and unchanged48defaults.
+32requires explicitserializationprovenance; no metadata guessing/fallback.
+Tests cover32grid/deadline,wrongdefaults,changedenergies/weights,parentandinput
+identities;134suitePASS9.470s,compileall/momentreplay/diffcheckPASS.
+Old manifests remain unchanged; pre-extension64readbackcompleted first.
+Fresh32root public-band-regenerated32-001 staged. Forecast100s,guard600s,
+120normal seconds,oneowner,initial4hbudgetfits. Thenserialize/responsecontrols.

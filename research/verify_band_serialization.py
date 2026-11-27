@@ -13,7 +13,7 @@ from stage_public_band_pilot import numbers
 def verify(directory, manifest_path,grid=48):
     root=Path(directory).absolute();manifest_path=Path(manifest_path).absolute()
     manifest=json.loads(manifest_path.read_text())
-    if (grid not in (48,64) or manifest['cwd']!=str(root) or manifest['grid']!=[grid]*3
+    if (grid not in (32,48,64) or manifest['cwd']!=str(root) or manifest['grid']!=[grid]*3
             or manifest['minimum_common_reference_points']!=100
             or manifest['acceptance_max_eigenvalue_difference_ry']!=1e-6):
         raise ValueError('Changed declared serialization protocol')
@@ -25,7 +25,7 @@ def verify(directory, manifest_path,grid=48):
     if (original!=manifest['original_band_receipt'] or original.get('status')!='PASS'
             or original.get('error') is not None or original.get('exit')!=0
             or original['command']!=parent['command'] or original['cwd']!=parent['cwd']
-            or original['continuous_deadline_s']!=(1200 if grid==48 else 1800)):
+            or original['continuous_deadline_s']!=({32:600,48:1200,64:1800}[grid])):
         raise ValueError('Changed parent native band provenance')
     receipt_path=root/'results/serialize/receipt.json';receipt=json.loads(receipt_path.read_text())
     if (receipt.get('status')!='PASS' or receipt.get('error') is not None or receipt.get('exit')!=0
@@ -61,5 +61,5 @@ def verify(directory, manifest_path,grid=48):
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('directory',type=Path);parser.add_argument('manifest_path',type=Path)
-    parser.add_argument('--grid',type=int,choices=(48,64),default=48)
+    parser.add_argument('--grid',type=int,choices=(32,48,64),default=48)
     print(json.dumps(verify(**vars(parser.parse_args())),indent=2,allow_nan=False))

@@ -1,4 +1,4 @@
-# Current campaign state — 2026-11-27 14:24 UTC
+# Current campaign state — 2026-11-27 14:32 UTC
 
 Read this first; then PROJECT_SPEC.md, the scientific report and the relevant
 prospective manifest. The ledger is chronological history. Recheck processes
@@ -12,8 +12,8 @@ noahsong-sdg/sc-dft-exp; primary checkout /Users/noahs/Developer/sc-dft-exp.
 Preserve the dirty flux-pinning checkout. No outreach, paid compute or subagents.
 One heavy native job or waiting watcher at a time; 120 continuous normal-pressure
 seconds and all input hashes rechecked before launch; 3 GiB process-group cap.
-Initial native ceiling: 4 wall-hours. Latest terminal accounting: 11065.181 s across
-75 attempts (184.42 min); no native run currently active. Energy/model money unmeasured.
+Initial native ceiling: 4 wall-hours. Latest terminal accounting: 11237.213 s across
+76 attempts (187.29 min); no native run currently active. Energy/model money unmeasured.
 
 ## Verified scientific state
 
@@ -36,13 +36,17 @@ contracts in absolute step at all three temperatures, but reverses direction:
 continuation predictions miss this reversal. No continuum error bound follows.
 See `research/third_grid_comparison_result.json` and `research/figures/third_grid.png`.
 
-All previous owners are terminal. Next fresh root is
-`research/raw/public-indexed-second-response64-001`; its prospective manifest and
-`research/stencil64_control_plan.json` pin an identical-band second-order control.
-Launch only one guard (900 s, 120 normal seconds). This isolates velocity-stencil
-sensitivity, with unchanged curvature/DOS checked separately. After strict terminal
-readback, execute `research/regenerated32_control_plan.json` to isolate same-grid
-input regeneration. Do not change consumed64protocolcode before second64readback.
+Second64control is terminal PASS172.033s/925MB. Same-band DOS/curvature/energy
+axes are bitwise equal; F4/F2−1≈1.947% at allT. Absolute stencil difference
+D64/D48≈.4979 versus the frozen .5625 prediction (−11.5% discrepancy).
+This is a controlled stencil effect, not a continuum-error estimate.
+
+All prior native owners are terminal. Next root is
+`research/raw/public-band-regenerated32-001`, guard600s after120normal seconds.
+The explicit32extension is tested:134offline testsPASS9.470s, compileall/moment
+replay/diffcheckPASS. Automatic32bands then owning serialization and response
+will execute the registered input-regeneration control. No queued second watcher.
+Historical64protocols pin pre-extension code; retain their original manifests.
 
 ## Remaining completion work
 

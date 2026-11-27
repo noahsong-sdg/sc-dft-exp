@@ -214,3 +214,15 @@ Changed data, changed result, wrong parent, incomplete evidence and ambiguous
 verification-route fixtures reject.131offline testsPASS10.589s; maintained-source
 compilation, moment-refinement replay and diff checksPASS. Native combined48
 qualification remains pending while the sole64band job runs.
+
+
+## Later qualified controls
+
+Combined indexed/fourth48qualification passes all eight exports bitwise in83.878s.
+Fourth64and second64pass strict native readback in173.621s and172.033s. The
+third-grid trend reverses, and same-band stencil differences remain about1.95%.
+See `third_grid_comparison_result.json` and `stencil64_control_result.json`.
+The subsequent explicit32extension changes owning script hashes again. Historical
+64protocols were read back before that extension; do not rewrite their identities.
+Fresh automatic32reproduction uses `--grid 32` throughout, bandguard600,
+serializationguard120and responseguard120. Default48behavior is preserved.

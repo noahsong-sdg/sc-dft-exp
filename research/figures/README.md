@@ -68,3 +68,13 @@ reduces from about5.52% to0.68%. Connecting lines guide the eye; there are no
 statistical error bars or continuum-error bounds. The gap is imposed1.5meV,
 density and512response cells fixed; full-symmetry tiny-Q remains a diagnostic.
 The PNG was visually inspected for labels, scales and clipping.
+
+
+## Held-out third electronic grid
+
+`third_grid.png`/`.pdf` come from `plot_third_grid.py`, which checks the frozen
+comparison source hashes. `third_grid_sources.json` binds the sources and script.
+The fourth-order32→48increase reverses at64; the absolute step shrinks. The
+left panel is normalized to48, and the right shows absolute percentage changes.
+No continuum error bar or physical penetration depth is implied. The PNG was
+visually inspected for labels, scales and clipping.

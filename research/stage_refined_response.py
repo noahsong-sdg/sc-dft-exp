@@ -1,4 +1,4 @@
-"""Stage a declared48/64cubed response diagnostic with derived band data."""
+"""Stage a declared32/48/64cubed response diagnostic with derived band data."""
 import argparse
 import json
 from pathlib import Path
@@ -14,8 +14,8 @@ from qualified_band_artifact import check as check_qualified
 def stage(build, inputs, bands, band_manifest, destination,
           manifest_path=RESEARCH/'public_response_inputs.json', serialization_manifest=None,grid=48,
           qualified_band_result=None,qualified_band_result_sha256=None):
-    if grid not in (48,64) or (grid==64 and serialization_manifest is None):
-        raise ValueError('Declared64cubed response requires explicit serialization provenance')
+    if grid not in (32,48,64) or (grid!=48 and serialization_manifest is None):
+        raise ValueError('Declared32/64cubed response requires explicit serialization provenance')
     if ((qualified_band_result is None)!=(qualified_band_result_sha256 is None)
             or (qualified_band_result is not None and (serialization_manifest is not None or grid!=48))):
         raise ValueError('Explicit48 qualification result/hash pair requires its own reuse route')
@@ -76,7 +76,7 @@ def stage(build, inputs, bands, band_manifest, destination,
                 result['files'].append(dict(path=str(path),bytes=path.stat().st_size,sha256=expected_hash))
         path=RESEARCH/'qualified_band_artifact.py'
         result['files'].append(dict(path=str(path),bytes=path.stat().st_size,sha256=digest(path)))
-    result.update(grid=[grid]*3,response_cell_grid=8,guard_seconds=240 if grid==48 else 900,
+    result.update(grid=[grid]*3,response_cell_grid=8,guard_seconds={32:120,48:240,64:900}[grid],
                   derived_inputs={'pwscf.a2Fsave':dict(source=str(derived),sha256=expected,
                     original_public_sha256=catalog['pwscf.a2Fsave']['sha256'],
                     provenance=f'Generated fixed-density{grid}cubed bands, not an author-hosted original')},
@@ -93,5 +93,5 @@ if __name__=='__main__':
     parser.add_argument('--serialization-manifest',type=Path,help='Explicit separately verified QE serialization protocol')
     parser.add_argument('--qualified-band-result',type=Path,help='Explicit prior48 serialization qualification')
     parser.add_argument('--qualified-band-result-sha256',help='Published SHA256 of that prior qualification')
-    parser.add_argument('--grid',type=int,choices=(48,64),default=48)
+    parser.add_argument('--grid',type=int,choices=(32,48,64),default=48)
     print(json.dumps(stage(**vars(parser.parse_args())),indent=2))

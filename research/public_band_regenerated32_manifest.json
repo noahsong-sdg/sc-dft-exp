@@ -1,0 +1,124 @@
+{
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/pwscf.save/data-file-schema.xml",
+      "bytes": 1922580,
+      "sha256": "8576d6aae7a680916ab64bd21fed3ed0f4354f420f4ac2ea681fd3595e540bac"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/pwscf.save/charge-density.dat",
+      "bytes": 331888,
+      "sha256": "1eb9af07995d970ae1c5ea73ce7a0ac83a54a7987d667509efb9204672289205"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/pwscf.save/paw.txt",
+      "bytes": 3755,
+      "sha256": "0c7aa84653216c5ecac06f052f9c46c1a6b37a36ade321e3354335afbe2d2706"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/pwscf.save/Nb.pbe-spn-kjpaw_psl.0.3.0.UPF",
+      "bytes": 2052531,
+      "sha256": "ccf07218ea34daaa63ff57d9f44ca8b4b529728cccbc8f74dd5fc804ac01e48e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-regenerated32-001/scratch/pwscf.save/data-file-schema.xml",
+      "bytes": 1922580,
+      "sha256": "8576d6aae7a680916ab64bd21fed3ed0f4354f420f4ac2ea681fd3595e540bac",
+      "rewritten_by_native": true
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-regenerated32-001/scratch/pwscf.save/charge-density.dat",
+      "bytes": 331888,
+      "sha256": "1eb9af07995d970ae1c5ea73ce7a0ac83a54a7987d667509efb9204672289205"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-regenerated32-001/scratch/pwscf.save/paw.txt",
+      "bytes": 3755,
+      "sha256": "0c7aa84653216c5ecac06f052f9c46c1a6b37a36ade321e3354335afbe2d2706"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-regenerated32-001/scratch/pwscf.save/Nb.pbe-spn-kjpaw_psl.0.3.0.UPF",
+      "bytes": 2052531,
+      "sha256": "ccf07218ea34daaa63ff57d9f44ca8b4b529728cccbc8f74dd5fc804ac01e48e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-regenerated32-001/pw.x",
+      "bytes": 9229016,
+      "sha256": "eaa55a9c406050f9953ed2b98bb0b57dc588b9b3ebabf39db3cf7ebc84d26b86"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-regenerated32-001/native.in",
+      "bytes": 770,
+      "sha256": "0117f0344779af6159145cdbb18d2121079dbc0117f9feb8244e1d039a3c739e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-regenerated32-001/reference.json",
+      "bytes": 712998,
+      "sha256": "d4205fae604591bcccb6df0e5654787f7fbb7415de7e54b94eb12628d516ea11"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_response_inputs.json",
+      "bytes": 8886,
+      "sha256": "31cbcbef74f3f2f4a2c9432253a1a68214d2ecd9476926c759cb77563bac6687"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/stage_public_band_pilot.py",
+      "bytes": 6383,
+      "sha256": "06f6f840be23ef992dff0a0fc6f4a21ada9288eb74f4d6f9751124a32ca1014c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/pwscf.a2Fsave",
+      "bytes": 500838,
+      "sha256": "e331b8c2e7d9e55c6efa158d37ee6ef2e51301c5ffc67e0f2b11527738ee8a90"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-capacity-build-001/build/build-result.json",
+      "bytes": 4765,
+      "sha256": "8f88781ae07559bc140d9fd70bdf0130e1d3c3a69a82db0ef6c213a0b53fbb8c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/stage_public_band_grid.py",
+      "bytes": 2897,
+      "sha256": "6d5e77da4c218098a959d45a8b95a98ff430705dd2bf2043046e1d5ca5994ed9"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/stage_public_dense_bands.py",
+      "bytes": 3094,
+      "sha256": "08c33a21f6677f80c2f4483f3a721f1dd639c5ed6c53f876cec9ef4f874624a3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/regenerated32_control_plan.json",
+      "bytes": 1718,
+      "sha256": "a55ad8b902fac9a365c6c1a24c38680a0eff1a36602f44393d16ed22b4381eff"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/macos_native_guard.py",
+      "bytes": 8195,
+      "sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+    }
+  ],
+  "command": [
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-regenerated32-001/pw.x",
+    "-in",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-regenerated32-001/native.in"
+  ],
+  "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-regenerated32-001",
+  "environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "source_executable_sha256": "eaa55a9c406050f9953ed2b98bb0b57dc588b9b3ebabf39db3cf7ebc84d26b86",
+  "acceptance_max_eigenvalue_difference_ry": 1e-06,
+  "guard_seconds": 600,
+  "scope": "Stage declared32/48/64cubed fixed-density XML bands; serialize separately. Derivative-grid experiment; physical response qualification remains separate.",
+  "grid": [
+    32,
+    32,
+    32
+  ],
+  "minimum_common_reference_points": 100,
+  "source_revision": "fa0aa59 plus tested explicit32extension",
+  "launch_normal_seconds": 120,
+  "rss_cap_bytes": 3221225472,
+  "decision": "Prospectively registered same-grid regeneration control. Forecast100s/120MB;guard600s. Oneowner; within original4nativewallhours; no hand-edited mesh serialization."
+}
