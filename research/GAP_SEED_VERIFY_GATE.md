@@ -25,6 +25,16 @@ truncated/nonfinite payload, nonzero padding and zero/negative Fermi gaps.
 The boundschecked native target builds; it has not validated a material seed.
 Default selected and full targets also build after this integration change.
 
+`verify_gap_candidate.py DIRECTORY MANIFEST` performs the terminal readback.
+It binds runtime inputs to their prospective hashes, requires a passing receipt
+with the declared executable and working directory, and runs the full-map
+binary/summary, tile-sum and Jacobian checks. It then compares the persisted
+input-vector prefix bitwise with the declared seed and computes both residual
+targets. A numerically unsuccessful candidate is a valid reported result,
+not an execution failure. Conditioning and physical-response flags remain false
+even when both stationary-residual targets pass. The regression fixture covers
+both numerical outcomes, a changed evaluated vector and failed/stale receipts.
+
 ## Prospective numerical gate
 
 Require terminal guard PASS, strict full result readback and bitwise equality

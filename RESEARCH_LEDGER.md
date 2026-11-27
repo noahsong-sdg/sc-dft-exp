@@ -1,5 +1,24 @@
 # Research restart ledger
 
+## Latest priority — full candidate validation live; terminal verifier qualified
+
+Native PID1480 / owner54858 verified live at elapsed03:58,882864KiB RSS;
+progress14368/66867 rows. Keep the same owner; no duplicate launch. The full
+candidate result is still unknown. CI45973773590 terminal SUCCESS.
+
+New verify_gap_candidate.py binds prospective runtime hashes, terminal receipt,
+exact persisted input vector and full native diagnostic controls, then reports
+both declared stationary-residual targets separately from conditioning and
+physical-response qualification. Regression covers passing/failing residuals,
+changed evaluated vector and stale/failed receipt. All66 local tests PASS
+(11.218s), compileall and git diff --check PASS. Prior native loader/default/full
+build evidence remains unchanged; this change adds Python readback only.
+
+Next: poll54858 to terminal, run this reader with
+research/raw/verify-reduced-gap-001 and research/verify_reduced_gap_manifest.json,
+then publish actual result/receipt and reassess enrichment or response gates.
+Goal remains active; ceiling2026-11-27T17:41Z.
+
 ## Latest priority — reduced candidate PASS; full native validation waiting
 
 Owner40004 TERMINAL PASS1.071587s,113115136-byte individual peak RSS (group
