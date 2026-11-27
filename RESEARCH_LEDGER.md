@@ -19,6 +19,10 @@ The pre-readback hypothesis is public grid_stencil_hypothesis.json/d19ee32:
 if velocity error leads, the fourth-order32/48 spread should be smaller than5.52%
 at each temperature. No prediction of physical accuracy or continuum bound.
 Do not edit pinned verifier or public_fourth_response32_result.json while active.
+A bounded read-only sampling observer session66419 watches this same48owner,
+then samples at10ms until child exit or900s; it launches no computation. Poll
+that handle after native terminal. Profile state/output stay under this run root.
+Its timing includes uncalibrated sampling overhead; no pristine speedup claim.
 
 Full-run sampled evidence:3278main-thread samples,2865inside read_a2fsave;
 1778Fermi tetra weights,1087tetra initialization;291across bothcalc_dosk calls.
