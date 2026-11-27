@@ -26,6 +26,7 @@ Current campaign: [scientific decision checkpoint](research/DECISION_STATUS.md),
 [nonlinear equilibrium-gap reuse gate](research/NONLINEAR_REUSE_GATE.md),
 [full nonlinear map qualification](research/FULL_NONLINEAR_MAP_GATE.md),
 [informed nonlinear amplitude gate](research/MODE_AMPLITUDE_GATE.md),
+[reused-basis nonlinear candidate gate](research/REDUCED_NONLINEAR_GATE.md),
 [workflow costs](research/WORKFLOW_COSTS.md), and
 [response figures](research/figures/README.md). The thermal correction is checked on
 synthetic fixtures, imposed-gap Nb geometry, and a documented converged frozen

@@ -1,5 +1,26 @@
 # Research restart ledger
 
+## Latest priority — amplitude pilot live; reused-basis nonlinear solver prepared
+
+Previous turn made progress: full nonlinear result public25fe74d and
+CI45970677170 SUCCESS. Retained material-T8p05b16s29/rotation has Q and AQ
+with135880rows/31columns at exact8.05K/contextabfcecc2...; payload67396480bytes.
+New reduced solve uses A0≈UQ^T and the exact finite-T occupation ratio, with
+full native residual validation mandatory. Core/filedriver tests independently
+check nonsymmetric nonlinear equations, zero-energy derivative, normalroot and
+stale/truncated data; strict readback marks full native verification false.
+See research/REDUCED_NONLINEAR_GATE.md and reduced_nonlinear_manifest.json.
+All64 offline tests PASS(7.227s), compileall/diffcheck PASS.
+Boundschecked native build PASS; no reduced material job launched.
+
+Owner4276/PID56970 still LIVE in mode-amplitude-001. Latest observed39968/66867
+rows at448.092CPU seconds. Poll samehandle and progress; no duplicate or second
+heavy native job. Once terminal, require fresh mode action and strict amplitude
+readback before selecting initial amplitude/control for a120s/3GiB reduced
+pilot. Pin that control before launch; initial amplitude intentionally pending.
+A reduced root is a candidate only; next native full-map validation is a
+separate reviewable step. Goal active; ceiling2026-11-27T17:41Z.
+
 ## Latest priority — full nonlinear PASS; informed amplitude owner waiting
 
 Owner31203 TERMINAL PASS908.645s/881655808bytes. Strict full readback PASS:

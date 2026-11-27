@@ -30,3 +30,12 @@ mode_amplitude_probe.o: $(RESEARCH_SOURCE_DIR)/mode_amplitude_probe.f90 nonlinea
 
 mode_amplitude_driver.o: $(MAP_SOURCE) mode_amplitude_probe.o
 	$(MPIF90) $(FF) $(MAP_FLAGS) -DMODE_AMPLITUDE -I$(NATIVE)/build -fcheck=all -c $< -o $@
+
+reduced-nonlinear-solve.x: reduced_nonlinear_core.o reduced_nonlinear_driver.o
+	$(LD) $(LDFLAGS) -o $@ $^ $(CORELIBS)
+
+reduced_nonlinear_core.o: $(RESEARCH_SOURCE_DIR)/reduced_nonlinear_core.f90
+	$(MPIF90) $(FF) -fcheck=all -c $< -o $@
+
+reduced_nonlinear_driver.o: $(RESEARCH_SOURCE_DIR)/reduced_nonlinear_driver.f90 reduced_nonlinear_core.o
+	$(MPIF90) $(FF) -fcheck=all -c $< -o $@
