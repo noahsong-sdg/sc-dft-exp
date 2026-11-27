@@ -1,5 +1,13 @@
 # Research restart ledger
 
+## Latest — public CI907ecd5 PASS; build003 running; requirements audit added
+
+CI45992021572 completed success for907ecd5. Session17058 watcher98608 live,
+normal120s passed11:38:48Z, fresh build003 now compiling LAPACK. This is the
+only heavy owner. Poll it; do not launch rank37. REQUIREMENTS_AUDIT.md maps all
+8scientific questions/10deliverables to owning evidence and explicitly open
+gates. CAMPAIGN_REPORT.md links it. No completion or material prediction claim.
+
 ## Latest — attempt002 interface failure diagnosed; retry003 sole pending owner
 
 Build002/session17080 TERMINALFAIL281.616652s/469352448B. LAPACK+QE build PASS;

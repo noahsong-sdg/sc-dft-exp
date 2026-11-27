@@ -1,7 +1,8 @@
 # Superconducting response on a laptop: living scientific report
 
 Checkpoint: 2026-11-27. This report is provisional while the campaign runs.
-The [restart ledger](../RESEARCH_LEDGER.md) owns live process state.
+The [restart ledger](../RESEARCH_LEDGER.md) owns live process state. The
+[requirements audit](REQUIREMENTS_AUDIT.md) records incomplete acceptance gates.
 
 ## Answer currently supported
 
