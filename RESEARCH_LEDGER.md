@@ -3425,3 +3425,24 @@ historical189.29min separate. Full32-column mode result remains pending.
 Restart-sweep007 stages rows32769:49152, same basis/operator, predecessor006;
 600s/3GiB/quiet120, one heavy owner. No code or thresholds changed; prior
 180 tests/191 Python compilations/moment replay PASS. Scientific goal incomplete.
+
+
+## Variable-gap independent algebra control
+
+Traced linear_response.stiffness -> anisotropic_moment_analysis and the separate
+uniform_gap_reference: only the latter eliminates curvature and assumes a constant
+gap. No production defect inferred. For smooth periodic real Delta(k), integration
+by parts adds -v*xi*Delta*partial_k(Delta) to the velocity numerator. A new small
+anisotropic_velocity_reference retains this term without changing pinned sources.
+Periodic two-harmonic band/variable-gap tests at beta2/8/40 agree with curvature
+within2e-13; omitting the gradient fails by>1e-5 in this fixture. Constant-gap,
+global-sign, zero-energy thermal limit and invalid-input tests PASS. This is
+frozen-gap scalar algebra, not a derived electromagnetic vertex or material result.
+See research/ANISOTROPIC_VELOCITY_REFERENCE.md for derivation and domain.
+
+Checks: targeted4 tests PASS; full unittest discovery184 PASS (12.450s); all193
+maintained Python sources compile PASS; moment_refinement.py PASS; diffcheckPASS.
+No separate typecheck configured. Review: production behavior unchanged, no
+persisted schema changed, no new network/security surface; derivative/measure
+qualification still required before material use. Restart007 owner21220/session
+86523 remains the sole guarded campaign run; no duplicate launched.
