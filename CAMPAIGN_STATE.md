@@ -67,10 +67,22 @@ No owner remains. Partialdriver drafted but not staged/qualified yet. It must us
 upstream read_Coulomb retaining BOTH transformed channels; saved gap reader only
 retains pairingnci and cannot supply Z. Partial4x64rows direct-vs-cached at8.05K
 on fresh Mac geometry is next, then measured forecast before fullZ.
-Portable-z-partial001 now staged: both transformedchannels, exactfreshcontext,
-4x64leftrows/allrightstates in direct/cached arms at8.05K, bitwisearraygate.
-143testsPASS26.739s; compileall/moment/diffPASS. Public prospective manifest before
-launch;300s/3GiB/quiet120. No watcher exists at staging.
+Portable-z-partial001 terminalPASS144.213641s/1620819968B (grouppeak1622376448B).
+17,392,640pairs perarm at8.05K, four64leftrow blocks/allrightstates. Direct/cached
+partial arrays bitwiseequal, allfinite; fulltwochannel coefficienthash matches.
+Exactfreshgeometry/readback/manifests/inputs/linkarchivesPASS. No retainedZ.
+Cachedblocksum11.925346s vs direct28.199123s; remainingbuild/init/output104.089172s.
+Mean fullsweep scheduling extrapolation3219s; min/maxblock extrapolation2590–3957s.
+These are forecasts, NOT bounds. A fullsinglelaunch has insufficient margin
+under3300s; do not launch one. No fullZ or response qualification follows.
+Next implement exact ordered checkpointed Z traversal (two~33434row batches,
+prospective2400s/batch/3GiB), with strict context/shape/completed-row and stale
+checkpoint tests; qualify a small split vs uninterrupted traversal first.
+Preserve serial addition order, require nextfirst==previouslast+1, and only emit
+full-Z schema after all66867leftrows complete. Separate source-only full-sum
+sample oracles remain required before accepting completedZ. No queuedjob/owner.
+Guarded newtotal316.564495s.143testsPASS26.739s; compileall/moment/diffPASS.
+Native partial compile/runtimePASS; CI46040832533 onf2cf717PASS.
 
 New native pilot ceiling4wallhours, prior campaign189.29min accounted separately.
 Hardware rechecked:M5/10cores/32GiB,normalpressure,~151GBfree. Preserve dirty

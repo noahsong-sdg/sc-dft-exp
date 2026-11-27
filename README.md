@@ -9,7 +9,10 @@ yet achieved**. Progress and negative controls will remain public here.
 Latest: source-only full driver links; its exact retained-state check stops at
 a small platform grid-weight discrepancy. A [fresh Mac initialization](research/fresh_gap_initialization_result.json)
 now passes an exact serialization roundtrip (84.96 s / 134 MB including its small
-build). Compatible Z, gap convergence and physical response remain open.
+build). The source-only Z cache passes 1,200 direct-upstream comparisons; actual-input
+partial Z sums at 8.05 K also match bitwise (144.21 s / 1.62 GB). A complete Z
+sweep needs bounded checkpointing before gap convergence and physical response
+can be qualified.
 
 The earlier bounded campaign and benchmark history follow below. Their passing
 diagnostics do not establish a physical response prediction.

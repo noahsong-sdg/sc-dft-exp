@@ -2330,3 +2330,21 @@ arms, current timing required before fullZforecast. No retainedZ consumed.
 143testsPASS26.739s; compileall/moment/diffchecksPASS; newimport stagedwhitespace
 checksPASS (earlier slab_z byte-preserved warning remains historical).
 CI46040584163PASS on4af9389. No watcher exists at staging.
+
+
+### Actual-input finite-temperature partial Z PASS; full-sweep scheduling decision
+
+Portable-z-partial001PASS144.213641s/1620819968B (sampledgroup1622376448B).
+FreshMacgeometry exact; complete transformed twochannel Vc0hashmatches.
+17,392,640pairs perarm at8.05K; partial2,174,080B arrays direct/cachedbitwiseequal
+and allfinite. All consumed/publicmanifest/input/receipt/linkchecksPASS.
+Cached fourblock sum11.925346s, direct28.199123s, remainingbuild/init/output
+104.089172s. Fullmean row extrapolation3218.98s, min/maxblock2590.20–3956.72s;
+these are scheduling estimates, not runtimebounds or a statisticalspeedup.
+Mean is too near3300s hardbatchlimit, and maxexceedsit. Do not launch fullsweep
+in one batch. Next exact ordered checkpointing is justified by this measurement:
+two~33434row batches, prospective2400s/batch, strict context and contiguousrow
+invariants, split-vs-uninterrupted test and stalecheckpoint rejection. Final
+fullZschema only after allrows; independent direct full-sum sample checks needed.
+143testsPASS26.739s; compileall/moment/diffPASS; nativepartialbuild/runtimePASS.
+CI46040832533 onf2cf717PASS. New guardedtotal316.564495s. No owner remains.

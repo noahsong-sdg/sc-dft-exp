@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/usr/bin/make",
+      "-f",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/z_partial.mk",
+      "RESEARCH=/Users/noahs/Developer/sc-dft-exp/research",
+      "QE_ROOT=/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe",
+      "NATIVE_INPUT=/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-partial-001/native.in",
+      "qualify-partial"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-partial-001",
+    "wall_s": 144.21364125004038,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 1620819968,
+    "sampled_peak_group_rss_bytes": 1622376448,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 300.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "temperature_kelvin": 8.05,
+  "beta": 19613.355577892344,
+  "pairs_per_arm": 17392640,
+  "blocks": [
+    {
+      "arm": 1,
+      "block": 1,
+      "first": 1,
+      "last": 64,
+      "wall_s": 5.416382
+    },
+    {
+      "arm": 1,
+      "block": 2,
+      "first": 16717,
+      "last": 16780,
+      "wall_s": 5.742203
+    },
+    {
+      "arm": 1,
+      "block": 3,
+      "first": 33434,
+      "last": 33497,
+      "wall_s": 8.336586
+    },
+    {
+      "arm": 1,
+      "block": 4,
+      "first": 66804,
+      "last": 66867,
+      "wall_s": 8.703952
+    },
+    {
+      "arm": 2,
+      "block": 1,
+      "first": 1,
+      "last": 64,
+      "wall_s": 3.335453
+    },
+    {
+      "arm": 2,
+      "block": 2,
+      "first": 16717,
+      "last": 16780,
+      "wall_s": 3.687446
+    },
+    {
+      "arm": 2,
+      "block": 3,
+      "first": 33434,
+      "last": 33497,
+      "wall_s": 2.522933
+    },
+    {
+      "arm": 2,
+      "block": 4,
+      "first": 66804,
+      "last": 66867,
+      "wall_s": 2.379514
+    }
+  ],
+  "direct_blocks_wall_s": 28.199123,
+  "cached_blocks_wall_s": 11.925346,
+  "remaining_guarded_build_initialization_and_output_s": 104.08917225004038,
+  "partial_arrays_bitwise_equal": true,
+  "all_values_finite": true,
+  "binary_bytes": 2174080,
+  "binary_sha256": "05b55b15162397e361d1ec66ebd40cf251bcb71d1dc0602ba7491aa73b1662a0",
+  "metadata_sha256": "dde5d53694d4f2748ca299ab164595d39555c6468c57c071207755a086bf0531",
+  "executable_sha256": "1e7a8a7615daf6052157c18be1a5464b632872e3d858f5f00dd198cba6d256b6",
+  "all_declared_inputs_unchanged": true,
+  "public_and_consumed_manifest_equal": true,
+  "all_explicit_link_archives_pinned": true,
+  "full_transformed_coefficient_identity_checked": true,
+  "retained_Z_consumed": false,
+  "full_Z_qualified": false,
+  "physical_response_verified": false,
+  "full_traversal_scheduling_estimates": {
+    "mean_block_extrapolation_s": 3218.980230773478,
+    "min_block_extrapolation_s": 2590.1979634687905,
+    "max_block_extrapolation_s": 3956.7212297812907,
+    "scope": "Scheduling estimates only; four sparse row blocks, not runtime bounds; cache/slab history differs in a full traversal"
+  },
+  "native_campaign_total_s": 316.56449454123026
+}
