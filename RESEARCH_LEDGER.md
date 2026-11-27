@@ -2756,3 +2756,19 @@ Production003 stages16385:32768 from accepted002, identicalcontext/source/trials
 is conservative relative to002; notbound. First complete accepted16384rows, no
 normalization or Ritz yet.165offline testsPASS11.142s;178sourcecompile/moment/diff
 lastPASS; actualproductionnativebuild/runtimePASS. CI46053990892 on71be22ePASS.
+
+
+## Production003 certified through32768; contiguous004 staged
+
+Production003 terminalPASS186.756821s/933462016B individualpeak (group926957568B).
+Rows16385:32768 took147.977s. Nativebitwise serialization plus independentPython
+context/counts/temperature/shape/finite/allcolumnpadding checksPASS. Public and
+consumedmanifests identical; allpostruninputs and16actual linkedarchives verified;
+no historicalcustomobjectpath. Accepted unnormalizedpartialimages through32768.
+Guardedtotal2928.755339s includesfailedcompile; historical189.29min separate.
+Oldguard38147/session86694 terminal. No nativeowner at certification.
+
+Production004 stages32769:49152 from003, samefrozencontext/trials/sources and
+32-rowtileorder. Same600s/3GiB/quiet120,250–300s estimate notbound. No scientific
+code changed;165offline tests/178sourcecompilation/moment gates lastPASS. Public
+CI46054693233 on3cff40dPASS. Fullimages/oracle/Ritz/gap/response stillincomplete.
