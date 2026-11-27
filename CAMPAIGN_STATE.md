@@ -993,3 +993,9 @@ physical operator. Guard600s/3GiB,120 continuous normal-pressure seconds before
 launch. Complete application and independent mode checks remain pending.
 No code changed. Prior180 tests,191 Python source compilations and moment gate
 passed; diff check passed for this evidence update. Scientific goal incomplete.
+
+
+Continuation verification: unittest discovery180 PASS (11.027s), compile all191
+maintained Python sources PASS, moment_refinement.py PASS, git diff --check PASS.
+Restart-sweep006 guarded owner12279/session24250 confirmed live, waiting for the
+continuous120-second normal-pressure gate. No duplicate heavy owner launched.
