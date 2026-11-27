@@ -2991,3 +2991,19 @@ pilotbudget; same600s/3GiB/quiet120 persegment,250–300s estimate notbound. If6
 isstillunqualified, evaluate targetedrestart/solverstrategy fromactualresiduals;
 do not relaxacceptance.170offline tests/184Pythoncompilation/moment gates last
 PASS; no codechanged. PublicCI46062093823 onf2ef0e0PASS. No owner beforelaunch.
+
+
+## 64-vector application: segment 009 accepted
+
+Enrichment009 terminal PASS: rows1:16384,187.481531333644s,
+individual peak926547968B/group928235520B. Checkpoint certification,
+postrun input hashes, public/consumed manifest equality, and all16 linked
+archive hashes PASS; no historical custom-object path. Guarded campaign total
+5093.476829959861s; prior189.29min separate. Session94217 terminal exit0.
+
+Enrichment010 prospectively stages rows16385:32768, same old48-vector basis,
+physical context and16 nextvectors, predecessor009;600s/3GiB/quiet120.
+This continues the registered64-vector test. Full application, uncached sums,
+Ritz analysis, nonlinear gap, and response remain incomplete. No code changed;
+last offline suite170PASS,184 Python sources compilePASS, moment/diff gatesPASS.
+Public CI46063009995 on ef5da82 PASS.
