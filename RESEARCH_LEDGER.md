@@ -2506,3 +2506,16 @@ checks downstream acceptance and rejects postcertificate samplemutation.
 153offline testsPASS16.624s; all167maintained Python sources compile; momentreplay
 and diffchecksPASS. No separatetypecheck configured. Recovery003guard44648/
 session53486 confirmedlive in quietgate; do not duplicate.
+
+
+### Recovery003 accepted through16400; continuation004 staged
+
+TerminalPASS171.351518s/1655422976B individualpeak (group1656274944B). Native
+rows8209:16400 took120.812042s. Strict context/serializedcheckpoint/certificate
+and all declaredinputs, public/consumed manifests,16explicitlinkarchives checked
+PASS; no historicalcustomobjectpath. AcceptedpartialZ through16400; fullZ not yet
+available. New guardedtotal1367.111297s including failure001. Root004staged
+16401:24592 from accepted003,8192rows/2400s/3GiB/quiet120. Current shortsegments
+~171–173s; not an isolatedspeedbenchmark or guaranteedfuturecost.153offline
+tests/167sourcecompilation/moment gates lastpassed. CI46046305873 on905b082PASS.
+No new code change; no overlapping owner before prospective publication/launch.

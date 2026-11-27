@@ -188,3 +188,7 @@ Recovery002 terminalPASS172.501405s; strictcertified checkpoint through8208.
 Native owner36610/session24002 terminal. New guardedtotal1195.759779s. Root003
 stages8209:16400 from002, same frozencontext and guard/quietgate. FullZ and
 independentoracle remain incomplete. Poll new owner after launch, not old24002.
+
+Recovery003 terminalPASS171.351518s, certifiedthrough16400. Old44648/session53486
+terminal. New guardedtotal1367.111297s. Root004 stages16401:24592 from003; next
+single-owner launch must pass quiet120. FullZ/oracle/gap/response still open.
