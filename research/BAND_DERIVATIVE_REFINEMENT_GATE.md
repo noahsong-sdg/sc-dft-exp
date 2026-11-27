@@ -264,3 +264,25 @@ passed124 tests in9.879s. `python3.13 research/moment_refinement.py`,
 maintained-research `compileall` excludingraw, and `git diff --check` passed.
 No separate repository typecheck is configured. Native64 qualification remains
 pending; offline tests do not replace it.
+
+
+## Prospective third-grid readback
+
+third_grid_hypothesis.json was published before any64response existed, at
+06de3c9. It fixes the32/48data and conditional h^2/h^4predictions. After the
+combined48probe matches all eight exports and the64response passes native
+readback, run:
+
+```sh
+python3 research/third_grid_comparison.py research/third_grid_hypothesis.json MATCHED48_RESULT REFINED64_RESULT \
+  --plan-sha256 PUBLISHED_HYPOTHESIS_SHA256
+```
+
+The checker requires the published hypothesis hash, unchanged32/48source
+identities, exact48qualification and identical physical controls. It reports
+contraction/sign separately and conditional prediction discrepancies relative
+to the48diagnostic. It accepts noncontraction/reversal as scientific outcomes,
+not corrupted-data errors. No continuum or physical-error bound is produced.
+Changed hypothesis, baseline, context, temperature, grid and failed-receipt
+fixtures reject.132offline testsPASS11.568s; maintained-source compilation,
+moment-refinement replay and diff checksPASS. Native64response is still pending.

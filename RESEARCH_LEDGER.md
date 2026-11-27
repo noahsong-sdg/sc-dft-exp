@@ -1993,3 +1993,14 @@ to authoritative REQUIREMENTS_AUDIT. The cost summary reflects71terminal
 guard attempts/9979.667s, excludes live64bands and distinguishes55guardPASS
 from scientific acceptance. README separates the originalTcbenchmark snapshot
 from current response work. Sole nativeowner94314remains live.
+
+
+## Three-grid comparison checker prepared blind
+
+third_grid_comparison.py requires the published hypothesis SHA, frozen32/48
+source identities, exact combined48qualification and matching native64controls.
+It reports contraction, sign and conditional h^2/h^4discrepancies without an
+accuracy certificate.132localtestsPASS11.568s; compileall/momentreplay/diffcheck
+PASS. No64response exists yet. Sole64bandowner94314is live at4727/6273points,
+CPU619s. Following its terminal receipt, run combined48response, then64owning
+serialization, then64response under the previously frozen resource gates.
