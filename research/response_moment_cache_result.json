@@ -1,0 +1,40 @@
+{
+  "terminal_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/velocity-moment-probe.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001",
+    "wall_s": 37.28034854121506,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 194461696,
+    "sampled_peak_group_rss_bytes": 194461696,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 120,
+    "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+  },
+  "analysis_wall_s": 5.11,
+  "analysis_peak_rss_bytes": 176177152,
+  "analysis_candidates": [
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "sha256": {
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/cell-moments-raw.txt": "f2e3ce38fd936ae1884f2eba41f64b798a486cadd2344ee4c4bc9a9217b2f828",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/cell-moments-raw.bin": "11378f1c63ba6198a2f482e5b2d0b9af08d773b313c03e07d0c72ffceff6d643",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/cell-moments-averaged.txt": "a5c393b7035bd024d11d3a0ebff520554819f8c2f47339b3cd275771be49dd0d",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/cell-moments-averaged.bin": "095901131e129193ac1d3b4bb0afebfc056b8cbd81db5cd6c68c4d061709d680",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/response-symmetry.txt": "c72df4d4883bbe81c69011c33f82086ecc91abfc6f28e5487a06f7bde3725efe",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/velocity-moments.txt": "c7e4f8564723ee3160beae97ed09bc9c9a7cc13589134db3f478366cf44f6b66",
+    "/Users/noahs/Developer/sc-dft-exp/research/response_moment_cache_manifest.json": "cd349336da70facda6483414f859a6cbfd3ef5daaadb64ef8b71c8a312ccb498",
+    "/Users/noahs/Developer/sc-dft-exp/research/anisotropic_candidate_response_series.json": "338f14865578546b8ad2e667d1d9ecc1e7cb4213fa6b7c70e8f31359cb593426"
+  },
+  "scope": "One fixed native moment cache reused for five unaccepted candidates. Bound on moment averaging only; no conditioned gap or physical response qualification."
+}

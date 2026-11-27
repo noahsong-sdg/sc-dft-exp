@@ -6,6 +6,12 @@ Replacing that scalar by a vector without matching the native state assignment
 would introduce an uncontrolled approximation. No response calculation with the
 new candidate has yet been accepted.
 
+Latest: [anisotropic moment audit](ANISOTROPIC_MOMENT_GATE.md) now maps the
+full-symmetry cache to ranks31–35 without gap interpolation, preserves the native
+single-state branch, and computes an averaging-effect bound. Rank35 gives~20ppm
+bound versus2.738% grid spread. This does not certify self-consistent gap error
+or physical response. Earlier checkpoints below retain their historical context.
+
 ## Owning path and observed layout
 
 The retained `sctk_ini_delta.f90` path is `ini_delta -> ... -> store_d3k`.
@@ -245,4 +251,6 @@ comparisons still match exactly. Maximum gap-orbit variation falls to
 1.70426e-9Ry, or7.21061e-5 of the global gap maximum (0.00721%), about4.1times
 smaller than rank34. It still fails1e-10. See rank35_gap_symmetry_result.json.
 This is consistent with enrichment improving the candidate's symmetry, but
-its full residual is still being evaluated and response impact is unbounded.
+its subsequently completed full check still fails both targets. Its moment-
+averaging response effect is now bounded for the tested discrete observable;
+total gap/response error remains unbounded. See ANISOTROPIC_MOMENT_GATE.md.

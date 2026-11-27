@@ -1,0 +1,1385 @@
+{
+  "candidates": {
+    "31": {
+      "grids": [
+        {
+          "raw_second": 0.00011986010128162247,
+          "averaged_second": 0.00011985645345805352,
+          "averaged_mean_squared": -1.4021958527372276e-09,
+          "coefficient_range_bound": 1.2026793951774912e-07,
+          "raw_absolute_term_sum": 0.00011989223148742376,
+          "observed_replay_allowance": 2.8982047758969924e-20,
+          "roundoff_scale": 0.00023991076728450546,
+          "floating_roundoff_allowance": 3.409337058492745e-18,
+          "averaging_absolute_bound": 1.2026793952118744e-07,
+          "retained_resolved_states": 54579,
+          "averaging_difference": -3.6478235689518194e-09,
+          "averaging_bound_over_raw_response": 0.001003402618846506,
+          "raw_cancellation_ratio": 1.000268064230363,
+          "unchanged_single_state_branch_response": 3.72217820463104e-11,
+          "combined_raw_second": 0.00011986013850340453,
+          "combined_averaged_second": 0.00011985649067983557,
+          "combined_averaged_mean_squared": -1.3649740706909171e-09,
+          "averaging_bound_over_combined_response": 0.0010034023072463855
+        },
+        {
+          "raw_second": 0.00011663457012655256,
+          "averaged_second": 0.00011663598070528508,
+          "averaged_mean_squared": -1.448971633410857e-09,
+          "coefficient_range_bound": 1.2982227532264925e-07,
+          "raw_absolute_term_sum": 0.00011664913728351911,
+          "observed_replay_allowance": 2.940694475090404e-20,
+          "roundoff_scale": 0.00023345078450262804,
+          "floating_roundoff_allowance": 3.3175351817167786e-18,
+          "averaging_absolute_bound": 1.298222753259962e-07,
+          "retained_resolved_states": 55652,
+          "averaging_difference": 1.4105787325273704e-09,
+          "averaging_bound_over_raw_response": 0.0011130685797970062,
+          "raw_cancellation_ratio": 1.000124895705885,
+          "unchanged_single_state_branch_response": 8.562989698446926e-11,
+          "combined_raw_second": 0.00011663465575644954,
+          "combined_averaged_second": 0.00011663606633518207,
+          "combined_averaged_mean_squared": -1.3633417364263877e-09,
+          "averaging_bound_over_combined_response": 0.0011130677626132353
+        }
+      ],
+      "averaging_replay_max_absolute_errors": {
+        "dos": 2.220446049250313e-16,
+        "first": 2.6531410296176022e-30,
+        "second": 3.587324068671532e-42,
+        "curvature": 3.4438311059246704e-41
+      },
+      "averaging_replay_reference_scales": {
+        "dos": 0.3220548358875283,
+        "first": 7.627996724606795e-15,
+        "second": 6.0872564232720106e-27,
+        "curvature": 1.5277207744844465e-25
+      },
+      "averaging_replay_relative_tolerance": 1e-12,
+      "scope": "Bound symmetry-averaging effects on a candidate's resolved-support response.",
+      "dimensions": [
+        100,
+        6,
+        7,
+        512,
+        2
+      ],
+      "qnorm": 1.4213149536207327e-12,
+      "volume": 122.17535992426924,
+      "beta": 19613.355577892344,
+      "omitted_native_states": [
+        12288,
+        12288
+      ],
+      "cached_constant_control_max_absolute_error": 3.5388358909926865e-16,
+      "constant_gap_native_controls": {
+        "sha256": "c7e4f8564723ee3160beae97ed09bc9c9a7cc13589134db3f478366cf44f6b66",
+        "dimensions": [
+          100,
+          6,
+          7,
+          32768,
+          512
+        ],
+        "qnorm": 1.4213149536207327e-12,
+        "volume": 122.17535992426924,
+        "native_control_max_absolute_errors": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "negative_fine_weights": 1164403,
+        "negative_fine_weight_absolute_sum": 42.86565944990891,
+        "fine_weight_absolute_sum": 801.6763201504745,
+        "cases": [
+          {
+            "temperature_kelvin": 2,
+            "imposed_gap_mev": 1.5,
+            "mean_squared_active": [
+              -1.5838590630946606e-07,
+              -1.5841649183047032e-07
+            ],
+            "second_moment_active": [
+              0.008144975191219725,
+              0.008144966601453033
+            ],
+            "second_moment_all": [
+              0.008144883761804894,
+              0.008144883761804656
+            ],
+            "fine_grid_reference": 0.008144883761805485,
+            "direct_reference_max_absolute_error": 8.291978215169138e-16
+          },
+          {
+            "temperature_kelvin": 4,
+            "imposed_gap_mev": 1.5,
+            "mean_squared_active": [
+              -1.5542205069404963e-07,
+              -1.554519411951863e-07
+            ],
+            "second_moment_active": [
+              0.007572775287514661,
+              0.007572767298221063
+            ],
+            "second_moment_all": [
+              0.007572690278423447,
+              0.0075726902784229375
+            ],
+            "fine_grid_reference": 0.007572690278422804,
+            "direct_reference_max_absolute_error": 6.42715047849407e-16
+          },
+          {
+            "temperature_kelvin": 8,
+            "imposed_gap_mev": 1.5,
+            "mean_squared_active": [
+              -1.4743638949451923e-07,
+              -1.4746437458795173e-07
+            ],
+            "second_moment_active": [
+              0.004729138321631681,
+              0.004729133320141633
+            ],
+            "second_moment_all": [
+              0.004729085223009366,
+              0.004729085223009473
+            ],
+            "fine_grid_reference": 0.004729085223009522,
+            "direct_reference_max_absolute_error": 1.5612511283791264e-16
+          }
+        ],
+        "scope": "Matched-energy constant-gap closure diagnostic; not a converged material response"
+      },
+      "assignment": {
+        "dimensions": [
+          66867,
+          67940,
+          67940,
+          100,
+          512,
+          1,
+          26
+        ],
+        "native_counts": [
+          66867,
+          67940,
+          67940,
+          100,
+          512,
+          26,
+          32768
+        ],
+        "shape_matches": true,
+        "mapping_compatible": true,
+        "differences": {
+          "xi0": {
+            "max_absolute_difference": 0.0,
+            "entries_beyond_64eps_relative": 0
+          },
+          "dx0": {
+            "max_absolute_difference": 6.88214269644119e-22,
+            "entries_beyond_64eps_relative": 0
+          },
+          "xi": {
+            "max_absolute_difference": 0.0,
+            "entries_beyond_64eps_relative": 0
+          },
+          "dk": {
+            "max_absolute_difference": 3.3087224502121107e-23,
+            "entries_beyond_64eps_relative": 0
+          },
+          "kindx": {
+            "mismatches": 0
+          },
+          "bindx": {
+            "mismatches": 0
+          }
+        },
+        "qnorm": 1.4213149536207327e-12,
+        "volume": 122.17535992426924,
+        "tolerance": "64eps elementwise relative; zeros exact; indices exact",
+        "gap_transfer_verified": false,
+        "physical_response_verified": false,
+        "sha256": {
+          "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/response-assignment.txt": "11059fa33166bf168df8fb5914c334fa5b62876a5804c4db263a2dce39ca9328",
+          "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/response-assignment.bin": "829fd98c5f690597edd44a2e211a8c8695a81a743b40c417618499a2d10849ed",
+          "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.meta": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+          "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.bin": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37"
+        },
+        "scope": "Compare exported response assignment with a gap's initialized native layout."
+      },
+      "reduced_readback": {
+        "dimensions": [
+          66867,
+          67940,
+          67940,
+          100,
+          31
+        ],
+        "beta": 19613.355577892344,
+        "initial_amplitude_mev": 0.15,
+        "iterations": 5,
+        "coefficient_residual": 2.0911549401814167e-17,
+        "orthogonality_error": 2.475797344914099e-14,
+        "mode_projection_error": 7.098444363887353e-06,
+        "fermi_averages_mev": [
+          0.16631043289090344,
+          0.16532572490423297
+        ],
+        "min_positive_weight_fermi_gap_mev": 0.12718406288031284,
+        "max_absolute_gap_ry": 2.564201231822223e-05,
+        "rytoev": 13.605693122994017,
+        "full_native_residual_verified": false,
+        "sha256": {
+          "reduced-result.txt": "7c5877f1e9c8fd43ec14695ffd50a7d871e781ca6d3f94b55005a8bc9902a350",
+          "reduced-gap.bin": "3ae94d7c9a0b9165e4416c062e848a04a6faf878fc519d9635714fb2b8370178",
+          "native-init.meta": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+          "native-init.bin": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37"
+        },
+        "scope": "Read a reduced candidate; a separate full native residual is mandatory."
+      },
+      "sha256": {
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/cell-moments-raw.txt": "f2e3ce38fd936ae1884f2eba41f64b798a486cadd2344ee4c4bc9a9217b2f828",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/cell-moments-raw.bin": "11378f1c63ba6198a2f482e5b2d0b9af08d773b313c03e07d0c72ffceff6d643",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/cell-moments-averaged.txt": "a5c393b7035bd024d11d3a0ebff520554819f8c2f47339b3cd275771be49dd0d",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/cell-moments-averaged.bin": "095901131e129193ac1d3b4bb0afebfc056b8cbd81db5cd6c68c4d061709d680",
+        "/Users/noahs/Developer/sc-dft-exp/research/response_moment_cache_manifest.json": "cd349336da70facda6483414f859a6cbfd3ef5daaadb64ef8b71c8a312ccb498",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/results/moment/receipt.json": "f6fbba2bf3d0af553f5917f9fd994111c7c15b06f85f03bb795ce1f4fd90adaf",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/results/moment/console.log": "bde79b60d52077308a0a53e6b7e03cdb3b4da41394b7d6a327be3ff22d1aa636",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/response-symmetry.txt": "c72df4d4883bbe81c69011c33f82086ecc91abfc6f28e5487a06f7bde3725efe",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/velocity-moments.txt": "c7e4f8564723ee3160beae97ed09bc9c9a7cc13589134db3f478366cf44f6b66",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/reduced-nonlinear-001/reduced-gap.bin": "3ae94d7c9a0b9165e4416c062e848a04a6faf878fc519d9635714fb2b8370178"
+      },
+      "bound_scope": "Change of moments on native resolved support; native single-state contribution held identical in combined totals; discarded DOS support not reconstructed",
+      "terminal_receipt": {
+        "status": "PASS",
+        "error": null,
+        "command": [
+          "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/velocity-moment-probe.x",
+          "-in",
+          "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/native.in"
+        ],
+        "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001",
+        "wall_s": 37.28034854121506,
+        "exit": 0,
+        "max_individual_descendant_rss_bytes": 194461696,
+        "sampled_peak_group_rss_bytes": 194461696,
+        "macos_ru_maxrss_units": "bytes",
+        "rss_sample_interval_s": 2,
+        "continuous_deadline_s": 120,
+        "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+      },
+      "bound_is_formal_interval_certificate": false,
+      "roundoff_scope": "Triangle bound on computed coefficients with measured cache replay error and 64eps contraction allowance; not interval-certified transcendental functions",
+      "gap_modified": false,
+      "conditioned_gap_error_bounded": false,
+      "physical_response_verified": false
+    },
+    "32": {
+      "grids": [
+        {
+          "raw_second": 6.592017213517484e-05,
+          "averaged_second": 6.591926495643909e-05,
+          "averaged_mean_squared": -7.678873261538443e-10,
+          "coefficient_range_bound": 3.375811751937064e-08,
+          "raw_absolute_term_sum": 6.593782252481901e-05,
+          "observed_replay_allowance": 1.5939593935544777e-20,
+          "roundoff_scale": 0.00013194597928685735,
+          "floating_roundoff_allowance": 1.8750651419005826e-18,
+          "averaging_absolute_bound": 3.3758117521261645e-08,
+          "retained_resolved_states": 54579,
+          "averaging_difference": -9.071787357504534e-10,
+          "averaging_bound_over_raw_response": 0.0005121060280613011,
+          "raw_cancellation_ratio": 1.0002677539980929,
+          "unchanged_single_state_branch_response": 2.0290122992730037e-11,
+          "combined_raw_second": 6.592019242529783e-05,
+          "combined_averaged_second": 6.591928524656208e-05,
+          "combined_averaged_mean_squared": -7.475972031611143e-10,
+          "averaging_bound_over_combined_response": 0.0005121058704359376
+        },
+        {
+          "raw_second": 6.41392659901554e-05,
+          "averaged_second": 6.414002929675328e-05,
+          "averaged_mean_squared": -7.935275127690827e-10,
+          "coefficient_range_bound": 3.484732190157536e-08,
+          "raw_absolute_term_sum": 6.41472421333838e-05,
+          "observed_replay_allowance": 1.6172333621079034e-20,
+          "roundoff_scale": 0.00012837813005020404,
+          "floating_roundoff_allowance": 1.824362954752758e-18,
+          "averaging_absolute_bound": 3.4847321903415895e-08,
+          "retained_resolved_states": 55652,
+          "averaging_difference": 7.633065978736959e-10,
+          "averaging_bound_over_raw_response": 0.0005433071514844671,
+          "raw_cancellation_ratio": 1.000124356634041,
+          "unchanged_single_state_branch_response": 4.66241924746425e-11,
+          "combined_raw_second": 6.413931261434788e-05,
+          "combined_averaged_second": 6.414007592094575e-05,
+          "combined_averaged_mean_squared": -7.469033202944402e-10,
+          "averaging_bound_over_combined_response": 0.0005433067565432654
+        }
+      ],
+      "averaging_replay_max_absolute_errors": {
+        "dos": 2.220446049250313e-16,
+        "first": 2.6531410296176022e-30,
+        "second": 3.587324068671532e-42,
+        "curvature": 3.4438311059246704e-41
+      },
+      "averaging_replay_reference_scales": {
+        "dos": 0.3220548358875283,
+        "first": 7.627996724606795e-15,
+        "second": 6.0872564232720106e-27,
+        "curvature": 1.5277207744844465e-25
+      },
+      "averaging_replay_relative_tolerance": 1e-12,
+      "scope": "Bound symmetry-averaging effects on a candidate's resolved-support response.",
+      "dimensions": [
+        100,
+        6,
+        7,
+        512,
+        2
+      ],
+      "qnorm": 1.4213149536207327e-12,
+      "volume": 122.17535992426924,
+      "beta": 19613.355577892344,
+      "omitted_native_states": [
+        12288,
+        12288
+      ],
+      "cached_constant_control_max_absolute_error": 3.5388358909926865e-16,
+      "constant_gap_native_controls": {
+        "sha256": "c7e4f8564723ee3160beae97ed09bc9c9a7cc13589134db3f478366cf44f6b66",
+        "dimensions": [
+          100,
+          6,
+          7,
+          32768,
+          512
+        ],
+        "qnorm": 1.4213149536207327e-12,
+        "volume": 122.17535992426924,
+        "native_control_max_absolute_errors": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "negative_fine_weights": 1164403,
+        "negative_fine_weight_absolute_sum": 42.86565944990891,
+        "fine_weight_absolute_sum": 801.6763201504745,
+        "cases": [
+          {
+            "temperature_kelvin": 2,
+            "imposed_gap_mev": 1.5,
+            "mean_squared_active": [
+              -1.5838590630946606e-07,
+              -1.5841649183047032e-07
+            ],
+            "second_moment_active": [
+              0.008144975191219725,
+              0.008144966601453033
+            ],
+            "second_moment_all": [
+              0.008144883761804894,
+              0.008144883761804656
+            ],
+            "fine_grid_reference": 0.008144883761805485,
+            "direct_reference_max_absolute_error": 8.291978215169138e-16
+          },
+          {
+            "temperature_kelvin": 4,
+            "imposed_gap_mev": 1.5,
+            "mean_squared_active": [
+              -1.5542205069404963e-07,
+              -1.554519411951863e-07
+            ],
+            "second_moment_active": [
+              0.007572775287514661,
+              0.007572767298221063
+            ],
+            "second_moment_all": [
+              0.007572690278423447,
+              0.0075726902784229375
+            ],
+            "fine_grid_reference": 0.007572690278422804,
+            "direct_reference_max_absolute_error": 6.42715047849407e-16
+          },
+          {
+            "temperature_kelvin": 8,
+            "imposed_gap_mev": 1.5,
+            "mean_squared_active": [
+              -1.4743638949451923e-07,
+              -1.4746437458795173e-07
+            ],
+            "second_moment_active": [
+              0.004729138321631681,
+              0.004729133320141633
+            ],
+            "second_moment_all": [
+              0.004729085223009366,
+              0.004729085223009473
+            ],
+            "fine_grid_reference": 0.004729085223009522,
+            "direct_reference_max_absolute_error": 1.5612511283791264e-16
+          }
+        ],
+        "scope": "Matched-energy constant-gap closure diagnostic; not a converged material response"
+      },
+      "assignment": {
+        "dimensions": [
+          66867,
+          67940,
+          67940,
+          100,
+          512,
+          1,
+          26
+        ],
+        "native_counts": [
+          66867,
+          67940,
+          67940,
+          100,
+          512,
+          26,
+          32768
+        ],
+        "shape_matches": true,
+        "mapping_compatible": true,
+        "differences": {
+          "xi0": {
+            "max_absolute_difference": 0.0,
+            "entries_beyond_64eps_relative": 0
+          },
+          "dx0": {
+            "max_absolute_difference": 6.88214269644119e-22,
+            "entries_beyond_64eps_relative": 0
+          },
+          "xi": {
+            "max_absolute_difference": 0.0,
+            "entries_beyond_64eps_relative": 0
+          },
+          "dk": {
+            "max_absolute_difference": 3.3087224502121107e-23,
+            "entries_beyond_64eps_relative": 0
+          },
+          "kindx": {
+            "mismatches": 0
+          },
+          "bindx": {
+            "mismatches": 0
+          }
+        },
+        "qnorm": 1.4213149536207327e-12,
+        "volume": 122.17535992426924,
+        "tolerance": "64eps elementwise relative; zeros exact; indices exact",
+        "gap_transfer_verified": false,
+        "physical_response_verified": false,
+        "sha256": {
+          "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/response-assignment.txt": "11059fa33166bf168df8fb5914c334fa5b62876a5804c4db263a2dce39ca9328",
+          "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/response-assignment.bin": "829fd98c5f690597edd44a2e211a8c8695a81a743b40c417618499a2d10849ed",
+          "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.meta": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+          "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.bin": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37"
+        },
+        "scope": "Compare exported response assignment with a gap's initialized native layout."
+      },
+      "reduced_readback": {
+        "dimensions": [
+          66867,
+          67940,
+          67940,
+          100,
+          32
+        ],
+        "beta": 19613.355577892344,
+        "initial_amplitude_mev": 0.15,
+        "iterations": 5,
+        "coefficient_residual": 2.263380455280739e-15,
+        "orthogonality_error": 2.475797344914099e-14,
+        "mode_projection_error": 1.2205716699353018e-05,
+        "fermi_averages_mev": [
+          0.12305056134166283,
+          0.12232444454451039
+        ],
+        "min_positive_weight_fermi_gap_mev": 0.0941134488108398,
+        "max_absolute_gap_ry": 1.8970127637236775e-05,
+        "rytoev": 13.605693122994017,
+        "full_native_residual_verified": false,
+        "sha256": {
+          "reduced-result.txt": "333f06f41f1280b2f8aa7f6b7909cc2a0f7aaf98897599e8838347be477700d2",
+          "reduced-gap.bin": "1e390e73d044f90e2de5baa8c3cfb03d15b39cc9d82c297827acb092deb7dcb9",
+          "native-init.meta": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+          "native-init.bin": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37"
+        },
+        "scope": "Read a reduced candidate; a separate full native residual is mandatory."
+      },
+      "sha256": {
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/cell-moments-raw.txt": "f2e3ce38fd936ae1884f2eba41f64b798a486cadd2344ee4c4bc9a9217b2f828",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/cell-moments-raw.bin": "11378f1c63ba6198a2f482e5b2d0b9af08d773b313c03e07d0c72ffceff6d643",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/cell-moments-averaged.txt": "a5c393b7035bd024d11d3a0ebff520554819f8c2f47339b3cd275771be49dd0d",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/cell-moments-averaged.bin": "095901131e129193ac1d3b4bb0afebfc056b8cbd81db5cd6c68c4d061709d680",
+        "/Users/noahs/Developer/sc-dft-exp/research/response_moment_cache_manifest.json": "cd349336da70facda6483414f859a6cbfd3ef5daaadb64ef8b71c8a312ccb498",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/results/moment/receipt.json": "f6fbba2bf3d0af553f5917f9fd994111c7c15b06f85f03bb795ce1f4fd90adaf",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/results/moment/console.log": "bde79b60d52077308a0a53e6b7e03cdb3b4da41394b7d6a327be3ff22d1aa636",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/response-symmetry.txt": "c72df4d4883bbe81c69011c33f82086ecc91abfc6f28e5487a06f7bde3725efe",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/velocity-moments.txt": "c7e4f8564723ee3160beae97ed09bc9c9a7cc13589134db3f478366cf44f6b66",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/reduced-nonlinear-002/reduced-gap.bin": "1e390e73d044f90e2de5baa8c3cfb03d15b39cc9d82c297827acb092deb7dcb9"
+      },
+      "bound_scope": "Change of moments on native resolved support; native single-state contribution held identical in combined totals; discarded DOS support not reconstructed",
+      "terminal_receipt": {
+        "status": "PASS",
+        "error": null,
+        "command": [
+          "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/velocity-moment-probe.x",
+          "-in",
+          "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/native.in"
+        ],
+        "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001",
+        "wall_s": 37.28034854121506,
+        "exit": 0,
+        "max_individual_descendant_rss_bytes": 194461696,
+        "sampled_peak_group_rss_bytes": 194461696,
+        "macos_ru_maxrss_units": "bytes",
+        "rss_sample_interval_s": 2,
+        "continuous_deadline_s": 120,
+        "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+      },
+      "bound_is_formal_interval_certificate": false,
+      "roundoff_scope": "Triangle bound on computed coefficients with measured cache replay error and 64eps contraction allowance; not interval-certified transcendental functions",
+      "gap_modified": false,
+      "conditioned_gap_error_bounded": false,
+      "physical_response_verified": false
+    },
+    "33": {
+      "grids": [
+        {
+          "raw_second": 8.478979077788175e-05,
+          "averaged_second": 8.478967478654049e-05,
+          "averaged_mean_squared": -9.891744113635374e-10,
+          "coefficient_range_bound": 7.383369208221463e-09,
+          "raw_absolute_term_sum": 8.481250134123857e-05,
+          "observed_replay_allowance": 2.0502472328472002e-20,
+          "roundoff_scale": 0.00016971662382049484,
+          "floating_roundoff_allowance": 2.4118182838676438e-18,
+          "averaging_absolute_bound": 7.383369210653784e-09,
+          "retained_resolved_states": 54579,
+          "averaging_difference": -1.1599134126056773e-10,
+          "averaging_bound_over_raw_response": 8.707851668127724e-05,
+          "raw_cancellation_ratio": 1.0002678454935254,
+          "unchanged_single_state_branch_response": 2.6187651910901045e-11,
+          "combined_raw_second": 8.478981696553367e-05,
+          "combined_averaged_second": 8.47897009741924e-05,
+          "combined_averaged_mean_squared": -9.629867594526362e-10,
+          "averaging_bound_over_combined_response": 8.707848978675187e-05
+        },
+        {
+          "raw_second": 8.249845633060202e-05,
+          "averaged_second": 8.249878836962934e-05,
+          "averaged_mean_squared": -1.0221906218201649e-09,
+          "coefficient_range_bound": 8.69957020286254e-09,
+          "raw_absolute_term_sum": 8.250873154589861e-05,
+          "observed_replay_allowance": 2.0800950627843456e-20,
+          "roundoff_scale": 0.00016512449859646351,
+          "floating_roundoff_allowance": 2.34656025947492e-18,
+          "averaging_absolute_bound": 8.699570205229901e-09,
+          "retained_resolved_states": 55652,
+          "averaging_difference": 3.320390273224127e-10,
+          "averaging_bound_over_raw_response": 0.00010545130893561796,
+          "raw_cancellation_ratio": 1.0001245503946816,
+          "unchanged_single_state_branch_response": 6.015761597232921e-11,
+          "combined_raw_second": 8.2498516488218e-05,
+          "combined_averaged_second": 8.249884852724532e-05,
+          "combined_averaged_mean_squared": -9.620330058478356e-10,
+          "averaging_bound_over_combined_response": 0.00010545123204090983
+        }
+      ],
+      "averaging_replay_max_absolute_errors": {
+        "dos": 2.220446049250313e-16,
+        "first": 2.6531410296176022e-30,
+        "second": 3.587324068671532e-42,
+        "curvature": 3.4438311059246704e-41
+      },
+      "averaging_replay_reference_scales": {
+        "dos": 0.3220548358875283,
+        "first": 7.627996724606795e-15,
+        "second": 6.0872564232720106e-27,
+        "curvature": 1.5277207744844465e-25
+      },
+      "averaging_replay_relative_tolerance": 1e-12,
+      "scope": "Bound symmetry-averaging effects on a candidate's resolved-support response.",
+      "dimensions": [
+        100,
+        6,
+        7,
+        512,
+        2
+      ],
+      "qnorm": 1.4213149536207327e-12,
+      "volume": 122.17535992426924,
+      "beta": 19613.355577892344,
+      "omitted_native_states": [
+        12288,
+        12288
+      ],
+      "cached_constant_control_max_absolute_error": 3.5388358909926865e-16,
+      "constant_gap_native_controls": {
+        "sha256": "c7e4f8564723ee3160beae97ed09bc9c9a7cc13589134db3f478366cf44f6b66",
+        "dimensions": [
+          100,
+          6,
+          7,
+          32768,
+          512
+        ],
+        "qnorm": 1.4213149536207327e-12,
+        "volume": 122.17535992426924,
+        "native_control_max_absolute_errors": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "negative_fine_weights": 1164403,
+        "negative_fine_weight_absolute_sum": 42.86565944990891,
+        "fine_weight_absolute_sum": 801.6763201504745,
+        "cases": [
+          {
+            "temperature_kelvin": 2,
+            "imposed_gap_mev": 1.5,
+            "mean_squared_active": [
+              -1.5838590630946606e-07,
+              -1.5841649183047032e-07
+            ],
+            "second_moment_active": [
+              0.008144975191219725,
+              0.008144966601453033
+            ],
+            "second_moment_all": [
+              0.008144883761804894,
+              0.008144883761804656
+            ],
+            "fine_grid_reference": 0.008144883761805485,
+            "direct_reference_max_absolute_error": 8.291978215169138e-16
+          },
+          {
+            "temperature_kelvin": 4,
+            "imposed_gap_mev": 1.5,
+            "mean_squared_active": [
+              -1.5542205069404963e-07,
+              -1.554519411951863e-07
+            ],
+            "second_moment_active": [
+              0.007572775287514661,
+              0.007572767298221063
+            ],
+            "second_moment_all": [
+              0.007572690278423447,
+              0.0075726902784229375
+            ],
+            "fine_grid_reference": 0.007572690278422804,
+            "direct_reference_max_absolute_error": 6.42715047849407e-16
+          },
+          {
+            "temperature_kelvin": 8,
+            "imposed_gap_mev": 1.5,
+            "mean_squared_active": [
+              -1.4743638949451923e-07,
+              -1.4746437458795173e-07
+            ],
+            "second_moment_active": [
+              0.004729138321631681,
+              0.004729133320141633
+            ],
+            "second_moment_all": [
+              0.004729085223009366,
+              0.004729085223009473
+            ],
+            "fine_grid_reference": 0.004729085223009522,
+            "direct_reference_max_absolute_error": 1.5612511283791264e-16
+          }
+        ],
+        "scope": "Matched-energy constant-gap closure diagnostic; not a converged material response"
+      },
+      "assignment": {
+        "dimensions": [
+          66867,
+          67940,
+          67940,
+          100,
+          512,
+          1,
+          26
+        ],
+        "native_counts": [
+          66867,
+          67940,
+          67940,
+          100,
+          512,
+          26,
+          32768
+        ],
+        "shape_matches": true,
+        "mapping_compatible": true,
+        "differences": {
+          "xi0": {
+            "max_absolute_difference": 0.0,
+            "entries_beyond_64eps_relative": 0
+          },
+          "dx0": {
+            "max_absolute_difference": 6.88214269644119e-22,
+            "entries_beyond_64eps_relative": 0
+          },
+          "xi": {
+            "max_absolute_difference": 0.0,
+            "entries_beyond_64eps_relative": 0
+          },
+          "dk": {
+            "max_absolute_difference": 3.3087224502121107e-23,
+            "entries_beyond_64eps_relative": 0
+          },
+          "kindx": {
+            "mismatches": 0
+          },
+          "bindx": {
+            "mismatches": 0
+          }
+        },
+        "qnorm": 1.4213149536207327e-12,
+        "volume": 122.17535992426924,
+        "tolerance": "64eps elementwise relative; zeros exact; indices exact",
+        "gap_transfer_verified": false,
+        "physical_response_verified": false,
+        "sha256": {
+          "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/response-assignment.txt": "11059fa33166bf168df8fb5914c334fa5b62876a5804c4db263a2dce39ca9328",
+          "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/response-assignment.bin": "829fd98c5f690597edd44a2e211a8c8695a81a743b40c417618499a2d10849ed",
+          "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.meta": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+          "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.bin": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37"
+        },
+        "scope": "Compare exported response assignment with a gap's initialized native layout."
+      },
+      "reduced_readback": {
+        "dimensions": [
+          66867,
+          67940,
+          67940,
+          100,
+          33
+        ],
+        "beta": 19613.355577892344,
+        "initial_amplitude_mev": 0.15,
+        "iterations": 5,
+        "coefficient_residual": 3.426078865054194e-17,
+        "orthogonality_error": 2.475797344914099e-14,
+        "mode_projection_error": 1.003161963220034e-12,
+        "fermi_averages_mev": [
+          0.13966775690678374,
+          0.13884292623387962
+        ],
+        "min_positive_weight_fermi_gap_mev": 0.10681594991912977,
+        "max_absolute_gap_ry": 2.1527916703887318e-05,
+        "rytoev": 13.605693122994017,
+        "full_native_residual_verified": false,
+        "sha256": {
+          "reduced-result.txt": "9605437706ba1feb9dd0cab898aae42569c0f35c24cbf16e1e0656b4de43560f",
+          "reduced-gap.bin": "dd3dab76cd0a6ef299a378592b00c8e39a43bbc8f5e06c0b160f4da35fb6de22",
+          "native-init.meta": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+          "native-init.bin": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37"
+        },
+        "scope": "Read a reduced candidate; a separate full native residual is mandatory."
+      },
+      "sha256": {
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/cell-moments-raw.txt": "f2e3ce38fd936ae1884f2eba41f64b798a486cadd2344ee4c4bc9a9217b2f828",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/cell-moments-raw.bin": "11378f1c63ba6198a2f482e5b2d0b9af08d773b313c03e07d0c72ffceff6d643",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/cell-moments-averaged.txt": "a5c393b7035bd024d11d3a0ebff520554819f8c2f47339b3cd275771be49dd0d",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/cell-moments-averaged.bin": "095901131e129193ac1d3b4bb0afebfc056b8cbd81db5cd6c68c4d061709d680",
+        "/Users/noahs/Developer/sc-dft-exp/research/response_moment_cache_manifest.json": "cd349336da70facda6483414f859a6cbfd3ef5daaadb64ef8b71c8a312ccb498",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/results/moment/receipt.json": "f6fbba2bf3d0af553f5917f9fd994111c7c15b06f85f03bb795ce1f4fd90adaf",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/results/moment/console.log": "bde79b60d52077308a0a53e6b7e03cdb3b4da41394b7d6a327be3ff22d1aa636",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/response-symmetry.txt": "c72df4d4883bbe81c69011c33f82086ecc91abfc6f28e5487a06f7bde3725efe",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/velocity-moments.txt": "c7e4f8564723ee3160beae97ed09bc9c9a7cc13589134db3f478366cf44f6b66",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/reduced-nonlinear-003/reduced-gap.bin": "dd3dab76cd0a6ef299a378592b00c8e39a43bbc8f5e06c0b160f4da35fb6de22"
+      },
+      "bound_scope": "Change of moments on native resolved support; native single-state contribution held identical in combined totals; discarded DOS support not reconstructed",
+      "terminal_receipt": {
+        "status": "PASS",
+        "error": null,
+        "command": [
+          "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/velocity-moment-probe.x",
+          "-in",
+          "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/native.in"
+        ],
+        "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001",
+        "wall_s": 37.28034854121506,
+        "exit": 0,
+        "max_individual_descendant_rss_bytes": 194461696,
+        "sampled_peak_group_rss_bytes": 194461696,
+        "macos_ru_maxrss_units": "bytes",
+        "rss_sample_interval_s": 2,
+        "continuous_deadline_s": 120,
+        "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+      },
+      "bound_is_formal_interval_certificate": false,
+      "roundoff_scope": "Triangle bound on computed coefficients with measured cache replay error and 64eps contraction allowance; not interval-certified transcendental functions",
+      "gap_modified": false,
+      "conditioned_gap_error_bounded": false,
+      "physical_response_verified": false
+    },
+    "34": {
+      "grids": [
+        {
+          "raw_second": 0.00010308830122279917,
+          "averaged_second": 0.00010308810612696186,
+          "averaged_mean_squared": -1.2043516672430536e-09,
+          "coefficient_range_bound": 1.0413310930456238e-08,
+          "raw_absolute_term_sum": 0.00010311592466406452,
+          "observed_replay_allowance": 2.4927176769692467e-20,
+          "roundoff_scale": 0.00020634330940760178,
+          "floating_roundoff_allowance": 2.9323147914454037e-18,
+          "averaging_absolute_bound": 1.0413310933413481e-08,
+          "retained_resolved_states": 54579,
+          "averaging_difference": -1.950958373125129e-10,
+          "averaging_bound_over_raw_response": 0.00010101350793343422,
+          "raw_cancellation_ratio": 1.0002679590306338,
+          "unchanged_single_state_branch_response": 3.193356025968042e-11,
+          "combined_raw_second": 0.00010308833315635943,
+          "combined_averaged_second": 0.00010308813806052212,
+          "combined_averaged_mean_squared": -1.1724181069833733e-09,
+          "averaging_bound_over_combined_response": 0.00010101347664259031
+        },
+        {
+          "raw_second": 0.000100304617438302,
+          "averaged_second": 0.00010030513883789495,
+          "averaged_mean_squared": -1.2445915060901082e-09,
+          "coefficient_range_bound": 1.0165357852340383e-08,
+          "raw_absolute_term_sum": 0.00010031712907305667,
+          "observed_replay_allowance": 2.529009337199789e-20,
+          "roundoff_scale": 0.00020076462680648232,
+          "floating_roundoff_allowance": 2.85303694349867e-18,
+          "averaging_absolute_bound": 1.016535785521871e-08,
+          "retained_resolved_states": 55652,
+          "averaging_difference": 5.213995929481035e-10,
+          "averaging_bound_over_raw_response": 0.00010134486442233315,
+          "raw_cancellation_ratio": 1.0001247363787849,
+          "unchanged_single_state_branch_response": 7.336837414489203e-11,
+          "combined_raw_second": 0.00010030469080667615,
+          "combined_averaged_second": 0.0001003052122062691,
+          "combined_averaged_mean_squared": -1.1712231319452162e-09,
+          "averaging_bound_over_combined_response": 0.00010134479029311874
+        }
+      ],
+      "averaging_replay_max_absolute_errors": {
+        "dos": 2.220446049250313e-16,
+        "first": 2.6531410296176022e-30,
+        "second": 3.587324068671532e-42,
+        "curvature": 3.4438311059246704e-41
+      },
+      "averaging_replay_reference_scales": {
+        "dos": 0.3220548358875283,
+        "first": 7.627996724606795e-15,
+        "second": 6.0872564232720106e-27,
+        "curvature": 1.5277207744844465e-25
+      },
+      "averaging_replay_relative_tolerance": 1e-12,
+      "scope": "Bound symmetry-averaging effects on a candidate's resolved-support response.",
+      "dimensions": [
+        100,
+        6,
+        7,
+        512,
+        2
+      ],
+      "qnorm": 1.4213149536207327e-12,
+      "volume": 122.17535992426924,
+      "beta": 19613.355577892344,
+      "omitted_native_states": [
+        12288,
+        12288
+      ],
+      "cached_constant_control_max_absolute_error": 3.5388358909926865e-16,
+      "constant_gap_native_controls": {
+        "sha256": "c7e4f8564723ee3160beae97ed09bc9c9a7cc13589134db3f478366cf44f6b66",
+        "dimensions": [
+          100,
+          6,
+          7,
+          32768,
+          512
+        ],
+        "qnorm": 1.4213149536207327e-12,
+        "volume": 122.17535992426924,
+        "native_control_max_absolute_errors": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "negative_fine_weights": 1164403,
+        "negative_fine_weight_absolute_sum": 42.86565944990891,
+        "fine_weight_absolute_sum": 801.6763201504745,
+        "cases": [
+          {
+            "temperature_kelvin": 2,
+            "imposed_gap_mev": 1.5,
+            "mean_squared_active": [
+              -1.5838590630946606e-07,
+              -1.5841649183047032e-07
+            ],
+            "second_moment_active": [
+              0.008144975191219725,
+              0.008144966601453033
+            ],
+            "second_moment_all": [
+              0.008144883761804894,
+              0.008144883761804656
+            ],
+            "fine_grid_reference": 0.008144883761805485,
+            "direct_reference_max_absolute_error": 8.291978215169138e-16
+          },
+          {
+            "temperature_kelvin": 4,
+            "imposed_gap_mev": 1.5,
+            "mean_squared_active": [
+              -1.5542205069404963e-07,
+              -1.554519411951863e-07
+            ],
+            "second_moment_active": [
+              0.007572775287514661,
+              0.007572767298221063
+            ],
+            "second_moment_all": [
+              0.007572690278423447,
+              0.0075726902784229375
+            ],
+            "fine_grid_reference": 0.007572690278422804,
+            "direct_reference_max_absolute_error": 6.42715047849407e-16
+          },
+          {
+            "temperature_kelvin": 8,
+            "imposed_gap_mev": 1.5,
+            "mean_squared_active": [
+              -1.4743638949451923e-07,
+              -1.4746437458795173e-07
+            ],
+            "second_moment_active": [
+              0.004729138321631681,
+              0.004729133320141633
+            ],
+            "second_moment_all": [
+              0.004729085223009366,
+              0.004729085223009473
+            ],
+            "fine_grid_reference": 0.004729085223009522,
+            "direct_reference_max_absolute_error": 1.5612511283791264e-16
+          }
+        ],
+        "scope": "Matched-energy constant-gap closure diagnostic; not a converged material response"
+      },
+      "assignment": {
+        "dimensions": [
+          66867,
+          67940,
+          67940,
+          100,
+          512,
+          1,
+          26
+        ],
+        "native_counts": [
+          66867,
+          67940,
+          67940,
+          100,
+          512,
+          26,
+          32768
+        ],
+        "shape_matches": true,
+        "mapping_compatible": true,
+        "differences": {
+          "xi0": {
+            "max_absolute_difference": 0.0,
+            "entries_beyond_64eps_relative": 0
+          },
+          "dx0": {
+            "max_absolute_difference": 6.88214269644119e-22,
+            "entries_beyond_64eps_relative": 0
+          },
+          "xi": {
+            "max_absolute_difference": 0.0,
+            "entries_beyond_64eps_relative": 0
+          },
+          "dk": {
+            "max_absolute_difference": 3.3087224502121107e-23,
+            "entries_beyond_64eps_relative": 0
+          },
+          "kindx": {
+            "mismatches": 0
+          },
+          "bindx": {
+            "mismatches": 0
+          }
+        },
+        "qnorm": 1.4213149536207327e-12,
+        "volume": 122.17535992426924,
+        "tolerance": "64eps elementwise relative; zeros exact; indices exact",
+        "gap_transfer_verified": false,
+        "physical_response_verified": false,
+        "sha256": {
+          "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/response-assignment.txt": "11059fa33166bf168df8fb5914c334fa5b62876a5804c4db263a2dce39ca9328",
+          "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/response-assignment.bin": "829fd98c5f690597edd44a2e211a8c8695a81a743b40c417618499a2d10849ed",
+          "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.meta": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+          "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.bin": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37"
+        },
+        "scope": "Compare exported response assignment with a gap's initialized native layout."
+      },
+      "reduced_readback": {
+        "dimensions": [
+          66867,
+          67940,
+          67940,
+          100,
+          34
+        ],
+        "beta": 19613.355577892344,
+        "initial_amplitude_mev": 0.15,
+        "iterations": 4,
+        "coefficient_residual": 8.153200337090993e-17,
+        "orthogonality_error": 2.475797344914099e-14,
+        "mode_projection_error": 1.003162830581772e-12,
+        "fermi_averages_mev": [
+          0.15412261926331694,
+          0.15321340045432952
+        ],
+        "min_positive_weight_fermi_gap_mev": 0.11785992819076377,
+        "max_absolute_gap_ry": 2.3756204318103896e-05,
+        "rytoev": 13.605693122994017,
+        "full_native_residual_verified": false,
+        "sha256": {
+          "reduced-result.txt": "95f79e88bb556e0b6626fa22a367435ab6c49e5a7114ef94d8db45f69e6b65e2",
+          "reduced-gap.bin": "1545912974f564a9b42b60cb00c532a6a439659ddf87b381ce604b0eebbe2ae7",
+          "native-init.meta": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+          "native-init.bin": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37"
+        },
+        "scope": "Read a reduced candidate; a separate full native residual is mandatory."
+      },
+      "sha256": {
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/cell-moments-raw.txt": "f2e3ce38fd936ae1884f2eba41f64b798a486cadd2344ee4c4bc9a9217b2f828",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/cell-moments-raw.bin": "11378f1c63ba6198a2f482e5b2d0b9af08d773b313c03e07d0c72ffceff6d643",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/cell-moments-averaged.txt": "a5c393b7035bd024d11d3a0ebff520554819f8c2f47339b3cd275771be49dd0d",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/cell-moments-averaged.bin": "095901131e129193ac1d3b4bb0afebfc056b8cbd81db5cd6c68c4d061709d680",
+        "/Users/noahs/Developer/sc-dft-exp/research/response_moment_cache_manifest.json": "cd349336da70facda6483414f859a6cbfd3ef5daaadb64ef8b71c8a312ccb498",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/results/moment/receipt.json": "f6fbba2bf3d0af553f5917f9fd994111c7c15b06f85f03bb795ce1f4fd90adaf",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/results/moment/console.log": "bde79b60d52077308a0a53e6b7e03cdb3b4da41394b7d6a327be3ff22d1aa636",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/response-symmetry.txt": "c72df4d4883bbe81c69011c33f82086ecc91abfc6f28e5487a06f7bde3725efe",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/velocity-moments.txt": "c7e4f8564723ee3160beae97ed09bc9c9a7cc13589134db3f478366cf44f6b66",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/reduced-nonlinear-004/reduced-gap.bin": "1545912974f564a9b42b60cb00c532a6a439659ddf87b381ce604b0eebbe2ae7"
+      },
+      "bound_scope": "Change of moments on native resolved support; native single-state contribution held identical in combined totals; discarded DOS support not reconstructed",
+      "terminal_receipt": {
+        "status": "PASS",
+        "error": null,
+        "command": [
+          "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/velocity-moment-probe.x",
+          "-in",
+          "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/native.in"
+        ],
+        "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001",
+        "wall_s": 37.28034854121506,
+        "exit": 0,
+        "max_individual_descendant_rss_bytes": 194461696,
+        "sampled_peak_group_rss_bytes": 194461696,
+        "macos_ru_maxrss_units": "bytes",
+        "rss_sample_interval_s": 2,
+        "continuous_deadline_s": 120,
+        "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+      },
+      "bound_is_formal_interval_certificate": false,
+      "roundoff_scope": "Triangle bound on computed coefficients with measured cache replay error and 64eps contraction allowance; not interval-certified transcendental functions",
+      "gap_modified": false,
+      "conditioned_gap_error_bounded": false,
+      "physical_response_verified": false
+    },
+    "35": {
+      "grids": [
+        {
+          "raw_second": 0.00010204855501477196,
+          "averaged_second": 0.00010204853774592175,
+          "averaged_mean_squared": -1.1921080635207059e-09,
+          "coefficient_range_bound": 2.0481939223394022e-09,
+          "raw_absolute_term_sum": 0.0001020758989011436,
+          "observed_replay_allowance": 2.4675799797684575e-20,
+          "roundoff_scale": 0.00020426230310332437,
+          "floating_roundoff_allowance": 2.902741913193898e-18,
+          "averaging_absolute_bound": 2.0481939252668197e-09,
+          "retained_resolved_states": 54579,
+          "averaging_difference": -1.7268850208856414e-11,
+          "averaging_bound_over_raw_response": 2.0070778316952503e-05,
+          "raw_cancellation_ratio": 1.000267949765361,
+          "unchanged_single_state_branch_response": 3.160658762035855e-11,
+          "combined_raw_second": 0.00010204858662135958,
+          "combined_averaged_second": 0.00010204856935250938,
+          "combined_averaged_mean_squared": -1.1605014759003474e-09,
+          "averaging_bound_over_combined_response": 2.0070772100611496e-05
+        },
+        {
+          "raw_second": 9.929200320307517e-05,
+          "averaged_second": 9.929209257695577e-05,
+          "averaged_mean_squared": -1.2319174580396265e-09,
+          "coefficient_range_bound": 1.9454320823958796e-09,
+          "raw_absolute_term_sum": 9.930438725070265e-05,
+          "observed_replay_allowance": 2.5034669452846634e-20,
+          "roundoff_scale": 0.0001987373916799562,
+          "floating_roundoff_allowance": 2.824228199642053e-18,
+          "averaging_absolute_bound": 1.9454320852451425e-09,
+          "retained_resolved_states": 55652,
+          "averaging_difference": 8.937388059715532e-11,
+          "averaging_bound_over_raw_response": 1.95930389405709e-05,
+          "raw_cancellation_ratio": 1.0001247235147643,
+          "unchanged_single_state_branch_response": 7.260900653590723e-11,
+          "combined_raw_second": 9.929207581208171e-05,
+          "combined_averaged_second": 9.92921651859623e-05,
+          "combined_averaged_mean_squared": -1.1593084515037194e-09,
+          "averaging_bound_over_combined_response": 1.9593024612830437e-05
+        }
+      ],
+      "averaging_replay_max_absolute_errors": {
+        "dos": 2.220446049250313e-16,
+        "first": 2.6531410296176022e-30,
+        "second": 3.587324068671532e-42,
+        "curvature": 3.4438311059246704e-41
+      },
+      "averaging_replay_reference_scales": {
+        "dos": 0.3220548358875283,
+        "first": 7.627996724606795e-15,
+        "second": 6.0872564232720106e-27,
+        "curvature": 1.5277207744844465e-25
+      },
+      "averaging_replay_relative_tolerance": 1e-12,
+      "scope": "Bound symmetry-averaging effects on a candidate's resolved-support response.",
+      "dimensions": [
+        100,
+        6,
+        7,
+        512,
+        2
+      ],
+      "qnorm": 1.4213149536207327e-12,
+      "volume": 122.17535992426924,
+      "beta": 19613.355577892344,
+      "omitted_native_states": [
+        12288,
+        12288
+      ],
+      "cached_constant_control_max_absolute_error": 3.5388358909926865e-16,
+      "constant_gap_native_controls": {
+        "sha256": "c7e4f8564723ee3160beae97ed09bc9c9a7cc13589134db3f478366cf44f6b66",
+        "dimensions": [
+          100,
+          6,
+          7,
+          32768,
+          512
+        ],
+        "qnorm": 1.4213149536207327e-12,
+        "volume": 122.17535992426924,
+        "native_control_max_absolute_errors": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "negative_fine_weights": 1164403,
+        "negative_fine_weight_absolute_sum": 42.86565944990891,
+        "fine_weight_absolute_sum": 801.6763201504745,
+        "cases": [
+          {
+            "temperature_kelvin": 2,
+            "imposed_gap_mev": 1.5,
+            "mean_squared_active": [
+              -1.5838590630946606e-07,
+              -1.5841649183047032e-07
+            ],
+            "second_moment_active": [
+              0.008144975191219725,
+              0.008144966601453033
+            ],
+            "second_moment_all": [
+              0.008144883761804894,
+              0.008144883761804656
+            ],
+            "fine_grid_reference": 0.008144883761805485,
+            "direct_reference_max_absolute_error": 8.291978215169138e-16
+          },
+          {
+            "temperature_kelvin": 4,
+            "imposed_gap_mev": 1.5,
+            "mean_squared_active": [
+              -1.5542205069404963e-07,
+              -1.554519411951863e-07
+            ],
+            "second_moment_active": [
+              0.007572775287514661,
+              0.007572767298221063
+            ],
+            "second_moment_all": [
+              0.007572690278423447,
+              0.0075726902784229375
+            ],
+            "fine_grid_reference": 0.007572690278422804,
+            "direct_reference_max_absolute_error": 6.42715047849407e-16
+          },
+          {
+            "temperature_kelvin": 8,
+            "imposed_gap_mev": 1.5,
+            "mean_squared_active": [
+              -1.4743638949451923e-07,
+              -1.4746437458795173e-07
+            ],
+            "second_moment_active": [
+              0.004729138321631681,
+              0.004729133320141633
+            ],
+            "second_moment_all": [
+              0.004729085223009366,
+              0.004729085223009473
+            ],
+            "fine_grid_reference": 0.004729085223009522,
+            "direct_reference_max_absolute_error": 1.5612511283791264e-16
+          }
+        ],
+        "scope": "Matched-energy constant-gap closure diagnostic; not a converged material response"
+      },
+      "assignment": {
+        "dimensions": [
+          66867,
+          67940,
+          67940,
+          100,
+          512,
+          1,
+          26
+        ],
+        "native_counts": [
+          66867,
+          67940,
+          67940,
+          100,
+          512,
+          26,
+          32768
+        ],
+        "shape_matches": true,
+        "mapping_compatible": true,
+        "differences": {
+          "xi0": {
+            "max_absolute_difference": 0.0,
+            "entries_beyond_64eps_relative": 0
+          },
+          "dx0": {
+            "max_absolute_difference": 6.88214269644119e-22,
+            "entries_beyond_64eps_relative": 0
+          },
+          "xi": {
+            "max_absolute_difference": 0.0,
+            "entries_beyond_64eps_relative": 0
+          },
+          "dk": {
+            "max_absolute_difference": 3.3087224502121107e-23,
+            "entries_beyond_64eps_relative": 0
+          },
+          "kindx": {
+            "mismatches": 0
+          },
+          "bindx": {
+            "mismatches": 0
+          }
+        },
+        "qnorm": 1.4213149536207327e-12,
+        "volume": 122.17535992426924,
+        "tolerance": "64eps elementwise relative; zeros exact; indices exact",
+        "gap_transfer_verified": false,
+        "physical_response_verified": false,
+        "sha256": {
+          "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/response-assignment.txt": "11059fa33166bf168df8fb5914c334fa5b62876a5804c4db263a2dce39ca9328",
+          "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/response-assignment.bin": "829fd98c5f690597edd44a2e211a8c8695a81a743b40c417618499a2d10849ed",
+          "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.meta": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+          "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.bin": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37"
+        },
+        "scope": "Compare exported response assignment with a gap's initialized native layout."
+      },
+      "reduced_readback": {
+        "dimensions": [
+          66867,
+          67940,
+          67940,
+          100,
+          35
+        ],
+        "beta": 19613.355577892344,
+        "initial_amplitude_mev": 0.15,
+        "iterations": 4,
+        "coefficient_residual": 1.9949319973733282e-17,
+        "orthogonality_error": 2.475797344914099e-14,
+        "mode_projection_error": 1.003161963220034e-12,
+        "fermi_averages_mev": [
+          0.15333664100817618,
+          0.1524306758603762
+        ],
+        "min_positive_weight_fermi_gap_mev": 0.11725938167879453,
+        "max_absolute_gap_ry": 2.363537171007586e-05,
+        "rytoev": 13.605693122994017,
+        "full_native_residual_verified": false,
+        "sha256": {
+          "reduced-result.txt": "000cef52b3103f7f9250d141ed33d70063055e2429c39ca5342b8c873b9a3882",
+          "reduced-gap.bin": "a7b1130b02f9a462766828a767c255f0c79ce1c1c511a4b7ffa3b85b9adb016f",
+          "native-init.meta": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+          "native-init.bin": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37"
+        },
+        "scope": "Read a reduced candidate; a separate full native residual is mandatory."
+      },
+      "sha256": {
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/cell-moments-raw.txt": "f2e3ce38fd936ae1884f2eba41f64b798a486cadd2344ee4c4bc9a9217b2f828",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/cell-moments-raw.bin": "11378f1c63ba6198a2f482e5b2d0b9af08d773b313c03e07d0c72ffceff6d643",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/cell-moments-averaged.txt": "a5c393b7035bd024d11d3a0ebff520554819f8c2f47339b3cd275771be49dd0d",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/cell-moments-averaged.bin": "095901131e129193ac1d3b4bb0afebfc056b8cbd81db5cd6c68c4d061709d680",
+        "/Users/noahs/Developer/sc-dft-exp/research/response_moment_cache_manifest.json": "cd349336da70facda6483414f859a6cbfd3ef5daaadb64ef8b71c8a312ccb498",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/results/moment/receipt.json": "f6fbba2bf3d0af553f5917f9fd994111c7c15b06f85f03bb795ce1f4fd90adaf",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/results/moment/console.log": "bde79b60d52077308a0a53e6b7e03cdb3b4da41394b7d6a327be3ff22d1aa636",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/response-symmetry.txt": "c72df4d4883bbe81c69011c33f82086ecc91abfc6f28e5487a06f7bde3725efe",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/velocity-moments.txt": "c7e4f8564723ee3160beae97ed09bc9c9a7cc13589134db3f478366cf44f6b66",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/reduced-nonlinear-005/reduced-gap.bin": "a7b1130b02f9a462766828a767c255f0c79ce1c1c511a4b7ffa3b85b9adb016f"
+      },
+      "bound_scope": "Change of moments on native resolved support; native single-state contribution held identical in combined totals; discarded DOS support not reconstructed",
+      "terminal_receipt": {
+        "status": "PASS",
+        "error": null,
+        "command": [
+          "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/velocity-moment-probe.x",
+          "-in",
+          "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/native.in"
+        ],
+        "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001",
+        "wall_s": 37.28034854121506,
+        "exit": 0,
+        "max_individual_descendant_rss_bytes": 194461696,
+        "sampled_peak_group_rss_bytes": 194461696,
+        "macos_ru_maxrss_units": "bytes",
+        "rss_sample_interval_s": 2,
+        "continuous_deadline_s": 120,
+        "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+      },
+      "bound_is_formal_interval_certificate": false,
+      "roundoff_scope": "Triangle bound on computed coefficients with measured cache replay error and 64eps contraction allowance; not interval-certified transcendental functions",
+      "gap_modified": false,
+      "conditioned_gap_error_bounded": false,
+      "physical_response_verified": false
+    }
+  },
+  "analysis_sources_sha256": {
+    "/Users/noahs/Developer/sc-dft-exp/research/anisotropic_moment_analysis.py": "39a1667baa84b63a1b09ae1f873eb08bb72f0624fd1049203abca483569f6833",
+    "/Users/noahs/Developer/sc-dft-exp/research/cell_moment_cache.py": "0f1b10c2f44ec7bb04850375987b0dd18ae3e1079f50a29dd289dcc65a4067e7",
+    "/Users/noahs/Developer/sc-dft-exp/research/linear_response.py": "3329783e2668d0118da635e52aed6cd2f9111c73965364820b89eae557e6ccee",
+    "/Users/noahs/Developer/sc-dft-exp/research/gap_symmetry_audit.py": "ae6639a42b7c1b214835be9544e3f4c108e118d05c6a406ebfa505b74032070a",
+    "/Users/noahs/Developer/sc-dft-exp/research/moment_analysis.py": "abe4dfcece50f374e187f1f4cbca1b673cb10e0a9b825df88229c732092ce8bc",
+    "/Users/noahs/Developer/sc-dft-exp/research/response_assignment_analysis.py": "5de6b02adc8a0e8df8a947f2e6aa3aa727383ebb2bc106769dad7a1860537a48",
+    "/Users/noahs/Developer/sc-dft-exp/research/reduced_nonlinear_analysis.py": "38a7d6ed455e8dd118452bb50dec19c2487ad372777e3c25af3c544c7aade65c",
+    "/Users/noahs/Developer/sc-dft-exp/research/compare_legacy_gap.py": "e56de2f0c9164921952ab214e69c8d7f948154745d53df12ad2f682b108f4f98"
+  },
+  "scope": "Shared fixed native geometry and moment cache; candidates are not accepted stationary gaps or physical response predictions"
+}

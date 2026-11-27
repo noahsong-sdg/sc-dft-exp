@@ -38,3 +38,17 @@ Rank35 was independently evaluated and still misses both targets. Connecting lin
 only guide the eye. These fixed microscopic inputs do not establish discretization
 convergence, conditioned solution error, or physical response accuracy.
 PNG was visually inspected for labels, scales, and clipping.
+
+## Anisotropic candidate response
+
+`plot_anisotropic_response.py` generates `anisotropic_response.png`/`.pdf` from
+`anisotropic_candidate_response_series.json`; its hash is in
+`anisotropic_response_sources.json`. Left: second-moment response on retained
+resolved support plus the unchanged native single-state contribution. Right:
+computed absolute moment-averaging bound divided by that combined response.
+Bounds concern this numerical operation at each unmodified candidate. They do
+not bound self-consistent gap error, discarded support, discretization, current
+functional accuracy, or material prediction error. All candidates remain
+unaccepted. The full48-operation geometry deliberately exercises the documented
+absolute-selector defect; it is not the qualified directional small-Q method.
+See ../ANISOTROPIC_MOMENT_GATE.md for assumptions and floating-point scope.

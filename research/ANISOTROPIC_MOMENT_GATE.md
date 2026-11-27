@@ -22,7 +22,7 @@ loosening an identity threshold, or assuming a variance theorem for signed
 quadrature weights. Historical exporter sources are preserved at dc8a6f2;
 older manifests identify earlier exact versions and must not be rewritten.
 
-## Discrete observable and error control to implement
+## Discrete observable and error control
 
 For each retained resolved energy/cell/band state let
 
@@ -61,7 +61,7 @@ stale phase/context and incorrect native averaging fixtures.
 ## Resource and interpretation gates
 
 One opt-in cache export is prepared in response_moment_cache_manifest.json.
-Launch only after full native owner2285 is terminal, then after the normal
+This run completed after full native owner2285 was terminal and after the normal
 120-second pressure window. Deadline120s/RSS3GiB; earlier same-geometry run
 34.95s/195MB. Raw+averaged caches add about13MB at the present dimensions.
 The q1e-12/full48 setup deliberately exercises the documented absolute selector
@@ -71,3 +71,44 @@ qualified physical small-Q prescription or a replacement for the relative fix.
 No threshold on observable error is silently inferred from the 1e-10 symmetry
 identity test. Quantify the result first. Any later accuracy claim must name
 its observable, support, denominator, tolerance, and scientific decision.
+
+## Material result: fixed Nb geometry, unaccepted rank35 candidate
+
+`anisotropic_candidate_response_series.json` reuses the same cache for ranks31–35;
+`response_moment_cache_result.json` binds the receipt and cache hashes. Native
+export guardPASS37.280s/194461696B. All five analyses together took5.11s/176177152B.
+Each analysis replays all four moment arrays under the actual native cell maps,
+checks all three native constant-gap rows, verifies prospective inputs and the
+terminal receipt, and checks exact candidate labels and quadrature compatibility.
+The native constant-control maximum discrepancy is3.54e-16 code units.
+
+| Rank35 quantity | Grid1 | Grid2 |
+| --- | ---: | ---: |
+| Retained resolved states | 54579 | 55652 |
+| Separate native single-state states | 12288 | 12288 |
+| Raw second-moment response, plus unchanged single-state branch | 1.020485866e-4 | 9.929207581e-5 |
+| Observed averaging change / combined response (ppm) | -0.1692 | +0.9001 |
+| Computed absolute averaging bound / combined response (ppm) | 20.0708 | 19.5930 |
+
+The bound uses coefficient ranges, measured cache-replay discrepancies and a
+64eps floating contraction allowance. It is not a formal interval certificate
+for transcendental evaluation. Signed weights are retained. The one-node edge
+case follows the actual `store_d3k` rule: at least TWO surviving DOS nodes are
+required for the resolved branch. The native single-state contribution is
+computed unchanged from its assigned derivatives and added to combined totals;
+we neither replace it with a resolved node nor claim its continuum accuracy.
+An actual-file-schema regression covers that boundary and stale receipt/input.
+
+This result answers a specific question: failure of the strict gap-symmetry
+identity check does not, for this candidate and observable, imply a material
+moment-averaging error. It does not establish the candidate's error relative
+to the true self-consistent solution. The two combined grid estimates differ
+by2.738% relative to their mean; rank34→35 changes each response by about-1.01%.
+Those sensitivities exceed the averaging bound and remain unresolved.
+
+The mean-squared route nearly vanishes in this deliberately full48-operation,
+tiny-Q diagnostic because inversion cancels the averaged velocity. That is NOT
+a claim that the production directional four-operation calculation has the same
+failure magnitude. The relative-selector fix and this averaging experiment have
+different purposes. No SI penetration depth, experimental agreement, or
+end-to-end speedup is inferred.
