@@ -38,3 +38,14 @@ supercurrent. A preparation-only curvature dump could stop after ini_delta on
 the fresh-state branch, but historical saved gap/state alignment must be
 reconstructed. Restart does not regenerate the missing curvature. A direct
 postprocessing entry point is not established by this trace.
+
+## Current Mac guarded-pilot accounting
+
+[campaign_native_resource_accounting.json](campaign_native_resource_accounting.json)
+snapshots terminal native guard receipts, including prelaunch and failed attempts.
+Recompute with `python3 research/resource_accounting.py`. At this checkpoint,
+23 terminal attempts total1001.162s:849.931s in14 guard-PASS attempts and151.231s
+in9 failures. Guard PASS alone is not scientific acceptance. Waiting, builds,
+downloads, Python references and model use are excluded; this is not total
+campaign time, CPU time, energy, or monetary cost. Those unmetered quantities
+remain unknown. Each row records the original receipt hash and resource metrics.

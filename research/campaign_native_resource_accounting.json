@@ -1,0 +1,271 @@
+{
+  "as_of_utc": "2026-11-27T08:15:21.991913+00:00",
+  "attempts": [
+    {
+      "path": "nb-moments-001/results/moments/receipt.json",
+      "receipt_sha256": "6208bf8380ed71a15093dfa5a25a80563f4e4015af4a23566144c8cd30c08b90",
+      "status": "FAIL",
+      "wall_s": 51.17740395851433,
+      "error": "RuntimeError: Host memory pressure not normal",
+      "exit": -15,
+      "individual_peak_rss_bytes": 110739456,
+      "sampled_group_peak_rss_bytes": 110739456,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "nb-moments-002/results/moments/receipt.json",
+      "receipt_sha256": "3a722becad1040eab1c5e9817c26d1012596681e2d70708d567d4eceb20f0904",
+      "status": "PASS",
+      "wall_s": 52.57537258276716,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 178372608,
+      "sampled_group_peak_rss_bytes": 171458560,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "nb-moments-current-001/results/moments/receipt.json",
+      "receipt_sha256": "150e86d858e63f35aaaa4d1dff2b391e4a733fe161797699c1cefd907f88bae5",
+      "status": "PASS",
+      "wall_s": 49.53679470857605,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 206405632,
+      "sampled_group_peak_rss_bytes": 206405632,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "nb-moments-current-111-001/results/moments/receipt.json",
+      "receipt_sha256": "3a69cc927fbfbd0204e70271ce5d871f898e538c45b0dee84d423d6fe2b66138",
+      "status": "FAIL",
+      "wall_s": 6.34211854217574,
+      "error": "RuntimeError: Host memory pressure not normal",
+      "exit": -15,
+      "individual_peak_rss_bytes": 97353728,
+      "sampled_group_peak_rss_bytes": 97353728,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "nb-moments-current-111-002/results/moments/receipt.json",
+      "receipt_sha256": "85bd12a9053af0a696d95871cc88e85c64d55b5788d30bf41c3a76c5171a225d",
+      "status": "PASS",
+      "wall_s": 72.55289987521246,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 144293888,
+      "sampled_group_peak_rss_bytes": 141754368,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "nb-moments-energy200-001/results/moment/receipt.json",
+      "receipt_sha256": "0642ea3f7f1170751cd799a7144e33418c41bfa596525333c46de1aedb61df0e",
+      "status": "PASS",
+      "wall_s": 77.0204670834355,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 274808832,
+      "sampled_group_peak_rss_bytes": 274808832,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "nb-moments-grid16-001/results/moments/receipt.json",
+      "receipt_sha256": "e0932c9ee4880962b136f4c968b76f6da7910bb034110524dac3719bd0d006ab",
+      "status": "FAIL",
+      "wall_s": 0.0031924163922667503,
+      "error": "RuntimeError: Host memory pressure not normal",
+      "exit": null,
+      "individual_peak_rss_bytes": null,
+      "sampled_group_peak_rss_bytes": 0,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "nb-moments-grid16-002/results/moments/receipt.json",
+      "receipt_sha256": "7a77ac072c10b1793a8af7d6b837a856624ef22ff957401d5daf1c2e5f93114e",
+      "status": "PASS",
+      "wall_s": 50.83500908315182,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 286277632,
+      "sampled_group_peak_rss_bytes": 246956032,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "nb-moments-grid32-001/results/moments/receipt.json",
+      "receipt_sha256": "9c803285fa527d65db41db56a1539848d678587535973a58248fab42ff8ccd56",
+      "status": "PASS",
+      "wall_s": 52.832512291613966,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 1265909760,
+      "sampled_group_peak_rss_bytes": 924975104,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "nb-moments-unshifted-001/results/moments/receipt.json",
+      "receipt_sha256": "f014f3f34ee52fc630e28717b0c22bc85d84ce3cf8c70d1c766568c3e41e3c05",
+      "status": "FAIL",
+      "wall_s": 53.69402691628784,
+      "error": "RuntimeError: Host memory pressure not normal",
+      "exit": -15,
+      "individual_peak_rss_bytes": 100450304,
+      "sampled_group_peak_rss_bytes": 100450304,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "nb-moments-unshifted-002/results/moments/receipt.json",
+      "receipt_sha256": "339ea734cacbbd35c9149bf8e16fc8172a32713860d0207028dc8c89adade616",
+      "status": "FAIL",
+      "wall_s": 0.004446124657988548,
+      "error": "PermissionError: [Errno 13] Permission denied: '/Users/noahs/Developer/sc-dft-exp/research/raw/nb-moments-unshifted-002/velocity-moment-probe.x'",
+      "exit": null,
+      "individual_peak_rss_bytes": null,
+      "sampled_group_peak_rss_bytes": 0,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "nb-moments-unshifted-003/results/moments/receipt.json",
+      "receipt_sha256": "29bbdb4e2d616034114b37e5add7d5a1ff94ab11215da5b6ec0ebc01b7d89a95",
+      "status": "PASS",
+      "wall_s": 63.89097979199141,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 181452800,
+      "sampled_group_peak_rss_bytes": 174292992,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "nb-moments-unshifted-111-001/results/moments/receipt.json",
+      "receipt_sha256": "e59d1fdc4176ec34057b89f369e3525fd2e9c4362325a9eccc8e1114bc8fec70",
+      "status": "PASS",
+      "wall_s": 60.88876983337104,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 166477824,
+      "sampled_group_peak_rss_bytes": 162398208,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "nb-moments-velocity4-011-001/results/moments/receipt.json",
+      "receipt_sha256": "1143ab7835ce9691be249fa41b9de3a53c297068eee07c8e21c46ededf3f9190",
+      "status": "PASS",
+      "wall_s": 64.73807504214346,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 145735680,
+      "sampled_group_peak_rss_bytes": 139149312,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "nb-moments-velocity4-111-002/results/moment/receipt.json",
+      "receipt_sha256": "bd69baba288441d8c7db0fa514339cf19652c6b8ebfb3acdd75b2b384a367c4d",
+      "status": "PASS",
+      "wall_s": 75.92675912519917,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 142311424,
+      "sampled_group_peak_rss_bytes": 136757248,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "nb-preparation-001/results/preparation/receipt.json",
+      "receipt_sha256": "6264ad991e296bca2c37b940b2dd1d95b94f42ebbff6badf453099d140bd3cf3",
+      "status": "FAIL",
+      "wall_s": 0.0030892500653862953,
+      "error": "RuntimeError: Host memory pressure not normal",
+      "exit": null,
+      "individual_peak_rss_bytes": null,
+      "sampled_group_peak_rss_bytes": 0,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "nb-preparation-002/results/preparation/receipt.json",
+      "receipt_sha256": "2cbc41779f5adbcdcb4922be9d72550854b50f79fd53476f714ab837aabfb032",
+      "status": "FAIL",
+      "wall_s": 0.8829192081466317,
+      "error": "RuntimeError: Native command exit -10",
+      "exit": -10,
+      "individual_peak_rss_bytes": 89063424,
+      "sampled_group_peak_rss_bytes": 32768,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "nb-preparation-003/results/preparation/receipt.json",
+      "receipt_sha256": "7f480f92e8b1c8d68379cc66733ade55401b73d6945f2593bb549f08f642dd70",
+      "status": "FAIL",
+      "wall_s": 24.701156874652952,
+      "error": "RuntimeError: Host memory pressure not normal",
+      "exit": -15,
+      "individual_peak_rss_bytes": 100204544,
+      "sampled_group_peak_rss_bytes": 100204544,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "nb-preparation-004/results/preparation/receipt.json",
+      "receipt_sha256": "7ae792c51c752aa33a46e3243a541f9c9f3b60f2e545204c3b09230cc1cf7e04",
+      "status": "FAIL",
+      "wall_s": 14.422922958619893,
+      "error": "RuntimeError: Host memory pressure not normal",
+      "exit": -15,
+      "individual_peak_rss_bytes": 86294528,
+      "sampled_group_peak_rss_bytes": 86294528,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "nb-preparation-005/results/preparation/receipt.json",
+      "receipt_sha256": "1542a2dcea6f1fcbfd9aa44502087e6411beceb9578206b2fa7eeec88134c5bb",
+      "status": "PASS",
+      "wall_s": 49.78337454190478,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 199573504,
+      "sampled_group_peak_rss_bytes": 198492160,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "nb-preparation-006/results/preparation/receipt.json",
+      "receipt_sha256": "0191adbee27ce311476d1ed4ab466fb5f16d5952b2e4ac4b053409278ef5a256",
+      "status": "PASS",
+      "wall_s": 51.63108437508345,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 113590272,
+      "sampled_group_peak_rss_bytes": 113508352,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "nb-preparation-007/results/preparation/receipt.json",
+      "receipt_sha256": "32ae41f232ee48f182f992774007af6557d5717f12f9b180decc4fad951be9cb",
+      "status": "PASS",
+      "wall_s": 50.587013417389244,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 189956096,
+      "sampled_group_peak_rss_bytes": 182222848,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "nb-preparation-archive300-001/results/preparation/receipt.json",
+      "receipt_sha256": "62c3248ea7e59ac1c45d0446f1c2b808bc84ac4b981ff6c8a9374baac58b831e",
+      "status": "PASS",
+      "wall_s": 77.13150433357805,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 322535424,
+      "sampled_group_peak_rss_bytes": 322535424,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    }
+  ],
+  "totals": {
+    "PASS": {
+      "attempts": 14,
+      "wall_s": 849.9306160854176
+    },
+    "FAIL": {
+      "attempts": 9,
+      "wall_s": 151.23127624951303
+    }
+  },
+  "total_guarded_wall_s": 1001.1618923349306,
+  "scope": "Account for terminal guarded native attempts, including failed/prelaunch ones.\n\nThis excludes launch-watch waiting, compilation, downloads, Python analyses and\nunmetered model use. Guard PASS is not scientific or physical acceptance.",
+  "cpu_time_energy_model_cost": "Not instrumented; no estimates inferred"
+}
