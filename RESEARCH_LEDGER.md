@@ -1,5 +1,26 @@
 # Research restart ledger
 
+## Latest priority — small-Q symmetry control, native derivative owner waiting
+
+Previous goal turn made progress: converged archived Nb replay published58bdb43;
+public CI45962391278 verified SUCCESS. New exact-source symmetry regression
+finds absolute momentum tolerance admits inversion below |q|~1.58e-8 in the
+single-component fixture, cancelling first moments. Relative normalization
+passes nonzero scales1e-4..1e-12 and exact-zero control on both shifts. See
+research/SYMMETRY_SCALE_FINDING.md. No material-impact/currentfullbuild claim.
+
+Verified LIVE owner51097, PID30345: raw/run-fourth111-002.py. Fresh fourth-order
+[111] attempt002 waits for60s normal host pressure, bounded20min launch watch,
+then unchanged120s/3GiB native guard. Latest pressure2, no native child. Poll
+samehandle before any new native job; do not duplicate. Original001 was cancelled
+while waiting earlier;011 result accepted. On success analyze velocity-moments.txt
+with moment_analysis.py and compare direct values against011 and second order.
+Checks:49 offline unittests PASS(5.320s), compileall PASS, committed moment
+refinement replay PASS, diff check PASS. Source fixture independently matched
+the hash-verified full upstream routine. Goal remains incomplete;
+ceiling2026-11-27T17:41Z unchanged.
+
+
 ## Latest priority — converged archived Nb replay completed
 
 Previous goal turn verified the published two-week prompt but made no new

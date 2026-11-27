@@ -16,16 +16,18 @@ Current campaign: [scientific decision checkpoint](research/DECISION_STATUS.md),
 [response-cell refinement](research/MOMENT_REFINEMENT_RESULT.md),
 [direction and zero-Q gate](research/DIRECTION_AND_ZERO_Q_GATE.md),
 [scalar normalization control](research/RESPONSE_NORMALIZATION.md),
-[documented saved-gap replay candidate](research/ARCHIVED_NB_FINITE_Q_GATE.md),
+[small-Q symmetry validity test](research/SYMMETRY_SCALE_FINDING.md),
+[converged saved-gap replay](research/ARCHIVED_NB_FINITE_Q_GATE.md),
 [complete gap-RHS finding](research/RHS_THERMAL_FINDING.md),
 [finite-temperature RHS zero-energy boundary](research/RHS_ZERO_ENERGY_FINDING.md),
 [thermal-factor finding](research/CURRENT_IDENTITY_FINDING.md),
 [held-out boundary tests](research/THERMAL_BOUNDARY_RESULT.md),
 [reviewable pinned-source correction](research/patches/README.md),
 [workflow costs](research/WORKFLOW_COSTS.md), and
-[response figures](research/figures/README.md). The correction is checked on
-synthetic fixtures and imposed-gap Nb geometry; self-consistent material impact
-remains unresolved. The [zero-energy correction](research/ZERO_ENERGY_FINDING.md)
+[response figures](research/figures/README.md). The thermal correction is checked on
+synthetic fixtures, imposed-gap Nb geometry, and a documented converged frozen
+Nb gap. Its current effect in that real state is only 2.5–2.8 ppm; corrected
+self-consistent material impact remains unresolved. The [zero-energy correction](research/ZERO_ENERGY_FINDING.md)
 also passes normal-state controls that exposed an additional singularity.
 
 Public progress record for a preregistered comparison between an isotropic

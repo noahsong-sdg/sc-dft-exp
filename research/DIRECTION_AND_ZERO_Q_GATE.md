@@ -76,3 +76,11 @@ see nb_velocity_moment_fourth_order_011_results.json. This is derivative-order
 sensitivity, not an error bar or proof of improved physical accuracy. Curvature
 was unchanged. The paired [111] comparison is still pending. Neither stencil is
 accepted as a converged material prediction.
+
+## Additional small-Q symmetry gate
+
+[The complete symmetry routine](SYMMETRY_SCALE_FINDING.md) fails a nonzero-Q
+scale-invariance control below its fixed absolute tolerance. A relative-residual
+candidate passes both grid shifts and preserves the distinct exactly-zero
+subgroup. This does not explain the direction discrepancy at the tested larger Q,
+but forbids treating arbitrary momentum reduction as a safe convergence strategy.

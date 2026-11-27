@@ -14,3 +14,7 @@ as stated in its header. A copy is provided in licenses/GPL-2.0.txt.
 Exception: research/patches/*.patch contains changes to GPL-licensed SCTK
 source and is distributed under the same GNU General Public License.
 
+
+Exception: research/fixtures/pinned_symm_dosk.f90 is an unmodified SCTK
+routine, copyright Mitsuaki Kawamura, under the GNU General Public License
+version 2 or later. See its header and licenses/GPL-2.0.txt.

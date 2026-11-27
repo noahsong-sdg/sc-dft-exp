@@ -1,0 +1,113 @@
+{
+  "fixture_sha256": "cb911a98a263030227e8ec2c535e50159e3f21cb903c3e2b63e5b4822110899a",
+  "source_revision": "4bc883e5dfd8a2b38f47f2cb6efba26b773d5b33",
+  "compiler": "GNU Fortran (Homebrew GCC 16.2.0) 16.2.0",
+  "flags": [
+    "-O0",
+    "-std=f2008",
+    "-fcheck=all"
+  ],
+  "results": {
+    "released": [
+      {
+        "q_fractional": 0.0001,
+        "retained_symmetries": 1,
+        "first_moment_squared_retention": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "q_fractional": 1e-07,
+        "retained_symmetries": 1,
+        "first_moment_squared_retention": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "q_fractional": 1e-08,
+        "retained_symmetries": 2,
+        "first_moment_squared_retention": [
+          3.649214750845877e-32,
+          9.99839855107905e-33
+        ]
+      },
+      {
+        "q_fractional": 1e-10,
+        "retained_symmetries": 2,
+        "first_moment_squared_retention": [
+          5.011433831422869e-32,
+          9.998398551079055e-33
+        ]
+      },
+      {
+        "q_fractional": 1e-12,
+        "retained_symmetries": 2,
+        "first_moment_squared_retention": [
+          5.437753723332107e-32,
+          9.998398551079051e-33
+        ]
+      },
+      {
+        "q_fractional": 0.0,
+        "retained_symmetries": 2,
+        "first_moment_squared_retention": [
+          4.830861577197851e-32,
+          9.998398551079052e-33
+        ]
+      }
+    ],
+    "relative": [
+      {
+        "q_fractional": 0.0001,
+        "retained_symmetries": 1,
+        "first_moment_squared_retention": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "q_fractional": 1e-07,
+        "retained_symmetries": 1,
+        "first_moment_squared_retention": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "q_fractional": 1e-08,
+        "retained_symmetries": 1,
+        "first_moment_squared_retention": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "q_fractional": 1e-10,
+        "retained_symmetries": 1,
+        "first_moment_squared_retention": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "q_fractional": 1e-12,
+        "retained_symmetries": 1,
+        "first_moment_squared_retention": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "q_fractional": 0.0,
+        "retained_symmetries": 2,
+        "first_moment_squared_retention": [
+          4.830861577197851e-32,
+          9.998398551079052e-33
+        ]
+      }
+    ]
+  },
+  "scope": "Complete symmetry routine; identity/inversion odd-velocity fixture; no material prediction"
+}

@@ -6,7 +6,8 @@ with `python3 research/full_rhs_probe.py --blas /path/to/libblas.a`; it requires
 gfortran and a compatible double-precision BLAS library. These synthetic routines
 are distinct from the staged [material preparation pilot](PREPARATION_PILOT.md).
 
-Run from the repository root with Python 3.9+ (standard library only):
+Run from the repository root with Python 3.9+ (standard-library Python;
+the complete regression suite also requires gfortran):
 
 ```
 python3 research/response_analysis.py fetch
@@ -14,9 +15,9 @@ python3 research/response_analysis.py analyze
 python3 -m unittest discover -s research -v
 ```
 
-The suite also compiles a scalar Fortran probe when `gfortran` is installed.
-Its test is explicitly skipped otherwise; a skipped native test does not prove
-native validation on that machine.
+The suite includes the [complete symmetry-routine regression](SYMMETRY_SCALE_FINDING.md),
+which requires gfortran and runs without network access. Some older scalar tests
+can skip without the compiler; those skips do not establish native validation.
 
 Run `python3 research/full_current_probe.py` with network access and gfortran
 to retrieve a SHA256-checked pinned source, extract its complete unmodified
