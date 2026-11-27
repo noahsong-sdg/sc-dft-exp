@@ -1276,3 +1276,13 @@ dependency. Build-only acceptance: material runtime remains gated on qualified
 mode and full nonlinear residual. New guarded total10881.112085126192s.
 Restart009 manifest staged; four-segment application remains within pilot cap.
 No maintained code changes; diffcheckPASS.
+
+
+## Third-restart bounded application segment009
+
+Rows1:16384 terminal PASS, guarded wall204.5595442499034s;
+new guarded total11085.671629376095s. Original native certification, all postrun pinned
+inputs and public/consumed manifest equality PASS. Full-image result complete:
+False. Independent residual/mode check still required
+after012. No automatic continuation beyond012; no gap/response acceptance.
+Unchanged sources/thresholds; last184tests/193compilations/moment PASS.
