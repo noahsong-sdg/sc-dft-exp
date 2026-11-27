@@ -4,6 +4,12 @@
 [RESEARCH_LEDGER.md](RESEARCH_LEDGER.md).** Future agents should read
 [AGENTS.md](AGENTS.md). The benchmark snapshot below predates this campaign.
 
+Current campaign evidence: [thermal-factor finding](research/CURRENT_IDENTITY_FINDING.md),
+[held-out boundary tests](research/THERMAL_BOUNDARY_RESULT.md),
+[workflow costs](research/WORKFLOW_COSTS.md), and
+[response figures](research/figures/README.md). The correction is validated on
+synthetic fixtures only; material-specific impact remains unresolved.
+
 Public progress record for a preregistered comparison between an isotropic
 Migdal–Eliashberg solver (IsoME) and the superconducting DFT implementation in
 the Superconducting Toolkit (SCTK).

@@ -37,3 +37,17 @@ than the two-line fix because a demonstrated independent threshold defect made
 that fix insufficient. The next held-out tests should include smaller gaps,
 extreme inverse temperatures, threshold crossings, independent high-precision
 occupation evaluation and OpenMP execution where supported.
+
+## Independent 80-digit scalar check
+
+`python3 research/precision_probe.py` evaluates 120 new normal-factor cases
+using Decimal exponentials at 80-digit precision. Inverse temperatures span
+.01 to 1e6; shifts span 1e-6 to 10; energies include relative offsets of
+plus/minus 1e-8 around equality. The hybrid normal factor has zero failures
+at the previously stated absolute 1e-7 criterion; worst error 1.516e-10.
+The equality case retains its exact half-occupation. Some error comes from
+binary versus decimal input representation before nearly equal subtraction.
+
+This checks the scalar normal factor independently of double tanh, not the
+complete superconducting current, OpenMP, arbitrary physical units or material
+response. The 81-case native grid and 120-case decimal grid are distinct tests.

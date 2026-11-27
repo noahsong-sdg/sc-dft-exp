@@ -106,6 +106,15 @@ See THERMAL_BOUNDARY_RESULT.md and threshold_results.json; not material-qualifie
 Sixteen offline tests still pass. Next high-precision held-out extremes and
 threshold continuity; then preparation-only material replay feasibility.
 
+## Independent decimal validation
+
+120 new scalar cases checked against 80-digit exponential occupation formula;
+max absolute difference 1.516e-10, zero failures at 1e-7. Equality half-factor
+passes. Eighteen offline tests pass. Full source compile/grid remains a separate
+networked check. Next: OpenMP/different compiler optimization qualification,
+material-state reconstruction gate, then current alternative-method survey and
+an integrated interim decision report. No claim of goal completion.
+
 ## Standalone figures
 
 Matplotlib environment completed. Generated PNG/PDF response and extraction
