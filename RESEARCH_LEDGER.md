@@ -1,5 +1,19 @@
 # Research restart ledger
 
+## Latest findings — upstream RHS and wrapper contract
+
+Previous turn remains progress. Exact pinned finite-temperature gap-RHS thermal
+block compiled: equality factor released 0 versus direct 0.5, and off-equality
+window counterexamples reproduced. See research/RHS_THERMAL_FINDING.md. This is
+upstream of current evaluation; no converged-gap impact measured or patch adopted.
+
+Attempt 002 material preparation launched under normal pressure then SIGBUS in
+0.883 seconds. Traced our wrapper's literal logical argument to QE's INOUT write;
+fixed mutable variable + explicit interface and added actual-wrapper compiled
+serializer regression. 21 tests pass; attempt 003 rebuilt. A bounded memory-pressure
+watch is staged to launch only under normal pressure. Check its actual process
+handle/output before asserting whether it ran. No production gap solve performed.
+
 ## Latest restart point — preparation pilot staged
 
 Further progress: all 78 retained input/library hashes verified against historical

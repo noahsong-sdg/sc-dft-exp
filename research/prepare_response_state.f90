@@ -10,12 +10,18 @@ program prepare_response_state
   use cell_base, only: omega, bg, tpiba
   implicit none
   integer :: unit, grid, state
+  logical :: needwf = .false.
+  interface
+    subroutine read_file_new(needwf)
+      logical, intent(inout) :: needwf
+    end subroutine
+  end interface
 
   call environment_start('SCTK')
   call stdin_control()
   if (calculation /= 'scdft' .or. restart_mode /= 'from_scratch') &
     error stop 'Preparation requires a fresh SCDFT state'
-  call read_file_new(.false.)
+  call read_file_new(needwf)
   call degenerated_band()
   call read_a2Fsave()
   lshift_q = .true.

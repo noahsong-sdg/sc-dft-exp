@@ -49,8 +49,26 @@ All 78 retained library/input files matched the historical recorded SHA256 hashe
 see preparation_input_verification.json. This verifies retained artifacts, not
 their physical adequacy. Memory pressure remained at 2 after the rebuild.
 
-Next: recheck memory pressure; stage the final wrapper in the fresh directory;
-run one guarded
-pilot only when normal. Check all output counts, finite values, nonzero curvature
+## First launched attempt and wrapper correction
+
+Attempt 002 launched when pressure returned to 1, then failed with SIGBUS after
+0.883 seconds (peak individual RSS 89,063,424 bytes). No state was produced.
+Root cause is in our wrapper: QE `read_file_new` declares its logical argument
+INTENT(INOUT) and assigns `needwf = wfc_is_collected` before returning. Passing
+the literal `.false.` allowed a write into read-only storage because the external
+procedure lacked an explicit interface at the call site. The original SCTK main
+correctly passes a variable.
+
+The wrapper now passes a mutable variable initialized false and declares the
+exact interface. This preserves QE's contract and makes a future literal call a
+compile-time error, without changing scientific routines or introducing an
+alternative reader. `test_preparation_wrapper.py` compiles the actual wrapper
+against small stubs, including a reader that writes its argument; it checks the
+complete three-record/two-grid output schema. This test passes, and the native
+wrapper rebuilt in fresh attempt 003. All 21 offline tests pass. No full QE build
+or successful material preparation is claimed by this wrapper test.
+
+Next: run the guarded corrected
+pilot only when pressure is normal. Check all output counts, finite values, nonzero curvature
 and provenance before evaluating any currents. Qualification of a self-consistent
 material response requires additional matching gap data and convergence evidence.
