@@ -30,6 +30,9 @@ def run():
     driver += ["end program"]
     values = compile_run(correction(routine), "\n".join(driver))
     stable_values = compile_run(stable_correction(routine), "\n".join(driver))
+    parallel = {str(threads): compile_run(stable_correction(routine),
+                "\n".join(driver), flags=("-O3","-fopenmp"), threads=threads)
+                for threads in (2,4)}
     if len(values) != len(cases):
         raise ValueError("Incomplete native output")
     rows = []
@@ -42,7 +45,17 @@ def run():
     stable_failures = sum(r["stable_error"] > 1e-7 for r in rows)
     if stable_failures:
         raise AssertionError("Stable candidate failed %s boundary cases" % stable_failures)
+    parallel_errors = {}
+    for threads, outputs in parallel.items():
+        if len(outputs) != len(cases):
+            raise AssertionError("Incomplete OpenMP outputs")
+        maximum = max(abs(float(value)-direct_current(*case))
+                      for case,pair in zip(cases,outputs) for value in pair)
+        if maximum > 1e-7:
+            raise AssertionError("OpenMP candidate differs from reference")
+        parallel_errors[threads] = maximum
     return dict(cases=len(rows),worst_cases=sorted(rows,key=lambda r:r["error"],reverse=True)[:12],
+                optimized_openmp_max_absolute_errors=parallel_errors,
                 stable_failures_over_print_tolerance=stable_failures,
                 stable_max_absolute_error=max(r["stable_error"] for r in rows),
                 failures_over_print_tolerance=sum(r["error"]>5e-5 for r in rows),

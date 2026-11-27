@@ -51,3 +51,15 @@ binary versus decimal input representation before nearly equal subtraction.
 This checks the scalar normal factor independently of double tanh, not the
 complete superconducting current, OpenMP, arbitrary physical units or material
 response. The 81-case native grid and 120-case decimal grid are distinct tests.
+
+## Optimized OpenMP fixture check
+
+The complete routine was also compiled with GNU Fortran 16.2.0, `-O3 -fopenmp
+-std=f2008 -fcheck=all`, and run with `OMP_NUM_THREADS=2` and `4`. Both builds
+passed the same 81-case grid, with maximum absolute error
+2.1710939712704658e-8 against the direct double-precision identity. The serial
+comparison uses `-O0 -std=f2008 -fcheck=all`. Repeated on 27 November 2026 UTC.
+
+This is a correctness check of the synthetic fixture under optimization and
+threading. Its two-state/two-grid dimensions do not measure useful parallel
+scaling or qualify a material workflow. No speedup is inferred.

@@ -134,6 +134,10 @@
       "error": 0.43030627419199174
     }
   ],
+  "optimized_openmp_max_absolute_errors": {
+    "2": 2.1710939712704658e-08,
+    "4": 2.1710939712704658e-08
+  },
   "stable_failures_over_print_tolerance": 0,
   "stable_max_absolute_error": 2.1710939712704658e-08,
   "failures_over_print_tolerance": 18,

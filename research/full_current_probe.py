@@ -2,6 +2,7 @@
 import hashlib
 import json
 import math
+import os
 import pathlib
 import re
 import subprocess
@@ -113,15 +114,17 @@ def stable_correction(routine):
     return routine
 
 
-def compile_run(routine, stub=STUB):
+def compile_run(routine, stub=STUB, flags=("-O0",), threads=1):
     with tempfile.TemporaryDirectory(prefix="sctk-full-current-") as folder:
         root = pathlib.Path(folder)
         source = root / "probe.f90"
         source.write_text(stub + "\n" + routine)
-        subprocess.run(["gfortran","-O0","-std=f2008","-fcheck=all",
+        subprocess.run(["gfortran",*flags,"-std=f2008","-fcheck=all",
                         str(source),"-o",str(root/"probe")],cwd=root,check=True,
                        capture_output=True,text=True)
-        result = subprocess.run([str(root/"probe")],check=True,capture_output=True,text=True)
+        environment = dict(os.environ, OMP_NUM_THREADS=str(threads))
+        result = subprocess.run([str(root/"probe")],check=True,capture_output=True,text=True,
+                                env=environment)
     return re.findall(r"Super current \[a.u.\] :\s+(\S+)\s+(\S+)", result.stdout)
 
 
