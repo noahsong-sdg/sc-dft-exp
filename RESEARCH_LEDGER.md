@@ -17,8 +17,8 @@ Same1e-10Ry/1e-5targets,120quietnormal seconds,1200s/3GiB,oneowner. Previous
 785.63s/904MB measuredfullpass and improvedcriticalmode justify onefullcheck
 withininitial4hbudget. No claim of sufficientconditioning/physicalresponse.
 
-Next launch raw/run-verify-reduced-gap-002.py, recordsessionowner, pollsameowner
-toterminal. Then verify_gap_candidate.py withnewmanifest, preserveanyfailure.
+Launched raw/run-verify-reduced-gap-002.py: liveowner57262/PID76156,
+verifiedwaiting atnormalpressure1. Pollsameowner toterminal; no duplicate. Then verify_gap_candidate.py withnewmanifest, preserveanyfailure.
 Responseassignment materialpilot mustwaitbehindthisfulljob. Goal active.
 
 ## Latest priority — optional native response-assignment export built
