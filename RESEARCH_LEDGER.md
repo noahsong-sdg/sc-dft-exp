@@ -2417,3 +2417,26 @@ yet; next must measure bounded actual-input operation and uncached oracle before
 forecasting full16-vector setup. See FRESH_BASIS_PLAN.md. Earlier150tests remain
 the last full offline gate; this migration changes no maintained Python source.
 Production001 remains live; most recent row marker9232/66867. No new heavy job.
+
+
+### Bounded fresh-basis measurement driver prepared
+
+New source-only driver creates16deterministic fresh trials (seed29), applies
+tiled linearizedQ0 gap operator over four64row blocks spanning the left grid,
+and compares selected full-left/partial-right sums against uncached native_pair.
+It reads strictfreshgeometry and fullZ at8.05K; it must not run until completedZ
+passes its independent full-sum qualification. Block timings exclude the direct
+controls and include tile generation plus16DGEMV applications; fullsetup forecast
+requires actual current measurements. No launch or physical prediction yet.
+Compile-only make now includes full-link rules to reuse its IO/source closure;
+bounded-driver dry-runPASS with no historicalobjects or duplicate recipewarning.
+Actual native compilation of the new driver remains pending.
+
+Two new compiled small-kernel tests execute the actual imported block module
+against an asymmetric known kernel: analytic xi=0 weight, both orientations,
+1+Z normalization, and nonzero-padding rejectionPASS. These do not qualify the
+microscopic kernel or materialresponse.152offline testsPASS24.159s; all166maintained
+Python sources compile; moment replay and working-tree diffcheckPASS. No separate
+typecheck configured. CI46044500526 on d571cc6PASS. Tests were concurrent ancillary
+work; production001 is not an isolated speed benchmark. Guard/session99981 still
+live, most recent row19472/66867. No overlapping native research launch.

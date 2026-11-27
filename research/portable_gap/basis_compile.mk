@@ -1,4 +1,4 @@
-include $(RESEARCH)/portable_gap/operator_compile.mk
+include $(RESEARCH)/portable_gap/full_link.mk
 
 basis-compile: block_linear_operator.o tc_subspace.o
 block_linear_operator.o: $(RESEARCH)/portable_gap/block_linear_operator.f90 tiled_operator.o
