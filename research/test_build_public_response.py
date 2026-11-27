@@ -9,10 +9,39 @@ import tarfile
 import tempfile
 import unittest
 
-from build_public_response import archive_file, patch_build_rules, unpack, build_environment, export_required_tetra_interfaces, export_required_elph_interface
+from build_public_response import archive_file, patch_build_rules, unpack, build_environment, export_required_tetra_interfaces, export_required_elph_interface, enlarge_point_capacity
 
 
 class PublicResponseBuildTests(unittest.TestCase):
+    def test_consistent_point_storage_module_rebuild_supports_48cubed(self):
+        source = ('module parameters\nimplicit none\n'
+                  '  INTEGER, PARAMETER :: npk = 40000\n'
+                  'integer, parameter :: ntypx=10\nend module\n')
+        candidate = enlarge_point_capacity(source, 300000)
+        self.assertEqual(candidate.replace('300000', '40000'), source)
+        for stale in (candidate, source+source):
+            with self.assertRaisesRegex(ValueError, 'declaration changed'):
+                enlarge_point_capacity(stale, 300000)
+        for invalid in (40000, 32768, 300000., True):
+            with self.assertRaisesRegex(ValueError, 'integer above40000'):
+                enlarge_point_capacity(source, invalid)
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder); module = root/'parameters.f90'; client = root/'client.f90'
+            client.write_text('program client\nuse parameters\n'
+                              'real(8)::xk(3,npk)\ninteger::n\nn=48**3\n'
+                              'xk(:,n)=1\nif(any(xk(:,n)/=1)) stop 2\nend program\n')
+            command = ['gfortran', '-fcheck=bounds', str(module), str(client), '-o', str(root/'test')]
+            module.write_text(source)
+            subprocess.run(command, cwd=root, check=True, capture_output=True)
+            failed = subprocess.run([str(root/'test')], capture_output=True, text=True)
+            self.assertNotEqual(failed.returncode, 0)
+            self.assertIn('Fortran runtime error', failed.stderr)
+            self.assertIn('110592', failed.stderr)
+            self.assertIn('40000', failed.stderr)
+            module.write_text(candidate)
+            subprocess.run(command, cwd=root, check=True, capture_output=True)
+            subprocess.run([str(root/'test')], check=True)
+
     def test_pinned_archive_cache_rejects_stale_source(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)

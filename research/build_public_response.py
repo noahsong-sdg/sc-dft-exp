@@ -115,7 +115,17 @@ def build_environment():
     return dict(os.environ, CMAKE_POLICY_VERSION_MINIMUM='3.5')
 
 
-def build(destination, archive_directory=None):
+def enlarge_point_capacity(source, point_capacity):
+    """Change one compile-time storage bound, never the numerical equations."""
+    if type(point_capacity) is not int or point_capacity <= 40000:
+        raise ValueError('An enlarged point capacity must be an integer above40000')
+    marker = '  INTEGER, PARAMETER :: npk = 40000\n'
+    if source.count(marker) != 1:
+        raise ValueError('Pinned QE point-capacity declaration changed')
+    return source.replace(marker, f'  INTEGER, PARAMETER :: npk = {point_capacity}\n')
+
+
+def build(destination, archive_directory=None, point_capacity=None):
     if sys.version_info < (3, 12):
         raise RuntimeError('Fresh build requires Python>=3.12 for safe archive extraction')
     root = Path(destination).absolute()
@@ -133,7 +143,15 @@ def build(destination, archive_directory=None):
         unpack(archive_file(name, item, cache), targets[name])
         (targets[name]/'SC_DFT_SOURCE_PIN').write_text(json.dumps(item, sort_keys=True)+'\n')
     qe = targets['qe']
-    (root/'archive-build-adjustments.patch').write_text(patch_build_rules(qe, pins))
+    adjustments = patch_build_rules(qe, pins)
+    if point_capacity is not None:
+        path = qe/'Modules/parameters.f90'
+        original = path.read_text()
+        candidate = enlarge_point_capacity(original, point_capacity)
+        path.write_text(candidate)
+        adjustments += ''.join(difflib.unified_diff(original.splitlines(True), candidate.splitlines(True),
+            fromfile='Modules/parameters.f90', tofile='Modules/parameters.f90'))
+    (root/'archive-build-adjustments.patch').write_text(adjustments)
     commands = []
 
     def run(command, cwd, timeout):
@@ -173,6 +191,7 @@ def build(destination, archive_directory=None):
          'velocity-moment-probe.x'], probe, 120)
     exe = probe/'velocity-moment-probe.x'
     result = dict(wall_s=time.monotonic()-started, tools=tools, commands=commands,
+                  point_capacity=40000 if point_capacity is None else point_capacity,
                   executable=str(exe), executable_sha256=digest(exe),
                   source_manifest_sha256=digest(RESEARCH/'public_response_sources.json'),
                   scope='Fresh archive build; numerical/material qualification requires separate execution')
@@ -184,5 +203,6 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('destination', type=Path)
     parser.add_argument('--archive-directory', type=Path)
+    parser.add_argument('--point-capacity', type=int, help='Explicit larger QE storage bound; fresh rebuild and baseline qualification required')
     args = parser.parse_args()
-    print(json.dumps(build(args.destination, args.archive_directory), indent=2))
+    print(json.dumps(build(args.destination, args.archive_directory, args.point_capacity), indent=2))
