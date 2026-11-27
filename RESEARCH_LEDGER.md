@@ -2440,3 +2440,24 @@ Python sources compile; moment replay and working-tree diffcheckPASS. No separat
 typecheck configured. CI46044500526 on d571cc6PASS. Tests were concurrent ancillary
 work; production001 is not an isolated speed benchmark. Guard/session99981 still
 live, most recent row19472/66867. No overlapping native research launch.
+
+
+### Production001 interrupted by host memory pressure; shorter recovery segments
+
+Guard terminalFAIL630.615716s, exit-15, hostmemorypressure notnormal; individual
+peak1638612992B/group1640235008B, below3GiB. Last loggedrow23568. No checkpoint
+was emitted, so none of its accumulated rows are accepted or resumable. All
+declared inputs unchanged; public/consumed manifests identical. No solver crash
+or numerical discrepancy observed before guard termination. Exact cause of the
+hostpressure event is unknown. Current pressure returned1(normal), checked after
+terminalreceipt; no unrelated process terminated. Guard unchanged.
+
+Root cause of lost progress is checkpoint emission only at successful segmentend,
+combined with an external hostpressure interruption. Smallest recovery is a
+scheduling change using existing contiguous checkpoints:8192-row segments instead
+of33434. Avoid mutating pinned source/qualifications. Production002 stages17:8208
+from qualifiedrow16;2400s guardmaximum unchanged, expected~250–400s from current
+observed progress and coldsetup (forecast, not a bound). Added coldsetup cost is
+accepted to reduce lost work. No failed-output adoption. Prospective public
+manifest precedes single-owner launch and120s normal-pressure gate. New guarded
+total1023.258373s including failedwork. No native owner remains before launch.

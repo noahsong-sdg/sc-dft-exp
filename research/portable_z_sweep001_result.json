@@ -1,0 +1,29 @@
+{
+  "receipt": {
+    "status": "FAIL",
+    "error": "RuntimeError: Host memory pressure not normal",
+    "command": [
+      "/usr/bin/make",
+      "-f",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/z_sweep.mk",
+      "RESEARCH=/Users/noahs/Developer/sc-dft-exp/research",
+      "QE_ROOT=/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe",
+      "NATIVE_INPUT=/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-sweep-001/native.in",
+      "qualify-sweep"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-sweep-001",
+    "wall_s": 630.6157155837864,
+    "exit": -15,
+    "max_individual_descendant_rss_bytes": 1638612992,
+    "sampled_peak_group_rss_bytes": 1640235008,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 2400.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "last_logged_row": 23568,
+  "accepted_checkpoint": false,
+  "declared_inputs_unchanged": true,
+  "new_guarded_total_s": 1023.2583734577881,
+  "decision": "Restart from qualified row16 using8192-row segments; retain guard and all numerical gates; no partial output adopted"
+}

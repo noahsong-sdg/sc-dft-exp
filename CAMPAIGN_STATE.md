@@ -168,3 +168,11 @@ Independent six full-sum oracle remains required after all66867rows.
 Production001 guardPID97361/session99981 launched and confirmedlive. Do not
 duplicate it; poll its handle/receipt. Oracle source and admission tests prepared
 but native compilation/runtime still pending.150offline testsPASS24.716s.
+
+
+## Production001 terminal failure and recovery
+
+Session99981/PID97361 terminalFAIL: hostmemorypressure at630.615716s; no checkpoint,
+last row23568. Do not resume from failed partial arrays. New guardedtotal1023.258373s.
+Production002 staged17:8208 from qualification003row16, smaller8192-row segments
+with unchanged guard/context. Old live-owner statements above are historical.
