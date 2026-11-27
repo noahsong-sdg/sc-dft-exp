@@ -214,3 +214,14 @@ four Newton iterations, coefficient residual4.51028e-17. Mean gaps
 is unknown; verify_fourth_occupation_gap_manifest.json registers the next check.
 No threshold or conditioning requirement has been relaxed. Earlier launch and
 unknown-result statements above describe historical checkpoints.
+
+
+## Standalone public-source recipe
+
+The reduced driver/core can now be built in a fresh directory with
+`make -f /absolute/research/portable_gap/reduced_nonlinear.mk QE_ROOT=/configured/public/qe`.
+The recipe compiles both custom sources and links the configured BLAS/LAPACK;
+it needs the existing public QE kinds/constants modules. The file-bound solver
+fixture exercises this recipe and retains stale-data/context rejection. Actual
+public-configuration build and material runtime remain pending. The nonlinear
+seed threshold remains1e-9; building the driver does not qualify a seed or gap.

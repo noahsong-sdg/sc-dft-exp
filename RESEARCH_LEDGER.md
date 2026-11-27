@@ -3487,3 +3487,24 @@ halt on any failure, and publish each verified checkpoint before advancing.
 No automatic retry, threshold change or budget increase.021 staged prospectively.
 No maintained code changed;184tests/193compilations/moment replay lastPASS,
 diffcheckPASS. PublicCI46077210123 on4c72e18 PASS. Scientific goal active.
+
+
+## Source-only reduced nonlinear build recipe
+
+Traced reduced_nonlinear_driver -> kinds/constants and reduced_nonlinear_core ->
+iso_fortran_env/BLAS/LAPACK. The existing nonlinear_map_probe.mk target does not
+link retained custom objects for this solve, but its top-level native Makefile
+include still couples the recipe to the historical checkout. Added standalone
+portable_gap/reduced_nonlinear.mk using configured public QE modules and public
+BLAS/LAPACK. No scientific source, persisted schema or seed gate changed.
+The file-bound nonsymmetric solve regression now builds through this actual
+recipe and still rejects truncated basis data and changed saved context.
+
+Targeted driver test PASS1.369s; full suite184 PASS13.617s; all193 maintained
+Python sources compile PASS; moment replay PASS; diffcheckPASS. Public QE
+configuration dry-run PASS with only two custom source compilations and no
+historical custom paths. Actual public-config binary build/runtime pending;
+fixture modules do not establish material qualification. Reviewed dependency
+order and unchanged positive-branch/1e-9 seed gates. This small recipe removes
+the build coupling without modifying or duplicating the numerical solver.
+Controller64977 remains active; no additional heavy job launched.

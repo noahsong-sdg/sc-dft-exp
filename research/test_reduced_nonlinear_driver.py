@@ -13,16 +13,19 @@ class ReducedNonlinearDriverTest(unittest.TestCase):
     def test_file_bound_nonsymmetric_solution_and_stale_inputs(self):
         compiler = shutil.which('gfortran')
         self.assertIsNotNone(compiler)
-        research = Path(__file__).parent
+        research = Path(__file__).resolve().parent
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             (root/'stubs.f90').write_text('module kinds\n use iso_fortran_env,only:dp=>real64\n'
                 'end module\nmodule constants\n use kinds\n'
                 'real(dp),parameter::RYTOEV=13.605693122994_dp\nend module\n')
-            subprocess.run([compiler,'-O2','-fcheck=all','-ffree-line-length-none','stubs.f90',
-                            str(research/'reduced_nonlinear_core.f90'),
-                            str(research/'reduced_nonlinear_driver.f90'),'-llapack','-lblas','-o','test'],
-                           cwd=root,check=True)
+            qe=root/'qe';modules=qe/'Modules';modules.mkdir(parents=True)
+            subprocess.run([compiler,'-c','-J'+str(modules),'stubs.f90'],cwd=root,check=True)
+            (qe/'make.inc').write_text(f'MPIF90 = {compiler}\nLD = {compiler}\n'
+                'F90FLAGS = -O2\nMOD_FLAG = -I\nLAPACK_LIBS = -llapack\nBLAS_LIBS = -lblas\n')
+            subprocess.run(['make','-f',str(research/'portable_gap/reduced_nonlinear.mk'),
+                            'QE_ROOT='+str(qe)],cwd=root,check=True,capture_output=True)
+            executable=root/'reduced-nonlinear-solve.x'
             basis, prepare, mode = [root/n for n in ('basis','prepare','mode')]
             for p in (basis,prepare,mode):
                 p.mkdir()
@@ -42,7 +45,7 @@ class ReducedNonlinearDriverTest(unittest.TestCase):
             (prepare/'native-init.bin').write_bytes(struct.pack('<14d4i',*reals,1,1,1,1))
             control = f'{basis}\n{prepare}\n{mode}\n'+'a'*64+'\n1000 20\n'
             (root/'reduced-control.in').write_text(control)
-            subprocess.run([str(root/'test')],cwd=root,check=True,capture_output=True)
+            subprocess.run([str(executable)],cwd=root,check=True,capture_output=True)
             d = struct.unpack('<2d',(root/'reduced-gap.bin').read_bytes())
             occupations = [2/1000*(1-math.exp(-1000*x))/(1+math.exp(-1000*x)) for x in d]
             r = [.8*occupations[0]+.5*occupations[1]-d[0],
@@ -59,12 +62,12 @@ class ReducedNonlinearDriverTest(unittest.TestCase):
             stale = root/'stale';stale.mkdir()
             (stale/'reduced-control.in').write_text(control)
             (basis/'basis.bin').write_bytes(payload[:-1])
-            result = subprocess.run([str(root/'test')],cwd=stale,capture_output=True,text=True)
+            result = subprocess.run([str(executable)],cwd=stale,capture_output=True,text=True)
             self.assertNotEqual(result.returncode,0)
             self.assertIn('Stale reduced basis payload',result.stderr)
             (basis/'basis.bin').write_bytes(payload)
             (basis/'basis.meta').write_text(meta.replace('a'*64,'b'*64))
-            result = subprocess.run([str(root/'test')],cwd=stale,capture_output=True,text=True)
+            result = subprocess.run([str(executable)],cwd=stale,capture_output=True,text=True)
             self.assertNotEqual(result.returncode,0)
             self.assertIn('Stale reduced basis context',result.stderr)
 
