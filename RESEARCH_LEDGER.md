@@ -1,5 +1,20 @@
 # Research restart ledger
 
+## Latest — material orbit geometry PASS; scalar gap invariance FAIL
+
+Orbitowner96156 TERMINALPASS34.9467s/195346432B; strictassignmentPASS.
+response_orbit_result.json bindsactualnative48rotationpayload. Rank34orbit
+audit17.25s/86999040B:6470736comparisons,0missing,0offgrid,energies/weights
+exact. Gapvariationmax7.00139e-9Ry,0.000294718relativeglobalmax FAIL1e-10
+symmetrycriterion. rank34_gap_symmetry_result.json publicreadbackprepared.
+Do notassumefullsymmetryormaterialsignificance: comparefreshlinear-mode/fullmap
+symmetry orboundresponseimpact. No silentgapprojection.
+
+Relative-selectormaterialowner39794 launched (raw/run-relative-symmetry-material-001.py);
+pollsameowner,120quietnormal seconds then120s/3GiB. Afterterminalcomparewith
+q1e-4baseline using compare_scales andmoment_analysis. Rank35reduced005 remains
+preparedonly; waitforcurrentowner. Goal active; no fullqualifiedgap/response.
+
 ## Latest — rank34 full contracts but fails; orbit export waiting
 
 Owner17667 TERMINALguardPASS524.858s/934281216B. StrictreaderPASS, exactseed

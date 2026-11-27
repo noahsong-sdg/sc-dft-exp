@@ -1,0 +1,56 @@
+{
+  "states": 134807,
+  "rotations": 48,
+  "mapped_comparisons": 6470736,
+  "missing_orbit_records": 0,
+  "noncommensurate_operations_skipped": 0,
+  "geometry_comparisons_beyond_64eps": 0,
+  "max_energy_difference_ry": 0.0,
+  "max_weight_difference": 0.0,
+  "max_gap_difference_ry": 7.0013927426429824e-09,
+  "max_gap_difference_over_global_max": 0.0002947184932782982,
+  "geometry_orbits_compatible": true,
+  "gap_symmetry_test_passed": false,
+  "gap_relative_tolerance": 1e-10,
+  "physical_response_verified": false,
+  "reduced_readback": {
+    "dimensions": [
+      66867,
+      67940,
+      67940,
+      100,
+      34
+    ],
+    "beta": 19613.355577892344,
+    "initial_amplitude_mev": 0.15,
+    "iterations": 4,
+    "coefficient_residual": 8.153200337090993e-17,
+    "orthogonality_error": 2.475797344914099e-14,
+    "mode_projection_error": 1.003162830581772e-12,
+    "fermi_averages_mev": [
+      0.15412261926331694,
+      0.15321340045432952
+    ],
+    "min_positive_weight_fermi_gap_mev": 0.11785992819076377,
+    "max_absolute_gap_ry": 2.3756204318103896e-05,
+    "rytoev": 13.605693122994017,
+    "full_native_residual_verified": false,
+    "sha256": {
+      "reduced-result.txt": "95f79e88bb556e0b6626fa22a367435ab6c49e5a7114ef94d8db45f69e6b65e2",
+      "reduced-gap.bin": "1545912974f564a9b42b60cb00c532a6a439659ddf87b381ce604b0eebbe2ae7",
+      "native-init.meta": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+      "native-init.bin": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37"
+    },
+    "scope": "Read a reduced candidate; a separate full native residual is mandatory."
+  },
+  "scope": "Audit scalar-gap invariance on native cell orbits; not a response certificate.",
+  "sha256": {
+    "research/raw/response-orbit-001/response-symmetry.txt": "c72df4d4883bbe81c69011c33f82086ecc91abfc6f28e5487a06f7bde3725efe",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.meta": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.bin": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37",
+    "research/raw/reduced-nonlinear-004/reduced-gap.bin": "1545912974f564a9b42b60cb00c532a6a439659ddf87b381ce604b0eebbe2ae7"
+  },
+  "audit_wall_s": 17.25,
+  "audit_peak_rss_bytes": 86999040,
+  "native_export_result_sha256": "be467a782a5d103c4e88726d407c24ddf2c92cdf6f6455cd3b52f54414fb2242"
+}

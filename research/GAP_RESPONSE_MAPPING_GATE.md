@@ -190,3 +190,24 @@ response_symmetry_build_manifest.json pins this build. response_orbit_manifest.j
 prepares one120s/3GiB export using the measured34.147s/195MB geometry cost, after
 120 quiet normal-pressure seconds. It must wait behind full owner17667. The
 material gap symmetry audit has not run. No production response fix is claimed.
+
+## Material scalar-gap orbit result
+
+The fresh export passes in34.947s/195346432-byte peak RSS and restores the
+strict Q0-compatible layout. response_orbit_result.json binds its inputs,
+receipt and actual native-matrix payload. The rank34 orbit audit takes17.25s
+and86999040-byte peak RSS. All6,470,736 comparisons across134,807states and
+48rotations find exact energies and weights, with no missing or off-grid records.
+The gap itself fails the prospective1e-10-relative symmetry criterion: maximum
+orbit difference7.00139e-9Ry, or0.000294718 of its global maximum (0.0295%).
+See rank34_gap_symmetry_result.json.
+
+This rejects exact scalar-gap invariance at the tested tolerance, not the whole
+response-reuse thesis. The observed variation could arise from unfinished
+convergence, basis error or discrete-operator symmetry breaking; these causes
+are not yet separated. It also does not establish a scientifically significant
+response error. Next compare the independently measured linear mode or full-map
+image on the same orbits, or propagate the variation through a clearly defined
+response before judging its importance. Do not silently symmetrize the gap or
+relax the recorded test. A bounded approximate moment route remains possible,
+but requires an explicit observable-error assessment.
