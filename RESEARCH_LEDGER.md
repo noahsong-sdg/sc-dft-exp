@@ -3633,3 +3633,10 @@ Controller39727 remains live; no duplicate native owner or changed thresholds.
 Rows32769:49152 terminal PASS, wall219.26768016675487s, individualpeak1008304128B, sampledgroup958267392B. Public/consumed manifest equality and original native certificate/postrun checks PASS. New guarded total10643.495773501545s; historical189.29min separate.
 Next028 prospectively staged rows49153:66867,600s/3GiB/quiet120.
 No maintained code/threshold changes. Scientific gap and response acceptance remain incomplete.
+
+
+## Bounded64-vector controller checkpoint028
+
+Rows49153:66867 terminal PASS, wall236.81905095791444s, individualpeak1181630464B, sampledgroup1181319168B. Public/consumed manifest equality and original native certificate/postrun checks PASS. New guarded total10880.31482445946s; historical189.29min separate.
+Complete64 basis native checked; independent full-image and continuity checks remain pending. No further native run authorized by this controller.
+No maintained code/threshold changes. Scientific gap and response acceptance remain incomplete.
