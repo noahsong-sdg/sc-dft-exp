@@ -15,9 +15,12 @@ followed by one complete application reduced the tracked candidate residual from
 see the [independent result](research/restarted_basis001_result.json) and
 [mode tracking](research/restart_mode001_result.json). This is a 5.99-fold residual
 reduction, **not a runtime speedup or an accepted superconducting response**.
-The unchanged seed threshold is 1e-9. A bounded extension to 48 vectors is next.
-Guarded compute through that completed restart totals 109.26 minutes, separate
-from the historical campaign; subsequent segments are recorded in the current state.
+A further [48-vector application](research/restarted_basis002_result.json) lowered
+the residual to 3.719e-5, with [overlap 0.99999996](research/basis_continuity001_result.json)
+and another 6.73-fold reduction. The unchanged seed threshold is 1e-9; the next
+bounded extension reaches the registered 64-vector cap.
+Guarded compute through that completed 48-vector application totals 123.76 minutes,
+separate from the historical campaign; subsequent segments are recorded in the current state.
 Converged gaps at all three temperatures, conditioning, response normalization
 and state mapping, and the registered 1% uncertainty target remain unqualified.
 

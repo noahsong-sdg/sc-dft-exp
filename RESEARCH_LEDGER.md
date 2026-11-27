@@ -3272,3 +3272,38 @@ Reduced-solver dependency trace: reduced_nonlinear_driver imports kinds,constant
 and reduced_nonlinear_core; core uses BLAS/LAPACK and iso_fortran_env. It need not
 link historical custom operatorobjects. A small source-only recipe is sufficient
 in principle; no new candidate runtime or qualification claimed from this trace.
+
+
+## Restarted48 basis independently checked; final64 extension admitted
+
+Enrichment016 terminal PASS229.18927708314732 s; individualpeak1162248192 B,
+group1025032192 B. Owner68810/session23329 terminal exit0. Full16-column images,
+checkpoint roundtrip, allpostrun inputs, public/consumed manifest and16linked
+archives verified; no historicalcustompath. Six uncached complete sums forfirst
+newvector PASS: maxdifference4.336808689942018e-19 vs frozenbound
+2.0873249350551435e-13. These are sampled sums, not exhaustiveallcolumn checks.
+Guardednewtotal7425.5084073765565 s (123.76 min); historical189.29 min separate.
+
+Independent restarted_basis002_result PASS:48columns, Gramerror
+3.3306690738754696e-14, projectionerror3.108624468950438e-14; allreal-mode
+full-image residuals agree within5e-12. Conventional mode nowindex4 (previous3),
+lambda1.001858557337044, residual3.718707329026961e-5. New continuity analysis
+verifies the literal retainedQ/AQ byteprefix and normalized modeoverlap
+0.9999999591933788 with previous32 target. Reduction6.726078238332021 passes
+registered2x/0.99 gate. BothsideFermi averages have same sign; nativechannel1.
+This is progress for the same branch, not a runtime speedup or accepted gap.
+Seedthreshold remains1e-9; residual is37187 times larger. No response accepted.
+
+Decision: admit one final16-vector application48 ->64, unchangedoperator,
+temperature/inputcontext and64cap. Forecast15–18 native minutes from measured
+14.50-minute application; not bound. Eachsegment600s/3GiB/quiet120, oneheavyowner,
+postrun hashes and finaluncached/native/independent checks. Fits4h pilotremaining
+116.24min. Enrichment017 stages firstrows1:16384 from fullcertified016; no owner
+beforelaunch. Measure same-mode overlap/residual again. At64, if seedstillfails,
+stop dimensiongrowth and evaluate another target-preserving restart from actual
+residual/cost evidence; no automaticcap/threshold/budget increase.
+
+No codechanged thisturn. Last required checks180testsPASS,191maintainedPython
+sources compilePASS, moment replayPASS; currentdiffcheckPASS. PublicCI46071361558
+on2380a38PASS. Full nonlinear gap, conditioning/errortransport,2K/4K contexts,
+response functional/mapping and1% uncertainty/reproduction remain incomplete.
