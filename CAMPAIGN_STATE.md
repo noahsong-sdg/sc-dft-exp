@@ -58,6 +58,10 @@ source, qualify cached/direct upstream calc_Zsf including context invalidation,
 then measure bounded partial sums before compatible full8.05KZ generation.
 Source lead: native-macos-v1/work/project/nb-tc-benchmark-v1/scdft/.
 Old partial timing is historical and does not qualify current Mac fullZ cost.
+Portable-z-build001 staged for unchanged source compile +1200bitwise direct
+upstream checks, forcedcollision/contextchanges.142offline testsPASS25.637s;
+compileall/moment/diffPASS. Prospective manifest published before guardedlaunch.
+120s/3GiB/quiet120. No watcher at staging.
 
 New native pilot ceiling4wallhours, prior campaign189.29min accounted separately.
 Hardware rechecked:M5/10cores/32GiB,normalpressure,~151GBfree. Preserve dirty

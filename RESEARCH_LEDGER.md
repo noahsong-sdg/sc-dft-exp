@@ -2289,3 +2289,16 @@ No productioncode or nativeacceptance changed. No solvedgap/response claim.
 CI46039113220PASS. Newguardedtotal167.442009s; no nativeowner remains.
 Next source-only Zcache/slab migration, directkernel/context qualification and
 current partial-sum timing before fullZ. Retained incompatibleZ stays separate.
+
+
+### Prospective source-only Z dependency qualification
+
+Migrated zsf_workspace/slab_z byte-for-byte with GPL/source hashes. Trace:
+slab_z -> calc_Zsf_reused caches only the energy-dependent Chebyshev basis;
+coefficient contraction and wmf remain live. mf/nmf/nci invalidate basis; emin
+changes clamped energy key. New scalar qualification calls upstream calc_Zsf
+and cached function1200times, forces collisions with one slot and exercises
+mf/wmf/emin/nci/nmf changes. Slab interface compiles but is not executed.
+Freshportable-z-build001,120s/3GiB/quiet120, no microscopic or retainedstate data.
+142testsPASS25.637s; compileall/momentreplay/diffPASS. CI46039840637PASS on69c0d2b.
+Native equality/build remain unproved until guard terminal and readback.

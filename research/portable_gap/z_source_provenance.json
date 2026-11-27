@@ -1,0 +1,12 @@
+{
+  "zsf_workspace.f90": {
+    "source": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/nb-tc-benchmark-v1/scdft/zsf_workspace.f90",
+    "sha256": "3f07c34dd792f63efd27868fd1dd6d46322999969befe34be8b59b7ae3200b95",
+    "migration": "byte-for-byte; original GPL attribution preserved"
+  },
+  "slab_z.f90": {
+    "source": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/nb-tc-benchmark-v1/scdft/slab_z.f90",
+    "sha256": "01d4c14217712b7733143ab725aa4c918def5c37564670e9a009564254cd92f2",
+    "migration": "byte-for-byte; original GPL attribution preserved"
+  }
+}
