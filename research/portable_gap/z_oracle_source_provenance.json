@@ -1,0 +1,5 @@
+{
+  "source": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/native_oracle_z.f90",
+  "sha256": "3a49f12e179226caf809bccd40a4a67fa726ad7d418f37ce205ec78d31b8bb27",
+  "migration": "byte-for-byte original uncached Z pair arithmetic; GPL header preserved"
+}

@@ -164,3 +164,7 @@ bitwise equal on actual inputs. All consumed/public manifest and output/source
 checks pass. Guarded total392.642658s. FullZ/physical response remain unqualified.
 Production001 rows17:33450 staged for2400s/3GiB/quiet120; no watcher before launch.
 Independent six full-sum oracle remains required after all66867rows.
+
+Production001 guardPID97361/session99981 launched and confirmedlive. Do not
+duplicate it; poll its handle/receipt. Oracle source and admission tests prepared
+but native compilation/runtime still pending.150offline testsPASS24.716s.

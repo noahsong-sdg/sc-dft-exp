@@ -2381,3 +2381,21 @@ Production001 prospectively staged rows17:33450, contiguous after qualification,
 2400s/3GiB/quiet120. Two-segment schedule preserves serial accumulation order;
 partial-run estimates motivate this bound, not a guaranteed runtime. No native
 owner exists before launch. Untracked oracle drafts are not part of this result.
+
+
+### Independent full-sum oracle prepared while production001 runs
+
+Traced prefix accumulation against original uncached native_oracle_z pair loop.
+New sample driver reconstructs the fresh context, reads completedfullZ, and
+checks first/last/firstpositive-Fermi state on both grids against six uncached
+complete sums (404421pairs). Selected opposite-grid sums preserve serial order;
+this is sampled operator validation, not a proof for every state or response.
+Original oracle imported byte-for-byte with GPL provenance. New admission rejects
+partial sweeps, changed certified payloads and full-Z binary different from the
+certified ordered checkpoint; native metadata/Fermi-average validation remains
+required at runtime. Source-only native compile/run pending completeddata and
+single-owner availability. Prospective oracle forecast420s/3GiB/quiet120.
+150offline testsPASS24.716s; all165maintained Python files compile; moment replay
+and diffcheckPASS. No separate typecheck configured. Tests ran concurrently with
+production001 cold initialization; its timing is not an isolated performance
+comparison. Production guardPID97361/session99981 confirmedlive; no restart.
