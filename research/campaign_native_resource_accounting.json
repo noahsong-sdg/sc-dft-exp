@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-27T09:03:35.988251+00:00",
+  "as_of_utc": "2026-11-27T09:21:39.461594+00:00",
   "attempts": [
     {
       "path": "full-nonlinear-001/results/moment/receipt.json",
@@ -10,6 +10,17 @@
       "exit": 0,
       "individual_peak_rss_bytes": 881655808,
       "sampled_group_peak_rss_bytes": 881655808,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "mode-amplitude-001/results/moment/receipt.json",
+      "receipt_sha256": "c02c81853c3ca13a1829391647f7d64745dd0a8621145c5a4f2b8167d9554009",
+      "status": "PASS",
+      "wall_s": 937.5632645003498,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 937394176,
+      "sampled_group_peak_rss_bytes": 937394176,
       "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
     },
     {
@@ -312,15 +323,15 @@
   ],
   "totals": {
     "PASS": {
-      "attempts": 17,
-      "wall_s": 1853.3734968774952
+      "attempts": 18,
+      "wall_s": 2790.936761377845
     },
     "FAIL": {
       "attempts": 11,
       "wall_s": 267.7007787497714
     }
   },
-  "total_guarded_wall_s": 2121.0742756272666,
+  "total_guarded_wall_s": 3058.6375401276164,
   "scope": "Account for terminal guarded native attempts, including failed/prelaunch ones.\n\nThis excludes launch-watch waiting, compilation, downloads, Python analyses and\nunmetered model use. Guard PASS is not scientific or physical acceptance.",
   "cpu_time_energy_model_cost": "Not instrumented; no estimates inferred"
 }

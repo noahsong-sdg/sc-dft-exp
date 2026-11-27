@@ -83,5 +83,25 @@
       "sha256": "aa19e2321bd7955146618147e083f94be8c21cd322c632b89e55d9c2cbb3b3b4"
     }
   ],
-  "launch_decision": "Measured prior fullpass908.645s/881655808bytes; four batches. One8-batch pass1200s/3GiB justified within initial4h pilot budget; unchanged K geometry and coefficients. No overlapping heavy job."
+  "launch_decision": "Measured prior fullpass908.645s/881655808bytes; four batches. One8-batch pass1200s/3GiB justified within initial4h pilot budget; unchanged K geometry and coefficients. No overlapping heavy job.",
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/mode-amplitude-001/mode-amplitude-probe.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/mode-amplitude-001/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/mode-amplitude-001",
+    "wall_s": 937.5632645003498,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 937394176,
+    "sampled_peak_group_rss_bytes": 937394176,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 1200,
+    "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+  },
+  "readback": "mode_amplitude_result.json: strict full residual readback PASS",
+  "source_revision": "23d529a"
 }

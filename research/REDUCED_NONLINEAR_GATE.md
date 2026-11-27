@@ -83,3 +83,13 @@ run remains unlaunched. Earlier mode/full manifests pin source snapshots before
 this makefile extension:23d529a for mode amplitudes,90f922f for the full pilot.
 Historical hashes should be checked against those revisions and immutable raw
 artifacts, not silently replaced with later source hashes.
+
+## Launch decision after the amplitude result
+
+The native amplitude pass and strict reader passed. Its fresh conventional mode
+action matches saved data to1.56e-17, and the scalar projection changes sign
+between0.10/0.15meV. Select0.15meV before the reduced run. All prospective input
+hashes were revalidated; the makefile snapshot is explicitly bound to273e607
+since later commits append other targets. Pin reduced-control.in in the manifest.
+A single120s/3GiB job is now queued behind120 quiet normal-pressure seconds.
+This is a launch decision, not a material reduced-root result.

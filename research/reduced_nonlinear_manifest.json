@@ -1,5 +1,5 @@
 {
-  "status": "Prepared, not launched; source/control amplitude contingent on current native amplitude result",
+  "status": "Launch authorized after amplitude terminal PASS and strict readback",
   "question": "Can a reused31-vector linear operator representation generate a useful nonlinear candidate without repeated kernel construction?",
   "basis_rows": 135880,
   "basis_columns": 31,
@@ -9,7 +9,6 @@
   "proposed_guard_seconds": 120,
   "rss_cap_bytes": 3221225472,
   "launch_normal_seconds": 120,
-  "control_pending": "Choose starting amplitude only after mode-amplitude-001 terminal PASS and strict readback, then pin full reduced-control.in before launch",
   "files": [
     {
       "path": "/Users/noahs/Developer/sc-dft-exp/research/reduced_nonlinear_core.f90",
@@ -29,7 +28,8 @@
     {
       "path": "/Users/noahs/Developer/sc-dft-exp/research/nonlinear_map_probe.mk",
       "bytes": 1933,
-      "sha256": "7e14eebe16e40f64cffe1be49622f3d845303737eea9a178d27ddabcca75e3ce"
+      "sha256": "7e14eebe16e40f64cffe1be49622f3d845303737eea9a178d27ddabcca75e3ce",
+      "source_revision": "273e607"
     },
     {
       "path": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/material-T8p05b16s29/rotation/basis.meta",
@@ -75,7 +75,15 @@
       "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/reduced-nonlinear-001/reduced-nonlinear-solve.x",
       "bytes": 87032,
       "sha256": "e2d39193bf803ca9033ecfdf76fa76e8ced2b217a315005c20926f511dd25490"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/reduced-nonlinear-001/reduced-control.in",
+      "bytes": 501,
+      "sha256": "210f92c5a426ff944c73a6e8aa4829d8806578a7533baeafb45eec6b02d93337"
     }
   ],
-  "verification": "64 offline tests PASS7.227s; compileall/diffcheck PASS; native boundschecked build PASS"
+  "verification": "64 offline tests PASS7.227s; compileall/diffcheck PASS; native boundschecked build PASS",
+  "source_revision": "273e607",
+  "initial_amplitude_mev": 0.15,
+  "launch_decision": "Upper endpoint of measured projected sign-change interval[.1,.15]meV; fresh mode action PASS. One120s/3GiB pilot,120 quiet normal seconds, initial4h native budget retained; full native validation mandatory."
 }

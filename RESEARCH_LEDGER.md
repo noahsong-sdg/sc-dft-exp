@@ -1,5 +1,51 @@
 # Research restart ledger
 
+## Latest priority — amplitude PASS; reduced material pilot waiting
+
+Owner4276 TERMINAL PASS937.563s/937394176bytes. Strict amplitude reader PASS.
+Fresh mode action error1.56e-17; relative residual3.92e-11. Projected sign change
+0.10–0.15meV; none of seven full residuals passes1e-10Ry. Result/receipt public
+checkpoint follows in mode_amplitude_result.json/manifest. Accounting29terminal
+attempts:18PASS/11FAIL,3058.638s guardedwall; excludeswaiting/build/modelusage.
+
+New owner40004/PID91408 LIVE, raw/run-reduced-nonlinear-001.py, waiting120 quiet
+normal seconds;120s/3GiB solve guard, one heavy owner only. Initial amplitude
+0.15meV pinned beforelaunch from measured upper projected bracket endpoint.
+All input hashes revalidated; historical makefile bytes resolved at273e607.
+See reduced_nonlinear_manifest.json. Poll sameowner and watcher; no duplicate.
+
+Explicit native seed path published0462061. All65 local tests PASS(9.182s),
+compileall/diffcheck PASS; verify/default selected/default full targets build
+boundschecked. Next after reduced receipt: strict reduced_nonlinear_analysis.py
+with matching prepare directory. If candidate qualifies, prepare source-bound
+full native seed validation. Optional omitted-occupation direction can enrich
+the basis during that pass, but needs separate implementation/tests/schema.
+No new gap, full candidate residual, or response prediction accepted yet.
+Goal active; ceiling2026-11-27T17:41Z.
+
+## Latest priority — native explicit-seed path qualified; amplitude job live
+
+Previous turn made progress: reused-basis solver public273e607;
+CI45972341838 SUCCESS for64 tests and moment replay. New gap_seed_io explicit
+input path preserves default arbitrary-seed targets. Native initialization and
+saved Z qualify before candidate load; no grid replacement. Compiled regression
+checks exact vector preservation and stale schema/context/temperature/shape,
+nonfinite, padding and Fermi-branch rejection. verify-gap-seed.x boundschecked
+build PASS; default selected/full targets build too. See
+research/GAP_SEED_VERIFY_GATE.md for prospective full residual/conditioning gates.
+
+Owner4276/PID56970 remains LIVE mode-amplitude-001, latest61472/66867rows at
+686.097CPU seconds. Poll same handle. Once terminal and strict readback passes,
+choose starting amplitude from the scan and pin reduced-control.in, then run
+one120s/3GiB reduced pilot with120 quiet normal launch seconds. No reduced
+material job launched yet; no native candidate validation launched.
+
+After reduced readback, consider explicit full-map validation. Prospective
+stationary-residual targets: infinity<=1e-10Ry and RMSresidual/RMSgap<=1e-5;
+these do not bound conditioned gap/response error. Omitted-occupation enrichment
+identity is documented as a possible separately tested optimization, not a result.
+Goal active; ceiling2026-11-27T17:41Z.
+
 ## Latest priority — amplitude pilot live; reused-basis nonlinear solver prepared
 
 Previous turn made progress: full nonlinear result public25fe74d and

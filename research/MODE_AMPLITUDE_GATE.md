@@ -65,3 +65,17 @@ candidate directory and its declared context on separate lines. Run strict
 readback with `python3 research/mode_amplitude_analysis.py <run-directory>`.
 As with the prior native pilots, retained microscopic inputs and build objects
 are external to this checkout; this is not a portable cold-start DFT workflow.
+
+## Native result
+
+Terminal PASS937.563265s, peak937394176bytes; strict full-vector readback PASS.
+Kernel/application CPU747.158671s. Fresh linear action differs from the saved
+lambda*mode+residual by1.5612511283791264e-17; relative eigenpair residual
+3.920375975386137e-11. See mode_amplitude_result.json and receipt in the manifest.
+
+The projected residual changes sign between0.10 and0.15meV. Full infinity
+residuals over the scan range from7.01e-9 to2.66e-6Ry; none reaches the
+prospective1e-10Ry native stationary-residual target. The smallest residual at
+the smallest amplitude is not evidence of a nonzero root: zero gap is always a
+root. The scan does not qualify any solved gap. Use0.15meV, the upper projected
+bracket endpoint, as the explicitly declared reduced-solver starting amplitude.
