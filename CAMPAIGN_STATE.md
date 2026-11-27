@@ -742,3 +742,18 @@ Restart sweep003 stagedrows32769:49152, samecertifiedrestart/16trials/context,
 predecessor002;600s/3GiB/quiet120. Fullapplication/Ritz stillincomplete.
 No codechanged;178tests/189Pythoncompilations/moment gates lastPASS; current
 diffcheckPASS. PublicCI46067037206 onfe17252PASS. No acceptedgap/response.
+
+
+## Restart sweep003 accepted; finalsegment staged
+
+Rows32769:49152 terminalPASS 233.957289166749s; individualpeak
+926924800B/group928514048B. Checkpoint, allpostruninputs, public/consumedmanifest
+and16linkedarchives PASS; no historicalcustompath. Session25812/owner22235
+terminalexit0. Guardednewtotal6291.500990334748s; historical189.29min separate.
+LastobservednativeCPU97.9%, pressure1; slower thanprecedingsegments butbelow
+registeredcap; this is measuredruntime variation, not a diagnosedstall.
+Restart sweep004 stages finalrows49153:66867, samecertifiedrestart/trials/context,
+predecessor003;600s/3GiB/quiet120. Finaluncachedchecks and32-vectorRitz then
+independentreadback/targetoverlap required. No codechanged;178tests/189Python
+compilations/moment gates lastPASS; diffcheckPASS. PublicCI46067655603 on6572158
+PASS. GitHubrepository visibilityPUBLIC freshlyverified. Goal remainsincomplete.
