@@ -1,0 +1,77 @@
+--- a/src/sctk_broyden.f90
++++ b/src/sctk_broyden.f90
+@@ -174,13 +174,12 @@
+       tanhe = TANH(0.5_dp * beta * e_qp)
+       !
+       IF(1.0_dp - tanhd * tanhe < 1.0e-10_dp) THEN
+-        IF(xi(igap,ii)**2 + delta(igap,ii)**2 > dxq(igap,ii)**2) THEN
+-          e_d = tanhe * (1.0_dp + tanhd) / (1.0_dp + tanhd * tanhe)
+-          d_e = 0.0_dp
+-        ELSE
+-          e_d = 0.0_dp
+-          d_e = tanhd * (1.0_dp + tanhe) / (1.0_dp + tanhd * tanhe)
+-        END IF
++        e_d = 0.5_dp * ( &
++        & TANH(0.5_dp*beta*(e_qp + ABS(dxq(igap,ii)))) + &
++        & TANH(0.5_dp*beta*(e_qp - ABS(dxq(igap,ii)))))
++        d_e = 0.5_dp * ( &
++        & TANH(0.5_dp*beta*(e_qp + ABS(dxq(igap,ii)))) - &
++        & TANH(0.5_dp*beta*(e_qp - ABS(dxq(igap,ii)))))
+       ELSE
+         e_d = tanhe * (1.0_dp + tanhd) / (1.0_dp + tanhd * tanhe) &
+         &           * (1.0_dp - tanhd) / (1.0_dp - tanhd * tanhe)
+@@ -189,23 +188,27 @@
+       END IF
+       !
+       IF(1.0_dp - tanhd * tanhx < 1.0e-10_dp) THEN
+-        IF(xi(igap,ii)**2 + delta(igap,ii)**2 > dxq(igap,ii)**2) THEN
+-          x_d = tanhx * (1.0_dp + tanhd) / (1.0_dp + tanhd * tanhx)
+-          d_x = 0.0_dp
+-        ELSE
+-          x_d = 0.0_dp
+-          d_x = tanhd * (1.0_dp + tanhx) / (1.0_dp + tanhd * tanhx)
+-        END IF
++        x_d = 0.5_dp * ( &
++        & TANH(0.5_dp*beta*(ABS(xi(igap,ii)) + ABS(dxq(igap,ii)))) + &
++        & TANH(0.5_dp*beta*(ABS(xi(igap,ii)) - ABS(dxq(igap,ii)))))
++        d_x = 0.5_dp * ( &
++        & TANH(0.5_dp*beta*(ABS(xi(igap,ii)) + ABS(dxq(igap,ii)))) - &
++        & TANH(0.5_dp*beta*(ABS(xi(igap,ii)) - ABS(dxq(igap,ii)))))
+       ELSE
+-        x_d = tanhe * (1.0_dp + tanhd) / (1.0_dp + tanhd * tanhx) &
++        x_d = tanhx * (1.0_dp + tanhd) / (1.0_dp + tanhd * tanhx) &
+         &           * (1.0_dp - tanhd) / (1.0_dp - tanhd * tanhx)
+         d_x = tanhd * (1.0_dp + tanhx) / (1.0_dp + tanhd * tanhx) &
+         &           * (1.0_dp - tanhx) / (1.0_dp - tanhd * tanhx)
+       END IF
+       !
++      IF(e_qp == 0.0_dp) THEN
++        e_d = 0.0_dp
++      ELSE
++        e_d = xi(igap, ii)/e_qp*e_d
++      END IF
+       j_q(ii) = j_q(ii) + dk(igap, ii) * ( &
+       &  2.0_dp * ABS(dxq(igap, ii)) * (d_x - d_e) &
+-      & + 4.0_dp * d2xq(igap, ii) *(SIGN(1.0_dp, xi(igap, ii)) * x_d - xi(igap, ii)/e_qp*e_d) &
++      & + 4.0_dp * d2xq(igap, ii) *(SIGN(1.0_dp, xi(igap, ii)) * x_d - e_d) &
+       & )
+       !
+     END DO
+--- a/src/sctk_gapeq_rhs.f90
++++ b/src/sctk_gapeq_rhs.f90
+@@ -150,11 +150,10 @@
+         tanhd = TANH(0.5_dp * beta * ABS(dxq(igap,ii)))
+         !
+         IF(1.0_dp - tanhd * tanhe < 1.0e-10_dp) THEN
+-          IF(xi(igap,ii)**2 + delta(igap,ii)**2 > dxq(igap,ii)**2) THEN
+-            chi(igap,ii) = tanhe * (1.0_dp + tanhd) / (1.0_dp + tanhd * tanhe)
+-          ELSE
+-            chi(igap,ii) = 0.0_dp
+-          END IF
++          chi(igap,ii) = 0.5_dp * ( &
++          TANH(0.5_dp*beta*(SQRT(xi(igap,ii)**2 + delta(igap,ii)**2) + ABS(dxq(igap,ii)))) + &
++          TANH(0.5_dp*beta*(SQRT(xi(igap,ii)**2 + delta(igap,ii)**2) - ABS(dxq(igap,ii)))))
++
+         ELSE
+           chi(igap,ii) = tanhe * (1.0_dp + tanhd) / (1.0_dp + tanhd * tanhe) &
+           &                    * (1.0_dp - tanhd) / (1.0_dp - tanhd * tanhe)

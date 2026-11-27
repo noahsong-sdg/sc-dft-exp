@@ -17,6 +17,7 @@ Current campaign: [scientific decision checkpoint](research/DECISION_STATUS.md),
 [complete gap-RHS finding](research/RHS_THERMAL_FINDING.md),
 [thermal-factor finding](research/CURRENT_IDENTITY_FINDING.md),
 [held-out boundary tests](research/THERMAL_BOUNDARY_RESULT.md),
+[reviewable pinned-source correction](research/patches/README.md),
 [workflow costs](research/WORKFLOW_COSTS.md), and
 [response figures](research/figures/README.md). The correction is checked on
 synthetic fixtures and imposed-gap Nb geometry; self-consistent material impact
