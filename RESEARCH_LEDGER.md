@@ -3709,3 +3709,13 @@ inputs and public/consumed manifest equality PASS. Full-image result complete:
 False. Independent residual/mode check still required
 after012. No automatic continuation beyond012; no gap/response acceptance.
 Unchanged sources/thresholds; last184tests/193compilations/moment PASS.
+
+
+## Third-restart bounded application segment011
+
+Rows32769:49152 terminal PASS, guarded wall203.0824100417085s;
+new guarded total11495.096089792754s. Original native certification, all postrun pinned
+inputs and public/consumed manifest equality PASS. Full-image result complete:
+False. Independent residual/mode check still required
+after012. No automatic continuation beyond012; no gap/response acceptance.
+Unchanged sources/thresholds; last184tests/193compilations/moment PASS.
