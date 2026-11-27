@@ -3007,3 +3007,15 @@ This continues the registered64-vector test. Full application, uncached sums,
 Ritz analysis, nonlinear gap, and response remain incomplete. No code changed;
 last offline suite170PASS,184 Python sources compilePASS, moment/diff gatesPASS.
 Public CI46063009995 on ef5da82 PASS.
+
+
+## 64-vector application: segment010 accepted
+
+Enrichment010 terminalPASS rows16385:32768, 186.809316916391s,
+individual peak932020224B/group905003008B. Checkpoint, allpostruninputs,
+public/consumedmanifest and16linkedarchives verified; no historicalcustompath.
+Guardedtotal5280.286146876252s, oldcampaignseparate. Session98922 terminalexit0.
+Enrichment011 stagedrows32769:49152, sameold48basis/16vectors/context,
+predecessor010;600s/3GiB/quiet120. No codechanged;170offline tests and184Python
+compilations/moment gates lastPASS; diffcheckPASS. PublicCI46063664923 on12ddb84
+PASS. No convergedgap or acceptedresponse; full64application stillincomplete.
