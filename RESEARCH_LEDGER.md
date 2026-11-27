@@ -1,5 +1,30 @@
 # Research restart ledger
 
+## Latest — rank36 full RMS PASS/max FAIL; public-input bridge first build diagnosed
+
+Owner26476/child91148 TERMINAL guardPASS580.345961s/937852928B. Strictreadback
+RMSratio6.30183e-6 passes1e-5, Rinf4.054997e-10Ry fails1e-10. Exactseed/native
+controls PASS. verify_fourth_occupation_gap_result.json published; noneaccepted.
+Rank36 response atunchangedcache changes+0.0925/+0.0941% vs35; averagedmoment
+bound remains operation-specific. rank36_anisotropic_response_result.json binds
+it. Rank37 basis prepared in raw/enriched-basis-006; prep owner83060 terminal
+15.52s/184926208B, relativedefect7.70566e-6. No rank37 native solve queued.
+
+Public source trace found response-only candidate inputsubset31files/12855871B,
+not58files/1.45GB. All31 freshlydownloaded/hashverified in74.642s; public_response_
+input_download_result.json. read_elph nevercallsread_Coulomb; QE q_points WRITES
+matdyn0, explainingworking/publicfiledifference withouta hiddeninputtransform.
+Native isolated subset still UNTESTED. New public build/stage/acquisition code
+and91preflighttestsPASS5.868s(Python3.13) preserve provisional status.
+
+Owner78628/PID6042 TERMINALFAIL16.464s afterfreshdownloading/hashcheckingall6
+sourcearchives, beforeFortranlibrarybuild. LAPACKnestedtry_compile doesn'tinherit
+outerCMAKE_POLICY_VERSION_MINIMUM; CMake4 rejectsINSTALL minimum3.2. Failure,
+sourcepins/receipthashes preserved in public_response_build_attempt001_result.json.
+Next: per-process CMake policy ENV, realnestedCmake regression, thennewfreshbuild
+attempt/root after120normalpressureseconds. Keepoldattemptintact. Noheavyjobactive.
+CI45988589430 for2294de5 previouslyPASS. Goalactive; final report stillmissing.
+
 ## Latest — anisotropic observable audit published; rank36 full owner26476 waiting
 
 Code bb3cf52 implements native orbit replay and signed-weight triangle bound,

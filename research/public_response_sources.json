@@ -1,0 +1,41 @@
+{
+  "scope": "Pinned source archives for an isolated native response build; not full current-version SCTK",
+  "sources": {
+    "qe": {
+      "url": "https://codeload.github.com/QEF/q-e/tar.gz/500de340b820e1cb8c05f2d8bb8fced102f377c1",
+      "bytes": 71643059,
+      "sha256": "018f9fd21af4ec8659b5a84b909d6efcc3537c6f1c745a4067e7c88e176a0929",
+      "commit": "500de340b820e1cb8c05f2d8bb8fced102f377c1"
+    },
+    "sctk": {
+      "url": "https://codeload.github.com/mitsuaki1987/sctk/tar.gz/47c06501da8ffd574c87469ddd6d5a2814171796",
+      "bytes": 2522323,
+      "sha256": "74b65b6342db6e46b32f7828a4e6a2cd4a0a36f43bd4cbc8ef47bd434189eeda",
+      "commit": "47c06501da8ffd574c87469ddd6d5a2814171796"
+    },
+    "fox": {
+      "url": "https://codeload.github.com/pietrodelugas/fox/tar.gz/3453648e6837658b747b895bb7bef4b1ed2eac40",
+      "bytes": 988789,
+      "sha256": "107b1d58eb6a0a730c98520a8f99a6459b2a0e06b06f4b037abf358b29d50df1",
+      "commit": "3453648e6837658b747b895bb7bef4b1ed2eac40"
+    },
+    "mbd": {
+      "url": "https://codeload.github.com/libmbd/libmbd/tar.gz/89a3cc199c0a200c9f0f688c3229ef6b9a8d63bd",
+      "bytes": 97594,
+      "sha256": "956eaa8659a24e59573a64e78372cee9f299b4bf0a89a82f6bf98685034c7736",
+      "commit": "89a3cc199c0a200c9f0f688c3229ef6b9a8d63bd"
+    },
+    "devxlib": {
+      "url": "https://gitlab.com/max-centre/components/devicexlib/-/archive/a6b89ef77b1ceda48e967921f1f5488d2df9226d/devicexlib-a6b89ef77b1ceda48e967921f1f5488d2df9226d.tar.gz",
+      "bytes": 5322036,
+      "sha256": "39d55ae63168f9692ab649e7cededb3bc181580f450d30d5d4deeb008ea4a29c",
+      "commit": "a6b89ef77b1ceda48e967921f1f5488d2df9226d"
+    },
+    "lapack": {
+      "url": "https://codeload.github.com/Reference-LAPACK/lapack/tar.gz/7866626840f5d5e7e27f027a55182da8b3303872",
+      "bytes": 7731478,
+      "sha256": "3efe9172b890f88b212f6d2c990d080c874d62f8ebec7b4d9b8520a291dee7fc",
+      "commit": "7866626840f5d5e7e27f027a55182da8b3303872"
+    }
+  }
+}

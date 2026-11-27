@@ -1,0 +1,56 @@
+{
+  "question": "Can the native response diagnostic build from pinned public source archives without any retained object or module?",
+  "status": "Prepared only; do not launch until full rank36 owner26476 is terminal",
+  "guard_seconds": 1200,
+  "group_rss_cap_bytes": 3221225472,
+  "launch_normal_seconds": 120,
+  "scope": "Fresh source downloads, extraction, reference LAPACK/QE/SCTK compilation and response driver. No historical source archive/object/module/library path supplied. Material execution separate.",
+  "decision": "Prior historical LAPACK build102.7s and QE build112.9s plus SCTK5.2s motivate one1200s fresh-build pilot; executable/data qualification remains separate. Guarded total~96min below4h before active full check. Source downloads are included in1200s deadline; a network failure is not evidence of compute infeasibility.",
+  "command": [
+    "/opt/homebrew/opt/python@3.13/bin/python3.13",
+    "/Users/noahs/Developer/sc-dft-exp/research/build_public_response.py",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-001"
+  ],
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/build_public_response.py",
+      "bytes": 7751,
+      "sha256": "a172c74f080b47d7f46943fb467e5821ea748483688f9b4fb67b169b5174191c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_response_probe.mk",
+      "bytes": 1283,
+      "sha256": "87abe126d35ef3a3f650b9c77eb53390efdd75e7aad51b4c559fc0ece88bdcdf"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_response_sources.json",
+      "bytes": 1975,
+      "sha256": "a61610cec78189e3c7f8c3f00483deb0195f897d0d9699cad57b22211bc2e36d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/current_moment_geometry.py",
+      "bytes": 4377,
+      "sha256": "e81cc201475335ccef6120915f3c612d38705c70c43eab00f7a282f2639934fb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/velocity_moment_probe.f90",
+      "bytes": 6990,
+      "sha256": "4c6e761324eefeb1c7212144a130d0bde804412dd643e20c394a028ac34a2e15"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/response_assignment_dump.f90",
+      "bytes": 3571,
+      "sha256": "b4c303e89f9c9187cda3b63285d8851c4f6af4a715474e91efc8fbfda98ca618"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/cell_moment_cache.py",
+      "bytes": 2219,
+      "sha256": "0f1b10c2f44ec7bb04850375987b0dd18ae3e1079f50a29dd289dcc65a4067e7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/run-public-response-build-001.py",
+      "bytes": 2000,
+      "sha256": "20467beb753e00e7ab0e6deb93c211d55f22340c9b9fffcb509036a231ff1d68"
+    }
+  ]
+}

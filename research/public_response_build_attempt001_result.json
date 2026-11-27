@@ -1,0 +1,66 @@
+{
+  "status": "FAIL at nested LAPACK CMake configuration; no numerical or native material execution",
+  "terminal_receipt": {
+    "status": "FAIL",
+    "error": "RuntimeError: Native command exit 1",
+    "command": [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "/Users/noahs/Developer/sc-dft-exp/research/build_public_response.py",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-001"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-control-001",
+    "wall_s": 16.46410054154694,
+    "exit": 1,
+    "max_individual_descendant_rss_bytes": 41877504,
+    "sampled_peak_group_rss_bytes": 41451520,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 1200,
+    "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+  },
+  "root_cause": "Top-level CMAKE_POLICY_VERSION_MINIMUM cache setting is not inherited by nested project-signature try_compile; INSTALL requiresCMake3.2 and CMake4 rejects it",
+  "files_sha256": {
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-control-001/results/build/receipt.json": "0f3be3b22ea8f504638773c4077b62ca5d3702fc1c157346d17efcf8a91f1d54",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-control-001/results/build/console.log": "6850983c1d18081a53168665ccd935b2330aafe470b4bd4f5a298cad27b58a42",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-001/build-step-1.log": "32fbf66cc8cec882d34ac699d414797ed30c5c09c584894044611581d6930a1c",
+    "/Users/noahs/Developer/sc-dft-exp/research/public_response_build_manifest.json": "13b6078067815a5445b1ea36032994406ba60fdd4be7671657e062f692f35ba4"
+  },
+  "source_archives": [
+    {
+      "name": "qe",
+      "bytes": 71643059,
+      "sha256": "018f9fd21af4ec8659b5a84b909d6efcc3537c6f1c745a4067e7c88e176a0929",
+      "status": "fresh_download_hash_verified"
+    },
+    {
+      "name": "sctk",
+      "bytes": 2522323,
+      "sha256": "74b65b6342db6e46b32f7828a4e6a2cd4a0a36f43bd4cbc8ef47bd434189eeda",
+      "status": "fresh_download_hash_verified"
+    },
+    {
+      "name": "fox",
+      "bytes": 988789,
+      "sha256": "107b1d58eb6a0a730c98520a8f99a6459b2a0e06b06f4b037abf358b29d50df1",
+      "status": "fresh_download_hash_verified"
+    },
+    {
+      "name": "mbd",
+      "bytes": 97594,
+      "sha256": "956eaa8659a24e59573a64e78372cee9f299b4bf0a89a82f6bf98685034c7736",
+      "status": "fresh_download_hash_verified"
+    },
+    {
+      "name": "devxlib",
+      "bytes": 5322036,
+      "sha256": "39d55ae63168f9692ab649e7cededb3bc181580f450d30d5d4deeb008ea4a29c",
+      "status": "fresh_download_hash_verified"
+    },
+    {
+      "name": "lapack",
+      "bytes": 7731478,
+      "sha256": "3efe9172b890f88b212f6d2c990d080c874d62f8ebec7b4d9b8520a291dee7fc",
+      "status": "fresh_download_hash_verified"
+    }
+  ]
+}
