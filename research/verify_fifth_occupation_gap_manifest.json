@@ -1,0 +1,93 @@
+{
+  "question": "Does rank37 satisfy unchanged full Q0 stationary residual targets?",
+  "source_revision": "0462061",
+  "current_source_snapshot": "15cbb8b",
+  "candidate_sha256": "a22da42064fdcaf6115660e60ae156466a3e51c416f0dad6444f9c89dbfed541",
+  "acceptance": "GAP_SEED_VERIFY_GATE.md; exact input-vector preservation, full finite residual inf<=1e-10Ry and RMSresidual/RMSgap<=1e-5 for stationary-residual certification; conditioning/response accuracy separate",
+  "guard_seconds": 1200,
+  "group_rss_cap_bytes": 3221225472,
+  "launch_normal_seconds": 120,
+  "decision": "All prior native owners terminal. Rank36 passesRMS butmax4.055e-10Ry misses4.05x; measured fifthoccupation defect7.71e-6 yieldspositive stable rank37 meanschange-0.019/-0.0194%, reduced0.913s. One1200s fullcheck atsame executable/targets is informative; expected~580s/938MB, cumulativeguard~2h<4h. Conditioning/responseaccuracy remain separate.",
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/gap_seed_io.f90",
+      "bytes": 2236,
+      "sha256": "12b8e04e9a6c0c3f6d4a990dc1f26a9b0603e8f3e7ce1ec8360d1242193bfc28"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/nonlinear_map_probe.f90",
+      "bytes": 5936,
+      "sha256": "8f268526d2f647336e5e24458ff85c7b822a4deaed4760a2a6a4f869fb7fee7f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/nonlinear_map_probe.mk",
+      "bytes": 2397,
+      "sha256": "42436a4fe4a70ba44534c33fb3c5be4d2147d8990c7cb4ef7090e9a02fe90dfa"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/full_nonlinear_probe.f90",
+      "bytes": 4579,
+      "sha256": "c3601b2e13d77c49ae84461ef21027d8eb43e895c0144b3bd8a72adb6cc88d34"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/nonlinear_tile_apply.f90",
+      "bytes": 1035,
+      "sha256": "71f70997604f37f3c5f5db6d406a377ea91e1a50b5d78ca520e0294cf7f4c739"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-gap-build-001/build.log",
+      "bytes": 32758,
+      "sha256": "1dd3b74f251227aef3094a26ea09acf6f3d826de6ad91c15eeacac77d6bddbfb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-006/verify-gap-seed.x",
+      "bytes": 7784672,
+      "sha256": "c49f5c8d6fdb12f1725118f377a7501fb8c455c991485060bb6736f2780f6c18"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-006/native.in",
+      "bytes": 430,
+      "sha256": "8aebd2e7b1f538a2ec39489e24a146bf93689bab92812de62ea65fd0bb4e9dcc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-006/map-control.in",
+      "bytes": 139,
+      "sha256": "81c10f2ae79de44b1a886cbefa5ddfb4bf16f9b52184d3844bc0cd7a43344e42"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-006/gap-seed.meta",
+      "bytes": 287,
+      "sha256": "78e4acf5dedf8e76575c350885a0d05e507101b759739d27639890666ae30549"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-006/matdyn0",
+      "bytes": 1916,
+      "sha256": "96bf9e490721008167c28f83b76b13e47fe88d78b7eff6d95a1807c603dda5c8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-006/seed-control.in",
+      "bytes": 135,
+      "sha256": "ede50876c1d3d8e9761e850f41cd71e34167ac2561ed37fa3ce9637e8486bb10"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-006/gap-seed.bin",
+      "bytes": 1087040,
+      "sha256": "a22da42064fdcaf6115660e60ae156466a3e51c416f0dad6444f9c89dbfed541"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/run-verify-reduced-gap-006.py",
+      "bytes": 1987,
+      "sha256": "9ede7c2ccad7f395d8ee5bf94207abc91b14d6a0ca14635572626a350bbef9b9"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/fifth_occupation_reduced_result.json",
+      "bytes": 1750,
+      "sha256": "edbb81204e2ddda7b590d476a023a56ac6bd128b5034811daf49954c2b3f8627"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/fifth_occupation_reduced_manifest.json",
+      "bytes": 4176,
+      "sha256": "343ce9a9efc805309971a45ae433a905cb0905e116d7d1f16cf1a11cb2bfaf51"
+    }
+  ]
+}

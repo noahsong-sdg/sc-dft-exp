@@ -1,5 +1,28 @@
 # Research restart ledger
 
+## Latest — rank37 reduced PASS; full residual owner79090 running; dense replay staged
+
+Rank37 reduced007/session1397 TERMINALPASS0.912687s/132661248B; four Newton
+steps, coefficient residual1.735e-17. Means0.153378963103/0.152473363255meV,
+about -0.0190/-0.0194% from rank36. Candidate SHAa22da42064fdcaf6115660e60ae156466a3e51c416f0dad6444f9c89dbfed541.
+This is a reduced solve, not stationary certification. Enrichment/reduced result
+JSONs and prospective verify_fifth_occupation_gap_manifest.json are preserved.
+
+Full37 sole heavy owner session79090/PID74407, raw/verify-reduced-gap-006,
+passed120s normal gate12:06:05Z. Live process and same session confirmed12:09Z.
+Poll same owner, then verify_gap_candidate.py against prospective manifest.
+Unchanged inf1e-10Ry/RMSratio1e-5 targets; conditioning remains separate.
+
+Complete897point32cubed saved-density band replay staged at
+raw/public-dense-band-001 with public_dense_band_manifest.json, NO watcher.
+Launch only after full37 terminal; public guard600s/3GiB/120s normal gate.
+PUBLIC_DENSE_BAND_GATE.md records forecast190s, all23322 eigenvalues target1e-6Ry,
+no fitted offset, originals unchanged. This is baseline replay, not refinement.
+Pinned QE npk40000 cannot hold expanded48cubed; consistent rebuild plus unchanged
+32 baseline is required before larger response grids. No larger run authorized
+by this checkpoint alone.107 research tests PASS7.719s; compileall excluding raw
+and git diff --check PASS. Goal remains active, final verdict/audit incomplete.
+
 ## Latest — eight-point public band replay PASS; rank37 reduced owner1397 waiting
 
 Bandretry002/session34959 TERMINALPASS1.694869s/91963392B. Publicguardactual

@@ -1,0 +1,77 @@
+{
+  "occupation_defect_norm": 3.030603296040256e-08,
+  "relative_occupation_defect_norm": 7.705657779103475e-06,
+  "new_direction_old_basis_overlap": 6.193120819022645e-19,
+  "new_direction_norm": 1.0,
+  "inherited_operator_consistency_verified": false,
+  "old_rank": 36,
+  "new_rank": 37,
+  "beta": 19613.355577892344,
+  "context": "abfcecc2bacf7acac94a87e8d7cf4e88945bc589fea82dc9475106428818b74c",
+  "full_candidate_targets_met": false,
+  "full_evaluation": {
+    "full_readback": {
+      "dimensions": [
+        66867,
+        67940,
+        67940,
+        4
+      ],
+      "beta": 19613.355577892344,
+      "finite_difference_step_ry": 1e-08,
+      "kernel_cpu_s": 536.100982,
+      "tile_sum_max_absolute_difference": 3.978588292152807e-15,
+      "jacobian_difference": 3.413940241614455e-09,
+      "jacobian_acceptance_bound": 1.0452933876090058e-05,
+      "sides": [
+        {
+          "side": 1,
+          "max_absolute_residual_ry": 2.4384338598732727e-10,
+          "rms_residual_ry": 4.929429687415351e-11,
+          "max_absolute_jacobian_action": 5.22146693804503
+        },
+        {
+          "side": 2,
+          "max_absolute_residual_ry": 4.054997471056841e-10,
+          "rms_residual_ry": 8.173175888152711e-11,
+          "max_absolute_jacobian_action": 4.986206378837149
+        }
+      ],
+      "sha256": {
+        "full-map.txt": "2db93df22e3dbba564ff887ea51b25535be98853c4c392a4e94f1d5992ab0638",
+        "full-map.bin": "d14b6278dd2b3f4d7f835b9e27ea1401a78e9df8859f94098f786b63af1f5160"
+      },
+      "scope": "Full native Q0 residual at imposed seed; terminal receipt required; no gap convergence or physical response validation"
+    },
+    "terminal_guard_pass": true,
+    "input_gap_bitwise_preserved": true,
+    "wall_s": 580.3459606668912,
+    "peak_individual_rss_bytes": 937852928,
+    "residual_infinity_ry": 4.054997471056841e-10,
+    "rms_residual_over_gap": 6.30183488955954e-06,
+    "thresholds": {
+      "residual_infinity_ry": 1e-10,
+      "rms_residual_over_gap": 1e-05
+    },
+    "stationary_residual_targets_met": false,
+    "conditioned_gap_error_bounded": false,
+    "physical_response_verified": false,
+    "manifest_sha256": "6a90834dca4cdcdb9f7fef61cfa8279d14db5f5106b5888dc737e544fe2661aa",
+    "scope": "Certify declared stationary residual targets, never physical response accuracy."
+  },
+  "inputs_sha256": {
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/enriched-basis-005/basis.meta": "00624dcad11fe3464b497512d75ea3eb23de41efed4a30f5e2b67ecdef83d868",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/enriched-basis-005/basis.bin": "d48fd35ba9cb1e67887833db90b0d28dc816077f32b298eabca48b36ac7fbe82",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.meta": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.bin": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37",
+    "research/raw/reduced-nonlinear-006/reduced-control.in": "47696e4b8a89d237ad6b2bdcc94b0d3d924c0775ae381d1dbb3c3371651dba7d",
+    "research/raw/reduced-nonlinear-006/reduced-gap.bin": "5d8e085ca71b02ac4cc96b922f51b0fe3a29adc332eed131d198d7775bce2949",
+    "research/verify_fourth_occupation_gap_manifest.json": "6a90834dca4cdcdb9f7fef61cfa8279d14db5f5106b5888dc737e544fe2661aa",
+    "research/fourth_occupation_reduced_manifest.json": "01578e3a59809b39090ec78f9ef9489c7b9da397d2a7cc9e9e4cf46ad672d11d"
+  },
+  "outputs_sha256": {
+    "research/raw/enriched-basis-006/basis.meta": "4bdd19c1a85361b58704f365c2132f370a47d9b8596ce0266e894bb5e20c96bc",
+    "research/raw/enriched-basis-006/basis.bin": "a225d023bcd7ddb6cd8b9635ef3d8ce5db9e76af626ffd5351598aef7cb12494"
+  },
+  "scope": "Prepare one hash-bound basis enrichment after a full candidate evaluation."
+}
