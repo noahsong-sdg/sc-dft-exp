@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-27T11:12:21.120495+00:00",
+  "as_of_utc": "2026-11-27T11:35:13.051626+00:00",
   "attempts": [
     {
       "path": "full-nonlinear-001/results/moment/receipt.json",
@@ -310,6 +310,28 @@
       "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
     },
     {
+      "path": "public-response-build-control-001/results/build/receipt.json",
+      "receipt_sha256": "0f3be3b22ea8f504638773c4077b62ca5d3702fc1c157346d17efcf8a91f1d54",
+      "status": "FAIL",
+      "wall_s": 16.46410054154694,
+      "error": "RuntimeError: Native command exit 1",
+      "exit": 1,
+      "individual_peak_rss_bytes": 41877504,
+      "sampled_group_peak_rss_bytes": 41451520,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "public-response-build-control-002/results/build/receipt.json",
+      "receipt_sha256": "bbe37b7a4e5723a895e2ba56d1d19d0e27313168141fb3702adaaad79f369c4c",
+      "status": "FAIL",
+      "wall_s": 281.61665166635066,
+      "error": "RuntimeError: Native command exit 1",
+      "exit": 1,
+      "individual_peak_rss_bytes": 469352448,
+      "sampled_group_peak_rss_bytes": 493174784,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
       "path": "quadrature-audit-001/results/moment/receipt.json",
       "receipt_sha256": "4aa3133d661539a46bd3c859f31878b03307982d2e27c8b66e90253b2904570a",
       "status": "PASS",
@@ -484,19 +506,30 @@
       "individual_peak_rss_bytes": 934281216,
       "sampled_group_peak_rss_bytes": 913604608,
       "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "verify-reduced-gap-005/results/moment/receipt.json",
+      "receipt_sha256": "1cef36eec4eb6fbbd0e570c20055a90825ee7ebffe37236fadd0b42a23c0a5c2",
+      "status": "PASS",
+      "wall_s": 580.3459606668912,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 937852928,
+      "sampled_group_peak_rss_bytes": 917176320,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
     }
   ],
   "totals": {
     "PASS": {
-      "attempts": 33,
-      "wall_s": 5470.338295544032
+      "attempts": 34,
+      "wall_s": 6050.684256210923
     },
     "FAIL": {
-      "attempts": 11,
-      "wall_s": 267.7007787497714
+      "attempts": 13,
+      "wall_s": 565.781530957669
     }
   },
-  "total_guarded_wall_s": 5738.039074293803,
-  "scope": "Account for terminal guarded native attempts, including failed/prelaunch ones.\n\nThis excludes launch-watch waiting, compilation, downloads, Python analyses and\nunmetered model use. Guard PASS is not scientific or physical acceptance.",
+  "total_guarded_wall_s": 6616.465787168592,
+  "scope": "Account for all terminal guarded attempts, including failed/prelaunch ones.\n\nThis includes builds or downloads executed inside a guarded command. It excludes\nlaunch-watch waiting and unguarded compilation, acquisition, Python analyses and\nunmetered model use. Guard PASS is not scientific or physical acceptance.",
   "cpu_time_energy_model_cost": "Not instrumented; no estimates inferred"
 }

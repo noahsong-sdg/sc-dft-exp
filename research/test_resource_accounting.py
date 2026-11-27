@@ -26,6 +26,21 @@ class ResourceAccountingTest(unittest.TestCase):
             self.assertEqual(len(result['attempts']), 2)
             self.assertTrue(all(len(row['receipt_sha256']) == 64 for row in result['attempts']))
 
+    def test_guarded_build_failure_counts_despite_old_native_only_description(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory)/'public-response-build-control-001/results/build'
+            path.mkdir(parents=True)
+            (path/'receipt.json').write_text(json.dumps(dict(
+                continuous_deadline_s=1200, status='FAIL', wall_s=16.464,
+                command=['python3', 'build_public_response.py', 'fresh-build'],
+                cwd=str(path.parent.parent), error='Native command exit 1', exit=1,
+                max_individual_descendant_rss_bytes=41877504,
+                sampled_peak_group_rss_bytes=41451520, guard_source_sha256='b'*64)))
+            result = summarize(directory)
+            self.assertEqual(result['total_guarded_wall_s'], 16.464)
+            self.assertEqual(result['totals']['FAIL']['attempts'], 1)
+            self.assertIn('includes builds or downloads', result['scope'])
+
     def test_unavailable_inventory_is_not_zero_compute(self):
         with tempfile.TemporaryDirectory() as directory:
             with self.assertRaises(ValueError):

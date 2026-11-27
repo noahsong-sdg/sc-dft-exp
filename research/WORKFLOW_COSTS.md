@@ -54,15 +54,19 @@ postprocessing entry point is not established by this trace.
 
 [campaign_native_resource_accounting.json](campaign_native_resource_accounting.json)
 snapshots terminal native guard receipts, including prelaunch and failed attempts.
-Recompute with `python3 research/resource_accounting.py`. After the rank35 full check, moment-cache
-export and rank36 reduced pilot, 44 terminal attempts total
-5738.039 s: 5470.338 s in 33
-guard-PASS attempts and 267.701 s in 11 failures. The full-candidate execution
-passed its guard but failed its numerical residual targets. Guard PASS alone is
-not scientific acceptance. Waiting, builds,
-downloads, Python references and model use are excluded; this is not total
-campaign time, CPU time, energy, or monetary cost. Those unmetered quantities
-remain unknown. Each row records the original receipt hash and resource metrics.
+Recompute with `python3 research/resource_accounting.py`. The latest snapshot
+contains47 terminal guarded attempts totaling6616.466s:6050.684s in34 guard-PASS
+attempts and565.782s in13 failures. This now includes two guarded source-build
+failures totaling298.081s. The other45 attempts total6318.385s (~105.3min).
+The accounting description has been corrected: any work inside a guarded command,
+including compilation/acquisition, is included. Unguarded builds/downloads,
+launch-watch waiting, Python analyses and model use remain excluded.
+
+Guard PASS does not mean scientific acceptance: rank36 passes the guard and RMS
+target but fails the maximum-residual target. The fresh retry003 is excluded until
+terminal. These are guarded wall times, not total campaign time, CPU, energy or
+monetary cost. Each row preserves receipt hash and resource metrics.
+
 
 ## Retained basis setup: historical partial accounting
 

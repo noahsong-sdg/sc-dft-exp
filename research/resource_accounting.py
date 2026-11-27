@@ -1,6 +1,7 @@
-"""Account for terminal guarded native attempts, including failed/prelaunch ones.
+"""Account for all terminal guarded attempts, including failed/prelaunch ones.
 
-This excludes launch-watch waiting, compilation, downloads, Python analyses and
+This includes builds or downloads executed inside a guarded command. It excludes
+launch-watch waiting and unguarded compilation, acquisition, Python analyses and
 unmetered model use. Guard PASS is not scientific or physical acceptance.
 """
 import argparse
