@@ -1,0 +1,52 @@
+{
+  "status": "Boundschecked retained-native opt-in cache and unchanged-default builds PASS;79 offline regressions PASS5.640s; compileall/diffcheck PASS; not material-tested",
+  "source_before_cache_extension": "dc8a6f2",
+  "command": "make -f research/velocity_moment_probe.mk [pinned native/geometry/assignment/moment sources] MOMENT_CACHE=1 velocity-moment-probe.x",
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/response_assignment_dump.f90",
+      "bytes": 3571,
+      "sha256": "b4c303e89f9c9187cda3b63285d8851c4f6af4a715474e91efc8fbfda98ca618"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/velocity_moment_probe.f90",
+      "bytes": 6990,
+      "sha256": "4c6e761324eefeb1c7212144a130d0bde804412dd643e20c394a028ac34a2e15"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/velocity_moment_probe.mk",
+      "bytes": 869,
+      "sha256": "e15d894780f1b4d3eee6ca1cc501fb6b75574cd372072c3240900cda0eb3c816"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/cell_moment_cache.py",
+      "bytes": 2219,
+      "sha256": "0f1b10c2f44ec7bb04850375987b0dd18ae3e1079f50a29dd289dcc65a4067e7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-build-001/build.log",
+      "bytes": 12749,
+      "sha256": "a39d1442d324280312eef2d672d852d1a3e21444b063b39f49dfc0ef87f60c25"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-build-001/velocity-moment-probe.x",
+      "bytes": 7660824,
+      "sha256": "ba9eb0af30dca4599759d829a60a8f63cf38d89c6bb334ad2c60333d9d5cac71"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/nb-moments-unshifted-001/current_geometry.f90",
+      "bytes": 11359,
+      "sha256": "747c0b9c28ec6589c0460375484ebf7a404aa65543380cecd6a05334016a7005"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-default-build-001/build.log",
+      "bytes": 9211,
+      "sha256": "8045f643b7f1270f06083af5aea9768316f1c73168588c5a14443a43047c4fb8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-default-build-001/velocity-moment-probe.x",
+      "bytes": 7660536,
+      "sha256": "97fcb5abd6a1a99b40f6847b1a0b40540ea208f82b90b17317292b70bb0f87ba"
+    }
+  ]
+}

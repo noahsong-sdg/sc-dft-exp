@@ -1,5 +1,22 @@
 # Research restart ledger
 
+## Latest — opt-in raw/averaged moment cache prepared
+
+New `MOMENT_CACHE=1` diagnostic exports DOS/m1/m2/curvature before and after
+native symmetry averaging. Default solver arithmetic and assignment schema
+unchanged. Strict little-endian binary64 reader binds phase, dimensions,
+physical context, energy nodes and finite payload; stale/truncated/changed
+phase/context regressions included. Native module fixture checks actual export.
+Both opt-in and unchanged-default retained-native builds PASS,79 regressions
+PASS5.640s, compileall/diffcheck PASS. Historical sourcebeforeextension dc8a6f2.
+
+`research/ANISOTROPIC_MOMENT_GATE.md` traces requirement and derives a
+signed-weight triangle bound on averaging error for resolved native support.
+Observable contraction/replay/bound implementation still pending. Cache run
+prepared only in response_moment_cache_manifest.json; do NOT launch until
+owner2285/child57859 is verified terminal. Then normal120s pressure gate,
+120s deadline/3GiB. Current gap validation still running, progress advancing.
+
 ## Latest — validation figure; rank35 native running
 
 Owner2285/PID52961 launched native child57859 at10:51UTC after120continuous

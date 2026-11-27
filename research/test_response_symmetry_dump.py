@@ -5,6 +5,7 @@ import tempfile
 import unittest
 
 from gap_symmetry_audit import read_rotations
+from cell_moment_cache import read_pair
 
 
 class ResponseSymmetryDumpTest(unittest.TestCase):
@@ -21,6 +22,7 @@ end module
 module sctk_val
  use kinds
  integer,parameter::nx=2,nqbz=1,fbee=1,lbee=1
+ real(dp)::q_fflo(3)=[.01_dp,0._dp,0._dp]
  real(dp)::xi0(2)=[-1._dp,1._dp],dx0(2)=[.5_dp,.5_dp]
 end module
 module el_phon
@@ -52,11 +54,19 @@ program test
  real(dp)::dos(2,1,1,2),v(2,1,1,2),h(2,1,1,2)
  dos=1;v=2;h=3
  call dump_assignment(dos,v,h,.01_dp,10._dp)
+ call dump_cell_moments('raw',dos,v,4*v,h,.01_dp,10._dp)
+ call dump_cell_moments('averaged',dos,v,4*v,h,.01_dp,10._dp)
 end program
 ''')
             subprocess.run([compiler, '-fcheck=all', '-ffree-line-length-none', 'stubs.f90',
                             str(source), 'driver.f90', '-o', 'test'], cwd=root, check=True, capture_output=True)
             subprocess.run([str(root/'test')], cwd=root, check=True, capture_output=True)
+            dims, physical, raw, averaged = read_pair(root)
+            self.assertEqual(dims, [2, 1, 1, 1, 2])
+            self.assertEqual(physical, [.01, 10., .01, 0., 0.])
+            self.assertEqual(list(raw['second']), [8.]*4)
+            self.assertEqual(list(raw['curvature']), [3.]*4)
+            self.assertEqual(raw, averaged)
             size, rotations = read_rotations(root/'response-symmetry.txt')
             self.assertEqual(size, 1)
             self.assertEqual(rotations[1], ((1, 1, 0), (0, 1, 0), (0, 0, 1)))

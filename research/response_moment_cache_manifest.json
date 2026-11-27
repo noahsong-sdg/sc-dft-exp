@@ -1,0 +1,37 @@
+{
+  "question": "Measure moment-averaging error at anisotropic gap candidates without silently imposing exact gap symmetry",
+  "status": "Prepared only; launch only after owner2285 native validation is verified terminal",
+  "guard_seconds": 120,
+  "group_rss_cap_bytes": 3221225472,
+  "launch_normal_seconds": 120,
+  "decision": "Prior same-geometry exporter34.95s/195MB supports one120s run; new cache about13MB plus headers. Native budget remains below4h. Do not overlap production native jobs.",
+  "controls": "Same unshifted bands, geometry, q1e-12 absolute-threshold48-operation diagnostic as response-orbit-001. Known selector defect deliberately exercised; not a physical small-Q procedure.",
+  "scope": "Raw and averaged DOS, first/second velocity and curvature moments on fixed quadrature. No interpolation of gaps, stationary/conditioning certificate, or physical response prediction.",
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/response_moment_cache_build_manifest.json",
+      "bytes": 2367,
+      "sha256": "64f464e7d3cc2fefaad28e609991198d87b4fd813d5a9cf78c15cd022d3254ca"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/velocity-moment-probe.x",
+      "bytes": 7660824,
+      "sha256": "ba9eb0af30dca4599759d829a60a8f63cf38d89c6bb334ad2c60333d9d5cac71"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/native.in",
+      "bytes": 434,
+      "sha256": "6a4afe7a9891432a9db5d910ad23fef1a4dcf8f662dafb0666dcce1398e7b045"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-moment-cache-001/matdyn0",
+      "bytes": 1916,
+      "sha256": "96bf9e490721008167c28f83b76b13e47fe88d78b7eff6d95a1807c603dda5c8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/run-response-moment-cache-001.py",
+      "bytes": 2010,
+      "sha256": "538094b701064455254bdf6b26c10fda9a72ce29ace1801b986107359a03f9cf"
+    }
+  ]
+}

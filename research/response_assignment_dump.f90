@@ -5,12 +5,31 @@
 module response_assignment_dump
   use kinds, only: dp
   use sctk_ini_delta, only: store_d3k
-  use sctk_val, only: nx,nqbz,fbee,lbee,xi0,dx0
+  use sctk_val, only: nx,nqbz,fbee,lbee,xi0,dx0,q_fflo
   use el_phon, only: elph_nbnd_min,elph_nbnd_max
   use symm_base, only: nsym,s
   use disp, only: nq1,nq2,nq3
   implicit none
 contains
+  subroutine dump_cell_moments(phase,dos,first,second,curvature,q,volume)
+    character(*),intent(in) :: phase
+    real(dp),intent(in) :: dos(nx,elph_nbnd_min:elph_nbnd_max,nqbz,2)
+    real(dp),intent(in) :: first(nx,elph_nbnd_min:elph_nbnd_max,nqbz,2)
+    real(dp),intent(in) :: second(nx,elph_nbnd_min:elph_nbnd_max,nqbz,2)
+    real(dp),intent(in) :: curvature(nx,elph_nbnd_min:elph_nbnd_max,nqbz,2),q,volume
+    integer :: unit
+    if(phase/='raw'.and.phase/='averaged') error stop 'Unknown moment cache phase'
+    open(newunit=unit,file='cell-moments-'//phase//'.txt',status='new')
+    write(unit,'(a)') '# response-cell-moments-v1; fixed geometry diagnostic; NOT a physical prediction'
+    write(unit,'(a)') phase
+    write(unit,*) nx,elph_nbnd_min,elph_nbnd_max,nqbz,2
+    write(unit,*) q,volume,q_fflo
+    close(unit)
+    open(newunit=unit,file='cell-moments-'//phase//'.bin',status='new',access='stream',form='unformatted')
+    write(unit) xi0,dx0,dos,first,second,curvature
+    close(unit)
+  end subroutine
+
   subroutine dump_assignment(dos,velocity,curvature,q,volume)
     real(dp),intent(in) :: dos(nx,elph_nbnd_min:elph_nbnd_max,nqbz,2)
     real(dp),intent(in) :: velocity(nx,elph_nbnd_min:elph_nbnd_max,nqbz,2)

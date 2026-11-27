@@ -14,8 +14,15 @@ response_assignment_dump.o: $(ASSIGNMENT_DUMP_SOURCE)
 	$(MPIF90) $(FF) -fcheck=all -c $< -o $@
 endif
 
+ifdef MOMENT_CACHE
+ifndef ASSIGNMENT_DUMP_SOURCE
+$(error MOMENT_CACHE requires ASSIGNMENT_DUMP_SOURCE)
+endif
+CACHE_FLAG = -DMOMENT_CACHE
+endif
+
 velocity-moment-probe.x: velocity_moment_probe.o $(GEOMETRY_OBJECT) $(ASSIGNMENT_OBJECT)
 	$(LD) $(LDFLAGS) -o $@ $^ $(CORELIBS)
 
 velocity_moment_probe.o: $(MOMENT_SOURCE) $(GEOMETRY_OBJECT) $(ASSIGNMENT_OBJECT)
-	$(MPIF90) $(FF) $(GEOMETRY_FLAG) $(ASSIGNMENT_FLAG) -fcheck=all -c $< -o $@
+	$(MPIF90) $(FF) $(GEOMETRY_FLAG) $(ASSIGNMENT_FLAG) $(CACHE_FLAG) -fcheck=all -c $< -o $@

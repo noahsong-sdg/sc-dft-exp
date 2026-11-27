@@ -5,7 +5,7 @@
 ! Diagnostic extensions Copyright (C) 2026 Noah Song, under the same license.
 program velocity_moment_probe
 #ifdef ASSIGNMENT_DUMP
-  use response_assignment_dump, only: dump_assignment
+  use response_assignment_dump, only: dump_assignment, dump_cell_moments
 #endif
   use kinds, only: dp
   use environment, only: environment_start, environment_end
@@ -112,9 +112,15 @@ program velocity_moment_probe
   write(u,*) q,omega
   write(u,*) count(fine<0),sum(abs(fine),mask=fine<0),sum(abs(fine))
   deallocate(fine)
+#ifdef MOMENT_CACHE
+  call dump_cell_moments('raw',dos,m1,m2,h,q,omega)
+#endif
   copy_d=dos;zero=0
   call symm_dosk(dos,m1,h)
   call symm_dosk(copy_d,m2,zero)
+#ifdef MOMENT_CACHE
+  call dump_cell_moments('averaged',dos,m1,m2,h,q,omega)
+#endif
   ! Reconstruct the owning routine independently, starting from immutable bands.
   et(:,1:nks)=bands
   deallocate(d_et,d2_et)
