@@ -172,3 +172,22 @@ matched1920compiled brute-force cases and linked separately, but native exact
 output qualification is still pending. The official current QE tetra source is
 byte-identical to the pinned file; see INDEXED_MESH_GATE.md. No general speedup,
 novelty, upstream adoption or full microscopic cold-start claim follows yet.
+
+
+## Released extraction: point selection and missing information
+
+[Additional finite-window controls](FINITE_WINDOW_CONTROLS.md) now test
+first-four-point removal, three/four-point odd-cubic fits and local three-point
+peak interpolation against original hashed curves. At1K the linear leave-one-out
+length ratio spans1.25–1.53relative to the author single point, while the cubic
+ratios are1.001/1.050. These are model/window sensitivities, not confidence
+intervals. Local peak interpolation changes the fixed-xi peak-route result
+177.09nm to176.24nm; it does not reconcile136nm.
+
+The release processing script averages the two currents before writing these
+curves, and only nonnegative momenta are present. Separate-current agreement
+and empirical parity cannot be tested from this processed artifact. Raw current
+estimates/convergence histories are needed; imposing odd parity in a fit does
+not supply that missing evidence. Negative tails are catalogued without inferring
+a physical or implementation error. This closes the available saved-data
+sensitivity controls while preserving the unidentifiable checks as open.

@@ -1923,3 +1923,15 @@ The maintained verify_response_equivalence.py now checks all eight prospective
 export identities, baseline integrity and native readback.126localtestsPASS;
 compileall, moment replay, diff checkPASS. PublicCI59ce422PASS. Physical
 normalization, conditioning, cold-start cost and demand remain unproved.
+
+
+## Saved-curve extraction controls completed
+
+finite_window_controls.py checks original curve and processing-script hashes,
+then runs point-removal, odd-cubic and local peak controls.130localtestsPASS
+10.371s; compileall/moment replay/diff checksPASS. At1K local peak interpolation
+changes177.09nm to176.24nm, not136nm; linear point-removal ratios1.25–1.53
+are not uncertainty intervals. Odd parity is an assumption, not an empirical
+check: positive-Q processed curves average both currents. Raw estimates and
+convergence histories remain missing for those checks. Full rank38owner55500
+stilllive; noothernativewatcher launched.
