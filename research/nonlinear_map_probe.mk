@@ -8,3 +8,16 @@ nonlinear-map-probe.x: nonlinear_map_probe.o
 
 nonlinear_map_probe.o: $(MAP_SOURCE)
 	$(MPIF90) $(FF) $(MAP_FLAGS) -I$(NATIVE)/build -fcheck=all -c $< -o $@
+
+# Explicit target: one full pass, never the default selected-row diagnostic.
+full-nonlinear-probe.x: nonlinear_tile_apply.o full_nonlinear_probe.o full_nonlinear_driver.o
+	$(LD) $(LDFLAGS) -o $@ $^ $(RETAINED_OBJECTS) $(MAP_EXTRA_OBJECTS) $(CORELIBS)
+
+nonlinear_tile_apply.o: $(RESEARCH_SOURCE_DIR)/nonlinear_tile_apply.f90
+	$(MPIF90) $(FF) -fcheck=all -c $< -o $@
+
+full_nonlinear_probe.o: $(RESEARCH_SOURCE_DIR)/full_nonlinear_probe.f90 nonlinear_tile_apply.o
+	$(MPIF90) $(FF) -I$(NATIVE)/build -fcheck=all -c $< -o $@
+
+full_nonlinear_driver.o: $(MAP_SOURCE) full_nonlinear_probe.o
+	$(MPIF90) $(FF) $(MAP_FLAGS) -DFULL_MAP -I$(NATIVE)/build -fcheck=all -c $< -o $@

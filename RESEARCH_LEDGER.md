@@ -1,5 +1,27 @@
 # Research restart ledger
 
+## Latest priority — full nonlinear native pilot live
+
+Previous turn made progress: selected-map result public ate0bffd2; CI45967820966
+SUCCESS. Full driver now builds boundschecked, sharing each kernel tile across
+four batches: full residual, ±1e-8Ry perturbations, analytic Jacobian action.
+All59 offline tests PASS(4.478s); compileall/diff checks PASS.
+Both-side rectangular BLAS and fullroutine synthetic-oracle regressions PASS;
+strict persisted-output rejection regression PASS. See
+research/FULL_NONLINEAR_MAP_GATE.md and full_nonlinear_manifest.json.
+
+Verified LIVE owner31203, PID10080, raw/run-full-nonlinear-001.py. Native child launched08:48:20Z after120 continuous normal-pressure seconds;
+1200s/3GiB native guard,20min bounded
+launch window. Poll same owner and raw/full-nonlinear-001 watcher/progress; do
+not launch another native job. Full result not yet available. New driver sources
+are pinned prospectively; selected-pilot manifests refer to prior source hashes.
+
+Next: after terminal receipt, strict full_nonlinear_analysis.py readback; inspect
+all residual/Jacobian controls, update resource accounting, then decide whether
+a converged nonlinear solve fits measured remaining budget. Preserve distinction
+between inherited microscopic inputs and end-to-end cold-start preparation.
+Goal remains active; ceiling2026-11-27T17:41Z.
+
 ## Latest priority — selected nonlinear native map PASS; full evaluation next
 
 Owner63945/PID97100 TERMINAL PASS:49.182736s, peak935133184bytes, exit0.

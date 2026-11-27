@@ -1,0 +1,55 @@
+{
+  "question": "Full Q0 nonlinear residual and Jacobian action on commodity Mac with saved8.05K Z",
+  "scope": "Imposed seed, not converged gap; same retained microscopic coefficients and declared cross-platform initialization mode",
+  "preflight": "Cross-platform initialization, exact saved Z checks, point/input/coefficient binding as selected pilot",
+  "acceptance": "Both sides finite, tile direct sums within2e-13+2e-12scale, Jacobian central difference h1e-8 within1e-8+2e-6maxabsJ; padded entries zero; no seed mutation",
+  "budget": {
+    "native_seconds": 1200,
+    "rss_cap_bytes": 3221225472,
+    "launch_normal_seconds": 120,
+    "reason": "Selected8-row tiles0.081\u20130.109 CPU seconds project680\u2013913s/full pass; within initial4h pilot budget; shares4 weight batches per kernel"
+  },
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/nonlinear_map_probe.f90",
+      "bytes": 5560,
+      "sha256": "0ff2b3a7e3f1c5f1072dbca293530e6b1a96b4c2b7907a9c036b83614384ed9e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/nonlinear_map_probe.mk",
+      "bytes": 1067,
+      "sha256": "acdef613bf17283f04e1c76eb971463c8984c7d0296febc8440f52570521c609"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/nonlinear_tile_apply.f90",
+      "bytes": 1035,
+      "sha256": "71f70997604f37f3c5f5db6d406a377ea91e1a50b5d78ca520e0294cf7f4c739"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/full_nonlinear_probe.f90",
+      "bytes": 4579,
+      "sha256": "c3601b2e13d77c49ae84461ef21027d8eb43e895c0144b3bd8a72adb6cc88d34"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/full-nonlinear-build-001/build.log",
+      "bytes": 14433,
+      "sha256": "0bb7bba3509ae8131c25cd45ca4fe2c2e3777471337750a739d319ab55b71f1e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/full-nonlinear-001/native.in",
+      "bytes": 430,
+      "sha256": "8aebd2e7b1f538a2ec39489e24a146bf93689bab92812de62ea65fd0bb4e9dcc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/full-nonlinear-001/map-control.in",
+      "bytes": 139,
+      "sha256": "81c10f2ae79de44b1a886cbefa5ddfb4bf16f9b52184d3844bc0cd7a43344e42"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/full-nonlinear-001/full-nonlinear-probe.x",
+      "bytes": 7784568,
+      "sha256": "ca535f58678619570a03b45989ff4e2ae4f1be0729b79a90c3ea637c2df96e99"
+    }
+  ],
+  "test_results": "Batched rectangular BLAS wrapper test PASS; full routine explicit sum/finite difference/zero/padding test PASS"
+}

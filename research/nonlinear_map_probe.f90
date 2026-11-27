@@ -16,6 +16,9 @@ program nonlinear_map_probe
 #else
   use native_state_io, only: verify_initialized_state, read_full_Z
 #endif
+#ifdef FULL_MAP
+  use full_nonlinear_probe, only: run_full_map
+#endif
   use tiled_operator, only: build_tile
   use slab_operator, only: ensure_slab, clear_slab
   use tc_native_oracle, only: native_pair
@@ -90,6 +93,9 @@ program nonlinear_map_probe
   if(any(fermi==0).or.zeros==0)error stop 'Missing actual zero-energy boundary control'
   if(.not.all(ieee_is_finite(chi)))error stop 'Nonfinite nonlinear weights'
   if(weight_error>1.e-14_dp)error stop 'Independent nonlinear occupation mismatch'
+#ifdef FULL_MAP
+  call run_full_map(chi)
+#else
   starts=[1,max(1,ngap(1)/2),ngap(1)-7]
   sample=[1,ngap(2)/2,ngap(2),fermi(2)]
   open(newunit=unit,file='selected-map.txt',status='new')
@@ -127,5 +133,6 @@ program nonlinear_map_probe
     deallocate(block,image)
   end do
   close(unit)
+#endif
   call environment_end('SCTK')
 end program
