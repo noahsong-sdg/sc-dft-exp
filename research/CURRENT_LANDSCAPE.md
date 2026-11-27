@@ -1,5 +1,11 @@
 # Current opportunity assessment — 26 November 2026
 
+Follow-up: [current upstream duplication check](UPSTREAM_STATUS_AUDIT.md),
+27 November, confirms main still matches our pinned revision. No matching issue
+or PR was found in the stated limited search; this is not proof of novelty or
+demand. The recent installation request is explicitly excluded from the response
+success thesis.
+
 ## Finding
 
 Do not claim the broad response/penetration-depth pathway is unsaturated. Two
