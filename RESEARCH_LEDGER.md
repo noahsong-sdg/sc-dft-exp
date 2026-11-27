@@ -1,5 +1,26 @@
 # Research restart ledger
 
+## Latest priority — rank33 reduced PASS; second full check prepared
+
+Owner25141 TERMINAL PASS0.905815s/119635968-byte individualpeakRSS. Strict
+reducedreader PASS:5iterations,coefresidual3.42608e-17,Fermi means
+0.1396677569/0.1388429262meV,min0.10681595meV,modeprojectionerror1.00316e-12.
+No full residual accepted yet. critical_reduced_result.json includes receipt.
+No live scientific owner remains. Optionalresponseassignment exporter994d56b
+builds default/export variants,72tests PASS5.957s,compileall/diffcheck PASS.
+
+Fresh raw/verify-reduced-gap-002 prepared using unchangedhash-boundnativeexe,
+originalsourcecompatibility/Z gate and rank33 seed SHA dd3dab76cd0a6ef299a378592b00c8e39a43bbc8f5e06c0b160f4da35fb6de22.
+All originalfullmanifest files revalidated before reuse. Newprospectivemanifest
+verify_critical_gap_manifest.json pins inputs+launcher+sourcecandidate evidence.
+Same1e-10Ry/1e-5targets,120quietnormal seconds,1200s/3GiB,oneowner. Previous
+785.63s/904MB measuredfullpass and improvedcriticalmode justify onefullcheck
+withininitial4hbudget. No claim of sufficientconditioning/physicalresponse.
+
+Next launch raw/run-verify-reduced-gap-002.py, recordsessionowner, pollsameowner
+toterminal. Then verify_gap_candidate.py withnewmanifest, preserveanyfailure.
+Responseassignment materialpilot mustwaitbehindthisfulljob. Goal active.
+
 ## Latest priority — optional native response-assignment export built
 
 Previous turn made progress: criticalmode/setupcostc205711/bf3c155 public.

@@ -158,3 +158,19 @@ reduced pilot with the same 0.15 meV branch seed and 120 s / 3 GiB guard after
 120 quiet normal seconds. All 71 local regressions pass (6.317 s), including
 native fixtures; Python compilation and diff checks pass. Fortran source and
 the previously qualified native executable have not changed.
+
+## Rank33 reduced result and full-check decision
+
+Terminal guard PASS: 0.905815 s wall, 119635968-byte individual peak RSS.
+Strict readback passes: five Newton iterations, coefficient residual
+3.42608e-17, positive Fermi means 0.1396677569/0.1388429262 meV and minimum
+positive-weight Fermi gap 0.10681595 meV. The driver's mode-projection error
+falls to 1.00316e-12. See critical_reduced_result.json, including the receipt.
+These remain reduced-model results; the full residual is unknown.
+
+One new full native check is justified by this improved representation and the
+previous measured 785.63 s / 904 MB pass. verify_critical_gap_manifest.json pins
+the candidate, reused native executable and controls before launch. The full
+reader must enforce the same infinity/RMS targets, exact seed preservation,
+tile and derivative controls, and terminal guard. Keep 120 quiet normal seconds,
+1200 s / 3 GiB and one heavy owner. No threshold is relaxed.
