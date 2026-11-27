@@ -1,5 +1,13 @@
 # Scientific decision checkpoint
 
+Latest material gate: [Nb geometry diagnostic](NB_MATERIAL_DIAGNOSTIC.md).
+Preparation succeeded in 49.8 s / 200 MB peak RSS. Complete current on imposed
+1.5-meV-gap material geometry shows roughly 5–11% released error at 2 K versus
+direct occupations, but no self-consistent physical prediction. Both native
+variants fail exactly zero-gap controls through xi/E at E=0. The paragraph below
+describes the earlier fixture milestone; the stronger geometry evidence remains
+limited by the explicitly imposed gap and unconverged integration estimates.
+
 ## What is established
 
 The strongest currently supported contribution is a reproducible numerical
@@ -9,7 +17,7 @@ A separate finite-temperature saturation shortcut affects both current and the
 upstream gap RHS. Complete-routine synthetic fixtures show that the discrepancies
 survive integration or residual assembly. Narrow candidates pass the tested
 references, including optimized OpenMP builds. These are numerical findings;
-no corrected material response has been established.
+no corrected self-consistent material response has been established.
 
 The public released V3Si slope extraction is reproduced near 97.6 nm after
 correcting our own conversion error. The peak extraction remains inconsistent
@@ -41,11 +49,10 @@ would require 67.7 GiB even at these smaller counts, so a new unmodified dense
 solve cannot fit 32 GiB RAM. Reuse or qualified memory reduction is necessary.
 
 Legacy released state files omit curvature. The existing native inputs support
-a plausible preparation route, but our material wrapper has not yet completed a
-run. Its first launched attempt exposed a wrapper argument-contract bug, now
-corrected and regression-tested. Elevated host memory pressure subsequently
-prevented launch. This is an operational limitation, not a scientific negative
-result or proof that the laptop lacks capacity.
+a preparation route now measured at 49.8 s and 200 MB peak RSS. Its first launched
+attempt exposed a wrapper argument-contract bug, now corrected and regression-tested.
+Two later runs were interrupted by host pressure before attempt 005 succeeded.
+Prepared counts differ from archived gap counts, preventing direct gap transfer.
 
 Even after preparation succeeds, its imposed initial gap is not a self-consistent
 material state. A predictive demonstration needs matching gap provenance,
@@ -56,9 +63,9 @@ Mac runtime forecast is justified by the cluster logs alone.
 
 ## Next decisive evidence, in order
 
-1. Complete the guarded preparation pilot and validate its arrays/provenance.
-2. Measure affected state weights and fixed-gap numerical differences, explicitly
-   separating that diagnostic from physical predictions.
+1. Fix and regression-test the newly exposed E=0 current product boundary.
+2. Qualify geometry reuse/convergence after the completed preparation and
+   fixed-gap diagnostic, separating those from physical predictions.
 3. Obtain a compatible converged gap, or justify a bounded new solve, then compare
    corrected and original workflows under the same numerical controls.
 4. Quantify changes in a selected physical observable and compare them with

@@ -1,5 +1,23 @@
 # Research restart ledger
 
+## Latest decisive progress — native material preparation succeeded
+
+Session 91019 and attempt 005 are TERMINAL SUCCESS. Guarded native preparation
+completed in 49.783 s, peak individual RSS 199,573,504 bytes. No owned solver or
+watch remains live. Strict output validation passes; see
+research/NB_MATERIAL_DIAGNOSTIC.md and nb_preparation_diagnostic.json.
+Counts 62850/64662 differ from archived 66867/67940: no direct gap transfer.
+
+Complete pinned current evaluated on all prepared states with imposed 1.5-meV
+gap at 2/4/8 K. At 2 K released errors vs direct occupations are about -4.94%
+and -10.60%; candidate agrees within 2.4e-14 absolute. This is an imposed-gap
+material-geometry diagnostic, NOT a converged Nb prediction. Both zero-gap
+controls fail nonfinite because E=0 makes xi/E undefined in both routines.
+Do not call the existing thermal candidate normal-state qualified. New source
+trace also finds absolute Q-symmetry tolerance 1e-15 (squared norm), a hazard for
+naively shrinking Q. Next: narrow E=0 product correction/regression, controlled
+geometry reuse/convergence and qualified gap. 33 offline tests pass. Goal active.
+
 ## Current live owner — sustained-pressure gate
 
 After two short normal-pressure windows failed, attempt 005 now requires 60
