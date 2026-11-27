@@ -1,0 +1,31 @@
+{
+  "status": "FAIL",
+  "stage": "strict initialization; before full map",
+  "failure": "Native dx0 differs from reference",
+  "receipt": {
+    "status": "FAIL",
+    "error": "RuntimeError: Native command exit 1",
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/verify-gap-seed.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001",
+    "wall_s": 61.246786791365594,
+    "exit": 1,
+    "max_individual_descendant_rss_bytes": 911048704,
+    "sampled_peak_group_rss_bytes": 909180928,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 900.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "all_declared_inputs_unchanged": true,
+  "public_and_consumed_manifest_equal": true,
+  "full_map_produced": false,
+  "stationary_residual_qualified": false,
+  "physical_response_verified": false,
+  "console_sha256": "aa394decc0c98ed4fc613064f56197e6104a950dc384a0fccefe82b51349ad0e",
+  "native_campaign_total_s": 81.89037841636559,
+  "next": "Measure the grid mismatch against the retained reference; do not relax strict checks or inject retained quadrature values"
+}

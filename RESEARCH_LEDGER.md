@@ -2214,3 +2214,18 @@ Bound900s/3GiB, quiet120s; no watcher exists at staging.137offline testsPASS14.6
 maintained-source compileall, moment replay and diffcheckPASS. Staging regression
 rejects stale linked libraries, failed build receipts and existing destinations.
 The actual successful staging copied~1.45GB; its setup time was not instrumented.
+
+
+### Strict source-built retained-candidate check FAIL
+
+portable-gap-check-001 terminal61.246787s/911048704B, nativeexit1 at
+`Native dx0 differs from reference`. No full-map output; no gap residual accepted.
+All declared inputs unchanged, public/consumed manifest identical, command/cwd/
+deadline receipt checked. Total new guarded81.890378s. Failure retained publicly.
+Source trace: energy_grid invokes upstream weightspoints_gl, which seeds Newton
+with COS and computes transformed weights. All SCTK f90 sources compared equal
+between current public tree and retained native source tree. Historical platform
+quadrature evidence is a hypothesis for current failure, not its measurement.
+Next tiny diagnostic must measure current arrays; no gate relaxation or injected
+reference weights.137testsPASS14.653s; compileall/moment/diff checksPASS.
+Public CI46037466541 on8047279 PASS. No native owner remains.

@@ -31,12 +31,17 @@ are hash-pinned; input/executable/receipt checksPASS. The preceding full-link001
 is retained with an incomplete-inventory limitation, not silently corrected.
 No historical custom object/module path appears in the link. Runtime is pending.
 New guarded total20.643592s includes both full-link builds.
-Next: strict retained8.05K candidate check with source-built driver, forecast680s,
-guard900s/3GiB. Fresh staged root portable-gap-check-001 has no watcher yet.
-Staging tests PASS137/14.653s; prospective manifest committed before launch.
-Launch remains subject to unchanged quiet/hash gates.
-The microscopic/Z/basis inputs remain retained; this will qualify a dependency
-replacement, not fresh input generation or a physical-response prediction.
+Strict retained8.05K check001 is terminal FAIL61.246787s/911048704B:
+`Native dx0 differs from reference`, before full-map output. All declared inputs
+unchanged and public/consumed manifests identical afterrun. Original gate stays
+unchanged; no residual or response qualification follows. No native owner remains.
+New guarded total81.890378s. Public result/console retain the failure.
+Next: source-built tiny quadrature diagnostic to measure current dx0 discrepancy;
+trace energy_grid -> weightspoints_gl -> COS/Newton -> weights before fixing.
+Historical arithmetic diagnostics suggest a platform cosine seed sensitivity,
+but that is not proof of the current mismatch. Do not inject old grid values.
+The microscopic/Z/basis inputs remain retained; a fresh internally consistent
+Mac grid/Z/basis path remains necessary for the actual physical goal.
 
 New native pilot ceiling4wallhours, prior campaign189.29min accounted separately.
 Hardware rechecked:M5/10cores/32GiB,normalpressure,~151GBfree. Preserve dirty

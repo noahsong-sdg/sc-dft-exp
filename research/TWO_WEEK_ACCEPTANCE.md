@@ -30,7 +30,7 @@ sample/model discrepancy is separate and must not be absorbed by fitting a facto
 
 | Gate | Evidence required | Initial status |
 |---|---|---|
-| Public source-only native path | Fresh custom modules/executable from inspectable licensed source; pinned public QE/SCTK; no historical objects/modules; full recipe and cost | In progress: cache slice staged |
+| Public source-only native path | Fresh custom modules/executable from inspectable licensed source; pinned public QE/SCTK; no historical objects/modules; full recipe and cost | Source-only full driver linked; strict retained initialization fails at dx0, runtime unqualified |
 | Compatible reusable inputs | Public acquisition or rights-cleared release; geometry, temperature, kernel, Z, Coulomb and band contexts verified; reconstruction/invalidation tested | Incomplete |
 | Converged equilibrium gap | Independent full residual, conditioning/error transport, basis/setup and relevant grid controls at each accepted temperature | Retained8.05K residual anchor only; conditioning/portability open |
 | Correct response functional | Derivation of small-Q response and units, normal-state cancellation and zero-gap/zero-Q limits, consistent treatment of mass/vertex and SCDFT approximations | Incomplete |

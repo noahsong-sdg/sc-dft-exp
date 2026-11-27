@@ -1,0 +1,123 @@
+
+     Program SCTK v.7.4.1 starts on 27Nov2026 at  8:56:17 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Serial version
+     0 MiB available memory on the printing compute node when the environment starts
+
+
+     Reading xml data from directory:
+
+     /Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.save/
+     file Nb.pbe-spn-kjpaw_psl.0.3.0.UPF: wavefunction(s)  4S 4P renormalized
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum         709     345    139                11849     4189    1061
+
+     Using Slab Decomposition
+
+
+     Check: negative core charge=   -0.000005
+     Dense k-grid : 32  32  32
+     Number of k(dense) : 897
+     [opt_tetra]  Optimized tetrahedron method is used.
+
+     Number of bands :      26
+     Number of k times spin :     897
+     Number of symmetries :      48
+     Lowest band which contains FS :       6
+     Highest band which contains FS :       7
+     [opt_tetra]  Optimized tetrahedron method is used.
+                    Temparature[K] :  0.00000E+00
+                         Xi cutoff : -0.10000E+01
+                        First band : 1
+                         Last band : 26
+        # of Matsubara frequencies : 10
+                           # of xi : 100
+            # of energy for QP-DOS : 50
+              Minimum energy scale :  0.10000E-06
+       Max energy for QP-DOS [meV] :  0.50000E+01
+             Convergense threshold :  0.10000E-14
+                      Max itration : 100
+                  Spin-fluctuation : T
+                      SCDFT kernel : 2
+                         Z_Coulomb : T
+                   Min. freq.[THz] :  0.00000E+00
+                  Min. freq. ratio : -0.10000E+01
+                   Bisection steps : 10
+                Bisection min. [K] : -0.10000E+01
+                Bisection max. [K] : -0.10000E+01
+             Q_{FFLO} [fractional] :  0.00000E+00 0.00000E+00 0.00000E+00
+                 Q_{FFLO} [Ang^-1] :  0.00000E+00
+               Delta initial guess : constant
+       k grid for MEs : 8  8  8
+       Number of modes : 3
+
+
+     Dynamical matrices for ( 8, 8, 8)  uniform grid of q-points
+     With a half shift
+     (  26 q-points):
+       N         xq(1)         xq(2)         xq(3) 
+       1   0.108253175   0.108253175   0.108253175
+       2   0.216506351   0.216506351   0.108253175
+       3   0.324759526   0.324759526   0.108253175
+       4   0.433012702   0.433012702   0.108253175
+       5   0.000000000   0.000000000   0.108253175
+       6   0.324759526   0.216506351   0.216506351
+       7   0.433012702   0.324759526   0.216506351
+       8   0.000000000  -0.108253175   0.216506351
+       9   0.541265877   0.324759526   0.324759526
+      10   0.000000000  -0.216506351   0.324759526
+      11   0.108253175  -0.108253175   0.324759526
+      12   0.000000000  -0.324759526   0.433012702
+      13   0.108253175  -0.216506351   0.433012702
+      14  -0.757772228  -0.324759526  -0.324759526
+      15  -0.649519053  -0.216506351  -0.324759526
+      16   0.324759526   0.324759526   0.324759526
+      17   0.433012702   0.433012702   0.324759526
+      18   0.000000000   0.000000000   0.324759526
+      19   0.000000000  -0.108253175   0.433012702
+      20   0.000000000  -0.216506351   0.541265877
+      21   0.108253175  -0.108253175   0.541265877
+      22  -0.757772228  -0.216506351  -0.216506351
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO
+ERROR STOP Native dx0 differs from reference
+
+Error termination. Backtrace:
+#0  0x1027f3323
+#1  0x1027f3ef7
+#2  0x1027f5113
+#3  0x1007b6923
+#4  0x1007bb29f
+#5  0x100c291ff
+      23   0.000000000   0.000000000   0.541265877
+      24   0.000000000  -0.108253175   0.649519053
+      25  -0.757772228  -0.108253175  -0.108253175
+      26   0.000000000   0.000000000   0.757772228
+     Because shifted q grid is used, q2r will not work !
+NATIVE_COEFFICIENT_HASH Vc0 7b304e91a264759dc1e94b9e68d8c2e5c4b3d6094cf553f8619260fce0ecb6fe
+NATIVE_RETAINED_HASH Vc0 e512e0eb9c2c85645b30f8b68a0851acf6d3319c28ab8ec1174793a9c42f2b12
+NATIVE_COEFFICIENT_HASH gg0 ba64fb182bd0a2fbeb2db7f3689aac7708ce1caba2467a806d366fce012d0831
+NATIVE_COEFFICIENT_HASH omg0 23e776d13c56d881f367b91db7f9a4c92584945f6d24a19c629723f3920490f5
+       Initial delta is theta function
+       Number of symmetries conserving q_FFLO :    48
+       DOS(E_F)[/Ry/cell/spin] :  0.10020E+02
+       DOS(E_F)[/Ry/cell/spin] :  0.10020E+02
+       Number of total points for gap equation : 66867  67940
