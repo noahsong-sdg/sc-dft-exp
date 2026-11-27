@@ -1,5 +1,17 @@
 # Research restart ledger
 
+## Latest — validation figure; rank35 native running
+
+Owner2285/PID52961 launched native child57859 at10:51UTC after120continuous
+normal-pressure seconds. Actual child verified live, progress advancing; do not
+start a competing native job. Terminal result still pending.
+
+`research/plot_gap_validation.py` plots committed reduced ranks31–35 and full
+checks31/33/34, explicitly marking rank35 pending. Figure/source SHA manifest
+published under research/figures; no invented full residual for untested ranks.
+Visual inspection PASS; generation PASS; compileall/diffcheck PASS;
+78 offline regressions PASS6.248s. No scientific acceptance status changed.
+
 ## Latest — rank35 reduced PASS; full owner2285 waiting
 
 Owner47395 TERMINALPASS0.703092s/126173184B. StrictreaderPASS4iterations,
