@@ -41,5 +41,24 @@
   ],
   "regression": "Existing test_cross_platform.py:4 tests PASS 0.186s",
   "guard_seconds": 120,
-  "rss_cap_bytes": 3221225472
+  "rss_cap_bytes": 3221225472,
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/nonlinear-map-cross-platform-001/nonlinear-map-probe.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/nonlinear-map-cross-platform-001/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/nonlinear-map-cross-platform-001",
+    "wall_s": 49.182736416812986,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 935133184,
+    "sampled_peak_group_rss_bytes": 922763264,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 120,
+    "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+  },
+  "diagnostic_sha256": "9f064663044b670a00854dfafe5fd86970fa5dcafdc57bc45efcba4edda8216f"
 }

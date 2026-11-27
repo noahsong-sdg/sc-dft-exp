@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-27T08:31:47.470029+00:00",
+  "as_of_utc": "2026-11-27T08:42:56.759115+00:00",
   "attempts": [
     {
       "path": "nb-moments-001/results/moments/receipt.json",
@@ -255,6 +255,17 @@
       "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
     },
     {
+      "path": "nonlinear-map-cross-platform-001/results/moment/receipt.json",
+      "receipt_sha256": "c3a9e9662ca9e8f04cbca3a3ef021324bc7a2ff169d37874af2b1a6040eccfc5",
+      "status": "PASS",
+      "wall_s": 49.182736416812986,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 935133184,
+      "sampled_group_peak_rss_bytes": 922763264,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
       "path": "nonlinear-map-pilot-001/results/moment/receipt.json",
       "receipt_sha256": "5ee8c9d13e5f6f3e1dd846e48a40ff5527512fc8fd9907e87be3144d181ef7f8",
       "status": "FAIL",
@@ -275,19 +286,30 @@
       "individual_peak_rss_bytes": 912670720,
       "sampled_group_peak_rss_bytes": 910524416,
       "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "quadrature-audit-001/results/moment/receipt.json",
+      "receipt_sha256": "4aa3133d661539a46bd3c859f31878b03307982d2e27c8b66e90253b2904570a",
+      "status": "PASS",
+      "wall_s": 45.61507270857692,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 110444544,
+      "sampled_group_peak_rss_bytes": 110247936,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
     }
   ],
   "totals": {
     "PASS": {
-      "attempts": 14,
-      "wall_s": 849.9306160854176
+      "attempts": 16,
+      "wall_s": 944.7284252108075
     },
     "FAIL": {
       "attempts": 11,
       "wall_s": 267.7007787497714
     }
   },
-  "total_guarded_wall_s": 1117.631394835189,
+  "total_guarded_wall_s": 1212.429203960579,
   "scope": "Account for terminal guarded native attempts, including failed/prelaunch ones.\n\nThis excludes launch-watch waiting, compilation, downloads, Python analyses and\nunmetered model use. Guard PASS is not scientific or physical acceptance.",
   "cpu_time_energy_model_cost": "Not instrumented; no estimates inferred"
 }

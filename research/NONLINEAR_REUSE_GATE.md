@@ -123,3 +123,15 @@ Verification at this checkpoint:56 offline unittest cases PASS(2.246s);
 compileall PASS; committed moment_refinement replay PASS; git diff --check PASS.
 Original strict-mode build manifest hashes refer to source at581f71f; the new
 explicit-mode manifest pins current source separately. Native outcome pending.
+
+## Native selected-map result
+
+Explicit compatibility mode PASS:49.182736s,935133184-byte peak RSS. Fresh
+initialization and saved Z checks pass. All three8-row tiles have zero observed
+BLAS/explicit-sum and sampled uncached-coefficient differences. The1425 exact
+zero-energy product cases are finite; exponential reference error2.65e-23.
+Result and terminal receipt are pinned in nonlinear_map_cross_platform_result.json
+and the mode manifest. This supports a full matrix-free evaluation experiment;
+it is not full residual, gap convergence, independent operator acceptance, or
+physical response validation. Prospective1200s single fullpass budget is recorded
+in the ledger from measured selected-tile costs, within the4h pilot allowance.

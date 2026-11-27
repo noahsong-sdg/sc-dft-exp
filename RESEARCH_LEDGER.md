@@ -1,5 +1,25 @@
 # Research restart ledger
 
+## Latest priority — selected nonlinear native map PASS; full evaluation next
+
+Owner63945/PID97100 TERMINAL PASS:49.182736s, peak935133184bytes, exit0.
+Cross-platform state initialization and unchanged saved8.05K Z checks passed.
+Three8-row tiles: explicit BLAS/sum errors0; sampled uncached coefficient errors0.
+1425 exactzero-energy products; exponential thermal-reference error2.65e-23.
+See research/nonlinear_map_cross_platform_result.json and manifest receipt.
+All56 offline tests PASS; compileall, moment replay,diff check PASS. No live
+campaign owners. Public commit0b06847 has the prospective mode; result follows.
+
+Next: implement a full matrix-free Q0 nonlinear map (both reciprocal sides),
+validate adjoint/index orientation against selected-row controls, and measure
+a full residual before attempting a converged solve. Selected tile CPU costs
+0.081–0.109s/8 rows project roughly680–913s for66867 rows, not measured fullpass.
+An isolated1200s guarded fullpass is justified within the initial4h pilot budget
+(~20min spent), retaining3GiB cap and normal-pressure launch/stop rules. Record
+acceptance and new hashes before launching; one heavy job only. No dense matrix.
+No scientific response or gap-convergence claim follows from selected rows.
+Goal remains active; ceiling2026-11-27T17:41Z.
+
 ## Latest priority — explicit cross-platform nonlinear pilot
 
 Fresh quadrature audit PASS45.615s/110444544bytes: all100 nodes exact; only

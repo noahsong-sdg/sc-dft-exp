@@ -1,0 +1,41 @@
+{
+  "sha256": "9f064663044b670a00854dfafe5fd86970fa5dcafdc57bc45efcba4edda8216f",
+  "dimensions": [
+    66867,
+    67940,
+    67940,
+    100,
+    10,
+    50
+  ],
+  "beta": 19613.355577892344,
+  "exact_zero_energy_products": 1425,
+  "exponential_reference_max_absolute_difference": 2.6469779601696886e-23,
+  "tiles": [
+    {
+      "first": 1,
+      "last": 8,
+      "build_cpu_s": 0.08130299999999835,
+      "explicit_sum_blas_max_absolute_difference": 0.0,
+      "sampled_uncached_coefficient_max_absolute_difference": 0.0,
+      "selected_residual_max_absolute_value": 7.02660421772131e-05
+    },
+    {
+      "first": 33433,
+      "last": 33440,
+      "build_cpu_s": 0.10920200000000335,
+      "explicit_sum_blas_max_absolute_difference": 0.0,
+      "sampled_uncached_coefficient_max_absolute_difference": 0.0,
+      "selected_residual_max_absolute_value": 1.4191025985481946e-05
+    },
+    {
+      "first": 66860,
+      "last": 66867,
+      "build_cpu_s": 0.09750899999999518,
+      "explicit_sum_blas_max_absolute_difference": 0.0,
+      "sampled_uncached_coefficient_max_absolute_difference": 0.0,
+      "selected_residual_max_absolute_value": 5.02374609960698e-05
+    }
+  ],
+  "scope": "Selected nonlinear Q0 map rows with imposed seed; native receipt needed for execution acceptance; no converged gap"
+}
