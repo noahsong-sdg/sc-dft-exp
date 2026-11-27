@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "previous_columns": 48,
+  "current_columns": 64,
+  "previous_mode": {
+    "index": 4,
+    "eigenvalue": 1.001858557337044,
+    "relative_residual": 3.718707329026961e-05,
+    "native_channel": 1
+  },
+  "tracked_mode": {
+    "index": 3,
+    "eigenvalue": 1.0018609491784478,
+    "relative_residual": 4.492048440300454e-06,
+    "native_channel": 1,
+    "normalized_overlap": 0.9999999990977875
+  },
+  "same_sign_fermi_averages": true,
+  "residual_reduction": 8.278422146263035,
+  "admit_next_extension": false,
+  "criterion": "Same mode overlap>=0.99, residual reduction>=2, same-sign averages, lambda>1;64-vector cap.",
+  "sha256": {
+    "/Users/noahs/Developer/sc-dft-exp/research/restarted_basis002_result.json": "101ff251454d309f22fa349527b7769fd06a033e61cab36b0883a101b4eeb8cb",
+    "/Users/noahs/Developer/sc-dft-exp/research/restarted_basis003_result.json": "7a7e8d0e4d690ba03cf4020f21fcffd805403488bbe035c68282fea54e0ff11f",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-016/basis.bin": "a5f38e79a0cc4a62daee775c73188b11244835460544a6f2051b099aee89a487",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-020/basis.bin": "3fc27322291ab7cfc3fb5f6f4219286afda4fc497293f7c6ac4174669081acc0",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-016/reduced.bin": "68501c09dd0439648627c630d9d0e1941534bd8f95fe0957586697351bc21d22",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-020/reduced.bin": "2d7a5dbdf3e2fb87907570868d678b0d73462d4b7c4ec04471981c9ac0bf7229",
+    "/Users/noahs/Developer/sc-dft-exp/research/basis_mode_continuity.py": "8e68e23a067d607a0c942f6411f6bb70fa7ee97ff301bcbe5f3e7913566062d0",
+    "/Users/noahs/Developer/sc-dft-exp/research/restart_mode_analysis.py": "5ab968383dfeaed721c51b36a3044f28f97cf6014f2f0740e125097a914f20e3"
+  },
+  "gap_seed_qualified": false,
+  "physical_response_verified": false
+}

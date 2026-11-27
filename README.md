@@ -17,10 +17,13 @@ see the [independent result](research/restarted_basis001_result.json) and
 reduction, **not a runtime speedup or an accepted superconducting response**.
 A further [48-vector application](research/restarted_basis002_result.json) lowered
 the residual to 3.719e-5, with [overlap 0.99999996](research/basis_continuity001_result.json)
-and another 6.73-fold reduction. The unchanged seed threshold is 1e-9; the next
-bounded extension reaches the registered 64-vector cap.
-Guarded compute through that completed 48-vector application totals 123.76 minutes,
-separate from the historical campaign; subsequent segments are recorded in the current state.
+and another 6.73-fold reduction. The [completed 64-vector extension](research/restarted_basis003_result.json)
+now gives 4.492e-6, another 8.28-fold reduction, with
+[overlap 0.9999999991](research/basis_continuity002_result.json). It still fails the
+unchanged 1e-9 seed threshold. A second target-preserving restart is staged;
+the dimension cap stays at 64.
+Guarded compute through that completed extension totals 137.77 minutes, separate
+from the historical campaign; subsequent segments are recorded in the current state.
 Converged gaps at all three temperatures, conditioning, response normalization
 and state mapping, and the registered 1% uncertainty target remain unqualified.
 

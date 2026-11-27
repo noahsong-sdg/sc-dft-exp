@@ -931,3 +931,46 @@ predecessor019;600s/3GiB/quiet120. Finaluncachedsums,64-vectorRitz and independe
 readback/byteprefix/modeoverlap remain required. No codechanged;180tests/191Python
 compilations/moment gates lastPASS; diffcheckPASS. PublicCI46073417214 onc85e8b6
 PASS. Seedthreshold1e-9 unchanged; scientific goal remainsincomplete.
+
+
+## Restarted64 basis checked; second target-preserving restart admitted
+
+Enrichment020 terminal PASS231.75373504124582 s; individualpeak1170243584 B,
+group1172455424 B. Owner92794/session43297 terminal exit0. Complete new16-column
+images, checkpoint roundtrip, allpostrun inputs, public/consumedmanifest and
+16linkedarchives verified; no historicalcustompath. Six uncached complete sums
+for firstnewvector PASS: maxdifference2.168404344971009e-19 versus frozenbound
+2.0276254586576184e-13. Not exhaustiveallcolumn independent recomputation.
+Guardednewtotal8266.172198708951 s (137.77 min), prior189.29 min separate.
+
+Independent restarted_basis003_result PASS:64columns, Gramerror
+3.3306690738754696e-14, projectionerror3.108624468950438e-14; allreal full-image
+Ritzresiduals agree within5e-12. Conventional target nowindex3,lambda
+1.0018609491784478, relative residual4.492048440300454e-6. Modecontinuity PASS,
+retained Q/AQ bytes exact, overlap0.9999999990977875 and reduction
+8.278422146263035. admit_next_extension=false correctly enforces64cap. Residual
+still4492 times above1e-9; no nonlinear seed or reliable response accepted.
+
+Decision: keep64cap and qualify another16-vector target-preserving restart from
+these measuredimages. Convergence factors5.99/6.73/8.28 and stablemodeoverlaps
+support another bounded pilot; they do not guarantee future convergence. No
+cheaper projected-only calculation can establish the full-image seed residual.
+Another complete application afterrestart forecasts15–18native minutes from
+measured14.01-minute application; notbound, below4h remaining102.23min. Four
+contiguoussegments,600s/3GiB/quiet120 each, oneheavyowner. Continue beyond new32
+only if residual reduces>=2x, modeoverlap>=0.99, same-sign averages,lambda>1 and
+fullnative/independent checks PASS. No automaticbudget/cap/threshold increase.
+
+Offline portable-basis-restart-002 PASS: retain16 complete Ritzdirections
+2,1,3,4,6,5,7,8,12,13,11,15,16,10,14,9; target3 retained. Combinedbasis/trial
+Gramerror1.7985612998927536e-14, coefficientdefect1.1102232752064792e-16,
+smallestrelativeorthogonalizationnorm0.6385990130335141. Target full-image residual
+preserved4.492048440299556e-6 vs4.492048440300454e-6; serialized roundtrip and
+allpostprepinputs PASS. No new kernel application or gapqualification from this
+transformation. Offline analysis/preparation excluded from native wallledger.
+Firstsegment restart-sweep005 stagesrows1:16384; no owner beforelaunch.
+
+No codechanged. Last required checks180testsPASS,191maintainedPython sources
+compilePASS, moment replayPASS; currentdiffcheckPASS. PublicCI46074021667 on
+dc2fb77PASS. Nonlinear gap, conditioning,2K/4K, responsefunctional/mapping and
+1% error/reproduction remain incomplete. Goal active; no physicalclaim.
