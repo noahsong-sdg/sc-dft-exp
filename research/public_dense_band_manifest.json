@@ -1,0 +1,103 @@
+{
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/pwscf.save/data-file-schema.xml",
+      "bytes": 1922580,
+      "sha256": "8576d6aae7a680916ab64bd21fed3ed0f4354f420f4ac2ea681fd3595e540bac"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/pwscf.save/charge-density.dat",
+      "bytes": 331888,
+      "sha256": "1eb9af07995d970ae1c5ea73ce7a0ac83a54a7987d667509efb9204672289205"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/pwscf.save/paw.txt",
+      "bytes": 3755,
+      "sha256": "0c7aa84653216c5ecac06f052f9c46c1a6b37a36ade321e3354335afbe2d2706"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/pwscf.save/Nb.pbe-spn-kjpaw_psl.0.3.0.UPF",
+      "bytes": 2052531,
+      "sha256": "ccf07218ea34daaa63ff57d9f44ca8b4b529728cccbc8f74dd5fc804ac01e48e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-dense-band-001/pw.x",
+      "bytes": 9229016,
+      "sha256": "d8d0d10c1471e377fcef79ed7062d93686f7d1432bbc9cba997edcb198e1ba87"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-dense-band-001/native.in",
+      "bytes": 57169,
+      "sha256": "00f29d4f078bce87ddf4db14534af2edc012ac63d5aea7290177ffe5d7a15206"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-dense-band-001/reference.json",
+      "bytes": 712998,
+      "sha256": "d4205fae604591bcccb6df0e5654787f7fbb7415de7e54b94eb12628d516ea11"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_response_inputs.json",
+      "bytes": 8886,
+      "sha256": "31cbcbef74f3f2f4a2c9432253a1a68214d2ecd9476926c759cb77563bac6687"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/stage_public_band_pilot.py",
+      "bytes": 6116,
+      "sha256": "ef507947eb2a564967b0329cc245802d0e14f9138cca71da6e658bbc8db4edbd"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/pwscf.a2Fsave",
+      "bytes": 500838,
+      "sha256": "e331b8c2e7d9e55c6efa158d37ee6ef2e51301c5ffc67e0f2b11527738ee8a90"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/stage_public_dense_bands.py",
+      "bytes": 2930,
+      "sha256": "96bfa96646a588ad2011e7b6f3b9d9aac36905f76f59b033187c6129ee708b8e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/macos_native_guard.py",
+      "bytes": 8195,
+      "sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_band_pilot_analysis.py",
+      "bytes": 3413,
+      "sha256": "82fb94021a502a378d57b2c43d707f55800c6f687499fc1007df24543af08a23"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_dense_band_analysis.py",
+      "bytes": 666,
+      "sha256": "49e7b7c3c9bd661d98135cb20c530fa5ce62a3c4ad83661935fdd7bd5e8b5ac6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/build-result.json",
+      "bytes": 4654,
+      "sha256": "bbeedad010efbf5a0a645bdc45786b9e0001719c97a0a0158cd2e56e6589ebb5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-control-004/results/build/receipt.json",
+      "bytes": 808,
+      "sha256": "f3e7f443111981d1310923797104baf0bea77e70604d5da4b33c4e379298bae5"
+    }
+  ],
+  "command": [
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-dense-band-001/pw.x",
+    "-in",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-dense-band-001/native.in"
+  ],
+  "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-dense-band-001",
+  "environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "source_executable_sha256": "d8d0d10c1471e377fcef79ed7062d93686f7d1432bbc9cba997edcb198e1ba87",
+  "points": 897,
+  "acceptance_max_eigenvalue_difference_ry": 1e-06,
+  "guard_seconds": 600,
+  "scope": "Complete32cubed saved-density band reproduction at author897coordinates. No new density, grid refinement, phonon or gap solve.",
+  "status": "Staged only while rank37 full guard is active; no dense watcher launched",
+  "launch_normal_seconds": 120,
+  "rss_cap_bytes": 3221225472,
+  "decision": "Eightpoint fixed-density replay1.695s/92MB reproducesall208values to9.61e-9Ry. Whole-pilot scaling897/8 forecasts190s withunmeasured k-costvariation. One600s fullreplay ofauthor897densepoints32cubed compares23322absoluteRy eigenvalues atunchanged1e-6target, nooffsetfit. No density or gridrefinement claim; initial4hpilotbudget remains."
+}
