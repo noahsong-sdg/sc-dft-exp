@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-27T13:06:05.180015+00:00",
+  "as_of_utc": "2026-11-27T13:25:10.596915+00:00",
   "attempts": [
     {
       "path": "full-nonlinear-001/results/moment/receipt.json",
@@ -409,6 +409,50 @@
       "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
     },
     {
+      "path": "public-fourth-response32-001/results/response/receipt.json",
+      "receipt_sha256": "68c3580ec1712dc86abe3185b6d35546c7ab16c66c9c7a235962a22689a0dd62",
+      "status": "PASS",
+      "wall_s": 39.61923912493512,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 197935104,
+      "sampled_group_peak_rss_bytes": 194625536,
+      "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+    },
+    {
+      "path": "public-fourth-response48-001/results/response/receipt.json",
+      "receipt_sha256": "899ecbec34b36438473d58c1f851fa117ba0ea24c02677ff48f11ee2a0fa805c",
+      "status": "PASS",
+      "wall_s": 227.0405288748443,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 446545920,
+      "sampled_group_peak_rss_bytes": 443187200,
+      "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+    },
+    {
+      "path": "public-indexed-mesh-build-001/results/build/receipt.json",
+      "receipt_sha256": "3cb20bfe6a9e809533e143e169e6ac6ff4bf5d2c952918caa66e174b179bde01",
+      "status": "PASS",
+      "wall_s": 2.5102274999953806,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 108249088,
+      "sampled_group_peak_rss_bytes": 89276416,
+      "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+    },
+    {
+      "path": "public-indexed-response32-001/results/response/receipt.json",
+      "receipt_sha256": "1620c5a1f5d1a1f980ef8e6da891f7281dafa832e64064caf92e8e86361c6ecc",
+      "status": "PASS",
+      "wall_s": 27.20584720885381,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 198131712,
+      "sampled_group_peak_rss_bytes": 194822144,
+      "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+    },
+    {
       "path": "public-response-build-control-001/results/build/receipt.json",
       "receipt_sha256": "0f3be3b22ea8f504638773c4077b62ca5d3702fc1c157346d17efcf8a91f1d54",
       "status": "FAIL",
@@ -697,15 +741,15 @@
   ],
   "totals": {
     "PASS": {
-      "attempts": 47,
-      "wall_s": 7858.142425501719
+      "attempts": 51,
+      "wall_s": 8154.518268210348
     },
     "FAIL": {
       "attempts": 16,
       "wall_s": 1055.2371415826492
     }
   },
-  "total_guarded_wall_s": 8913.379567084368,
+  "total_guarded_wall_s": 9209.755409792997,
   "scope": "Account for all terminal guarded attempts, including failed/prelaunch ones.\n\nThis includes builds or downloads executed inside a guarded command. It excludes\nlaunch-watch waiting and unguarded compilation, acquisition, Python analyses and\nunmetered model use. Guard PASS is not scientific or physical acceptance.",
   "cpu_time_energy_model_cost": "Not instrumented; no estimates inferred"
 }

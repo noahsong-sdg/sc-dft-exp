@@ -2,6 +2,32 @@
 
 
 
+## Latest — indexed32 all8bitwisePASS; held-out48 sole owner37623
+
+Indexed32/session95608 TERMINALPASS27.205847s/198131712B. All8exports bitwise
+match the original capacity32 second-order baseline; native controls/cache,
+context and consumed inputs PASS. public_indexed_response32_result.json owns
+this exact-output qualification. Observed wall ratio35.671543/27.205847=1.311x;
+not a repeated statistical or full-workflow speed benchmark.
+
+Held-out indexed48 sole native owner session37623/PID40701, root
+raw/public-indexed-response48-001,900s/3GiB/normal120; running at13:24:49Z,
+child42942. Prospective public_indexed_response48_manifest.json freezes all8
+original48output identities BEFORE this candidate. All5 previously published
+component/control hashes were revalidated;3assignment/symmetry identities are
+new prospective snapshots, explicitly labeled. This is second-order velocity;
+do not compare to fourth-order48. After terminal use verify_refined_response.py
+with this manifest and explicit --guard-seconds 900, then compare every output
+to manifest baseline_exports exactly. Native/copy/context checks must also pass.
+No sampling observer or other native watcher. Do not edit pinned source/verifier.
+
+Scientific stencil result publice9a544e: fourth32→48spread0.68% vssecond5.52%,
+all temperatures, pre-recorded hypothesis supported. PNG/PDF visually inspected.
+Indexed code public4326110;123testsPASS10.142s plus build/native32 integrations.
+Public CI46006406671 head4326110PASS. Full physical response, rank38 stationary
+validation/conditioning and final requirements audit remain open. Do not claim
+completion from this optimization subset. Rank38reduced008 remains staged only.
+
 ## Latest — fourth48 PASS; indexed32 exact-output sole owner95608
 
 Fourth48/session79865 TERMINALPASS227.040529s/446545920B. All strict native,

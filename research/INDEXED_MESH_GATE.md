@@ -78,3 +78,14 @@ before a separate48cubed comparison. Forecast~25s from the observed profile,
 exact eight-export comparison to the existing second-order48result. Use actual
 accepted-result cost, not a projected search-only speedup. Any mismatch stops
 qualification. Larger-grid scientific controls remain conditional on these gates.
+
+
+##32cubed exact-output result
+
+Native run completed27.205847s/198131712B; all8exports match the unchanged
+capacity32baseline bit for bit, and native controls/cache/components/context and
+input hashes pass. The observed wall ratio is1.311x versus35.671543s. These are
+single unprofiled runs with the same mathematical output, not a repeated timing
+study or end-to-end speedup. Native link cost is separate. See
+public_indexed_response32_result.json. A prospective48held-out protocol is now
+running; qualification does not yet extend to that grid or any physical response.
