@@ -1,0 +1,61 @@
+{
+  "revision": "4bc883e5dfd8a2b38f47f2cb6efba26b773d5b33",
+  "source_sha256": "177d0e9738a4accf658aea108b5349a1d392035b3ec4e98c1c5fea82c98ccf73",
+  "cases": [
+    {
+      "x": 0.0,
+      "gap": 2.0,
+      "shift": 2.0,
+      "beta": 20.0,
+      "released": 0.0,
+      "direct": 0.5,
+      "error": 0.5
+    },
+    {
+      "x": 0.0,
+      "gap": 2.0,
+      "shift": 2.0,
+      "beta": 100.0,
+      "released": 0.0,
+      "direct": 0.5,
+      "error": 0.5
+    },
+    {
+      "x": 0.0,
+      "gap": 0.0002,
+      "shift": 0.0002,
+      "beta": 1000000.0,
+      "released": 0.0,
+      "direct": 0.5,
+      "error": 0.5
+    },
+    {
+      "x": 0.0,
+      "gap": 1.99,
+      "shift": 2.0,
+      "beta": 100.0,
+      "released": 0.0,
+      "direct": 0.26894142136999494,
+      "error": 0.26894142136999494
+    },
+    {
+      "x": 0.0,
+      "gap": 2.01,
+      "shift": 2.0,
+      "beta": 100.0,
+      "released": 1.0,
+      "direct": 0.7310585786300007,
+      "error": 0.2689414213699993
+    },
+    {
+      "x": 0.4,
+      "gap": 0.1,
+      "shift": 0.2,
+      "beta": 2.0,
+      "released": 0.3774642730291649,
+      "direct": 0.3774642730291649,
+      "error": 0.0
+    }
+  ],
+  "scope": "Exact extracted finite-T block; no full RHS or gap solution"
+}
