@@ -3412,3 +3412,16 @@ Continuation verification: unittest discovery180 PASS (11.027s), compile all191
 maintained Python sources PASS, moment_refinement.py PASS, git diff --check PASS.
 Restart-sweep006 guarded owner12279/session24250 confirmed live, waiting for the
 continuous120-second normal-pressure gate. No duplicate heavy owner launched.
+
+
+## Second restart application: second segment accepted
+
+Restart-sweep006 rows16385:32768 terminal PASS, wall201.74480979144573s,
+individual peak1016283136B, sampled group
+peak966213632B. Public/consumed manifest equality,
+checkpoint certification and all pinned postrun inputs PASS. Owner12279 and
+session24250 terminal exit0. New guarded total8672.264348167311s (144.54min);
+historical189.29min separate. Full32-column mode result remains pending.
+Restart-sweep007 stages rows32769:49152, same basis/operator, predecessor006;
+600s/3GiB/quiet120, one heavy owner. No code or thresholds changed; prior
+180 tests/191 Python compilations/moment replay PASS. Scientific goal incomplete.
