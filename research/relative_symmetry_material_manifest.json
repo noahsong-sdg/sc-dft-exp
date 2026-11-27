@@ -1,0 +1,105 @@
+{
+  "question": "Does the existing relative selector preserve the directional material geometry across q1e-4 to1e-12?",
+  "status": "Prepared only; wait for full owner17667 and then response-orbit-001 to be terminal",
+  "guard_seconds": 120,
+  "group_rss_cap_bytes": 3221225472,
+  "launch_normal_seconds": 120,
+  "environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "SCTK_MOMENT_GRID": "8"
+  },
+  "input_direction_fractional": [
+    1,
+    0,
+    0
+  ],
+  "baseline_q_fractional": 0.0001,
+  "candidate_q_fractional": 1e-12,
+  "decision": "Released material controls show4->48symmetries and collapsed firstmoment despiteunchanged fine reference. Synthetic relative-selector regression alreadypasses. Samegeometry34s/195MB forecastsupports one120s material qualification, after existing owners terminal.",
+  "acceptance": "Native guard PASS;4selectedsymmetries, baseline62850/64662counts; compare_scales geometry64eps/indicesexact and normalizeddirectionalnormwise1e-10; momentclosureconservation and baselineagreement1e-10relative. No selfconsistentgap or experimentalclaim.",
+  "generation": "from symmetry_scale_probe import relative_selection; candidate=relative_selection(original_unshifted_geometry)",
+  "historical_reader_before_scale_comparison": "50d8bb3",
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/relative-symmetry-material-build-001/current_geometry.f90",
+      "bytes": 11446,
+      "sha256": "fad3b784aabcce2e8594c2fe40050315efdd373d8c021dea8a40bb6a3ad74518"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/relative-symmetry-material-build-001/build.log",
+      "bytes": 12746,
+      "sha256": "36dc29526ebfc9140f0976786a27299bc42ebcf7bf2a7d8dde2ebaf2f4c27e1b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/relative-symmetry-material-001/velocity-moment-probe.x",
+      "bytes": 7660696,
+      "sha256": "d11a9912532b30928cbf61ab77426136d60bc3d053306e61e258337714d7643a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/relative-symmetry-material-001/native.in",
+      "bytes": 434,
+      "sha256": "6a4afe7a9891432a9db5d910ad23fef1a4dcf8f662dafb0666dcce1398e7b045"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/relative-symmetry-material-001/matdyn0",
+      "bytes": 1916,
+      "sha256": "96bf9e490721008167c28f83b76b13e47fe88d78b7eff6d95a1807c603dda5c8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/run-relative-symmetry-material-001.py",
+      "bytes": 2020,
+      "sha256": "db8047aa9b1131f9422de617c2a395289e63bbc1cdf63e83d8078bfedf1a5f12"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/symmetry_scale_probe.py",
+      "bytes": 4154,
+      "sha256": "aa0a8bcce0e885f1b30a3791a50be6e2383e5e4020c72de2c61dd9d09c2e1604"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/response_assignment_analysis.py",
+      "bytes": 6329,
+      "sha256": "5de6b02adc8a0e8df8a947f2e6aa3aa727383ebb2bc106769dad7a1860537a48"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/response_assignment_dump.f90",
+      "bytes": 2547,
+      "sha256": "058fe8282dc3c58bc4d3f57fa358c718060a5860da3c9572607ee50a7cf59990"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/velocity_moment_probe.f90",
+      "bytes": 6808,
+      "sha256": "4b5bc258a49902e100b2fb2e006973b49089fbbcfa7019f35d3655bfd8884b41"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/nb-moments-unshifted-001/current_geometry.f90",
+      "bytes": 11359,
+      "sha256": "747c0b9c28ec6589c0460375484ebf7a404aa65543380cecd6a05334016a7005"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-assignment-001/native.in",
+      "bytes": 435,
+      "sha256": "3d585c1abcfb39fbff8a38c4b2d019567d6520fcb6394bfade220d9736654455"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-assignment-001/response-assignment.txt",
+      "bytes": 205,
+      "sha256": "e928405c7405164e0af0fba519e65c91f069db6eccdc5456612d3048c3ed7f32"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-assignment-001/response-assignment.bin",
+      "bytes": 5174560,
+      "sha256": "29f6ddab6da24f0cd14c68fc2695f5e28e23e5020bdc7879b6644d8335a71a60"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-assignment-001/velocity-moments.txt",
+      "bytes": 924,
+      "sha256": "c944e90efa939936eeb811d823f56b69a4a7c5ce4652c7c271348031c447309d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-assignment-001/results/moment/receipt.json",
+      "bytes": 675,
+      "sha256": "3512783bc314e8fb3ea1b25d9acc6e116e66361aa829f9bef6b1417de118fb77"
+    }
+  ]
+}

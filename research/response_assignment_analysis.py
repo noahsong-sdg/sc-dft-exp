@@ -10,8 +10,8 @@ import sys
 from compare_legacy_gap import native_arrays
 
 
-def analyze(directory, prepare_directory):
-    root, prepare = Path(directory), Path(prepare_directory)
+def read_assignment(directory):
+    root = Path(directory)
     summary, binary = root/'response-assignment.txt', root/'response-assignment.bin'
     lines = summary.read_text().splitlines()
     if len(lines) != 3 or lines[0] != '# response-assignment-v1; native geometry only; NOT a gap transfer':
@@ -41,6 +41,12 @@ def analyze(directory, prepare_directory):
         if (any(not 1 <= i <= dims[4] for i in arrays['kindx'][start:start+count])
                 or any(not dims[5] <= i <= dims[6] for i in arrays['bindx'][start:start+count])):
             raise ValueError('Invalid response assignment indices')
+    return dims, physical, arrays, summary, binary
+
+
+def analyze(directory, prepare_directory):
+    prepare = Path(prepare_directory)
+    dims, physical, arrays, summary, binary = read_assignment(directory)
     counts, native = native_arrays(prepare)
     shape_matches = dims[:5] == counts[:5]
     differences = {}
@@ -60,6 +66,42 @@ def analyze(directory, prepare_directory):
                 gap_transfer_verified=False, physical_response_verified=False,
                 sha256={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in
                         (summary, binary, prepare/'native-init.meta', prepare/'native-init.bin')}, scope=__doc__)
+
+
+def compare_scales(directory, reference):
+    """Compare identical directional geometry at two nonzero momentum scales."""
+    dims, physical, arrays, summary, binary = read_assignment(directory)
+    old_dims, old_physical, old_arrays, old_summary, old_binary = read_assignment(reference)
+    if any(q*q == 0 or not math.isfinite(q*q) for q in (physical[0], old_physical[0])):
+        raise ValueError('Momentum square is outside directional normalization range')
+    shape_matches = dims == old_dims
+    differences = {}
+    if shape_matches:
+        for name in ('xi0', 'dx0', 'xi', 'dk'):
+            pairs = zip(arrays[name], old_arrays[name])
+            differences[name] = sum(abs(a-b) > 64*sys.float_info.epsilon*max(abs(a), abs(b)) for a, b in pairs)
+        for name in ('kindx', 'bindx'):
+            differences[name] = sum(a != b for a, b in zip(arrays[name], old_arrays[name]))
+    compatible = shape_matches and physical[1] == old_physical[1] and not any(differences.values())
+    normalized = {}
+    if compatible:
+        for name, power in (('dxq', 1), ('d2xq', 2)):
+            values = [x/physical[0]**power for x in arrays[name]]
+            old_values = [x/old_physical[0]**power for x in old_arrays[name]]
+            if not all(map(math.isfinite, (*values, *old_values))):
+                raise ValueError('Nonfinite normalized directional geometry')
+            error = max(abs(a-b) for a, b in zip(values, old_values))
+            scale = max(map(abs, old_values))
+            normalized[name] = dict(max_absolute_difference=error,
+                                    difference_over_reference_max=error/scale if scale else None,
+                                    passes=error <= 1e-10*scale)
+    return dict(geometry_compatible=compatible, dimensions=dims, reference_dimensions=old_dims,
+                geometry_mismatches=differences, normalized_directional_differences=normalized,
+                directional_scale_test_passed=compatible and all(x['passes'] for x in normalized.values()),
+                normwise_relative_tolerance=1e-10, input_direction_verified=False,
+                physical_response_verified=False,
+                sha256={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in
+                        (summary, binary, old_summary, old_binary)}, scope=compare_scales.__doc__)
 
 
 if __name__ == '__main__':

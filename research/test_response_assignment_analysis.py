@@ -3,7 +3,7 @@ import struct
 import tempfile
 import unittest
 
-from response_assignment_analysis import analyze
+from response_assignment_analysis import analyze, compare_scales
 
 
 class ResponseAssignmentAnalysisTests(unittest.TestCase):
@@ -23,6 +23,18 @@ class ResponseAssignmentAnalysisTests(unittest.TestCase):
             report = analyze(root, prepare)
             self.assertTrue(report['mapping_compatible'])
             self.assertFalse(report['gap_transfer_verified'])
+            reference = root/'reference'; reference.mkdir()
+            (reference/'response-assignment.txt').write_text(header+'1 2 2 2 1 1 2\n.02 10\n')
+            (reference/'response-assignment.bin').write_bytes(struct.pack('<20d8i',
+                *nodes, *x, *w, *[2*a for a in v], *[4*a for a in h], *indices))
+            scaled = compare_scales(root, reference)
+            self.assertTrue(scaled['directional_scale_test_passed'])
+            self.assertFalse(scaled['input_direction_verified'])
+            (reference/'response-assignment.bin').write_bytes(payload)
+            self.assertFalse(compare_scales(root, reference)['directional_scale_test_passed'])
+            (reference/'response-assignment.txt').write_text(header+'1 2 2 2 1 1 2\n1e-200 10\n')
+            with self.assertRaisesRegex(ValueError, 'normalization range'):
+                compare_scales(root, reference)
             changed = indices.copy(); changed[-1] = 1
             binary.write_bytes(struct.pack('<20d8i', *nodes, *x, *w, *v, *h, *changed))
             self.assertFalse(analyze(root, prepare)['mapping_compatible'])

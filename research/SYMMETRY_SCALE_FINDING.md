@@ -71,3 +71,35 @@ python3 research/symmetry_scale_probe.py
 Requires gfortran; no network, external microscopic inputs or heavy native job.
 Both variants use -O0 -std=f2008 -fcheck=all. The regression verifies the released
 failure and corrected nonzero-scale invariance, plus the exact-zero boundary.
+
+## Material geometry control and next qualification
+
+The later unshifted-band Nb controls now demonstrate the same selection failure
+in real material-derived geometry: q1e-4 retains4 operations and62850/64662
+states; q1e-12 retains48 and66867/67940. The latter matches the Q0 layout, but
+its squared-mean current coefficient collapses while the matched fine reference
+and all-support second-moment sum remain unchanged to floating-point precision.
+See response_assignment_symmetry_result.json and response_symmetry_moment_result.json.
+These impose a constant gap; no physical self-consistent response is qualified.
+
+The existing tested `relative_selection` normalization is now applied to the
+same unshifted geometry source, with no other change. A retained-native
+boundschecked build passes. relative_symmetry_material_manifest.json prepares
+one120s/3GiB run atq1e-12 after the current owners terminate. It must retain4
+symmetries and match the q1e-4 baseline's energies, weights and indices; normalized
+velocity/curvature must agree within1e-10 normwise relative. Its moment sums
+must also preserve the existing matched-quadrature identities. No candidate
+material run has launched yet. This extends qualification of a specific bug
+candidate, not a full current-version build or a physical response claim.
+
+`response_assignment_analysis.compare_scales` reuses strict assignment parsing
+to compare the two geometry exports and their derivatives divided byQ/Q².
+It keeps exact shape/index and64eps energy/weight criteria. It reports input
+direction unverified: the caller must bind that separately from the input decks,
+as the binary schema stores only momentum norm. The prospective manifest pins
+both directional decks. Tests distinguish correctly scaled arrays, a scale
+failure and normalization underflow; existing stale-data gates remain intact.
+The public reader before this extension is50d8bb3; historical manifest hashes
+are not rewritten. All77regressions pass5.398s, Python compilation and diff
+checks pass. The native candidate build uses the actual exporter and retained
+libraries, not only the scalar fixture.
