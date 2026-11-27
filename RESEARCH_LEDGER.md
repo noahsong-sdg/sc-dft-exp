@@ -1,5 +1,19 @@
 # Research restart ledger
 
+## Latest restart point — preparation pilot staged
+
+Previous turn: progress. The requested two-week prompt is saved and linked from
+AGENTS.md. The original twelve-hour goal remains active. Eighteen offline tests
+pass; the networked full-routine threshold probe also passes optimized OpenMP
+2/4-thread checks (same maximum fixture error 2.1710939712704658e-8).
+
+Located historical native libraries at flux-pinning/native-macos-v1, not beneath
+benchmarks. Traced a preparation-only fresh-state path and compiled a new isolated
+wrapper. Guard refused its first launch: macOS memory pressure=2. No child run,
+no production gap solve. See research/PREPARATION_PILOT.md for exact scope, staged
+attempt, rebuild requirement, and next action. Do not retry until normal pressure.
+No material-level correction or laptop end-to-end feasibility is yet established.
+
 ## Current state — 2026-11-27 05:41 UTC
 
 Active twelve-hour campaign; specification in PROJECT_SPEC.md. Previous turn
