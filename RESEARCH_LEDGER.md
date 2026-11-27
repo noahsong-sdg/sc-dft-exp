@@ -3071,3 +3071,49 @@ sources compilePASS, moment refinementPASS. Current git diffcheckPASS. Latest
 publicCI46064934226 on184ec16PASS. Full nonlinear gap, conditioning/observable
 error transport,2K/4K contexts, current/state mapping,1% response qualification,
 and public accepted-result reproduction remain incomplete. Goal staysactive.
+
+
+## Target-preserving16-vector restart qualified offline; pilot registered
+
+Previous64-vector block sequence failed the unchanged nonlinear seed gate.
+Traced cause of the algorithmic limitation: tc_subspace.ritz_checkpoint appends
+images of the last16 directions until64, with no target-preserving restart.
+In simple terms, all slots were filled before the near-one mode became accurate.
+This is a measured insufficiency of this trial sequence, not a demonstrated
+wrong physical operator. New portable_basis_restart.py retains16 dominant
+DGEEV real/whole-conjugate-pair directions using twice-reorthogonalized coefficient
+vectors and applies identical coefficients to Q and measuredAQ. This preserves
+operator linearity and the near-one target while freeing48slots. Original native
+operator/driver, physicalcontext and all acceptance gates remain frozen.
+
+Chosen over increasing64cap or importing oldimages: it reuses current verified
+operator work, has explicit target/action preservation tests, and bounds storage.
+It is a hypothesis for improved convergence, not a proven optimal solver or a
+speedup claim. Complexpair splitting, losttarget, illconditionedretention,
+changedparentoutputs/context and noncontiguouspredecessors are rejected.
+
+Actual portable-basis-restart-001 PASS: retainedindices
+2,1,4,3,5,6,10,7,11,8,9,12,13,14,15,16; targetindex3 retained.
+Coefficientdefect6.032088603092763e-17, smallestrelativeorthogonalizationnorm
+0.6787353079128456. Combinedretained/trial Gramerror3.3306690738754696e-14.
+Targetlambda1.0018556167488124; full-image residual0.0014976918724182474 versus
+parent0.0014976918724182479. Serializedbasis roundtrip exact; allinputs verified
+again after preparation. No kernel was applied and no gap seed qualified.
+Offline preparation/analysis is excluded from native wallledger, not freecompute.
+
+Prospective decision: authorize one complete16-column operator application after
+restart (fourcontiguoussegments, retained16 ->32). Forecast13–15native minutes
+basedon observedpreviouschunks; notbound. Each600s/3GiB,120continuous normal
+pressure, oneheavyowner; same six uncachedcomplete sums before finalRitz. New
+native total remains5679.466350584141s beforepilot, below4h ceiling. Information
+gain: test whether preserving the target while freeing slots materially lowers
+its full-image residual. Advancement to48 requires at least2x residual reduction,
+same-mode normalized overlap>=0.99 and fullnative/independentreadback PASS; if
+not, diagnose before spending anotherapplication. No automatic enlargementpast64
+or relaxed branch/residual/response gates. Firstsegment portable-restart-sweep-001
+rows1:16384 is staged and hashpinned; no owner beforelaunch.
+
+Checks: focusedrestart suite5PASS; full unittest discovery175PASS in11.995s;
+187maintainedPython sources compilePASS; moment_refinement.py replayPASS;
+gitdiffcheckPASS. Native contraction unchanged; no separatetypecheck configured.
+Public priorCI46065870446 on a919cf2 PASS. Fullgap/response goal remainsactive.
