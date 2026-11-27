@@ -2519,3 +2519,21 @@ available. New guardedtotal1367.111297s including failure001. Root004staged
 ~171–173s; not an isolatedspeedbenchmark or guaranteedfuturecost.153offline
 tests/167sourcecompilation/moment gates lastpassed. CI46046305873 on905b082PASS.
 No new code change; no overlapping owner before prospective publication/launch.
+
+
+### Independent uniform-gap velocity-form response control
+
+Extended the prior abstract-only alternative-method check to the full authors'
+preprint arXiv2603.10955v1. Eq4 provides an independent conventional-current
+representation. Own integration-by-parts derivation maps it to existing scalar
+pair-momentum slope for a smoothperiodicband and constantgap. No fitted massfactor.
+New velocity-only implementation agrees with existing velocity/curvature form
+on a periodiccosineband atbeta2/8/40; zero-gap/small-energy limitsPASS. Actual
+material quadrature may violate the continuum identity until converged; native
+state/derivative mapping, anisotropicgap derivatives and physical vertex/geometric
+terms remain open. See UNIFORM_GAP_REFERENCE.md with primarysource and domain.
+155offline testsPASS18.916s;169maintained Python sources compile; momentreplay
+and working-tree diffcheckPASS. No separatetypecheck configured. Source comparison
+is a validation control, not a new capability or materialprediction claim.
+Recovery004guard53294/session63452 confirmedlive, now running coldsetup; no new
+native research owner. Acceptedcheckpoint remains16400 until new certificate.
