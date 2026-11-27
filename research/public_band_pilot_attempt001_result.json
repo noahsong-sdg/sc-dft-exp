@@ -1,0 +1,29 @@
+{
+  "status": "FAIL before diagonalization",
+  "terminal_receipt": {
+    "status": "FAIL",
+    "error": "RuntimeError: Native command exit 1",
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-pilot-001/pw.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-pilot-001/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-pilot-001",
+    "wall_s": 0.47952066641300917,
+    "exit": 1,
+    "max_individual_descendant_rss_bytes": 12910592,
+    "sampled_peak_group_rss_bytes": 32768,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 180,
+    "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+  },
+  "root_cause": "Explicit celldm1 plusCELL_PARAMETERS bohr specifies lattice twice in pinnedQE cell_base_init. Use normalized alat vectors andsameexplicit lattice scale; no physical geometry change.",
+  "source_before_fix": "d02ffa0",
+  "files_sha256": {
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-pilot-001/results/bands/receipt.json": "e0be3529985798cea45db9e3aeaf4e54dfbd5155b586d5870db478b6e80e8cf7",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-pilot-001/results/bands/console.log": "aa90e1c557bb958532d38af3ec44b35f142682bddb77c2cfd283b731413ad5d1",
+    "/Users/noahs/Developer/sc-dft-exp/research/public_band_pilot_manifest.json": "ad45414da757910d21df471705251de0b3f0887548e5283074502b822020f7ad",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-pilot-001/native.in": "a38c47cc5b88c69b87b435a257209e65be78216286a805d55537589f7e966015"
+  }
+}

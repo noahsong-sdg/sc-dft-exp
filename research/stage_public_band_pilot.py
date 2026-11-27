@@ -75,9 +75,12 @@ ATOMIC_SPECIES
  Nb 92.90638 Nb.pbe-spn-kjpaw_psl.0.3.0.UPF
 ATOMIC_POSITIONS bohr
  Nb 0 0 0
-CELL_PARAMETERS bohr
+CELL_PARAMETERS alat
 """
-    text = header + '\n'.join(' '.join(format(x,'.17g') for x in vector) for vector in cell)
+    alat = float(structure.get('alat'))
+    if not math.isfinite(alat) or alat <= 0:
+        raise ValueError('Invalid lattice scale')
+    text = header + '\n'.join(' '.join(format(x/alat,'.17g') for x in vector) for vector in cell)
     # Explicit alat preserves the author's tpiba convention for noncubic primitives.
     text = text.replace('ibrav=0,', 'ibrav=0, celldm(1)='+structure.get('alat')+',')
     text += '\nK_POINTS tpiba\n8\n'+'\n'.join(' '.join(format(x,'.17g') for x in row['k_tpiba'])+' 1' for row in reference)+'\n'

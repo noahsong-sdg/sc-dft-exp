@@ -1,8 +1,9 @@
 # Fixed-density public band reconstruction: pilot protocol
 
-Status: staged against fresh build004 with public_band_pilot_manifest.json; no
+Status: staged against fresh build004 with public_band_pilot_retry_manifest.json; no
 band calculation launched.
-The isolated public-response run is the only pending native owner. Do not launch this pilot
+The isolated public-response run passed; the corrected band retry is the only
+pending native owner. Do not launch this pilot
 until that owner is terminal and the normal-pressure launch gate passes.
 
 ## Why this is relevant
@@ -32,7 +33,10 @@ the existing acquisition manifest before creating a run directory. It copies
 those files into a new scratch tree and preserves the originals. It supports
 only this pinned nonmagnetic one-atom Nb context,26bands,40/320Ry cutoffs and
 32/24FFT grids. It renders the first eight archived tpiba points with the
-original primitive cell and alat. No cell optimization, SCF iteration, gap solve,
+original primitive cell and alat. CELL_PARAMETERS uses dimensionless alat
+vectors with explicit celldm(1), rather than specifying a Bohr cell and lattice
+scale twice. This is required by pinned QE cell_base_init; Cartesian vectors
+round-trip to the original values in the regression. No cell optimization, SCF iteration, gap solve,
 phonon or Coulomb calculation is requested.
 
 The Hartree/Ry conversion is traced to pinned QE
@@ -61,7 +65,18 @@ python3 research/stage_public_band_pilot.py \
 ```
 
 The emitted run-manifest records command/cwd/environment and input hashes.
-Run it only through the campaign guard protocol, then verify with:
+The public macOS guard retains the qualified process-control implementation,
+adds the120s normal-pressure gate, and writes receipts under the declared fresh
+run directory. It checks command/cwd and every staged hash before waiting and
+immediately before launch. It rejects an existing watcher instead of overwriting
+a prior attempt. Use absolute paths matching the emitted manifest:
+
+```
+python3 research/macos_native_guard.py bands 180 /absolute/new-band-pilot \
+  /absolute/new-band-pilot/pw.x -in /absolute/new-band-pilot/native.in
+```
+
+Then verify with:
 
 ```
 python3 research/public_band_pilot_analysis.py \
@@ -77,3 +92,10 @@ A successful pilot would justify estimating a32³ dense-band replay cost from
 measured work, with setup and k-dependent diagonalization uncertainty. It would
 not justify an uncalibrated cluster-to-Mac extrapolation or establish a converged
 response. Reassess the information gain before any full-grid or refinement run.
+
+
+Attempt001 failed in0.480s before diagonalization because the initial input
+specified lattice scale twice. public_band_pilot_attempt001_result.json preserves
+the receipt, log, input and old manifest hashes. The normalized-cell retry uses
+a new directory and unchanged energy acceptance target. No cost or material
+conclusion follows from that input-format failure.

@@ -62,7 +62,20 @@ Execute the exact command and environment in `public-run/run-manifest.json`,
 from that file's `cwd`. The campaign additionally applies its120-second
 normal-pressure launch gate,120-second native deadline and3GiB process-group
 RSS guard. Measured native times are33.24seconds for the fresh build and37.28seconds for
-the retained exporter. These are separate executions, not a qualified speedup. Outputs include:
+the retained exporter. These are separate executions, not a qualified speedup. A standalone guarded command is also available on macOS, using the absolute
+paths emitted by staging:
+
+```
+SCTK_MOMENT_GRID=8 python3 research/macos_native_guard.py moment 120 /absolute/public-run \
+  /absolute/public-run/velocity-moment-probe.x -in /absolute/public-run/native.in
+```
+
+It waits for120s normal-pressure observations, rechecks all staged hashes before
+launch, and preserves terminal receipts under that run directory. Use a new
+staged directory for every attempt. This removes the historical-checkout guard
+dependency; it does not extend the diagnostic's scientific scope.
+
+Outputs include:
 
 - `velocity-moments.txt`: constant-gap controls and fine-quadrature comparison;
 - `response-assignment.{txt,bin}`: native state assignment;

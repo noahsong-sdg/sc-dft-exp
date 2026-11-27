@@ -30,6 +30,12 @@ class StageBandPilotTest(unittest.TestCase):
         self.assertIn('ecutwfc=40, ecutrho=320', native)
         self.assertIn('celldm(1)=5.4', native)
         self.assertIn('K_POINTS tpiba\n8\n', native)
+        self.assertNotIn('CELL_PARAMETERS bohr', native)
+        vectors=native.split('CELL_PARAMETERS alat\n')[1].split('K_POINTS')[0].splitlines()
+        expected=((-3,3,3),(3,-3,3),(3,3,-3))
+        for line,vector in zip(vectors,expected):
+            for value,reference_value in zip(map(float,line.split()),vector):
+                self.assertAlmostEqual(value*5.4,reference_value,places=14)
         self.assertEqual(reference[3]['k_tpiba'], [0.,0.,3/16])
         self.assertEqual(reference[3]['eigenvalues_ry'][25], 5.)
         with self.assertRaisesRegex(ValueError, 'cutoffs'):

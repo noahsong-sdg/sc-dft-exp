@@ -1,0 +1,87 @@
+{
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/pwscf.save/data-file-schema.xml",
+      "bytes": 1922580,
+      "sha256": "8576d6aae7a680916ab64bd21fed3ed0f4354f420f4ac2ea681fd3595e540bac"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/pwscf.save/charge-density.dat",
+      "bytes": 331888,
+      "sha256": "1eb9af07995d970ae1c5ea73ce7a0ac83a54a7987d667509efb9204672289205"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/pwscf.save/paw.txt",
+      "bytes": 3755,
+      "sha256": "0c7aa84653216c5ecac06f052f9c46c1a6b37a36ade321e3354335afbe2d2706"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/pwscf.save/Nb.pbe-spn-kjpaw_psl.0.3.0.UPF",
+      "bytes": 2052531,
+      "sha256": "ccf07218ea34daaa63ff57d9f44ca8b4b529728cccbc8f74dd5fc804ac01e48e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-pilot-002/pw.x",
+      "bytes": 9229016,
+      "sha256": "d8d0d10c1471e377fcef79ed7062d93686f7d1432bbc9cba997edcb198e1ba87"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-pilot-002/native.in",
+      "bytes": 1223,
+      "sha256": "0068ae979533b241a3700d0c91c43d82b823d072d5601d6029792bc9e1a442d8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-pilot-002/reference.json",
+      "bytes": 6365,
+      "sha256": "570735c7b3dbcc32ec3b34925731fad8c487d32d8ec935508c8c100fab936376"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_response_inputs.json",
+      "bytes": 8886,
+      "sha256": "31cbcbef74f3f2f4a2c9432253a1a68214d2ecd9476926c759cb77563bac6687"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/stage_public_band_pilot.py",
+      "bytes": 6116,
+      "sha256": "ef507947eb2a564967b0329cc245802d0e14f9138cca71da6e658bbc8db4edbd"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/macos_native_guard.py",
+      "bytes": 8084,
+      "sha256": "25353dbebc871bf6016ab0114fbb8aa04e78a184ef988f14141debed3afa252e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_band_pilot_analysis.py",
+      "bytes": 3213,
+      "sha256": "dad974d3d68ce6b4c4a7e8ecd25d8d20505f952143e50b0f9909e7bfe73b857e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/build-result.json",
+      "bytes": 4654,
+      "sha256": "bbeedad010efbf5a0a645bdc45786b9e0001719c97a0a0158cd2e56e6589ebb5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-control-004/results/build/receipt.json",
+      "bytes": 808,
+      "sha256": "f3e7f443111981d1310923797104baf0bea77e70604d5da4b33c4e379298bae5"
+    }
+  ],
+  "command": [
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-pilot-002/pw.x",
+    "-in",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-pilot-002/native.in"
+  ],
+  "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-pilot-002",
+  "environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "source_executable_sha256": "d8d0d10c1471e377fcef79ed7062d93686f7d1432bbc9cba997edcb198e1ba87",
+  "points": 8,
+  "acceptance_max_eigenvalue_difference_ry": 1e-06,
+  "guard_seconds": 180,
+  "scope": "Eight-point fixed-density replay and cost pilot; not SCF, full band refinement, phonon preparation or response qualification",
+  "launch_normal_seconds": 120,
+  "rss_cap_bytes": 3221225472,
+  "decision": "Retry after0.480s rejected doubly specified lattice. CELL_PARAMETERS alat with explicit originalalat now preserves Bohr cell andtpiba points. Same208values1e-6Ry target, nooffsetfit; source densityunchanged, no refinement."
+}

@@ -1,5 +1,25 @@
 # Research restart ledger
 
+## Latest — public Mac guard tested; corrected band retry002 sole owner34959
+
+Band001/session87649 TERMINALFAIL0.479521s/12910592B, beforediagonalization:
+cell_base_init rejects celldm1 withCELL_PARAMETERS bohr (doublelattice).
+stage_public_band_pilot now emitsCELL_PARAMETERS alat andnormalizesvectorsby
+originalalat; coordinates/kpointscale unchanged, round-tripregressionPASS.
+Oldfailure preservedpublic_band_pilot_attempt001_result.json; oldmanifestintact.
+
+Public macos_native_guard.py copies qualified processguard body; CLI addsfresh
+owner refusal,120normalgate, declaredcwdreceipt placement, andpre/postwait staged
+hashchecks. Tests realchildPASS, exit7FAIL, deadlineFAIL, windowreset/timeout,
+staleinput/changedcommand/duplicate rejectionPASS. Linux skips4Mac integration
+fixtures explicitly. All103testsPASS7.305s locally, compileall/diffcheckPASS.
+
+Bandretry002 session34959/PID66381 solewatcherwaitingnormal120s, newroot
+raw/public-band-pilot-002; public_band_pilot_retry_manifest.json binds newcode,
+exeandinput. Pollsameowner; afterterminal run public_band_pilot_analysis.py with
+retrymanifest. Unchanged208eigenvalue1e-6Ry target, nooffsetfit, originalsunchanged.
+Rank37 stillstagedonly. Public CI45994256684 for d02ffa0PASS. Goalactive.
+
 ## Latest — PUBLIC RESPONSE QUALIFIED; fixed-density band owner87649 waiting
 
 Native public-response-run-001/session70592 TERMINALPASS33.235417s/187170816B.
