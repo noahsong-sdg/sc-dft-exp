@@ -22,7 +22,7 @@ response prediction and a portable cold-start workflow remain unproved.
 | Full nonlinear map and derivative action | 908.65 s, 882 MB peak RSS on the Mac | Arbitrary seed, not a solved gap; upstream inputs reused |
 | Reduced nonlinear enrichment | Rank37 candidate: 0.913 s, 133 MB peak RSS, four Newton iterations | Rank37 passes RMS target but narrowly fails maximum-residual target |
 | Frozen converged Nb replay | Released currents reproduced; thermal correction changes them by 2.5–2.8 ppm | Not corrected self-consistency or a Q=0 prediction |
-| Public saved-density32→48 electronic-grid control |48 response completed233.59s/401MB; conserved fixed-gap diagnostic increases about5.52% | Grid convergence unresolved; fourth-order velocity control pending |
+| Public saved-density32→48 electronic-grid control |48 response completed233.59s/401MB; conserved fixed-gap diagnostic increases about5.52% | Fourth order reduces this observed spread to about0.68%; continuum/physical accuracy unresolved |
 
 Measured occupation and critical-mode enrichment improve the full native residual,
 but no stationary gap is accepted yet. Rank37's full check takes513.39s/926MB:
@@ -58,6 +58,8 @@ A consistent larger-capacity build preserves all8response exports bit for bit;
 the [48cubed band-grid study](research/BAND_DERIVATIVE_REFINEMENT_GATE.md) now
 produces verified derived band data and a response diagnostic. Its roughly5.52%
 change from32cubed shows why conservation alone is insufficient for accuracy.
+A fourth-order velocity control reduces the observed spread to about0.68%,
+supporting the preregistered stencil hypothesis; this is not a continuum error bound.
 The original missing-serialization protocol and240s response timeout are preserved;
 separate successful protocols do not erase those failures. No physical prediction follows.
 

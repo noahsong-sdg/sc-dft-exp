@@ -156,3 +156,19 @@ this quadrature, but conservation is not a convergence test. The next control
 changes only the velocity derivative stencil. A physical penetration-depth
 prediction remains unjustified. See public_response_grid_sensitivity.json and
 BAND_DERIVATIVE_REFINEMENT_GATE.md for inputs, receipts, failures and limits.
+
+
+The prospective stencil hypothesis is now supported at all three temperatures:
+fourth-order32→48spread is0.6767/0.6777/0.6802%, versus5.5207/5.5218/5.5244%
+for second order. The fourth48run passed227.040529s/446545920B, with native
+conservation/cache/context/input checks. This demonstrates reduced observed
+sensitivity within the diagnostic, not physical response accuracy. The figure
+and grid_stencil_comparison.json preserve all four values and source identities.
+The remaining0.68% spread is not a certified error estimate.
+
+Full-run profiling identifies initialization rather than the final response
+contraction as the leading local cost on this path. An indexed mesh lookup has
+matched1920compiled brute-force cases and linked separately, but native exact
+output qualification is still pending. The official current QE tetra source is
+byte-identical to the pinned file; see INDEXED_MESH_GATE.md. No general speedup,
+novelty, upstream adoption or full microscopic cold-start claim follows yet.

@@ -1,0 +1,49 @@
+{
+  "cases": [
+    {
+      "temperature_kelvin": 2,
+      "second32": 0.008144883761805485,
+      "second48": 0.008594538908641099,
+      "fourth32": 0.00887613449048529,
+      "fourth48": 0.008936196842382234,
+      "second_order_grid_fraction": 0.0552070674039844,
+      "fourth_order_grid_fraction": 0.006766723956394216,
+      "observed_spread_reduction_factor": 8.158610837348622,
+      "hypothesis_supported_at_this_temperature": true,
+      "fourth_vs_second_at48_fraction": 0.03975291023438454
+    },
+    {
+      "temperature_kelvin": 4,
+      "second32": 0.007572690278422804,
+      "second48": 0.007990839139639182,
+      "fourth32": 0.008252568740912828,
+      "fourth48": 0.008308499527531016,
+      "second_order_grid_fraction": 0.05521800652640296,
+      "fourth_order_grid_fraction": 0.006777379065127542,
+      "observed_spread_reduction_factor": 8.147398278269954,
+      "hypothesis_supported_at_this_temperature": true,
+      "fourth_vs_second_at48_fraction": 0.03975307002690798
+    },
+    {
+      "temperature_kelvin": 8,
+      "second32": 0.004729085223009522,
+      "second48": 0.004990337308572231,
+      "fourth32": 0.005153666461070597,
+      "fourth48": 0.00518872259808683,
+      "second_order_grid_fraction": 0.0552436831316927,
+      "fourth_order_grid_fraction": 0.00680217419598983,
+      "observed_spread_reduction_factor": 8.121474331583745,
+      "hypothesis_supported_at_this_temperature": true,
+      "fourth_vs_second_at48_fraction": 0.039753883805373036
+    }
+  ],
+  "prerecorded_hypothesis_supported": true,
+  "scope": "Observed two-grid sensitivity reduction in a fixed-gap shared diagnostic, not continuum error, physical penetration depth or a truncation bound.",
+  "sha256": {
+    "research/public_capacity_response_result.json": "ffedee8741b12d8bc3247484b0fd214a10fff4c54ae9d7ac0cadc5d7818f1163",
+    "research/public_response_grid48_retry002_result.json": "2fc9a6d9dddc5b17525777b71920e839f739edf7895f865e92586fcdfa8d1e46",
+    "research/public_fourth_response32_result.json": "5205a6a2d589949efdce11da3e5ce3bbe8fea449fb32fa8f7fb92fe20bed6c1f",
+    "research/public_fourth_response48_result.json": "795379a326878f10a32ef2fed8614228516e5f8087fa58030f726716940b8cbd",
+    "research/grid_stencil_hypothesis.json": "aa80ece8a1e381d2fcbd46e253cf6904ab975a7253fa94f1d2c8ce44f7747916"
+  }
+}

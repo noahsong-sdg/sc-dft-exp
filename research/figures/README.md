@@ -54,3 +54,17 @@ functional accuracy, or material prediction error. All candidates remain
 unaccepted. The full48-operation geometry deliberately exercises the documented
 absolute-selector defect; it is not the qualified directional small-Q method.
 See ../ANISOTROPIC_MOMENT_GATE.md for assumptions and floating-point scope.
+
+
+## Electronic-grid and velocity-stencil control
+
+`grid_stencil.png`/`.pdf` come from `.venv/bin/python research/plot_grid_stencil.py`.
+The script verifies the comparison's frozen source hashes before rendering;
+`grid_stencil_sources.json` binds the plot script, comparison and original
+result artifacts. Left: the2K conserved diagnostic normalized to fourth-order48,
+so values are dimensionless rather than penetration depth. Right: observed32→48
+percentage change at2/4/8K, second versus fourth velocity stencil. The spread
+reduces from about5.52% to0.68%. Connecting lines guide the eye; there are no
+statistical error bars or continuum-error bounds. The gap is imposed1.5meV,
+density and512response cells fixed; full-symmetry tiny-Q remains a diagnostic.
+The PNG was visually inspected for labels, scales and clipping.
