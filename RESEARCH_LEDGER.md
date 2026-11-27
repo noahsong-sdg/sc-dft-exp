@@ -1,5 +1,20 @@
 # Research restart ledger
 
+## Latest runtime state — corrected pilot still unlaunched
+
+The additional five-minute pressure watch (tool session 67049) exited normally:
+60 observations, all pressure=2; no material-preparation child launched and no
+watch remains live. Raw observations are in nb-preparation-003/pressure_watch_002.json.
+Do not restart based on an assumed missing observation: this watch is terminal.
+The corrected executable and staged inputs remain ready in attempt 003. The
+only launched preparation attempt so far is failed 002 (0.883 s, wrapper bug).
+
+23 offline tests pass; complete RHS native serial/OpenMP fixture passes with
+compiler/flags/generated-source/BLAS hashes now recorded. Decision checkpoint is
+linked from README. Next decisive task remains the guarded material preparation
+when resources permit; further synthetic examples have lower value. Goal active,
+not materially qualified and not complete.
+
 ## Latest verified milestone — complete RHS discrepancy
 
 Full pinned gapeq_rhs compiled against actual retained BLAS and serial MPI/clock

@@ -72,3 +72,9 @@ Next: run the guarded corrected
 pilot only when pressure is normal. Check all output counts, finite values, nonzero curvature
 and provenance before evaluating any currents. Qualification of a self-consistent
 material response requires additional matching gap data and convergence evidence.
+
+The subsequent bounded five-minute watch completed with 60 observations, all
+pressure=2. It launched no child and left no watcher running. Attempt 003 remains
+staged, with no material output. The observation file is pressure_watch_002.json
+in that ignored attempt directory. This does not constitute a failed numerical
+run or a laptop-capacity measurement.
