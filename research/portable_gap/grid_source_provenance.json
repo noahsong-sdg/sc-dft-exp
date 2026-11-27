@@ -1,0 +1,5 @@
+{
+  "source": "/Users/noahs/Developer/flux-pinning/native-macos-v1/portability/grid_probe_v3.f90",
+  "sha256": "17f395d4d883a21383dc143b68e2366763f43ea3e7659bce1a36bc90c9072991",
+  "migration": "byte-for-byte arithmetic diagnostic; no injected seeds or acceptance changes"
+}

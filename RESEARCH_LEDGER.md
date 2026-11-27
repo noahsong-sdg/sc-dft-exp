@@ -2229,3 +2229,17 @@ quadrature evidence is a hypothesis for current failure, not its measurement.
 Next tiny diagnostic must measure current arrays; no gate relaxation or injected
 reference weights.137testsPASS14.653s; compileall/moment/diff checksPASS.
 Public CI46037466541 on8047279 PASS. No native owner remains.
+
+
+### Prospective current-build quadrature diagnostic
+
+portable-grid-probe-001 uses unchanged historical grid_probe_v3 source copied
+byte-for-byte and public source-built libraries, not historical native objects.
+It reads only band/header/context inputs and executes upstream weightspoints_gl
+and energy_grid. No seed injection and no modified verification tolerance.
+Bound120s/3GiB after120snormalpressure; forecast small compile/link plus100nodes.
+Measure all transformed xi0/dx0 entries against retained state; raw arrays/seeds
+are saved for independent arithmetic analysis. No gap-state acceptance follows.
+139offline testsPASS15.146s; compileall/momentreplay/diffcheckPASS.
+Regression measures one-ULP stale-weight change, rejects malformed/nonfinite
+payloads and preserves existing destinations. Prior failure CI46038021563PASS.
