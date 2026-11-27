@@ -93,3 +93,18 @@ hashes were revalidated; the makefile snapshot is explicitly bound to273e607
 since later commits append other targets. Pin reduced-control.in in the manifest.
 A single120s/3GiB job is now queued behind120 quiet normal-pressure seconds.
 This is a launch decision, not a material reduced-root result.
+
+## Material reduced solve result
+
+Terminal PASS1.071587s wall,113115136-byte individual peak RSS; group sampling
+missed the short-lived peak (2s interval), so report the individual high-water
+mark. Five Newton iterations reach coefficient residual2.0911549401814167e-17.
+Strict readback PASS. Fermi averages0.1663104329/0.1653257249meV and minimum
+positive-weight Fermi gap0.1271840629meV. The representation's saved-mode
+projection error is7.098444363887353e-6, so a tiny coefficient residual cannot
+be interpreted as a full-space residual. No speedup versus a full solve is
+claimed: these are different acceptance levels and exclude basis preparation.
+
+See reduced_nonlinear_result.json and the terminal manifest receipt. The full
+native seed-verification job is now separately queued with prospective hashes
+and stationary-residual targets in verify_reduced_gap_manifest.json.

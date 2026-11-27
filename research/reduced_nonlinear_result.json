@@ -1,0 +1,30 @@
+{
+  "dimensions": [
+    66867,
+    67940,
+    67940,
+    100,
+    31
+  ],
+  "beta": 19613.355577892344,
+  "initial_amplitude_mev": 0.15,
+  "iterations": 5,
+  "coefficient_residual": 2.0911549401814167e-17,
+  "orthogonality_error": 2.475797344914099e-14,
+  "mode_projection_error": 7.098444363887353e-06,
+  "fermi_averages_mev": [
+    0.16631043289090344,
+    0.16532572490423297
+  ],
+  "min_positive_weight_fermi_gap_mev": 0.12718406288031284,
+  "max_absolute_gap_ry": 2.564201231822223e-05,
+  "rytoev": 13.605693122994017,
+  "full_native_residual_verified": false,
+  "sha256": {
+    "reduced-result.txt": "7c5877f1e9c8fd43ec14695ffd50a7d871e781ca6d3f94b55005a8bc9902a350",
+    "reduced-gap.bin": "3ae94d7c9a0b9165e4416c062e848a04a6faf878fc519d9635714fb2b8370178",
+    "native-init.meta": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+    "native-init.bin": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37"
+  },
+  "scope": "Read a reduced candidate; a separate full native residual is mandatory."
+}

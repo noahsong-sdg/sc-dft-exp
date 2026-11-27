@@ -1,5 +1,27 @@
 # Research restart ledger
 
+## Latest priority — reduced candidate PASS; full native validation waiting
+
+Owner40004 TERMINAL PASS1.071587s,113115136-byte individual peak RSS (group
+sampler missedshortpeak). Strict reduced reader PASS:5 Newton iterations,
+coefficient residual2.09e-17; Fermi means0.1663104/0.1653257meV,min0.1271841meV.
+Saved-mode projection error7.10e-6, so reduced residual is not a native gap
+certificate. See research/reduced_nonlinear_result.json/manifest receipt.
+
+New LIVE owner54858, raw/run-verify-reduced-gap-001.py. Fresh source-bound
+seed metadata/control/executable pinned in verify_reduced_gap_manifest.json.
+120 quiet normal seconds,1200s/3GiB guard, one heavy owner. Default full map
+plus Jacobian controls now evaluate the loaded reduced gap after original
+initialization/Z compatibility. No full result yet. Poll same owner/watcher.
+
+Next: terminal receipt and strict full_nonlinear_analysis.py readback. Also
+require bitwise equality of full-map.bin input-prefix to gap-seed.bin; compute
+RMSresidual/RMSgap and compare prospective infinity<=1e-10Ry,ratio<=1e-5.
+If targets fail, use full residual and omitted occupation component to assess
+a basis-enrichment step before spending repeated whole kernel passes. This is
+not yet implemented. No new response or fully converged gap accepted.
+Goal active; ceiling2026-11-27T17:41Z.
+
 ## Latest priority — amplitude PASS; reduced material pilot waiting
 
 Owner4276 TERMINAL PASS937.563s/937394176bytes. Strict amplitude reader PASS.
