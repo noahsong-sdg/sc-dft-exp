@@ -2625,3 +2625,25 @@ including strictmetadata/Fermi-average readback, followed by persisted-sample
 certificate.420s/3GiB/quiet120; scheduling forecast not bound.155tests/169source
 compilation/moment gates lastpassed; CI46050285722 on4b42048PASS. No nativeowner
 before prospective publication/launch.
+
+
+### Independent uncached full-Z sample qualification PASS; freshbasis staged
+
+Oracle001PASS65.704401s/1685209088B individualpeak (group1687339008B). Source-only
+originaluncachedmake_Z compared sixcomplete sums bitwise to completedfreshZ:
+leftindices1/66867/38, right1/67940/43 (first/last/positive-Fermisample). Strict
+freshgeometry/fulltwochannelhash/fullZmetadata and Fermiaverages readbacksPASS.
+Persisted96B samplepayload exactlymatches indexedfullZ entries and uncached
+values; certificate pins outputs/metadata/receipt/executable. All declaredinputs,
+public/consumedmanifest and16linkarchives checkedPASS; no historicalobjectpath.
+This is sampled independentvalidation, not exhaustive secondfullsweep. FullZ is
+accepted for the next basis stage within this exact8.05Kcontext. No gap/response
+acceptance follows. Guardedtotal2458.238037s, including failed001.
+
+Basispartial001 staged from certifiedoracle andcompletedZ:16freshdeterministic
+trials, four64row blocks/alloppositestates, uncachedselectedleft/rightcontrols.
+Source-only firstnativecompile/runtime of recoveredbasis modules.420s/3GiB/
+quiet120; timings must inform fullsetup forecast. No retainedbasis/images/gap
+consumed.155tests/169sourcecompilation/moment gates lastpassed; actualnative
+oracle compile/runtimePASS; publicCI46051016952 on7169dd3PASS. No owner before
+prospective publication/launch.

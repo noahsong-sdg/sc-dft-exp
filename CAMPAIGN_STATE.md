@@ -224,3 +224,13 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Guardedtotal2392.533636s. Old84584/session82011 terminal. Oracle001staged
 420s/3GiB/quiet120 for six uncached complete sums. No gap/response acceptance
 yet; do not feed fullZ into basis before oraclecertificatePASS.
+
+
+## Compatible8.05K Z accepted for freshbasis
+
+Oracle001 terminalPASS65.704401s. Six uncachedcomplete sums bitwiseequal, including
+persistedpayload/indexedfullZ check; strictcontext/metadata/Fermiaverages pass.
+Samplequalification, not exhaustiveindependentrecomputation. Guardedtotal
+2458.238037s. Old90439/session11445 terminal. Basispartial001 staged16freshtrials/
+four64rowblocks,420s/3GiB/quiet120. No retainedbasis; fullbasis/gap/response remain
+incomplete. Source files pinned by this stage must remain frozen while live.

@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "six_full_sums_bitwise_equal": true,
+  "samples": [
+    {
+      "side": 1,
+      "index": 1,
+      "kpoint": 1,
+      "band": 1,
+      "xi": -3.9948492696724163,
+      "weight": 0.001953125
+    },
+    {
+      "side": 1,
+      "index": 66867,
+      "kpoint": 512,
+      "band": 26,
+      "xi": 3.3488822714176245,
+      "weight": 0.001953125
+    },
+    {
+      "side": 1,
+      "index": 38,
+      "kpoint": 1,
+      "band": 6,
+      "xi": 0.0,
+      "weight": 1.49014063348783e-09
+    },
+    {
+      "side": 2,
+      "index": 1,
+      "kpoint": 1,
+      "band": 1,
+      "xi": -3.991143265401115,
+      "weight": 0.001953125
+    },
+    {
+      "side": 2,
+      "index": 67940,
+      "kpoint": 512,
+      "band": 26,
+      "xi": 3.606350099946083,
+      "weight": 0.001953125
+    },
+    {
+      "side": 2,
+      "index": 43,
+      "kpoint": 1,
+      "band": 6,
+      "xi": 0.0,
+      "weight": 4.106902688195496e-09
+    }
+  ],
+  "manifest_sha256": "c77ba29453957c50f65523781580f9253f6a9824a11566f3f4e40e7367ae5d07",
+  "receipt_sha256": "8c94a85e425633e75e6aa61bb0551588732be4995537a99bcbdf892c1dfef515",
+  "samples_sha256": "8c67185984c371983499f7f81bab16bc3eccc21f1a0f72ed0194e42b72276c62",
+  "sample_metadata_sha256": "3fecc5d184cd20035c71c328ef0d280603385b40433dbcea83ae689cfcffb4a0",
+  "full_Z_sha256": "4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426",
+  "full_Z_metadata_sha256": "289418f57bb1421baad2320e53e81aba35ee520ed39dd6eccb16b0718284e6da",
+  "executable_sha256": "d1aec29ab1cfaccd0a3612386ecd08bbf9318daf862e733ef4515f5b4a781427",
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/usr/bin/make",
+      "-f",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/z_sample_oracle.mk",
+      "RESEARCH=/Users/noahs/Developer/sc-dft-exp/research",
+      "QE_ROOT=/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe",
+      "NATIVE_INPUT=/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-oracle-001/native.in",
+      "qualify-oracle"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-oracle-001",
+    "wall_s": 65.70440083323047,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 1685209088,
+    "sampled_peak_group_rss_bytes": 1687339008,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 420.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "physical_response_verified": false,
+  "limitation": "Six complete sampled sums, not exhaustive independent recalculation of every Z entry",
+  "new_guarded_total_s": 2458.238036832622
+}
