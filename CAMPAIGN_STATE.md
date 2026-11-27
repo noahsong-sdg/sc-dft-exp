@@ -1201,3 +1201,15 @@ No maintained code/threshold changes. Scientific gap and response acceptance rem
 Rows16385:32768 terminal PASS, wall219.73603058373556s, individualpeak1037516800B, sampledgroup987529216B. Public/consumed manifest equality and original native certificate/postrun checks PASS. New guarded total10424.22809333479s; historical189.29min separate.
 Next027 prospectively staged rows32769:49152,600s/3GiB/quiet120.
 No maintained code/threshold changes. Scientific gap and response acceptance remain incomplete.
+
+
+## Agent resource accounting snapshot
+
+At2026-11-27 23:17:24UTC, the active-goal meter reports1436909 cumulative
+tokens and24214 elapsed seconds. Published campaign_agent_usage001.json records
+the raw metric and limitations: not billable-token/dollar cost, not laptop CPU
+time/energy, and not a completed-result cost. Native guarded wall and historical
+work remain separate. Model price/energy and token cache/input/output breakdown
+unknown. This snapshot makes development resources visible alongside compute;
+no claim of low total cost follows. Documentation/evidence only; diffcheckPASS.
+Controller39727 remains live; no duplicate native owner or changed thresholds.
