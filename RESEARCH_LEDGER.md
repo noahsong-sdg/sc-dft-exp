@@ -1901,3 +1901,25 @@ waiting for normal pressure; expected~513s/926MB, guard1200s.
 Explicit64-grid staging/serialization/readback now has fixtures, preserving48
 defaults and unchanged shared-energy tolerance. Third-grid rationale and budget
 are in BAND_DERIVATIVE_REFINEMENT_GATE.md. No64native job launched yet.
+
+
+##13:40UTC active native owner and next actions
+
+Prior goal turn made progress: explicit64protocol/composition committed and public.
+Current sole heavy owner PID55500/session85862 runs full rank38check in
+raw/verify-reduced-gap-007,1200s/3GiB; kernel progress is live. No other watcher
+queued. Read back with verify_gap_candidate.py and verify_sixth_occupation_gap_manifest.json
+after terminal receipt; independently recheck all manifest external hashes too.
+Do not relax1e-10Ry/1e-5stationary targets.
+
+Next prospective build is public_indexed_fourth_build_manifest.json, root
+raw/public-indexed-fourth-build-001. Native exact48eight-export qualification
+must precede interpreting its64response.64bands root public-band-grid64-001 is
+staged but not queued. Normal120s/hash/one-owner gates apply to every launch.
+All these experiments remain within the initial4nativehour ceiling by bounded
+forecast; refresh resource accounting after terminal attempts.
+
+The maintained verify_response_equivalence.py now checks all eight prospective
+export identities, baseline integrity and native readback.126localtestsPASS;
+compileall, moment replay, diff checkPASS. PublicCI59ce422PASS. Physical
+normalization, conditioning, cold-start cost and demand remain unproved.

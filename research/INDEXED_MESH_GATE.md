@@ -126,3 +126,19 @@ it must match all eight existing fourth-order48exports bitwise under a separate
 
 Verification:125 offline tests passed in10.522s; maintained Python compilation
 and diff checks passed. Native composition and64grid remain pending.
+
+
+Exact qualification is now a maintained command rather than an ad hoc hash
+comparison:
+
+```sh
+python3 research/verify_response_equivalence.py RUN PUBLIC_MANIFEST --grid 48
+```
+
+The manifest must contain eight unique `baseline_exports` identities captured
+before launch. The checker verifies each retained baseline file, performs strict
+native/context/input readback, and requires all eight candidate bytes/hashes to
+match. Missing, duplicated, changed-baseline and changed-candidate fixtures reject.
+It does not estimate physical accuracy or statistical timing uncertainty.
+Final local gate:126tests PASS10.824s; moment-refinement replay, maintained-source
+compilation excludingraw and diff check PASS. Native composition is still pending.

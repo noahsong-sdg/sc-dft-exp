@@ -1,3 +1,41 @@
+# Latest checkpoint — 2026-11-27 13:38 UTC
+
+The strongest supported contribution is a reproducible numerical-validity and
+cost study for a saved-input Nb response calculation. Reliable material prediction
+is still unproved. The next two decisive controls are the full rank38 stationary
+residual and a third electronic grid for the fourth-order velocity diagnostic.
+
+Verified evidence:
+
+- Public source/input response reproduction passes; original32-grid exports
+  match bitwise. Source-built libraries and retained-input costs are recorded
+  separately from unavailable microscopic cold-start costs.
+- Fourth-order velocity reduces observed32-to48grid spread from~5.52% to~0.68%
+  across2/4/8K. This supports the prospective stencil hypothesis, but two grids
+  cannot establish a continuum error bound. The64-grid protocol is staged with
+  unchanged shared-energy acceptance, explicit serialization and no launch watcher.
+- Exact indexed mesh mapping preserves all eight32and48second-order exports
+  bitwise. Single unprofiled native pairs show1.31x and2.73x response timing
+  ratios, respectively. No statistical or end-to-end speedup follows. Current QE
+  source still contains the traced lookup at the checked2026-11-27revision.
+- Rank37 fails the unchanged maximum residual narrowly:1.09991e-10Ry against
+  1e-10Ry; its RMSratio2.02506e-6 passes1e-5. Rank38 reduced solve takes1.115s,
+  reaches coefficient residual5.725e-17 and retains positive Fermi gaps. Its
+  separate full-operator check is live under a1200s/3GiBguard. No result yet.
+- All125 local offline tests pass; maintained-source compilation and diff checks
+  pass. Public CI52da06a passes; later composition/manifests CI remains pending.
+
+The scientific opportunity is to make error diagnosis and convergence studies
+practical with reusable microscopic inputs. This is narrower than a validated
+no-cluster prediction service. Demand, physical normalization, conditioning,
+production directional small-Q behavior and total cold-start feasibility remain
+open. No outreach was sent. One heavy native owner at a time;64bands and the
+combined indexed/fourth-order build must wait for the current owner to terminate.
+
+The following text is historical checkpoint evidence, not current launch state.
+
+---
+
 # Latest checkpoint — 2026-11-27 11:35 UTC
 
 No self-consistent physical response is accepted. Rank36's independent full
