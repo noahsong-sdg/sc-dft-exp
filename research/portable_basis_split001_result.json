@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "checkpoint": {
+    "context": "c01c11854793d32c98206b3e77340a9c296a18dea8a24ad220176c8741ee1b7a",
+    "counts": [
+      66867,
+      67940,
+      67940,
+      16
+    ],
+    "completed": 64,
+    "beta": 19613.355577892344
+  },
+  "split_checkpoint": {
+    "context": "c01c11854793d32c98206b3e77340a9c296a18dea8a24ad220176c8741ee1b7a",
+    "counts": [
+      66867,
+      67940,
+      67940,
+      16
+    ],
+    "completed": 32,
+    "beta": 19613.355577892344
+  },
+  "split_qualification_passed": true,
+  "full_images": false,
+  "physical_response_verified": false,
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/usr/bin/make",
+      "-f",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/basis_sweep.mk",
+      "RESEARCH=/Users/noahs/Developer/sc-dft-exp/research",
+      "QE_ROOT=/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe",
+      "NATIVE_INPUT=/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-split-001/native.in",
+      "qualify-basis-sweep"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-split-001",
+    "wall_s": 39.41496695857495,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 926924800,
+    "sampled_peak_group_rss_bytes": 827850752,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 420.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "manifest_sha256": "70a4d1ad9e1ed5191a158a4aba47bca59fbee2198304c0a370d265d28b831438",
+  "receipt_sha256": "c64fea05b395d091b32fef2a9bc60b6fe3ce1770d7fa6ed62f0a762a0845416f",
+  "checkpoint_sha256": "9cf7c4b66513890e3820eae20431cb100046cf5af81b61b3c0b3773daff50afc",
+  "metadata_sha256": "2fc285c6194acd4052da49f0005cdd423de1b5b56cd7ef8eb8260c4598a14412",
+  "executable_sha256": "d3aaa42f9b94bd228bba25ab9ee54bc83a4f9a1c74feea8dbddbe717b27737ca",
+  "analysis_source_sha256": "6ec06a124740b38d36a9274a99c8d11da92c1ca0ac6e2b992bef579418a135bb"
+}

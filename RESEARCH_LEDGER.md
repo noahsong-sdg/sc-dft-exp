@@ -2683,3 +2683,24 @@ basedon53s partialqualification, notbound. No owner before publication/launch.
 160offline testsPASS11.348s;174maintainedPython sourcescompilePASS; momentreplay
 anddiffcheckPASS. Source-only actualnativecompile/runtime pending. Previous
 milestoneCI46052498552 onde051f8PASS. Guardedtotal2511.319366s unchanged.
+
+
+## Actual microscopic linear-image restart qualification PASS
+
+basissplit001 terminalPASS39.414967s/926924800B individualpeak. Uninterrupted
+1:64 with32-rowtiles matched1:32 + persisted/reloaded33:64 bitwise across all16
+unnormalizedimagecolumns afterKel/phonon/slab resets. Exactcheckpoint roundtrip
+and independentPython metadata/finite/paddingreadbackPASS forrow32and64 outputs.
+Public/consumedmanifests identical, allpostruninputs and16linkedarchivesverified;
+no historicalcustomobjectpath. Result:portable_basis_split001_result.json.
+No nativeowner remains. Guardedtotal2550.734333s, historical189.29min separate.
+
+Continuous64rows0.705s gives row-only fullsweep estimate736.584s, notbound.
+The qualification covers exactrestart at32-rowtileboundaries with identical
+context/trials. Fullimages, nativefull-row/column oracle, Ritzbasis, nonlinear
+gap andphysicalresponse stillpending. Implementproductionusing thesame ordered
+DGEMV contractions and checkpointformat; firstsegment1:16384, then contiguous
+segments, without per-segmentnormalization. Finalnormalizeonlyafter66867leftrows.
+161offline testsPASS11.008s;176maintainedPython sourcescompilePASS; momentreplay
+anddiffcheckPASS. Source-only actualnativecompile/runtimePASS. ProtocolpublicCI
+46052841352 on1ab1ae9PASS. Modelbilling/energy remainunknown.

@@ -61,3 +61,8 @@ zeros across every column. Standalone compiled tests cover split-order equality
 and stale/truncated/nonfinite/padding rejection. Actual-input restart qualification
 and its driver/stager remain pending. Normalize by -(1+Z)^-1 only after every left
 row is complete, then require the uncached full-row/column oracle before Ritz.
+
+Actual-input restart qualification now PASS: portable_basis_split001_result.json.
+The source-built32-row traversal and serialization are bitwise restart-equivalent
+for1:64 vs32+32 across all16columns aftercache/slabreset. Complete16-vector
+images and independent complete-row/column nativeoracle remain pending.
