@@ -2574,3 +2574,15 @@ no historicalcustomobjectpath. AcceptedpartialZ through40976. New guardedtotal
 8192rows/2400s/3GiB/quiet120. FullZ/oracle/gap/response remain incomplete.
 155tests/169sourcecompilation/moment gates lastpassed; publicCI46048198995 on
 81e4b29PASS. No newcodechange. No nativeowner before publication/launch.
+
+
+### Recovery007 accepted through49168; continuation008 staged
+
+TerminalPASS167.424654s/1665662976B individualpeak (group1667170304B). Native
+rows40977:49168 took118.203291s. Strict context/checkpoint/certificate and all
+declaredinputs, public/consumed manifests,16explicitlinkarchives checkedPASS;
+no historicalcustomobjectpath. AcceptedpartialZ through49168. New guardedtotal
+2039.577162s including failed001. Root008 stages49169:57360 from accepted007,
+8192rows/2400s/3GiB/quiet120. FullZ/oracle/gap/response remain incomplete.
+155tests/169sourcecompilation/moment gates lastpassed; publicCI46048884197 on
+e36204bPASS. No newcodechange. No nativeowner before publication/launch.

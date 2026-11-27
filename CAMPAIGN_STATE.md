@@ -205,3 +205,7 @@ context and quiet120/3GiB guard. FullZ/oracle/gap/response remain incomplete.
 Recovery006 terminalPASS164.677657s, certifiedthrough40976. Old67914/session98217
 terminal. Guardedtotal1872.152508s. Root007 stages40977:49168; unchanged frozen
 context and quiet120/3GiB guard. FullZ/oracle/gap/response remain incomplete.
+
+Recovery007 terminalPASS167.424654s, certifiedthrough49168. Old73827/session99292
+terminal. Guardedtotal2039.577162s. Root008 stages49169:57360; unchanged frozen
+context and quiet120/3GiB guard. FullZ/oracle/gap/response remain incomplete.
