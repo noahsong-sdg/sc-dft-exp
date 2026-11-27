@@ -547,3 +547,34 @@ Final008 stages49153:66867 from007, samebatch/physicaloperatorcontext,
 Only aftercomplete maynormalize andcheckselecteduncachedsums before48-vector
 Ritzappend.170offline tests/184Pythoncompilation/moment gates lastPASS; no code
 changed. PublicCI46061442403 on361a5c0PASS. Gap/response remainincomplete.
+
+
+##48-vector basis independently qualified;64-vector application staged
+
+Finalenrichment008 terminalPASS225.104320s/1085571072B individualpeak (group
+986071040B). New16-vector applicationcomplete, checkpointbitwise roundtrip and
+selecteduncachedcomplete sumsPASS beforeappendtoold32 for48-dimensionalRitz.
+Maxsixsampledifference8.673617379884035e-19 vsbound2.044237474235633e-13; samples
+coverfirstnewvector, not exhaustiveallcolumnimages. Public/consumedmanifest and
+allpostruninputs/16linkedarchivesverified; no historicalcustomobjectpath.
+Guardedtotal4905.995299s includescompilefailure; prior189.29min separate.
+Old49396/session24625 terminal, allnativeowners terminal atcertification.
+
+Independent enlarged_basis_analysis verifies48-column Gram/projection andall
+real full-image Ritzresiduals. Gramerror2.8754776337791554e-14, matrixerror
+1.554312234475219e-14; allresiduals agreewithin5e-12. Selectedindex0 remains:
+no acceptedconventionalmode. Same-signcandidate lambda1.0023978562229794,
+relative residual0.006052032778491781 vs32-vector0.0274370929754763. Neither
+Ritzvalue aboveone nor reducedresidual alone provespairing/Tc or a qualified
+nonlinearseed. Currentseedgate requiresacceptedmode,lambda>1,residual<=1e-9.
+16newvectors emitted. Fullnonlinearresidual andphysicalresponse remainopen.
+
+Enrichment009 stagesfirst1:16384 forold48 ->64, unchangedphysicaloperatorcontext,
+newbatchcontext boundto48-basis/nextvectors. This islastregisteredbasisdimension;
+do not blindlyextendpast64. Informationgain:measurewhether existingsequence
+converges sufficiently andseparate basislimitations fromnumericalportability.
+Forecastanother13–15native minutes forcompleteapplication, belowremaining4h
+pilotbudget; same600s/3GiB/quiet120 persegment,250–300s estimate notbound. If64
+isstillunqualified, evaluate targetedrestart/solverstrategy fromactualresiduals;
+do not relaxacceptance.170offline tests/184Pythoncompilation/moment gates last
+PASS; no codechanged. PublicCI46062093823 onf2ef0e0PASS. No owner beforelaunch.

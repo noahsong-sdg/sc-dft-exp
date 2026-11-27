@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "checkpoint": {
+    "context": "bd854f4ec787384982fd07f0bcc89a3e72ba4d19bb578c53628e261d905e1aa7",
+    "counts": [
+      66867,
+      67940,
+      67940,
+      16
+    ],
+    "completed": 66867,
+    "beta": 19613.355577892344
+  },
+  "manifest_sha256": "5bae158022bbcc14ad4c9fe3f9c9142b2f802be66125e765b362e1648c62b894",
+  "receipt_sha256": "1c6cc218ac7aa90039d772e66b19a1874935f2770886e15d509b3f2f41d23dec",
+  "checkpoint_sha256": "da7b000b5975d778fe68a86764d0d8383f774b780b81692fb1291def480d8640",
+  "metadata_sha256": "7bb9ebca09434b8412f71b5304f081a96b6f815c1a2238360ac1eab35d0082cb",
+  "executable_sha256": "ac40b26920517ad9b5ffe7881001730d7c2b20efeb8184833fc2db70992f01ea",
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/usr/bin/make",
+      "-f",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/basis_enrichment.mk",
+      "RESEARCH=/Users/noahs/Developer/sc-dft-exp/research",
+      "QE_ROOT=/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe",
+      "NATIVE_INPUT=/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-008/native.in",
+      "enrich-basis"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-008",
+    "wall_s": 225.10432020854205,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 1085571072,
+    "sampled_peak_group_rss_bytes": 986071040,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 600.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "full_images_native_checked": true,
+  "full_output_sha256": {
+    "native-linear.meta": "e6713645bf2742d97aecbcfd65fdb593cb1bcfdcdab118390ae58bca3b4f34ca",
+    "basis.meta": "17e206b32423a659083fe9e1ee4e449475f078ace2a545f696bfc114c1014435",
+    "basis.bin": "43b2b7ea97cf9f10da6717881063acf4c98fa46f8333740cfa4d7458f7e9f63c",
+    "ritz.meta": "c8fdf2f80a883528e1f44827852b6a3a7651ecc18cdff01333a4b50c2affa978",
+    "reduced.bin": "8eb9ae364de6ebe28b244e6a201956d739c346dfc2bccd5c18dd4630ef5d67cb",
+    "selected.meta": "34867ec13c5f47a724aeb5f69fbb38e91e2ea4f5214597a66d66cbb5344087f6",
+    "next.meta": "efc8597520e0d83a0da13b5d929a3cd5fde4a74a3d6d7b23e44bbda8104dcd95",
+    "next-vectors.bin": "133dfcda4f620423d25146fba15b4dab5dd0ba2fc635f55ad53f026218d2cf94"
+  },
+  "physical_response_verified": false
+}

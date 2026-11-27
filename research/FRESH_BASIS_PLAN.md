@@ -86,3 +86,11 @@ enlarged_basis001_result.json. Same-signFermi-averagecandidate lambda1.00463,
 residual0.0274371; selectedindex0, notqualifiedfornonlinearseed.16nextvectors
 emitted. Additionalenrichment retainsphysicaloperatorcontext whileusingnew
 checkpointbatchidentity. No convergence/responseacceptancegate wasrelaxed.
+
+##48-vector result andregistered64 limit
+
+48-column independentreadbackPASS; same-signcandidate relative residual0.0060520
+(previous0.0274371),lambda1.0023979,selectedindex0. Stillnotqualifiedfornonlinear
+seed. See enlarged_basis002_result.json. Enrichonce moreto64 underunchanged
+physicaloperatorcontext. Ifstillunconverged, evaluate targetedrestart orsolver
+strategy againstactualevidence; do not blindlyincreasebasislimit orrelaxgates.
