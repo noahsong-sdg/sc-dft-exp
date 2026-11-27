@@ -33,3 +33,6 @@ version2 or later; see its header and licenses/GPL-2.0.txt.
 Exception: research/reduced_nonlinear_core.f90 and research/reduced_nonlinear_driver.f90
 are distributed under GNU GPL version2 or later; see their headers and
 licenses/GPL-2.0.txt.
+
+Exception: research/gap_seed_io.f90 is distributed under GNU GPL version2 or
+later; see its header and licenses/GPL-2.0.txt.

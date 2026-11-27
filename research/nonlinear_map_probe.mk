@@ -39,3 +39,12 @@ reduced_nonlinear_core.o: $(RESEARCH_SOURCE_DIR)/reduced_nonlinear_core.f90
 
 reduced_nonlinear_driver.o: $(RESEARCH_SOURCE_DIR)/reduced_nonlinear_driver.f90 reduced_nonlinear_core.o
 	$(MPIF90) $(FF) -fcheck=all -c $< -o $@
+
+verify-gap-seed.x: nonlinear_tile_apply.o full_nonlinear_probe.o gap_seed_io.o verify_gap_driver.o
+	$(LD) $(LDFLAGS) -o $@ $^ $(RETAINED_OBJECTS) $(MAP_EXTRA_OBJECTS) $(CORELIBS)
+
+gap_seed_io.o: $(RESEARCH_SOURCE_DIR)/gap_seed_io.f90
+	$(MPIF90) $(FF) -I$(NATIVE)/build -fcheck=all -c $< -o $@
+
+verify_gap_driver.o: $(MAP_SOURCE) full_nonlinear_probe.o gap_seed_io.o
+	$(MPIF90) $(FF) $(MAP_FLAGS) -DFULL_MAP -DVERIFY_SEED -I$(NATIVE)/build -fcheck=all -c $< -o $@

@@ -5,6 +5,9 @@ program nonlinear_map_probe
 #ifdef MODE_AMPLITUDE
   use mode_amplitude_probe, only: run_mode_amplitudes
 #endif
+#ifdef VERIFY_SEED
+  use gap_seed_io, only: load_gap_seed
+#endif
   use kinds, only: dp
   use environment, only: environment_start, environment_end
   use input_parameters, only: calculation, restart_mode
@@ -74,13 +77,18 @@ program nonlinear_map_probe
 #else
   ! Deliberately imposed, energy-dependent seed. This is not a solved gap.
   delta=0
+#ifdef VERIFY_SEED
+  call load_gap_seed(trim(point),delta)
+#endif
   chi=0
   zeros=0;fermi=0;weight_error=0
   do g=1,2
     do i=1,ngap(g)
       if(fermi(g)==0.and.xi(i,g)==0.and.dk(i,g)>0)fermi(g)=i
+#ifndef VERIFY_SEED
       delta(i,g)=0.2_dp/(1000*RYTOEV)/sqrt(1+(xi(i,g)/0.01_dp)**2)
       if(xi(i,g)==0)delta(i,g)=0
+#endif
       energy=sqrt(xi(i,g)**2+delta(i,g)**2)
       if(energy==0)then
         chi(i,g)=0
@@ -96,7 +104,10 @@ program nonlinear_map_probe
       weight_error=max(weight_error,abs(weight_reference-chi(i,g)))
     end do
   end do
-  if(any(fermi==0).or.zeros==0)error stop 'Missing actual zero-energy boundary control'
+  if(any(fermi==0))error stop 'Missing actual Fermi control'
+#ifndef VERIFY_SEED
+  if(zeros==0)error stop 'Missing actual zero-energy boundary control'
+#endif
   if(.not.all(ieee_is_finite(chi)))error stop 'Nonfinite nonlinear weights'
   if(weight_error>1.e-14_dp)error stop 'Independent nonlinear occupation mismatch'
 #ifdef FULL_MAP
