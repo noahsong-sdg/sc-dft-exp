@@ -4,7 +4,9 @@ Latest material gate: [Nb geometry diagnostic](NB_MATERIAL_DIAGNOSTIC.md).
 Preparation succeeded in 49.8 s / 200 MB peak RSS. Complete current on imposed
 1.5-meV-gap material geometry shows roughly 5–11% released error at 2 K versus
 direct occupations, but no self-consistent physical prediction. Both native
-variants fail exactly zero-gap controls through xi/E at E=0. The paragraph below
+variants initially failed exactly zero-gap controls through xi/E at E=0.
+The [combined correction](ZERO_ENERGY_FINDING.md) now passes those controls,
+with nonzero-gap currents unchanged. The paragraph below
 describes the earlier fixture milestone; the stronger geometry evidence remains
 limited by the explicitly imposed gap and unconverged integration estimates.
 
@@ -63,8 +65,8 @@ Mac runtime forecast is justified by the cluster logs alone.
 
 ## Next decisive evidence, in order
 
-1. Fix and regression-test the newly exposed E=0 current product boundary.
-2. Qualify geometry reuse/convergence after the completed preparation and
+1. Qualify the analytic slope's geometry/normalization and reuse boundary.
+2. Measure integration convergence after the completed preparation and
    fixed-gap diagnostic, separating those from physical predictions.
 3. Obtain a compatible converged gap, or justify a bounded new solve, then compare
    corrected and original workflows under the same numerical controls.

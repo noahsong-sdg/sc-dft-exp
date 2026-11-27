@@ -13,7 +13,8 @@ Current campaign: [scientific decision checkpoint](research/DECISION_STATUS.md),
 [workflow costs](research/WORKFLOW_COSTS.md), and
 [response figures](research/figures/README.md). The correction is checked on
 synthetic fixtures and imposed-gap Nb geometry; self-consistent material impact
-remains unresolved, and zero-gap controls expose an additional singularity.
+remains unresolved. The [zero-energy correction](research/ZERO_ENERGY_FINDING.md)
+also passes normal-state controls that exposed an additional singularity.
 
 Public progress record for a preregistered comparison between an isotropic
 Migdal–Eliashberg solver (IsoME) and the superconducting DFT implementation in

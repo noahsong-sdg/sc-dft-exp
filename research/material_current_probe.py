@@ -9,7 +9,7 @@ import math
 from pathlib import Path
 import re
 from urllib.request import urlopen
-from full_current_probe import URL,SHA256,STUB,compile_run,stable_correction
+from full_current_probe import URL,SHA256,STUB,compile_run,robust_correction
 from preparation_analysis import analyze
 
 
@@ -59,7 +59,7 @@ program probe
 end program
 """
     old=compile_run(routine,driver)
-    new=compile_run(stable_correction(routine),driver)
+    new=compile_run(robust_correction(routine),driver)
     with path.open() as source:
         for _ in range(5):source.readline()
         states=[[],[]]
@@ -90,7 +90,7 @@ end program
             finite=all(map(math.isfinite,candidate))
             if gap_mev and (not finite or max(abs(a-b) for a,b in zip(candidate,references))>1e-10):
                 raise AssertionError('Native candidate disagrees with direct occupations')
-            if gap_mev==0 and finite and max(map(abs,candidate))>1e-12:
+            if gap_mev==0 and (not finite or max(map(abs,candidate))>1e-12):
                 raise AssertionError('Normal-state current does not cancel')
             rows.append(dict(temperature_kelvin=temperature,imposed_gap_mev=gap_mev,
                              released=[x if math.isfinite(x) else None for x in original],

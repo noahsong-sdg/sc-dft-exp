@@ -37,10 +37,10 @@
         null
       ],
       "candidate": [
-        null,
-        null
+        0.0,
+        0.0
       ],
-      "native_candidate_finite": false,
+      "native_candidate_finite": true,
       "direct_reference": [
         0.0,
         0.0
@@ -79,10 +79,10 @@
         null
       ],
       "candidate": [
-        null,
-        null
+        0.0,
+        0.0
       ],
-      "native_candidate_finite": false,
+      "native_candidate_finite": true,
       "direct_reference": [
         0.0,
         0.0
@@ -121,10 +121,10 @@
         null
       ],
       "candidate": [
-        null,
-        null
+        0.0,
+        0.0
       ],
-      "native_candidate_finite": false,
+      "native_candidate_finite": true,
       "direct_reference": [
         0.0,
         0.0

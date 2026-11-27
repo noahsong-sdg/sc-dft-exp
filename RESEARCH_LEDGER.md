@@ -1,5 +1,17 @@
 # Research restart ledger
 
+## Latest correctness gate — exact zero-energy product repaired
+
+Root cause traced to unconditional xi/E*e_d with xi=delta=E=0. A narrow exact
+E=0 continuous-limit transformation now composes with the thermal candidate.
+Full pinned routine passes nine normal boundary/two-sided controls in serial
+and optimized OpenMP, and the 81-case nonzero-energy grid remains passing.
+All six normal controls on prepared Nb geometry now return zero; nonzero-gap
+currents unchanged. See research/ZERO_ENERGY_FINDING.md and results JSONs.
+35 offline tests pass. No production or upstream patch applied. No live solver.
+Next material gates: controlled geometry reuse/convergence, physical normalization,
+then compatible qualified gap. Full campaign remains active/incomplete.
+
 ## Latest decisive progress — native material preparation succeeded
 
 Session 91019 and attempt 005 are TERMINAL SUCCESS. Guarded native preparation

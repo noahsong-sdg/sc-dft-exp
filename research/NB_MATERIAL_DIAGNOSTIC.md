@@ -1,5 +1,11 @@
 # First material-derived current diagnostic
 
+Follow-up: [the zero-energy product correction](ZERO_ENERGY_FINDING.md) now
+passes the failed normal controls. The results JSON has been regenerated with
+the combined candidate; released failures remain explicit. Nonzero-gap values
+are unchanged. The discovery account below describes the original thermal-only
+candidate, not the current combined candidate. Offline suite now passes 35 tests.
+
 ## Measured preparation feasibility
 
 Attempt 005 completed native Nb geometry preparation on the 32-GiB Mac in

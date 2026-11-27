@@ -114,6 +114,30 @@ def stable_correction(routine):
     return routine
 
 
+def zero_energy_correction(routine):
+    """Take the continuous E=0 limit of xi/E times the even thermal factor.
+
+    E=0 implies xi=delta=0. At finite temperature the occupation sum is odd
+    and smooth in E, so its product with xi/E tends to zero along every path.
+    No threshold or modification of nonzero-energy states is needed.
+    """
+    expression='xi(igap, ii)/e_qp*e_d'
+    marker='      j_q(ii) = j_q(ii) + dk(igap, ii) * ( &'
+    if routine.count(expression)!=1 or routine.count(marker)!=1:
+        raise ValueError('Expected quasiparticle current product changed')
+    limit='''      IF(e_qp == 0.0_dp) THEN
+        e_d = 0.0_dp
+      ELSE
+        e_d = xi(igap, ii)/e_qp*e_d
+      END IF
+'''
+    return routine.replace(expression,'e_d').replace(marker,limit+marker)
+
+
+def robust_correction(routine):
+    return zero_energy_correction(stable_correction(routine))
+
+
 def compile_run(routine, stub=STUB, flags=("-O0",), threads=1):
     with tempfile.TemporaryDirectory(prefix="sctk-full-current-") as folder:
         root = pathlib.Path(folder)

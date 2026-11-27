@@ -1,0 +1,23 @@
+{
+  "source_sha256": "1062c2a6656455b223111928fbc37996fce564d6dcf0a3acc945b973a9101598",
+  "previous_candidate_nonfinite_cases": 3,
+  "cases_per_build": 9,
+  "builds": [
+    {
+      "flags": [
+        "-O0"
+      ],
+      "threads": 1,
+      "max_normal_current": 0.0
+    },
+    {
+      "flags": [
+        "-O3",
+        "-fopenmp"
+      ],
+      "threads": 4,
+      "max_normal_current": 0.0
+    }
+  ],
+  "scope": "Full routine E=0 and two-sided approach, normal-state controls"
+}
