@@ -1,0 +1,24 @@
+{
+  "legacy_sha256": "5e1f344c570cda5d7ca0063c187febca5f9e4e97b5ea654d2c19f73fba7bd695",
+  "native_metadata_sha256": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+  "native_payload_sha256": "f0873f6a0dd6bbd7f435f9045e2225119b0fae4a0a28f025c2ee90032bda169b",
+  "grids": [
+    {
+      "states": 66867,
+      "index_mismatches": 0,
+      "max_xi_absolute_difference": 4.2721381987576024e-13,
+      "max_weight_absolute_difference": 1.3893610383269167e-13,
+      "max_absolute_gap": 0.000207355043252764,
+      "min_absolute_gap": 1.18479313858351e-07
+    },
+    {
+      "states": 67940,
+      "index_mismatches": 0,
+      "max_xi_absolute_difference": 1.9149171137655685e-10,
+      "max_weight_absolute_difference": 1.234844136123979e-13,
+      "max_absolute_gap": 0.000229328883647728,
+      "min_absolute_gap": 4.17534990771125e-08
+    }
+  ],
+  "scope": "Geometry/order diagnostics only; no temperature, convergence or finite-Q gap validation"
+}

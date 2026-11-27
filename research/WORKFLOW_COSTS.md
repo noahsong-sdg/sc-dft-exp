@@ -1,5 +1,9 @@
 # Historical V3Si workflow ledger
 
+New local feasibility boundary: [dense interaction memory floor](MEMORY_FLOOR.md).
+At inspected state counts, the dense array payload alone exceeds laptop RAM.
+This is a source/shape-derived bound, separate from the cluster timing trace.
+
 Generated with `python3 research/workflow_costs.py`. URLs, hashes, all matching
 total clocks and reported core layouts are in workflow_cost_manifest.json.
 This is an author-machine resource trace, not a Mac forecast or summed bill.

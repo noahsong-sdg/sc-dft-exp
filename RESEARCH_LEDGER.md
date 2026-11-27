@@ -1,5 +1,18 @@
 # Research restart ledger
 
+## Latest independent progress — saved Nb geometry alignment
+
+Downloaded bounded 15.77 MB legacy Nb gap backup into ignored raw storage.
+All 134,807 band/k indices match native Q=0 initialization; xi/dk differences
+recorded in research/nb_legacy_alignment.json. No gap-temperature or convergence
+qualification follows (server modification date January 2025). Explicit old-schema
+reader has malformed/new-schema/truncation/nonfinite regression coverage; 27 tests
+pass. See NB_LEGACY_ALIGNMENT.md. Source-derived dense interaction memory floor is
+67.7 GiB at these counts, so a fresh dense nonlinear solve cannot fit 32 GiB.
+See MEMORY_FLOOR.md. Do not treat this as evidence against all matrix-free/reuse
+approaches. Live launch watch session 6712 remains the owner of attempt 003;
+poll it before any new run. No duplicate process was started by this analysis.
+
 ## Current live handle — campaign-bounded resource wait
 
 Progress: current upstream main/issue/PR duplication check published in

@@ -34,6 +34,12 @@ a broad unsaturated-platform or validated-user-demand claim.
 
 ## What prevents a positive feasibility verdict
 
+New evidence: [the older saved Nb gap](NB_LEGACY_ALIGNMENT.md) aligns in all
+134,807 band/k indices with retained Q=0 native geometry. Its temperature and
+convergence are still unknown. [Dense interaction allocation](MEMORY_FLOOR.md)
+would require 67.7 GiB even at these smaller counts, so a new unmodified dense
+solve cannot fit 32 GiB RAM. Reuse or qualified memory reduction is necessary.
+
 Legacy released state files omit curvature. The existing native inputs support
 a plausible preparation route, but our material wrapper has not yet completed a
 run. Its first launched attempt exposed a wrapper argument-contract bug, now
