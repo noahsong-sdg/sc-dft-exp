@@ -155,3 +155,12 @@ those hashes to adopt current code. The 64³ protocols were read back before the
 explicit 32³ extension in d3d2dd2; new reproduction requires fresh staging.
 Use one heavy job or waiting watcher, 120 continuous normal-pressure seconds,
 input hashes rechecked at launch and the unchanged 3 GiB guard. No queued work remains.
+
+
+## Latest active checkpoint
+
+Ordered Z qualification003 PASS76.078163s; split16 vs8+8 and serialization
+bitwise equal on actual inputs. All consumed/public manifest and output/source
+checks pass. Guarded total392.642658s. FullZ/physical response remain unqualified.
+Production001 rows17:33450 staged for2400s/3GiB/quiet120; no watcher before launch.
+Independent six full-sum oracle remains required after all66867rows.

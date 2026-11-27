@@ -2367,3 +2367,17 @@ logs every1024rows preserve accumulation order and support actual run monitoring
 checks bitwise split serial addition and stale context/rows/temp/schema/shape/NaN/
 futurepadding; staging checks certified-hash mutation and skipped-row rejection.
 CI46041751152 on4be9d86PASS. No watcher before prospective publication.
+
+
+### Ordered Z checkpoint qualification PASS; first production segment staged
+
+Portable-z-sweep-qualify003 PASS76.078163s/1634418688B individual peak. Actual
+microscopic split1:8 +9:16 equals uninterrupted1:16 bitwise; checkpoint readback
+bitwisePASS. Public/consumed manifests identical, postrun hashes/receipt/source
+link archives checked (paths normalized for redundant slashes). Certificate pins
+output identities. FullZ and physical response remain unqualified. Guarded total
+392.642658s. Existing147tests/compileall/moment replay passed; CI46042856251PASS.
+Production001 prospectively staged rows17:33450, contiguous after qualification,
+2400s/3GiB/quiet120. Two-segment schedule preserves serial accumulation order;
+partial-run estimates motivate this bound, not a guaranteed runtime. No native
+owner exists before launch. Untracked oracle drafts are not part of this result.
