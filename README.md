@@ -25,8 +25,9 @@ Its full native check completed in 785.63 s / 904 MB peak RSS, but its maximum
 residual of 8.96e-8 Ry and residual/gap RMS ratio of 0.00236 fail the declared
 targets. One source-bound occupation enrichment gives a second reduced
 candidate in 1.01 s, but changes its mean gaps by about 26%; it is also
-unverified in full space. The already measured critical mode offers a second
-enrichment before spending another full kernel pass.
+unverified in full space. Adding the measured critical mode produces a rank33
+candidate in 0.906 s, with mean gaps 0.13967/0.13884 meV. Its full-space
+validation is running; no stationary residual has yet been accepted.
 No speedup against an equivalently
 qualified full solve is claimed. The [gap-to-response mapping audit](research/GAP_RESPONSE_MAPPING_GATE.md)
 identifies the energy-resolved and single-state branches that a subsequent

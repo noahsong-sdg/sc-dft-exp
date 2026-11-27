@@ -108,10 +108,12 @@ Mac runtime forecast is justified by the cluster logs alone.
 
 ## Next decisive evidence, in order
 
-1. Use the measured occupation defect and full image to enrich the reduced basis,
-   then test the new candidate against the same native acceptance targets. The
-   algebraic identity passes independent nonsymmetric tests; material preparation
-   and a new native check remain pending.
+1. Finish the running rank33 full native check against the unchanged acceptance
+   targets. Occupation-defect and measured-critical-mode enrichments are now
+   source-bound and tested; the rank33 reduced solve passed in 0.906 s. Its mean
+   gaps lie between the rank31 and rank32 values, so full-space acceptance and
+   refinement remain essential. Preserve a failed result rather than adjusting
+   tolerances. See critical_reduced_result.json and verify_critical_gap_manifest.json.
 2. Qualify conditioning and refinement of a successful gap. A point residual
    alone cannot bound gap error near the transition.
 3. Connect that gap to the same-cell anisotropic response using the verified

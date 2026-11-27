@@ -76,7 +76,19 @@ remain false even for a compatible layout. The regression covers a compatible
 layout, changed indices and stale/truncated persisted data.
 
 The new export has not run on material inputs yet. Its next runtime must wait
-until the rank33 reduced owner is terminal and use a separate measured-cost
+until the rank33 full-validation owner is terminal and use a separate measured-cost
 decision, normal-pressure gate and single heavy owner. Historical moment
 manifests refer to the source before this optional extension (available at
 bf3c155); do not rewrite their hashes to the new source.
+
+## Prospective material assignment pilot
+
+`response_assignment_manifest.json` pins the already built exporter and a new
+input deck with the gap initializer's nx100/nmf10/ne50/temp0 controls. The
+unshifted derivative diagnostic uses nonzero directional Q without shifting
+bands. Its 8-cubed response grid matches the saved initializer. A previous
+matched moment run took 63.891 s / 181.5 MB; the planned guard is 120 s / 3 GiB
+after 120 continuous normal-pressure seconds. No launcher is active for this
+pilot. It must wait behind full-validation owner57262, and all pinned inputs
+must be rechecked at launch. Passing assignment compatibility would authorize
+only investigation of gap reuse, not a physical response claim.

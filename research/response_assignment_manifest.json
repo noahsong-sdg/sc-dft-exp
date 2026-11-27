@@ -1,0 +1,43 @@
+{
+  "question": "Do unshifted response assignments match the initialized Q0 gap layout before any anisotropic gap transfer?",
+  "status": "Prepared only; not launched; must wait for native owner57262 to be terminal",
+  "guard_seconds": 120,
+  "group_rss_cap_bytes": 3221225472,
+  "launch_normal_seconds": 120,
+  "environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "SCTK_MOMENT_GRID": "8"
+  },
+  "decision": "Previous matched geometry moment pilot63.891s/181.5MB supports one120s assignment export; no interaction kernel construction. Within initial4h budget.",
+  "controls": "Same nx100,nmf10,ne50,temp0 as gap initializer; nonzero q only contracts derivatives in pinned unshifted-band diagnostic. No physical finite-Q state or gap transfer.",
+  "acceptance": "response_assignment_analysis.py: exact counts and indices;64eps elementwise relative energies/weights with exact zeros; no tolerance relaxation",
+  "prepare_directory": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare",
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-assignment-001/velocity-moment-probe.x",
+      "bytes": 7660696,
+      "sha256": "768640aa7c9b5a1a90fee3682d0f33bb4b872ab9eab4338ac5345b70b3633fa9"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-assignment-001/native.in",
+      "bytes": 435,
+      "sha256": "3d585c1abcfb39fbff8a38c4b2d019567d6520fcb6394bfade220d9736654455"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-assignment-001/matdyn0",
+      "bytes": 1916,
+      "sha256": "96bf9e490721008167c28f83b76b13e47fe88d78b7eff6d95a1807c603dda5c8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/response_assignment_build_manifest.json",
+      "bytes": 2283,
+      "sha256": "d9f76f8e346fee6e58fd6fa6141b5bddb916bf20e61dedea89ad5c8cc8b9caec"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/response_assignment_analysis.py",
+      "bytes": 3829,
+      "sha256": "3a69eb3b2e956ff57d66bf30c801f6fa2d348c3a1709ca1447effb426958b286"
+    }
+  ]
+}

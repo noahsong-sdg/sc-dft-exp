@@ -1,5 +1,16 @@
 # Research restart ledger
 
+## Current checkpoint — full owner live; response assignment prepared only
+
+Verified native PID82047 (watcher76156/session57262) live at elapsed5:33,
+909216KiB RSS; full-map progress33824/66867 on the first side. No duplicate
+launch. Previous goal turn checked the saved prompt but added no scientific
+evidence; this turn revalidated the live owner and prepared a prospective
+response-assignment pilot. response_assignment_manifest.json pins executable,
+matched input controls and readback. No assignment launcher/process exists.
+Wait for full owner terminal before launching; current candidate remains
+unqualified. Updated public overview removes stale planned-enrichment wording.
+
 ## Latest priority — rank33 reduced PASS; second full check prepared
 
 Owner25141 TERMINAL PASS0.905815s/119635968-byte individualpeakRSS. Strict
