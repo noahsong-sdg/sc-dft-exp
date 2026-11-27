@@ -8,18 +8,25 @@ from fetch_public_response_inputs import digest
 from public_band_grid_analysis import analyze as check_bands
 from stage_public_response import RESEARCH, stage as stage_original
 from verify_band_serialization import verify as check_serialization
+from qualified_band_artifact import check as check_qualified
 
 
 def stage(build, inputs, bands, band_manifest, destination,
-          manifest_path=RESEARCH/'public_response_inputs.json', serialization_manifest=None,grid=48):
+          manifest_path=RESEARCH/'public_response_inputs.json', serialization_manifest=None,grid=48,
+          qualified_band_result=None,qualified_band_result_sha256=None):
     if grid not in (48,64) or (grid==64 and serialization_manifest is None):
         raise ValueError('Declared64cubed response requires explicit serialization provenance')
+    if ((qualified_band_result is None)!=(qualified_band_result_sha256 is None)
+            or (qualified_band_result is not None and (serialization_manifest is not None or grid!=48))):
+        raise ValueError('Explicit48 qualification result/hash pair requires its own reuse route')
     build,inputs,bands,root=[Path(p).absolute() for p in (build,inputs,bands,destination)]
     band_manifest=Path(band_manifest).absolute()
     built=json.loads((build/'build-result.json').read_text())
     if built.get('point_capacity',40000)<grid**3:
         raise ValueError(f'Response build cannot store{grid}cubed')
-    if serialization_manifest is None:
+    if qualified_band_result is not None:
+        checked=check_qualified(bands,band_manifest,qualified_band_result,qualified_band_result_sha256)
+    elif serialization_manifest is None:
         checked=check_bands(bands,band_manifest)
     else:
         serialization_manifest=Path(serialization_manifest).absolute()
@@ -61,6 +68,14 @@ def stage(build, inputs, bands, band_manifest, destination,
                                        sha256=checked['sha256'][str(path)]))
         path=RESEARCH/'verify_band_serialization.py'
         result['files'].append(dict(path=str(path),bytes=path.stat().st_size,sha256=digest(path)))
+    if qualified_band_result is not None:
+        # Pin the prior evidence and artifacts, never silently adopt new identities.
+        for name,expected_hash in checked['sha256'].items():
+            path=Path(name)
+            if not any(item['path']==str(path) for item in result['files']):
+                result['files'].append(dict(path=str(path),bytes=path.stat().st_size,sha256=expected_hash))
+        path=RESEARCH/'qualified_band_artifact.py'
+        result['files'].append(dict(path=str(path),bytes=path.stat().st_size,sha256=digest(path)))
     result.update(grid=[grid]*3,response_cell_grid=8,guard_seconds=240 if grid==48 else 900,
                   derived_inputs={'pwscf.a2Fsave':dict(source=str(derived),sha256=expected,
                     original_public_sha256=catalog['pwscf.a2Fsave']['sha256'],
@@ -76,5 +91,7 @@ if __name__=='__main__':
     for name in ('build','inputs','bands','band_manifest','destination'):
         parser.add_argument(name,type=Path)
     parser.add_argument('--serialization-manifest',type=Path,help='Explicit separately verified QE serialization protocol')
+    parser.add_argument('--qualified-band-result',type=Path,help='Explicit prior48 serialization qualification')
+    parser.add_argument('--qualified-band-result-sha256',help='Published SHA256 of that prior qualification')
     parser.add_argument('--grid',type=int,choices=(48,64),default=48)
     print(json.dumps(stage(**vars(parser.parse_args())),indent=2))

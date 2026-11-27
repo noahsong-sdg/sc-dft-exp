@@ -43,6 +43,25 @@ class RefinedResponseStagingTest(unittest.TestCase):
             with self.assertRaisesRegex(ValueError,'serialization'):
                 stage(build,inputs,bands,band_manifest,root/'unqualified64',manifest,grid=64)
             self.assertFalse((root/'unqualified64').exists())
+            qualification=root/'qualified-result.json';qualification.write_text('{}')
+            qualification_hash=digest(qualification)
+            qualified=dict(checked,qualification_reused=True,
+                sha256={**checked['sha256'],str(qualification):qualification_hash})
+            with patch('stage_refined_response.check_qualified',return_value=qualified) as checker, patch(
+                    'stage_refined_response.check_bands',side_effect=AssertionError('Must use explicit prior qualification')):
+                reused=stage(build,inputs,bands,band_manifest,root/'reused',manifest,
+                    qualified_band_result=qualification,qualified_band_result_sha256=qualification_hash)
+            checker.assert_called_once_with(bands,band_manifest,qualification,qualification_hash)
+            self.assertTrue(reused['band_validation']['qualification_reused'])
+            proof=next(item for item in reused['files'] if item['path']==str(qualification))
+            self.assertEqual(proof['sha256'],qualification_hash)
+            for extra in (dict(qualified_band_result=qualification),
+                    dict(qualified_band_result_sha256=qualification_hash),
+                    dict(qualified_band_result=qualification,qualified_band_result_sha256=qualification_hash,
+                         serialization_manifest=serialized)):
+                with self.assertRaisesRegex(ValueError,'result/hash pair'):
+                    stage(build,inputs,bands,band_manifest,root/'bad-reuse',manifest,**extra)
+                self.assertFalse((root/'bad-reuse').exists())
             serialized.write_text(json.dumps(dict(source_band_manifest='/stale/parent.json')))
             with self.assertRaisesRegex(ValueError,'different parent'):
                 stage(build,inputs,bands,band_manifest,root/'wrong-parent',manifest,serialization_manifest=serialized)

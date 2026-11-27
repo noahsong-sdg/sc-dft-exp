@@ -180,3 +180,37 @@ trace is historical and the original64-column parent payload is absent. The
 compressed solve is not a complete public cold-start reproduction even if a
 full residual later passes. Public response-input reproduction and retained-basis
 stationarity are separate evidence chains.
+
+
+## Explicit reuse of an already qualified serialized input
+
+The explicit64extension changed staging script identities and exposed a genuine
+reuse boundary: replaying the old verification protocol against a changed tree
+correctly rejects its historical source hash, even when its qualified data is
+unchanged. Rewriting old hashes would erase provenance; repeating band generation
+would add cost without new scientific information.
+
+For the demonstrated48-grid case, a new response can instead explicitly reuse
+the published serialization qualification:
+
+```sh
+python3 research/stage_refined_response.py BUILD PUBLIC_INPUTS SERIALIZED_BANDS ORIGINAL_BAND_MANIFEST NEW_RUN \
+  --qualified-band-result QUALIFICATION_JSON \
+  --qualified-band-result-sha256 PUBLISHED_SHA256
+```
+
+`qualified_band_artifact.py` requires that exact result hash, passed unchanged
+shared-energy/serialization targets, matching48-grid metadata, the original
+terminal serialization receipt and every artifact/result-manifest hash recorded
+in that qualification. It does not re-execute or rewrite the old protocol. The
+new manifest pins prior evidence plus copied runtime inputs and current staging
+code; guard/readback must check them again. This route is explicit and cannot
+be combined with live serialization revalidation. A result/hash pair is mandatory.
+
+The current combined indexed/fourth48experiment anchors
+public_a2f_serialize48_result.json to its publishedada2ff0blob, freezes all eight
+fourth48exports before launch and uses the maintained exact-export checker.
+Changed data, changed result, wrong parent, incomplete evidence and ambiguous
+verification-route fixtures reject.131offline testsPASS10.589s; maintained-source
+compilation, moment-refinement replay and diff checksPASS. Native combined48
+qualification remains pending while the sole64band job runs.

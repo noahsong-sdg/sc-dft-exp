@@ -1964,3 +1964,20 @@ or weaken old verification. A new response may explicitly reuse the prior
 qualified serialized artifact by its already-published output/result hashes,
 keeping historical qualification separate from current consumed runtime inputs.
 Resolve that explicit provenance path before the combined48response launch.
+
+
+## Explicit qualified-input reuse resolves the historical-source boundary
+
+New48response staging can require a prior published qualification/result hash,
+validate every recorded artifact plus terminal receipt, and freeze that evidence
+without mutating old manifests or re-running old scripts. Actual48qualification
+checked against publishedada2ff0blob; all eight recorded identities remainexact.
+This is an explicit path, never an automatic fallback.131localtestsPASS10.589s;
+compileall/momentreplay/diffcheckPASS.
+
+Combined indexed/fourth48response is frozen at raw/public-indexed-fourth-response48-001
+in public_indexed_fourth_response48_manifest.json. All eight baselineexports
+captured before launch; five published hashes checked, three new prospective
+assignment/symmetry captures labelled. Guard900s/3GiB; forecast85s; no watcher.
+64bandsowner94314/session22373 is confirmedrunning. No other heavy owner.
+After terminal64bands, qualify combined48response before interpreting64response.
