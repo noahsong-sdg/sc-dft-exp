@@ -3658,3 +3658,23 @@ No maintained code changed. Native oracle is six complete uncached sums for
 the first new vector, not exhaustive independent checking of all64 images.
 184tests/193Python compilations/moment lastPASS; new analysis/continuity commands
 exit0. Scientific goal remains active.
+
+
+## Third retained restart accepted; bounded next application decision
+
+portable-basis-restart-003 PASS retains16 complete Ritz directions from028;
+selected mode4 preserved by identical Q/AQ transformations and serialized
+roundtrip. Combined retained/trial Gram1.554312234475219e-14; all pinned inputs
+revalidated. Offline transform is not a new kernel application or gap seed.
+Next: one32-column application in restart-sweep009–012, four contiguous
+600s/3GiB/quiet120 segments, unchanged operator and guard. Forecast14–16native
+minutes based on latest14.90min; not bound. Worst-case40min plus staged
+reduced-build120s fits remaining58.66min initial native pilot. Stop on failure;
+no automatic retry or next extension. Independent residual/mode analysis required
+before further spending. Previous same-mode residual reductions4.80,5.48,5.17
+and unchanged overlap justify this next measurement; projected-only arithmetic
+cannot establish new full-image convergence. Acceptance remains1e-9 linear seed
+and separate full nonlinear/conditioning/response gates.
+Source-only reduced-build001 may now run: prior controller terminal; no native
+owner observed. It removes historical build coupling, does not qualify a seed.
+No scientific thresholds or maintained code changed.
