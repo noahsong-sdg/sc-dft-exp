@@ -108,3 +108,34 @@ claimed: these are different acceptance levels and exclude basis preparation.
 See reduced_nonlinear_result.json and the terminal manifest receipt. The full
 native seed-verification job is now separately queued with prospective hashes
 and stationary-residual targets in verify_reduced_gap_manifest.json.
+
+## First enrichment and critical-mode audit
+
+The rank-31 candidate failed both full native residual targets; see
+GAP_SEED_VERIFY_GATE.md. A source-bound occupation-defect direction produces a
+rank-32 basis. Its guarded reduced solve passes in 1.013797 s with
+116375552-byte individual peak RSS, five Newton iterations and coefficient
+residual 2.26338e-15. Strict readback passes. Fermi averages are
+0.1230505613/0.1223244445 meV, about 26% below the first candidate, despite both
+having tiny reduced residuals. No full residual has been computed at this new
+candidate. See enriched_reduced_result.json and its terminal receipt.
+
+The critical-mode representation audit separates two quantities. Rank 31 has
+mode projection defect norm 0.00161901 and mode-action defect norm 0.000362514;
+rank 32 has projection defect 0.00108424 and action defect 0.00146301. Thus the
+occupation enrichment does not by itself reproduce the independently measured
+linear mode. These are representation diagnostics, not full-space error bounds
+or evidence that the inherited actions are inconsistent.
+
+`critical_mode_projection_audit.py AMPLITUDE_DIRECTORY BASIS_DIRECTORY...`
+reproduces these numbers from strict amplitude readback and same-beta/context
+bases. A fixture distinguishes projection from action error and rejects stale
+context. See critical_mode_projection_audit.json for source identities. The
+amplitude run already measured the mode and its complete native image, allowing
+the same tested algebra to append that missing mode component without another
+kernel pass. Preparing that additional direction before full validation is the
+next experiment, rather than spending a full pass on rank 32 first.
+
+Neither reduced runtime includes preparing the original 31-vector basis or
+upstream microscopic inputs. Their complete historical preparation cost remains
+unresolved; no end-to-end acceleration follows from these timings.

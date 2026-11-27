@@ -1,5 +1,31 @@
 # Research restart ledger
 
+## Latest priority — rank32 reduced PASS; add measured critical mode next
+
+Previous turn made progress: source-bound preparation9c6ec35/owner27945ad.
+Owner6371 TERMINAL PASS1.013797s/116375552-byte individualpeakRSS, group sampler
+missed shortpeak. Strict reducedreader PASS:rank32,5Newtonsteps,coefresidual
+2.26338e-15,Fermi means0.12305056/0.12232444meV,~26% below rank31. No full
+residual at this candidate. No live scientific owner remains. CI45976425238
+SUCCESS for prior source-bound preparation. Terminal accounting32attempts,
+21PASS/11FAIL,3846.357s guardedwall, excludespreparation/wait/build/modelcost.
+
+New critical_mode_projection_audit.py reports old/newQ representation against
+fresh native mode/image from completed amplitude run. Rank31 projectiondefect
+0.00161901/actiondefect0.000362514;rank32 projection0.00108424/action0.00146301.
+The mode is still outsideQ, so its alreadymeasuredimage can supply another
+column using the tested general enrichment algebra. This is not inheritedU
+inconsistency proof or a globalconditioningbound. Filefixture checks distinct
+projection/action errors and stalecontext rejection. All70localtests PASS6.260s;
+compileall/diffcheck PASS. Publicresults preserve
+rank32 terminalreceipt,amplitude/basis hashes and nofullqualification flag.
+
+Next: prepare a source-bound critical-mode enrichment of rank32 using completed
+mode-amplitude-001 data and originalcontext, then cheap reduced pilot atsame
+seed. It is scientifically cheaper than fullvalidating rank32 before including
+this knowncriticaldirection. Only then justify onefullnative pass atunchanged
+targets. Original31basispreparationcost unresolved,no speedup claim. Goal active.
+
 ## Latest priority — one source-bound enrichment prepared; reduced pilot ready
 
 Previous turn made progress: failed fullcandidate5400300 public. No live native

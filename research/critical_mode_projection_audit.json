@@ -1,0 +1,128 @@
+{
+  "rows": [
+    {
+      "basis": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/material-T8p05b16s29/rotation",
+      "rank": 31,
+      "mode_projection_defect_norm": 0.0016190069142262198,
+      "mode_action_defect_norm": 0.00036251401505514087,
+      "defect_action_over_defect_norm": 0.22391134458397235,
+      "max_absolute_action_defect": 7.098444300061672e-06,
+      "basis_sha256": "be732600d72fb6d8d8ed519def7cf3b218c0ee0922f4bd8b36c9378702ed1663",
+      "metadata_sha256": "5d7e9d08315138e13e7df0fe1a2e6f2cb311a38bba8b75e3a300d48f1e34eccb"
+    },
+    {
+      "basis": "research/raw/enriched-basis-001",
+      "rank": 32,
+      "mode_projection_defect_norm": 0.0010842403319879289,
+      "mode_action_defect_norm": 0.0014630083105818571,
+      "defect_action_over_defect_norm": 1.3493395028936677,
+      "max_absolute_action_defect": 1.220571663552647e-05,
+      "basis_sha256": "8ecd8c500acec16ad3bd0ace642bffe4cd84147142366deb1be88e70de2c59e0",
+      "metadata_sha256": "32b8afc4a0ba664ca311e9d22d8e318646c85a5f6b668224ff3f5d4b3040e7c1"
+    }
+  ],
+  "fresh_mode_readback": {
+    "dimensions": [
+      66867,
+      67940,
+      67940,
+      8
+    ],
+    "beta": 19613.355577892344,
+    "eigenvalue": 1.0018603316299344,
+    "fresh_relative_residual": 3.920375975386137e-11,
+    "fresh_action_max_error": 1.5612511283791264e-17,
+    "kernel_cpu_s": 747.158671,
+    "rows": [
+      {
+        "mean_gap_amplitude_mev": 0.025,
+        "mode_scale_ry": 0.0006440216156029688,
+        "projected_residual_ry": 1.1523702908636805e-06,
+        "max_absolute_residual_ry": 7.014738656900298e-09,
+        "rms_residual_ry": 3.1396730583519114e-09,
+        "fermi_residuals_ry": [
+          3.3525087172366565e-09,
+          3.335515670830374e-09
+        ]
+      },
+      {
+        "mean_gap_amplitude_mev": 0.05,
+        "mode_scale_ry": 0.0012880432312059376,
+        "projected_residual_ry": 2.0305267419572787e-06,
+        "max_absolute_residual_ry": 1.2981019531300137e-08,
+        "rms_residual_ry": 5.569204750711171e-09,
+        "fermi_residuals_ry": [
+          6.24968083428484e-09,
+          6.235392813182889e-09
+        ]
+      },
+      {
+        "mean_gap_amplitude_mev": 0.1,
+        "mode_scale_ry": 0.0025760864624118753,
+        "projected_residual_ry": 1.8711478607294715e-06,
+        "max_absolute_residual_ry": 1.764357976195045e-08,
+        "rms_residual_ry": 7.314549791665327e-09,
+        "fermi_residuals_ry": [
+          8.863460498353842e-09,
+          8.99188154987035e-09
+        ]
+      },
+      {
+        "mean_gap_amplitude_mev": 0.15,
+        "mode_scale_ry": 0.0038641296936178125,
+        "projected_residual_ry": -2.6478423618023605e-06,
+        "max_absolute_residual_ry": 3.921736152934325e-08,
+        "rms_residual_ry": 1.9085255478911502e-08,
+        "fermi_residuals_ry": [
+          4.241480469071232e-09,
+          4.8234982534630136e-09
+        ]
+      },
+      {
+        "mean_gap_amplitude_mev": 0.2,
+        "mode_scale_ry": 0.005152172924823751,
+        "projected_residual_ry": -1.365619671039067e-05,
+        "max_absolute_residual_ry": 1.2920002642471276e-07,
+        "rms_residual_ry": 5.592141184556742e-08,
+        "fermi_residuals_ry": [
+          -1.1144885268770474e-08,
+          -9.65057930788243e-09
+        ]
+      },
+      {
+        "mean_gap_amplitude_mev": 0.3,
+        "mode_scale_ry": 0.007728259387235625,
+        "projected_residual_ry": -6.334824977492523e-05,
+        "max_absolute_residual_ry": 5.368722223103784e-07,
+        "rms_residual_ry": 2.220237302882692e-07,
+        "fermi_residuals_ry": [
+          -8.777039873266129e-08,
+          -8.253073171064131e-08
+        ]
+      },
+      {
+        "mean_gap_amplitude_mev": 0.5,
+        "mode_scale_ry": 0.012880432312059376,
+        "projected_residual_ry": -0.00032576304950798963,
+        "max_absolute_residual_ry": 2.65558128651974e-06,
+        "rms_residual_ry": 1.0880814871981262e-06,
+        "fermi_residuals_ry": [
+          -5.102734659505743e-07,
+          -4.867712991002769e-07
+        ]
+      }
+    ],
+    "projected_sign_change_intervals_mev": [
+      [
+        0.1,
+        0.15
+      ]
+    ],
+    "sha256": {
+      "mode-amplitudes.txt": "4904c1dde0506643b217488d9afed06903598f786c983c9d21f06ab9a29930c4",
+      "mode-amplitudes.bin": "9d7b150445896f6da815d3e5f09d87104154aee3945a09d7debebf7a86082d81"
+    },
+    "scope": "Validate full residual readback along a saved mode; no solved-gap inference."
+  },
+  "scope": "Audit representation of a freshly measured mode; no gap error certificate."
+}
