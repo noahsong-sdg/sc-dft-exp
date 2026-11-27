@@ -3600,3 +3600,10 @@ This avoids future build coupling but cannot establish material convergence;
 runtime still requires1e-9 mode/branch/context gates. No launcher started.
 No maintained code changes. Last184tests/193Python compilations/moment PASS;
 diffcheckPASS. New build cost will be added to guarded ledger on execution.
+
+
+## Bounded64-vector controller checkpoint025
+
+Rows1:16384 terminal PASS, wall215.1442197500728s, individualpeak1023655936B, sampledgroup973586432B. Public/consumed manifest equality and original native certificate/postrun checks PASS. New guarded total10204.492062751055s; historical189.29min separate.
+Next026 prospectively staged rows16385:32768,600s/3GiB/quiet120.
+No maintained code/threshold changes. Scientific gap and response acceptance remain incomplete.
