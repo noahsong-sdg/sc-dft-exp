@@ -109,3 +109,25 @@ XML's two8³ grids. Scaling the entire1.695s pilot by897/8 gives190s as a rough,
 setup-inclusive forecast; k-dependent iteration counts are unknown. A proposed
 full replay would use a600s cap, still require the same absolute energy tolerance,
 and measure actual cost before authorizing a denser derivative-grid study.
+
+## Consumed-copy provenance boundary
+
+The band calculation reads copied restart files under its own scratch directory,
+not the original public directory. The initial stager pinned only the originals.
+That left a changed consumed copy outside prelaunch verification, even when the
+original remained correct. The regression now requires catalog-bound entries for
+all four consumed copies; it fails on the old stager because those entries are
+absent. The existing guard checks those exact bytes before and after its quiet
+window, without a new guard or fallback path.
+
+The XML copy is both input and native output. Its entry explicitly marks that
+single known path as rewritten by native execution. Postrun analysis permits
+that XML rewrite and validates its output bands, while requiring the density,
+PAW, pseudopotential and all originals to remain unchanged. A test changes the
+consumed density and rejects it; attempting to mark it mutable is also rejected.
+This handles the actual file lifecycle rather than weakening all hash checks.
+
+The completed dense001 run's three persistent consumed copies were compared
+against the public originals after execution and match bit for bit; only XML
+was rewritten, as expected. Historical consumed manifests remain intact. New
+runs use fresh manifests including the copy entries and the updated verifier.

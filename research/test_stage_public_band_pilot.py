@@ -59,6 +59,9 @@ class StageBandPilotTest(unittest.TestCase):
             for name in NAMES:
                 self.assertEqual(digest(save/name),files['pwscf.save/'+name]['sha256'])
                 self.assertEqual((root/'run/scratch/pwscf.save'/name).read_bytes(),(save/name).read_bytes())
+                entry=next(item for item in result['files'] if item['path']==str(root/'run/scratch/pwscf.save'/name))
+                self.assertEqual(entry['sha256'],files['pwscf.save/'+name]['sha256'])
+                self.assertEqual(entry.get('rewritten_by_native',False),name=='data-file-schema.xml')
             (save/'charge-density.dat').write_bytes(b'changed')
             with self.assertRaisesRegex(ValueError,'Changed declared band input'):
                 stage(exe,inputs,root/'stale',manifest)

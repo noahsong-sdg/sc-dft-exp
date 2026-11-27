@@ -8,6 +8,18 @@ from fetch_public_response_inputs import digest
 from stage_public_band_pilot import numbers
 
 
+def verify_postrun_inputs(manifest, root):
+    """Originals stay fixed; only the consumed XML becomes a native output."""
+    for item in manifest['files']:
+        path = Path(item['path'])
+        if item.get('rewritten_by_native') is True:
+            if path != root/'scratch/pwscf.save/data-file-schema.xml':
+                raise ValueError('Unexpected mutable band input')
+            continue
+        if path.stat().st_size != item['bytes'] or digest(path) != item['sha256']:
+            raise ValueError('Changed declared band-pilot input: '+str(path))
+
+
 def compare(reference, xml, expected_points=8):
     states = ET.fromstring(xml).findall('output/band_structure/ks_energies')
     if len(reference) != expected_points or len(states) != expected_points:
@@ -32,10 +44,7 @@ def analyze(directory, manifest_path, expected_points=8, guard_seconds=180):
     if (manifest['cwd'] != str(root) or manifest['points'] != expected_points
             or manifest['acceptance_max_eigenvalue_difference_ry'] != 1e-6):
         raise ValueError('Changed declared band-pilot context')
-    for item in manifest['files']:
-        path = Path(item['path'])
-        if path.stat().st_size != item['bytes'] or digest(path) != item['sha256']:
-            raise ValueError('Changed declared band-pilot input: '+str(path))
+    verify_postrun_inputs(manifest, root)
     receipts = []
     for path in root.rglob('receipt.json'):
         receipt = json.loads(path.read_text())

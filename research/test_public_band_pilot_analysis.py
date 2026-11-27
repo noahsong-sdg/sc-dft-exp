@@ -4,13 +4,29 @@ import tempfile
 import unittest
 import xml.etree.ElementTree as ET
 
-from public_band_pilot_analysis import compare, analyze
+from public_band_pilot_analysis import compare, analyze, verify_postrun_inputs
 from fetch_public_response_inputs import digest
 from stage_public_band_pilot import render
 from test_stage_public_band_pilot import fixture
 
 
 class PublicBandReadbackTest(unittest.TestCase):
+    def test_only_consumed_xml_can_be_rewritten_after_launch(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder).resolve();save=root/'scratch/pwscf.save';save.mkdir(parents=True)
+            xml=save/'data-file-schema.xml';xml.write_text('initial XML')
+            charge=save/'charge-density.dat';charge.write_text('density')
+            files=[dict(path=str(p),bytes=p.stat().st_size,sha256=digest(p)) for p in (xml,charge)]
+            files[0]['rewritten_by_native']=True
+            xml.write_text('native output XML')
+            verify_postrun_inputs(dict(files=files),root)
+            charge.write_text('changed')
+            with self.assertRaisesRegex(ValueError,'Changed declared'):
+                verify_postrun_inputs(dict(files=files),root)
+            files[1]['rewritten_by_native']=True
+            with self.assertRaisesRegex(ValueError,'Unexpected mutable'):
+                verify_postrun_inputs(dict(files=files),root)
+
     def test_all_points_all_bands_and_no_fitted_energy_shift(self):
         xml=fixture(); _,reference=render(xml)
         self.assertEqual(compare(reference,xml),[0.]*8)

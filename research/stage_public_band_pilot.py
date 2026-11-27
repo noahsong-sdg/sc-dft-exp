@@ -104,6 +104,11 @@ def stage(executable, inputs, destination, manifest_path=RESEARCH/'public_respon
     save = root/'scratch/pwscf.save'; save.mkdir(parents=True)
     for name in NAMES:
         shutil.copy2(inputs/'pwscf.save'/name, save/name)
+        item = manifest['files']['pwscf.save/'+name]
+        consumed = dict(path=str(save/name), bytes=item['bytes'], sha256=item['sha256'])
+        if name == 'data-file-schema.xml':
+            consumed['rewritten_by_native'] = True
+        files.append(consumed)
     target = root/'pw.x'; shutil.copy2(exe, target)
     (root/'native.in').write_text(native)
     (root/'reference.json').write_text(json.dumps(reference, indent=2)+'\n')
