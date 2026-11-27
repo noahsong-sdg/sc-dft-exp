@@ -3254,3 +3254,21 @@ point/context/beta/counts/positiveFermibranch. A future explicit hash-pinned
 geometry/Z bundle may therefore reuse the existing driver; a new driver is not
 yet shown necessary. This is a traced staging route, not a qualified runtime or
 permission to combine unrelated contexts. Fresh seed and cost protocol required.
+
+
+## Enrichment015 accepted; final48-vector segment staged
+
+Rows32769:49152 terminal PASS 199.148685083259s; individualpeak
+1037271040B/group987299840B. Checkpoint, allpostruninputs, public/consumedmanifest
+and16linkedarchives PASS; no historicalcustompath. Owner62873/session53972
+terminal exit0. Guardednewtotal7196.319130293409s; historical189.29min separate.
+Enrichment016 stagedfinalrows49153:66867, sameold32basis/16trials/operatorcontext,
+predecessor015;600s/3GiB/quiet120. Finaluncachedsums,48-vectorRitz and independent
+residual/byteprefix/overlap checks remain required. No codechanged;180tests/191
+Pythoncompilations/moment gates lastPASS; diffcheckPASS. PublicCI46070712792 on
+574560aPASS. Nonlinear seed and reliable response goal remainincomplete.
+
+Reduced-solver dependency trace: reduced_nonlinear_driver imports kinds,constants
+and reduced_nonlinear_core; core uses BLAS/LAPACK and iso_fortran_env. It need not
+link historical custom operatorobjects. A small source-only recipe is sufficient
+in principle; no new candidate runtime or qualification claimed from this trace.
