@@ -619,3 +619,42 @@ predecessor011;600s/3GiB/quiet120. Finalsegment mustalsoPASS uncachedsums
 before64-vectorRitz. No codechanged;170offline tests/184Pythoncompilations
 andmoment gates lastPASS;diffcheckPASS. PublicCI46064294726 onf81d04aPASS.
 Independent64readback, convergedgap andresponse remainincomplete.
+
+
+## Complete64-vector application: qualified numerics, unqualified seed
+
+Enrichment012 terminalPASS214.948329874780s, individualpeak1044267008B,
+group1044217856B. Session1771 terminalexit0. Finalimages complete through66867;
+checkpoint bitwise roundtrip, allpostruninputs, public/consumedmanifest and
+16linkedarchive hashes PASS; no historicalcustomobjectpath. Six uncachedcomplete
+sums forfirstnewvector PASS: maxdifference2.168404344971009e-19 versus
+frozenbound2.0621580946485195e-13. This samples onecolumn, not exhaustive16-column
+independent recomputation. Guardednewtotal5679.466350584141s (94.66min), including
+compilefailure; old189.29min separate. No native owner remains afterterminalrun.
+
+Independent enlarged_basis003_result.json PASS:64columns, Gramerror
+2.8754776337791554e-14, projectedmatrixerror1.554312234475219e-14; allreal-mode
+full-image residuals match native within5e-12. No acceptedmode(selectedindex0).
+Same-sign Fermi-average candidate lambda1.0018556167488124, relative residual
+0.0014976918724182479, nativechannel-1. Previous48 residual0.006052032778491781:
+about4.04x improvement, still1.50million times above1e-9 seedthreshold. Largest
+positive eigenmode2.9780512463512 has opposite-side averages; it cannot substitute
+for conventional pairing. A lambda aboveone does not prove a converged gap/Tc.
+
+Decision: stop un-restarted basis growth at registered64cap. Broad16-column
+block extension has not qualified a nonlinear seed. Inference from traced
+ritz_checkpoint: it grows the whole block by projected images of its last16
+columns; only four blocks have been explored and no target-preserving restart
+occurs. This is a plausible convergence limitation, not a proven physics defect
+or portability error. Next work is an offline, source-traced evaluation of a
+same-operator targeted/thick restart retaining the near-one mode and relevant
+nonsymmetric partner subspace, with transformation/image consistency tests and
+fresh residual measurement required before acceptance. Do not increase64cap,
+relax branch/residual gates, import historical images, or launch unregistered
+native work. Record cost/value forecast and stop criterion before next pilot.
+
+No code changed. Last required offline gate:170testsPASS,184maintainedPython
+sources compilePASS, moment refinementPASS. Current git diffcheckPASS. Latest
+publicCI46064934226 on184ec16PASS. Full nonlinear gap, conditioning/observable
+error transport,2K/4K contexts, current/state mapping,1% response qualification,
+and public accepted-result reproduction remain incomplete. Goal staysactive.
