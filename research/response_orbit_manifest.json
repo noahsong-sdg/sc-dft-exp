@@ -1,0 +1,43 @@
+{
+  "question": "Export actual native rotation matrices to audit the scalar gap on Q0 cell orbits",
+  "status": "Prepared only; wait for full owner17667 terminal",
+  "guard_seconds": 120,
+  "group_rss_cap_bytes": 3221225472,
+  "launch_normal_seconds": 120,
+  "environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "SCTK_MOMENT_GRID": "8"
+  },
+  "prepare_directory": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare",
+  "decision": "Native rotation matrices are needed to establish whether full-group averaging preserves this scalar gap. Previous same-geometry run34.147s/195MB supports one120s export after the active full check.",
+  "controls": "Same executable/unshiftedbands/energygrid; only q_fflo magnitude1e-4->1e-12 changes. The known absolute threshold now admits48operations; this is deliberate diagnostic use of a documented scale defect, NOT physical response validation.",
+  "acceptance": "Strict assignment compatibility and response-cell-rotations-v1; gap_symmetry_audit.py with exact integer cell mapping; no gap or physical response qualification implied",
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/response_symmetry_build_manifest.json",
+      "bytes": 1781,
+      "sha256": "d7368ea5482aef54f7d429f15033fff5d9025c97e81512a9e078803cc316b598"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-orbit-001/velocity-moment-probe.x",
+      "bytes": 7660696,
+      "sha256": "5f489e8d091de9db0feff9bc1812a29215ea1e1f47c1423151a1b270414a0915"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-orbit-001/native.in",
+      "bytes": 434,
+      "sha256": "6a4afe7a9891432a9db5d910ad23fef1a4dcf8f662dafb0666dcce1398e7b045"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-orbit-001/matdyn0",
+      "bytes": 1916,
+      "sha256": "96bf9e490721008167c28f83b76b13e47fe88d78b7eff6d95a1807c603dda5c8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/run-response-orbit-001.py",
+      "bytes": 1996,
+      "sha256": "34a66c7d0e999badbd89d5dc6f07de38c4e2ff67436c31659236fc211a999df4"
+    }
+  ]
+}

@@ -7,6 +7,8 @@ module response_assignment_dump
   use sctk_ini_delta, only: store_d3k
   use sctk_val, only: nx,nqbz,fbee,lbee,xi0,dx0
   use el_phon, only: elph_nbnd_min,elph_nbnd_max
+  use symm_base, only: nsym,s
+  use disp, only: nq1,nq2,nq3
   implicit none
 contains
   subroutine dump_assignment(dos,velocity,curvature,q,volume)
@@ -43,6 +45,15 @@ contains
     close(unit)
     open(newunit=unit,file='response-assignment.bin',status='new',access='stream',form='unformatted')
     write(unit) xi0,dx0,x,weight,v,h,k,band
+    close(unit)
+    ! The assignment above uses the fully shifted second cell grid.
+    ! Export the actual native matrices; do not reconstruct their convention.
+    open(newunit=unit,file='response-symmetry.txt',status='new')
+    write(unit,'(a)') '# response-cell-rotations-v1; integer native matrices in Fortran order'
+    write(unit,*) nsym,nq1,nq2,nq3,1,1,1
+    do g=1,nsym
+      write(unit,*) s(:,:,g)
+    end do
     close(unit)
   end subroutine
 end module

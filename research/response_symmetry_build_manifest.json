@@ -1,0 +1,42 @@
+{
+  "status": "Boundschecked retained-native optional exporter build PASS;77regressions PASS5.215s; material rotation export not run",
+  "scope": "Native matrices and geometry diagnostic only; no production current fix",
+  "source_before_rotation_extension": "0d2ea1b",
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/response_assignment_dump.f90",
+      "bytes": 2547,
+      "sha256": "058fe8282dc3c58bc4d3f57fa358c718060a5860da3c9572607ee50a7cf59990"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/gap_symmetry_audit.py",
+      "bytes": 6290,
+      "sha256": "e0ce0c08b4d2efccb832b783cb018d745e37d0e73f31cbf463dc0645785b3940"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/velocity_moment_probe.f90",
+      "bytes": 6808,
+      "sha256": "4b5bc258a49902e100b2fb2e006973b49089fbbcfa7019f35d3655bfd8884b41"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/velocity_moment_probe.mk",
+      "bytes": 711,
+      "sha256": "7df9cf760d69930f92a8498a48d841b5fe876a66e7c042debf3e175c968f8ba0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/nb-moments-unshifted-001/current_geometry.f90",
+      "bytes": 11359,
+      "sha256": "747c0b9c28ec6589c0460375484ebf7a404aa65543380cecd6a05334016a7005"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-symmetry-build-001/build.log",
+      "bytes": 12734,
+      "sha256": "1656e69030340688acc2de070c50cc2ca58a209280621af385c004d48767308a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-symmetry-build-001/velocity-moment-probe.x",
+      "bytes": 7660696,
+      "sha256": "5f489e8d091de9db0feff9bc1812a29215ea1e1f47c1423151a1b270414a0915"
+    }
+  ]
+}

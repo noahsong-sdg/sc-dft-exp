@@ -1,5 +1,25 @@
 # Research restart ledger
 
+## Latest — scalar-gap orbit audit built/tested; full owner live
+
+Rank34 fullowner17667/nativePID22638 verifiedlive at3:29,892192KiB RSS,
+progress23584/66867. Pollsameowner. No otherheavyproductionowner.
+
+Traced missingreusecondition: scalar-gap invariance isrequired beforegroup
+averagingmomentcoefficients. Optionalexporter nowwrites actualnative rotation
+matrices; gap_symmetry_audit.py implements exactshiftedcell mapping, strict
+resolved/single-state keys, geometry+gap comparisons. Tests include compiled
+actualexport, asymmetricgap, stale/truncatedmetadata/wronggrid andfile-bound
+candidate.77testsPASS5.215s, compileall/diffcheckPASS. Nativeboundschecked
+optionalbuildPASS (raw/response-symmetry-build-001). Originalassignment schema
+anddefaulttargetunchanged. Oldexportsourceversion0d2ea1b remainsavailablefor
+historicalmanifests; do not overwrite theirhashes.
+
+response_symmetry_build_manifest.json and response_orbit_manifest.json pin
+onefollowupexport, preparedonly; waitbehindfullowner17667. Afterterminalexport,
+strictassignmentreadback thenaudit rank34 (orlatestqualifiedcandidate) with
+response-symmetry.txt. Materialgap-symmetry andphysicalresponse remainunproved.
+
 ## Latest — symmetry cause isolated; rank34 full owner17667 live
 
 Symmetry owner88911 TERMINALPASS34.1468s/195362816B. All48 operations restore

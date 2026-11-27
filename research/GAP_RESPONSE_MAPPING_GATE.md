@@ -148,3 +148,45 @@ implemented or qualified fix. An anisotropic gap requires a demonstrated crystal
 symmetry condition, correct resolved/single-state treatment, and convergence;
 the constant-gap identity alone does not supply those. Mass/vertex and functional
 accuracy remain independent gates.
+
+## Scalar-gap symmetry audit implemented; material run pending
+
+Before applying full-group averaging to a cell-dependent gap, test the gap and
+geometry on the corresponding native cell orbits. Otherwise a matching layout
+can still conceal a changed response integrand. For an invariant scalar factor
+C(k), permutation of cells proves sum C(k)*average_group[M(k)] = sum C(k)*M(k).
+This is linear in the DOS-weighted second moment or curvature. Squaring an
+averaged first moment does not satisfy that identity. The proof does not
+establish convergence of the underlying band derivatives or quadrature.
+
+The optional assignment exporter now also writes `response-symmetry.txt` with
+the actual native integer rotation matrices, cubic cell grid, and the fully
+shifted second-grid convention. Its previous version is pinned at0d2ea1b;
+historical build/launch manifests continue referring to that immutable version.
+Existing assignment payload/schema and the default target are unchanged.
+
+`python3 research/gap_symmetry_audit.py CANDIDATE PREPARE SYMMETRY_FILE` first
+performs strict reduced-candidate and native-state readback. It maps cell indices
+using exact doubled integers, including the half-shifted second grid. Like
+native symm_dosk, it skips rotations that do not preserve the shifted grid.
+Resolved states match by band, cell and exact energy-node index; single states
+remain a separate class. Missing counterparts, incompatible energies/weights,
+and scalar-gap variation are reported separately. Geometry uses64eps relative
+with exact zeros; the prospective scalar-gap tolerance is1e-10 times its global
+maximum. These are diagnostic symmetry criteria, not full-gap or observable
+error bounds. Fixed band labels follow this native representation; degeneracy
+or band-permutation ambiguities would require investigation, not a physics
+claim based only on failed label matching.
+
+Tests cover shifted/inverted cells, a nonsymmetric matrix that detects transpose
+errors, an asymmetric gap, missing records, geometry violations, stale/truncated
+rotation metadata, wrong grids and file-bound candidate readback. A compiled
+fixture executes the actual exporter and confirms native matrix order and the
+unchanged assignment schema. The retained-native boundschecked optional target
+builds; all77regressions pass5.215s, compileall/diff checks pass. No standalone
+project typecheck exists.
+
+response_symmetry_build_manifest.json pins this build. response_orbit_manifest.json
+prepares one120s/3GiB export using the measured34.147s/195MB geometry cost, after
+120 quiet normal-pressure seconds. It must wait behind full owner17667. The
+material gap symmetry audit has not run. No production response fix is claimed.
