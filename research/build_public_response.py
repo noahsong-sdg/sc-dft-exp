@@ -7,6 +7,7 @@ import argparse
 import difflib
 import hashlib
 import json
+import os
 from pathlib import Path
 import re
 import shutil
@@ -85,6 +86,11 @@ def patch_build_rules(qe, pins):
         for path, before, after in changes)
 
 
+def build_environment():
+    # Environment initialization reaches LAPACK's nested try_compile projects.
+    return dict(os.environ, CMAKE_POLICY_VERSION_MINIMUM='3.5')
+
+
 def build(destination, archive_directory=None):
     if sys.version_info < (3, 12):
         raise RuntimeError('Fresh build requires Python>=3.12 for safe archive extraction')
@@ -110,9 +116,10 @@ def build(destination, archive_directory=None):
         begin = time.monotonic()
         log = root/f'build-step-{len(commands)+1}.log'
         with log.open('x') as output:
-            subprocess.run(command, cwd=cwd, stdout=output, stderr=subprocess.STDOUT, check=True, timeout=timeout)
+            subprocess.run(command, cwd=cwd, stdout=output, stderr=subprocess.STDOUT, check=True, timeout=timeout, env=build_environment())
         commands.append(dict(command=list(map(str, command)), cwd=str(cwd),
-                             wall_s=time.monotonic()-begin, log_sha256=digest(log)))
+                             wall_s=time.monotonic()-begin, log_sha256=digest(log),
+                             environment_overrides=dict(CMAKE_POLICY_VERSION_MINIMUM='3.5')))
         (root/'build-progress.json').write_text(json.dumps(commands, indent=2)+'\n')
 
     lapack = root/'lapack-build'

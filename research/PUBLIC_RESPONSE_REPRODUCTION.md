@@ -79,3 +79,25 @@ private retained basis, qualify physical normalization, or provide a converged
 material response. Replaying anisotropic candidates requires their own exact
 state/context and numerical qualification. These are separate gates, not extra
 claims inferred from a small input download or successful build.
+
+## Preserved build failure and root-cause fix
+
+Attempt001 downloads and verifies all source archives, then fails in LAPACK's
+nested timing-compiler probe under CMake4.4.5. The top-level `-D` policy cache
+entry belongs to the outer build tree; it does not initialize that nested
+project. In plain terms, the parent setting was not passed to the child.
+
+The fix adds process-local `CMAKE_POLICY_VERSION_MINIMUM=3.5` to command
+execution. CMake documents that [this environment variable initializes new
+build trees](https://cmake.org/cmake/help/latest/envvar/CMAKE_POLICY_VERSION_MINIMUM.html),
+including nested projects. It preserves the intended policy choice throughout
+the command tree without changing third-party Fortran or requiring an older
+CMake installation. It is smaller and more direct than patching each vendor
+CMakeLists file. No machine environment or installed package is modified.
+
+A real nested-project regression reproduces the CMake4 failure without that
+environment and compiles successfully with it. A new build root and a separate
+prospective retry manifest preserve attempt001. The retry reuses only the
+source archives freshly downloaded by001, after rechecking every hash; it
+reuses no configured tree, object or module. Retry compilation and material
+qualification are still pending. Failure time remains part of the cost record.

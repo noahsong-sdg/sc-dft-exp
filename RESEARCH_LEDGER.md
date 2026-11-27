@@ -1,5 +1,24 @@
 # Research restart ledger
 
+## Latest — fresh public-source retry002 compiling; CMake root-cause regression PASS
+
+Retry watcher PID13042/session17080 owns the only heavy job, running since
+2026-11-27T11:30:06Z after120 continuous normal-pressure seconds. New build root
+research/raw/public-response-build-002 reuses only exact-hash source archives
+from attempt001, no configured trees/objects. Prospective
+research/public_response_build_retry_manifest.json binds the changed script.
+LAPACK configuration PASS3.982s; reference-library compilation in progress.
+Poll same owner; do not duplicate or launch rank37 concurrently.
+
+Root cause: outer CMake cache policy did not initialize nested try_compile
+projects. Per-process CMAKE_POLICY_VERSION_MINIMUM environment now propagates
+that existing policy choice. Actual nested CMake4 regression fails without it
+and passes with it; third-party numerical source remains unchanged. All92 tests
+PASS7.320s under Python3.13. compileall excluding downloaded raw vendor trees
+PASS; git diff --check PASS. Broad compileall initially encountered a vendored
+Python2 helper under raw; that is outside maintained Python sources, not a
+research-code syntax failure. Fresh native build remains pending, not qualified.
+
 ## Latest — rank36 full RMS PASS/max FAIL; public-input bridge first build diagnosed
 
 Owner26476/child91148 TERMINAL guardPASS580.345961s/937852928B. Strictreadback
