@@ -1,10 +1,11 @@
 # Fixed-density public band reconstruction: pilot protocol
 
-Status: staged against fresh build004 with public_band_pilot_retry_manifest.json; no
-band calculation launched.
-The isolated public-response run passed; the corrected band retry is the only
-pending native owner. Do not launch this pilot
-until that owner is terminal and the normal-pressure launch gate passes.
+Status: corrected eight-point replay **PASS**. Fresh PW build004 with the public
+saved density reproduces all208archived eigenvalues within9.60504e-9Ry, without
+an energy-offset fit, versus the unchanged1e-6Ry target. Guard1.694869s/91,963,392B
+peak RSS. All declared originals remain unchanged. See public_band_pilot_result.json
+and public_band_pilot_retry_manifest.json. This is a limited fixed-density replay,
+not a completed dense-band or response-refinement study.
 
 ## Why this is relevant
 
@@ -86,7 +87,7 @@ python3 research/public_band_pilot_analysis.py \
 Tests cover conversion, exact point mapping, untouched originals, stale-input
 rejection before output creation, missing terminal receipts, and detection of a
 constant energy offset rather than fitting it away. Native output readback and
-actual resource measurements remain pending.
+resource measurements now pass for the eight-point pilot.
 
 A successful pilot would justify estimating a32³ dense-band replay cost from
 measured work, with setup and k-dependent diagonalization uncertainty. It would
@@ -99,3 +100,12 @@ specified lattice scale twice. public_band_pilot_attempt001_result.json preserve
 the receipt, log, input and old manifest hashes. The normalized-cell retry uses
 a new directory and unchanged energy acceptance target. No cost or material
 conclusion follows from that input-format failure.
+
+
+The actual a2Fsave header is26bands/897irreducible points on32³; its weights sum
+to2 and its Gamma energies agree with the XML within2.11e-13Ry. A full replay
+would compare all23,322eigenvalues at those exact coordinates, not substitute
+XML's two8³ grids. Scaling the entire1.695s pilot by897/8 gives190s as a rough,
+setup-inclusive forecast; k-dependent iteration counts are unknown. A proposed
+full replay would use a600s cap, still require the same absolute energy tolerance,
+and measure actual cost before authorizing a denser derivative-grid study.

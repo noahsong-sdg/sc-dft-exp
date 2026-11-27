@@ -1,0 +1,42 @@
+{
+  "max_eigenvalue_difference_ry": 9.60503943048252e-09,
+  "point_max_differences_ry": [
+    9.327028038796925e-11,
+    1.4577414830796442e-09,
+    7.38985761472577e-10,
+    9.60503943048252e-09,
+    1.6181838091711143e-09,
+    2.0330173100546745e-09,
+    7.472857888046747e-10,
+    1.5279839615800483e-09
+  ],
+  "acceptance_max_eigenvalue_difference_ry": 1e-06,
+  "replay_targets_met": true,
+  "energy_offset_fitted": false,
+  "original_inputs_unchanged": true,
+  "terminal_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-pilot-002/pw.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-pilot-002/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-pilot-002",
+    "wall_s": 1.6948689999990165,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 91963392,
+    "sampled_peak_group_rss_bytes": 32768,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 180.0,
+    "guard_source_sha256": "25353dbebc871bf6016ab0114fbb8aa04e78a184ef988f14141debed3afa252e"
+  },
+  "sha256": {
+    "research/public_band_pilot_retry_manifest.json": "d2c268f79bf2819a62a2a630e1f3cb1a4fbd05fe35f084acd3f3973adfb1a489",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-pilot-002/results/bands/receipt.json": "eaf8fbf1bb5a7b704948106aabe7aa1596f1085af83c4e3ad4ef6a97c9153e6c",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-pilot-002/scratch/pwscf.save/data-file-schema.xml": "fcc3e3116c988493749b31c36de82855a6080959afe88a42236c338d99c3cb5a",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-pilot-002/reference.json": "570735c7b3dbcc32ec3b34925731fad8c487d32d8ec935508c8c100fab936376"
+  },
+  "scope": "Verify the declared fixed-density band replay, without fitting energy offsets. Not density, cutoff or k-grid convergence; not physical response accuracy."
+}

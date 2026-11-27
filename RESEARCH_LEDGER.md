@@ -1,5 +1,20 @@
 # Research restart ledger
 
+## Latest — eight-point public band replay PASS; rank37 reduced owner1397 waiting
+
+Bandretry002/session34959 TERMINALPASS1.694869s/91963392B. Publicguardactual
+integration PASS. public_band_pilot_analysis readbackPASS: all208eigenvalues,
+maxdifference9.605039e-9Ry <=unchanged1e-6; nofittedoffset; declaredoriginals
+hashunchanged. public_band_pilot_result.json binds receipt/output/manifest.
+Gamma XML/a2Fsave agreement2.101e-13Ry. Actualdensea2Fsave26x897 on32³,
+weightsum2. Full897replayforecast190s fromwholepilot, uncertainkcost; prospective
+600s boundedproposal documented, notlaunched. Publicbandguardentrypointavailable.
+
+Rank37 reduced solewatcher session1397/PID70714 waitingnormal120s since12:01:11Z,
+raw/reduced-nonlinear-007, fifth_occupation_reduced_manifest.json. Pollsameowner;
+afterterminal reduced_nonlinear_analysis againstoriginalprepare, compare36means,
+thenconditionalfullpassdecision. Noothernativequeued. Usergoalstillactive.
+
 ## Latest — public Mac guard tested; corrected band retry002 sole owner34959
 
 Band001/session87649 TERMINALFAIL0.479521s/12910592B, beforediagonalization:
