@@ -1,0 +1,82 @@
+{
+  "occupation_defect_norm": 8.436080735261828e-06,
+  "relative_occupation_defect_norm": 0.001978560439927629,
+  "new_direction_old_basis_overlap": 6.416194652355811e-19,
+  "new_direction_norm": 1.0,
+  "inherited_operator_consistency_verified": false,
+  "old_rank": 31,
+  "new_rank": 32,
+  "beta": 19613.355577892344,
+  "context": "abfcecc2bacf7acac94a87e8d7cf4e88945bc589fea82dc9475106428818b74c",
+  "full_candidate_targets_met": false,
+  "full_evaluation": {
+    "full_readback": {
+      "dimensions": [
+        66867,
+        67940,
+        67940,
+        4
+      ],
+      "beta": 19613.355577892344,
+      "finite_difference_step_ry": 1e-08,
+      "kernel_cpu_s": 670.0076899999999,
+      "tile_sum_max_absolute_difference": 4.37779153206197e-15,
+      "jacobian_difference": 3.3899452134278363e-09,
+      "jacobian_acceptance_bound": 1.0446585610232218e-05,
+      "sides": [
+        {
+          "side": 1,
+          "max_absolute_residual_ry": 8.959045471890678e-08,
+          "rms_residual_ry": 2.8857259036182437e-08,
+          "max_absolute_jacobian_action": 5.21829280511611
+        },
+        {
+          "side": 2,
+          "max_absolute_residual_ry": 8.204594942417371e-08,
+          "rms_residual_ry": 2.607586397016169e-08,
+          "max_absolute_jacobian_action": 4.983233677707573
+        }
+      ],
+      "sha256": {
+        "full-map.txt": "9b044ccaa341aa94681a432d22edddf39d701b7f6c9efae8bd38a758155e2872",
+        "full-map.bin": "d8c94817620072412c581adfe7009a5dc368ed05b68eb16a70c8720229e7e3dc"
+      },
+      "scope": "Full native Q0 residual at imposed seed; terminal receipt required; no gap convergence or physical response validation"
+    },
+    "terminal_guard_pass": true,
+    "input_gap_bitwise_preserved": true,
+    "wall_s": 785.6344256247394,
+    "peak_individual_rss_bytes": 904052736,
+    "residual_infinity_ry": 8.959045471890678e-08,
+    "rms_residual_over_gap": 0.002362689431820539,
+    "thresholds": {
+      "residual_infinity_ry": 1e-10,
+      "rms_residual_over_gap": 1e-05
+    },
+    "stationary_residual_targets_met": false,
+    "conditioned_gap_error_bounded": false,
+    "physical_response_verified": false,
+    "manifest_sha256": "60a68132da34c58129c292328501365cc5f75603dbe7029a74d955a0528c1616",
+    "scope": "Certify declared stationary residual targets, never physical response accuracy."
+  },
+  "inputs_sha256": {
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/material-T8p05b16s29/rotation/basis.meta": "5d7e9d08315138e13e7df0fe1a2e6f2cb311a38bba8b75e3a300d48f1e34eccb",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/material-T8p05b16s29/rotation/basis.bin": "be732600d72fb6d8d8ed519def7cf3b218c0ee0922f4bd8b36c9378702ed1663",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.meta": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.bin": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37",
+    "research/raw/reduced-nonlinear-001/reduced-control.in": "210f92c5a426ff944c73a6e8aa4829d8806578a7533baeafb45eec6b02d93337",
+    "research/raw/reduced-nonlinear-001/reduced-gap.bin": "3ae94d7c9a0b9165e4416c062e848a04a6faf878fc519d9635714fb2b8370178",
+    "research/verify_reduced_gap_manifest.json": "60a68132da34c58129c292328501365cc5f75603dbe7029a74d955a0528c1616",
+    "research/reduced_nonlinear_manifest.json": "4e8033c6208e22f52825544ac834e1065cacf4d2445fc1c092864282daf85c6f"
+  },
+  "outputs_sha256": {
+    "research/raw/enriched-basis-001/basis.meta": "32b8afc4a0ba664ca311e9d22d8e318646c85a5f6b668224ff3f5d4b3040e7c1",
+    "research/raw/enriched-basis-001/basis.bin": "8ecd8c500acec16ad3bd0ace642bffe4cd84147142366deb1be88e70de2c59e0"
+  },
+  "scope": "Prepare one hash-bound basis enrichment after a full candidate evaluation.",
+  "preparation_resources": {
+    "wall_s": 13.78,
+    "max_rss_bytes": 176701440,
+    "measurement": "/usr/bin/time -l; read-only Python preparation, separate from native guarded accounting"
+  }
+}

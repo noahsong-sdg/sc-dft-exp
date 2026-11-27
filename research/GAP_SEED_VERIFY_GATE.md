@@ -86,3 +86,24 @@ the new image. Unresolved directions are rejected. No inherited-action
 consistency or new material result follows from that identity; a subsequent
 candidate still needs a fresh native check. File-bound material preparation
 and the next reduced solve are not implemented at this checkpoint.
+
+## Source-bound enrichment prepared
+
+`prepare_occupation_enrichment.py` now binds the original basis/geometry hashes,
+strict reduced readback, exact full-evaluated candidate, temperature and context.
+It creates a fresh directory only after these gates and numerical checks pass.
+The file fixture uses an independent exponential occupation and exact A0=2I;
+it verifies the appended image and rejects changed persisted inputs before output.
+
+For the failed material candidate, the omitted occupation has norm 8.43608e-6
+and relative norm 0.00197856. The added direction has norm 1 and old-basis overlap
+6.42e-19. Preparation takes 13.78 s / 176701440-byte peak RSS, measured separately
+from native guarded attempts. See enrichment_preparation_result.json. This does
+not freshly qualify every inherited operator image or establish a new gap.
+
+The unchanged reduced executable is copied into a fresh directory, with the new
+32-column basis and the same 0.15 meV conventional-mode seed. The prospective
+enriched_reduced_manifest.json pins all runtime inputs; the launcher rechecks
+their hashes immediately before execution after 120 quiet normal seconds.
+Keep the existing 120 s / 3 GiB guard and one heavy owner. A qualifying candidate
+would justify considering one fresh full check at unchanged acceptance targets.

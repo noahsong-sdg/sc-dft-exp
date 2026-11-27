@@ -1,5 +1,28 @@
 # Research restart ledger
 
+## Latest priority — one source-bound enrichment prepared; reduced pilot ready
+
+Previous turn made progress: failed fullcandidate5400300 public. No live native
+owner remains; both prior watchers are terminal completed. New file-bound
+prepare_occupation_enrichment.py checks originalbasis/geometryhashes, strict
+readbacks, candidateidentity, beta/context/config and exactpadding. Filefixture
+checks appendedimage against independent exponential-occupation A0=2I and
+rejects changed persisted input before creating output. All69tests PASS5.734s;
+compileall/diffcheck PASS. No Fortran changed; retained executablehash unchanged.
+
+Material preparation PASS13.78s/176701440-byte peakRSS, measured /usr/bin/time
+separately from guardednativeaccounting. Oldrank31->32, occupationdefectnorm
+8.436080735e-6,relative0.00197856044,newdirectionnorm1,oldoverlap6.42e-19.
+See enrichment_preparation_result.json and ignored raw/enriched-basis-001.
+New candidate not solved/verified; inheritedoperatorconsistency still unproved.
+
+Fresh raw/reduced-nonlinear-002 prepared, unchanged executable, newbasis and
+same0.15meV branchseed. enriched_reduced_manifest.json pins runtimefiles and
+launcher; launcher rechecks hashes immediately beforeexecution. Next launch
+raw/run-reduced-nonlinear-002.py with120 quietnormal seconds and120s/3GiB guard,
+oneowner. Then strict reducedreadback, assess source-bound fullnativevalidation
+with same1e-10Ry/1e-5ratio targets. Goal active; ceiling2026-11-27T17:41Z.
+
 ## Latest priority — full candidate failed targets; enrichment identity tested
 
 Previous turn made progress: public status/cost checkpointb3c3a24.
