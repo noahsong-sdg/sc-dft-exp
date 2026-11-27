@@ -7,6 +7,7 @@
 Current campaign: [scientific decision checkpoint](research/DECISION_STATUS.md),
 [analytic linear-response reuse route](research/LINEAR_RESPONSE_LIMIT.md),
 [first material-geometry diagnostic](research/NB_MATERIAL_DIAGNOSTIC.md),
+[velocity-moment method test](research/VELOCITY_MOMENT_METHOD.md),
 [complete gap-RHS finding](research/RHS_THERMAL_FINDING.md),
 [thermal-factor finding](research/CURRENT_IDENTITY_FINDING.md),
 [held-out boundary tests](research/THERMAL_BOUNDARY_RESULT.md),

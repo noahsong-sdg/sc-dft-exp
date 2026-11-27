@@ -1,5 +1,20 @@
 # Research restart ledger
 
+## Latest material-method evidence — second velocity moment
+
+Native moment attempt 002 PASS in 52.575 s / 178372608-byte peak. Session 32316
+TERMINAL, no owned process. Reconstructs original compute_dosk DOS/first/curvature
+arrays with exactly zero control errors. At imposed 1.5-meV gap and 2/4/8 K,
+second-moment all-support response agrees with direct fine-grid SAME-energy
+quadrature within 8.27e-16 absolute; first-mean-squared active-cell response is
+only about 40–45% of it. Negative fine weights explicitly audited; no positive
+variance argument used. See research/VELOCITY_MOMENT_METHOD.md and result/build
+JSONs. 38 offline tests pass; native source built with bounds checks.
+
+Next: momentum-cell refinement and small-Q native-current consistency, then
+unshifted tensor/gap mapping and physical convergence gates. This is not yet a
+converged Nb observable. No production patch or upstream message sent. Goal active.
+
 ## Latest geometry controls — Q=0 reconstruction recovered
 
 Attempts 006 (.0001) and 007 (Q=0) both PASS: 51.631 s / 113590272-byte peak

@@ -1,0 +1,160 @@
+{
+  "preparation": {
+    "sha256": "9afa4fd104e18c1259fa1999ff92bfc384d9f1493e4c2cca7773470b3eb8b818",
+    "beta": 157887.51240203338,
+    "volume": 122.17535992426924,
+    "tpiba": 1.1604988000527778,
+    "qnorm": 0.00014213149536207326,
+    "grids": [
+      {
+        "states": 62850,
+        "nonzero_velocity_states": 61152,
+        "nonzero_curvature_states": 62850,
+        "weight_sum": 25.986275918041184,
+        "initial_gap_slope": 0.0032517888456922374,
+        "released_reference_slope_bias": -2.1799908583255537e-09,
+        "distinct_band_k_pairs": 13312
+      },
+      {
+        "states": 64662,
+        "nonzero_velocity_states": 63026,
+        "nonzero_curvature_states": 64662,
+        "weight_sum": 25.986245618792566,
+        "initial_gap_slope": 0.003680456246875416,
+        "released_reference_slope_bias": -2.179765946224401e-09,
+        "distinct_band_k_pairs": 13312
+      }
+    ],
+    "scope": "Initial-gap diagnostic at prepared finite-Q geometry; NOT a self-consistent or Q=0 material prediction"
+  },
+  "source_sha256": "1062c2a6656455b223111928fbc37996fce564d6dcf0a3acc945b973a9101598",
+  "cases": [
+    {
+      "temperature_kelvin": 2,
+      "imposed_gap_mev": 0,
+      "released": [
+        null,
+        null
+      ],
+      "candidate": [
+        0.0,
+        0.0
+      ],
+      "native_candidate_finite": true,
+      "direct_reference": [
+        0.0,
+        0.0
+      ],
+      "released_minus_reference": [
+        null,
+        null
+      ]
+    },
+    {
+      "temperature_kelvin": 2,
+      "imposed_gap_mev": 1.5,
+      "released": [
+        4.6458120665437877e-07,
+        5.251976946361821e-07
+      ],
+      "candidate": [
+        4.645816721604025e-07,
+        5.251981717224031e-07
+      ],
+      "native_candidate_finite": true,
+      "direct_reference": [
+        4.645816721604005e-07,
+        5.251981717223889e-07
+      ],
+      "released_minus_reference": [
+        -4.655060217105731e-13,
+        -4.770862068144554e-13
+      ]
+    },
+    {
+      "temperature_kelvin": 4,
+      "imposed_gap_mev": 0,
+      "released": [
+        null,
+        null
+      ],
+      "candidate": [
+        0.0,
+        0.0
+      ],
+      "native_candidate_finite": true,
+      "direct_reference": [
+        0.0,
+        0.0
+      ],
+      "released_minus_reference": [
+        null,
+        null
+      ]
+    },
+    {
+      "temperature_kelvin": 4,
+      "imposed_gap_mev": 1.5,
+      "released": [
+        4.247489330208767e-07,
+        4.800888161178903e-07
+      ],
+      "candidate": [
+        4.2474976475365977e-07,
+        4.800896575825375e-07
+      ],
+      "native_candidate_finite": true,
+      "direct_reference": [
+        4.247497647536574e-07,
+        4.800896575825341e-07
+      ],
+      "released_minus_reference": [
+        -8.317327806932981e-13,
+        -8.414646438209715e-13
+      ]
+    },
+    {
+      "temperature_kelvin": 8,
+      "imposed_gap_mev": 0,
+      "released": [
+        null,
+        null
+      ],
+      "candidate": [
+        0.0,
+        0.0
+      ],
+      "native_candidate_finite": true,
+      "direct_reference": [
+        0.0,
+        0.0
+      ],
+      "released_minus_reference": [
+        null,
+        null
+      ]
+    },
+    {
+      "temperature_kelvin": 8,
+      "imposed_gap_mev": 1.5,
+      "released": [
+        2.632723940063556e-07,
+        2.9747031349292654e-07
+      ],
+      "candidate": [
+        2.6327399592778313e-07,
+        2.974719187195702e-07
+      ],
+      "native_candidate_finite": true,
+      "direct_reference": [
+        2.6327399592778074e-07,
+        2.974719187195697e-07
+      ],
+      "released_minus_reference": [
+        -1.60192142513536e-12,
+        -1.6052266431455716e-12
+      ]
+    }
+  ],
+  "scope": "Frozen finite-Q material geometry, imposed constant gaps; no self-consistency or experimental accuracy claim"
+}

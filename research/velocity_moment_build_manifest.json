@@ -1,0 +1,31 @@
+{
+  "source_revision": "47c06501da8ffd574c87469ddd6d5a2814171796",
+  "attempt": "nb-moments-002",
+  "files": [
+    {
+      "path": "research/velocity_moment_probe.f90",
+      "bytes": 5864,
+      "sha256": "54bed0a2bda7ef9e8a966f09133e45e4bb435535a385d657aecb6b9aee68926f"
+    },
+    {
+      "path": "research/velocity_moment_probe.mk",
+      "bytes": 200,
+      "sha256": "44ea4cd969a9f88611b043cd8036eee3df1e4a19614823c0d74e0f86e2e86fb9"
+    },
+    {
+      "path": "research/raw/nb-moments-002/native.in",
+      "bytes": 435,
+      "sha256": "15c537fef837b64b8ff92d11ef10c15ffb24bd1a75f18a004260e9c40a6d3b95"
+    },
+    {
+      "path": "research/raw/nb-moments-002/velocity-moment-probe.x",
+      "bytes": 7627032,
+      "sha256": "bc6e45fd6cd9ef22a72ef04d7d7a57a518d25d39c3dabf51edde1ce03d0e7738"
+    },
+    {
+      "path": "research/raw/nb-moments-002/build.log",
+      "bytes": 5678,
+      "sha256": "21764d74ecfdf183fee6e48994050d24e9e53e8f1c40e8ff22f620286066f024"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scope": "Analytic imposed-gap slope using FULL assigned preparation states, including native fallback cells",
+  "cases": [
+    {
+      "temperature_kelvin": 2,
+      "full_assigned_state_analytic_slope": [
+        0.0032752029945777024,
+        0.0037020892610965623
+      ]
+    },
+    {
+      "temperature_kelvin": 4,
+      "full_assigned_state_analytic_slope": [
+        0.0030451049508504377,
+        0.003442006517937197
+      ]
+    },
+    {
+      "temperature_kelvin": 8,
+      "full_assigned_state_analytic_slope": [
+        0.0019016110610618074,
+        0.002149485220371201
+      ]
+    }
+  ]
+}
