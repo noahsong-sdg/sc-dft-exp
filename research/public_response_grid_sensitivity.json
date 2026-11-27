@@ -1,0 +1,32 @@
+{
+  "cases": [
+    {
+      "temperature_kelvin": 2,
+      "fine32": 0.008144883761805485,
+      "fine48": 0.008594538908641099,
+      "fractional_change": 0.0552070674039844,
+      "second_moment_fine_conservation_max_error": 6.453171330633722e-16
+    },
+    {
+      "temperature_kelvin": 4,
+      "fine32": 0.007572690278422804,
+      "fine48": 0.007990839139639182,
+      "fractional_change": 0.05521800652640296,
+      "second_moment_fine_conservation_max_error": 1.7867651802561113e-16
+    },
+    {
+      "temperature_kelvin": 8,
+      "fine32": 0.004729085223009522,
+      "fine48": 0.004990337308572231,
+      "fractional_change": 0.0552436831316927,
+      "second_moment_fine_conservation_max_error": 4.501607420159814e-16
+    }
+  ],
+  "comparison": "Fixed density, imposed1.5meV gap, response-cell grid8, second-order velocity stencil, full48-symmetry tiny-Q diagnostic",
+  "physical_response_converged": false,
+  "sha256": {
+    "research/public_capacity_response_result.json": "ffedee8741b12d8bc3247484b0fd214a10fff4c54ae9d7ac0cadc5d7818f1163",
+    "research/public_response_grid48_retry002_result.json": "2fc9a6d9dddc5b17525777b71920e839f739edf7895f865e92586fcdfa8d1e46"
+  },
+  "scope": "Grid sensitivity in a shared diagnostic approximation; not a physical error estimate or material penetration depth."
+}

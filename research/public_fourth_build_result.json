@@ -1,0 +1,32 @@
+{
+  "terminal_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "/Users/noahs/Developer/sc-dft-exp/research/build_fourth_order_response.py",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-capacity-build-001/build",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-fourth-build-001/build"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-fourth-build-001",
+    "wall_s": 1.6542227920144796,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 108249088,
+    "sampled_peak_group_rss_bytes": 245760,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 180.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "executable_sha256": "94a517ca6ad0a2120bcb83a5a7e4b353f3e35b1dc042c8ecf912fabc98f7c8c0",
+  "velocity_stencil_order": 4,
+  "curvature_stencil_unchanged": true,
+  "all_declared_inputs_and_link_inputs_unchanged": true,
+  "numerical_response_qualified": false,
+  "sha256": {
+    "/Users/noahs/Developer/sc-dft-exp/research/public_fourth_build_manifest.json": "e74d3b8ddae5cdb56b875cc24691f0a802b48387613ca154b961cca9afb70c6f",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-fourth-build-001/results/build/receipt.json": "6c38d747d50972cc7a0e63e77fe249ce8bbf86c93cfb6266f16bee06006a8008",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-fourth-build-001/build/build-result.json": "089111a1f4bfda0fa91a1e6cf96e3df35958e2340ce7b35fc24b1eca93e701de"
+  },
+  "scope": "Separate fourth-order velocity probe relink against source-built libraries. Not a cold-start build, response qualification or physical accuracy result."
+}

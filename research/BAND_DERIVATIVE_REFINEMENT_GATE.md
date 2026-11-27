@@ -201,3 +201,27 @@ both prospective manifests and the first failure. No64cubed run is justified by
 this evidence. Use the explicit --guard-seconds 900 readback only for the new
 protocol; the default240s reader rejects it. A passing computation still needs
 all native conservation/cache checks and the fourth-order stencil controls.
+
+
+### Completed48 baseline and next scientific control
+
+The separate900s-protocol retry completed233.587811s/401113088B; strict hashes,
+native moment controls, full110592point/512cell context and cache contractions
+passed. At2/4/8K, the fine diagnostic increases5.5207/5.5218/5.5244% versus32.
+See public_response_grid48_retry002_result.json and public_response_grid_sensitivity.json.
+This resolves neither integration convergence nor physical response accuracy.
+The first240s protocol stays failed. Its112s forecast was too optimistic.
+
+The retry's late one-second sample captured opt_tetra_init in read_a2fsave,
+while the original late sample captured calc_dosk. These intervals do not prove
+which phase dominates total cost. A separately staged support-only DOS candidate
+therefore remains deferred until phase timings justify it. The fourth-order
+velocity control is the next scientific priority. Use a distinct900s48 protocol
+and retain the marginal240s failure; do not silently extend an existing run.
+
+Portability note: the first refined verifier imported the Mac guard's runtime
+while only needing its input hash check. Linux CI rejected that import. The fix
+uses the existing portable postrun hash checker, preserving receipt/context
+validation and leaving the Mac launcher unchanged. A subprocess regression
+forbids loading a native library during import. The successful retry was checked
+before this source edit; its original manifest retains the dcf39b3 code identity.

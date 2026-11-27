@@ -138,3 +138,21 @@ The final recommendation must distinguish a supported methods contribution
 from the still-open material-access thesis, and explain what new calculation,
 decision or exclusion has actually become practical. No final verdict or goal
 completion is claimed at this checkpoint.
+
+
+## Public electronic-grid control
+
+Saved-density48cubed bands contain2769irreducible points. A separate owning-QE
+serialization preserves all26bands, coordinates and weights;145 shared reference
+points agree within4.6133e-8Ry, below the unchanged1e-6 target without an offset.
+The original no-wavefunction band protocol did not emit a2Fsave and remains failed.
+The separate XML reader/writer avoids repeating the successful diagonalization.
+
+The48cubed response passed strict readback in233.587811s/401113088B after an
+original240s attempt timed out. Fine-quadrature diagnostics increase5.5207%,
+5.5218%,5.5244% at2/4/8K relative to32cubed. The imposed gap, retained512response
+cells, density and phonon inputs remain fixed. Second moments still conserve
+this quadrature, but conservation is not a convergence test. The next control
+changes only the velocity derivative stencil. A physical penetration-depth
+prediction remains unjustified. See public_response_grid_sensitivity.json and
+BAND_DERIVATIVE_REFINEMENT_GATE.md for inputs, receipts, failures and limits.

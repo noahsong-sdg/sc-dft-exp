@@ -2,6 +2,64 @@
 
 
 
+## Latest — fourth link PASS;32 fourth response sole owner91639
+
+Fourth link/session80336 TERMINALPASS1.654223s/108249088B; all original/link
+inputs unchanged, executable and source geometry identities recorded in
+public_fourth_build_result.json. No response qualification follows from linking.
+
+32fourth response sole native watcher session91639 under
+raw/public-fourth-response32-001,120s/3GiB/normal120. Prospective
+public_fourth_response32_manifest.json fixes the original public input identities,
+tiny-Q/full48 diagnostic,512cells and imposed gap. Only velocity stencil changes;
+require native controls, cache/components and unchanged inputs, not bitwise
+velocity agreement with second order. A bounded read-only sampling observer
+session76469 waits for this owner's child then samples at10ms until exit or120s;
+it does not launch another native computation. Poll both handles; profile state
+is profile_watch.json and outputwhole-run-sample.txt. Sampling overhead is not
+separately calibrated, so this runtime is not a pristine speed benchmark.
+
+Latest local121testsPASS9.364s; maintained compileall/diffcheckPASS. Portable
+readback fix179ad2e public CI46003872378PASS. Originaldcf39b3 CI failure remains
+preserved; the fix removes a Mac runtime dependency from offline file verification.
+The48baseline result was verified before editing its pinned script; use the
+owningdcf39b3 revision for historical code identities. After32fourth readback,
+stage separate48fourth with explicit900s protocol. DOS candidate deferred;
+rank38reduced008 still staged only. Full physical prediction and final audit open.
+
+## Latest — response48 PASS233.59s; fourth link sole owner80336
+
+Retry002/session97337 TERMINALPASS233.587811s/401113088B. All declared inputs
+unchanged at strict readback before subsequent portability fix. All native
+controls/cache/component checks PASS;110592fine points,512cells. Computed fine
+response increases5.5207/5.5218/5.5244% from32 at2/4/8K; no convergence or
+physical-prediction claim. public_response_grid48_retry002_result.json and
+public_response_grid_sensitivity.json own the evidence. The original240s failure
+remains preserved; retry completion does not retroactively pass it.
+
+The consumed readback script is the dcf39b3 snapshot; its hash is frozen in the
+retry manifest. Public CI46002890956 failed on Linux because that verifier imported
+macos_native_guard, eagerly loading libSystem. After the native run and strict
+readback terminated, replace that dependency with the existing portable hash
+checker. Receipt/cwd/command checks remain local. New subprocess regression forbids
+ctypes.CDLL during readback import. Do not rewrite the old consumed manifest;
+use its owning revision for historical code identities. Mac launcher unchanged.
+
+Fourth-order link sole watcher session80336, raw/public-fourth-build-001,
+180s/3GiB/normal120 gate; prospective public_fourth_build_manifest.json unchanged.
+After terminal, verify result/receipt/link inputs; stage fresh32 baseline first,
+then separate48 using the qualified serializer and explicit900s protocol because
+240 proved marginal. Require native controls and all declared inputs on each.
+No concurrent native watcher; rank38 reduced008 remains staged only.
+
+A support-only DOS arithmetic candidate is implemented with compiled synthetic
+bitwise fixtures and a prospective build manifest, NOT LAUNCHED. Defer it: a
+second one-second sample near the retry end captured opt_tetra_init, whereas the
+original late sample captured calc_dosk. Neither interval measures total phase
+fractions. No dominant-bottleneck or speedup claim is established. Obtain actual
+phase timing before spending a candidate baseline. Prioritize scientific stencil
+comparison and remaining gap/conditioning gates over a speculative local gain.
+
 ## Latest — response48 timed out; explicit900s retry sole owner97337
 
 Original response48/session86926 TERMINALFAIL240.128889s/-15, peak405143552B.

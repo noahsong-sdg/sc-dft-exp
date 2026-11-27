@@ -1,0 +1,202 @@
+{
+  "terminal_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-grid48-retry002/velocity-moment-probe.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-grid48-retry002/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-grid48-retry002",
+    "wall_s": 233.5878112912178,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 401113088,
+    "sampled_peak_group_rss_bytes": 396296192,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 900.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "native_controls": {
+    "sha256": "3ca3a860a7f433cb4e1977494774a93cc31c64f9dcb41e1e0c33946031e1d20d",
+    "dimensions": [
+      100,
+      6,
+      7,
+      110592,
+      512
+    ],
+    "qnorm": 1.4213149536207327e-12,
+    "volume": 122.17535992426924,
+    "native_control_max_absolute_errors": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "negative_fine_weights": 2984254,
+    "negative_fine_weight_absolute_sum": 46.063287362797325,
+    "fine_weight_absolute_sum": 807.0212280868643,
+    "cases": [
+      {
+        "temperature_kelvin": 2,
+        "imposed_gap_mev": 1.5,
+        "mean_squared_active": [
+          -1.4105459317949975e-07,
+          -1.410623011710355e-07
+        ],
+        "second_moment_active": [
+          0.008594539475964266,
+          0.008594551459189552
+        ],
+        "second_moment_all": [
+          0.008594538908641564,
+          0.008594538908641744
+        ],
+        "fine_grid_reference": 0.008594538908641099,
+        "direct_reference_max_absolute_error": 6.453171330633722e-16
+      },
+      {
+        "temperature_kelvin": 4,
+        "imposed_gap_mev": 1.5,
+        "mean_squared_active": [
+          -1.384159259524859e-07,
+          -1.3842345685044094e-07
+        ],
+        "second_moment_active": [
+          0.007990839667424827,
+          0.007990850806934065
+        ],
+        "second_moment_all": [
+          0.007990839139639182,
+          0.007990839139639003
+        ],
+        "fine_grid_reference": 0.007990839139639182,
+        "direct_reference_max_absolute_error": 1.7867651802561113e-16
+      },
+      {
+        "temperature_kelvin": 8,
+        "imposed_gap_mev": 1.5,
+        "mean_squared_active": [
+          -1.313673448278962e-07,
+          -1.3137439714467948e-07
+        ],
+        "second_moment_active": [
+          0.004990337639353163,
+          0.004990344590372998
+        ],
+        "second_moment_all": [
+          0.004990337308572626,
+          0.004990337308572681
+        ],
+        "fine_grid_reference": 0.004990337308572231,
+        "direct_reference_max_absolute_error": 4.501607420159814e-16
+      }
+    ],
+    "scope": "Matched-energy constant-gap closure diagnostic; not a converged material response"
+  },
+  "cache_dimensions": [
+    100,
+    6,
+    7,
+    512,
+    2
+  ],
+  "cache_physical": [
+    1.4213149536207327e-12,
+    122.17535992426924,
+    1e-12,
+    0.0,
+    0.0
+  ],
+  "components": {
+    "cases": [
+      {
+        "temperature_kelvin": 2,
+        "imposed_gap_mev": 1.5,
+        "grids": [
+          {
+            "thermal_velocity_squared": 0.008594679965504675,
+            "curvature_term": -1.4105686311113755e-07,
+            "total": 0.008594538908641564,
+            "native_fine_reference_difference": 4.649058915617843e-16
+          },
+          {
+            "thermal_velocity_squared": 0.008594679965504675,
+            "curvature_term": -1.4105686311113763e-07,
+            "total": 0.008594538908641564,
+            "native_fine_reference_difference": 4.649058915617843e-16
+          }
+        ]
+      },
+      {
+        "temperature_kelvin": 4,
+        "imposed_gap_mev": 1.5,
+        "grids": [
+          {
+            "thermal_velocity_squared": 0.007990977557834825,
+            "curvature_term": -1.3841819575938815e-07,
+            "total": 0.007990839139639066,
+            "native_fine_reference_difference": 1.1622647289044608e-16
+          },
+          {
+            "thermal_velocity_squared": 0.007990977557834825,
+            "curvature_term": -1.3841819575938823e-07,
+            "total": 0.007990839139639066,
+            "native_fine_reference_difference": 1.1622647289044608e-16
+          }
+        ]
+      },
+      {
+        "temperature_kelvin": 8,
+        "imposed_gap_mev": 1.5,
+        "grids": [
+          {
+            "thermal_velocity_squared": 0.004990468678186897,
+            "curvature_term": -1.3136961429144116e-07,
+            "total": 0.004990337308572605,
+            "native_fine_reference_difference": 3.7383290907300193e-16
+          },
+          {
+            "thermal_velocity_squared": 0.004990468678186897,
+            "curvature_term": -1.3136961429144121e-07,
+            "total": 0.004990337308572605,
+            "native_fine_reference_difference": 3.7383290907300193e-16
+          }
+        ]
+      }
+    ],
+    "dimensions": [
+      100,
+      6,
+      7,
+      512,
+      2
+    ],
+    "physical": [
+      1.4213149536207327e-12,
+      122.17535992426924,
+      1e-12,
+      0.0,
+      0.0
+    ],
+    "support_filter_applied": false,
+    "units": "Same atomic-unit diagnostic normalization as native fine_grid_reference",
+    "sha256": {
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-grid48-retry002/velocity-moments.txt": "3ca3a860a7f433cb4e1977494774a93cc31c64f9dcb41e1e0c33946031e1d20d",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-grid48-retry002/cell-moments-raw.txt": "f2e3ce38fd936ae1884f2eba41f64b798a486cadd2344ee4c4bc9a9217b2f828",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-grid48-retry002/cell-moments-raw.bin": "510d46b8561b3a1e450c1696101e220b2a6677a2fe1e3e078825c532c33c0959",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-grid48-retry002/cell-moments-averaged.txt": "a5c393b7035bd024d11d3a0ebff520554819f8c2f47339b3cd275771be49dd0d",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-grid48-retry002/cell-moments-averaged.bin": "6b5e8fe04fe62802821e24e29ac7b3ffa0ab1ca5b746aaee56ba00dbbd3b06e8"
+    },
+    "scope": "Separate two computed constant-gap response terms on all cached support.\n\nThese are diagnostics within the shared native approximation, not separately\nvalidated physical paramagnetic/diamagnetic observables or an error bound."
+  },
+  "all_declared_inputs_unchanged": true,
+  "diagnostic_readback_pass": true,
+  "physical_response_verified": false,
+  "sha256": {
+    "/Users/noahs/Developer/sc-dft-exp/research/public_response_grid48_retry002_manifest.json": "d8cfdb56e87c1fe19f2e870f1147ce56a1d4db317ff730aa6c44fed812317169",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-grid48-retry002/results/response/receipt.json": "b664e28e905a4b4e976e810c0bc98bcbfa33b429d1e55b541b71a324cd601a5d",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-grid48-retry002/velocity-moments.txt": "3ca3a860a7f433cb4e1977494774a93cc31c64f9dcb41e1e0c33946031e1d20d"
+  },
+  "scope": "Read back a declared48cubed imposed-gap response, without claiming convergence. Numerical conservation is not physical response accuracy."
+}
