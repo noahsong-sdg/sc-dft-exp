@@ -1,0 +1,17 @@
+{
+  "sha256": "1d24bd153dcef38ed92e54d1e974b7ec9776abb3138f2d034e8d869409d897ca",
+  "emin_ry": 1e-07,
+  "grids": [
+    {
+      "states": 159852,
+      "fermi_window_states": 651,
+      "mean_absolute_gap_mev": 1.1621247480834902
+    },
+    {
+      "states": 165242,
+      "fermi_window_states": 688,
+      "mean_absolute_gap_mev": 1.160687048168541
+    }
+  ],
+  "scope": "Five-float archive schema and gap scalar fingerprint only; provenance not inferred"
+}

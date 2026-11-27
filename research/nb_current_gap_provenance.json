@@ -1,0 +1,96 @@
+{
+  "retrieval": {
+    "retrieved_utc": "2026-11-27T07:44:10.495785+00:00",
+    "files": [
+      {
+        "name": "sctk.in",
+        "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/sctk.in",
+        "bytes": 523,
+        "sha256": "3a602b6b528d320a4aae85d64246c99dc21a4afd14774bee71cb314783c5f7f6"
+      },
+      {
+        "name": "scdft.sh",
+        "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/scdft.sh",
+        "bytes": 527,
+        "sha256": "2e6ce0159363d9f02807577e010476421af77ad1c76767d4cff31ef43579b81e"
+      },
+      {
+        "name": "scdft2.sh",
+        "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/scdft2.sh",
+        "bytes": 468,
+        "sha256": "2bc16fcde5af4b888910b5f6d0a5b236762aef541a28a45434b94db671ec3d5d"
+      },
+      {
+        "name": "scdft3.sh",
+        "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/scdft3.sh",
+        "bytes": 1101,
+        "sha256": "6d84477e5e09fabe5c387939ac53b800b1c2258a3660c2c520f55408e0125465"
+      },
+      {
+        "name": "fflo_4.0_0.0004.out",
+        "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/fflo_4.0_0.0004.out",
+        "bytes": 11194,
+        "sha256": "871f5bea2e880af2d52e12c487d6bfd343e3801f6615da1b396c58b4602c7de3"
+      },
+      {
+        "name": "fflo_0.5_0.0.out",
+        "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/fflo_0.5_0.0.out",
+        "bytes": 10864,
+        "sha256": "58e392f9d82369c21b9638800aad48432d181d931403510f73ff8999d7af9616"
+      },
+      {
+        "name": "temp",
+        "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/temp",
+        "bytes": 416,
+        "sha256": "92bfe5b9f76375dc7c9a9070f3885696d580278fef82676f4cc7797ac491a6d9"
+      }
+    ]
+  },
+  "archive_metadata": {
+    "fflo_4.0_0.0004.out": {
+      "last_modified": "Sun, 01 Feb 2026 18:21:51 GMT",
+      "bytes": "11194"
+    },
+    "pwscf.scgap": {
+      "last_modified": "Sun, 01 Feb 2026 18:21:51 GMT",
+      "bytes": "46163371"
+    },
+    "sctk.in": {
+      "last_modified": "Sun, 01 Feb 2026 18:17:41 GMT",
+      "bytes": "523"
+    }
+  },
+  "listing_sha256": "fc7680e5403a3e560221b1560bad6e403ec1d655d0b253120c4367fba479daee",
+  "logged_revision": "47c06501da8ffd574c87469ddd6d5a2814171796",
+  "historical_current_source": {
+    "url": "https://raw.githubusercontent.com/mitsuaki1987/sctk/47c06501da8ffd574c87469ddd6d5a2814171796/src/sctk_broyden.f90",
+    "sha256": "1062c2a6656455b223111928fbc37996fce564d6dcf0a3acc945b973a9101598",
+    "routine_sha256": "593695bd497417e6027914b1a0597fb7bd92d829da09d6caeb62a35951d254a7",
+    "byte_identical_to_current_pinned_routine": true
+  },
+  "logged_final_state": {
+    "temperature_kelvin": 4,
+    "q_fractional": [
+      0.0004,
+      0,
+      0
+    ],
+    "energy_bins": 300,
+    "matsubara_frequencies": 10,
+    "counts": [
+      159852,
+      165242
+    ],
+    "iterations": 43,
+    "residual_ry": 6.2838e-16,
+    "mean_gap_mev": [
+      1.1621,
+      1.1607
+    ],
+    "released_current_au": [
+      1.0308e-06,
+      1.1274e-06
+    ]
+  },
+  "scope": "Convergent provenance fingerprints; geometry/curvature reconstruction and current replay still required"
+}

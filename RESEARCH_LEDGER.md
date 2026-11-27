@@ -1,5 +1,33 @@
 # Research restart ledger
 
+## Latest priority — documented archived Nb state, geometry pending
+
+Previous goal turn made progress: scalar normalization published at 5b86194.
+New archive audit identifies a stronger current saved-gap candidate, separate
+from the disqualified old backup. Final input/output and current pwscf.scgap
+match nx300, 4 K, q_fractional(.0004,0,0), counts159852/165242, final mean gaps
+to printed precision, and modification time. Output logs the exact retained
+historical revision47c06501; full broyden file is byte-identical to pinned4bc.
+See research/ARCHIVED_NB_FINITE_Q_GATE.md and three nb_current_gap JSONs.
+
+Owner65389 was intentionally cancelled WHILE WAITING with no child, confirmed
+terminal exit130. Reason: higher-value documented-state reconstruction; not a
+timeout-driven restart. Fourth-order [111] was not executed and remains open.
+
+Current verified LIVE owner **36071**, PID97682, preparation-only nx300 archive
+pilot under raw/nb-preparation-archive300-001. Same 60-second normal-pressure,
+120-second native/3-GiB guard; latest launch17:38 UTC. Latest observation normal
+pressure with45 quiet seconds. Poll this handle before any native launch.
+On success run compare_finite_q_geometry.py against raw/nb-current-gap-001/pwscf.scgap;
+then, if ordered geometry/weights/shifts agree, reconstruct missing curvature
+and reproduce both released currents before corrected frozen-gap comparison.
+Do not substitute the preparation's constant initial gap for the archive gap.
+
+New explicit five-float archive reader and streaming geometry comparator pass
+their stale/incomplete schema regressions. Offline suite48 tests PASS;
+compileall and diff checks PASS. Gap association remains a hypothesis pending
+the geometry and current-reproduction gates. Full campaign still incomplete.
+
 ## Latest independent gate — continuum normalization
 
 Previous goal turn made progress: unshifted direction and native fourth-order
