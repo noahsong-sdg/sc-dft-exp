@@ -43,6 +43,7 @@ class DenseBandReplayTest(unittest.TestCase):
             def changed_after_check(*args):
                 result=stage_pilot(*args)
                 (save/'charge-density.dat').write_bytes(b'changed')
+                dense.write_bytes(b'changed dense reference')
                 return result
             with patch('stage_public_dense_bands.stage_pilot',side_effect=changed_after_check):
                 result=stage(exe,inputs,root/'run',manifest)
@@ -51,6 +52,9 @@ class DenseBandReplayTest(unittest.TestCase):
             entries=[item for item in result['files'] if item['path']==str(save/'charge-density.dat')]
             self.assertEqual(entries[0]['sha256'],files['pwscf.save/charge-density.dat']['sha256'])
             self.assertNotEqual(entries[0]['sha256'],digest(save/'charge-density.dat'))
+            entry=next(item for item in result['files'] if item['path']==str(dense))
+            self.assertEqual(entry['sha256'],files['pwscf.a2Fsave']['sha256'])
+            self.assertNotEqual(entry['sha256'],digest(dense))
 
     def test_dense_readback_checks_last_band_of_last_point_without_offset_fit(self):
         reference=[dict(k_tpiba=[0.,0.,0.],eigenvalues_ry=[float(j) for j in range(26)]) for _ in range(897)]

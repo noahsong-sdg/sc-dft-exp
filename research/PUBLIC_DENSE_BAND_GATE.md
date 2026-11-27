@@ -1,8 +1,10 @@
 # Complete public dense-band replay — prospective protocol
 
-Status:897point input staged, no watcher launched while the rank37 full residual
-check is active. public_dense_band_manifest.json pins the experiment. This is a
-reproduction of the actual32³ band input, not a grid refinement.
+Status: complete native replay and strict readback PASS. All23322 eigenvalues
+agree within4.151893e-7Ry against the declared1e-6Ry target, without a fitted
+offset. Wall98.947410s/96403456B peak RSS; original inputs unchanged.
+public_dense_band_result.json binds the original manifest/receipt/output.
+This reproduces the actual32³ band input; it is not a grid refinement.
 
 ## Evidence supporting one bounded run
 
@@ -71,3 +73,24 @@ read_a2fsave expands xk over the full grid.32³ fits;48³ does not. Do not launc
 consistent rebuilt module limit and an unchanged32³ baseline check before a
 numerical comparison. This is a compile-time storage bound, not a prediction of
 physical cost or an excuse to change the response equations.
+
+
+## Concurrent original-file change boundary
+
+A post-run review found that the stager initially rehashed the original a2Fsave
+while assembling its final manifest, after it had already checked the catalog
+and read the reference. If that original changed during staging, the manifest
+could adopt new bytes while reference.json still described the old file. In
+plain terms, the source identity and derived reference could disagree.
+
+The fix preserves the catalog size/SHA for this original, just as for the saved
+density files. The prelaunch guard then rejects any concurrent change. The
+regression changes both density and a2Fsave after their checks and verifies that
+neither new identity is adopted. This is smaller than adding copies or new
+fallback paths and enforces the existing immutable-original requirement.
+
+The completed001 experiment used the original stager at94a6326; its consumed
+manifest is preserved unchanged and strict readback passed before this code
+change. Reproduce its historical hash-bound readback at that revision. New runs
+must stage fresh manifests with the fixed source. No evidence showed a change
+during001: all original catalog hashes matched on its final readback.

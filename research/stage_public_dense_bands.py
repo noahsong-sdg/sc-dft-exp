@@ -41,8 +41,10 @@ def stage(executable,inputs,destination,manifest_path=RESEARCH/'public_response_
         path=Path(entry['path'])
         if path in (root/'native.in',root/'reference.json'):
             entry.update(bytes=path.stat().st_size,sha256=digest(path))
-    for path in (source,Path(__file__)):
-        result['files'].append(dict(path=str(path.absolute()),bytes=path.stat().st_size,sha256=digest(path)))
+    # Never adopt a changed original after its catalog check and reference read.
+    result['files'].append(dict(path=str(source.absolute()),bytes=item['bytes'],sha256=item['sha256']))
+    path=Path(__file__)
+    result['files'].append(dict(path=str(path.absolute()),bytes=path.stat().st_size,sha256=digest(path)))
     result.update(points=897,guard_seconds=600,
                   scope='Complete32cubed saved-density band reproduction at author897coordinates. No new density, grid refinement, phonon or gap solve.')
     (root/'run-manifest.json').write_text(json.dumps(result,indent=2)+'\n')

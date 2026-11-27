@@ -1,0 +1,96 @@
+{
+  "question": "Can a fresh consistent storage-limit rebuild preserve the qualified response baseline and enable48cubed derivative tests?",
+  "command": [
+    "/opt/homebrew/opt/python@3.13/bin/python3.13",
+    "/Users/noahs/Developer/sc-dft-exp/research/build_public_response.py",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-capacity-build-001/build",
+    "--archive-directory",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-001/downloads",
+    "--point-capacity",
+    "300000"
+  ],
+  "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-capacity-build-001",
+  "guard_seconds": 1200,
+  "launch_normal_seconds": 120,
+  "rss_cap_bytes": 3221225472,
+  "point_capacity": 300000,
+  "source_revision": "94a6326",
+  "status": "Staged after dense897 terminal numericPASS",
+  "decision": "All23322 original bands reproduce within4.152e-7Ry<1e-6, nooffset,98.947s/96MB. One fresh~262s capacity build with1200s/3GiB cap is justified before48cubed. No retained objects/modules/library; exact32cubed diagnostic must match all8exports bitwise before refinement.",
+  "environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/build_public_response.py",
+      "bytes": 10534,
+      "sha256": "0940afe06602ef737bf604fb286f1a4a7c1b2933acd1256b41e9f098926cde74"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_response_probe.mk",
+      "bytes": 1283,
+      "sha256": "87abe126d35ef3a3f650b9c77eb53390efdd75e7aad51b4c559fc0ece88bdcdf"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_response_sources.json",
+      "bytes": 1975,
+      "sha256": "a61610cec78189e3c7f8c3f00483deb0195f897d0d9699cad57b22211bc2e36d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/current_moment_geometry.py",
+      "bytes": 4377,
+      "sha256": "e81cc201475335ccef6120915f3c612d38705c70c43eab00f7a282f2639934fb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/velocity_moment_probe.f90",
+      "bytes": 6990,
+      "sha256": "4c6e761324eefeb1c7212144a130d0bde804412dd643e20c394a028ac34a2e15"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/response_assignment_dump.f90",
+      "bytes": 3571,
+      "sha256": "b4c303e89f9c9187cda3b63285d8851c4f6af4a715474e91efc8fbfda98ca618"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/macos_native_guard.py",
+      "bytes": 8195,
+      "sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_dense_band_result.json",
+      "bytes": 26307,
+      "sha256": "0cc0f951730b0f1d21f0653f06fa2fddbeb6f65e7a356d9b365f22b31d3d9153"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-001/downloads/qe.tar.gz",
+      "bytes": 71643059,
+      "sha256": "018f9fd21af4ec8659b5a84b909d6efcc3537c6f1c745a4067e7c88e176a0929"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-001/downloads/sctk.tar.gz",
+      "bytes": 2522323,
+      "sha256": "74b65b6342db6e46b32f7828a4e6a2cd4a0a36f43bd4cbc8ef47bd434189eeda"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-001/downloads/fox.tar.gz",
+      "bytes": 988789,
+      "sha256": "107b1d58eb6a0a730c98520a8f99a6459b2a0e06b06f4b037abf358b29d50df1"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-001/downloads/mbd.tar.gz",
+      "bytes": 97594,
+      "sha256": "956eaa8659a24e59573a64e78372cee9f299b4bf0a89a82f6bf98685034c7736"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-001/downloads/devxlib.tar.gz",
+      "bytes": 5322036,
+      "sha256": "39d55ae63168f9692ab649e7cededb3bc181580f450d30d5d4deeb008ea4a29c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-001/downloads/lapack.tar.gz",
+      "bytes": 7731478,
+      "sha256": "3efe9172b890f88b212f6d2c990d080c874d62f8ebec7b4d9b8520a291dee7fc"
+    }
+  ]
+}
