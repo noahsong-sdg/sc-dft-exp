@@ -174,3 +174,14 @@ the candidate, reused native executable and controls before launch. The full
 reader must enforce the same infinity/RMS targets, exact seed preservation,
 tile and derivative controls, and terminal guard. Keep 120 quiet normal seconds,
 1200 s / 3 GiB and one heavy owner. No threshold is relaxed.
+
+## Rank34 reduced candidate
+
+The second measured occupation direction gives a rank34 candidate in0.810367s
+with122880000-byte individual peak RSS. Four Newton iterations reach coefficient
+residual8.1532e-17; strict readback passes. Fermi means0.1541226193/0.1532134005
+meV increase10.35% from rank33, while the measured-mode representation remains
+accurate to1.0032e-12 in the driver diagnostic. Full native residual is unknown.
+See second_occupation_reduced_result.json with receipt and manifest hash. This
+continued amplitude sensitivity prohibits treating reduced convergence as
+physical or full-space convergence. No additional full pass has launched.

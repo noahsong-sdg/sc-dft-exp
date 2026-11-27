@@ -1,5 +1,16 @@
 # Research restart ledger
 
+## Latest — rank34 reduced PASS; symmetry control owner88911 live
+
+Owner58042 TERMINAL PASS0.810367s/122880000B. StrictreaderPASS4iterations,
+coefficientresidual8.1532e-17,means0.1541226193/0.1532134005meV (+10.35% from
+rank33), modeprojection1.0032e-12. second_occupation_reduced_result.json pins
+receipt/manifest. Fullresidualunknown; no additionalfullpass launched.
+
+Symmetry-onlyassignment owner88911 launched andwaitingnormalpressure. Pollsame
+owner, no duplicate; q1e-12 intentionallyexercises knownabsolutethreshold to
+isolate4-vs48symmetryassignment, not physicalresponse. Source/exeunchanged.
+
 ## Latest — directional assignment incompatible; rank34 watcher live
 
 Assignment owner23012 TERMINAL PASS34.924s/195280896B. Strictlayout comparison
