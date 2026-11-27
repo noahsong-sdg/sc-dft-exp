@@ -1,7 +1,8 @@
 # Fixed-density public band reconstruction: pilot protocol
 
-Status: staged code and synthetic checks only; no band calculation launched.
-The fresh response build remains the only heavy job. Do not launch this pilot
+Status: staged against fresh build004 with public_band_pilot_manifest.json; no
+band calculation launched.
+The isolated public-response run is the only pending native owner. Do not launch this pilot
 until that owner is terminal and the normal-pressure launch gate passes.
 
 ## Why this is relevant

@@ -1,5 +1,25 @@
 # Research restart ledger
 
+## Latest — fresh build004 PASS; isolated public response owner70592 waiting
+
+Build004/session43299 TERMINALPASS261.642768s, individual466403328B,
+sampledgroup503365632B. Six sourcearchives reused from fresh001downloads;
+all extraction/configuration/objects/libraries fresh. public_response_build_result.json
+binds buildcommands/logs/executable/compatibilitypatch and receipt. SevenPUBLIC
+exports, offline/hashrecipes andconfiguredCPP only; no arithmeticimport.
+
+Stage public-response-run-001 uses31original publicinputs; manifest
+public_response_run_manifest.json, sole nativewatcher session70592/PID53582,
+normal120s gate since11:50:32Z then120s/3GiB. Pollsameowner; noothernativequeue.
+Afterterminal: moment_analysis, exactfilehash/cache/assignment comparison with
+response-moment-cache-001 and31original inputhashes. BuildPASS is notnumericPASS.
+
+Eight-point fixed-density public-band-pilot-001 stagedagainstfreshPW, manifest
+public_band_pilot_manifest.json; launcher exists butNOTSTARTED. Rank37 also
+stagedonly. Public bandanalysis requiresguardreceipt; portable guardentrypoint
+stillneedsdocumentation/code before callingit standalonepublicreproduction.
+Actualderivativegrid is32³ froma2Fsave, notXMLtwo8³. Usergoalactive.
+
 ## Latest — build004 live; public band pilot staged with corrected execution trace
 
 Sole heavy owner session43299/PID76499 passednormal120s11:45:43Z; LAPACK

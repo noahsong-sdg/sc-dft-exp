@@ -4,11 +4,13 @@
 
 The31-file input acquisition has been freshly tested:12,855,871bytes downloaded
 from the original public release in74.642s, with exact per-file size/SHA256
-matches. See public_response_input_download_result.json. All six source archives also freshly downloaded and hash-verified. The first
-build stopped after16.464s at a nested LAPACK/CMake policy compatibility error;
-see public_response_build_attempt001_result.json. Native execution using only
-these files and a successful fresh-source build are still pending. Do not call this
-a proven cold start until those checks pass. It does not generate a gap or Z.
+matches. See public_response_input_download_result.json. All six source archives
+were also freshly downloaded and hash-verified in attempt001. Three failed
+builds preserve compatibility diagnostics; attempt004 now passes from fresh
+extraction/configuration/objects in261.643s, sampled peak process-group RSS
+503,365,632bytes. Source archives alone were reused. See
+public_response_build_result.json. Isolated native execution and output comparison
+remain pending under public_response_run_manifest.json. No gap or Z is generated.
 
 The author [data page](https://mkawamura.ynu.ac.jp/data/) links the coherence-
 length/penetration-depth benchmark release. This workflow retrieves selected
@@ -47,8 +49,8 @@ a run using it must report that reuse rather than call it fresh downloading.
 has its separate exact source pin in current_moment_geometry.py.
 
 The build emits its executed commands, logs/hashes, build-rule patch and final
-executable identity. Only the offline submodule/hash recipes and configured GNU
-preprocessor selection change. The current-geometry extraction is deliberately
+executable identity. The offline submodule/hash recipes, configured GNU preprocessor selection,
+and seven required PUBLIC interface exports change; procedure arithmetic does not. The current-geometry extraction is deliberately
 an unshifted-band, fully shifted-grid compatibility diagnostic; it is not a
 complete build of current SCTK. Toolchain and numerical qualification remain
 separate from successful compilation.

@@ -1,0 +1,160 @@
+{
+  "status": "PASS fresh archive build; native material equivalence pending",
+  "terminal_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "/Users/noahs/Developer/sc-dft-exp/research/build_public_response.py",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004",
+      "--archive-directory",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-001/downloads"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-control-004",
+    "wall_s": 261.642768249847,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 466403328,
+    "sampled_peak_group_rss_bytes": 503365632,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 1200,
+    "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+  },
+  "build": {
+    "wall_s": 261.35996079212055,
+    "tools": {
+      "gfortran": "/opt/homebrew/bin/gfortran",
+      "cpp-16": "/opt/homebrew/bin/cpp-16",
+      "clang": "/usr/bin/clang",
+      "cmake": "/opt/homebrew/bin/cmake",
+      "make": "/usr/bin/make"
+    },
+    "commands": [
+      {
+        "command": [
+          "/opt/homebrew/bin/cmake",
+          "-S",
+          "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/lapack",
+          "-B",
+          "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/lapack-build",
+          "-DCMAKE_POLICY_VERSION_MINIMUM=3.5",
+          "-DCMAKE_Fortran_COMPILER=/opt/homebrew/bin/gfortran",
+          "-DCMAKE_BUILD_TYPE=Release",
+          "-DCMAKE_Fortran_FLAGS_RELEASE=-O2 -ffp-contract=off -frecursive",
+          "-DBUILD_TESTING=OFF",
+          "-DBUILD_SHARED_LIBS=OFF",
+          "-DLAPACKE=OFF",
+          "-DCBLAS=OFF"
+        ],
+        "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004",
+        "wall_s": 4.009618957992643,
+        "log_sha256": "58a6cba473e2d71e2f24296c00335859787125930215a4c1aa5173c4a0cd8d77",
+        "environment_overrides": {
+          "CMAKE_POLICY_VERSION_MINIMUM": "3.5"
+        }
+      },
+      {
+        "command": [
+          "/opt/homebrew/bin/cmake",
+          "--build",
+          "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/lapack-build",
+          "--parallel",
+          "2"
+        ],
+        "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004",
+        "wall_s": 115.78913174988702,
+        "log_sha256": "9a1fd934c263f27e007cf994890314c4e3f1a4b275dd9c9efb33781a3c052016",
+        "environment_overrides": {
+          "CMAKE_POLICY_VERSION_MINIMUM": "3.5"
+        }
+      },
+      {
+        "command": [
+          "./configure",
+          "--disable-parallel",
+          "--disable-openmp",
+          "F90=/opt/homebrew/bin/gfortran",
+          "F77=/opt/homebrew/bin/gfortran",
+          "FC=/opt/homebrew/bin/gfortran",
+          "CC=/usr/bin/clang",
+          "FFLAGS=-O2 -ffp-contract=off -fallow-argument-mismatch",
+          "F90FLAGS=-O2 -ffp-contract=off -fallow-argument-mismatch -cpp",
+          "BLAS_LIBS=/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/lapack-build/lib/libblas.a",
+          "LAPACK_LIBS=/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/lapack-build/lib/liblapack.a /Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/lapack-build/lib/libblas.a"
+        ],
+        "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe",
+        "wall_s": 9.904838874936104,
+        "log_sha256": "665f56378318cb098ac5a592cd35c0ca2e3b3be030f072171241bbd5a0fdae4b",
+        "environment_overrides": {
+          "CMAKE_POLICY_VERSION_MINIMUM": "3.5"
+        }
+      },
+      {
+        "command": [
+          "/usr/bin/make",
+          "-j2",
+          "pw",
+          "ph",
+          "pp"
+        ],
+        "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe",
+        "wall_s": 122.65756645798683,
+        "log_sha256": "97f029a971c300044b846527a06e661fed8eb4fccebb14e39f8e0dc4e3f0bdad",
+        "environment_overrides": {
+          "CMAKE_POLICY_VERSION_MINIMUM": "3.5"
+        }
+      },
+      {
+        "command": [
+          "/usr/bin/make",
+          "-C",
+          "SCTK/src",
+          "-j2",
+          "libs-sctk",
+          "TLDEPS="
+        ],
+        "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe",
+        "wall_s": 5.042103833053261,
+        "log_sha256": "5fd20ab33eb2b34804ffb99cda647385cbe9c9247dab76a46ca81006b7104259",
+        "environment_overrides": {
+          "CMAKE_POLICY_VERSION_MINIMUM": "3.5"
+        }
+      },
+      {
+        "command": [
+          "/usr/bin/make",
+          "-f",
+          "/Users/noahs/Developer/sc-dft-exp/research/public_response_probe.mk",
+          "QE_ROOT=/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe",
+          "velocity-moment-probe.x"
+        ],
+        "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/probe",
+        "wall_s": 0.8674395838752389,
+        "log_sha256": "cc086f12a83b941e69095ea547901456ee69363858a81e36c529f56330ccec8c",
+        "environment_overrides": {
+          "CMAKE_POLICY_VERSION_MINIMUM": "3.5"
+        }
+      }
+    ],
+    "executable": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/probe/velocity-moment-probe.x",
+    "executable_sha256": "08c479e2503fac78de7e9752e671c5a2bdd3a3f29d24c3170fcbb5464b87bb8a",
+    "source_manifest_sha256": "a61610cec78189e3c7f8c3f00483deb0195f897d0d9699cad57b22211bc2e36d",
+    "scope": "Fresh archive build; numerical/material qualification requires separate execution"
+  },
+  "files_sha256": {
+    "/Users/noahs/Developer/sc-dft-exp/research/public_response_build_retry004_manifest.json": "34cc3ba429f74b906b0f67af1525f0d997679dab804db8daecc6436222166766",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/archive-build-adjustments.patch": "3cdada294d51af4793e4fd5e6989079b5bbd564fa34696be72c144b52bfc2f96",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/build-result.json": "bbeedad010efbf5a0a645bdc45786b9e0001719c97a0a0158cd2e56e6589ebb5",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-control-004/results/build/receipt.json": "f3e7f443111981d1310923797104baf0bea77e70604d5da4b33c4e379298bae5",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-control-004/results/build/console.log": "bbeedad010efbf5a0a645bdc45786b9e0001719c97a0a0158cd2e56e6589ebb5",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/build-step-1.log": "58a6cba473e2d71e2f24296c00335859787125930215a4c1aa5173c4a0cd8d77",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/build-step-2.log": "9a1fd934c263f27e007cf994890314c4e3f1a4b275dd9c9efb33781a3c052016",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/build-step-3.log": "665f56378318cb098ac5a592cd35c0ca2e3b3be030f072171241bbd5a0fdae4b",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/build-step-4.log": "97f029a971c300044b846527a06e661fed8eb4fccebb14e39f8e0dc4e3f0bdad",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/build-step-5.log": "5fd20ab33eb2b34804ffb99cda647385cbe9c9247dab76a46ca81006b7104259",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/build-step-6.log": "cc086f12a83b941e69095ea547901456ee69363858a81e36c529f56330ccec8c"
+  },
+  "objects_reused": false,
+  "source_archives_reused": true,
+  "scope": "Six checked public source archives, fresh extraction/configuration/compilation, interface/build compatibility only. No end-to-end SCDFT cold-start claim."
+}
