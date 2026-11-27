@@ -1,0 +1,108 @@
+{
+  "stages": [
+    {
+      "stage": 1,
+      "basis_columns": 16,
+      "printed_cpu_s": 579.28,
+      "printed_wall_s": 590.38,
+      "wrapper_cpu_s": 590.594113,
+      "sampled_group_peak_rss_bytes": 1654013952,
+      "control": [
+        "apply 8.0500000000000007 16 29 100 10 50",
+        "/work/project/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare",
+        "-",
+        "/work/project/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/next-vectors.bin",
+        "/work/project/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-001",
+        "abfcecc2bacf7acac94a87e8d7cf4e88945bc589fea82dc9475106428818b74c"
+      ]
+    },
+    {
+      "stage": 2,
+      "basis_columns": 32,
+      "printed_cpu_s": 573.2,
+      "printed_wall_s": 583.71,
+      "wrapper_cpu_s": 583.9069850000001,
+      "sampled_group_peak_rss_bytes": 1653997568,
+      "control": [
+        "apply 8.0500000000000007 16 29 100 10 50",
+        "/work/project/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare",
+        "/work/project/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-001",
+        "/work/project/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-001/next-vectors.bin",
+        "/work/project/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-002",
+        "abfcecc2bacf7acac94a87e8d7cf4e88945bc589fea82dc9475106428818b74c"
+      ]
+    },
+    {
+      "stage": 3,
+      "basis_columns": 48,
+      "printed_cpu_s": 575.2,
+      "printed_wall_s": 585.28,
+      "wrapper_cpu_s": 585.498585,
+      "sampled_group_peak_rss_bytes": 1654013952,
+      "control": [
+        "apply 8.0500000000000007 16 29 100 10 50",
+        "/work/project/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare",
+        "/work/project/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-002",
+        "/work/project/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-002/next-vectors.bin",
+        "/work/project/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-003",
+        "abfcecc2bacf7acac94a87e8d7cf4e88945bc589fea82dc9475106428818b74c"
+      ]
+    },
+    {
+      "stage": 4,
+      "basis_columns": 64,
+      "printed_cpu_s": 575.49,
+      "printed_wall_s": 586.21,
+      "wrapper_cpu_s": 586.41643,
+      "sampled_group_peak_rss_bytes": 1779032064,
+      "control": [
+        "apply 8.0500000000000007 16 29 100 10 50",
+        "/work/project/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare",
+        "/work/project/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-003",
+        "/work/project/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-003/next-vectors.bin",
+        "/work/project/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-004",
+        "abfcecc2bacf7acac94a87e8d7cf4e88945bc589fea82dc9475106428818b74c"
+      ]
+    }
+  ],
+  "total_printed_wall_s": 2345.58,
+  "first_four_stages_passed": true,
+  "source_platform_independently_verified": false,
+  "fresh_mac_setup_verified": false,
+  "parent_basis_binary_available_at_recorded_locations": false,
+  "retained_basis_columns": 31,
+  "parent_basis_columns": 64,
+  "transfer_receipt": {
+    "stage": "generate",
+    "returncode": 0,
+    "limit_reason": null,
+    "wall_s": 8.079098546,
+    "peak_sampled_group_RSS_bytes": 1337602048,
+    "source_parent": "/work/project/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-004",
+    "source_preparation": "/work/project/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare",
+    "target_parent": "/work/project/nb-tc-benchmark-v1/transfer-v1/material-T8p05b16s29/input/parent",
+    "target_preparation": "/work/project/nb-tc-benchmark-v1/transfer-v1/material-T8p05b16s29/input/native",
+    "gate_sha256": "1ace453682aa0f07a3b73e091e5d1a26d2b28f29a58d7a545b42f3376422b799"
+  },
+  "sha256": {
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-001/command.log": "93578d36edf60a7bc2ac0db28f514e58b864dac5cac0168851d4cafce86b2f12",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-001/command.log.command.json": "65ec917a5086cdfa3052b0cec988e1d9d2e64e065fc3b937b666f801c35523e5",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-001/tc-control.in": "56a94cecea4ae761349251d649e3315d5d6da7e5f2755ba37234a4417286b695",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-001/basis.meta": "aa8282c948b162b3c9fb3d52dba54f58428a6680cb4e0e48a8e1981e4462c335",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-002/command.log": "b48928e1019e8d23dc9cafe1649cbed35c1895a1b634c9cb3f427c80d2a72785",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-002/command.log.command.json": "fd2898849621e92b1cbedda2ad36e37da99f9e4c42628ea83b56f760c27edc2d",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-002/tc-control.in": "38f3d123ee17e7ced048648d9dcb8fb6a2d67411995210879117f1441b30d45a",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-002/basis.meta": "d6cefb99948567d634d4b8196695203d09b65c7ef4ba56b7d99b0675ac06fe88",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-003/command.log": "a2a3387ed9971a89c3aa49886beb9360fab7adfce0fc05e01f07e0c678cce057",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-003/command.log.command.json": "138f919f7d1b46b5b8842ea5e78fb70c8bdd1c6eccc1f7cc5113b61f63bab66e",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-003/tc-control.in": "84e181f3afadf3dfcbe9eaf5148aa27ab9dff4d7a348cc79afcd76c5553da771",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-003/basis.meta": "bc7eaf911305358fe402dc86f5dbdc1f59b886c6cb27d1d13c89891e202d52fd",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-004/command.log": "7b9b35460b2e811b0ceda91489edc8a39aed895fdbb617418545aac4a640f770",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-004/command.log.command.json": "84897e52729993fc665733370bf9c4fe7dcaa1ed4522f4252a3c971da405211b",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-004/tc-control.in": "d14e896dcde21f0b52377ff0646d9256fdb026a9c7f8b5f0de77150721723fb3",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/step-004/basis.meta": "986d0cae860a32c14b49abf6b09c51aba238057f8ec95e0c3393cf75cd4fa870",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/material-T8p05b16s29/rotation/restart.toml": "6e97a33088133a5b6cf7f6c8be4968d89b2b9a449eab042acccc912ec96fffcf",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/transfer-v1/material-T8p05b16s29/generate/receipt.json": "693a7b1c2ab349f77ac6ea8d25b2ab4defb3e1c51c0f22bfa035882d08f05355"
+  },
+  "scope": "Historical parent-basis generation clocks; excludes microscopic preparation, fresh Z, rotation, failed work and current Mac reproduction"
+}

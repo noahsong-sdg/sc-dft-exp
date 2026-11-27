@@ -63,3 +63,21 @@ not scientific acceptance. Waiting, builds,
 downloads, Python references and model use are excluded; this is not total
 campaign time, CPU time, energy, or monetary cost. Those unmetered quantities
 remain unknown. Each row records the original receipt hash and resource metrics.
+
+## Retained basis setup: historical partial accounting
+
+The 31-vector basis is an external thick restart of a 64-vector parent, not a
+one-second cold-start input. `basis_setup_cost_audit.json` binds the restart
+metadata, transfer receipt, and first four parent-stage logs/controls/receipts.
+The controls link consecutive stages; basis metadata grows 16/32/48/64 columns.
+Each wrapper reports passed/exit zero. Their printed SCTK wall clocks total
+2345.58 s (39.1 minutes). Peak sampled process-group RSS is recorded per stage.
+
+This is a historical source trace, not an independently verified source-platform
+or fresh-Mac benchmark. It excludes microscopic preparation, saved-Z generation,
+rotation, failed work and later validation. The inspected transfer receipt's
+8.08 s concerns copying/preparing helper inputs, not generating the parent basis.
+The parent binary is absent at both inspected translated parent locations;
+the retained 31-column payload remains available and hash-bound. Full cold-start
+reproduction and its total cost are still unproved. No overall speedup follows
+from the one-second reduced timings.

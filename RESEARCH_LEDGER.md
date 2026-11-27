@@ -1,5 +1,25 @@
 # Research restart ledger
 
+## Latest priority — rank33 pilot live waiting on pressure; setup cost traced
+
+Previous turn made progress: critical-mode preparationc205711 public. New live
+owner25141/PID61326 raw/run-reduced-nonlinear-003.py. Verifiedactualwatcher
+running; phasewaiting, hostpressure2 resets120quietnormal clock. No native
+candidate process launched. Pollsameowner; do not duplicate or alterotherjobs.
+No rank33 reduced result yet. Existing71tests/compileall/diffcheck passed.
+
+Historicalbasis setup audit: restart.toml derives31columns from64-columnparent;
+transferreceipt identifies parent step004. Firstfour stagecontrols link stages,
+columns16/32/48/64, wrapperspassed. Their printedwall totals2345.58s (39.1min).
+New basis_setup_cost_audit.json binds logs/controls/metadata/receipts bySHA256.
+Transferhelper8.08s isnot basisgeneration. Sourceplatform/freshMacsetup unproved;
+parentbinary absent atinspected stage004 andtranslatedtransferparent locations.
+This closes partofsetupcostunknown, not coldstartfeasibility or totalcost.
+
+Next: maintain same pressure-gated pilot, strictreadback ifterminal, compare
+with rank31/32 and consider onefullnative check onlyifcandidate qualifies.
+No newgap or physicalresponse accepted. Goal active; ceiling17:41Z.
+
 ## Latest priority — measured mode now represented; rank33 pilot ready
 
 Previous turn made progress: rank32/audit31ab819 public,CI45977175906 SUCCESS.
