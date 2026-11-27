@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "schema": "fresh-gap-context-bundle-v1",
+  "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/fresh-gap-context-001",
+  "temperature_kelvin": 8.05,
+  "beta": 19613.355577892344,
+  "operator_context_sha256": "6efcf2d527d3c81ae9620e3280916bb6b58db4809e6683cf0795256ed9fcce62",
+  "copied_byte_exact": true,
+  "metadata_compatible": true,
+  "retained_geometry_or_Z_used": false,
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/fresh-gap-init-001/native-init.meta",
+      "bytes": 335,
+      "sha256": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/fresh-gap-init-001/native-init.bin",
+      "bytes": 6523840,
+      "sha256": "f0873f6a0dd6bbd7f435f9045e2225119b0fae4a0a28f025c2ee90032bda169b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-sweep-009/full-z.meta",
+      "bytes": 309,
+      "sha256": "289418f57bb1421baad2320e53e81aba35ee520ed39dd6eccb16b0718284e6da"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-sweep-009/full-z.bin",
+      "bytes": 1087040,
+      "sha256": "4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/fresh_gap_initialization_result.json",
+      "bytes": 2964,
+      "sha256": "c8bb859681f34b660e15f2cf222459afd305280f94d9f7be0c3f784b96b3877a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_z_sweep009_result.json",
+      "bytes": 2418,
+      "sha256": "520d9add6c8c07cfaf5cee625cc507bcde893680482039198bc8a6995e89a983"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_z_oracle001_result.json",
+      "bytes": 2688,
+      "sha256": "6241a9f185ca94c0cdff361c14ae0cacc1c80c32914d1a7233d936930bc8562e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/fresh-gap-init-001/run-manifest.json",
+      "bytes": 127821,
+      "sha256": "ea7a2a6b77dc582017e2e3d049f084f3cd1386543008082db773d6624adaa3d8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-sweep-009/run-manifest.json",
+      "bytes": 139892,
+      "sha256": "69dae1dc0d1af8c68dd9d368678d169a6d37913cdae01cdc68ac9ce58bd17142"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-oracle-001/run-manifest.json",
+      "bytes": 143095,
+      "sha256": "c77ba29453957c50f65523781580f9253f6a9824a11566f3f4e40e7367ae5d07"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/fresh-gap-context-001/native-init.meta",
+      "bytes": 335,
+      "sha256": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/fresh-gap-context-001/native-init.bin",
+      "bytes": 6523840,
+      "sha256": "f0873f6a0dd6bbd7f435f9045e2225119b0fae4a0a28f025c2ee90032bda169b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/fresh-gap-context-001/full-z.meta",
+      "bytes": 309,
+      "sha256": "289418f57bb1421baad2320e53e81aba35ee520ed39dd6eccb16b0718284e6da"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/fresh-gap-context-001/full-z.bin",
+      "bytes": 1087040,
+      "sha256": "4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426"
+    }
+  ],
+  "full_native_runtime_verified": false,
+  "gap_seed_qualified": false,
+  "physical_response_verified": false,
+  "scope": "Bundle fresh Mac geometry and complete finite-temperature Z for existing source-built full-gap driver; zero-T initialization checked before switching beta to8.05K. No native calculation or new physics. Six uncached Z samples are not exhaustive verification.",
+  "original_terminal_receipts_revalidated": true
+}

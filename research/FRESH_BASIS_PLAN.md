@@ -94,3 +94,30 @@ checkpointbatchidentity. No convergence/responseacceptancegate wasrelaxed.
 seed. See enlarged_basis002_result.json. Enrichonce moreto64 underunchanged
 physicaloperatorcontext. Ifstillunconverged, evaluate targetedrestart orsolver
 strategy againstactualevidence; do not blindlyincreasebasislimit orrelaxgates.
+
+
+## Fresh geometry/Z bundle for the full nonlinear check
+
+`fresh_gap_context001_result.json` records an exact-copy bundle at
+`research/raw/fresh-gap-context-001`: `native-init.meta/bin` from
+`fresh-gap-init-001` and `full-z.meta/bin` from`portable-z-sweep-009`.
+The four source hashes, original terminal receipts, complete-image parent
+identities and six-sum uncached Z oracle were revalidated. Counts, Fermi level,
+energy scales and Fermi-weight denominators match. The zero-T geometry
+initialization precedes the driver's explicit switch to beta19613.355577892344
+(8.05K); the bundle does not reuse retained geometry/Z. No kernel work was run.
+
+The existing `nonlinear_map_probe.f90` full driver reads its geometry and Z
+from one `map-control.in` directory, so this bundle avoids a new driver variant.
+Once a reduced candidate passes its1e-9 linear-seed gate, create a fresh
+verification root, set `map-control.in` to this bundle, and give `seed-control.in`
+the candidate directory and unchanged operator context. Its `gap-seed.meta`
+point must name this same bundle and carry exact runtime counts/nx/nmf/ne/beta.
+Pin all consumed files, source-build provenance and outputs prospectively;
+recheck at launch. Do not copy an old gap vector into the new context.
+
+A bundle alone is not native compatibility acceptance. Full runtime must
+verify the initialized arrays and Z exactly, preserve the candidate input,
+pass occupation/tile/Jacobian controls, and satisfy unchanged residual targets
+(1e-10Ry maximum and1e-5 normalizedRMS). Conditioning, discretization,
+response mapping and physical normalization remain additional gates.

@@ -225,3 +225,14 @@ it needs the existing public QE kinds/constants modules. The file-bound solver
 fixture exercises this recipe and retains stale-data/context rejection. Actual
 public-configuration build and material runtime remain pending. The nonlinear
 seed threshold remains1e-9; building the driver does not qualify a seed or gap.
+
+
+## Public-source build qualification update
+
+The standalone public-configuration build is now PASS: see
+`portable_reduced_build001_result.json` (0.797260666731745s guarded build,
+60637184B individual peak RSS, all15 pinned inputs unchanged). It compiles
+the actual driver/core and links public-configured BLAS/LAPACK without
+historical custom objects. Material runtime remains gated on a fresh
+conventional mode residual<=1e-9 and separate full nonlinear acceptance.
+The fresh geometry/Z bundle and full-check setup are in FRESH_BASIS_PLAN.md.
