@@ -33,3 +33,17 @@ approximately 97.60 nm. Archived xi.dat independently reports ll=1844.38 before
 the plot's 0.1*0.529177249 conversion. Regression test now checks this external
 reference. Window ratios are unaffected. Next: calculate peak-route conversion,
 temperature dependence and physically justified small-Q fitting domains.
+
+## Peak extraction and source concern
+
+Archived xi.dat and fflo.gp independently yield peak-route lambda=177.09 nm at
+1 K (xi3=40.8061 before Bohr conversion; sampled jdp=1.25867e-6). This does not
+reproduce published 136 nm. Unlike the slope mismatch, its cause remains open.
+Analyzer now reproduces this formula too, with an external-reference test.
+
+Source inspection at pinned 4bc883e5 found a potentially consequential issue in
+supercurrent's normal-reference algebra: its x_d expression uses tanhe in a
+numerator where surrounding factors use tanhx, and the normal branch tests
+xi**2+delta**2. Need derive expected normal subtraction and inspect historical
+47c06501da8ffd574c87469ddd6d5a2814171796 before claiming a bug. Variables x_d
+and d_x may have different roles; do not patch from superficial symmetry.

@@ -61,7 +61,14 @@ def analyze(rows):
                             slope_ratio=estimate/first,
                             lambda_ratio=math.sqrt(first/estimate) if estimate > 0 else None))
     peak = max(rows, key=lambda row: row[3])
+    target = rows[0][1] / math.sqrt(2.)
+    half_gap = min(rows[1:], key=lambda row: abs(row[1] - target))
+    xi_author_bohr = math.sqrt(.5) / half_gap[0] / .529177249
+    peak_lambda = .1 * .529177249 * math.sqrt(
+        287.6 / (xi_author_bohr * peak[3] * .5))
     return dict(samples=len(rows), author_single_point_lambda_nm=author_lambda,
+                author_peak_lambda_nm=peak_lambda,
+                author_half_gap_xi_nm=xi_author_bohr*.529177249*.1,
                 windows=windows, peak_q_angstrom_inverse=peak[0],
                 peak_current_reported_au=peak[3],
                 gap_at_peak_over_zero=peak[1]/rows[0][1],

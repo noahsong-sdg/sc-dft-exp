@@ -14,6 +14,18 @@ class ResponseTests(unittest.TestCase):
         self.assertAlmostEqual(actual, 0.1 * 0.529177249 * 1844.38, places=3)
         self.assertLess(abs(actual - 97.), 1.)
 
+    def test_half_gap_and_peak_conversion_against_archive(self):
+        # Independent archived xi.dat has xi3=40.8061, jdp=1.25867e-6.
+        rows = [(0., 3.9293, 0., 0.),
+                (.0033468, 3.92925, .0025, 7.7802e-7),
+                (.01004, 3.90265, .0075, 1.25867e-6),
+                (.032746, 2.76105, .02446060, 3.4997e-7),
+                (.033468, 2.7386, .025, 3.4695e-7)]
+        result = analyze(rows)
+        self.assertAlmostEqual(result["author_half_gap_xi_nm"],
+                               40.8061 * .529177249 * .1, places=4)
+        self.assertAlmostEqual(result["author_peak_lambda_nm"], 177.0892, places=3)
+
     def test_linear_current_has_window_invariant_stiffness(self):
         rows = [(float(q), 2., float(q), 3.*q) for q in range(6)]
         self.assertEqual(slope(rows[1:]), 3.)
