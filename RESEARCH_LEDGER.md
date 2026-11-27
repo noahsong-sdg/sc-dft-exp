@@ -3143,3 +3143,15 @@ Secondsegment portable-restart-sweep-002 prospectively stages16385:32768 with
 samecertifiedrestart16/next16/context and predecessor001;600s/3GiB/quiet120.
 No codechanged since178testsPASS/189Pythoncompilation/moment gatesPASS; current
 diffcheckPASS. PublicCI46066622090 on6de6b7dPASS. Gap/response remainincomplete.
+
+
+## Restart sweep002 accepted; thirdsegment staged
+
+Rows16385:32768 terminalPASS 191.393139750231s; individualpeak
+972013568B/group973750272B. Checkpoint, allpostruninputs, public/consumedmanifest
+and16linkedarchives PASS; no historicalcustompath. Session10470/owner7967
+terminalexit0. Guardednewtotal6057.543701168000s; historical189.29min separate.
+Restart sweep003 stagedrows32769:49152, samecertifiedrestart/16trials/context,
+predecessor002;600s/3GiB/quiet120. Fullapplication/Ritz stillincomplete.
+No codechanged;178tests/189Pythoncompilations/moment gates lastPASS; current
+diffcheckPASS. PublicCI46067037206 onfe17252PASS. No acceptedgap/response.
