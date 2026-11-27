@@ -1,5 +1,9 @@
 # Superconducting DFT benchmark progress
 
+**Active research: start with [PROJECT_SPEC.md](PROJECT_SPEC.md) and
+[RESEARCH_LEDGER.md](RESEARCH_LEDGER.md).** Future agents should read
+[AGENTS.md](AGENTS.md). The benchmark snapshot below predates this campaign.
+
 Public progress record for a preregistered comparison between an isotropic
 Migdal–Eliashberg solver (IsoME) and the superconducting DFT implementation in
 the Superconducting Toolkit (SCTK).
