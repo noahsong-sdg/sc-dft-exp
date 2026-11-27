@@ -47,3 +47,12 @@ numerator where surrounding factors use tanhx, and the normal branch tests
 xi**2+delta**2. Need derive expected normal subtraction and inspect historical
 47c06501da8ffd574c87469ddd6d5a2814171796 before claiming a bug. Variables x_d
 and d_x may have different roles; do not patch from superficial symmetry.
+
+## Analytic identity progress
+
+Independent shifted-tanh identity confirms two discrepancies in normal x_d:
+regular numerator uses superconducting tanhe; saturated boundary includes gap.
+Both occur in current and historical source. Added scalar reproducer and three
+tests, including a saturation counterexample. See CURRENT_IDENTITY_FINDING.md.
+Next gate: paper-equation mapping and minimal Fortran execution, then saved-state
+effect. Do not attribute published observable differences to these factors yet.
