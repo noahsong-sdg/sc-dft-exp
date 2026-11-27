@@ -5,7 +5,7 @@ type: dataset
 authors:
   - family-names: Song
     given-names: Noah
-repository-code: "https://github.com/noahsong-sdg/scdft-benchmark-progress"
+repository-code: "https://github.com/noahsong-sdg/sc-dft-exp"
 date-released: 2026-11-26
 license: CC-BY-4.0
 
