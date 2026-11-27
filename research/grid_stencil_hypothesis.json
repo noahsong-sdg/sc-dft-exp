@@ -1,0 +1,26 @@
+{
+  "recorded_utc": "2026-11-27T13:07:09.792899+00:00",
+  "stage": "Before inspecting or accepting fourth-order32 or48 response output",
+  "hypothesis": "If leading velocity finite-difference error drives the32/48 spread, fourth-order velocity should reduce that spread at all three temperatures.",
+  "comparison": "Compare abs(fourth48/fourth32-1) against abs(second48/second32-1) separately at2/4/8K. Passing means reduced observed two-grid sensitivity only; it does not bound continuum error.",
+  "conditional_model": "S_h=S_limit+c*h^2. Extrapolated limits are a diagnostic prediction under that model, not fit parameters, acceptance tolerances or physical estimates. DOS integration also changes, so this model may fail.",
+  "cases": [
+    {
+      "temperature_kelvin": 2,
+      "second_order_grid_fractional_change": 0.0552070674039844,
+      "conditional_h_squared_extrapolated_limit": 0.008954263026109587
+    },
+    {
+      "temperature_kelvin": 4,
+      "second_order_grid_fractional_change": 0.05521800652640296,
+      "conditional_h_squared_extrapolated_limit": 0.008325358228612285
+    },
+    {
+      "temperature_kelvin": 8,
+      "second_order_grid_fractional_change": 0.0552436831316927,
+      "conditional_h_squared_extrapolated_limit": 0.005199338977022399
+    }
+  ],
+  "input_sha256": "4eca2faf80bf3c1c9bf726e6b165edbb0c01bb41c5f88b98dc94e936221130b1",
+  "physical_response_claim": false
+}
