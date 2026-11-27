@@ -1123,3 +1123,10 @@ Controller64977 is still the sole active campaign owner; no new native job.
 Rows16385:32768 terminal PASS, wall214.91488233301789s, individualpeak1028046848B, sampledgroup978042880B. Public/consumed manifest equality and original native certificate/postrun checks PASS. New guarded total9532.569580167383s; historical189.29min separate.
 Next023 prospectively staged rows32769:49152,600s/3GiB/quiet120.
 No maintained code/threshold changes. Scientific gap and response acceptance remain incomplete.
+
+
+## Bounded48-vector controller checkpoint023
+
+Rows32769:49152 terminal PASS, wall215.32252954132855s, individualpeak1024671744B, sampledgroup974536704B. Public/consumed manifest equality and original native certificate/postrun checks PASS. New guarded total9747.892109708711s; historical189.29min separate.
+Next024 prospectively staged rows49153:66867,600s/3GiB/quiet120.
+No maintained code/threshold changes. Scientific gap and response acceptance remain incomplete.
