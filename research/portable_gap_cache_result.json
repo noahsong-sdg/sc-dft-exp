@@ -1,0 +1,35 @@
+{
+  "checks": 902,
+  "all_checks_bitwise_equal": true,
+  "historical_objects_used": false,
+  "executable_sha256": "9537a1dcdc37a86a8b0e5339029d5c37f3a2f48aa5d74f586e567583f2b3dc51",
+  "public_build": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004",
+  "scope": "Fresh custom-cache build and original-function qualification; not a full gap solve.",
+  "terminal_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_gap_cache.py",
+      "run",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-cache-001"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-cache-001",
+    "wall_s": 1.1228038747794926,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 96337920,
+    "sampled_peak_group_rss_bytes": 1359872,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 120.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "all_declared_inputs_unchanged": true,
+  "historical_custom_include_paths_used": false,
+  "sha256": {
+    "research/portable_gap_cache_manifest.json": "b7884c1f9e72995e5984cd1e1e05ba94876204e30cafb36d4df614228b374605",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-cache-001/results/build/receipt.json": "6c96dd80fdf561a7c5aec723a250420523f43359f00e319dc80dbabb51607f4d",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-cache-001/qualification-result.json": "6d2bd2c0bfa7d9b04e8cc592a26f31db32dd93944dbfe5ec0aa55ee0283dec05",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-cache-001/results/build/console.log": "4ae932506a90253446720b41688c19867b1ca370d9d5af122d13153ae0cac597"
+  }
+}

@@ -1,3 +1,16 @@
+# Active campaign: reliable superconducting response on a laptop
+
+The user started the [two-week campaign](TWO_WEEK_CAMPAIGN.md) on27November2026.
+Read [current state](CAMPAIGN_STATE.md) and
+[scientific acceptance gates](research/TWO_WEEK_ACCEPTANCE.md). The objective is
+an actually reliable, reproducible material response on the laptop; it is **not
+yet achieved**. Progress and negative controls will remain public here.
+
+The earlier bounded campaign and benchmark history follow below. Their passing
+diagnostics do not establish a physical response prediction.
+
+---
+
 # Superconducting DFT benchmark progress
 
 **Research state: start with [CAMPAIGN_STATE.md](CAMPAIGN_STATE.md), then

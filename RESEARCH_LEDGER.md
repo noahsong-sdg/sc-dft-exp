@@ -2138,3 +2138,35 @@ next gates are inCAMPAIGN_REPORT.md. Thetwo-weekprompt is saved/linked,notstarte
 Repositoryvisibility verifiedPUBLIC. Final documentation/data commit will be
 pushed and its HEAD/CI checked after this entry; final chat reports that result.
 End before the17:41UTCceiling: further sweeps would not close the physical gates.
+
+
+## Two-week campaign explicitly started — 2026-11-27 16:33:55 UTC
+
+New user mandate is the actual reliable superconducting response on the laptop,
+with public progress; not another bounded-audit completion. Fourteen-day planning
+ceiling2026-12-11 16:33:55UTC. TWO_WEEK_CAMPAIGN and TWO_WEEK_ACCEPTANCE preserve
+scope and prospective case/gates. New pilot4nativehours; prior11357.647sguarded
+cost retained separately. M5/10cores/32GiB/pressure1/free151296319488B rechecked.
+Clean sc-dft-exp start atb44ed61; unrelated dirtyflux-pinning preserved.
+
+Execution path traced:nonlinear_map_probe.mk includes historicalMakefile and
+RETAINED_OBJECTS, which prevents a public source-only gap check. Sources for
+minimal customclosure exist; fullTcobjectlist includes unrelatedhelpers. Reviewable
+migration starts with two unchanged cachemodules, then geometry/tiled, thenIO/full
+driver. Firstslice copies source bytes withGPLprovenance, no mathchanges. Itbuilds
+againstpublicsourcebuiltQE/SCTKlibs andcompares902directkernelcalls across changed
+contexts and actual collisions. No historicalcustomobjects/modulepaths.
+Freshguardroot portable-gap-cache-001,build120s/3GiB/120normal seconds,
+solePID38267/session95294 verified live. Qualification not yet accepted.
+136testsPASS20.595s,compileall/momentreplay/diffcheckPASS. Native result still pending.
+
+
+### Source-only cache slice terminal PASS
+
+Guardbuild1.122804s/96337920B.902direct publicSCTKfunction comparisons are bitwise
+equal; tested contexts include mf,wmf,beta,kernel,zeroKelvin and actualkeycollisions.
+Strictpublic/consumedmanifest equality,postruninputhashes,receiptcommand/cwd/deadline/
+status,andexecutablehashPASS. Compiler/linklog contains no historicalcustompath.
+portable_gap_cache_result.json owns evidence. Newcampaignnativecost1.122804s;
+priorcost separate.136testsPASS20.595s,compileall/momentreplay/diffcheckPASS.
+Theactualresponsegoal remains incomplete; nextmigrationrotation/slab/tiledapply.

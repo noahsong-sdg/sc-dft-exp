@@ -1,3 +1,36 @@
+# Active two-week campaign — 27 November 2026
+
+User explicitly started the campaign at16:33:55UTC (08:33:55PST). Planning
+ceiling:11December16:33:55UTC. Read TWO_WEEK_CAMPAIGN.md and
+research/TWO_WEEK_ACCEPTANCE.md. The actual reliable-response goal is incomplete.
+The prior report and its NARROW verdict describe the completed bounded audit;
+they do not terminate or narrow the newly authorized scientific campaign.
+
+## Current hypothesis and execution
+
+First remove the historical native-object dependency, then reconstruct compatible
+gap inputs and qualify the response functional/observable. Initial source trace:
+nonlinear_map_probe.mk -> historical portabilityMakefile -> retained customobjects.
+A source closure is available locally; it must be built and checked, not assumed.
+
+Slice1: unchanged cached_kel/cached_phonon sources in research/portable_gap.
+Fresh build against public source-built QE/SCTK libraries; no historical custom
+object/module include path. Prospective qualification has902direct-function checks
+including context changes and collisions. Root:research/raw/portable-gap-cache-001.
+Native slice1 is terminal PASS:1.122804s/96MB. All902checks bitwise equal;
+strict receipt/result/executable/input readback PASS. No native owner remains.
+See research/portable_gap_cache_result.json.136offline testsPASS20.595s;
+maintained-source compileall,moment replay and diff checksPASS.
+Next: migrate minimal rotation/slab/tiled dependency slice, then IO/full driver.
+Do not call this a full gap build or physical-response validation.
+
+New native pilot ceiling4wallhours, prior campaign189.29min accounted separately.
+Hardware rechecked:M5/10cores/32GiB,normalpressure,~151GBfree. Preserve dirty
+flux-pinning. One heavy job or watcher; unchanged quiet/hash/resource gates.
+No outreach or paid compute. Public progress in sc-dft-exp remains authorized.
+
+## Prior campaign handoff (historical)
+
 # Campaign handoff — 27 November 2026
 
 Start here, then read the [scientific report](research/CAMPAIGN_REPORT.md),

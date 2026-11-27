@@ -1,0 +1,16 @@
+{
+  "start_utc": "2026-11-27T16:33:55Z",
+  "planning_end_utc": "2026-12-11T16:33:55Z",
+  "objective": "Reliable superconducting response calculations on the laptop; public progress in sc-dft-exp",
+  "baseline_commit": "b44ed61552ce955f1c07f8e5ee4fa12bcc1b2fa2",
+  "prior_guarded_wall_s": 11357.646588291973,
+  "new_native_pilot_ceiling_s": 14400,
+  "hardware": {
+    "chip": "Apple M5",
+    "cpu_cores": 10,
+    "ram_bytes": 34359738368,
+    "pressure_level": 1,
+    "free_disk_bytes": 151296319488
+  },
+  "actual_goal_achieved": false
+}

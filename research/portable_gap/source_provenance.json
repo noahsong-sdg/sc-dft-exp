@@ -1,0 +1,14 @@
+{
+  "cached_kel.f90": {
+    "origin": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/nb-tc-benchmark-v1/scdft/cached_kel.f90",
+    "bytes": 2378,
+    "sha256": "d430878241d595fcdb824e3733d15f1272e4d5d4e335103ac94a2a1081286456",
+    "arithmetic_changed": false
+  },
+  "cached_phonon.f90": {
+    "origin": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/nb-tc-benchmark-v1/scdft/cached_phonon.f90",
+    "bytes": 2258,
+    "sha256": "6a6303ef53ccc0012cec27a72ddaf7a5d1869993d1b0890f0ad857a18196e200",
+    "arithmetic_changed": false
+  }
+}

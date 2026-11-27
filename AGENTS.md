@@ -1,3 +1,11 @@
+# Active mandate
+
+The user has explicitly started the fourteen-day campaign. Read
+[TWO_WEEK_CAMPAIGN.md](TWO_WEEK_CAMPAIGN.md) and
+[research/TWO_WEEK_ACCEPTANCE.md](research/TWO_WEEK_ACCEPTANCE.md).
+The previous twelve-hour audit is historical; its completion is not completion
+of the current reliable-response objective. Keep the active goal intact.
+
 # Start here
 
 The reusable fourteen-day campaign prompt is
