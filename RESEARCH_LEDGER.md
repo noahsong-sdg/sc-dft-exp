@@ -115,6 +115,15 @@ networked check. Next: OpenMP/different compiler optimization qualification,
 material-state reconstruction gate, then current alternative-method survey and
 an integrated interim decision report. No claim of goal completion.
 
+## Current alternatives checked
+
+September 2026 extended-GL paper and June 2026 DFT superfluid-weight paper
+directly compete with broad response-access claims. CURRENT_LANDSCAPE.md records
+scope/limitations and sources. Strongest evidenced direction is now focused
+current correctness + reproducibility, with material impact still gated. Next:
+OpenMP/runtime qualification and a preparation-only replay design; do not build
+a generic platform merely because it is possible.
+
 ## Standalone figures
 
 Matplotlib environment completed. Generated PNG/PDF response and extraction
