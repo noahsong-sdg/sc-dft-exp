@@ -1227,3 +1227,21 @@ No maintained code/threshold changes. Scientific gap and response acceptance rem
 Rows49153:66867 terminal PASS, wall236.81905095791444s, individualpeak1181630464B, sampledgroup1181319168B. Public/consumed manifest equality and original native certificate/postrun checks PASS. New guarded total10880.31482445946s; historical189.29min separate.
 Complete64 basis native checked; independent full-image and continuity checks remain pending. No further native run authorized by this controller.
 No maintained code/threshold changes. Scientific gap and response acceptance remain incomplete.
+
+
+## Independent second-restart 64-vector checkpoint
+
+028 terminal PASS, guarded wall236.81905095791444s; new guarded total
+10880.31482445946s (181.34min), historical189.29min separate.
+restarted_basis006 PASS independently checks all64 Q/AQ projections and real
+Ritz residuals: Gram2.842170943040401e-14, projection1.509903313490213e-14.
+Selected mode4 lambda1.001860326842337, residual3.295623755550423e-8.
+basis_continuity004 PASS; retained Q/AQ prefix bytes exact, tracked same mode,
+same-sign averages. Residual still32.96x above1e-9 seed threshold.
+64-vector cap reached: no direct dimension extension admitted. No nonlinear
+gap or physical response accepted. Next decision is bounded offline retention
+versus another method, with remaining58.66min in original4h native pilot.
+No maintained code changed. Native oracle is six complete uncached sums for
+the first new vector, not exhaustive independent checking of all64 images.
+184tests/193Python compilations/moment lastPASS; new analysis/continuity commands
+exit0. Scientific goal remains active.
