@@ -1,0 +1,38 @@
+{
+  "native_coefficients.f90": {
+    "origin": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/native_coefficients.f90",
+    "bytes": 1922,
+    "sha256": "c4e375667d79d579860ae178b12667e9a2994cb18b4d95728287820ebc391991",
+    "arithmetic_changed": false
+  },
+  "native_state_io.f90": {
+    "origin": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/native_state_io.f90",
+    "bytes": 8253,
+    "sha256": "1d3c2e0651b78aa9caa665506798c98da062edb4bd4a4516784eb25c479825b4",
+    "arithmetic_changed": false
+  },
+  "saved_coulomb.f90": {
+    "origin": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/nb-tc-benchmark-v1/memory-study-v1/saved_coulomb.f90",
+    "bytes": 2732,
+    "sha256": "8705f20423dd1331738ac8bda90ed2932c77c83f9096da44943bfa088b2abcaf",
+    "arithmetic_changed": false
+  },
+  "streamed_coulomb.f90": {
+    "origin": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/nb-tc-benchmark-v1/memory-study-v1/streamed_coulomb.f90",
+    "bytes": 5882,
+    "sha256": "eeeabec84483caa6a4ea1a92d84785da8543ec4f0d2ec21ce8056620fb964e14",
+    "arithmetic_changed": false
+  },
+  "hash_stream.c": {
+    "origin": "/Users/noahs/Developer/flux-pinning/native-macos-v1/portability/hash_stream.c",
+    "bytes": 1637,
+    "sha256": "f5cb99395a5e7dae1d334d652b39000cc5e808c04d4b7dec58f53151977f4918",
+    "arithmetic_changed": false
+  },
+  "hash_pipe.c": {
+    "origin": "/Users/noahs/Developer/flux-pinning/native-macos-v1/portability/hash_pipe.c",
+    "bytes": 641,
+    "sha256": "58874b874b0881644c99701b7bb57b041cbec8dce583296659af6dfec34003e5",
+    "arithmetic_changed": false
+  }
+}

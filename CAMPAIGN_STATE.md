@@ -25,8 +25,17 @@ Slice2 rotation/slab/tiled/native-pair sources compile against the same public
 libraries in3.735528s/134MB;902cachechecks still match. All source/input hashes
 checked afterrun. Operator runtime is NOT yet qualified. No native owner remains.
 136testsPASS16.200s; compileall/momentreplay/diffcheckPASS. New guarded total4.858332s.
-Next: migrate strict state IO, streamed Coulomb/hash helpers and full driver link;
-then qualify initialization/operator entries against the retained context.
+Full source-only driver now links:full-link002 PASS8.845387s/138MB.
+902cachechecks match. All explicit link archives and sibling LAPACK libraries
+are hash-pinned; input/executable/receipt checksPASS. The preceding full-link001
+is retained with an incomplete-inventory limitation, not silently corrected.
+No historical custom object/module path appears in the link. Runtime is pending.
+New guarded total20.643592s includes both full-link builds.
+Next: strict retained8.05K candidate check with source-built driver, forecast680s,
+guard900s/3GiB. Fresh staged root portable-gap-check-001 has no watcher yet.
+Do not start one before final staging tests and public prospective manifest commit.
+The microscopic/Z/basis inputs remain retained; this will qualify a dependency
+replacement, not fresh input generation or a physical-response prediction.
 
 New native pilot ceiling4wallhours, prior campaign189.29min accounted separately.
 Hardware rechecked:M5/10cores/32GiB,normalpressure,~151GBfree. Preserve dirty

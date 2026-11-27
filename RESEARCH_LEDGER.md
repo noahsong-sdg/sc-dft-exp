@@ -2180,3 +2180,25 @@ FreshpublicQE/SCTK build3.735528s/134447104B; allfour newobjects exist/hashrecor
 no historicalcustominclude/linkpath. This is interface compilation, NOT operator
 runtimequalification. Newguardedtotal4.858332s.136testsPASS16.200s,compileall/
 momentreplay/diffcheckPASS. NextstrictIO/Coulomb/hash/full-driverlink slice.
+
+
+### Full source driver links; sibling-library inventory corrected
+
+IO/Coulomb/hash source bytes preserved; public full-gap-check driverlinks with no
+historicalcustomobject/modulepaths. Firstfull-link001PASS6.939873s/135MB but
+linklog exposed unpinned siblingLAPACKlibraries: scanner covered QEsubtree only.
+Receipt/result kept unchanged; publicresult labels provenanceincomplete. Small
+root-causefix scans publicbuildroot staticarchives; regression alters sibling
+LAPACK and requires staleinput rejection. No math/interface fallback.
+
+Newfull-link002PASS8.845387s/137609216B,902directcachechecksbitwisePASS. Current
+manifest/postrun/executable/receipt checksPASS; all explicitlinkarchive paths and
+siblingBLAS/LAPACK identities pinned. Full driverSHA26aeeb8034a2ac34e77d991b46b0990540f926cb3d87f70e15e2502f220df5f3.
+Newguardedtotal20.643592s includes the incomplete-inventory attempt. Runtime
+qualificationstillpending. Preserved sourceIOstrictbitwisecontextchecks; no
+softenedtolerance or remapping. Next900s retained8.05Kfullcandidateevaluation.
+
+Rehashedall26localCoulombfiles:1439828312B match historicalproof. Prospective
+publicinputcatalogandfirst-fileHEAD200/55378012B recorded; remote bodies not yet
+verifiedthiscampaign. Existingfetchutility accepts this pinnedcatalog. Input
+availability is promising, not a demonstrated freshZ/basis preparation.

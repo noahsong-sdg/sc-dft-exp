@@ -20,12 +20,19 @@ class PortableGapStageTest(unittest.TestCase):
             (research/'portable_gap/source_provenance.json').write_text(json.dumps(records))
             (qe/'make.inc').write_text('qualified configuration')
             (qe/'core.a').write_text('public library');(qe/'kinds.mod').write_text('public interface')
+            lapack=public/'lapack-build/lib/liblapack.a';lapack.parent.mkdir(parents=True)
+            lapack.write_text('sibling public LAPACK')
             parent=public/'build-result.json';parent.write_text(json.dumps(dict(source_manifest_sha256=digest(research/'public_response_sources.json'))))
             with patch.object(build,'RESEARCH',research):
                 result=build.stage(public,root/'run')
                 paths={p['path'] for p in result['files']}
                 self.assertIn(str(qe/'core.a'),paths);self.assertIn(str(qe/'kinds.mod'),paths)
                 self.assertFalse(result['historical_objects_used'])
+                self.assertIn(str(lapack),paths)
+                lapack.write_text('changed sibling library')
+                with self.assertRaisesRegex(ValueError,'Changed declared'):
+                    build.verify_postrun_inputs(result,root/'run')
+                lapack.write_text('sibling public LAPACK')
                 with self.assertRaisesRegex(ValueError,'Fresh custom'):
                     build.stage(public,root/'run')
                 source=research/'portable_gap/tiled_operator.f90';source.write_text('operator source')
@@ -35,6 +42,14 @@ class PortableGapStageTest(unittest.TestCase):
                 operator=build.stage(public,root/'operator',operator_compile=True)
                 self.assertTrue(operator['operator_compile'])
                 self.assertIn(str(source),{item['path'] for item in operator['files']})
+                io=research/'portable_gap/native_state_io.f90';io.write_text('strict IO')
+                (research/'portable_gap/io_source_provenance.json').write_text(json.dumps({io.name:dict(sha256=digest(io))}))
+                (research/'portable_gap/full_link.mk').write_text('full link target')
+                for name in ('nonlinear_tile_apply.f90','full_nonlinear_probe.f90','gap_seed_io.f90','nonlinear_map_probe.f90'):
+                    (research/name).write_text('public driver')
+                full=build.stage(public,root/'full',full_link=True)
+                self.assertTrue(full['full_link']);self.assertTrue(full['operator_compile'])
+                self.assertIn(str(io),{item['path'] for item in full['files']})
                 source.write_text('changed operator')
                 with self.assertRaisesRegex(ValueError,'Changed migrated'):
                     build.stage(public,root/'changed-operator',operator_compile=True)

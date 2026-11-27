@@ -1,0 +1,40 @@
+{
+  "checks": 902,
+  "all_checks_bitwise_equal": true,
+  "historical_objects_used": false,
+  "executable_sha256": "9537a1dcdc37a86a8b0e5339029d5c37f3a2f48aa5d74f586e567583f2b3dc51",
+  "public_build": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004",
+  "operator_sources_compiled": true,
+  "operator_runtime_qualified": false,
+  "full_gap_driver_linked": true,
+  "full_gap_runtime_qualified": false,
+  "scope": "Fresh custom-cache build and original-function qualification; not a full gap solve.",
+  "full_gap_executable_sha256": "26aeeb8034a2ac34e77d991b46b0990540f926cb3d87f70e15e2502f220df5f3",
+  "terminal_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_gap_cache.py",
+      "run",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-full-link-001"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-full-link-001",
+    "wall_s": 6.9398727915249765,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 135479296,
+    "sampled_peak_group_rss_bytes": 86441984,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 120.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "complete_dependency_provenance": false,
+  "limitation": "Original manifest pinned QE libraries but missed sibling LAPACK libraries. Source/link/902checks passed; complete dependency acceptance requires a new separately pinned build.",
+  "sha256": {
+    "research/raw/portable-gap-full-link-001/run-manifest.json": "4f9b4d7055af8d533c59a5084dedb30f6b5db9483b1298fd2e9a761a708e6eb6",
+    "research/raw/portable-gap-full-link-001/qualification-result.json": "125afa383b3374ea91bc0bb7681fe187e453b92788003a692e1b53907742a2f4",
+    "research/raw/portable-gap-full-link-001/results/build/receipt.json": "b255a6d9f8e4ca98505b4b10f98a0dc6b734674750a6df478d1a34e476ab4938",
+    "research/raw/portable-gap-full-link-001/results/build/console.log": "4449674862ccbe40896aee17b95c8ade07eb373cec88578b0d9b2a267d9e7fd9"
+  }
+}

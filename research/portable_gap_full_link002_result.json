@@ -1,0 +1,41 @@
+{
+  "checks": 902,
+  "all_checks_bitwise_equal": true,
+  "historical_objects_used": false,
+  "executable_sha256": "9537a1dcdc37a86a8b0e5339029d5c37f3a2f48aa5d74f586e567583f2b3dc51",
+  "public_build": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004",
+  "operator_sources_compiled": true,
+  "operator_runtime_qualified": false,
+  "full_gap_driver_linked": true,
+  "full_gap_runtime_qualified": false,
+  "scope": "Fresh custom-cache build and original-function qualification; not a full gap solve.",
+  "full_gap_executable_sha256": "26aeeb8034a2ac34e77d991b46b0990540f926cb3d87f70e15e2502f220df5f3",
+  "terminal_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_gap_cache.py",
+      "run",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-full-link-002"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-full-link-002",
+    "wall_s": 8.845387125387788,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 137609216,
+    "sampled_peak_group_rss_bytes": 157286400,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 120.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "all_declared_inputs_unchanged": true,
+  "explicit_link_archives_all_pinned": true,
+  "complete_dependency_provenance": true,
+  "sha256": {
+    "research/portable_gap_full_link002_manifest.json": "e3b6b6a4f272bd4e4ab44bb5b446a166720849c9d4ebdf81ba17f3f9c348e55f",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-full-link-002/results/build/receipt.json": "e534c7bf95d775046d617ea9257f1fac3270ace1675d096bb33437edd664ff73",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-full-link-002/results/build/console.log": "4449674862ccbe40896aee17b95c8ade07eb373cec88578b0d9b2a267d9e7fd9",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-full-link-002/full-gap-check.x": "26aeeb8034a2ac34e77d991b46b0990540f926cb3d87f70e15e2502f220df5f3"
+  }
+}

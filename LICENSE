@@ -41,7 +41,7 @@ Exception: research/response_assignment_dump.f90 is distributed under GNU GPL
 version 2 or later; it follows SCTK's native assignment path. See its header
 and licenses/GPL-2.0.txt.
 
-Exception: research/portable_gap/*.f90 contains SCTK-derived custom kernel
+Exception: research/portable_gap/*.f90 and *.c contain SCTK-derived custom kernel
 modules and qualification code, distributed under GNU GPL version 2 or later.
 Original attribution and source provenance are retained in that directory.
 See licenses/GPL-2.0.txt.

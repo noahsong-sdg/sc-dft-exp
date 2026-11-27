@@ -1,0 +1,139 @@
+{
+  "recorded_utc": "2026-11-27T16:45:10.147835+00:00",
+  "scope": "Prospective public Coulomb acquisition; all26local retained files rehashed, remote bodies not yet downloaded in this campaign",
+  "files": {
+    "pwscf.vel1": {
+      "bytes": 55378012,
+      "sha256": "90426552853f9e9029a8dea43ceb31a54d401fa2f3c4f1dbcf58d85af571a00a",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/pwscf.vel1"
+    },
+    "pwscf.vel2": {
+      "bytes": 55378012,
+      "sha256": "21c641239c7d8d0f7d3bb88354f13e2cb4494f33701e7a3737b1f89e8d0b5273",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/pwscf.vel2"
+    },
+    "pwscf.vel3": {
+      "bytes": 55378012,
+      "sha256": "400e3f97e7f6f298a1c691d28bdacbf1fe19bb1741493929225d81acc9c78732",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/pwscf.vel3"
+    },
+    "pwscf.vel4": {
+      "bytes": 55378012,
+      "sha256": "15c8204ac1aec1b61ce2823cfc9e174ddd42f78646681771ee1c1d6e531eb0a3",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/pwscf.vel4"
+    },
+    "pwscf.vel5": {
+      "bytes": 55378012,
+      "sha256": "c8dfff93e49ed7eca2ff15f8b40e8a0cc29a225fa391f64de80b341b5cdc9d1e",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/pwscf.vel5"
+    },
+    "pwscf.vel6": {
+      "bytes": 55378012,
+      "sha256": "5ade6e82bb5c02c9f89af166734aacc581b08bd469a8a87b2863a28bdcb3a5f5",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/pwscf.vel6"
+    },
+    "pwscf.vel7": {
+      "bytes": 55378012,
+      "sha256": "30f5b7fb849186190fb8ed3699609e6651a2559cfc5efd6a12c18307a6a23eb6",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/pwscf.vel7"
+    },
+    "pwscf.vel8": {
+      "bytes": 55378012,
+      "sha256": "ad44923a33ff7484d1b06bf84149300ffd9437d77f6d8ac29b1fa6975c8386f2",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/pwscf.vel8"
+    },
+    "pwscf.vel9": {
+      "bytes": 55378012,
+      "sha256": "e2c4d8ff62098fea818911c6198eaaa6322d64b1a05d2ac7e627b8868e5f7055",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/pwscf.vel9"
+    },
+    "pwscf.vel10": {
+      "bytes": 55378012,
+      "sha256": "f553f941949502dde77c85cf542c44ff7688e3748bc59aa397341a618aaffd94",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/pwscf.vel10"
+    },
+    "pwscf.vel11": {
+      "bytes": 55378012,
+      "sha256": "9c7c4211ea84eaeea8406706d2bc16f41900782a8bd36e7225af0dc836ec4933",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/pwscf.vel11"
+    },
+    "pwscf.vel12": {
+      "bytes": 55378012,
+      "sha256": "76d9f0329b21919ff621feea070ae75426bfc825e2ef737b04c0c897ea08203e",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/pwscf.vel12"
+    },
+    "pwscf.vel13": {
+      "bytes": 55378012,
+      "sha256": "669446ce6f7c70c8055a6970563cb4cada8f4283deb97834396430edc603ebf9",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/pwscf.vel13"
+    },
+    "pwscf.vel14": {
+      "bytes": 55378012,
+      "sha256": "969a1046e9209fcb8adcce0027c8a1a023ef3fd832e9f77c715c78fdc93f52b2",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/pwscf.vel14"
+    },
+    "pwscf.vel15": {
+      "bytes": 55378012,
+      "sha256": "c591ac329a54d8d16e61237731dca3e65ec666499127e06009aee8eb548260d9",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/pwscf.vel15"
+    },
+    "pwscf.vel16": {
+      "bytes": 55378012,
+      "sha256": "ec410136227ebda7094b1031ccf28111ff048a58f60a374af6b9a2691851d406",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/pwscf.vel16"
+    },
+    "pwscf.vel17": {
+      "bytes": 55378012,
+      "sha256": "7c2761cdd4929fcb30a102f13f3558862d2fd8fc339df4b1320205a513e12a65",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/pwscf.vel17"
+    },
+    "pwscf.vel18": {
+      "bytes": 55378012,
+      "sha256": "0825f9229a868d10005a12fe92cea245366e1c94522feb2077417eac65255e54",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/pwscf.vel18"
+    },
+    "pwscf.vel19": {
+      "bytes": 55378012,
+      "sha256": "f2d9632862cd8ba7bce1cd578cefb760abb795755420df879dadbe31d864285f",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/pwscf.vel19"
+    },
+    "pwscf.vel20": {
+      "bytes": 55378012,
+      "sha256": "e60dac2f4e55dfb42f8d212406625d30b8e90022da1505425f2abbc2b1a3fdfa",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/pwscf.vel20"
+    },
+    "pwscf.vel21": {
+      "bytes": 55378012,
+      "sha256": "1af6dbedb7fc842f7a054ac955de8c66f3ce27f776c00c50925335302fe4555c",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/pwscf.vel21"
+    },
+    "pwscf.vel22": {
+      "bytes": 55378012,
+      "sha256": "03a73505333e9e6d7034ab7998afaa2b21dcee26cf81ad360606a3ee5f74b52a",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/pwscf.vel22"
+    },
+    "pwscf.vel23": {
+      "bytes": 55378012,
+      "sha256": "d001f2280c2ef853938a413f47ac7e0dcc5065097cd0ef83a4d7c09bfcfa0b8c",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/pwscf.vel23"
+    },
+    "pwscf.vel24": {
+      "bytes": 55378012,
+      "sha256": "2751b226a339d251d74a387be76ef6612423b08e76c682620b1c2a81583426ed",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/pwscf.vel24"
+    },
+    "pwscf.vel25": {
+      "bytes": 55378012,
+      "sha256": "c84dec158f5526894b0df4e63bfcc60d90f7e0cdd94c5472f1140342f5d7fbaa",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/pwscf.vel25"
+    },
+    "pwscf.vel26": {
+      "bytes": 55378012,
+      "sha256": "dc2360e6bcd2cc708c921f08a31dea63dd0096c02c8cd6586fceb919a703d6b9",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/pwscf.vel26"
+    }
+  },
+  "total_bytes": 1439828312,
+  "parent_manifest_sha256": "f151583a06c6e2df07bba2dc3007422e12a5b789d4ff5a791d0de72c57b9af0d",
+  "remote_body_hashes_verified_this_campaign": false
+}
