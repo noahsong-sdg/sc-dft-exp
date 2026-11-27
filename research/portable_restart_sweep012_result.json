@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "checkpoint": {
+    "context": "a3034503986936b39529e115662158426e93cfc87900f98357b144f1f86fd008",
+    "counts": [
+      66867,
+      67940,
+      67940,
+      16
+    ],
+    "completed": 66867,
+    "beta": 19613.355577892344
+  },
+  "manifest_sha256": "e1a694648f9c948c6d4233364426ec5f24aed5fb8e946361aaf20eb3db493712",
+  "receipt_sha256": "5f2ed2353ff10a89a99f84a0798ec1250541850e54c68bf2b51239551651e970",
+  "checkpoint_sha256": "a9e1d273d49a8a7969982dc1f7e3260a9a0942c026f3893d3cc6b71333291d9c",
+  "metadata_sha256": "e48eca9ebdd8851090364cd57a850e1c64ec86e83f2ecd6b4d33171d55195398",
+  "executable_sha256": "ac40b26920517ad9b5ffe7881001730d7c2b20efeb8184833fc2db70992f01ea",
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/usr/bin/make",
+      "-f",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/basis_enrichment.mk",
+      "RESEARCH=/Users/noahs/Developer/sc-dft-exp/research",
+      "QE_ROOT=/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe",
+      "NATIVE_INPUT=/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-012/native.in",
+      "enrich-basis"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-012",
+    "wall_s": 228.40278262505308,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 1179123712,
+    "sampled_peak_group_rss_bytes": 1041989632,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 600.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "full_images_native_checked": true,
+  "full_output_sha256": {
+    "native-linear.meta": "716c4a31a22cb1b949e1d7cbd3b949cdd5973f8f053b55b2a727b9e5bd957ab3",
+    "basis.meta": "6bd946980d4cc787ca3919310ef8961fa54464be109fc4beca7d48b3e2e13efc",
+    "basis.bin": "9a0925bb7c465240a02dda0be5d021fb2dd9c7e48e09055098c54753fabf1dc9",
+    "ritz.meta": "f9f3daa33447113458f9939511325587379da3120e78beb1b6951b96d4438ff5",
+    "reduced.bin": "bb9a9d7d13dc1b3291765e834bbbb0e6a933715deb374328ec195f64fe80e642",
+    "selected.meta": "e57b38e953aeaaa35d1b2d69bfbbf10087c60a0993154110301876f79c90514f",
+    "next.meta": "efc8597520e0d83a0da13b5d929a3cd5fde4a74a3d6d7b23e44bbda8104dcd95",
+    "next-vectors.bin": "c2d833e5b6334848e9baaba2a9968de8e489b817cb36f6ebe82c7930a8a1ad64",
+    "selected.bin": "072527ff5a3d9feeaad57beea4c42174b32699442cbadf4a0d73d653c6549ad8",
+    "selected-coefficients.bin": "d8a8b671077de4b411dc82c0cc1d7fd91320397fb976201cc8017176d6722317"
+  },
+  "physical_response_verified": false
+}
