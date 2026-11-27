@@ -300,3 +300,15 @@ measure regeneration's contribution. Existing explicit897-point replay lacks
 a2Fsave; no grid metadata will be guessed to use it as a serialized mesh.
 Forecast~132s total native work fits the initial4hceiling; guards600/120/120s.
 Do not edit scripts pinned by unfinished64protocols to add32support prematurely.
+
+
+##64-grid owning serialization passes
+
+The separate native writer completes1.473130s. All6273parentcoordinates,26bands
+perpoint and point weights are preserved to the unchanged1e-12serialization
+checks; weight sum2. Shared897referencepoints max4.151732e-7Ry remains within
+1e-6withoutoffset. public_a2f_serialize64_result.json records this qualification.
+The native64response is now staged under900s/3GiBafter its120normal-second
+gate, using the combined executable already all8fourth48bitwise-qualified.
+No64response value has been inspected yet. Existing source identities remain
+frozen until that run and its strict readback terminate.
