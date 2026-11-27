@@ -12,6 +12,14 @@ The suite also compiles a scalar Fortran probe when `gfortran` is installed.
 Its test is explicitly skipped otherwise; a skipped native test does not prove
 native validation on that machine.
 
+Run `python3 research/full_current_probe.py` with network access and gfortran
+to retrieve a SHA256-checked pinned source, extract its complete unmodified
+supercurrent routine, compile with small synthetic modules, and compare four
+weighted-state cases against direct thermal identities. Source stays in a
+temporary directory; no third-party source is redistributed. Assertions account
+for upstream's five-significant-digit output precision. This is not a full QE
+build or material simulation.
+
 Downloads are bounded to 1 MB each and remain ignored pending redistribution
 rights review. `fetch` prints URLs, byte counts, retrieval time and SHA256 hashes.
 The committed manifest records the first retrieval. Remote files are mutable;

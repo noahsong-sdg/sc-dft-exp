@@ -71,3 +71,23 @@ The direct shifted-tanh sum is stable for X at large beta. For the companion
 difference, direct subtraction can lose tiny contributions when both terms
 saturate; do not replace the complete stable algorithm without accuracy and
 performance comparisons over the actual physical parameter range.
+
+## Complete routine test
+
+`python3 research/full_current_probe.py` retrieved the pinned source and checked
+SHA256 1062c2a6656455b223111928fbc37996fce564d6dcf0a3acc945b973a9101598.
+It compiled the complete unmodified routine against synthetic modules, serially
+with bounds checks. Both integration-grid outputs are identical in this fixture.
+
+| Case | Released printed current | Direct thermal identities |
+|---|---:|---:|
+| Particle-hole symmetric weights | 0.075565 | 0.075564665 |
+| Asymmetric weights | 0.47540 | 0.116898877 |
+| Zero gap | 0 | 0 |
+| Asymmetric saturated case | 0.49751 | 4.597507764 |
+
+The tiny symmetric-case difference is output rounding. The asymmetric cases
+demonstrate the discrepancy survives summation in the full routine. Synthetic
+energies, weights, volume and curvature are unit fixtures, not a material model;
+these magnitudes or ratios cannot be assigned to V3Si. OpenMP directives are
+ignored in this serial build, so this does not qualify parallel behavior.

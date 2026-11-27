@@ -67,3 +67,13 @@ particle-hole symmetry can suppress the effect. Need actual weighted states.
 Next: compile the full pinned routine with lightweight modules, compare complete
 current to direct identities on synthetic weighted states and normal limits;
 then locate saved delta/state data for a material-specific fixed-state check.
+
+## Complete upstream routine reproduced
+
+Full pinned supercurrent fetched with SHA256 check, extracted unchanged and
+compiled serially with fixture modules. Symmetric and normal controls pass at
+upstream printed precision; asymmetric cases show integrated discrepancies.
+Command: python3 research/full_current_probe.py (success). See finding table.
+Public archive lists pwscf.scgap for V3Si, but whether this contains sufficient
+xi/dxq/d2xq/weights for current replay remains unverified. Next inspect format,
+byte size and source IO path before downloading or launching production.
