@@ -1,3 +1,9 @@
+New measured feasibility evidence: a complete retained-input Q0 nonlinear
+residual and Jacobian action now pass in908.65s at882MB peak RSS, without the
+67.7GiB dense allocation. See [full nonlinear gate](FULL_NONLINEAR_MAP_GATE.md).
+The tested seed is unconverged; no new gap or response prediction follows.
+An informed conventional-mode amplitude pass is the next bounded experiment.
+
 # Scientific decision checkpoint
 
 [Documented converged Nb replay](ARCHIVED_NB_FINITE_Q_GATE.md) now reproduces

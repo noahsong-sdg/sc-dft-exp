@@ -1,5 +1,5 @@
 {
-  "status": "Prepared, not launched; contingent on full pilot terminal PASS and strict readback",
+  "status": "Prospective launch authorized after full pilot terminal PASS and strict readback",
   "question": "Use conventional mode as nonlinear seed while sharing exact kernel work across seven amplitudes and one fresh linear control",
   "physical_temperature_kelvin": 8.05,
   "amplitudes_mev": [
@@ -82,5 +82,6 @@
       "bytes": 14439,
       "sha256": "aa19e2321bd7955146618147e083f94be8c21cd322c632b89e55d9c2cbb3b3b4"
     }
-  ]
+  ],
+  "launch_decision": "Measured prior fullpass908.645s/881655808bytes; four batches. One8-batch pass1200s/3GiB justified within initial4h pilot budget; unchanged K geometry and coefficients. No overlapping heavy job."
 }

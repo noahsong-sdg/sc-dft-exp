@@ -1,5 +1,27 @@
 # Research restart ledger
 
+## Latest priority — full nonlinear PASS; informed amplitude owner waiting
+
+Owner31203 TERMINAL PASS908.645s/881655808bytes. Strict full readback PASS:
+716.608kernelCPU seconds, tile-sum error3.82e-15, Jacobian error3.40e-9 vs
+1.04e-5bound. Maxresidual7.77e-5Ry, so not converged. Results and receipt:
+research/full_nonlinear_result.json, full_nonlinear_manifest.json. Resource
+accounting refreshed including this terminal attempt. Source23d529a has
+CI45970229876 SUCCESS for62 tests and moment replay.
+
+Fresh owner4276 launched raw/run-mode-amplitude-001.py only after full pilot
+terminal+readback and all prospective manifest file hashes revalidated. Waiting
+for120 quiet normal seconds;1200s/3GiB guard. No other heavy owner. Inspect
+raw/mode-amplitude-001/campaign_launch_watch.json and poll4276; do not duplicate.
+Prospective decision/hashes: mode_amplitude_manifest.json. Eight shared weight
+batches: fresh conventional linear action plus seven nonlinear amplitudes.
+
+Next: terminal receipt, strict mode_amplitude_analysis.py; require fresh mode
+action acceptance before any branch claim. A projected root is not a solved
+gap; use full residual and conditioning to choose the next solve. Full native
+cost is now measured and fits the initial4h pilot allowance. Goal active;
+ceiling2026-11-27T17:41Z.
+
 ## Latest priority — full pilot live; informed amplitude experiment prepared
 
 Previous turn made progress: saved-mode audit public ata3cc2d6; CI45969422618

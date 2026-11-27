@@ -1,0 +1,33 @@
+{
+  "dimensions": [
+    66867,
+    67940,
+    67940,
+    4
+  ],
+  "beta": 19613.355577892344,
+  "finite_difference_step_ry": 1e-08,
+  "kernel_cpu_s": 716.607722,
+  "tile_sum_max_absolute_difference": 3.819590043557808e-15,
+  "jacobian_difference": 3.4029268292101733e-09,
+  "jacobian_acceptance_bound": 1.0443999065091678e-05,
+  "sides": [
+    {
+      "side": 1,
+      "max_absolute_residual_ry": 7.765366137957709e-05,
+      "rms_residual_ry": 3.645377348788073e-05,
+      "max_absolute_jacobian_action": 5.216999532545839
+    },
+    {
+      "side": 2,
+      "max_absolute_residual_ry": 7.430764723950862e-05,
+      "rms_residual_ry": 3.617112294965346e-05,
+      "max_absolute_jacobian_action": 4.981620121207962
+    }
+  ],
+  "sha256": {
+    "full-map.txt": "06ddf340b6307272e56307e3b7431707651ce26dc46538127806824405971f70",
+    "full-map.bin": "37c0a9c07102848f4ce59ef351987e94f23c73ea7eb51a70cc293988cd1583c1"
+  },
+  "scope": "Full native Q0 residual at imposed seed; terminal receipt required; no gap convergence or physical response validation"
+}

@@ -51,5 +51,24 @@
       "sha256": "ca535f58678619570a03b45989ff4e2ae4f1be0729b79a90c3ea637c2df96e99"
     }
   ],
-  "test_results": "Batched rectangular BLAS wrapper test PASS; full routine explicit sum/finite difference/zero/padding test PASS"
+  "test_results": "Batched rectangular BLAS wrapper test PASS; full routine explicit sum/finite difference/zero/padding test PASS",
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/full-nonlinear-001/full-nonlinear-probe.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/full-nonlinear-001/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/full-nonlinear-001",
+    "wall_s": 908.6450716666877,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 881655808,
+    "sampled_peak_group_rss_bytes": 881655808,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 1200,
+    "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+  },
+  "readback": "full_nonlinear_result.json: strict readback PASS"
 }

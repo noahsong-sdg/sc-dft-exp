@@ -1,3 +1,14 @@
+## New measured full nonlinear evaluation
+
+The retained-input Q0 full residual/Jacobian pilot completed in908.645s wall
+with881655808-byte peak group RSS (716.608s kernel CPU). The dense interaction
+allocation floor at the same66867/67940 counts is67.7GiB; the tiled calculation
+does not allocate it. This comparison is an allocation bound versus measured
+RSS, not a paired speed benchmark. It includes initialization/readback but not
+upstream electronic/phonon/Coulomb generation, a fresh Z calculation, or gap
+convergence. See FULL_NONLINEAR_MAP_GATE.md and full_nonlinear_result.json.
+The initial arbitrary seed has max residual7.8e-5Ry and is not accepted as a gap.
+
 # Historical V3Si workflow ledger
 
 New local feasibility boundary: [dense interaction memory floor](MEMORY_FLOOR.md).

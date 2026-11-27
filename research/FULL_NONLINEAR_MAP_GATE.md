@@ -102,3 +102,20 @@ The stored conventional candidate could reduce wasted nonlinear evaluations
 compared with the arbitrary diagnostic seed. Its use requires a fresh native
 action and explicit source/operator binding; this audit alone does not qualify
 a nonlinear gap or justify a physical response claim.
+
+## Full native result
+
+Terminal PASS:908.645072s wall,716.607722s kernel CPU, peak881655808bytes
+process-group RSS. Fresh state/saved Z checks and strict binary readback PASS.
+Both-side tile explicit-sum discrepancy3.819590043557808e-15; Jacobian central
+finite-difference discrepancy3.4029268292101733e-9 versus declared bound
+1.0443999065091678e-5. Maximum residuals are7.765366137957709e-5 and
+7.430764723950862e-5Ry: the imposed seed is not remotely a converged gap.
+See full_nonlinear_result.json and the terminal receipt in its build manifest.
+
+This establishes a complete nonlinear residual and one derivative action at the
+registered retained-input point on the Mac. It supersedes any inference that
+the dense allocation floor makes this evaluation impossible. It does not prove
+that converging the nonlinear gap, computing Z from scratch, or preparing new
+microscopic inputs has the same cost. The scientifically important next gate
+is a physically motivated nonzero branch, not more arbitrary-seed evaluations.
