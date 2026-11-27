@@ -142,3 +142,19 @@ match. Missing, duplicated, changed-baseline and changed-candidate fixtures reje
 It does not estimate physical accuracy or statistical timing uncertainty.
 Final local gate:126tests PASS10.824s; moment-refinement replay, maintained-source
 compilation excludingraw and diff check PASS. Native composition is still pending.
+
+
+## Fourth-order composition: exact native48qualification passes
+
+The combined executable preserves all eight qualified fourth-order48exports
+bitwise. Strict native conservation, cache/context and prospective input checks
+pass. It takes83.878123s/peakRSS recorded in
+public_indexed_fourth_response48_result.json, compared with227.040529s for the
+original fourth48probe: observed ratio2.70679x. The separate relink costs2.545802s.
+These are single unprofiled native runs, not a repeated statistical benchmark
+or end-to-end cold-start gain. This qualifies using the combined probe for the
+registered64diagnostic; it does not establish physical response accuracy.
+
+The comparison uses the published qualification/result hash to reuse the48band
+artifact and the maintained verify_response_equivalence.py for all eight
+exports. Source/build/input boundaries remain frozen in the prospective manifest.

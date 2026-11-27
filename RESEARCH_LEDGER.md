@@ -2021,3 +2021,18 @@ agreement does not bound derivative effects. After64response, add explicit
 automatic32generation/owningserialization/response to isolate regeneration.
 Do not edit scripts pinned by ongoing64protocols. Original third-grid hypothesis
 and comparisons remain intact. Forecast132native seconds, initial4hbudgetfits.
+
+
+## Combined indexed/fourth48exact qualification passes
+
+NativeguardPASS83.878123s. verify_response_equivalence.py passes all eight
+frozen fourth48exports bitwise plus native/cache/context/all-inputchecks.
+Observed single-pair ratio227.040529/83.878123=2.70679x; relinkseparate2.545802s,
+no statistical/fullworkflow claim. public_indexed_fourth_response48_result.json
+is the owning artifact and next third-grid comparison prerequisite.
+
+Sole new watcher22326/session14395 waits120normal seconds for64serialization,
+rootraw/public-a2f-serialize64-001, guard120s/3GiB. Then run strict
+verify_band_serialization.py --grid64. Only after that passes stage and launch
+64response using the qualified combined build, grid64, guard900. Never overlap
+another watcher. All scripts pinned by64protocols remain unchanged.

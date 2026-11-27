@@ -104,3 +104,14 @@ The parent binary is absent at both inspected translated parent locations;
 the retained 31-column payload remains available and hash-bound. Full cold-start
 reproduction and its total cost are still unproved. No overall speedup follows
 from the one-second reduced timings.
+
+
+## Third-grid preparation and composed exact optimization
+
+Fixed-density64XMLbands:826.542049s/116391936B,6273irreducible points,26bands,
+897shared references max4.151732e-7Ry under unchanged1e-6target. Separate native
+serialization is required; no new-density convergence or derivative bound follows.
+Combined indexed/fourth48response:83.878123s, all eight exports bitwise equal
+to the227.040529s original fourth48baseline. Observed single-pair ratio2.70679x;
+relink2.545802s is separate. These timings do not include cold microscopic input
+generation or establish a statistical speedup. Refresh JSON for full attempt costs.
