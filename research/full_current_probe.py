@@ -89,6 +89,30 @@ def correction(routine):
     return before + marker + normal
 
 
+def stable_correction(routine):
+    routine = correction(routine)
+    branches = (
+        ("tanhe", "e_d", "d_e", "e_qp"),
+        ("tanhx", "x_d", "d_x", "ABS(xi(igap,ii))"),
+    )
+    for thermal, even, odd, energy in branches:
+        start_text = "IF(1.0_dp - tanhd * %s < 1.0e-10_dp) THEN" % thermal
+        else_text = "      ELSE\n        %s = " % even
+        if routine.count(start_text) != 1:
+            raise ValueError("Saturated branch changed")
+        start = routine.index(start_text) + len(start_text)
+        end = routine.index(else_text, start)
+        # Evaluate the differences before tanh saturates. The sum/difference
+        # identities retain the finite thermal occupation near energy=shift.
+        plus = "TANH(0.5_dp*beta*(%s + ABS(dxq(igap,ii))))" % energy
+        minus = "TANH(0.5_dp*beta*(%s - ABS(dxq(igap,ii))))" % energy
+        replacement = ("\n        %s = 0.5_dp * ( &\n        & %s + &\n        & %s)\n"
+                       "        %s = 0.5_dp * ( &\n        & %s - &\n        & %s)\n") % (
+                           even,plus,minus,odd,plus,minus)
+        routine = routine[:start] + replacement + routine[end:]
+    return routine
+
+
 def compile_run(routine, stub=STUB):
     with tempfile.TemporaryDirectory(prefix="sctk-full-current-") as folder:
         root = pathlib.Path(folder)

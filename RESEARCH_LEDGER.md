@@ -97,6 +97,15 @@ for standalone matplotlib figures (pip session 63829; poll before assuming done)
 Next: generate figures, expand native parameter controls, map paper equation
 explicitly, and test fresh-state preparation feasibility. No production run.
 
+## Stable thermal candidate checkpoint
+
+Full compiled 81-case grid: minimal patch fails 18 cases; saturated shifted-tanh
+candidate has max absolute difference 2.1711e-8 versus double direct identities,
+zero failures at fixture tolerance 1e-7. Diagnostic WRITE precision expanded.
+See THERMAL_BOUNDARY_RESULT.md and threshold_results.json; not material-qualified.
+Sixteen offline tests still pass. Next high-precision held-out extremes and
+threshold continuity; then preparation-only material replay feasibility.
+
 ## Standalone figures
 
 Matplotlib environment completed. Generated PNG/PDF response and extraction
