@@ -1,0 +1,87 @@
+{
+  "status": "FAIL at elph_tetra_delta1 import after earlier tetra exports compile; no response execution",
+  "terminal_receipt": {
+    "status": "FAIL",
+    "error": "RuntimeError: Native command exit 1",
+    "command": [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "/Users/noahs/Developer/sc-dft-exp/research/build_public_response.py",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-003",
+      "--archive-directory",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-001/downloads"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-control-003",
+    "wall_s": 248.84720125002787,
+    "exit": 1,
+    "max_individual_descendant_rss_bytes": 476594176,
+    "sampled_peak_group_rss_bytes": 660848640,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 1200,
+    "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+  },
+  "root_cause": "Pinned QE elph_tetra_mod marks elph_tetra_delta1 private; SCTK sctk_coulomb imports it. Export-only patch preserves all procedure bodies.",
+  "files_sha256": {
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-control-003/results/build/receipt.json": "7c47cd1a4c4678f1424bd47a9b9ce3ce910d258c93109efac70d5608da8c5321",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-control-003/results/build/console.log": "6a8b215bb06b5ef7e363e8190c7d3cf00ac3e0b21f200eac4277f2b0bf313829",
+    "/Users/noahs/Developer/sc-dft-exp/research/public_response_build_retry003_manifest.json": "ebd0e7ab00bf520bcce8995c743a668966080fcdcb41a15deba5f374d57472ca",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-003/build-progress.json": "d3739395ef752e43c7f0d673a0549c4db981ba8002b9aca8f9ad7e31b9b905a1",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-003/build-step-1.log": "968586f8ebcd058838b3a74027507b475f2c5f00fe40966d0bb799e09d5192ea",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-003/build-step-2.log": "5e8b124f141aaf13c263940ade5b571a59a433e79ee3b22c68f3e38085f8f403",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-003/build-step-3.log": "40a82ecfc0bae8665fbd1d40b68bd6dcad3b175c161eb0febc47d112083edb05",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-003/build-step-4.log": "1f7ec3f744defb9e7f61a2843aafb5a7035de79e7414713de188c1fdc0063b42",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-003/build-step-5.log": "314a6bbecf0f8686b5febf2e23722731f140ecfac04b449121274c0a9658b099"
+  },
+  "source_comparison": {
+    "matched_source_files": 2538,
+    "changed": [
+      {
+        "path": "include/configure.h",
+        "fresh_sha256": "cd9cb823d2a7d4a5b4b65e2d94ea7d84a8dd7ed2e2097db6ba2d17dcafcbba90",
+        "retained_sha256": "8d17da703abb8ed05a97b9352b5c7d6c30652a1394a7e42f256df7d435ca9d2d"
+      },
+      {
+        "path": "PHonon/PH/elph_tetra_mod.f90",
+        "fresh_sha256": "26dc1e46a18687b910a4e2156b8949bc182825ee4eeba2a7b823212b4fdcbd4e",
+        "retained_sha256": "0a3725306e4678048d62023962581063d0ff3d70d92f316817587a2619dcfaed"
+      },
+      {
+        "path": "PHonon/PH/q2r.f90",
+        "fresh_sha256": "18517c87d7a4ea7eb7ea8d015f2e8303c9d977f926832def5274ec866586cb74",
+        "retained_sha256": "60aca55909c5f87c261c975875b771e6bb0dbf422d9e8e1e72f4331fd0cb803a"
+      },
+      {
+        "path": "PHonon/PH/alpha2f.f90",
+        "fresh_sha256": "2f438e916fff3d26ad2f33bd118e5a56a4e4336e98064425947b2d5bd2015628",
+        "retained_sha256": "5385d35bc597a01a8decf45372c1826521dbe6222d78318318bcd982f5f9d5f8"
+      },
+      {
+        "path": "PHonon/PH/run_nscf.f90",
+        "fresh_sha256": "4f04e13fe585d3a1ba1585a79f9dbcb4dbce24a014dd8336aae845a434efabfb",
+        "retained_sha256": "59d3cf827b3aa12e3567750d8e32be072500fd6b225c29a6e1dff576bd7bb32c"
+      },
+      {
+        "path": "PHonon/PH/elph_scdft_mod.f90",
+        "fresh_sha256": "dbf6d8982e5897abea45fe664b5be77732f4e239d2837c4de229e8171ffa0d2a",
+        "retained_sha256": "9add4f91046bc6ca8964fceb2a3b3fc24b3a7cc216ba7510b5753b2f76e8bd67"
+      },
+      {
+        "path": "PHonon/PH/do_q2r.f90",
+        "fresh_sha256": "16da171cb0532872fa561024863b86a78d05235971e8fa7cdb30815bb6b818e3",
+        "retained_sha256": "722fecf95dd1a9e9f2deead26aeb770ed2c3419d725dbe0e17cbea811bc280a9"
+      },
+      {
+        "path": "LR_Modules/setup_nscf.f90",
+        "fresh_sha256": "4998a455a346a31b72970d8aac210e4af5f71b14b676eb5536c3b3b294911903",
+        "retained_sha256": "020f2bc9dd4dd1e8f2bec2319b2d4e201dcd226f9090ed087276bdceed4baf6c"
+      },
+      {
+        "path": "LR_Modules/dfpt_tetra_mod.f90",
+        "fresh_sha256": "9e5fefc50d35729be3a31d1105aae2276c2ef5f7442387c391cf909cd4cd2263",
+        "retained_sha256": "3de9a6c9c8197357f4a510c1d1e7846898c199ee2dd5b62450a549b20570058f"
+      }
+    ],
+    "absent_in_retained": [],
+    "scope": "Read-only source comparison; not an executed dependency or numerical-equivalence proof"
+  }
+}

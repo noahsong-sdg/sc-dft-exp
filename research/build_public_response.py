@@ -75,11 +75,21 @@ def export_required_tetra_interfaces(source):
         '            dfpt_tetra_lindhard_1222, dfpt_tetra_lindhard_1211\n')
 
 
+def export_required_elph_interface(source):
+    marker = '  &      elph_tetra_lambda, elph_tetra_gamma\n'
+    if source.count(marker) != 1:
+        raise ValueError('Pinned QE electron-phonon public interface changed')
+    return source.replace(marker, marker.rstrip() + ', elph_tetra_delta1\n')
+
+
 def patch_build_rules(qe, pins):
     """Patch acquisition, source hash and required exports; arithmetic unchanged."""
     interface = qe/'LR_Modules/dfpt_tetra_mod.f90'
     original = interface.read_text()
     changes = [(interface, original, export_required_tetra_interfaces(original))]
+    interface = qe/'PHonon/PH/elph_tetra_mod.f90'
+    original = interface.read_text()
+    changes.append((interface, original, export_required_elph_interface(original)))
     path = qe/'install/install_utils'
     original = path.read_text()
     start = original.index('define update_submodule\n')

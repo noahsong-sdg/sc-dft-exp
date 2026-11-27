@@ -1,0 +1,61 @@
+{
+  "question": "Can the native response diagnostic build from pinned public source archives without any retained object or module?",
+  "status": "Prepared after attempt003 terminated; normal120s gate",
+  "guard_seconds": 1200,
+  "group_rss_cap_bytes": 3221225472,
+  "launch_normal_seconds": 120,
+  "scope": "Fresh extraction/compilation from six archives freshly acquired and hash-verified by attempt001; archive-only reuse, no configured tree/object/module/library reuse.",
+  "decision": "Attempt003 confirms an additional private elph helper imported by SCTK. Read-only comparison of2538matching sources identifies2export-only module differences and remaining numerical preparation differences not adopted. Both required interfaces have actual compiler regressions. One fresh-root1200s retry using checked archives.",
+  "command": [
+    "/opt/homebrew/opt/python@3.13/bin/python3.13",
+    "/Users/noahs/Developer/sc-dft-exp/research/build_public_response.py",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004",
+    "--archive-directory",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-001/downloads"
+  ],
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/build_public_response.py",
+      "bytes": 9291,
+      "sha256": "cebaa6af29634a42dcf2c9d870826a6aea5820560c3531c6f3f0653a0730ddee"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_response_probe.mk",
+      "bytes": 1283,
+      "sha256": "87abe126d35ef3a3f650b9c77eb53390efdd75e7aad51b4c559fc0ece88bdcdf"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_response_sources.json",
+      "bytes": 1975,
+      "sha256": "a61610cec78189e3c7f8c3f00483deb0195f897d0d9699cad57b22211bc2e36d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/current_moment_geometry.py",
+      "bytes": 4377,
+      "sha256": "e81cc201475335ccef6120915f3c612d38705c70c43eab00f7a282f2639934fb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/velocity_moment_probe.f90",
+      "bytes": 6990,
+      "sha256": "4c6e761324eefeb1c7212144a130d0bde804412dd643e20c394a028ac34a2e15"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/response_assignment_dump.f90",
+      "bytes": 3571,
+      "sha256": "b4c303e89f9c9187cda3b63285d8851c4f6af4a715474e91efc8fbfda98ca618"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/cell_moment_cache.py",
+      "bytes": 2219,
+      "sha256": "0f1b10c2f44ec7bb04850375987b0dd18ae3e1079f50a29dd289dcc65a4067e7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/run-public-response-build-004.py",
+      "bytes": 2009,
+      "sha256": "0db45eb3b0f307916d2417a5d6a146ed27fe1ef52236001e78818f7bdce0eb18"
+    }
+  ],
+  "source_before_policy_fix": "4214ecd",
+  "source_before_interface_fix": "81ab796",
+  "source_before_elph_interface_fix": "711e002"
+}

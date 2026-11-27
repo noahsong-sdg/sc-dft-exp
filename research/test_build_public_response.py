@@ -9,7 +9,7 @@ import tarfile
 import tempfile
 import unittest
 
-from build_public_response import archive_file, patch_build_rules, unpack, build_environment, export_required_tetra_interfaces
+from build_public_response import archive_file, patch_build_rules, unpack, build_environment, export_required_tetra_interfaces, export_required_elph_interface
 
 
 class PublicResponseBuildTests(unittest.TestCase):
@@ -29,6 +29,9 @@ class PublicResponseBuildTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as folder:
             qe = Path(folder)
             (qe/'install').mkdir(); (qe/'SCTK/src').mkdir(parents=True)
+            (qe/'PHonon/PH').mkdir(parents=True)
+            (qe/'PHonon/PH/elph_tetra_mod.f90').write_text(
+                '  &      elph_tetra_lambda, elph_tetra_gamma\ncontains\nelph body\n')
             (qe/'LR_Modules').mkdir()
             (qe/'LR_Modules/dfpt_tetra_mod.f90').write_text(
                 '            dfpt_tetra_main, dfpt_tetra_linit\ncontains\nscientific body\n')
@@ -69,6 +72,29 @@ class PublicResponseBuildTests(unittest.TestCase):
             client.write_text('program client\nuse dfpt_tetra_mod,only:'+names[0]+
                               '\nif ('+names[0]+'()/=7) stop 1\nend program\n')
             module = root/'module.f90'
+            module.write_text(source)
+            failed = subprocess.run(['gfortran', str(module), str(client), '-o', str(root/'old')],
+                                    cwd=root, capture_output=True, text=True)
+            self.assertNotEqual(failed.returncode, 0)
+            self.assertIn('not found in module', failed.stderr)
+            module.write_text(patched)
+            subprocess.run(['gfortran', str(module), str(client), '-o', str(root/'fixed')],
+                           cwd=root, check=True, capture_output=True)
+            subprocess.run([str(root/'fixed')], check=True)
+
+    def test_private_elph_helper_is_exported_without_changing_its_body(self):
+        source = ('module elph_tetra_mod\nimplicit none\nprivate\n'
+                  'public :: &\n  &      elph_tetra_lambda, elph_tetra_gamma\n'
+                  'integer :: elph_tetra_lambda,elph_tetra_gamma\ncontains\n'
+                  'subroutine elph_tetra_delta1(i)\ninteger,intent(out)::i\ni=9\nend subroutine\nend module\n')
+        patched = export_required_elph_interface(source)
+        self.assertEqual(source.split('contains')[1], patched.split('contains')[1])
+        with self.assertRaisesRegex(ValueError, 'interface changed'):
+            export_required_elph_interface(patched)
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder); module = root/'module.f90'; client = root/'client.f90'
+            client.write_text('program client\nuse elph_tetra_mod,only:elph_tetra_delta1\n'
+                              'integer::i\ncall elph_tetra_delta1(i)\nif(i/=9) stop 1\nend program\n')
             module.write_text(source)
             failed = subprocess.run(['gfortran', str(module), str(client), '-o', str(root/'old')],
                                     cwd=root, capture_output=True, text=True)

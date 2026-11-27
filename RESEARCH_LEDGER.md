@@ -1,5 +1,20 @@
 # Research restart ledger
 
+## Latest — attempt003 terminal; both QE export boundaries tested; retry004 waiting
+
+Owner17058/98608 TERMINALFAIL248.847201s/476594176B, at private
+elph_tetra_delta1 import in sctk_coulomb. Earlier6helper exports compile. Added
+onlyPUBLIC export for this existing procedure; actual compiler/client regression
+fails before and passes after, body unchanged/repatch rejected. All95testsPASS
+6.403s; maintained compileall/diffcheckPASS. Source comparison2538matching files,
+9differences retained/fresh identifies other arithmetic/preparation patches;
+none imported. public_response_build_attempt003_result.json preserves evidence.
+
+Retry004 session43299/PID76499 sole watcher waitingnormal120s since11:43:43Z.
+Prospective public_response_build_retry004_manifest.json; fresh root build004,
+archive reuse only. Poll same owner; rank37 staged only. No public native output
+qualification yet. CI prior907ecd5PASS45992021572. Final report/audit incomplete.
+
 ## Latest — public CI907ecd5 PASS; build003 running; requirements audit added
 
 CI45992021572 completed success for907ecd5. Session17058 watcher98608 live,

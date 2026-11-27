@@ -124,3 +124,16 @@ Attempt002's281.617s/469MB failure and log hashes are preserved in
 the same verified archives, both compatibility fixes, and its own prospective
 manifest. No earlier object/module/library is reused. Numerical equivalence to
 the retained diagnostic remains a separate measured test after build success.
+
+
+Attempt003 exposes the adjacent import from `sctk_coulomb`:
+`elph_tetra_delta1` is also private in pinned QE. The initial interface review
+missed it. The patch now exports that existing procedure as well, with a second
+actual module/client compiler regression and unchanged procedure bodies.
+Attempt003's248.847s/477MB failure is preserved separately. A read-only comparison
+found2538matching source files and9differences from the retained tree; the two
+export lists are required compatibility changes. Other historical preparation
+and tetrahedron arithmetic changes are deliberately not imported. Native output
+comparison must establish whether the response-only calculation agrees.
+Attempt004 starts from another fresh extraction, with its own manifest and guard;
+no scientific acceptance or numerical tolerance has changed.
