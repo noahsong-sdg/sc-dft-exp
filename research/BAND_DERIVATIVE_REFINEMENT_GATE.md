@@ -236,7 +236,7 @@ is the next informative control; it is not a new material or a screening study.
 
 The prior stagers and readers encoded48 cubed. Reusing those declarations for64
 would misstate the native point count and provenance. The extension therefore
-adds an explicit `--grid64` selection (CLI spelling: `--grid 64`) to band
+adds an explicit `--grid 64` selection (CLI spelling: `--grid 64`) to band
 staging, owning serialization, response staging and strict readback. Default48
 behavior is preserved.64 response requires the separate owning-QE serialization
 manifest; no implicit conversion or relaxed acceptance is allowed. Band capacity

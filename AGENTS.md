@@ -4,6 +4,7 @@ The reusable fourteen-day campaign prompt is
 [TWO_WEEK_GOAL_PROMPT.md](TWO_WEEK_GOAL_PROMPT.md). Use it when that campaign is
 started; writing the prompt does not itself schedule continuous execution.
 
+Read [CAMPAIGN_STATE.md](CAMPAIGN_STATE.md) first for the compact current state.
 Read [PROJECT_SPEC.md](PROJECT_SPEC.md) and [RESEARCH_LEDGER.md](RESEARCH_LEDGER.md)
 before continuing research. They hold the user's autonomous research mandate,
 resource limits, acceptance gates, and restart state. README benchmark snapshots

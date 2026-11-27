@@ -2033,14 +2033,14 @@ is the owning artifact and next third-grid comparison prerequisite.
 
 Sole new watcher22326/session14395 waits120normal seconds for64serialization,
 rootraw/public-a2f-serialize64-001, guard120s/3GiB. Then run strict
-verify_band_serialization.py --grid64. Only after that passes stage and launch
+verify_band_serialization.py --grid 64. Only after that passes stage and launch
 64response using the qualified combined build, grid64, guard900. Never overlap
 another watcher. All scripts pinned by64protocols remain unchanged.
 
 
 ##64serialization qualifies; third-grid response queued
 
-Native64writerterminalPASS1.473130s. verify_band_serialization.py --grid64
+Native64writerterminalPASS1.473130s. verify_band_serialization.py --grid 64
 passes all6273coordinates/26bands/weights and shared897point1e-6energytarget.
 public_a2f_serialize64_result.json is immutable qualification evidence.
 Sole new owner25111/session25981 waits120normal seconds for64response, root
@@ -2048,7 +2048,7 @@ raw/public-indexed-fourth-response64-001, guard900s/3GiB, forecast200s/1.1GB.
 Currentmanifestpins exact-qualified combined48result, serializerresult, registered
 hypothesisand comparison/readback/guardcode. All prior owners terminal.
 
-After terminal: verify_refined_response.py --grid64 --guard-seconds900; compare
+After terminal: verify_refined_response.py --grid 64 --guard-seconds 900; compare
 with third_grid_comparison.py plus published hypothesisSHA. Preserve prospective
 criteria and do not call contraction an error bound. Then add same-grid
 regeneration control without changing any already consumed protocol identities.

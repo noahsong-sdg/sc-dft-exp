@@ -1,7 +1,7 @@
 # Superconducting DFT benchmark progress
 
-**Active research: start with [PROJECT_SPEC.md](PROJECT_SPEC.md) and
-[RESEARCH_LEDGER.md](RESEARCH_LEDGER.md).** Future agents should read
+**Active research: start with [CAMPAIGN_STATE.md](CAMPAIGN_STATE.md), then
+[PROJECT_SPEC.md](PROJECT_SPEC.md) and [RESEARCH_LEDGER.md](RESEARCH_LEDGER.md).** Future agents should read
 [AGENTS.md](AGENTS.md). The benchmark snapshot below predates this campaign.
 
 The reusable [two-week mandate](TWO_WEEK_GOAL_PROMPT.md) is also saved here;
