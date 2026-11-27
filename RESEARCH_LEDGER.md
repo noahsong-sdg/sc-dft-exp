@@ -2885,3 +2885,32 @@ physicaloperator,600s/3GiB/quiet120. Estimate250–300s includingcoldsetup plus
 finaloracle/Ritz, notbound. Completeonlythen normalize, uncachedoracle, append16
 toold16 for32-dimensionalRitz.169offline/182Pythoncompile/moment gates lastPASS;
 no nativecodechanged. PublicCI46058643704 on5d912cfPASS. Gap/response incomplete.
+
+
+##32-vector basis qualified; additional enrichment required
+
+Finalenrichment004 terminalPASS211.236045s/1052852224B individualpeak (group
+971816960B). Fullnew16-vector application complete; nativecheckpointroundtrip
+and selecteduncachedcomplete row/columnoraclePASS before appendold16/new16.
+Maxsampledifference2.168404344971009e-19 vs frozenbound2.024031844071734e-13.
+Samples are sixsums forfirstnewvector, not exhaustiveindependentallcolumnimages.
+Public/consumedmanifest identical, allpostruninputs/16linkedarchivesverified;
+no historicalcustomobjectpath. Guardedtotal4124.403203s includescompilefailure.
+Old16344/session65730 terminal. All nativeowners terminal atcertification.
+
+Independent enlarged_basis_analysis reconstructs32-column Gram/projectedmatrix
+and allreal full-image Ritzresiduals from binarypayloads withPythonfsum. Gram
+error2.8754776337791554e-14; matrixerror1.554312234475219e-14; residualreadbacks
+agreewithin5e-12. Selectedindex0: no acceptedconventionalmode. Same-signFermi-
+average candidate haslambda1.004630000205884/residual0.0274370929754763 vsinitial
+0.917756368128286/0.234197164555292. This isnotconverged or evidenceofTc/solvedgap.
+Anotherpositive mode2.804656663362608 hasoppositeFermiaverages; itisnot the
+conventionalbranch. Keepselection/seedgates unchanged.16newvectors emitted.
+
+Enrichment005 stagesfirst1:16384 foroldbasis32 -> eventual48, samephysical
+operatorcontext6efcf2d527d3c81ae9620e3280916bb6b58db4809e6683cf0795256ed9fcce62,
+newbatchcontext boundto32-basis/nextvectors. Same600s/3GiB/quiet120,250–300s
+persegment estimate notbound.170offline testsPASS11.982s;184maintainedPython
+sourcescompilePASS; momentreplay/diffcheckPASS. Actualnativeoracle/Ritz and
+independentbinaryreadbackPASS. Matrixlayoutregressionpassed. PriorprotocolCI
+46059314540 onae54c2fPASS. No owner beforepublication/launch. Goal incomplete.

@@ -77,3 +77,12 @@ positive Ritzvalue0.917756 with0.234relative residual isnotconverged. Applythe
 operator to16emittednext-vectors, appendtobasis underunchangedoperatorcontext,
 thenrepeatRitz. Distinctbatchidentity mustbindnewtrialpayload/oldbasis/source and
 checkpointintervals. Preserveunchanged nonlinearandphysicalacceptancegates.
+
+##32-vector readback accepted; continue to48
+
+Firstenrichment complete withsixsampled uncachedsums passing onfirstnewvector.
+32-column Gram/projection andrealRitzresiduals independentlyrecomputed; see
+enlarged_basis001_result.json. Same-signFermi-averagecandidate lambda1.00463,
+residual0.0274371; selectedindex0, notqualifiedfornonlinearseed.16nextvectors
+emitted. Additionalenrichment retainsphysicaloperatorcontext whileusingnew
+checkpointbatchidentity. No convergence/responseacceptancegate wasrelaxed.
