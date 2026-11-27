@@ -6,6 +6,11 @@ Read [current state](CAMPAIGN_STATE.md) and
 an actually reliable, reproducible material response on the laptop; it is **not
 yet achieved**. Progress and negative controls will remain public here.
 
+Latest: source-only full driver links; its exact retained-state check stops at
+a small platform grid-weight discrepancy. A [fresh Mac initialization](research/fresh_gap_initialization_result.json)
+now passes an exact serialization roundtrip (84.96 s / 134 MB including its small
+build). Compatible Z, gap convergence and physical response remain open.
+
 The earlier bounded campaign and benchmark history follow below. Their passing
 diagnostics do not establish a physical response prediction.
 

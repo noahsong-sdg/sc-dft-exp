@@ -45,10 +45,19 @@ Native guarded total82.482673s;140testsPASS13.313s; compileall/moment/diffPASS.
 No native owner remains. Next: fresh genuine Mac initialization export, compatible
 Z generation and basis/solve; retain the failed old-context check unchanged.
 Do not inject old grid values or silently reuse incompatible retainedZ.
-Fresh-gap-init001 staged with31public inputs, no retainedZ/gap/basis consumed;
-source build + genuine upstream initialization + own-array exact roundtrip.
-141testsPASS20.516s; prospective manifest committed before launch.180s/3GiB,
-quiet120s. No watcher exists until explicitly launched after publication.
+Fresh-gap-init001 terminalPASS84.959336s/133906432B including source compile/link.
+Exact own-array serialization roundtrip PASS. All declared input/postrun hashes,
+public/consumed manifest, explicit linkarchives and receiptcommand/cwd checked.
+66867/67940states,6523840B stateSHAf0873f6a0dd6bbd7f435f9045e2225119b0fae4a0a28f025c2ee90032bda169b.
+No retainedZ/gap/basis consumed. Posthoc old comparison: allxi/indices match;
+1dx0 and1425dk values differ; maxdkshift3.309e-23. No solved gap or response.
+New guardedtotal167.442009s.141testsPASS20.516s; compileall/moment/diffPASS.
+Source native build/roundtripPASS; public CI46039113220 on7abe6d6PASS.
+No native owner remains. Next migrate zsf_workspace/slab_z from inspectable
+source, qualify cached/direct upstream calc_Zsf including context invalidation,
+then measure bounded partial sums before compatible full8.05KZ generation.
+Source lead: native-macos-v1/work/project/nb-tc-benchmark-v1/scdft/.
+Old partial timing is historical and does not qualify current Mac fullZ cost.
 
 New native pilot ceiling4wallhours, prior campaign189.29min accounted separately.
 Hardware rechecked:M5/10cores/32GiB,normalpressure,~151GBfree. Preserve dirty

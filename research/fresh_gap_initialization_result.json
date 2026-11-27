@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/usr/bin/make",
+      "-f",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/fresh_gap_initialization.mk",
+      "RESEARCH=/Users/noahs/Developer/sc-dft-exp/research",
+      "QE_ROOT=/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe",
+      "NATIVE_INPUT=/Users/noahs/Developer/sc-dft-exp/research/raw/fresh-gap-init-001/native.in",
+      "qualify-initialization"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/fresh-gap-init-001",
+    "wall_s": 84.95933574996889,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 133906432,
+    "sampled_peak_group_rss_bytes": 125485056,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 180.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "dimensions": {
+    "ngap": [
+      66867,
+      67940
+    ],
+    "ngapmax": 67940,
+    "nx": 100,
+    "nqbz": 512,
+    "nbnd": 26,
+    "nks": 32768
+  },
+  "metadata_scalars": [
+    1.3112458675613952,
+    1.202838133879815e-07,
+    6.227187707362595e-08,
+    1.0,
+    1.247936559396462e-06,
+    1.2479189008792457e-06,
+    0.001933446305009845
+  ],
+  "zero_kelvin_initialization": true,
+  "state_bytes": 6523840,
+  "state_sha256": "f0873f6a0dd6bbd7f435f9045e2225119b0fae4a0a28f025c2ee90032bda169b",
+  "metadata_sha256": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+  "executable_sha256": "35972b64f4648f8cd16df3a7c0ac9bfcf60dd6c2080e1a21565879c63065c13e",
+  "all_declared_inputs_unchanged": true,
+  "public_and_consumed_manifest_equal": true,
+  "all_explicit_link_archives_pinned": true,
+  "no_historical_object_path_in_log": true,
+  "exact_own_array_roundtrip": true,
+  "retained_state_consumed": false,
+  "posthoc_retained_comparison": {
+    "xi0": {
+      "changed_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "dx0": {
+      "changed_values": 1,
+      "max_absolute_difference": 6.88214269644119e-22
+    },
+    "xi": {
+      "changed_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "delta": {
+      "changed_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "dk": {
+      "changed_values": 1425,
+      "max_absolute_difference": 3.3087224502121107e-23
+    },
+    "dxq": {
+      "changed_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "d2xq": {
+      "changed_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "kindx": {
+      "changed_values": 0,
+      "max_absolute_difference": 0
+    },
+    "bindx": {
+      "changed_values": 0,
+      "max_absolute_difference": 0
+    }
+  },
+  "retained_Z_reused": false,
+  "solved_gap": false,
+  "physical_response_verified": false,
+  "native_campaign_total_s": 167.4420090414012,
+  "scope": "Fresh genuine Mac Q0 geometry and exact serialization roundtrip; no Z, gap solution or response"
+}

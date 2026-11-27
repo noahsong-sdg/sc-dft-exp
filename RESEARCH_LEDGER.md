@@ -2272,3 +2272,20 @@ plus source compile/link, excluding unnecessary Coulomb read.
 required catalog URL and failed; fixture corrected, focusedtest and fullsuitePASS.
 Stale input, mismatched input directory and existing destination reject before
 creating a root. Source compilation/native roundtrip remain the launch gate.
+
+
+### Fresh genuine Mac geometry accepted for further preparation
+
+Fresh-gap-init001PASS84.959336s/133906432B, including sourcecompile/link.
+Strict own-array native-init-v1 serialization roundtripPASS; all postrun input
+hashes, manifests, explicitlinkarchives and receiptcommand/cwd/deadlinePASS.
+6523840B,66867/67940states; no retainedZ/gap/basis consumed. Posthoc comparison
+finds allxi/indicesunchanged,1dx0/1425dkdifferences(maxdk3.309e-23). This extends
+current quadrature diagnosis through actual initialization, not just scalarprobe.
+An initial ad-hoc readback expected5metadata lines; actual native-init schema
+has4. Corrected readback checks the unchanged4line schema and fullpayloadshape.
+No productioncode or nativeacceptance changed. No solvedgap/response claim.
+141testsPASS20.516s; compileall/momentreplay/diffPASS; nativebuild+roundtripPASS.
+CI46039113220PASS. Newguardedtotal167.442009s; no nativeowner remains.
+Next source-only Zcache/slab migration, directkernel/context qualification and
+current partial-sum timing before fullZ. Retained incompatibleZ stays separate.

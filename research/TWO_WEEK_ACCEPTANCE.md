@@ -30,8 +30,8 @@ sample/model discrepancy is separate and must not be absorbed by fitting a facto
 
 | Gate | Evidence required | Initial status |
 |---|---|---|
-| Public source-only native path | Fresh custom modules/executable from inspectable licensed source; pinned public QE/SCTK; no historical objects/modules; full recipe and cost | Source-only full driver linked; strict retained initialization fails at dx0, runtime unqualified |
-| Compatible reusable inputs | Public acquisition or rights-cleared release; geometry, temperature, kernel, Z, Coulomb and band contexts verified; reconstruction/invalidation tested | Incomplete |
+| Public source-only native path | Fresh custom modules/executable from inspectable licensed source; pinned public QE/SCTK; no historical objects/modules; full recipe and cost | Source-only full driver linked; retained-context dx0 check fails; fresh own-array initialization roundtrip passes; full gap runtime unqualified |
+| Compatible reusable inputs | Public acquisition or rights-cleared release; geometry, temperature, kernel, Z, Coulomb and band contexts verified; reconstruction/invalidation tested | Fresh Mac geometry exported from pinned public band/phonon data; compatible Z/basis and full acquisition remain incomplete |
 | Converged equilibrium gap | Independent full residual, conditioning/error transport, basis/setup and relevant grid controls at each accepted temperature | Retained8.05K residual anchor only; conditioning/portability open |
 | Correct response functional | Derivation of small-Q response and units, normal-state cancellation and zero-gap/zero-Q limits, consistent treatment of mass/vertex and SCDFT approximations | Incomplete |
 | Directional/state mapping | Qualified Q0-to-directional layout or independently derived linear-response route; no silent gap remapping | Incomplete |
