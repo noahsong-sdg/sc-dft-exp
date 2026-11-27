@@ -1,5 +1,31 @@
 # Research restart ledger
 
+## Latest priority — converged archived Nb replay completed
+
+Previous goal turn verified the published two-week prompt but made no new
+scientific progress. This checkpoint completes the stronger real-state gate.
+Native owner36071 and replay36293 are TERMINAL SUCCESS; no live campaign native
+owner remains. Historical LIVE paragraphs below are superseded.
+
+All325094 archived indices match nx300 reconstructed geometry; max xi/weight/shift
+differences4.89e-15/3.13e-16/8.55e-15. Preparation77.132s/322535424-byte peak.
+Complete released current reproduces printed real4K finite-Q output. Corrected
+serial/OpenMP agrees with independent occupations; correction only2.776/2.480ppm.
+This limits the material-impact thesis. Released zero-gap controlsNaN; corrected
+exactzero. Full replay9.536s, Python25.6MB, maxchild44.3MB. See
+research/ARCHIVED_NB_FINITE_Q_GATE.md and nb_archived_current_replay_results.json.
+Not corrected gap solve/Q0 stiffness/experimental accuracy/full workflow.
+
+Bounded old_fflo/old_fflo2 listings contain no gap-named states; audit published.
+Next: pursue derivative/energy-grid qualification within existing guards.
+Do not silently assign old backup provenance. Fourth-order[111] remains unrun.
+Verification: 48 offline unittest cases PASS (2.033s); compileall PASS;
+committed moment_refinement replay PASS; diff check PASS. Full archived replay
+rerun003 PASS and geometry/direct/build values exactly match committed receipt.
+No separate project typecheck configured. Goal incomplete; end ceiling
+2026-11-27T17:41Z remains in force.
+
+
 ## Latest priority — documented archived Nb state, geometry pending
 
 Previous goal turn made progress: scalar normalization published at 5b86194.

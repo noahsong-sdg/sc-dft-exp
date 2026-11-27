@@ -1,0 +1,34 @@
+{
+  "retrieved_utc_date": "2026-11-27",
+  "method": "Bounded Depth1 DAV PROPFIND; no recursive absence claim",
+  "directories": [
+    {
+      "directory": "old_fflo",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/old_fflo/",
+      "listing_sha256": "9b13d1e5055164c0f564de7796caa4cd06ff747b0544cd3aae6d5305db9a429a",
+      "listing_bytes": 1325,
+      "responses": 3,
+      "gap_named_files": [],
+      "non_output_files": []
+    },
+    {
+      "directory": "old_fflo2",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/old_fflo2/",
+      "listing_sha256": "326cce9730023492da4d85466ff5327cac4b1ffb491821de8eda649d304b7b85",
+      "listing_bytes": 46008,
+      "responses": 122,
+      "gap_named_files": [],
+      "non_output_files": [
+        "fflo_-0.1.dat",
+        "fflo_0.5.dat",
+        "fflo_0.7.dat",
+        "fflo_1.0.dat",
+        "fflo_3.0.dat",
+        "fflo_4.0.dat",
+        "fflo_5.0.dat",
+        "fflo_6.0.dat",
+        "fflo_7.0.dat"
+      ]
+    }
+  ]
+}

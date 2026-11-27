@@ -1,0 +1,40 @@
+{
+  "preparation_sha256": "71898333725fc565e3c6ce274f95d754f8641b56794ac3427fd9a44d5c7e5e47",
+  "gap_sha256": "1d24bd153dcef38ed92e54d1e974b7ec9776abb3138f2d034e8d869409d897ca",
+  "beta": 39471.878100508344,
+  "volume": 122.17535992426924,
+  "tpiba": 1.1604988000527778,
+  "momentum_fractional": [
+    0.0004,
+    0.0,
+    0.0
+  ],
+  "reciprocal_basis_fortran_order": [
+    0.0,
+    0.8660254037844385,
+    0.8660254037844385,
+    0.8660254037844385,
+    0.0,
+    0.8660254037844385,
+    0.8660254037844385,
+    0.8660254037844385,
+    0.0
+  ],
+  "grids": [
+    {
+      "states": 159852,
+      "index_mismatches": 0,
+      "max_xi_absolute_difference": 4.884981308350689e-15,
+      "max_weight_absolute_difference": 3.129007469793166e-16,
+      "max_shift_absolute_difference": 8.541778395709798e-15
+    },
+    {
+      "states": 165242,
+      "index_mismatches": 0,
+      "max_xi_absolute_difference": 4.884981308350689e-15,
+      "max_weight_absolute_difference": 2.9544509200229996e-16,
+      "max_shift_absolute_difference": 2.733924198139448e-15
+    }
+  ],
+  "scope": "Ordered geometry/weight/shift comparison; no gap transfer or provenance conclusion"
+}

@@ -1,5 +1,12 @@
 # Scientific decision checkpoint
 
+[Documented converged Nb replay](ARCHIVED_NB_FINITE_Q_GATE.md) now reproduces
+both released currents with reconstructed curvature. The correction changes
+this real frozen state by only 2.5–2.8 ppm; large imposed-gap errors must not be
+presented as demonstrated material impact. Reuse is cheap after compatible inputs
+exist, but no corrected nonlinear solve or qualified Q=0 material prediction
+has been established.
+
 New method evidence: [velocity-moment study](VELOCITY_MOMENT_METHOD.md) reproduces
 native geometry arrays exactly and preserves direct same-energy quadrature using
 second moments. [Response-cell refinement](MOMENT_REFINEMENT_RESULT.md) changes
