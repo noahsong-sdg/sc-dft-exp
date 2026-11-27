@@ -1,0 +1,36 @@
+{
+  "status": "FAIL_NATIVE_DEADLINE",
+  "terminal_receipt": {
+    "status": "FAIL",
+    "error": "TimeoutError: Native continuous deadline",
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-grid48-001/velocity-moment-probe.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-grid48-001/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-grid48-001",
+    "wall_s": 240.1288887085393,
+    "exit": -15,
+    "max_individual_descendant_rss_bytes": 405143552,
+    "sampled_peak_group_rss_bytes": 405143552,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 240.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "all_declared_inputs_unchanged": true,
+  "diagnostic_readback_pass": false,
+  "physical_response_verified": false,
+  "profile": {
+    "method": "macOS sample: one second at one millisecond intervals near the deadline",
+    "samples": 769,
+    "all_observed_main_thread_stacks": "sctk_tetra::calc_dosk",
+    "sha256": "6773bbfbb658c2ecfca54c53d5c7da01c1ae8fc5cedb2f538a726e4533ac99a7",
+    "limitation": "One late interval; not a complete phase-time profile"
+  },
+  "sha256": {
+    "/Users/noahs/Developer/sc-dft-exp/research/public_response_grid48_manifest.json": "80539b6a9f8827a0481cd7b36f0cf418831bf32b43d85a47bee0fb51a1f24910",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-grid48-001/results/response/receipt.json": "3ea1b52ec28f576237ecc1a8c6f74321db7e601f3b3b3b68ed8e2569419aa4d0"
+  },
+  "scope": "Original240s protocol failed. No response data accepted; no physical or numerical conclusion follows from this timeout."
+}

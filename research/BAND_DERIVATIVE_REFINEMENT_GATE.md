@@ -91,8 +91,8 @@ python3 research/stage_band_serialization.py /absolute/fresh-serializer-build/a2
 python3 research/macos_native_guard.py serialize 120 /absolute/new-serialized48 /absolute/new-serialized48/a2f-serialize.x -in /absolute/new-serialized48/native.in
 python3 research/verify_band_serialization.py /absolute/new-serialized48 /absolute/new-serialized48/run-manifest.json
 python3 research/stage_refined_response.py /absolute/capacity-build /absolute/public-inputs /absolute/new-serialized48 /absolute/new-band48/run-manifest.json /absolute/new-response48 --serialization-manifest /absolute/new-serialized48/run-manifest.json
-SCTK_MOMENT_GRID=8 python3 research/macos_native_guard.py moment 240 /absolute/new-response48 /absolute/new-response48/velocity-moment-probe.x -in /absolute/new-response48/native.in
-python3 research/moment_analysis.py /absolute/new-response48/velocity-moments.txt
+SCTK_MOMENT_GRID=8 python3 research/macos_native_guard.py response 240 /absolute/new-response48 /absolute/new-response48/velocity-moment-probe.x -in /absolute/new-response48/native.in
+python3 research/verify_refined_response.py /absolute/new-response48 /absolute/response48-manifest.json
 ```
 
 The build is also guarded in this campaign; public_a2f_build_manifest.json records
@@ -182,3 +182,22 @@ match the parent XML within1e-12;145 shared reference points differ at most
 `public_a2f_serialize48_result.json`. This does not make the original missing-output
 protocol pass. The next experiment is the independently staged48cubed response,
 with imposed gap and unchanged512 response cells; no physical accuracy claim.
+
+
+### Actual48 response cost revision
+
+The first48cubed response failed its predeclared240s deadline:240.128889s,
+405143552B peak RSS, exit-15; all consumed inputs unchanged. It produced no
+accepted diagnostic. The112s grid-volume forecast was inadequate. A one-second
+near-deadline sample observed all769 main-thread stacks in calc_dosk, including
+array-allocation/free activity. This is an interval profile, not total phase
+attribution or proof of an optimization opportunity.
+
+A distinct900s/3GiB attempt with identical mathematics and inputs is justified
+within the original four-hour pilot allowance: terminal guarded work to this
+point totals8678.137533s, leaving about95min. The900s limit is a bounded cost of
+answering the central grid comparison, not a predicted completion time. Preserve
+both prospective manifests and the first failure. No64cubed run is justified by
+this evidence. Use the explicit --guard-seconds 900 readback only for the new
+protocol; the default240s reader rejects it. A passing computation still needs
+all native conservation/cache checks and the fourth-order stencil controls.

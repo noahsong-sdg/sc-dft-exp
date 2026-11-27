@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-27T12:24:12.665704+00:00",
+  "as_of_utc": "2026-11-27T12:56:12.952913+00:00",
   "attempts": [
     {
       "path": "full-nonlinear-001/results/moment/receipt.json",
@@ -310,6 +310,39 @@
       "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
     },
     {
+      "path": "public-a2f-build-001/results/build/receipt.json",
+      "receipt_sha256": "26c3812dc7d74ab7414485b76e64a76281e1ffc174e7f86cddeb7f6d9c57f187",
+      "status": "PASS",
+      "wall_s": 0.3776210001669824,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 107790336,
+      "sampled_group_peak_rss_bytes": 2211840,
+      "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+    },
+    {
+      "path": "public-a2f-serialize48-001/results/serialize/receipt.json",
+      "receipt_sha256": "d451b27405c3103b1998814e75f1de811dae3c9b01486355e0d101029ca22d35",
+      "status": "PASS",
+      "wall_s": 1.243783333338797,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 108068864,
+      "sampled_group_peak_rss_bytes": 32768,
+      "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+    },
+    {
+      "path": "public-band-grid48-001/results/bands/receipt.json",
+      "receipt_sha256": "6879fcc774ab1bf17b54233d1e96f4e5177713ba941b5e0e59d87c611c9084bb",
+      "status": "PASS",
+      "wall_s": 359.61547504132614,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 109379584,
+      "sampled_group_peak_rss_bytes": 109379584,
+      "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+    },
+    {
       "path": "public-band-pilot-001/results/bands/receipt.json",
       "receipt_sha256": "e0be3529985798cea45db9e3aeaf4e54dfbd5155b586d5870db478b6e80e8cf7",
       "status": "FAIL",
@@ -330,6 +363,28 @@
       "individual_peak_rss_bytes": 91963392,
       "sampled_group_peak_rss_bytes": 32768,
       "guard_source_sha256": "25353dbebc871bf6016ab0114fbb8aa04e78a184ef988f14141debed3afa252e"
+    },
+    {
+      "path": "public-capacity-build-001/results/build/receipt.json",
+      "receipt_sha256": "64d88f165dfa37afc4dc3a545f7837f305b85e4faa347aa5b59bcf9ea16e4ecf",
+      "status": "PASS",
+      "wall_s": 265.4853320000693,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 474333184,
+      "sampled_group_peak_rss_bytes": 779436032,
+      "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+    },
+    {
+      "path": "public-capacity-response-001/results/moment/receipt.json",
+      "receipt_sha256": "355666f071c724db1686a7027ff810f377d8242def66ac8732f7ad427e672e24",
+      "status": "PASS",
+      "wall_s": 35.67154258303344,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 187219968,
+      "sampled_group_peak_rss_bytes": 183910400,
+      "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
     },
     {
       "path": "public-dense-band-001/results/bands/receipt.json",
@@ -385,6 +440,17 @@
       "individual_peak_rss_bytes": 466403328,
       "sampled_group_peak_rss_bytes": 503365632,
       "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "public-response-grid48-001/results/response/receipt.json",
+      "receipt_sha256": "3ea1b52ec28f576237ecc1a8c6f74321db7e601f3b3b3b68ed8e2569419aa4d0",
+      "status": "FAIL",
+      "wall_s": 240.1288887085393,
+      "error": "TimeoutError: Native continuous deadline",
+      "exit": -15,
+      "individual_peak_rss_bytes": 405143552,
+      "sampled_group_peak_rss_bytes": 405143552,
+      "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
     },
     {
       "path": "public-response-run-001/results/moment/receipt.json",
@@ -609,15 +675,15 @@
   ],
   "totals": {
     "PASS": {
-      "attempts": 40,
-      "wall_s": 6960.506637460552
+      "attempts": 45,
+      "wall_s": 7622.900391418487
     },
     "FAIL": {
-      "attempts": 15,
-      "wall_s": 815.1082528741099
+      "attempts": 16,
+      "wall_s": 1055.2371415826492
     }
   },
-  "total_guarded_wall_s": 7775.614890334662,
+  "total_guarded_wall_s": 8678.137533001136,
   "scope": "Account for all terminal guarded attempts, including failed/prelaunch ones.\n\nThis includes builds or downloads executed inside a guarded command. It excludes\nlaunch-watch waiting and unguarded compilation, acquisition, Python analyses and\nunmetered model use. Guard PASS is not scientific or physical acceptance.",
   "cpu_time_energy_model_cost": "Not instrumented; no estimates inferred"
 }

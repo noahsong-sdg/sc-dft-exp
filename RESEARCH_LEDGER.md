@@ -1,6 +1,38 @@
 # Research restart ledger
 
 
+
+## Latest — response48 timed out; explicit900s retry sole owner97337
+
+Original response48/session86926 TERMINALFAIL240.128889s/-15, peak405143552B.
+All declared consumed inputs unchanged. public_response_grid48_result.json
+preserves timeout, not a numerical failure or qualified response. A one-second
+macOS sample near deadline observed769/769 main-thread stacks in calc_dosk.
+That interval identifies the active DOS-weight routine, not complete phase timing.
+Original112s grid-volume forecast was inadequate; no64cubed launch justified.
+
+New distinct raw/public-response-grid48-retry002 sole watcher session97337,
+PID92393, normal120 gate; same executable, equations and band/input identities.
+Prospective public_response_grid48_retry002_manifest.json sets900s/3GiB ceiling,
+not a completion forecast. This bounded15min attempt fits the existing pilot
+allowance and resolves the central grid/stencil validity question if it finishes.
+No automatic retry after failure. Fourth-order link remains staged/conditional.
+
+After terminal use:
+python3 research/verify_refined_response.py research/raw/public-response-grid48-retry002 research/public_response_grid48_retry002_manifest.json --guard-seconds 900
+This checks exact consumed/public manifests, all source/copy/code hashes, native
+receipt,110592fine points,512cells, imposed momentum, moment conservation and
+cache component contraction. Default240 cannot silently accept900; regression
+also rejects wrong fine grid and changed consumed data. Do not edit its pinned
+verifier or consumed scripts during the watcher/run.
+
+Native cost refreshed:61 terminal attempts8678.137533s (144.64min), including
+16failed attempts1055.237142s. Active retry excluded until terminal. Four-hour
+initial ceiling still applies;95.36min native headroom before this attempt.
+Final118testsPASS9.343s; maintained compileall and git diff --check PASS.
+Publiccdf1083 CI46001869185PASS. Physical accuracy, gap conditioning and final
+requirements audit remain open; campaign end17:41UTC unchanged.
+
 ## Latest — native48 serialization PASS; response48 sole owner86926
 
 Band48 diagonalization completed359.615475s/109379584B, but its original
