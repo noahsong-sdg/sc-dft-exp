@@ -1,0 +1,695 @@
+{
+  "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001",
+  "command": [
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/verify-gap-seed.x",
+    "-in",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/native.in"
+  ],
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/verify_sixth_occupation_gap_manifest.json",
+      "bytes": 4536,
+      "sha256": "8df36c104202c75a3a605ac68892f95327d2247e5cd9441e3d70002c5167de45"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_response_inputs.json",
+      "bytes": 8886,
+      "sha256": "31cbcbef74f3f2f4a2c9432253a1a68214d2ecd9476926c759cb77563bac6687"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_gap_coulomb_inputs.json",
+      "bytes": 6771,
+      "sha256": "f7004314f332b8c4a74b664a06cd1866503446917cd46979a777be3561cb043c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-full-link-002/run-manifest.json",
+      "bytes": 124050,
+      "sha256": "e3b6b6a4f272bd4e4ab44bb5b446a166720849c9d4ebdf81ba17f3f9c348e55f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-full-link-002/qualification-result.json",
+      "bytes": 624,
+      "sha256": "125afa383b3374ea91bc0bb7681fe187e453b92788003a692e1b53907742a2f4"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-full-link-002/results/build/receipt.json",
+      "bytes": 695,
+      "sha256": "e534c7bf95d775046d617ea9257f1fac3270ace1675d096bb33437edd664ff73"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-full-link-002/full-gap-check.x",
+      "bytes": 7815872,
+      "sha256": "26aeeb8034a2ac34e77d991b46b0990540f926cb3d87f70e15e2502f220df5f3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/stage_portable_gap_check.py",
+      "bytes": 5649,
+      "sha256": "e4b946c2623c5db41d864563c53791a82e74af942aa12bc308a03a6af3abfe94"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/macos_native_guard.py",
+      "bytes": 8195,
+      "sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/verify_gap_candidate.py",
+      "bytes": 3654,
+      "sha256": "9e3ed995d56041969f19e1be5f4d804c2c7572273ed9ab470ac014941f61fa1d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/full_nonlinear_analysis.py",
+      "bytes": 3619,
+      "sha256": "6ac45a9b2b3bed193b30f1645be846158b97945bdaf98b8d59cb17a397cc041b"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.meta",
+      "bytes": 335,
+      "sha256": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.bin",
+      "bytes": 6523840,
+      "sha256": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/full-z.meta",
+      "bytes": 309,
+      "sha256": "289418f57bb1421baad2320e53e81aba35ee520ed39dd6eccb16b0718284e6da"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/full-z.bin",
+      "bytes": 1087040,
+      "sha256": "1877dee70b514f9fc8d97be68307a0b6ebc761933339b1164f9b34fb43114c60"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.a2Fsave",
+      "bytes": 500838,
+      "sha256": "e331b8c2e7d9e55c6efa158d37ee6ef2e51301c5ffc67e0f2b11527738ee8a90"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.a2Fsave",
+      "bytes": 500838,
+      "sha256": "e331b8c2e7d9e55c6efa158d37ee6ef2e51301c5ffc67e0f2b11527738ee8a90"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.save/data-file-schema.xml",
+      "bytes": 1922580,
+      "sha256": "8576d6aae7a680916ab64bd21fed3ed0f4354f420f4ac2ea681fd3595e540bac"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.save/data-file-schema.xml",
+      "bytes": 1922580,
+      "sha256": "8576d6aae7a680916ab64bd21fed3ed0f4354f420f4ac2ea681fd3595e540bac"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.save/Nb.pbe-spn-kjpaw_psl.0.3.0.UPF",
+      "bytes": 2052531,
+      "sha256": "ccf07218ea34daaa63ff57d9f44ca8b4b529728cccbc8f74dd5fc804ac01e48e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.save/Nb.pbe-spn-kjpaw_psl.0.3.0.UPF",
+      "bytes": 2052531,
+      "sha256": "ccf07218ea34daaa63ff57d9f44ca8b4b529728cccbc8f74dd5fc804ac01e48e"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.save/charge-density.dat",
+      "bytes": 331888,
+      "sha256": "1eb9af07995d970ae1c5ea73ce7a0ac83a54a7987d667509efb9204672289205"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.save/charge-density.dat",
+      "bytes": 331888,
+      "sha256": "1eb9af07995d970ae1c5ea73ce7a0ac83a54a7987d667509efb9204672289205"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.save/paw.txt",
+      "bytes": 3755,
+      "sha256": "0c7aa84653216c5ecac06f052f9c46c1a6b37a36ade321e3354335afbe2d2706"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.save/paw.txt",
+      "bytes": 3755,
+      "sha256": "0c7aa84653216c5ecac06f052f9c46c1a6b37a36ade321e3354335afbe2d2706"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/_ph0/pwscf.q_1/pwscf.elph1",
+      "bytes": 309401,
+      "sha256": "b2ebc49e6d4a59858acb3da6c0b5db81018bcda9ba947f7d7360b9fd5bfdb8f3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_1/pwscf.elph1",
+      "bytes": 309401,
+      "sha256": "b2ebc49e6d4a59858acb3da6c0b5db81018bcda9ba947f7d7360b9fd5bfdb8f3"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/_ph0/pwscf.q_2/pwscf.elph2",
+      "bytes": 309398,
+      "sha256": "651be4c47ca04faefae2ae4c359e13773ea649d2a0d9694777a9d060c4ec9eff"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_2/pwscf.elph2",
+      "bytes": 309398,
+      "sha256": "651be4c47ca04faefae2ae4c359e13773ea649d2a0d9694777a9d060c4ec9eff"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/_ph0/pwscf.q_3/pwscf.elph3",
+      "bytes": 309398,
+      "sha256": "84b9fa395d98433fb7ebbe32227c32a5ede4a41da7296575adf05c4cf2cd4a93"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_3/pwscf.elph3",
+      "bytes": 309398,
+      "sha256": "84b9fa395d98433fb7ebbe32227c32a5ede4a41da7296575adf05c4cf2cd4a93"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/_ph0/pwscf.q_4/pwscf.elph4",
+      "bytes": 309398,
+      "sha256": "d7edfb4c077f9e62c3e628a1bb0201b8a901296235160dbc6429b64e865090eb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_4/pwscf.elph4",
+      "bytes": 309398,
+      "sha256": "d7edfb4c077f9e62c3e628a1bb0201b8a901296235160dbc6429b64e865090eb"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/_ph0/pwscf.q_5/pwscf.elph5",
+      "bytes": 309402,
+      "sha256": "3ee343dc21068376555e15b382cb19cbd0aac9de94175660e06ce8dc960f9960"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_5/pwscf.elph5",
+      "bytes": 309402,
+      "sha256": "3ee343dc21068376555e15b382cb19cbd0aac9de94175660e06ce8dc960f9960"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/_ph0/pwscf.q_6/pwscf.elph6",
+      "bytes": 309395,
+      "sha256": "bf52bdb5946b48d03a233d3b0a37c4dd6bec226acc35cae8276f19885f29ae3e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_6/pwscf.elph6",
+      "bytes": 309395,
+      "sha256": "bf52bdb5946b48d03a233d3b0a37c4dd6bec226acc35cae8276f19885f29ae3e"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/_ph0/pwscf.q_7/pwscf.elph7",
+      "bytes": 309395,
+      "sha256": "ddaf6703383fbf93f9aa12af9938e94c6f78bee7f8b3abb76585c6b9f6875909"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_7/pwscf.elph7",
+      "bytes": 309395,
+      "sha256": "ddaf6703383fbf93f9aa12af9938e94c6f78bee7f8b3abb76585c6b9f6875909"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/_ph0/pwscf.q_8/pwscf.elph8",
+      "bytes": 309396,
+      "sha256": "272ef0b964af9e33b4152825387a4268469aef95a248a6ed3b806ff22ba24e64"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_8/pwscf.elph8",
+      "bytes": 309396,
+      "sha256": "272ef0b964af9e33b4152825387a4268469aef95a248a6ed3b806ff22ba24e64"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/_ph0/pwscf.q_9/pwscf.elph9",
+      "bytes": 309395,
+      "sha256": "86cb70f379d0ac6f46c394ce2c97c85814a16cf0a592dc3a99fd3ea1e5f5ea22"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_9/pwscf.elph9",
+      "bytes": 309395,
+      "sha256": "86cb70f379d0ac6f46c394ce2c97c85814a16cf0a592dc3a99fd3ea1e5f5ea22"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/_ph0/pwscf.q_10/pwscf.elph10",
+      "bytes": 309396,
+      "sha256": "ee5d6ee4f94b5e964b0e84f19857633f73c62c93f7dac44509bd28f33e262373"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_10/pwscf.elph10",
+      "bytes": 309396,
+      "sha256": "ee5d6ee4f94b5e964b0e84f19857633f73c62c93f7dac44509bd28f33e262373"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/_ph0/pwscf.q_11/pwscf.elph11",
+      "bytes": 309396,
+      "sha256": "60d27e6600d37f1b0cd08bde11ad8d65723c15fb095f207dd8866f9dcb641231"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_11/pwscf.elph11",
+      "bytes": 309396,
+      "sha256": "60d27e6600d37f1b0cd08bde11ad8d65723c15fb095f207dd8866f9dcb641231"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/_ph0/pwscf.q_12/pwscf.elph12",
+      "bytes": 309396,
+      "sha256": "233460cffe84d40bf6d5d7d57ca332a1ba18eae6ce2a41a9c73ce4803062a6c5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_12/pwscf.elph12",
+      "bytes": 309396,
+      "sha256": "233460cffe84d40bf6d5d7d57ca332a1ba18eae6ce2a41a9c73ce4803062a6c5"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/_ph0/pwscf.q_13/pwscf.elph13",
+      "bytes": 309396,
+      "sha256": "372f4f2b92ab3a240df4b0c98bf36d4ae6281e96b2f0533797078124911c09d0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_13/pwscf.elph13",
+      "bytes": 309396,
+      "sha256": "372f4f2b92ab3a240df4b0c98bf36d4ae6281e96b2f0533797078124911c09d0"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/_ph0/pwscf.q_14/pwscf.elph14",
+      "bytes": 309397,
+      "sha256": "75a4ae06e50dc4f1cb04358285e0de359a1d9a3a1540a02a42a8203262fddb1c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_14/pwscf.elph14",
+      "bytes": 309397,
+      "sha256": "75a4ae06e50dc4f1cb04358285e0de359a1d9a3a1540a02a42a8203262fddb1c"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/_ph0/pwscf.q_15/pwscf.elph15",
+      "bytes": 309397,
+      "sha256": "e5b46c4b7b8045699c30e6d06c07eeb48e6a6535d9b969bbf3b7950a2cd7b6a7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_15/pwscf.elph15",
+      "bytes": 309397,
+      "sha256": "e5b46c4b7b8045699c30e6d06c07eeb48e6a6535d9b969bbf3b7950a2cd7b6a7"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/_ph0/pwscf.q_16/pwscf.elph16",
+      "bytes": 309392,
+      "sha256": "2e7e693357872d506e90decc6cd0218879977b19e2b9e59ad0f7aa7c86c9a506"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_16/pwscf.elph16",
+      "bytes": 309392,
+      "sha256": "2e7e693357872d506e90decc6cd0218879977b19e2b9e59ad0f7aa7c86c9a506"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/_ph0/pwscf.q_17/pwscf.elph17",
+      "bytes": 309392,
+      "sha256": "3e0ad20c8949b42fe17d65d0f7d8c17218211c5de765ae53631362151dc82b52"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_17/pwscf.elph17",
+      "bytes": 309392,
+      "sha256": "3e0ad20c8949b42fe17d65d0f7d8c17218211c5de765ae53631362151dc82b52"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/_ph0/pwscf.q_18/pwscf.elph18",
+      "bytes": 309393,
+      "sha256": "ff819c74b3ad38be50fa1613b1860dc37ac2ee54de59a666d2692b5d70e5322b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_18/pwscf.elph18",
+      "bytes": 309393,
+      "sha256": "ff819c74b3ad38be50fa1613b1860dc37ac2ee54de59a666d2692b5d70e5322b"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/_ph0/pwscf.q_19/pwscf.elph19",
+      "bytes": 309393,
+      "sha256": "0badf95c0b6a3756fa13865214fe0f05ff89ee0d849ee2d3740e10df38a9a130"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_19/pwscf.elph19",
+      "bytes": 309393,
+      "sha256": "0badf95c0b6a3756fa13865214fe0f05ff89ee0d849ee2d3740e10df38a9a130"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/_ph0/pwscf.q_20/pwscf.elph20",
+      "bytes": 309393,
+      "sha256": "966e4c679bdfc5a19b0cfd87e067df3ad201bc07ab03175c35636dc921e3d9c0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_20/pwscf.elph20",
+      "bytes": 309393,
+      "sha256": "966e4c679bdfc5a19b0cfd87e067df3ad201bc07ab03175c35636dc921e3d9c0"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/_ph0/pwscf.q_21/pwscf.elph21",
+      "bytes": 309393,
+      "sha256": "16ea3f48522f2ebb4f59cc60a3922390d45d9c3a81c9b2c7e80d2bae3b461c5f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_21/pwscf.elph21",
+      "bytes": 309393,
+      "sha256": "16ea3f48522f2ebb4f59cc60a3922390d45d9c3a81c9b2c7e80d2bae3b461c5f"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/_ph0/pwscf.q_22/pwscf.elph22",
+      "bytes": 309394,
+      "sha256": "8ee1f3d572edc0ee84fe193195e46df6e4ff33d92f1a991caeda564aa4ca8172"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_22/pwscf.elph22",
+      "bytes": 309394,
+      "sha256": "8ee1f3d572edc0ee84fe193195e46df6e4ff33d92f1a991caeda564aa4ca8172"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/_ph0/pwscf.q_23/pwscf.elph23",
+      "bytes": 309393,
+      "sha256": "c06353cf1faeef35411cc5228f9137b35fcb70d52f1c2b4e7e6986ded5821741"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_23/pwscf.elph23",
+      "bytes": 309393,
+      "sha256": "c06353cf1faeef35411cc5228f9137b35fcb70d52f1c2b4e7e6986ded5821741"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/_ph0/pwscf.q_24/pwscf.elph24",
+      "bytes": 309393,
+      "sha256": "003dde86fbe3729404be24458bd9266e44c95897ce0ec38e8987547a7b1ba4bb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_24/pwscf.elph24",
+      "bytes": 309393,
+      "sha256": "003dde86fbe3729404be24458bd9266e44c95897ce0ec38e8987547a7b1ba4bb"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/_ph0/pwscf.q_25/pwscf.elph25",
+      "bytes": 309394,
+      "sha256": "0114779d7cb8af2fba6f7c232285ce0a87d86acefba3d08655a5b7a2c4d15945"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_25/pwscf.elph25",
+      "bytes": 309394,
+      "sha256": "0114779d7cb8af2fba6f7c232285ce0a87d86acefba3d08655a5b7a2c4d15945"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/_ph0/pwscf.q_26/pwscf.elph26",
+      "bytes": 309393,
+      "sha256": "5fbbbebd31f7892a84d272687381d88f4442b8172a2b4174b885bc7fe565434d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_26/pwscf.elph26",
+      "bytes": 309393,
+      "sha256": "5fbbbebd31f7892a84d272687381d88f4442b8172a2b4174b885bc7fe565434d"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.vel1",
+      "bytes": 55378012,
+      "sha256": "90426552853f9e9029a8dea43ceb31a54d401fa2f3c4f1dbcf58d85af571a00a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel1",
+      "bytes": 55378012,
+      "sha256": "90426552853f9e9029a8dea43ceb31a54d401fa2f3c4f1dbcf58d85af571a00a"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.vel2",
+      "bytes": 55378012,
+      "sha256": "21c641239c7d8d0f7d3bb88354f13e2cb4494f33701e7a3737b1f89e8d0b5273"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel2",
+      "bytes": 55378012,
+      "sha256": "21c641239c7d8d0f7d3bb88354f13e2cb4494f33701e7a3737b1f89e8d0b5273"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.vel3",
+      "bytes": 55378012,
+      "sha256": "400e3f97e7f6f298a1c691d28bdacbf1fe19bb1741493929225d81acc9c78732"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel3",
+      "bytes": 55378012,
+      "sha256": "400e3f97e7f6f298a1c691d28bdacbf1fe19bb1741493929225d81acc9c78732"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.vel4",
+      "bytes": 55378012,
+      "sha256": "15c8204ac1aec1b61ce2823cfc9e174ddd42f78646681771ee1c1d6e531eb0a3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel4",
+      "bytes": 55378012,
+      "sha256": "15c8204ac1aec1b61ce2823cfc9e174ddd42f78646681771ee1c1d6e531eb0a3"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.vel5",
+      "bytes": 55378012,
+      "sha256": "c8dfff93e49ed7eca2ff15f8b40e8a0cc29a225fa391f64de80b341b5cdc9d1e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel5",
+      "bytes": 55378012,
+      "sha256": "c8dfff93e49ed7eca2ff15f8b40e8a0cc29a225fa391f64de80b341b5cdc9d1e"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.vel6",
+      "bytes": 55378012,
+      "sha256": "5ade6e82bb5c02c9f89af166734aacc581b08bd469a8a87b2863a28bdcb3a5f5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel6",
+      "bytes": 55378012,
+      "sha256": "5ade6e82bb5c02c9f89af166734aacc581b08bd469a8a87b2863a28bdcb3a5f5"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.vel7",
+      "bytes": 55378012,
+      "sha256": "30f5b7fb849186190fb8ed3699609e6651a2559cfc5efd6a12c18307a6a23eb6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel7",
+      "bytes": 55378012,
+      "sha256": "30f5b7fb849186190fb8ed3699609e6651a2559cfc5efd6a12c18307a6a23eb6"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.vel8",
+      "bytes": 55378012,
+      "sha256": "ad44923a33ff7484d1b06bf84149300ffd9437d77f6d8ac29b1fa6975c8386f2"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel8",
+      "bytes": 55378012,
+      "sha256": "ad44923a33ff7484d1b06bf84149300ffd9437d77f6d8ac29b1fa6975c8386f2"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.vel9",
+      "bytes": 55378012,
+      "sha256": "e2c4d8ff62098fea818911c6198eaaa6322d64b1a05d2ac7e627b8868e5f7055"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel9",
+      "bytes": 55378012,
+      "sha256": "e2c4d8ff62098fea818911c6198eaaa6322d64b1a05d2ac7e627b8868e5f7055"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.vel10",
+      "bytes": 55378012,
+      "sha256": "f553f941949502dde77c85cf542c44ff7688e3748bc59aa397341a618aaffd94"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel10",
+      "bytes": 55378012,
+      "sha256": "f553f941949502dde77c85cf542c44ff7688e3748bc59aa397341a618aaffd94"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.vel11",
+      "bytes": 55378012,
+      "sha256": "9c7c4211ea84eaeea8406706d2bc16f41900782a8bd36e7225af0dc836ec4933"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel11",
+      "bytes": 55378012,
+      "sha256": "9c7c4211ea84eaeea8406706d2bc16f41900782a8bd36e7225af0dc836ec4933"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.vel12",
+      "bytes": 55378012,
+      "sha256": "76d9f0329b21919ff621feea070ae75426bfc825e2ef737b04c0c897ea08203e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel12",
+      "bytes": 55378012,
+      "sha256": "76d9f0329b21919ff621feea070ae75426bfc825e2ef737b04c0c897ea08203e"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.vel13",
+      "bytes": 55378012,
+      "sha256": "669446ce6f7c70c8055a6970563cb4cada8f4283deb97834396430edc603ebf9"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel13",
+      "bytes": 55378012,
+      "sha256": "669446ce6f7c70c8055a6970563cb4cada8f4283deb97834396430edc603ebf9"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.vel14",
+      "bytes": 55378012,
+      "sha256": "969a1046e9209fcb8adcce0027c8a1a023ef3fd832e9f77c715c78fdc93f52b2"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel14",
+      "bytes": 55378012,
+      "sha256": "969a1046e9209fcb8adcce0027c8a1a023ef3fd832e9f77c715c78fdc93f52b2"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.vel15",
+      "bytes": 55378012,
+      "sha256": "c591ac329a54d8d16e61237731dca3e65ec666499127e06009aee8eb548260d9"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel15",
+      "bytes": 55378012,
+      "sha256": "c591ac329a54d8d16e61237731dca3e65ec666499127e06009aee8eb548260d9"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.vel16",
+      "bytes": 55378012,
+      "sha256": "ec410136227ebda7094b1031ccf28111ff048a58f60a374af6b9a2691851d406"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel16",
+      "bytes": 55378012,
+      "sha256": "ec410136227ebda7094b1031ccf28111ff048a58f60a374af6b9a2691851d406"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.vel17",
+      "bytes": 55378012,
+      "sha256": "7c2761cdd4929fcb30a102f13f3558862d2fd8fc339df4b1320205a513e12a65"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel17",
+      "bytes": 55378012,
+      "sha256": "7c2761cdd4929fcb30a102f13f3558862d2fd8fc339df4b1320205a513e12a65"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.vel18",
+      "bytes": 55378012,
+      "sha256": "0825f9229a868d10005a12fe92cea245366e1c94522feb2077417eac65255e54"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel18",
+      "bytes": 55378012,
+      "sha256": "0825f9229a868d10005a12fe92cea245366e1c94522feb2077417eac65255e54"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.vel19",
+      "bytes": 55378012,
+      "sha256": "f2d9632862cd8ba7bce1cd578cefb760abb795755420df879dadbe31d864285f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel19",
+      "bytes": 55378012,
+      "sha256": "f2d9632862cd8ba7bce1cd578cefb760abb795755420df879dadbe31d864285f"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.vel20",
+      "bytes": 55378012,
+      "sha256": "e60dac2f4e55dfb42f8d212406625d30b8e90022da1505425f2abbc2b1a3fdfa"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel20",
+      "bytes": 55378012,
+      "sha256": "e60dac2f4e55dfb42f8d212406625d30b8e90022da1505425f2abbc2b1a3fdfa"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.vel21",
+      "bytes": 55378012,
+      "sha256": "1af6dbedb7fc842f7a054ac955de8c66f3ce27f776c00c50925335302fe4555c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel21",
+      "bytes": 55378012,
+      "sha256": "1af6dbedb7fc842f7a054ac955de8c66f3ce27f776c00c50925335302fe4555c"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.vel22",
+      "bytes": 55378012,
+      "sha256": "03a73505333e9e6d7034ab7998afaa2b21dcee26cf81ad360606a3ee5f74b52a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel22",
+      "bytes": 55378012,
+      "sha256": "03a73505333e9e6d7034ab7998afaa2b21dcee26cf81ad360606a3ee5f74b52a"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.vel23",
+      "bytes": 55378012,
+      "sha256": "d001f2280c2ef853938a413f47ac7e0dcc5065097cd0ef83a4d7c09bfcfa0b8c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel23",
+      "bytes": 55378012,
+      "sha256": "d001f2280c2ef853938a413f47ac7e0dcc5065097cd0ef83a4d7c09bfcfa0b8c"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.vel24",
+      "bytes": 55378012,
+      "sha256": "2751b226a339d251d74a387be76ef6612423b08e76c682620b1c2a81583426ed"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel24",
+      "bytes": 55378012,
+      "sha256": "2751b226a339d251d74a387be76ef6612423b08e76c682620b1c2a81583426ed"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.vel25",
+      "bytes": 55378012,
+      "sha256": "c84dec158f5526894b0df4e63bfcc60d90f7e0cdd94c5472f1140342f5d7fbaa"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel25",
+      "bytes": 55378012,
+      "sha256": "c84dec158f5526894b0df4e63bfcc60d90f7e0cdd94c5472f1140342f5d7fbaa"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/inputs/pwscf.vel26",
+      "bytes": 55378012,
+      "sha256": "dc2360e6bcd2cc708c921f08a31dea63dd0096c02c8cd6586fceb919a703d6b9"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel26",
+      "bytes": 55378012,
+      "sha256": "dc2360e6bcd2cc708c921f08a31dea63dd0096c02c8cd6586fceb919a703d6b9"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/verify-gap-seed.x",
+      "bytes": 7815872,
+      "sha256": "26aeeb8034a2ac34e77d991b46b0990540f926cb3d87f70e15e2502f220df5f3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/gap-seed.meta",
+      "bytes": 287,
+      "sha256": "78e4acf5dedf8e76575c350885a0d05e507101b759739d27639890666ae30549"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/map-control.in",
+      "bytes": 139,
+      "sha256": "81c10f2ae79de44b1a886cbefa5ddfb4bf16f9b52184d3844bc0cd7a43344e42"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/seed-control.in",
+      "bytes": 135,
+      "sha256": "9a9b67d5438e8ccd9c75e8bf0f2047e05b44401fa4067393f6ee45284c707e37"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/native.in",
+      "bytes": 414,
+      "sha256": "d152ac53720dbb50b9706ab294c1cf3028f9e9839de4192d973aecaf1eb536fa"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/gap-seed.bin",
+      "bytes": 1087040,
+      "sha256": "638fd064b87a1566c8e1c484fcc1ceefb2f541c72891054ce495ca61e1fdc558"
+    }
+  ],
+  "candidate_sha256": "638fd064b87a1566c8e1c484fcc1ceefb2f541c72891054ce495ca61e1fdc558",
+  "guard_seconds": 900,
+  "launch_normal_seconds": 120,
+  "rss_cap_bytes": 3221225472,
+  "retained_inputs_used": true,
+  "historical_objects_used": false,
+  "original_full_map_sha256": "b50fef12c7ddf1c100328af69b8d05e1e7c6a2bceadd1458c580a23fa185453a",
+  "scope": "Stage a source-built full gap check on the unchanged retained8.05K problem.\n\nThis qualifies a native dependency replacement, not portable microscopic setup\nor physical response. All retained data remain explicit, read-only dependencies.\n",
+  "acceptance": "Strict bitwise initialization/seed/Z context, unchanged stationary targets, full-map comparison to original; not conditioned error or physical prediction",
+  "forecast": "About680s/1GB from prior native action; bound900s/3GiB; original new-campaign4h pilot"
+}

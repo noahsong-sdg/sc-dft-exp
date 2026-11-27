@@ -33,7 +33,8 @@ No historical custom object/module path appears in the link. Runtime is pending.
 New guarded total20.643592s includes both full-link builds.
 Next: strict retained8.05K candidate check with source-built driver, forecast680s,
 guard900s/3GiB. Fresh staged root portable-gap-check-001 has no watcher yet.
-Do not start one before final staging tests and public prospective manifest commit.
+Staging tests PASS137/14.653s; prospective manifest committed before launch.
+Launch remains subject to unchanged quiet/hash gates.
 The microscopic/Z/basis inputs remain retained; this will qualify a dependency
 replacement, not fresh input generation or a physical-response prediction.
 

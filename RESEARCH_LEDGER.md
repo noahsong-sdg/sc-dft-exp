@@ -2202,3 +2202,15 @@ Rehashedall26localCoulombfiles:1439828312B match historicalproof. Prospective
 publicinputcatalogandfirst-fileHEAD200/55378012B recorded; remote bodies not yet
 verifiedthiscampaign. Existingfetchutility accepts this pinnedcatalog. Input
 availability is promising, not a demonstrated freshZ/basis preparation.
+
+
+### Prospective source-built retained-candidate runtime check
+
+Fresh portable-gap-check-001 stages the source-built full-link002 driver and all57
+microscopic files with hashes, retaining the original strict seed/Z/basis context.
+Target: unchanged8.05K stationary residual gates and original full-map comparison.
+This does not establish fresh microscopic preparation or physical response.
+Bound900s/3GiB, quiet120s; no watcher exists at staging.137offline testsPASS14.653s;
+maintained-source compileall, moment replay and diffcheckPASS. Staging regression
+rejects stale linked libraries, failed build receipts and existing destinations.
+The actual successful staging copied~1.45GB; its setup time was not instrumented.
