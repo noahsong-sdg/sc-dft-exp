@@ -18,11 +18,13 @@ The current accumulation additionally evaluates xi/E at xi=gap=0. Its finite-T
 product has a continuous zero limit even though the literal quotient is 0/0.
 The exact-zero product branch implements that limit without perturbing nearby
 nonzero states. The RHS thermal saturation branch receives the same occupation
-identity correction. No interaction kernel or response normalization changes.
+identity correction. Its subsequent delta/E product receives an exact-zero
+finite-temperature branch for the same smooth-limit reason. No interaction
+kernel or response normalization changes.
 
 This is a bounded candidate, not a claim that every solver boundary is repaired.
-In particular, the RHS later divides delta by E and its zero-energy boundary
-still needs a separate regression and domain-aware fix. Zero-temperature limits,
+The RHS product branch explicitly leaves zero-temperature behavior unchanged.
+Zero-temperature limits,
 the positive high-energy-cutoff branch, self-consistent solutions, and material
 accuracy are not qualified by these fixtures.
 
@@ -30,6 +32,10 @@ Existing evidence: complete-current 81-case thermal controls, nine zero-energy
 and two-sided normal-state controls in serial/OpenMP, an independent high-
 precision scalar oracle, and complete-RHS synthetic-interaction residual tests
 using real BLAS. These test numerical expressions, not experimental agreement.
+The complete RHS zero-energy regression adds nine normal-state cases per build
+(five active residuals each); the previous candidate produces 15 nonfinite
+residuals, the new candidate gives exact zero. Nonzero-gap residual controls
+remain unchanged in both builds. See ../rhs_zero_energy_results.json.
 See ../THERMAL_BOUNDARY_RESULT.md, ../ZERO_ENERGY_FINDING.md, and
 ../RHS_THERMAL_FINDING.md for results and limits.
 

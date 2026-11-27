@@ -1,0 +1,28 @@
+{
+  "source_sha256": "177d0e9738a4accf658aea108b5349a1d392035b3ec4e98c1c5fea82c98ccf73",
+  "blas_sha256": "f94d46a38588cd81c8b8051a5873da69b4254da5a2c42d3371279f507407d144",
+  "compiler": "GNU Fortran (Homebrew GCC 16.2.0) 16.2.0",
+  "fixture_sha256": "4931a301f35469ad488e7b52d22a550ba9d7cda12d8e0e3e18c7c3a1d9e86cd5",
+  "previous_nonfinite_residuals": 15,
+  "normal_cases_per_build": 9,
+  "builds": [
+    {
+      "flags": [
+        "-O0"
+      ],
+      "threads": 1,
+      "normal_residual_max": 0,
+      "nonzero_gap_control_error": 0.0
+    },
+    {
+      "flags": [
+        "-O3",
+        "-fopenmp"
+      ],
+      "threads": 4,
+      "normal_residual_max": 0,
+      "nonzero_gap_control_error": 0.0
+    }
+  ],
+  "scope": "Complete RHS, finite temperature, synthetic interactions, xic=-1; zero-T unchanged"
+}

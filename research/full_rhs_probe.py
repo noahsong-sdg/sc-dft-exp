@@ -120,6 +120,27 @@ def expected():
     return first+second
 
 
+def zero_energy_correction(routine):
+    """Apply the finite-temperature zero limit of delta/E times occupation."""
+    original='''    chi(1:ngap(ii),ii) = 0.5_dp * dk(1:ngap(ii),ii) * delta(1:ngap(ii),ii) * chi(1:ngap(ii),ii) &
+    &                  / SQRT(xi(1:ngap(ii),ii)**2 + delta(1:ngap(ii),ii)**2)'''
+    replacement='''    DO igap = 1, ngap(ii)
+      IF(.NOT. zero_kelvin .AND. xi(igap,ii) == 0.0_dp .AND. delta(igap,ii) == 0.0_dp) THEN
+        chi(igap,ii) = 0.0_dp
+      ELSE
+        chi(igap,ii) = 0.5_dp * dk(igap,ii) * delta(igap,ii) * chi(igap,ii) &
+        &             / SQRT(xi(igap,ii)**2 + delta(igap,ii)**2)
+      END IF
+    END DO'''
+    if routine.count(original)!=1:
+        raise ValueError('Expected RHS quasiparticle product changed')
+    return routine.replace(original,replacement)
+
+
+def robust_correction(routine):
+    return zero_energy_correction(corrected(routine))
+
+
 def run(blas):
     if not Path(blas).is_file():
         raise ValueError('Pass an existing compatible BLAS static library')

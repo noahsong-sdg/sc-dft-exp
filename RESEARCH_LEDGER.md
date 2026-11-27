@@ -1,5 +1,23 @@
 # Research restart ledger
 
+## Latest product-boundary correction and live launch owner
+
+RHS finite-temperature delta/E boundary is now reproduced and corrected in the
+complete routine: previous thermal candidate has 15 nonfinite residuals; new
+candidate has exact-zero normal residuals in nine cases per serial/OpenMP
+build, with five nonzero-gap controls unchanged. Real retained BLAS used.
+See research/RHS_ZERO_ENERGY_FINDING.md and rhs_zero_energy_results.json.
+Review patch regenerated with the same transformation; isolated apply/hashes
+pass. Zero-temperature behavior deliberately unchanged, not qualified.
+
+Unshifted attempt 002 (tool 78162) TERMINAL prelaunch permission failure: our
+copyfile dropped executable mode, no native calculation started. Receipt kept.
+Fresh mode-preserving copy checked executable before waiting. Current verified
+LIVE owner **61758**, raw/nb-moments-unshifted-003, PID in its atomic watch file;
+120 seconds normal pressure before exactly one 120-second/3-GiB native run.
+Poll this handle before launching any other native job. On success compare with
+the finite-Q [011] result, then qualify unshifted [111]. Goal remains active.
+
 ## Latest checkpoint — direction control and unshifted-band qualification
 
 Previous goal turn made progress: two-week mandate updated and publicly pushed.

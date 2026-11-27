@@ -75,3 +75,20 @@
          ELSE
            chi(igap,ii) = tanhe * (1.0_dp + tanhd) / (1.0_dp + tanhd * tanhe) &
            &                    * (1.0_dp - tanhd) / (1.0_dp - tanhd * tanhe)
+@@ -169,8 +168,14 @@
+   END IF
+   !
+   DO ii = 1, 2
+-    chi(1:ngap(ii),ii) = 0.5_dp * dk(1:ngap(ii),ii) * delta(1:ngap(ii),ii) * chi(1:ngap(ii),ii) &
+-    &                  / SQRT(xi(1:ngap(ii),ii)**2 + delta(1:ngap(ii),ii)**2)
++    DO igap = 1, ngap(ii)
++      IF(.NOT. zero_kelvin .AND. xi(igap,ii) == 0.0_dp .AND. delta(igap,ii) == 0.0_dp) THEN
++        chi(igap,ii) = 0.0_dp
++      ELSE
++        chi(igap,ii) = 0.5_dp * dk(igap,ii) * delta(igap,ii) * chi(igap,ii) &
++        &             / SQRT(xi(igap,ii)**2 + delta(igap,ii)**2)
++      END IF
++    END DO
+   END DO
+   !
+   CALL dgemv("T", ngap(2), ngap1(2)-ngap1(1)+1, 1.0_dp, effint(1:ngap(2),ngap1(1):ngap1(2),1), ngap(2), &

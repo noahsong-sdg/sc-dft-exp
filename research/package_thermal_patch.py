@@ -15,10 +15,10 @@ def package(destination):
     destination.mkdir(parents=True, exist_ok=False)
     changes=[]
     manifest={'revision':current.REVISION, 'files':[],
-              'scope':'Review candidate: current thermal/product correction and RHS thermal correction; not a full solver qualification'}
+              'scope':'Review candidate: current and RHS thermal/product corrections; not a full solver qualification'}
     for name,url,expected,transform in (
         ('sctk_broyden.f90',current.URL,current.SHA256,current.robust_correction),
-        ('sctk_gapeq_rhs.f90',rhs_thermal_probe.URL,rhs_thermal_probe.SHA256,rhs.corrected)):
+        ('sctk_gapeq_rhs.f90',rhs_thermal_probe.URL,rhs_thermal_probe.SHA256,rhs.robust_correction)):
         with urlopen(url,timeout=45) as response:
             data=response.read(1_000_001)
         if hashlib.sha256(data).hexdigest()!=expected:

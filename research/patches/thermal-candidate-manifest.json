@@ -11,11 +11,11 @@
       "path": "src/sctk_gapeq_rhs.f90",
       "url": "https://raw.githubusercontent.com/mitsuaki1987/sctk/4bc883e5dfd8a2b38f47f2cb6efba26b773d5b33/src/sctk_gapeq_rhs.f90",
       "original_sha256": "177d0e9738a4accf658aea108b5349a1d392035b3ec4e98c1c5fea82c98ccf73",
-      "candidate_sha256": "b5928e33335cb45ba2bc0e8e30a3e6c23cbf4ea58b6beb9a19222a4543bc5c5d"
+      "candidate_sha256": "4ac0655d880a2ed24cc5187e3fcb2eee5112bbea221ffe33c8720314ccec7329"
     }
   ],
-  "scope": "Review candidate: current thermal/product correction and RHS thermal correction; not a full solver qualification",
-  "patch_sha256": "aa32424fef8bc673c98c7c48067230dfad9b1a066da4442c1b9c8de6620940b2",
+  "scope": "Review candidate: current and RHS thermal/product corrections; not a full solver qualification",
+  "patch_sha256": "8067efcc7970c548c046dc228e98ac447d2afe3fe7df8c2e999a5df1a02e83ca",
   "verification": {
     "dry_run": "PASS",
     "apply": "PASS",
