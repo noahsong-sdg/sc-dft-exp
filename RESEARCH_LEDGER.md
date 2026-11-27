@@ -2476,3 +2476,18 @@ failedreceipt; no certificate written on rejection.153offline testsPASS16.691s;
 166maintained Python sources compile; momentreplay/diffchecksPASS. Actual oracle
 run remains pending fullZ. Recovery002 guardPID36610/session24002 confirmedlive
 waiting for normalpressure; no duplicate job. CI46045024240 on c3b0579PASS.
+
+
+### Recovery002 accepted through row8208; next contiguous segment staged
+
+TerminalPASS172.501405s, peak1615577088B/group1616232448B. Native accumulation
+rows17:8208 took122.891050s, remaining49.610355s compile/coldsetup/readback.
+Public/consumed manifests identical, all postrun inputs and explicit16linkarchives
+verified, no historicalcustomobjectpath. Strict checkpoint/certificate readback
+PASS. This is accepted partialZ, not fullZ. New guardedtotal1195.759779s includes
+the630.615716s failed segment. No failedoutput adopted. Root003prospectively
+stages8209:16400 from accepted002;8192rows, unchanged2400s/3GiB/quiet120guard.
+Measured recovery supports~170–250s scheduling estimate, not a runtimebound;
+normalpressure still required.153tests/compilation/moment gates lastpassed;
+CI46045523713 on c06849bPASS. No new code changes or verification reruns required
+for this result/manifest-only step. No watcher before publication/launch.

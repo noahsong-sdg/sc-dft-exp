@@ -180,3 +180,11 @@ with unchanged guard/context. Old live-owner statements above are historical.
 Recovery002 guardPID36610/session24002 live in quietgate after publicc56a8f2.
 Oracle persisted-result certification implemented/tested; actualoracle still
 pending completeZ.153offline testsPASS16.691s. Keep current sweep sources frozen.
+
+
+## Latest accepted Z progress
+
+Recovery002 terminalPASS172.501405s; strictcertified checkpoint through8208.
+Native owner36610/session24002 terminal. New guardedtotal1195.759779s. Root003
+stages8209:16400 from002, same frozencontext and guard/quietgate. FullZ and
+independentoracle remain incomplete. Poll new owner after launch, not old24002.
