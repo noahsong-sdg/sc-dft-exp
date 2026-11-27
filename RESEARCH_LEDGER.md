@@ -2348,3 +2348,22 @@ invariants, split-vs-uninterrupted test and stalecheckpoint rejection. Final
 fullZschema only after allrows; independent direct full-sum sample checks needed.
 143testsPASS26.739s; compileall/moment/diffPASS; nativepartialbuild/runtimePASS.
 CI46040832533 onf2cf717PASS. New guardedtotal316.564495s. No owner remains.
+
+
+### Prospective ordered Z checkpoint qualification
+
+Measured full-sweep scheduling range motivates bounded contiguous batches. New
+checkpoint schema binds context/temperature/dimensions/completed rows and finite
+partial sums; no uncomputed left or padded right entries may be nonzero. Native
+write/read roundtrip must be bitwise, and the driver compares uninterrupted1:16
+with1:8 -> checkpoint/read/cache-reset ->9:16 on actual microscopic inputs.
+Postrun certificate binds payload/metadata/manifest/receipt hashes; resume rejects
+changed certified outputs instead of adopting their new hashes. Only completed
+66867leftrows may emit full-Z schema; independent full-sum samples remain open.
+Qualificationroot portable-z-sweep-qualify003,240s/3GiB/quiet120. Unlaunched001/002
+were staging drafts before roundtrip/progress additions; no nativecost. Progress
+logs every1024rows preserve accumulation order and support actual run monitoring.
+147testsPASS19.153s; compileall/momentreplay/diffPASS. Native standalone fixture
+checks bitwise split serial addition and stale context/rows/temp/schema/shape/NaN/
+futurepadding; staging checks certified-hash mutation and skipped-row rejection.
+CI46041751152 on4be9d86PASS. No watcher before prospective publication.

@@ -75,14 +75,15 @@ Cachedblocksum11.925346s vs direct28.199123s; remainingbuild/init/output104.0891
 Mean fullsweep scheduling extrapolation3219s; min/maxblock extrapolation2590–3957s.
 These are forecasts, NOT bounds. A fullsinglelaunch has insufficient margin
 under3300s; do not launch one. No fullZ or response qualification follows.
-Next implement exact ordered checkpointed Z traversal (two~33434row batches,
-prospective2400s/batch/3GiB), with strict context/shape/completed-row and stale
-checkpoint tests; qualify a small split vs uninterrupted traversal first.
-Preserve serial addition order, require nextfirst==previouslast+1, and only emit
-full-Z schema after all66867leftrows complete. Separate source-only full-sum
-sample oracles remain required before accepting completedZ. No queuedjob/owner.
-Guarded newtotal316.564495s.143testsPASS26.739s; compileall/moment/diffPASS.
-Native partial compile/runtimePASS; CI46040832533 onf2cf717PASS.
+Ordered checkpoint source/stager now implemented; actualqualification pending.
+Portable-z-sweep-qualify003 staged for1:16 vs8+8 bitwise, strict serialization
+roundtrip and output-hash certification. 001/002 are unlaunched staging drafts.
+147testsPASS19.153s; compileall/moment/diffPASS; native standalone checkpoint
+fixture passes stale-data and split-order tests.240s/3GiB/quiet120 after public
+prospective commit. No watcher at staging. Production planned as contiguous
+~33434row/2400s batches; only completed66867 may emit full-Z schema. Full-sum
+sample oracles remain required before completedZ acceptance. Guardedtotal still
+316.564495s. Public prior CI46041751152 on4be9d86PASS.
 
 New native pilot ceiling4wallhours, prior campaign189.29min accounted separately.
 Hardware rechecked:M5/10cores/32GiB,normalpressure,~151GBfree. Preserve dirty
