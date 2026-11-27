@@ -1,5 +1,22 @@
 # Research restart ledger
 
+## Latest — symmetry cause isolated; rank34 full owner17667 live
+
+Symmetry owner88911 TERMINALPASS34.1468s/195362816B. All48 operations restore
+66867/67940states and strictmappingPASS: energies/indicesexact, weightswithin
+64eps. response_assignment_symmetry_result.json pinsreceipt/manifest. Paired
+constantgapmomentreadback alsoPASS; allsupportsecondmoments preservefine sum
+but firstmean-squared collapses underfullsym. response_symmetry_moment_result.json
+recordsoutputs/loghashes. This isnot aphysicaltinyQfix. Nextmethodhypothesis:
+symmetryconsistenttensor/secondmoments onQ0layout, subjectto gap-symmetryand
+single-state/physicalgates. No code fix implemented.
+
+Rank34 fullowner17667/PID19138 verifiedlivewaitingnormalpressure1; sameexe/
+seedhash15459129...be2ae7, unchangedtargets. Prospective
+verify_second_occupation_gap_manifest.json records measuredcostdecision. Poll
+sameowner, no duplicate. Four narrow assignment/momenttestsPASS0.005s; no
+production sourcechange. Goal remainsactive.
+
 ## Latest — rank34 reduced PASS; symmetry control owner88911 live
 
 Owner58042 TERMINAL PASS0.810367s/122880000B. StrictreaderPASS4iterations,

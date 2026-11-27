@@ -108,17 +108,18 @@ Mac runtime forecast is justified by the cluster logs alone.
 
 ## Next decisive evidence, in order
 
-1. Evaluate the prepared rank34 reduced candidate after the response-assignment
-   owner terminates. Rank33 full validation finished in 599.93 s / 952 MB and
-   failed unchanged targets: infinity residual 4.58e-8 Ry, RMS ratio 0.00213.
-   A second source-bound occupation enrichment is prepared; its reduced solve
-   is cheap, but another full pass requires a new cost/information decision.
-   See verify_critical_gap_result.json and second_occupation_reduced_manifest.json.
+1. Finish the running rank34 full check. Its reduced solve passes in0.810s,
+   but mean gaps change10.35% from rank33. Rank33 full validation failed:
+   infinity residual4.58e-8Ry, RMS ratio0.00213. The prospective
+   verify_second_occupation_gap_manifest.json records one bounded full-pass
+   decision using the measured599.93s/952MB cost; targets remain unchanged.
 2. Qualify conditioning and refinement of a successful gap. A point residual
    alone cannot bound gap error near the transition.
 3. Resolve the failed direct response assignment before connecting a gap:
    directional preparation gives62850/64662states versusQ0gap66867/67940.
-   A geometry-only symmetry-selection control is prepared. Preserve far-band
+   The geometry-only control restores the layout under48 symmetries, identifying
+   symmetry selection as the cause for this pair. Tiny-Q current reuse is not
+   valid; investigate a symmetry-consistent moment formulation. Preserve far-band
    single states; do not infer a fine-grid gap from the constant-gap experiment.
 4. Resolve derivative/integration, physical normalization and functional gates,
    then quantify a selected observable against those uncertainties. Choose a

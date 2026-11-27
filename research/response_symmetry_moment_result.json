@@ -1,0 +1,171 @@
+{
+  "scope": "Same executable/unshifted bands/imposed constant gap; deliberate absolute-symmetry-threshold control, not physical response",
+  "directional": {
+    "sha256": "c944e90efa939936eeb811d823f56b69a4a7c5ce4652c7c271348031c447309d",
+    "dimensions": [
+      100,
+      6,
+      7,
+      32768,
+      512
+    ],
+    "qnorm": 0.00014213149536207326,
+    "volume": 122.17535992426924,
+    "native_control_max_absolute_errors": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "negative_fine_weights": 1164403,
+    "negative_fine_weight_absolute_sum": 42.86565944990891,
+    "fine_weight_absolute_sum": 801.6763201504745,
+    "cases": [
+      {
+        "temperature_kelvin": 2,
+        "imposed_gap_mev": 1.5,
+        "mean_squared_active": [
+          0.003275199249883411,
+          0.003702081021588486
+        ],
+        "second_moment_active": [
+          0.008145052022837178,
+          0.008144966603060815
+        ],
+        "second_moment_all": [
+          0.00814488376180505,
+          0.008144883761805033
+        ],
+        "fine_grid_reference": 0.008144883761805489,
+        "direct_reference_max_absolute_error": 4.562322741819003e-16
+      },
+      {
+        "temperature_kelvin": 4,
+        "imposed_gap_mev": 1.5,
+        "mean_squared_active": [
+          0.003045101230628377,
+          0.0034419983046809254
+        ],
+        "second_moment_active": [
+          0.007572846724270966,
+          0.00757276729982873
+        ],
+        "second_moment_all": [
+          0.007572690278423139,
+          0.00757269027842319
+        ],
+        "fine_grid_reference": 0.007572690278422805,
+        "direct_reference_max_absolute_error": 3.8510861166685117e-16
+      },
+      {
+        "temperature_kelvin": 8,
+        "imposed_gap_mev": 1.5,
+        "mean_squared_active": [
+          0.0019016074551313656,
+          0.0021494771306244946
+        ],
+        "second_moment_active": [
+          0.004729182943443265,
+          0.004729133321749045
+        ],
+        "second_moment_all": [
+          0.00472908522300957,
+          0.00472908522300942
+        ],
+        "fine_grid_reference": 0.004729085223009524,
+        "direct_reference_max_absolute_error": 1.0408340855860843e-16
+      }
+    ],
+    "scope": "Matched-energy constant-gap closure diagnostic; not a converged material response"
+  },
+  "all_symmetries": {
+    "sha256": "c7e4f8564723ee3160beae97ed09bc9c9a7cc13589134db3f478366cf44f6b66",
+    "dimensions": [
+      100,
+      6,
+      7,
+      32768,
+      512
+    ],
+    "qnorm": 1.4213149536207327e-12,
+    "volume": 122.17535992426924,
+    "native_control_max_absolute_errors": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "negative_fine_weights": 1164403,
+    "negative_fine_weight_absolute_sum": 42.86565944990891,
+    "fine_weight_absolute_sum": 801.6763201504745,
+    "cases": [
+      {
+        "temperature_kelvin": 2,
+        "imposed_gap_mev": 1.5,
+        "mean_squared_active": [
+          -1.5838590630946606e-07,
+          -1.5841649183047032e-07
+        ],
+        "second_moment_active": [
+          0.008144975191219725,
+          0.008144966601453033
+        ],
+        "second_moment_all": [
+          0.008144883761804894,
+          0.008144883761804656
+        ],
+        "fine_grid_reference": 0.008144883761805485,
+        "direct_reference_max_absolute_error": 8.291978215169138e-16
+      },
+      {
+        "temperature_kelvin": 4,
+        "imposed_gap_mev": 1.5,
+        "mean_squared_active": [
+          -1.5542205069404963e-07,
+          -1.554519411951863e-07
+        ],
+        "second_moment_active": [
+          0.007572775287514661,
+          0.007572767298221063
+        ],
+        "second_moment_all": [
+          0.007572690278423447,
+          0.0075726902784229375
+        ],
+        "fine_grid_reference": 0.007572690278422804,
+        "direct_reference_max_absolute_error": 6.42715047849407e-16
+      },
+      {
+        "temperature_kelvin": 8,
+        "imposed_gap_mev": 1.5,
+        "mean_squared_active": [
+          -1.4743638949451923e-07,
+          -1.4746437458795173e-07
+        ],
+        "second_moment_active": [
+          0.004729138321631681,
+          0.004729133320141633
+        ],
+        "second_moment_all": [
+          0.004729085223009366,
+          0.004729085223009473
+        ],
+        "fine_grid_reference": 0.004729085223009522,
+        "direct_reference_max_absolute_error": 1.5612511283791264e-16
+      }
+    ],
+    "scope": "Matched-energy constant-gap closure diagnostic; not a converged material response"
+  },
+  "relative_fine_reference_changes": [
+    -4.440892098500626e-16,
+    -1.1102230246251565e-16,
+    -3.3306690738754696e-16
+  ],
+  "commands": [
+    "python3 research/moment_analysis.py research/raw/response-assignment-001/velocity-moments.txt",
+    "python3 research/moment_analysis.py research/raw/response-assignment-symmetry-001/velocity-moments.txt"
+  ],
+  "interpretation": "All-support second moments preserve the matched fine quadrature in both controls. Squared averaged directional first moments collapse under full symmetry; tiny-Q compatibility is not a production current fix.",
+  "log_sha256": {
+    "research/raw/response-assignment-001/results/moment/console.log": "5ef4de9fb159fb3b698de539e4fe18d806beea477d6374c53becdd18adc62ce5",
+    "research/raw/response-assignment-symmetry-001/results/moment/console.log": "53afe4d315ac0255a163f56e2c6c4bdbbdb51584ce9212c536c63f593dcfacfe"
+  }
+}

@@ -113,3 +113,38 @@ to isolate assignment behavior. It must not be presented as a physically valid
 response or a recommended way to choose Q. If the layout then matches, the
 symmetry-selection dependence is demonstrated; otherwise investigate the other
 initialization differences. Do not add interpolation or relax the gate.
+
+## Symmetry isolation result and interpretation
+
+The control passes in34.147s/195362816-byte peak RSS. Selecting48 operations
+restores66867/67940states. Every energy node, assigned energy and band/cell
+index matches the Q0 snapshot exactly. Maximum weight difference3.31e-23 and
+energy-grid weight difference6.88e-22 pass the unchanged64eps gate. See
+response_assignment_symmetry_result.json. With the same executable, unshifted
+bands and grids, the deliberate change to symmetry selection restores layout
+compatibility. This identifies the cause for this tested pair; no interpolation
+or tolerance relaxation was used.
+
+The technical cause is that `symm_dosk` averages scalar DOS and directional
+first/second derivatives over the momentum-preserving subgroup before the
+positive-DOS support threshold determines state assignment. At Q0 the group
+contains48 operations; at the tested direction it contains4. In plain terms,
+the two paths average different collections of cells before choosing the states.
+The unshifted energy bands alone do not make the representations identical.
+
+Do not fix this by choosing an artificially tiny Q. The paired moment readback
+(response_symmetry_moment_result.json) shows why: averaging an odd directional
+velocity over full symmetry cancels it before it is squared. At2K the full-group
+squared-mean diagnostic is about-1.58e-7 instead of the direct0.00814488.
+These are diagnostic code units with an imposed1.5meV gap, not physical material
+response. Both groups' all-support second moments still match their fine-grid
+reference; changing Q changes that reference by less than5e-16 relative.
+
+A candidate next method is a Q0-compatible tensor/second-moment representation,
+with transformation of directional quantities treated consistently. This is
+preferred for investigation over silent vector interpolation because it retains
+the matched scalar layout and the measured moment identity. It is not yet an
+implemented or qualified fix. An anisotropic gap requires a demonstrated crystal
+symmetry condition, correct resolved/single-state treatment, and convergence;
+the constant-gap identity alone does not supply those. Mass/vertex and functional
+accuracy remain independent gates.

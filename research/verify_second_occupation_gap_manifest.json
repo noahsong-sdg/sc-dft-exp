@@ -1,0 +1,95 @@
+{
+  "question": "Does the second measured occupation enrichment reduce the full native Q0 gap residual to the unchanged stationary targets?",
+  "source_revision": "0462061",
+  "current_source_snapshot": "994d56b",
+  "candidate_sha256": "1545912974f564a9b42b60cb00c532a6a439659ddf87b381ce604b0eebbe2ae7",
+  "acceptance": "GAP_SEED_VERIFY_GATE.md; exact input-vector preservation, full finite residual inf<=1e-10Ry and RMSresidual/RMSgap<=1e-5 for stationary-residual certification; conditioning/response accuracy separate",
+  "guard_seconds": 1200,
+  "group_rss_cap_bytes": 3221225472,
+  "launch_normal_seconds": 120,
+  "status": "Prepared only; wait for symmetry assignment owner88911 terminal",
+  "decision": "Rank34 reduced PASS and criticalmode retained, but amplitude changes10.35%. The exact-at-prior-candidate enrichment supplies a testable improvement hypothesis. Previous full599.926s/952MB and cumulative4482.924s native usage justify one further1200s pass within4h. No cheaper test certifies full residual. Reassess residual contraction and remaining gates before any subsequent full pass.",
+  "executable_reuse": "Unchanged hash-bound native executable; no source or numerical threshold changes",
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/gap_seed_io.f90",
+      "bytes": 2236,
+      "sha256": "12b8e04e9a6c0c3f6d4a990dc1f26a9b0603e8f3e7ce1ec8360d1242193bfc28"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/nonlinear_map_probe.f90",
+      "bytes": 5936,
+      "sha256": "8f268526d2f647336e5e24458ff85c7b822a4deaed4760a2a6a4f869fb7fee7f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/nonlinear_map_probe.mk",
+      "bytes": 2397,
+      "sha256": "42436a4fe4a70ba44534c33fb3c5be4d2147d8990c7cb4ef7090e9a02fe90dfa"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/full_nonlinear_probe.f90",
+      "bytes": 4579,
+      "sha256": "c3601b2e13d77c49ae84461ef21027d8eb43e895c0144b3bd8a72adb6cc88d34"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/nonlinear_tile_apply.f90",
+      "bytes": 1035,
+      "sha256": "71f70997604f37f3c5f5db6d406a377ea91e1a50b5d78ca520e0294cf7f4c739"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-gap-build-001/build.log",
+      "bytes": 32758,
+      "sha256": "1dd3b74f251227aef3094a26ea09acf6f3d826de6ad91c15eeacac77d6bddbfb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-003/verify-gap-seed.x",
+      "bytes": 7784672,
+      "sha256": "c49f5c8d6fdb12f1725118f377a7501fb8c455c991485060bb6736f2780f6c18"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-003/native.in",
+      "bytes": 430,
+      "sha256": "8aebd2e7b1f538a2ec39489e24a146bf93689bab92812de62ea65fd0bb4e9dcc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-003/map-control.in",
+      "bytes": 139,
+      "sha256": "81c10f2ae79de44b1a886cbefa5ddfb4bf16f9b52184d3844bc0cd7a43344e42"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-003/gap-seed.meta",
+      "bytes": 287,
+      "sha256": "78e4acf5dedf8e76575c350885a0d05e507101b759739d27639890666ae30549"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-003/matdyn0",
+      "bytes": 1916,
+      "sha256": "96bf9e490721008167c28f83b76b13e47fe88d78b7eff6d95a1807c603dda5c8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-003/seed-control.in",
+      "bytes": 135,
+      "sha256": "5f5fc9a558f54ae1e9ea34ba155274301f38f03501b90c517a900fae82743f5f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-003/gap-seed.bin",
+      "bytes": 1087040,
+      "sha256": "1545912974f564a9b42b60cb00c532a6a439659ddf87b381ce604b0eebbe2ae7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/run-verify-reduced-gap-003.py",
+      "bytes": 1988,
+      "sha256": "3222fbfb9b6936d0dd1a570cdc7ea0ac0063042d57f2fa7887bc50204e1fbb85"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/second_occupation_reduced_result.json",
+      "bytes": 1852,
+      "sha256": "dc9304728d004089a514f57009737a3dc9923da077328dec3ab50a8157c7e208"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/second_occupation_reduced_manifest.json",
+      "bytes": 4141,
+      "sha256": "ce89ef15c4e8799a2dd146431df686f38110043c5aeca1efffe7ae6e61f85176"
+    }
+  ]
+}

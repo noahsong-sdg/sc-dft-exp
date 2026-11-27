@@ -32,7 +32,8 @@ residual 4.58e-8 Ry and residual/gap RMS ratio 0.00213. No stationary gap has
 yet been accepted. A second measured occupation defect now supports a prepared
 rank34 reduced pilot. Direct response-assignment reuse failed because the
 directional and Q0 paths produce different state counts; a symmetry-selection
-control is prepared.
+control restores the layout, identifying symmetry selection as the cause in
+this tested pair. This is a geometry diagnostic, not a production response fix.
 No speedup against an equivalently
 qualified full solve is claimed. The [gap-to-response mapping audit](research/GAP_RESPONSE_MAPPING_GATE.md)
 identifies the energy-resolved and single-state branches that a subsequent
