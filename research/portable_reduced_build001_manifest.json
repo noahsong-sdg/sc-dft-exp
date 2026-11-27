@@ -1,0 +1,94 @@
+{
+  "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-reduced-build-001",
+  "command": [
+    "/usr/bin/make",
+    "-f",
+    "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/reduced_nonlinear.mk",
+    "QE_ROOT=/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe",
+    "reduced-nonlinear-solve.x"
+  ],
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/reduced_nonlinear.mk",
+      "bytes": 770,
+      "sha256": "d902957f19e6c13a1c1ab6fabb7acf10b2c99ae777dde22e1d4a259a413ede90"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/reduced_nonlinear_core.f90",
+      "bytes": 3422,
+      "sha256": "6cf26866b97ca441f25af90cdeff3e426a960953c5d7f25431975d975f08d607"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/reduced_nonlinear_driver.f90",
+      "bytes": 7125,
+      "sha256": "a29cc3e883334d5ec92057bcd5e629d54cb4562af377f90f50e0680c3a95f813"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/macos_native_guard.py",
+      "bytes": 8195,
+      "sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_response_sources.json",
+      "bytes": 1975,
+      "sha256": "a61610cec78189e3c7f8c3f00483deb0195f897d0d9699cad57b22211bc2e36d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/build-result.json",
+      "bytes": 4654,
+      "sha256": "bbeedad010efbf5a0a645bdc45786b9e0001719c97a0a0158cd2e56e6589ebb5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/make.inc",
+      "bytes": 6624,
+      "sha256": "1e2b920b258b45d61ee9114938e8622a2302111b0ad460642b33d4dcb29d4c65"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/kinds.mod",
+      "bytes": 1369,
+      "sha256": "87600ad9c2f1ce1f150ad394504dca2adb6690fa4ae62879941afe8235932e2c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/constants.mod",
+      "bytes": 2702,
+      "sha256": "7ee7a51768d03476144e3ae94c79fc1f4cd9823b324972943a3193755b3bb1d2"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/kind.f90",
+      "bytes": 3209,
+      "sha256": "e21d679a4fbd9b115c6f07777dc2a92a0b8c492da9415ba64e18063f7f3ec6b6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/constants.f90",
+      "bytes": 5984,
+      "sha256": "56c39e90c6f0592aff13972cd090292024a3d4e9e86d0ce4fdfdb5643f1ac1c0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/lapack-build/lib/libblas.a",
+      "bytes": 408608,
+      "sha256": "7e9d7deb845da206e72e1c64401d2e86aeb9ad52581c5f6c28237b7bada12569"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/lapack-build/lib/liblapack.a",
+      "bytes": 8463672,
+      "sha256": "fd609240dea1e3a9bcb79fc59db48f0bc3de32fc5159ec8b1b48462bfb82a362"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/gcc/16.2.0/bin/gfortran-16",
+      "bytes": 3039240,
+      "sha256": "3adab458e780ec0c1d831e84a50214dd52ba0e8c2a9b805e0e40a1f2b0f6ca39"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/gcc/16.2.0/libexec/gcc/aarch64-apple-darwin25/16/f951",
+      "bytes": 50469552,
+      "sha256": "ce2e2001e5c4281c9c07d524d3497afc07b3f48a616327ded1cee7a520ba2e2c"
+    }
+  ],
+  "guard_seconds": 120,
+  "launch_normal_seconds": 120,
+  "historical_custom_objects_used": false,
+  "acceptance": "Fresh source-only reduced nonlinear driver build; compiled binary is not a qualified material seed or gap.",
+  "forecast": "Existing file-bound fixture build/solve1.369s; actual public-config compile/link estimated1\u20135s, not bound.120s/3GiB/quiet120.",
+  "launch_after": "64-vector controller39727 terminal; no competing native owner",
+  "scope": "Build only. Runtime requires separately qualified mode residual<=1e-9 and branch/input checks."
+}

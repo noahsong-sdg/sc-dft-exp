@@ -1173,3 +1173,17 @@ controller uses unchanged stage/guard/certify; stops on any failure, publishes
 each checkpoint, no automaticretry or continuation beyond028.025 staged.
 No maintained code changed;184tests/193compilations/moment lastPASS; diffcheck
 PASS. PublicCI46079644918 oned31f78 PASS. Scientific goal active.
+
+
+## Public-configuration reduced solver build prospectively staged
+
+portable-reduced-build-001 pins its standalone Makefile, unchanged solver
+sources, public QE source-build certificate/source manifest, kinds/constants
+modules and sources, configured BLAS/LAPACK archives, compiler/frontend and
+guard. Public/consumed manifest identical. Build-only120s/3GiB/quiet120, estimate
+1–5s from1.369s file-bound fixture, not bound. No historical custom objects.
+Launch only after controller39727 is terminal and no competing native owner.
+This avoids future build coupling but cannot establish material convergence;
+runtime still requires1e-9 mode/branch/context gates. No launcher started.
+No maintained code changes. Last184tests/193Python compilations/moment PASS;
+diffcheckPASS. New build cost will be added to guarded ledger on execution.
