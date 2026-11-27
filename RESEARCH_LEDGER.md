@@ -3607,3 +3607,10 @@ diffcheckPASS. New build cost will be added to guarded ledger on execution.
 Rows1:16384 terminal PASS, wall215.1442197500728s, individualpeak1023655936B, sampledgroup973586432B. Public/consumed manifest equality and original native certificate/postrun checks PASS. New guarded total10204.492062751055s; historical189.29min separate.
 Next026 prospectively staged rows16385:32768,600s/3GiB/quiet120.
 No maintained code/threshold changes. Scientific gap and response acceptance remain incomplete.
+
+
+## Bounded64-vector controller checkpoint026
+
+Rows16385:32768 terminal PASS, wall219.73603058373556s, individualpeak1037516800B, sampledgroup987529216B. Public/consumed manifest equality and original native certificate/postrun checks PASS. New guarded total10424.22809333479s; historical189.29min separate.
+Next027 prospectively staged rows32769:49152,600s/3GiB/quiet120.
+No maintained code/threshold changes. Scientific gap and response acceptance remain incomplete.
