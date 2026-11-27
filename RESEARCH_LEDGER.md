@@ -2491,3 +2491,18 @@ Measured recovery supports~170–250s scheduling estimate, not a runtimebound;
 normalpressure still required.153tests/compilation/moment gates lastpassed;
 CI46045523713 on c06849bPASS. No new code changes or verification reruns required
 for this result/manifest-only step. No watcher before publication/launch.
+
+
+### Fresh-basis stage admission prepared
+
+New portable_basis_partial stager requires unchanged certified uncachedZ oracle
+outputs plus completed ordered-sweep proof. It rejects changed sample or fullZ
+identities, pins the complete pairing-only/nativebasis source/library closure,
+and checks geometry/buildcontext before creating a fresh destination. No
+staging from partialZ or failedwork. Prospective420s/3GiB/quiet120,16freshtrials
+and four64row blocks. Runtime/sourcecompilation of basispartial remain pending
+acceptedfullZ; no native launch here. Existing synthetic certificate test now
+checks downstream acceptance and rejects postcertificate samplemutation.
+153offline testsPASS16.624s; all167maintained Python sources compile; momentreplay
+and diffchecksPASS. No separatetypecheck configured. Recovery003guard44648/
+session53486 confirmedlive in quietgate; do not duplicate.

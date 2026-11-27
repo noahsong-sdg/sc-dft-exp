@@ -94,6 +94,14 @@ class ZOracleCertificateTest(unittest.TestCase):
                     self.assertTrue(result['six_full_sums_bitwise_equal'])
                     self.assertFalse(result['physical_response_verified'])
                     self.assertEqual(len(result['samples']),6)
+                    from portable_basis_partial import accepted_oracle
+                    _,geometry,source=accepted_oracle(root)
+                    self.assertEqual(source,completed)
+                    self.assertEqual(geometry,base/'geometry')
+                    changed=bytearray(data);struct.pack_into('<d',changed,0,.5)
+                    (root/'z-oracle-samples.bin').write_bytes(changed)
+                    with self.assertRaisesRegex(ValueError,'Changed or unqualified'):
+                        accepted_oracle(root)
                 else:
                     with self.assertRaises(ValueError):oracle.certify(root)
                     self.assertFalse((root/'z-oracle-result.json').exists())
