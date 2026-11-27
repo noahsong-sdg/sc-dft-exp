@@ -1,5 +1,7 @@
 # Research restart ledger
 
+Completion remains unproved: [campaign requirements audit](research/CAMPAIGN_REQUIREMENTS_AUDIT.md) maps all ten original deliverables and the decisive remaining gates.
+
 ## Current checkpoint — full owner live; response assignment prepared only
 
 Verified native PID82047 (watcher76156/session57262) live at elapsed5:33,
