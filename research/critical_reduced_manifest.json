@@ -1,0 +1,79 @@
+{
+  "question": "Does including the measured critical mode stabilize the enriched nonlinear candidate?",
+  "basis_columns": 33,
+  "beta": 19613.355577892344,
+  "context": "abfcecc2bacf7acac94a87e8d7cf4e88945bc589fea82dc9475106428818b74c",
+  "initial_amplitude_mev": 0.15,
+  "guard_seconds": 120,
+  "rss_cap_bytes": 3221225472,
+  "launch_normal_seconds": 120,
+  "decision": "No live scientific owner; rank33 reproduces measured critical mode/image to1.4e-14 norm. One cheap reduced solve at unchanged seed/criteria before full native validation",
+  "acceptance": "REDUCED_NONLINEAR_GATE.md; full native validation separately required",
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/reduced-nonlinear-003/reduced-nonlinear-solve.x",
+      "bytes": 87032,
+      "sha256": "e2d39193bf803ca9033ecfdf76fa76e8ced2b217a315005c20926f511dd25490"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/reduced-nonlinear-003/reduced-control.in",
+      "bytes": 438,
+      "sha256": "907884d3173ab136339ad10e79b7a5591c9c5aa2a9285457efad1e2f6c5d3843"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/run-reduced-nonlinear-003.py",
+      "bytes": 1953,
+      "sha256": "d1bdcab11d8f70060fde7e0b8594d8cf0c851d6a4bdabe023e40288b7873dda5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/enriched-basis-002/basis.meta",
+      "bytes": 187,
+      "sha256": "e01c8450e05dbebe7a2972945e021806ff55d4c0fc8c4254cb85f4f204520624"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/enriched-basis-002/basis.bin",
+      "bytes": 71744640,
+      "sha256": "b592f0ca77141ef9105abf817e1702de50e4768088ec7e64f755638758dd3021"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/enriched-basis-002/enrichment.json",
+      "bytes": 3342,
+      "sha256": "ee315002bef5a522f9f8c5671d7ed83e60620bf1748b16878927d26323c80a80"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/occupation_enrichment.py",
+      "bytes": 2218,
+      "sha256": "61b3eaccd5e9406bf4c1ad9787ecf589391cc3632a484129e0b43cc1702bb901"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/prepare_critical_mode_enrichment.py",
+      "bytes": 5606,
+      "sha256": "93a99d0d88b9b5e742134fe69d4c10ca30d428ce65e01bf2238495f66dcd5508"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.meta",
+      "bytes": 335,
+      "sha256": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.bin",
+      "bytes": 6523840,
+      "sha256": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/fresh-action/basis.meta",
+      "bytes": 202,
+      "sha256": "d45564e51567f33ebb512c33df91215534eecc032422986f218e86bd4f6066d7"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/fresh-action/selected.meta",
+      "bytes": 78,
+      "sha256": "1253b6c7975ad57363a62f8fd9441b6eb1a6ec5c88ba3cef6d466b5d24239687"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/fresh-action/selected.bin",
+      "bytes": 2174080,
+      "sha256": "b7f1d360f9f5fdc08b758026a15cd1bd559fd55aba26c3ee9fcb988745c3d8e1"
+    }
+  ]
+}

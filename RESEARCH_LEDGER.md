@@ -1,5 +1,28 @@
 # Research restart ledger
 
+## Latest priority — measured mode now represented; rank33 pilot ready
+
+Previous turn made progress: rank32/audit31ab819 public,CI45977175906 SUCCESS.
+New prepare_critical_mode_enrichment.py binds currentbasis hashes, amplitude
+runtimeinputs/terminalreceipt/publishedoutputhashes and exactbeta/context/config.
+Filefixture uses known nonsymmetric image and rejects stale/failedreceipt before
+output. All71tests PASS6.317s; compileall/diffcheck PASS. No Fortran changed;
+retained reducedexecutable hash unchanged. No live scientific owner remains.
+
+Material rank32->33 preparation PASS17.41s/183631872-byte peakRSS (Python
+preparation timing, separate nativeaccounting). Newmode projectiondefectnorm
+1.1421e-14,actiondefectnorm1.3708e-14,maxactionerror1.2880e-16; newdirection
+norm1 andoldoverlap7.62e-19. This qualifies reproduction of the measuredmode,
+not all U actions, a nonlinearroot or physicalresponse. See
+critical_mode_enrichment_result.json and raw/enriched-basis-002.
+
+Fresh raw/reduced-nonlinear-003/executable/control prepared,same0.15meVseed.
+critical_reduced_manifest.json pinsallruntimeinputs,launcher rechecks before
+execution. Next launch raw/run-reduced-nonlinear-003.py under120 quietnormal
+seconds/120s/3GiB,oneowner. Strict candidate readback and branch/conditioning
+review precede onepossible fullnativevalidation atunchanged1e-10Ry/1e-5targets.
+Goal active; ceiling2026-11-27T17:41Z. No newgap accepted.
+
 ## Latest priority — rank32 reduced PASS; add measured critical mode next
 
 Previous turn made progress: source-bound preparation9c6ec35/owner27945ad.

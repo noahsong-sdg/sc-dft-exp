@@ -139,3 +139,22 @@ next experiment, rather than spending a full pass on rank 32 first.
 Neither reduced runtime includes preparing the original 31-vector basis or
 upstream microscopic inputs. Their complete historical preparation cost remains
 unresolved; no end-to-end acceleration follows from these timings.
+
+## Measured critical-mode direction prepared
+
+`prepare_critical_mode_enrichment.py` binds the basis to its manifest and the
+completed amplitude run to its exact runtime inputs, terminal receipt and
+published output hashes. Both bases must share beta, operator context and
+configuration. It appends the omitted mode component and measured linear image
+using matching orthogonalization subtractions. A file fixture verifies a known
+nonsymmetric image and rejects a failed/stale receipt before creating output.
+
+Rank 32 -> 33 preparation passes in 17.41 s / 183631872-byte peak RSS. The new
+mode projection defect norm is 1.1421e-14, action defect norm 1.3708e-14 and
+maximum action error 1.2880e-16. This verifies reproduction of the measured mode,
+not all inherited actions or a nonlinear root. See critical_mode_enrichment_result.json.
+The prospective critical_reduced_manifest.json pins one unchanged-executable
+reduced pilot with the same 0.15 meV branch seed and 120 s / 3 GiB guard after
+120 quiet normal seconds. All 71 local regressions pass (6.317 s), including
+native fixtures; Python compilation and diff checks pass. Fortran source and
+the previously qualified native executable have not changed.
