@@ -62,3 +62,27 @@ error. Computing this known direction's linear action during full validation
 could check the identity and provide a new basis image for enrichment without
 another kernel pass. It needs a separate tested output schema and native control;
 this loader change does not implement or establish that method.
+
+## First material candidate: full targets failed
+
+The explicit-candidate run completed in 785.634 s with 904052736-byte peak RSS.
+Terminal guard, initialized-state/Z checks, exact candidate preservation and
+strict full-map readback pass. Tile-sum discrepancy is 4.38e-15 and analytic
+Jacobian/finite-difference discrepancy is 3.39e-9, below its declared bound.
+
+The full residual infinity norm is 8.95904547e-8 Ry, and RMS residual/gap is
+0.00236268943. Both fail the prospective thresholds. The reduced coefficient
+residual of 2.09e-17 therefore did not qualify a full-space gap. This is a
+representation failure at the tested point, not a native execution failure or
+evidence that all reduced methods fail. See verify_reduced_gap_result.json,
+which includes the terminal receipt and prospective-manifest hash.
+
+`occupation_enrichment.py` implements the algebraic next step, independently
+tested on a nonsymmetric dense operator. With p=Q^T*f, form e=f-Q*p and
+A0*e=F(delta)-U*p from the measured full image. Orthogonalize both vectors using
+matching Q/U subtractions, normalize them together and append one column.
+This reuses the validation rather than spending a kernel pass merely to obtain
+the new image. Unresolved directions are rejected. No inherited-action
+consistency or new material result follows from that identity; a subsequent
+candidate still needs a fresh native check. File-bound material preparation
+and the next reduced solve are not implemented at this checkpoint.

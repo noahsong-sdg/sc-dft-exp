@@ -5,8 +5,10 @@ The tested seed is unconverged; no new gap or response prediction follows.
 The subsequent amplitude pass independently reproduced the stored conventional
 mode action and located a projected sign change between 0.10 and 0.15 meV.
 A retained-basis nonlinear candidate then converged in 1.07 s / 113 MB peak RSS,
-with mean Fermi gaps 0.1663/0.1653 meV at 8.05 K. Its full native validation is
-running at this checkpoint. A tiny coefficient residual does not certify a
+with mean Fermi gaps 0.1663/0.1653 meV at 8.05 K. Its full native validation
+completed in 785.63 s / 904 MB but failed both stationary-residual targets:
+8.96e-8 Ry infinity norm and 0.00236 RMS residual/gap. Exact input preservation
+and native controls pass. A tiny coefficient residual did not certify a
 full-space gap. See REDUCED_NONLINEAR_GATE.md and GAP_SEED_VERIFY_GATE.md.
 
 # Scientific decision checkpoint
@@ -106,10 +108,10 @@ Mac runtime forecast is justified by the cluster logs alone.
 
 ## Next decisive evidence, in order
 
-1. Finish the source-bound native validation at the reduced candidate, requiring
-   exact vector preservation and the preregistered full residual targets. If it
-   fails, use the measured defect to judge basis enrichment rather than treating
-   reduced convergence as acceptance.
+1. Use the measured occupation defect and full image to enrich the reduced basis,
+   then test the new candidate against the same native acceptance targets. The
+   algebraic identity passes independent nonsymmetric tests; material preparation
+   and a new native check remain pending.
 2. Qualify conditioning and refinement of a successful gap. A point residual
    alone cannot bound gap error near the transition.
 3. Connect that gap to the same-cell anisotropic response using the verified

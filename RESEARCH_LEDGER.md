@@ -1,5 +1,31 @@
 # Research restart ledger
 
+## Latest priority — full candidate failed targets; enrichment identity tested
+
+Previous turn made progress: public status/cost checkpointb3c3a24.
+Owner54858 TERMINAL guard PASS785.634426s/904052736-byte peak RSS. Exact seed
+preservation, strict full reader, native tile/Jacobian checks PASS. FullRinf
+8.95904547e-8Ry and RMSR/RMSgap0.00236268943 FAIL thresholds1e-10/1e-5.
+No accepted new gap/response. verify_reduced_gap_result.json includes receipt
+and prospective manifest hash. No live scientific owner remains.
+
+Root cause: retained31-vector reduced map omits the nonlinear occupation
+component outsideQ; its tiny coefficient residual did not bound fullresidual.
+New occupation_enrichment.py forms e=f-Qp and A0e=F-Up, reorthogonalizes with
+matchedQ/U subtractions and normalizes together. Independent nonsymmetric
+operator tests verify newimage=A0*newdirection and roundoff/nonfinite/invalid
+basis rejection. This is the smallest algebraic improvement using the existing
+fullvalidation; it avoids a separate native action solely for a new basis image.
+Inherited-action consistency and subsequent full native residual remain gates.
+All68 localtests PASS6.195s; compileall/diffcheck PASS. Material file-bound
+preparation and enriched solve have not been implemented/launched.
+
+Terminal accounting31attempts,20PASS/11FAIL,3845.344s guardedwall. LatestCI
+45975310057 SUCCESS for earlier snapshot. Next: source-bind oldbasis/fullresult,
+prepare one enriched basis, run cheap reduced solve with existing guard, then
+consider one fullnative validation if it qualifies. Preserve exactbeta/context,
+inputhashes, original failedcandidate and same residual targets. Goal active.
+
 ## Latest priority — public evidence overview refreshed; full validation live
 
 Previous turn made progress: gap-response mapping audit publishedb2ae392.
