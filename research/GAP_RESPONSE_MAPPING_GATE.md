@@ -237,3 +237,12 @@ effect. Do not infer an observable error from these norms alone.
 
 The gap-orbit implementation before this reusable-vector adapter is c4c7496;
 historical source hashes retain their original meaning.
+
+## Rank35 orbit follow-up
+
+The same audit takes19.36s/87162880-byte peak RSS. Geometry and all6,470,736
+comparisons still match exactly. Maximum gap-orbit variation falls to
+1.70426e-9Ry, or7.21061e-5 of the global gap maximum (0.00721%), about4.1times
+smaller than rank34. It still fails1e-10. See rank35_gap_symmetry_result.json.
+This is consistent with enrichment improving the candidate's symmetry, but
+its full residual is still being evaluated and response impact is unbounded.

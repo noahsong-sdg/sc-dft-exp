@@ -185,3 +185,19 @@ accurate to1.0032e-12 in the driver diagnostic. Full native residual is unknown.
 See second_occupation_reduced_result.json with receipt and manifest hash. This
 continued amplitude sensitivity prohibits treating reduced convergence as
 physical or full-space convergence. No additional full pass has launched.
+
+## Rank35 reduced candidate and next full check
+
+Terminal guard PASS0.703092s/126173184-byte individual peak RSS. Four Newton
+iterations reach coefficient residual1.99493e-17. Strict readback passes; Fermi
+means0.1533366410/0.1524306759meV decrease0.510/0.511% from rank34, compared
+with the preceding10.35% shift. The driver's mode-projection error remains
+1.00316e-12. See third_occupation_reduced_result.json with receipt/manifest.
+
+The rank34 full residual had contracted19-fold in RMS ratio. Together with
+this smaller candidate change and the measured524.86s/934MB native cost, that
+justifies one next full check. verify_third_occupation_gap_manifest.json pins
+the unchanged executable, new exact seed and original1e-10Ry/1e-5 targets.
+Owner2285 is waiting behind120 quiet normal-pressure seconds, then1200s/3GiB;
+no other production owner is active. No full residual or conditioning claim
+is made for rank35 before terminal readback.

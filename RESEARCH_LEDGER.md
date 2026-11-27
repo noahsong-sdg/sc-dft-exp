@@ -1,5 +1,21 @@
 # Research restart ledger
 
+## Latest — rank35 reduced PASS; full owner2285 waiting
+
+Owner47395 TERMINALPASS0.703092s/126173184B. StrictreaderPASS4iterations,
+coefficientresidual1.99493e-17,means0.1533366410/0.1524306759meV,~0.51%below
+rank34. third_occupation_reduced_result.json bindsreceipt/manifest. Previous
+rank34fullRMScontraction19x andsmallermeanchangejustifyonenewfullcheck.
+verify_third_occupation_gap_manifest.json pinsseed a7b1130b02f9a462766828a767c255f0c79ce1c1c511a4b7ffa3b85b9adb016f,
+sameexe/targets. Owner2285/PID52961 verifiedlivewaitingnormalpressure1.
+Pollsameowner, no competingnativejob.
+
+Rank35gap-orbitaudit owner47494 TERMINAL19.36s/87162880B; geometryexact,
+relativegapvariation7.21061e-5 (~4.1xsmallerthanrank34) stillFAIL1e-10.
+rank35_gap_symmetry_result.json preservesresult. No nativeexperimentlaunchedbyit.
+Source/code519e383public includesmaterialrelative-selectorPASSandmeasuredmode
+orbitcontrol,78testsPASS5.384s; publicCI45985196843PASSfor519e383. Goal active.
+
 ## Latest — relative selector material PASS; linear-mode orbit control measured
 
 Owner39794 TERMINALPASS34.688s/195182592B. Relative-selector geometrypasses

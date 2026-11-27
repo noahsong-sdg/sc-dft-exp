@@ -54,9 +54,9 @@ postprocessing entry point is not established by this trace.
 
 [campaign_native_resource_accounting.json](campaign_native_resource_accounting.json)
 snapshots terminal native guard receipts, including prelaunch and failed attempts.
-Recompute with `python3 research/resource_accounting.py`. After the relative-selector
-material control, 40 terminal attempts total
-5111.564 s: 4843.863 s in 29
+Recompute with `python3 research/resource_accounting.py`. After the rank35
+reduced pilot, 41 terminal attempts total
+5112.267 s: 4844.566 s in 30
 guard-PASS attempts and 267.701 s in 11 failures. The full-candidate execution
 passed its guard but failed its numerical residual targets. Guard PASS alone is
 not scientific acceptance. Waiting, builds,
