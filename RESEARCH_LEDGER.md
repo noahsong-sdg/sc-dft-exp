@@ -77,3 +77,13 @@ Command: python3 research/full_current_probe.py (success). See finding table.
 Public archive lists pwscf.scgap for V3Si, but whether this contains sufficient
 xi/dxq/d2xq/weights for current replay remains unverified. Next inspect format,
 byte size and source IO path before downloading or launching production.
+
+## Saved-state compatibility result
+
+Range/header and historical writer confirm public V3Si scgap has five floats
+and omits required curvature d2xq. Current writer adds a sixth float. Replay
+from scgap alone is not supported; explicit stale-schema rejection added.
+See SAVED_STATE_AUDIT.md. No large download/native job. Heavy unrelated VM is
+active; leave it alone. Next: validate narrowly corrected full routine against
+direct identities, inspect state reconstruction path, then assess a lightweight
+dump or regeneration pilot if justified and resources permit.
