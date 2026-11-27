@@ -1,5 +1,20 @@
 # Research restart ledger
 
+## Latest — rank35 full FAIL, improves again; cache owner19935 waiting
+
+Owner2285/child57859 TERMINAL guardPASS587.598004s/934281216B. Strict
+verify_gap_candidate PASSreadback but stationarytargets FAIL: Rinf1.048787914e-9Ry
+(10.49xtarget), RMSratio1.676594816e-5(1.677xtarget). Tile3.6852e-15,
+JacFD3.41409e-9 below1.04530e-5 bound; imposedseed bitwise preserved.
+`verify_third_occupation_gap_result.json` binds manifest/receipt/payloadhashes.
+FullRMSratio improves6.68x andRinf4.78x vsrank34; no conditionedgap orphysical
+response acceptance. Validation figure now includes this failed full check.
+
+Owner19935/PID74820 is the only pending native launcher, waitingnormalpressure
+for response-moment-cache-001. Verifiedlive. Do not start anothernativejob.
+New anisotropic_moment_analysis.py implementation/tests are workinprogress;
+public code aa5e45d contains only cache export/reader and preparedmanifest.
+
 ## Latest — opt-in raw/averaged moment cache prepared
 
 New `MOMENT_CACHE=1` diagnostic exports DOS/m1/m2/curvature before and after

@@ -13,7 +13,8 @@ REDUCED = ['reduced_nonlinear_result.json', 'enriched_reduced_result.json',
            'third_occupation_reduced_result.json']
 FULL = {31: 'verify_reduced_gap_result.json',
         33: 'verify_critical_gap_result.json',
-        34: 'verify_second_occupation_gap_result.json'}
+        34: 'verify_second_occupation_gap_result.json',
+        35: 'verify_third_occupation_gap_result.json'}
 
 
 def main():
@@ -42,7 +43,7 @@ def main():
     for ax in axes:
         ax.set(xlabel='Basis rank', xticks=ranks)
         ax.grid(alpha=.2)
-    fig.suptitle('Nb fixed-input candidate study: full rank35 validation pending', fontsize=11)
+    fig.suptitle('Nb fixed-input candidate study: ranks31/33/34/35 full-validated; none accepted', fontsize=11)
     out = ROOT / 'figures'
     for suffix in ['png', 'pdf']:
         fig.savefig(out / f'gap_validation.{suffix}', dpi=180)
