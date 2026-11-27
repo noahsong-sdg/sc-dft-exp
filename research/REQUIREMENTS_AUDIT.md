@@ -17,16 +17,16 @@ fixture does not close a material-validation requirement. The live
 | Separate error sources | CAMPAIGN_REPORT.md; ANISOTROPIC_MOMENT_GATE.md; PHYSICAL_INTERPRETATION_GATE.md | Operation-specific averaging bound measured; larger grid/basis/derivative effects remain. Total physical error unbounded. |
 | Newly practical scientific decision | CAMPAIGN_REPORT.md | Practical numerical-method diagnosis demonstrated with retained inputs. New reliable material decision remains unproved. |
 | Current important gap/demand | CURRENT_LANDSCAPE.md; UPSTREAM_STATUS_AUDIT.md | Existing competitors checked; generic saturation/demand thesis unsupported. No outreach or interviews. |
-| Strongest contribution within window | CAMPAIGN_REPORT.md; patches/README.md; public reproduction pipeline | Focused numerical correctness/moment audit is supported. Portable source/input run and final recommendation pending. |
+| Strongest contribution within window | CAMPAIGN_REPORT.md; patches/README.md; public reproduction pipeline | Focused numerical correctness/moment audit is supported. Portable source/input response run passes. Full prediction and final recommendation pending. |
 
 ## Required durable deliverables
 
 | Item | Evidence checked | Status |
 |---|---|---|
 | 1. Clear question/current decision | PROJECT_SPEC.md; DECISION_STATUS.md; CAMPAIGN_REPORT.md | Present, provisional; final continue/narrow/pivot/stop still needed. |
-| 2. Retrieval/evidence manifest | retrieval_manifest.json; public_response_inputs.json; public_response_sources.json; source/result manifests | Present; public source and input hashes verified on acquisition. Isolated run pending. |
+| 2. Retrieval/evidence manifest | retrieval_manifest.json; public_response_inputs.json; public_response_sources.json; source/result manifests | Present; public source and input hashes verified on acquisition. Isolated response run PASS33.24s/187MB; all8exports bitwise match. |
 | 3. Complete workflow/cost ledger | WORKFLOW_COSTS.md; resource_accounting.py + regression; historical source-clock manifest | Present with explicit unknowns. Final terminal-attempt accounting must be refreshed. |
-| 4. Tested code/runnable commands | research tests; public CI; PUBLIC_RESPONSE_REPRODUCTION.md | Offline suite94 tests passes locally. Fresh native integration remains open; CI for interface fix907ecd5 passes (run45992021572). |
+| 4. Tested code/runnable commands | research tests; public CI; PUBLIC_RESPONSE_REPRODUCTION.md | Offline suite99 tests passes locally. Fresh response integration passes; CI for interface fix907ecd5 passes (run45992021572). |
 | 5. Standalone figures/provenance | figures/README.md; PNG/PDF and source hash files | Present. Rank36 validation figure visually inspected; final snapshot must match final results. |
 | 6. Reproduction/sensitivity | archived Nb gate; extraction figures; direction/refinement and moment analyses | Present with bounded claims. Peak extraction, derivative and physical gates unresolved. |
 | 7. Qualified improvement/held-out validation or no-improvement verdict | thermal/current/RHS fixtures and high-precision controls; second-moment exact identities; candidate full checks | Specific numerical corrections and diagnostics supported; no qualified total material-response improvement. Final scope/validation judgment pending. |

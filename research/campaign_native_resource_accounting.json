@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-27T11:35:13.051626+00:00",
+  "as_of_utc": "2026-11-27T11:53:36.738705+00:00",
   "attempts": [
     {
       "path": "full-nonlinear-001/results/moment/receipt.json",
@@ -332,6 +332,39 @@
       "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
     },
     {
+      "path": "public-response-build-control-003/results/build/receipt.json",
+      "receipt_sha256": "7c47cd1a4c4678f1424bd47a9b9ce3ce910d258c93109efac70d5608da8c5321",
+      "status": "FAIL",
+      "wall_s": 248.84720125002787,
+      "error": "RuntimeError: Native command exit 1",
+      "exit": 1,
+      "individual_peak_rss_bytes": 476594176,
+      "sampled_group_peak_rss_bytes": 660848640,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "public-response-build-control-004/results/build/receipt.json",
+      "receipt_sha256": "f3e7f443111981d1310923797104baf0bea77e70604d5da4b33c4e379298bae5",
+      "status": "PASS",
+      "wall_s": 261.642768249847,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 466403328,
+      "sampled_group_peak_rss_bytes": 503365632,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "public-response-run-001/results/moment/receipt.json",
+      "receipt_sha256": "e0ae302c98af7c64182cd14a6f58af7f9627493c353adba06754cb4bfc6243e7",
+      "status": "PASS",
+      "wall_s": 33.23541708337143,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 187170816,
+      "sampled_group_peak_rss_bytes": 183861248,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
       "path": "quadrature-audit-001/results/moment/receipt.json",
       "receipt_sha256": "4aa3133d661539a46bd3c859f31878b03307982d2e27c8b66e90253b2904570a",
       "status": "PASS",
@@ -521,15 +554,15 @@
   ],
   "totals": {
     "PASS": {
-      "attempts": 34,
-      "wall_s": 6050.684256210923
+      "attempts": 36,
+      "wall_s": 6345.562441544142
     },
     "FAIL": {
-      "attempts": 13,
-      "wall_s": 565.781530957669
+      "attempts": 14,
+      "wall_s": 814.6287322076969
     }
   },
-  "total_guarded_wall_s": 6616.465787168592,
+  "total_guarded_wall_s": 7160.1911737518385,
   "scope": "Account for all terminal guarded attempts, including failed/prelaunch ones.\n\nThis includes builds or downloads executed inside a guarded command. It excludes\nlaunch-watch waiting and unguarded compilation, acquisition, Python analyses and\nunmetered model use. Guard PASS is not scientific or physical acceptance.",
   "cpu_time_energy_model_cost": "Not instrumented; no estimates inferred"
 }

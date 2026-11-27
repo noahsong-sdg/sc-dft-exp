@@ -9,8 +9,11 @@ were also freshly downloaded and hash-verified in attempt001. Three failed
 builds preserve compatibility diagnostics; attempt004 now passes from fresh
 extraction/configuration/objects in261.643s, sampled peak process-group RSS
 503,365,632bytes. Source archives alone were reused. See
-public_response_build_result.json. Isolated native execution and output comparison
-remain pending under public_response_run_manifest.json. No gap or Z is generated.
+public_response_build_result.json. The isolated native run passes33.235s/187,170,816B peak individual RSS. All eight
+exports match the retained run bit for bit: constant controls, state assignment,
+rotations, and both moment-cache phases. All31original input hashes are unchanged.
+See public_response_run_result.json and its prospective manifest. No gap or Z is
+generated. This qualifies the response diagnostic, not a physical prediction.
 
 The author [data page](https://mkawamura.ynu.ac.jp/data/) links the coherence-
 length/penetration-depth benchmark release. This workflow retrieves selected
@@ -19,7 +22,7 @@ The preserved full historical manifest listed58assets/1,452,686,099bytes.
 The response-only candidate subset omits26Coulomb `.vel` files and `matdyn0`.
 Source trace: the driver calls `read_file_new(needwf=false)`, `read_a2Fsave`,
 `stdin_scdft`, `read_elph`, and the geometry routines, never `read_Coulomb`.
-Actual isolated execution remains the decisive check on this subset.
+The isolated execution now passes using this subset.
 
 `read_elph -> q_points` generates the working `matdyn0`. Its difference from
 the downloaded file is not a missing input transformation in this path. Preserve
@@ -58,8 +61,8 @@ separate from successful compilation.
 Execute the exact command and environment in `public-run/run-manifest.json`,
 from that file's `cwd`. The campaign additionally applies its120-second
 normal-pressure launch gate,120-second native deadline and3GiB process-group
-RSS guard. Expected native time is37seconds based on the retained-library
-exporter, not a promise about the untested fresh build. Outputs include:
+RSS guard. Measured native times are33.24seconds for the fresh build and37.28seconds for
+the retained exporter. These are separate executions, not a qualified speedup. Outputs include:
 
 - `velocity-moments.txt`: constant-gap controls and fine-quadrature comparison;
 - `response-assignment.{txt,bin}`: native state assignment;
@@ -73,7 +76,7 @@ geometry controls; do not silently conflate the two experiments.
 
 ## What this can and cannot reproduce
 
-If qualified, this gives independent public-input preparation of geometry and
+This gives independently runnable public-input preparation of geometry and
 moment-cache controls, without Coulomb matrices, savedZ, a nonlinear basis or an
 HPC calculation on the user's machine. It does not demonstrate upstream
 microscopic generation on a laptop, solve a self-consistent gap, reproduce the

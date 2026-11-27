@@ -49,8 +49,10 @@ discretization convergence, conditioned gap error and public cold-start inputs
 remain open gates.
 
 The [public-input reproduction path](research/PUBLIC_RESPONSE_REPRODUCTION.md)
-has freshly acquired12.9MB of response-only Nb inputs. Its isolated native build
-and material checks remain in progress; this is not a full SCDFT cold start.
+now passes from12.9MB of author-hosted Nb inputs: fresh source compilation
+261.64s, native diagnostic33.24s/187MB. All eight exported files match the
+retained run bit for bit and the31source inputs remain unchanged. This proves
+diagnostic reproducibility; it is not a full SCDFT cold start or physical response prediction.
 
 Portable regression checks run in [public CI](https://github.com/noahsong-sdg/sc-dft-exp/actions/workflows/research-checks.yml).
 The [first verified run](https://github.com/noahsong-sdg/sc-dft-exp/actions/runs/45956886205)

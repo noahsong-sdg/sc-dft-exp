@@ -32,7 +32,7 @@ its value is not an established new-material discovery capability.
 | Complete native nonlinear evaluation | 908.65s/882MB; tile/Jacobian controls pass | The tested action fits memory without the67.7GiB dense payload | End-to-end solve speedup or new-material feasibility |
 | Rank36 reduced/full pair | Reduced0.893s; full580.35s/938MB; RMS passes, max residual fails | Compression approaches the registered stationary targets | Accepted gap, conditioned error, physical response |
 | Frozen converged archived Nb replay | Released currents reproduced; correction changes2.5–2.8ppm | Synthetic thermal findings need material weighting | Large demonstrated material impact |
-| Public response inputs | 31files/12.86MB downloaded and hash-verified | A small author-hosted response subset exists | Isolated native execution, currently pending |
+| Public response reproduction | Fresh build261.64s; native33.24s/187MB; all8exports bitwise match retained run;31inputs unchanged | Diagnostic is reproducible from public sources/inputs on this Mac | Full SCDFT cold start or physical prediction |
 
 Detailed sources: [moments](VELOCITY_MOMENT_METHOD.md),
 [anisotropic audit](ANISOTROPIC_MOMENT_GATE.md),
@@ -112,10 +112,12 @@ The present data neither prove that broad goal impossible nor satisfy it.
 
 ## Remaining decisive experiments
 
-Finish the pinned public-source build and run only the31 public inputs. Compare
-geometry, raw/averaged cache and controls against the retained native run; verify
-that original inputs stay unchanged. This can establish practical reproducibility
-of the diagnostic, even if the full prediction remains unqualified.
+The pinned public-source build and isolated31-input run now pass. Geometry,
+raw/averaged cache and controls match all eight retained exports bit for bit;
+original inputs are unchanged. This establishes practical reproducibility of
+the diagnostic. The full prediction remains unqualified. The next bounded
+fixed-density band replay tests an upstream reuse substage and measures its cost;
+it does not refine the32³ derivative grid merely by changing XML bands.
 
 Test rank37 cheaply after the build terminates. Consider another full check only
 if the candidate stays numerically stable and the expected information justifies

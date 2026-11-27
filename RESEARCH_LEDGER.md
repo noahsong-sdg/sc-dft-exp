@@ -1,5 +1,25 @@
 # Research restart ledger
 
+## Latest — PUBLIC RESPONSE QUALIFIED; fixed-density band owner87649 waiting
+
+Native public-response-run-001/session70592 TERMINALPASS33.235417s/187170816B.
+All8exports bitwise identical to retained response-moment-cache-001: moments.txt,
+assignment txt/bin, symmetry, raw/averagedcache txt/bin. moment_analysis and
+cachepair readerPASS; all prospective filehashes incl31publicinputs unchanged.
+public_response_run_result.json preserves hashes/comparison/receipt. No Coulomb,
+Z,basis or retainedbinary/library needed. Diagnostic reproducibility nowqualified;
+not physical small-Q, stationarygap or microscopic cold-start prediction.
+
+Bandpilot001 session87649/PID60826 sole watcher waitingnormal120s since11:53:28Z,
+then180s/3GiB. Manifest public_band_pilot_manifest.json binds executable and
+inputs. Pollsameowner. Afterterminal run public_band_pilot_analysis.py against
+that manifest; no fittedoffset, all208eigenvalues <=1e-6Ry, originalsimmutable.
+Rank37 stillstagedonly. Standalone band guardentrypoint stillpending.
+
+Public CI45993915353 for3f8d100PASS. Snapshot50guardedattempts includes4source
+builds andpublicnativerun; refreshcost totalsfromJSON, notolder paragraphs.
+Goalactive; physicalprediction/conditioning/refinement/finalverdict stillopen.
+
 ## Latest — fresh build004 PASS; isolated public response owner70592 waiting
 
 Build004/session43299 TERMINALPASS261.642768s, individual466403328B,
