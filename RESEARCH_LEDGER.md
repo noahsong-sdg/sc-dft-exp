@@ -2740,3 +2740,19 @@ makefile. Same600s/3GiB/quiet120, same250–300s estimate, same scientificsource
 165offline testsPASS11.142s;178maintainedPythoncompilePASS; momentreplay/diffPASS.
 PublicprotocolCI46053577820 on2c24f60PASS (offline CI didnotcatchnativebuildorder;
 new regression exercisesactual make rule). No owner beforepublication/launch.
+
+
+## Production002 certified through16384; contiguous003 staged
+
+Recovery002 terminalPASS188.416925s/961871872B individualpeak (group963428352B).
+Rows1:16384 took149.589s; unnormalized16-column checkpoint passed nativebitwise
+serialization and independentPython metadata/context/shape/finite/padding checks.
+Public/consumedmanifest identical; allpostruninputs and16linkedarchives verified;
+no historicalcustomobjectpath. Newguardedtotal2741.998518s includescompilefailure.
+No nativeowner remains at certification. Fullimages/basis/gap/response incomplete.
+
+Production003 stages16385:32768 from accepted002, identicalcontext/source/trials,
+32-rowtileboundaries and same600s/3GiB/quiet120. Same registered250–300s estimate
+is conservative relative to002; notbound. First complete accepted16384rows, no
+normalization or Ritz yet.165offline testsPASS11.142s;178sourcecompile/moment/diff
+lastPASS; actualproductionnativebuild/runtimePASS. CI46053990892 on71be22ePASS.
