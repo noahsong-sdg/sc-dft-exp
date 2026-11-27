@@ -3117,3 +3117,16 @@ Checks: focusedrestart suite5PASS; full unittest discovery175PASS in11.995s;
 187maintainedPython sources compilePASS; moment_refinement.py replayPASS;
 gitdiffcheckPASS. Native contraction unchanged; no separatetypecheck configured.
 Public priorCI46065870446 on a919cf2 PASS. Fullgap/response goal remainsactive.
+
+
+## Restart target tracking prepared
+
+restart_mode_analysis.py verifies certifiednative/independent32-column results,
+bitwise preserved Q/AQ prefixes, and normalizedcoefficients-overlap with the
+original target. It records the registered2x reduction/0.99overlap spending gate,
+including exactzero-residual handling; never qualifies a gap seed. Tests cover
+modeorientation, addedorthogonaldirections, invalidoverlaps, and continuation
+boundaries. Fullsuite178PASS in10.878s;189maintainedPython sources compilePASS;
+moment_refinement.py replay anddiffcheckPASS. No pinnedpilot source modified.
+PublicCI46066437675 on8c0d871PASS. Firstpilot owner99213/session50272 remains
+waiting/running; do not launch a duplicate. Native walltotalunchanged5679.466351s.
