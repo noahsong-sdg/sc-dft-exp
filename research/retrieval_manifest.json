@@ -1,0 +1,65 @@
+{
+  "retrieved_utc": "2026-11-27T05:43:43.007380+00:00",
+  "files": [
+    {
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/xi.sh",
+      "path": "xi.sh",
+      "bytes": 514,
+      "sha256": "67ac1177d318870b1d7ba40cb56878e46fe6a1180bd21dda830a3823ce3b328c"
+    },
+    {
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/fflo_j.sh",
+      "path": "fflo_j.sh",
+      "bytes": 983,
+      "sha256": "b7c7a075d04ad9bdb8dcbf893f1e752ffc55f209bf43d9f3153563a3eb2e9682"
+    },
+    {
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Si2V6-186003/fflo_1.0.dat",
+      "path": "Si2V6-186003/fflo_1.0.dat",
+      "bytes": 738,
+      "sha256": "cc4de6cf3311f55d8fb8ca0878d340dabb6dec9ee61782b650ce154aa86cf110"
+    },
+    {
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Si2V6-186003/fflo_3.0.dat",
+      "path": "Si2V6-186003/fflo_3.0.dat",
+      "bytes": 706,
+      "sha256": "d259a3f9cc4a7b831fb69cc90727b5ca9627d691bc3fcb3a86784eed48560784"
+    },
+    {
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Si2V6-186003/fflo_5.0.dat",
+      "path": "Si2V6-186003/fflo_5.0.dat",
+      "bytes": 593,
+      "sha256": "f826f43c4cfee9f3de78f9cc17e1a286b49c67b506925083b98d06dc4743b0b1"
+    },
+    {
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Si2V6-186003/fflo_7.0.dat",
+      "path": "Si2V6-186003/fflo_7.0.dat",
+      "bytes": 558,
+      "sha256": "3f3f2a1e4c4bfa6539241a8d41e0b5a272199c524cd156b2b51335a0ab102efe"
+    },
+    {
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Si2V6-186003/fflo_10.0.dat",
+      "path": "Si2V6-186003/fflo_10.0.dat",
+      "bytes": 440,
+      "sha256": "445e2b8b9bef28b2604d80b6bcaae1ade350384b93e4d553345806431d0bcb98"
+    },
+    {
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Si2V6-186003/fflo_12.0.dat",
+      "path": "Si2V6-186003/fflo_12.0.dat",
+      "bytes": 441,
+      "sha256": "116c382eb49e2e202ce3808cc04867b08bcf7026947141d3e72d89a8dabedddb"
+    },
+    {
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Si2V6-186003/fflo_15.0.dat",
+      "path": "Si2V6-186003/fflo_15.0.dat",
+      "bytes": 369,
+      "sha256": "715df308a0296b2ca05765735b297b8f54ce8a7952e5e52c6300305e8ac0ffb7"
+    },
+    {
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Si2V6-186003/fflo.gp",
+      "path": "Si2V6-186003/fflo.gp",
+      "bytes": 2201,
+      "sha256": "c22c525b527d8bcae6585bf19db7d1dd93ed905daa6660a9dd1ce4e8a7504c3a"
+    }
+  ]
+}
