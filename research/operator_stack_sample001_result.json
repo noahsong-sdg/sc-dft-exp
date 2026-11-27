@@ -1,0 +1,18 @@
+{
+  "status": "OBSERVED",
+  "main_thread_samples": 249,
+  "inclusive_stack_samples": {
+    "build_tile": 219,
+    "dgemv": 30
+  },
+  "requested_duration_s": 3,
+  "requested_interval_ms": 10,
+  "raw_profile_sha256": "98715fd6be920f9eb0f8f5a0920b5d0f1e557d6f70b29501576dd01ca10348a2",
+  "native_receipt_sha256": "1c803d8899f1ae8346d7b5e8e75837ed7bb7749fd47e50ed207b4cd9d2ff9473",
+  "sampled_executable_sha256": "ac40b26920517ad9b5ffe7881001730d7c2b20efeb8184833fc2db70992f01ea",
+  "scope": "One short operator-phase sample; not whole-run fractions or a speedup measurement. Cached-kernel recursive frames are not summed.",
+  "inference": "Tile construction dominated this window; investigate electronic kernel construction before choosing BLAS optimization.",
+  "profiler_overhead_measured": false,
+  "native_wall_includes_any_profiler_effect": true,
+  "physical_response_verified": false
+}

@@ -3387,3 +3387,22 @@ No codechanged. Last required checks180testsPASS,191maintainedPython sources
 compilePASS, moment replayPASS; currentdiffcheckPASS. PublicCI46074021667 on
 dc2fb77PASS. Nonlinear gap, conditioning,2K/4K, responsefunctional/mapping and
 1% error/reproduction remain incomplete. Goal active; no physicalclaim.
+
+
+## Second restart application: first segment accepted
+
+Restart-sweep005 rows1:16384 terminal PASS, wall204.3473396669142s,
+individual peak1025048576B, sampled group peak975060992B. Checkpoint recertified,
+all pinned inputs checked; result published. No native owner remains from005.
+New guarded total8470.519538375866s (141.18min); prior189.29min separate.
+A three-second macOS sample recorded249 main-thread observations:219 in tile
+construction and30 in DGEMV. Recursive cached-kernel frames are not summed.
+This short window suggests investigating kernel construction; it does not prove
+whole-run fractions or speedup. Profiler overhead unmeasured; any perturbation
+is included in native wall time. Qualified sources remain unchanged.
+
+Restart-sweep006 stages rows16385:32768 from005, same second-restart basis and
+physical operator. Guard600s/3GiB,120 continuous normal-pressure seconds before
+launch. Complete application and independent mode checks remain pending.
+No code changed. Prior180 tests,191 Python source compilations and moment gate
+passed; diff check passed for this evidence update. Scientific goal incomplete.
