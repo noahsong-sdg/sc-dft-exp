@@ -58,3 +58,42 @@ class CompletedZAdmissionTest(unittest.TestCase):
                     p.write_text(text.replace('100 1','100 2') if mutation=='temperature' else text+'stale\n')
                 with self.assertRaises(ValueError):
                     completed_sweep(root)
+
+
+class ZOracleCertificateTest(unittest.TestCase):
+    def test_persisted_samples_bound_to_full_Z_and_mutations_rejected(self):
+        import portable_z_oracle as oracle
+        import struct
+        for mutation in ('none','sample','metadata','receipt'):
+            with self.subTest(mutation=mutation),tempfile.TemporaryDirectory() as folder:
+                base=Path(folder);completed=base/'completed';completed.mkdir()
+                CompletedZAdmissionTest.fixture(self,completed)
+                p=completed/'full-z.meta';p.write_text(p.read_text().replace('2 0 0 0','2 .1 0 0'))
+                root=base/'oracle';root.mkdir();out=root/'results/zoracle';out.mkdir(parents=True)
+                command=['fixture'];m=dict(command=command,files=[],guard_seconds=420)
+                (root/'run-manifest.json').write_text(json.dumps(m))
+                (root/'z-oracle-control.in').write_text(str(base/'geometry')+'\n'+str(completed)+'\n')
+                receipt=dict(status='PASS',exit=0,error=None,command=command,cwd=str(root),
+                    continuous_deadline_s=420,wall_s=1,
+                    guard_source_sha256=digest(oracle.RESEARCH/'macos_native_guard.py'))
+                if mutation=='receipt':receipt['exit']=7
+                (out/'receipt.json').write_text(json.dumps(receipt))
+                (out/'console.log').write_text('Z_SIX_UNCACHED_FULL_SUMS_BITWISE_PASS\n')
+                rows=['first, last, first positive-dk ABS(xi)<native emin; deduplicated in that order']
+                for side,count in ((1,66867),(2,67940)):
+                    for number,index in enumerate((1,count,2),1):
+                        rows.append(f'{side} {number} {index} 1 1 0 1')
+                if mutation=='metadata':rows[-1]='2 3 67940 1 1 0 1'
+                (root/'z-samples.meta').write_text('\n'.join(rows)+'\n')
+                data=bytearray(96)
+                if mutation=='sample':struct.pack_into('<d',data,48,.25)
+                (root/'z-oracle-samples.bin').write_bytes(data)
+                (root/'z-oracle.x').write_bytes(b'fixture executable')
+                if mutation=='none':
+                    result=oracle.certify(root)
+                    self.assertTrue(result['six_full_sums_bitwise_equal'])
+                    self.assertFalse(result['physical_response_verified'])
+                    self.assertEqual(len(result['samples']),6)
+                else:
+                    with self.assertRaises(ValueError):oracle.certify(root)
+                    self.assertFalse((root/'z-oracle-result.json').exists())

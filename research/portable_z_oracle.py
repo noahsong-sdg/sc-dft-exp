@@ -1,6 +1,8 @@
 """Stage six uncached full-sum checks against a certified completed Z sweep."""
 import argparse
 import json
+import math
+import struct
 from pathlib import Path
 import shutil
 
@@ -43,6 +45,63 @@ def completed_sweep(root):
             or float(lines[2].split()[0]) != saved['beta'] or lines[3].strip() != 'F'):
         raise ValueError('Stale full Z metadata')
     return m
+
+
+def certify(root):
+    """Bind six persisted uncached sums to their completed source array."""
+    root = Path(root).absolute()
+    m = json.loads((root/'run-manifest.json').read_text())
+    receipt = root/'results/zoracle/receipt.json'
+    r = json.loads(receipt.read_text())
+    if ((r.get('status'),r.get('exit'),r.get('error'),r.get('command'),r.get('cwd'),r.get('continuous_deadline_s'))
+            != ('PASS',0,None,m['command'],str(root),m['guard_seconds'])
+            or not math.isfinite(r['wall_s']) or not 0 <= r['wall_s'] < m['guard_seconds']
+            or r['guard_source_sha256'] != digest(RESEARCH/'macos_native_guard.py')):
+        raise ValueError('Unaccepted Z oracle receipt')
+    verify_postrun_inputs(m,root)
+    control = (root/'z-oracle-control.in').read_text().splitlines()
+    if len(control) != 2:
+        raise ValueError('Stale oracle control')
+    completed = Path(control[1])
+    completed_sweep(completed)
+    log = (root/'results/zoracle/console.log').read_text()
+    if log.count('Z_SIX_UNCACHED_FULL_SUMS_BITWISE_PASS') != 1:
+        raise ValueError('Missing uncached full-sum acceptance')
+    lines = (root/'z-samples.meta').read_text().splitlines()
+    if (len(lines) != 7 or lines[0] !=
+            'first, last, first positive-dk ABS(xi)<native emin; deduplicated in that order'):
+        raise ValueError('Stale oracle sample schema')
+    full = (completed/'full-z.bin').read_bytes()
+    emin = float((completed/'full-z.meta').read_text().splitlines()[2].split()[1])
+    expected = b''; samples = []
+    for row,line in enumerate(lines[1:]):
+        fields = line.split()
+        if len(fields) != 7:
+            raise ValueError('Stale oracle sample row')
+        side,number,index,kpoint,band = map(int,fields[:5])
+        xi,weight = map(float,fields[5:])
+        count = [66867,67940][row//3]
+        if (side != row//3+1 or number != row%3+1 or not 1 <= index <= count
+                or not 1 <= kpoint <= 512 or not 1 <= band <= 26
+                or not math.isfinite(xi) or not math.isfinite(weight)
+                or (number == 1 and index != 1) or (number == 2 and index != count)
+                or (number == 3 and (index in (1,count) or weight <= 0 or abs(xi) >= emin))):
+            raise ValueError('Mismatched oracle sample selection')
+        offset = 8*((side-1)*67940+index-1)
+        expected += full[offset:offset+8]
+        samples.append(dict(side=side,index=index,kpoint=kpoint,band=band,xi=xi,weight=weight))
+    payload = (root/'z-oracle-samples.bin').read_bytes()
+    if (len(payload) != 96 or payload[:48] != expected or payload[48:] != expected
+            or not all(map(math.isfinite,struct.unpack('<12d',payload)))):
+        raise ValueError('Persisted uncached samples differ from completed Z')
+    result = dict(status='PASS',six_full_sums_bitwise_equal=True,samples=samples,
+        manifest_sha256=digest(root/'run-manifest.json'),receipt_sha256=digest(receipt),
+        samples_sha256=digest(root/'z-oracle-samples.bin'),sample_metadata_sha256=digest(root/'z-samples.meta'),
+        full_Z_sha256=digest(completed/'full-z.bin'),full_Z_metadata_sha256=digest(completed/'full-z.meta'),
+        executable_sha256=digest(root/'z-oracle.x'),receipt=r,physical_response_verified=False,
+        limitation='Six complete sampled sums, not exhaustive independent recalculation of every Z entry')
+    (root/'z-oracle-result.json').write_text(json.dumps(result,indent=2)+'\n')
+    return result
 
 
 def stage(completed, initialization, build, destination):

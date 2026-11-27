@@ -176,3 +176,7 @@ Session99981/PID97361 terminalFAIL: hostmemorypressure at630.615716s; no checkpo
 last row23568. Do not resume from failed partial arrays. New guardedtotal1023.258373s.
 Production002 staged17:8208 from qualification003row16, smaller8192-row segments
 with unchanged guard/context. Old live-owner statements above are historical.
+
+Recovery002 guardPID36610/session24002 live in quietgate after publicc56a8f2.
+Oracle persisted-result certification implemented/tested; actualoracle still
+pending completeZ.153offline testsPASS16.691s. Keep current sweep sources frozen.

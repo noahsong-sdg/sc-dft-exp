@@ -2461,3 +2461,18 @@ observed progress and coldsetup (forecast, not a bound). Added coldsetup cost is
 accepted to reduce lost work. No failed-output adoption. Prospective public
 manifest precedes single-owner launch and120s normal-pressure gate. New guarded
 total1023.258373s including failedwork. No native owner remains before launch.
+
+
+### Prospective persisted Z-oracle result certificate
+
+Certificate code now requires terminal420s guardPASS, exact command/context,
+unchanged inputs, completed sweep certificate and fullZ/checkpoint equality,
+exact six-sample schema/selection, and persisted expected/uncached bytes equal
+to their indexed completedfullZ entries. Binds sample/metadata/executable/receipt
+and fullZ identities for future consumers. Explicitly sampled full-sum validation,
+not exhaustive independent recalculation or physicalresponse acceptance.
+Synthetic persisted-data controls reject changed sums, stale samplemetadata and
+failedreceipt; no certificate written on rejection.153offline testsPASS16.691s;
+166maintained Python sources compile; momentreplay/diffchecksPASS. Actual oracle
+run remains pending fullZ. Recovery002 guardPID36610/session24002 confirmedlive
+waiting for normalpressure; no duplicate job. CI46045024240 on c3b0579PASS.
