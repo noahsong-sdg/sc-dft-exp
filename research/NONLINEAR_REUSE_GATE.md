@@ -135,3 +135,9 @@ and the mode manifest. This supports a full matrix-free evaluation experiment;
 it is not full residual, gap convergence, independent operator acceptance, or
 physical response validation. Prospective1200s single fullpass budget is recorded
 in the ledger from measured selected-tile costs, within the4h pilot allowance.
+
+
+The retained rank38problem now passes its specified full stationary residuals.
+[PORTABLE_GAP_GATE.md](PORTABLE_GAP_GATE.md) records the inspected dependency
+chain and exact public-reproduction boundary. Do not reinterpret residual
+acceptance as fresh input/basis generation or physical-response validation.
