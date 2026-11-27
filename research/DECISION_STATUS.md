@@ -2,7 +2,12 @@ New measured feasibility evidence: a complete retained-input Q0 nonlinear
 residual and Jacobian action now pass in908.65s at882MB peak RSS, without the
 67.7GiB dense allocation. See [full nonlinear gate](FULL_NONLINEAR_MAP_GATE.md).
 The tested seed is unconverged; no new gap or response prediction follows.
-An informed conventional-mode amplitude pass is the next bounded experiment.
+The subsequent amplitude pass independently reproduced the stored conventional
+mode action and located a projected sign change between 0.10 and 0.15 meV.
+A retained-basis nonlinear candidate then converged in 1.07 s / 113 MB peak RSS,
+with mean Fermi gaps 0.1663/0.1653 meV at 8.05 K. Its full native validation is
+running at this checkpoint. A tiny coefficient residual does not certify a
+full-space gap. See REDUCED_NONLINEAR_GATE.md and GAP_SEED_VERIFY_GATE.md.
 
 # Scientific decision checkpoint
 
@@ -101,14 +106,19 @@ Mac runtime forecast is justified by the cluster logs alone.
 
 ## Next decisive evidence, in order
 
-1. Qualify the analytic slope's geometry/normalization and reuse boundary.
-2. Measure integration convergence after the completed preparation and
-   fixed-gap diagnostic, separating those from physical predictions.
-3. Obtain a compatible converged gap, or justify a bounded new solve, then compare
-   corrected and original workflows under the same numerical controls.
-4. Quantify changes in a selected physical observable and compare them with
-   convergence and extraction effects. Only then choose a response demonstration,
-   a focused correction report, or an evidence-bounded negative result.
+1. Finish the source-bound native validation at the reduced candidate, requiring
+   exact vector preservation and the preregistered full residual targets. If it
+   fails, use the measured defect to judge basis enrichment rather than treating
+   reduced convergence as acceptance.
+2. Qualify conditioning and refinement of a successful gap. A point residual
+   alone cannot bound gap error near the transition.
+3. Connect that gap to the same-cell anisotropic response using the verified
+   native state classes in GAP_RESPONSE_MAPPING_GATE.md. Preserve far-band
+   single states; do not infer a fine-grid gap from the constant-gap experiment.
+4. Resolve derivative/integration, physical normalization and functional gates,
+   then quantify a selected observable against those uncertainties. Choose a
+   response demonstration, focused correction/method report, or bounded negative
+   result from that evidence. A public cold-start reproduction remains separate.
 
 Further synthetic examples are lower priority now that the complete RHS effect
 is demonstrated. Do not expand the platform or launch a material screen before

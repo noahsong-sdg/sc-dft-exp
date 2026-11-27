@@ -54,9 +54,11 @@ postprocessing entry point is not established by this trace.
 
 [campaign_native_resource_accounting.json](campaign_native_resource_accounting.json)
 snapshots terminal native guard receipts, including prelaunch and failed attempts.
-Recompute with `python3 research/resource_accounting.py`. At this checkpoint,
-23 terminal attempts total1001.162s:849.931s in14 guard-PASS attempts and151.231s
-in9 failures. Guard PASS alone is not scientific acceptance. Waiting, builds,
+Recompute with `python3 research/resource_accounting.py`. At the 2026-11-27
+09:36 UTC checkpoint, 30 terminal attempts total 3059.709 s: 2792.008 s in
+19 guard-PASS attempts and 267.701 s in 11 failures. The live full-candidate
+validation has no terminal receipt yet and is excluded. Guard PASS alone is
+not scientific acceptance. Waiting, builds,
 downloads, Python references and model use are excluded; this is not total
 campaign time, CPU time, energy, or monetary cost. Those unmetered quantities
 remain unknown. Each row records the original receipt hash and resource metrics.

@@ -1,5 +1,29 @@
 # Research restart ledger
 
+## Latest priority — public evidence overview refreshed; full validation live
+
+Previous turn made progress: gap-response mapping audit publishedb2ae392.
+Owner54858/PID1480 verified live at09:50,765264KiB RSS,45088/66867rows.
+README and DECISION_STATUS now distinguish moment accuracy, full-map feasibility,
+reduced candidate and archived-current replay; full validation remains unknown.
+Recomputed terminal accounting:30attempts,19PASS/11FAIL,3059.709s guardedwall,
+excluding live54858 and waiting/build/modelcosts. Accounting2tests PASS0.002s;
+diffcheck PASS. No production source changes or additional native launch.
+
+Exploratory lightweight analysis in ignored raw/reduced-conditioning-probe.py:
+coefficient Jacobian minsingular0.0029154, inverse2norm343.006, condition699.855;
+omitted occupation relative2norm0.00197856. These are reduced-coordinate local
+quantities, NOT full-space gap-error bounds. NumPy2.0.2 is available via .venv.
+Initial BLAS contractions emitted floating-point warnings despite finite output;
+explicit einsum contractions produced matching values without warnings. Preserve
+both raw JSONs; do not promote this exploratory probe without independent
+Jacobian fixtures and input-bound CLI. The required fullnative result is decisive.
+
+Next: poll54858 to terminal, run verify_gap_candidate.py, publish its exact result
+and receipt. If targetfails, assess omitted-occupation basis enrichment using
+F(delta)=delta+R and existing U=A0Q; otherwise qualify conditioning/refinement
+and same-cell response. Goal remains active; ceiling2026-11-27T17:41Z.
+
 ## Latest priority — anisotropic response mapping audited; full validation live
 
 Previous turn made progress: terminal candidate verifier published719e48b,

@@ -4,6 +4,29 @@
 [RESEARCH_LEDGER.md](RESEARCH_LEDGER.md).** Future agents should read
 [AGENTS.md](AGENTS.md). The benchmark snapshot below predates this campaign.
 
+The reusable [two-week mandate](TWO_WEEK_GOAL_PROMPT.md) is also saved here;
+writing it does not schedule continuous background execution.
+
+## Active campaign evidence
+
+The present scientific lead is an accuracy audit of response quadrature,
+supported by a retained-input matrix-free gap workflow. A reliable physical
+response prediction and a portable cold-start workflow remain unproved.
+
+| Experiment | Verified result | Limitation |
+|---|---|---|
+| Fixed-gap response moments | Second moments preserve the matched fine-grid sum; squared means retain only 40–45% on the tested coarse cells | Constant gap; shared band/quadrature approximations |
+| Full nonlinear map and derivative action | 908.65 s, 882 MB peak RSS on the Mac | Arbitrary seed, not a solved gap; upstream inputs reused |
+| Reduced nonlinear candidate | 1.07 s, 113 MB peak RSS, five Newton iterations | Small reduced residual; full native validation pending |
+| Frozen converged Nb replay | Released currents reproduced; thermal correction changes them by 2.5–2.8 ppm | Not corrected self-consistency or a Q=0 prediction |
+
+The reduced candidate's mean Fermi gaps are 0.1663/0.1653 meV at 8.05 K.
+Its full native check is running at this checkpoint; consult the ledger for
+the current owner and terminal outcome. No speedup against an equivalently
+qualified full solve is claimed. The [gap-to-response mapping audit](research/GAP_RESPONSE_MAPPING_GATE.md)
+identifies the energy-resolved and single-state branches that a subsequent
+anisotropic response test must preserve.
+
 Portable regression checks run in [public CI](https://github.com/noahsong-sdg/sc-dft-exp/actions/workflows/research-checks.yml).
 The [first verified run](https://github.com/noahsong-sdg/sc-dft-exp/actions/runs/45956886205)
 passed 38 tests and replayed committed refinement data on Ubuntu. This does not
