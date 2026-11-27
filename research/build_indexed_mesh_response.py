@@ -1,6 +1,8 @@
 """Relink the pinned QE tetrahedron module with an indexed mesh lookup.
 
-Only lookup and reverse coverage change. Generated GPL source remains ignored.
+Only tetrahedron lookup and reverse coverage change. An explicitly selected
+fourth-order geometry build can be composed without modifying its source.
+Generated GPL source remains ignored.
 Reuses source-built libraries; no cold-start or numerical qualification claim.
 """
 import argparse
@@ -16,16 +18,36 @@ from mesh_equivalence_patch import patch
 RESEARCH=Path(__file__).resolve().parent
 
 
-def build(parent,destination):
+def fourth_geometry(directory, capacity):
+    directory=Path(directory).absolute()
+    metadata=directory/'build-result.json'
+    result=json.loads(metadata.read_text())
+    source=directory/'probe/current_geometry.f90'
+    executable=directory/'probe/velocity-moment-probe.x'
+    if (result.get('velocity_stencil_order')!=4
+            or result.get('curvature_stencil_unchanged') is not True
+            or result.get('point_capacity')!=capacity
+            or result.get('executable')!=str(executable)
+            or digest(executable)!=result.get('executable_sha256')
+            or digest(source)!=result.get('generated_geometry_sha256')):
+        raise ValueError('Missing or changed explicit fourth-order geometry build')
+    return source,metadata,executable
+
+
+def build(parent,destination,fourth_geometry_build=None):
     parent,root=[Path(p).absolute() for p in (parent,destination)]
     original=json.loads((parent/'build-result.json').read_text())
     if (original.get('point_capacity',40000)<48**3
             or Path(original['executable'])!=parent/'probe/velocity-moment-probe.x'
             or digest(Path(original['executable']))!=original['executable_sha256']):
         raise ValueError('Missing or changed capacity-qualified parent')
+    geometry=parent/'probe/current_geometry.f90'
+    geometry_inputs=[]
+    if fourth_geometry_build is not None:
+        geometry,*geometry_inputs=fourth_geometry(fourth_geometry_build,original['point_capacity'])
     qe=parent/'qe';source=qe/'PW/src/tetra.f90'
     candidate=patch(source.read_text())
-    paths=[source,parent/'probe/current_geometry.f90',parent/'build-result.json',qe/'make.inc',
+    paths=[source,geometry,*geometry_inputs,parent/'build-result.json',qe/'make.inc',
         Path(__file__),RESEARCH/'mesh_equivalence.f90',RESEARCH/'mesh_equivalence_patch.py',
         RESEARCH/'indexed_mesh_probe.mk',RESEARCH/'public_response_probe.mk',
         RESEARCH/'velocity_moment_probe.f90',RESEARCH/'response_assignment_dump.f90']
@@ -35,7 +57,7 @@ def build(parent,destination):
     identities=[dict(path=str(p),bytes=p.stat().st_size,sha256=digest(p)) for p in paths]
     root.mkdir(parents=True);probe=root/'probe';probe.mkdir()
     (probe/'indexed_tetra.f90').write_text(candidate)
-    shutil.copy2(parent/'probe/current_geometry.f90',probe/'current_geometry.f90')
+    shutil.copy2(geometry,probe/'current_geometry.f90')
     command=['make','-f',str(RESEARCH/'indexed_mesh_probe.mk'),'QE_ROOT='+str(qe),'velocity-moment-probe.x']
     started=time.monotonic()
     with (root/'build.log').open('x') as log:
@@ -50,7 +72,8 @@ def build(parent,destination):
         link_inputs_unchanged=True,indexed_tetra_sha256=digest(probe/'indexed_tetra.f90'),
         generated_geometry_sha256=digest(probe/'current_geometry.f90'),
         build_log_sha256=digest(root/'build.log'),indexed_mesh_lookup=True,
-        numerical_response_qualified=False,scope=__doc__.strip())
+        velocity_stencil_order=4 if fourth_geometry_build is not None else 2,
+        curvature_stencil_unchanged=True,numerical_response_qualified=False,scope=__doc__.strip())
     (root/'build-result.json').write_text(json.dumps(result,indent=2)+'\n')
     return result
 
@@ -58,4 +81,5 @@ def build(parent,destination):
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('parent',type=Path);parser.add_argument('destination',type=Path)
+    parser.add_argument('--fourth-geometry-build',type=Path,help='Explicit hash-checked fourth-order geometry; requires new native response qualification')
     print(json.dumps(build(**vars(parser.parse_args())),indent=2))

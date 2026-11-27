@@ -105,3 +105,24 @@ This qualifies the tested32/48path. A64mesh could deepen the scientific
 convergence test because0.68% two-grid spread is not a continuum error bound,
 but needs a separate cost decision, generated bands/serialization qualification,
 explicit grid handling and a fourth-order composition control. No64run is queued.
+
+
+## Explicit fourth-order composition
+
+The original indexed builder always copied second-order parent geometry. That
+execution path cannot provide the fourth-order third-grid control. The smallest
+extension is `--fourth-geometry-build`: reuse the exact generated geometry of
+the existing fourth-order build, verify its source and executable hashes, fourth
+order declaration, unchanged curvature declaration and matching capacity, and
+include these inputs in the frozen link identities. No source arithmetic is
+transformed again and no alternative default is introduced. This avoids another
+network extraction or a second independent stencil transformation.
+
+Fixtures exercise the explicit composition and copied-source hash; reject wrong
+order, changed geometry, stale capacity and output creation after invalid input.
+The resulting build is explicitly numerically unqualified. Before64 response,
+it must match all eight existing fourth-order48exports bitwise under a separate
+900s native protocol. A passing build is not a passing numerical result.
+
+Verification:125 offline tests passed in10.522s; maintained Python compilation
+and diff checks passed. Native composition and64grid remain pending.
