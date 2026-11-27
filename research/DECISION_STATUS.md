@@ -1,13 +1,16 @@
 # Scientific decision checkpoint
 
 New method evidence: [velocity-moment study](VELOCITY_MOMENT_METHOD.md) reproduces
-historical native geometry arrays exactly, then shows that preserving the second
-velocity moment recovers the direct same-energy fine-grid sum within 8.27e-16
-absolute. Squaring the mean retains only about 40–45% in this imposed-gap Nb
-test. It costs 52.6 s / 178 MB peak RSS on retained inputs. This is a potentially
-consequential accuracy/access route, but cell refinement, current-source runtime,
-tensor/gap mapping and physical normalization remain open. Current source shares
-the closure but changes shifted-grid handling; its compatibility build is ready.
+native geometry arrays exactly and preserves direct same-energy quadrature using
+second moments. [Response-cell refinement](MOMENT_REFINEMENT_RESULT.md) changes
+the first-moment result substantially; signed-support selection is a separate
+source of bias. The pinned current-geometry compatibility runtime also passes.
+Both [unshifted-band directions](DIRECTION_AND_ZERO_Q_GATE.md) now pass native
+controls and moment conservation, but retain a ~0.906% direction discrepancy.
+Their accepted runtimes are 63.9 and 60.9 s, below 182 MB peak RSS. This excludes
+the tested finite-Q band shift as its main cause; it does not identify the cause.
+Derivative, energy-grid, tensor/gap mapping and physical normalization gates
+remain open. No full current-version SCTK build is implied.
 [Physical interpretation](PHYSICAL_INTERPRETATION_GATE.md) is separately gated:
 numerical improvement cannot alone establish experimental accuracy.
 
@@ -30,7 +33,9 @@ A separate finite-temperature saturation shortcut affects both current and the
 upstream gap RHS. Complete-routine synthetic fixtures show that the discrepancies
 survive integration or residual assembly. Narrow candidates pass the tested
 references, including optimized OpenMP builds. These are numerical findings;
-no corrected self-consistent material response has been established.
+no corrected self-consistent material response has been established. The
+[reviewable patch](patches/README.md) also includes tested exact finite-T
+zero-energy product limits in current and RHS; zero-T RHS behavior is unchanged.
 
 The public released V3Si slope extraction is reproduced near 97.6 nm after
 correcting our own conversion error. The peak extraction remains inconsistent
@@ -65,7 +70,10 @@ Legacy released state files omit curvature. The existing native inputs support
 a preparation route now measured at 49.8 s and 200 MB peak RSS. Its first launched
 attempt exposed a wrapper argument-contract bug, now corrected and regression-tested.
 Two later runs were interrupted by host pressure before attempt 005 succeeded.
-Prepared counts differ from archived gap counts, preventing direct gap transfer.
+The finite-Q preparation counts differed from archived gap counts. A later Q=0
+preparation matches the smaller legacy gap geometry, but [gap provenance and
+scalar consistency](NB_GAP_CONSISTENCY.md) still reject assigning it to the
+inspected temperature series. Matching indices alone do not qualify transfer.
 
 Even after preparation succeeds, its imposed initial gap is not a self-consistent
 material state. A predictive demonstration needs matching gap provenance,

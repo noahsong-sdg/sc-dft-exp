@@ -1,0 +1,103 @@
+{
+  "sha256": "d7a8733e2aef072e1929cca7ff4c1de6fd82bebc8240d018955e77d16b00f5e5",
+  "dimensions": [
+    100,
+    6,
+    7,
+    32768,
+    512
+  ],
+  "qnorm": 0.00014213149536207326,
+  "volume": 122.17535992426924,
+  "native_control_max_absolute_errors": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "negative_fine_weights": 1164403,
+  "negative_fine_weight_absolute_sum": 42.86565944990891,
+  "fine_weight_absolute_sum": 801.6763201504745,
+  "cases": [
+    {
+      "temperature_kelvin": 2,
+      "imposed_gap_mev": 1.5,
+      "mean_squared_active": [
+        0.003471166543772118,
+        0.003936477035650557
+      ],
+      "second_moment_active": [
+        0.008876319787657131,
+        0.008876224316292692
+      ],
+      "second_moment_all": [
+        0.008876134490485929,
+        0.008876134490486087
+      ],
+      "fine_grid_reference": 0.008876134490485294,
+      "direct_reference_max_absolute_error": 7.927686285214008e-16
+    },
+    {
+      "temperature_kelvin": 4,
+      "imposed_gap_mev": 1.5,
+      "mean_squared_active": [
+        0.003227301339384676,
+        0.0036599277811262096
+      ],
+      "second_moment_active": [
+        0.008252741026352452,
+        0.008252652256191527
+      ],
+      "second_moment_all": [
+        0.008252568740912942,
+        0.008252568740913116
+      ],
+      "fine_grid_reference": 0.00825256874091283,
+      "direct_reference_max_absolute_error": 2.8622937353617317e-16
+    },
+    {
+      "temperature_kelvin": 8,
+      "imposed_gap_mev": 1.5,
+      "mean_squared_active": [
+        0.0020153911718623213,
+        0.0022855745952677867
+      ],
+      "second_moment_active": [
+        0.0051537740740133665,
+        0.0051537186151975525
+      ],
+      "second_moment_all": [
+        0.0051536664610703385,
+        0.005153666461070157
+      ],
+      "fine_grid_reference": 0.005153666461070599,
+      "direct_reference_max_absolute_error": 4.414871246360974e-16
+    }
+  ],
+  "scope": "Matched-energy constant-gap closure diagnostic; not a converged material response",
+  "resource_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/nb-moments-velocity4-011-001/velocity-moment-probe.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/nb-moments-velocity4-011-001/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/nb-moments-velocity4-011-001",
+    "wall_s": 64.73807504214346,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 145735680,
+    "sampled_peak_group_rss_bytes": 139149312,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 120,
+    "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+  },
+  "second_order_comparison": {
+    "reference_file": "nb_velocity_moment_unshifted_results.json",
+    "relative_direct_difference": [
+      0.08978037625397706,
+      0.08978030759124422,
+      0.08978083879631948
+    ]
+  }
+}

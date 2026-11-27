@@ -1,5 +1,33 @@
 # Research restart ledger
 
+## Latest method checkpoint — zero-Q preparation and derivative sensitivity
+
+Previous goal turn made progress: complete-RHS product fix and public patch.
+Unshifted [011] 003 (61758) and [111] 001 (60516) now TERMINAL SUCCESS: 63.891 s /
+181452800 bytes and 60.889 s / 166477824 bytes. Native reconstruction and signed
+moment conservation pass. Direct [011] differs from finite-Q by only -1.72e-7
+relative; direction discrepancy persists at ~-0.906%. Band overwrite is not its
+main explanation in this test. Two unshifted result JSONs are authoritative.
+
+Independent analytic BCC band probe distinguishes primitive-stencil anisotropy
+from exact derivatives; it is not a Nb model or proof of the native cause.
+Native fourth-order-velocity-only build passes bounds checks, preserving
+curvature. First [011] run PASS 64.738 s / 145735680 bytes, direct stiffness
+increases ~8.978%. Neither stencil is physically converged. See direction gate.
+
+Current verified LIVE owner **65389**, PID 69566, runs paired fourth-order cases
+serially. [011] is complete; it now waits on normal pressure for [111] under
+raw/nb-moments-velocity4-111-001/campaign_launch_watch.json. Poll the same handle
+before native work; do not duplicate. On success analyze output, compare
+direction ratios and derivative-order shifts. Next qualify energy-grid effects
+and the physical unit/spin normalization; no material prediction yet.
+
+Offline suite now 39 tests PASS; analytic stencil control PASS; compileall PASS.
+Default native rebuild and unshifted/current variants remain separately hashed.
+Current build manifest records fourth-order source/executable. Source-paper S67
+freezes Q dependence as an approximation; vertex literature does not authorize
+inserting a scalar mass factor. See PHYSICAL_INTERPRETATION_GATE.md.
+
 ## Latest product-boundary correction and live launch owner
 
 RHS finite-temperature delta/E boundary is now reproduced and corrected in the

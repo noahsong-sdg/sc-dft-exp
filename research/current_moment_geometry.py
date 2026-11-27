@@ -15,7 +15,29 @@ SHA256='2cc0458b5c98016567919d8d0c6d60cc2438f5a4e07c5e1ed43f8021e2305d80'
 URL=f'https://raw.githubusercontent.com/mitsuaki1987/sctk/{REVISION}/src/sctk_ini_delta.f90'
 
 
-def extract(data,unshifted=False):
+def fourth_order_velocity(routine):
+    """Change only directional velocity differences; leave curvature intact."""
+    replacements=(
+        ('&          ik, ikp(3),','&          ivp2(3), ivm2(3), ikp2, ikm2, ik, ikp(3),'),
+        ('cmat,cq, qcq)','cmat,cq, qcq,ivp2,ivm2,ikp2,ikm2)'),
+        ('''                 d_et(ibnd, ik) = d_et(ibnd, ik) &
+                 &              + rnk(ii) * 0.5_dp * (et0(ibnd, ikp(ii)) - et0(ibnd, ikm(ii))) * 0.5_dp * q_fflo(ii)''',
+         '''                 ivp2 = ikv; ivm2 = ikv
+                 ivp2(ii) = ivp2(ii) + 2; ivm2(ii) = ivm2(ii) - 2
+                 ivp2 = MODULO(ivp2, (/nk1,nk2,nk3/))
+                 ivm2 = MODULO(ivm2, (/nk1,nk2,nk3/))
+                 ikp2 = 1 + ivp2(3) + nk3*ivp2(2) + nk3*nk2*ivp2(1)
+                 ikm2 = 1 + ivm2(3) + nk3*ivm2(2) + nk3*nk2*ivm2(1)
+                 d_et(ibnd, ik) = d_et(ibnd, ik) + rnk(ii) * &
+                 & (-et0(ibnd,ikp2) + 8*et0(ibnd,ikp(ii)) &
+                 & - 8*et0(ibnd,ikm(ii)) + et0(ibnd,ikm2))/12 * 0.5_dp*q_fflo(ii)'''))
+    for original,candidate in replacements:
+        if routine.count(original)!=1:raise ValueError('Expected velocity stencil changed')
+        routine=routine.replace(original,candidate)
+    return routine
+
+
+def extract(data,unshifted=False,fourth_order=False):
     if hashlib.sha256(data).hexdigest()!=SHA256:raise ValueError('Current geometry source differs')
     source=data.decode();routines=[]
     for name in ('compute_dosk','symm_dosk'):
@@ -25,15 +47,18 @@ def extract(data,unshifted=False):
         if count!=1:raise ValueError('Expected shift-array import changed')
         routines.append(routine)
     derivative_import='  USE sctk_ini_delta, ONLY : calc_d_xi_q\n'
-    if unshifted:
+    if unshifted or fourth_order:
         derivative=re.search(r'(?ims)^SUBROUTINE calc_d_xi_q\(.*?^END SUBROUTINE calc_d_xi_q\s*$',source).group()
-        assignment='et(ibnd, ik) = et0(ibnd, ik) + qCq'
-        if derivative.count(assignment)!=1:raise ValueError('Expected band-shift assignment changed')
-        derivative=derivative.replace(assignment,'et(ibnd, ik) = et0(ibnd, ik)')
+        if unshifted:
+            assignment='et(ibnd, ik) = et0(ibnd, ik) + qCq'
+            if derivative.count(assignment)!=1:raise ValueError('Expected band-shift assignment changed')
+            derivative=derivative.replace(assignment,'et(ibnd, ik) = et0(ibnd, ik)')
+        if fourth_order:derivative=fourth_order_velocity(derivative)
         routines.insert(0,derivative)
         derivative_import=''
     notice=source.split('MODULE sctk_ini_delta')[0]
     mode='unshifted-band linear-response diagnostic' if unshifted else 'finite-Q geometry compatibility diagnostic'
+    if fourth_order:mode+='; fourth-order velocity only'
     return notice+f'! {mode}; fully shifted grid only; not a full current SCTK build.\n'+'''MODULE sctk_current_moment_geometry
 '''+derivative_import+'''
   IMPLICIT NONE
@@ -45,8 +70,9 @@ CONTAINS
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('destination',type=Path)
     parser.add_argument('--unshifted-bands',action='store_true',help='Keep immutable Q=0 band energies for the linear-response quadrature')
+    parser.add_argument('--fourth-order-velocity',action='store_true',help='Diagnostic fourth-order velocity differences; curvature unchanged')
     args=parser.parse_args()
     with urlopen(URL,timeout=45) as response:data=response.read(300001)
-    result=extract(data,args.unshifted_bands)
+    result=extract(data,args.unshifted_bands,args.fourth_order_velocity)
     with args.destination.open('x') as output:output.write(result)
     print(hashlib.sha256(result.encode()).hexdigest())

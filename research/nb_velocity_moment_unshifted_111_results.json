@@ -1,0 +1,107 @@
+{
+  "sha256": "9769979a08d4fe6082f095f959341fc87d1ed05302838659a1b29963b73ecd0d",
+  "dimensions": [
+    100,
+    6,
+    7,
+    32768,
+    512
+  ],
+  "qnorm": 0.00014213149536207326,
+  "volume": 122.17535992426924,
+  "native_control_max_absolute_errors": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "negative_fine_weights": 1164403,
+  "negative_fine_weight_absolute_sum": 42.86565944990891,
+  "fine_weight_absolute_sum": 801.6763201504745,
+  "cases": [
+    {
+      "temperature_kelvin": 2,
+      "imposed_gap_mev": 1.5,
+      "mean_squared_active": [
+        0.0033033261708072578,
+        0.0037238977807304893
+      ],
+      "second_moment_active": [
+        0.008071729214871612,
+        0.008071114090299288
+      ],
+      "second_moment_all": [
+        0.008071053664869765,
+        0.008071053664869786
+      ],
+      "fine_grid_reference": 0.00807105366486954,
+      "direct_reference_max_absolute_error": 2.463307335887066e-16
+    },
+    {
+      "temperature_kelvin": 4,
+      "imposed_gap_mev": 1.5,
+      "mean_squared_active": [
+        0.0030712602729581944,
+        0.0034622877155839754
+      ],
+      "second_moment_active": [
+        0.007504689966535054,
+        0.007504118043367671
+      ],
+      "second_moment_all": [
+        0.00750406186342895,
+        0.007504061863428951
+      ],
+      "fine_grid_reference": 0.00750406186342924,
+      "direct_reference_max_absolute_error": 2.896988204881268e-16
+    },
+    {
+      "temperature_kelvin": 8,
+      "imposed_gap_mev": 1.5,
+      "mean_squared_active": [
+        0.0019179471168310565,
+        0.0021621463469369013
+      ],
+      "second_moment_active": [
+        0.004686629559071923,
+        0.004686272369488219
+      ],
+      "second_moment_all": [
+        0.004686237273776046,
+        0.004686237273776097
+      ],
+      "fine_grid_reference": 0.00468623727377646,
+      "direct_reference_max_absolute_error": 4.137315490204685e-16
+    }
+  ],
+  "scope": "Matched-energy constant-gap closure diagnostic; not a converged material response",
+  "resource_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/nb-moments-unshifted-111-001/velocity-moment-probe.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/nb-moments-unshifted-111-001/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/nb-moments-unshifted-111-001",
+    "wall_s": 60.88876983337104,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 166477824,
+    "sampled_peak_group_rss_bytes": 162398208,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 120,
+    "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+  },
+  "direction_comparison": {
+    "reference_file": "nb_velocity_moment_unshifted_results.json",
+    "directions": [
+      "011",
+      "111"
+    ],
+    "relative_direct_difference": [
+      -0.009064597985077083,
+      -0.009062620082206596,
+      -0.009060515345459597
+    ]
+  }
+}

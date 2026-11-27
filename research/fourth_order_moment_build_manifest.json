@@ -1,0 +1,40 @@
+{
+  "scope": "Fourth-order velocity only, unshifted bands; bounds-checked native build PASS; runtime pending",
+  "upstream_revision": "4bc883e5dfd8a2b38f47f2cb6efba26b773d5b33",
+  "generator_options": [
+    "--unshifted-bands",
+    "--fourth-order-velocity"
+  ],
+  "files": [
+    {
+      "path": "research/current_moment_geometry.py",
+      "sha256": "e81cc201475335ccef6120915f3c612d38705c70c43eab00f7a282f2639934fb",
+      "bytes": 4377
+    },
+    {
+      "path": "research/velocity_moment_probe.f90",
+      "sha256": "265ece829f0506b4ccd69b4337b1af93beaf31800b0c66a4fb06d3e5a2d2c6ef",
+      "bytes": 6642
+    },
+    {
+      "path": "research/velocity_moment_probe.mk",
+      "sha256": "c1a41514b981643f98ca8c063dca238269579a42fbddc5a2a1b75af78c975d59",
+      "bytes": 436
+    },
+    {
+      "path": "research/raw/nb-moments-velocity4-build-001/current_geometry.f90",
+      "sha256": "a0d16966759437166c6282d48407fe87184a2d963c2cf78f447221e8bea65eac",
+      "bytes": 11824
+    },
+    {
+      "path": "research/raw/nb-moments-velocity4-build-001/velocity-moment-probe.x",
+      "sha256": "163c1330f23373192effbc931290dcc3c3976daa8281d587eb85f845dc5afc1b",
+      "bytes": 7660536
+    },
+    {
+      "path": "research/raw/nb-moments-velocity4-build-001/build.log",
+      "sha256": "02d221082d93c5d449f1e53097c5dc1019a5e667180bc07e227c83bfc4a6ce83",
+      "bytes": 9215
+    }
+  ]
+}

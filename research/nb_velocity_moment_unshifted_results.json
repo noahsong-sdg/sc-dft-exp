@@ -1,0 +1,104 @@
+{
+  "sha256": "c944e90efa939936eeb811d823f56b69a4a7c5ce4652c7c271348031c447309d",
+  "dimensions": [
+    100,
+    6,
+    7,
+    32768,
+    512
+  ],
+  "qnorm": 0.00014213149536207326,
+  "volume": 122.17535992426924,
+  "native_control_max_absolute_errors": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "negative_fine_weights": 1164403,
+  "negative_fine_weight_absolute_sum": 42.86565944990891,
+  "fine_weight_absolute_sum": 801.6763201504745,
+  "cases": [
+    {
+      "temperature_kelvin": 2,
+      "imposed_gap_mev": 1.5,
+      "mean_squared_active": [
+        0.003275199249883411,
+        0.003702081021588486
+      ],
+      "second_moment_active": [
+        0.008145052022837178,
+        0.008144966603060815
+      ],
+      "second_moment_all": [
+        0.00814488376180505,
+        0.008144883761805033
+      ],
+      "fine_grid_reference": 0.008144883761805489,
+      "direct_reference_max_absolute_error": 4.562322741819003e-16
+    },
+    {
+      "temperature_kelvin": 4,
+      "imposed_gap_mev": 1.5,
+      "mean_squared_active": [
+        0.003045101230628377,
+        0.0034419983046809254
+      ],
+      "second_moment_active": [
+        0.007572846724270966,
+        0.00757276729982873
+      ],
+      "second_moment_all": [
+        0.007572690278423139,
+        0.00757269027842319
+      ],
+      "fine_grid_reference": 0.007572690278422805,
+      "direct_reference_max_absolute_error": 3.8510861166685117e-16
+    },
+    {
+      "temperature_kelvin": 8,
+      "imposed_gap_mev": 1.5,
+      "mean_squared_active": [
+        0.0019016074551313656,
+        0.0021494771306244946
+      ],
+      "second_moment_active": [
+        0.004729182943443265,
+        0.004729133321749045
+      ],
+      "second_moment_all": [
+        0.00472908522300957,
+        0.00472908522300942
+      ],
+      "fine_grid_reference": 0.004729085223009524,
+      "direct_reference_max_absolute_error": 1.0408340855860843e-16
+    }
+  ],
+  "scope": "Matched-energy constant-gap closure diagnostic; not a converged material response",
+  "resource_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/nb-moments-unshifted-003/velocity-moment-probe.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/nb-moments-unshifted-003/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/nb-moments-unshifted-003",
+    "wall_s": 63.89097979199141,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 181452800,
+    "sampled_peak_group_rss_bytes": 174292992,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 120,
+    "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+  },
+  "preparation": "Unshifted bands; current pinned derivative routine with only band overwrite removed; retained native QE dependencies",
+  "finite_q_preparation_comparison": {
+    "reference_file": "nb_velocity_moment_current_results.json",
+    "relative_direct_difference": [
+      -1.7238981431244582e-07,
+      -1.7197528678902785e-07,
+      -1.713117470103498e-07
+    ]
+  }
+}

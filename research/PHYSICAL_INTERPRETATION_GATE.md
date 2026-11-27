@@ -36,3 +36,20 @@ Do not add a fitted factor to recover the published or experimental number.
 Do not infer that the paper's physical conclusion is wrong from this diagnostic.
 A useful outcome may instead be an auditable separation of numerical coarsening
 from physical approximation—an accuracy benefit that a speedup alone cannot give.
+
+## External constraint on a mass-factor shortcut
+
+Raines, Zhang and Chubukov, [Phys. Rev. B 109, 144505
+(2024)](https://doi.org/10.1103/PhysRevB.109.144505), establish within their
+Eliashberg framework that current-vertex corrections can change stiffness,
+including compensating suppression in specific interaction regimes. This is
+theoretical context, not evidence of present user demand. It prevents treating
+a scalar 1+lambda_ep correction as universally justified. The paper does not
+validate our SCDFT approximation or prescribe a niobium correction for it.
+
+The SCDFT source paper's S67 freezes Q dependence of K and Z as a long-wavelength
+approximation; S78 defines the auxiliary-energy current, while S79 includes a
+mass factor in a separate normal-state estimate. Our inference is that numerical
+moment closure and physical response renormalization must be audited separately.
+We have not derived an additional response vertex consistent with that functional.
+Do not insert a fitted mass factor into the diagnostic cache.

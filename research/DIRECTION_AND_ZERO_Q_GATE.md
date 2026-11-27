@@ -45,3 +45,34 @@ Python/Fortran diagnostics.
 Next compare unshifted [011] and [111] at matched physical Q, then energy-grid
 and momentum-scale controls. Exact Q cancellation in this diagnostic is an
 algebraic expectation, not a replacement for checking the native implementation.
+
+## Unshifted runs completed
+
+Attempt 003 [011] passed in 63.891 s / 181452800-byte peak, and unshifted [111]
+attempt 001 passed in 60.889 s / 166477824-byte peak. Both pass all native
+controls and signed moment conservation. Their result JSONs contain hashes and
+resource receipts. The [011] change from finite-Q preparation is only
+-1.72e-7 relative; the unshifted direction discrepancy remains approximately
+-0.90646%/-0.90626%/-0.90605% at 2/4/8 K. The tested band shift does not explain it.
+
+An independent analytic BCC-periodic band control, derivative_symmetry_probe.py,
+uses exact derivatives and primitive-coordinate finite differences. Exact
+velocity-squared quadrature is cubic isotropic within 2e-14; the second-order
+stencil introduces direction differences, reduced by fourth-order differences
+on the tested grids. This is a counterexample to assuming stencil isotropy,
+not a niobium model or proof of the native discrepancy's cause. The Gaussian
+weight is only an invariant analytic test weight, not superconducting response.
+
+The generator now has a diagnostic --fourth-order-velocity option. It changes
+only the first derivative to the centered four-point stencil, including private
+OpenMP indices and periodic wrapping; curvature stays unchanged. Native build
+with bounds checking passes. A paired [011]/[111] run is owned in the restart
+ledger. Runtime and accuracy conclusions await those results.
+
+First fourth-order [011] runtime passed: 64.738 s, peak 145735680 bytes. Native
+reconstruction and signed moment conservation pass. Direct response increases
+by 8.978% at all three temperatures relative to the second-order unshifted run;
+see nb_velocity_moment_fourth_order_011_results.json. This is derivative-order
+sensitivity, not an error bar or proof of improved physical accuracy. Curvature
+was unchanged. The paired [111] comparison is still pending. Neither stencil is
+accepted as a converged material prediction.

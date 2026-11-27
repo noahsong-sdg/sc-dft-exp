@@ -1,0 +1,23 @@
+{
+  "cases": [
+    {
+      "grid": 8,
+      "second_order_relative_direction_difference": -0.0012363896336837765,
+      "fourth_order_relative_direction_difference": -0.0002847782375402508,
+      "analytic_relative_direction_difference": 3.1086244689504383e-15
+    },
+    {
+      "grid": 16,
+      "second_order_relative_direction_difference": -8.327059321544539e-05,
+      "fourth_order_relative_direction_difference": -1.7369710572090469e-06,
+      "analytic_relative_direction_difference": 3.552713678800501e-15
+    },
+    {
+      "grid": 32,
+      "second_order_relative_direction_difference": -5.287406135479067e-06,
+      "fourth_order_relative_direction_difference": -7.602464768829975e-09,
+      "analytic_relative_direction_difference": -1.709743457922741e-14
+    }
+  ],
+  "scope": "Analytic cubic band velocity-squared quadrature; not a material response"
+}
