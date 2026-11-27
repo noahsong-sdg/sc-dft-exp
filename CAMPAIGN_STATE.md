@@ -425,3 +425,19 @@ setup, previous187–206s; estimate notbound.169offline testsPASS10.122s;
 regressions coverchangedvectors/context andexhaustedbasis. Actualnewdrivercompile/
 runtime pending. PriorCI46056851956 on14ce875PASS. Guardedtotal3322.467223s
 unchanged. No nativeowner beforepublication/launch. Gap/response goalincomplete.
+
+
+## Enrichment001 certified through16384; contiguous002 staged
+
+Enrichment001 terminalPASS201.383607s/958906368B individualpeak (group960413696B).
+Rows1:16384 took159.449s. New16-column unnormalizedcheckpoint nativebitwise
+serialization and independentPython context/counts/beta/shape/finite/padding
+checksPASS. Public/consumedmanifest identical; allpostruninputs/16linkedarchives
+verified; no historicalcustomobjectpath. Guardedtotal3523.850830s includesfailed
+productioncompile. Old81484/session10560 terminal. No nativeowner atcertification.
+
+Enrichment002 stages16385:32768 from001 with samebatchcontext, certifiednext16
+vectors and unchangedphysicaloperatorcontext. Same32-roworder/600s/3GiB/quiet120;
+250–300s estimate notbound.169offline tests/182maintainedPythoncompilation/moment
+gates lastPASS; actualnewdriver source-onlycompile/runtimePASS. PublicprotocolCI
+46057267470 one3c59c8PASS. EnlargedRitzbasis/gap/response stillincomplete.
