@@ -49,3 +49,25 @@ No claim that correcting two lines alone certifies the entire current routine.
 Examine its companion d_x factor, normal limit, sign conventions, threshold
 continuity, and zero-Q behavior before preparing a narrowly scoped upstream
 patch. Public reporting remains local; no maintainer contact authorized.
+
+## Compiled reproduction
+
+`current_probe.f90` reproduces the normal-reference branches in standalone
+Fortran, compiled with GNU Fortran 16.2.0, `-std=f2008 -Wall -Wextra
+-fcheck=all -O0`. All three counterexample/control cases pass their assertions.
+The full suite has nine passing tests, including native compilation/execution.
+This rules out Python-specific evaluation as the explanation; it is not yet a
+compiled test of the complete upstream routine.
+
+The current integrand contains `4*d2xq*sign(xi)*x_d`. A changed x_d therefore
+changes this term whenever curvature is nonzero. Its error is odd in xi if all
+other factors and the gap are symmetric. Exact cancellation is possible in a
+particle-hole symmetric integral. Real material weights/asymmetry must be
+measured before estimating an observable correction. The companion d_x term
+uses tanhx consistently in its regular branch, but shares the gap-dependent
+saturation boundary. Both normal-reference factors need treatment together.
+
+The direct shifted-tanh sum is stable for X at large beta. For the companion
+difference, direct subtraction can lose tiny contributions when both terms
+saturate; do not replace the complete stable algorithm without accuracy and
+performance comparisons over the actual physical parameter range.

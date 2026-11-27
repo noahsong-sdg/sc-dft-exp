@@ -8,6 +8,10 @@ python3 research/response_analysis.py analyze
 python3 -m unittest discover -s research -v
 ```
 
+The suite also compiles a scalar Fortran probe when `gfortran` is installed.
+Its test is explicitly skipped otherwise; a skipped native test does not prove
+native validation on that machine.
+
 Downloads are bounded to 1 MB each and remain ignored pending redistribution
 rights review. `fetch` prints URLs, byte counts, retrieval time and SHA256 hashes.
 The committed manifest records the first retrieval. Remote files are mutable;

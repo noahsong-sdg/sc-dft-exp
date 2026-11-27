@@ -56,3 +56,14 @@ Both occur in current and historical source. Added scalar reproducer and three
 tests, including a saturation counterexample. See CURRENT_IDENTITY_FINDING.md.
 Next gate: paper-equation mapping and minimal Fortran execution, then saved-state
 effect. Do not attribute published observable differences to these factors yet.
+
+## Native scalar validation
+
+Standalone Fortran reproduction compiled/executed successfully with GNU
+Fortran 16.2.0; nine total tests pass. Hardware rechecked: 32 GiB, 10 logical
+CPUs. Native scalar probe uses under one second; no production solver allocation.
+Current integrand couples x_d to sign(xi)*curvature, so cancellation under exact
+particle-hole symmetry can suppress the effect. Need actual weighted states.
+Next: compile the full pinned routine with lightweight modules, compare complete
+current to direct identities on synthetic weighted states and normal limits;
+then locate saved delta/state data for a material-specific fixed-state check.
