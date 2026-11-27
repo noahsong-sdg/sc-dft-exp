@@ -1,5 +1,14 @@
 # Prospective dense-grid storage qualification
 
+Latest qualification: fresh npk300000 build PASS265.485s/474333184B peak
+individual RSS; unchanged32cubed native diagnostic PASS35.672s/187219968B.
+All8exports match the original public run bit for bit, all declared inputs
+remain unchanged and the native controls/cache reader pass. See
+public_capacity_build_result.json and public_capacity_response_result.json.
+The protocol below was registered before these executions; this result
+qualifies only the tested storage change, not finer-grid or physical accuracy.
+
+
 The owning path is `read_file_new -> read_a2fsave -> calc_d_xi_q`.
 `read_a2fsave` expands the irreducible bands into a full mesh and writes
 `klist.xk(:,1:nk1*nk2*nk3)`. Pinned QE defines `npk=40000` in

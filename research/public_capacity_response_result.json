@@ -1,0 +1,175 @@
+{
+  "terminal_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-capacity-response-001/velocity-moment-probe.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-capacity-response-001/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-capacity-response-001",
+    "wall_s": 35.67154258303344,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 187219968,
+    "sampled_peak_group_rss_bytes": 183910400,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 120.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "native_controls": {
+    "sha256": "c7e4f8564723ee3160beae97ed09bc9c9a7cc13589134db3f478366cf44f6b66",
+    "dimensions": [
+      100,
+      6,
+      7,
+      32768,
+      512
+    ],
+    "qnorm": 1.4213149536207327e-12,
+    "volume": 122.17535992426924,
+    "native_control_max_absolute_errors": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "negative_fine_weights": 1164403,
+    "negative_fine_weight_absolute_sum": 42.86565944990891,
+    "fine_weight_absolute_sum": 801.6763201504745,
+    "cases": [
+      {
+        "temperature_kelvin": 2,
+        "imposed_gap_mev": 1.5,
+        "mean_squared_active": [
+          -1.5838590630946606e-07,
+          -1.5841649183047032e-07
+        ],
+        "second_moment_active": [
+          0.008144975191219725,
+          0.008144966601453033
+        ],
+        "second_moment_all": [
+          0.008144883761804894,
+          0.008144883761804656
+        ],
+        "fine_grid_reference": 0.008144883761805485,
+        "direct_reference_max_absolute_error": 8.291978215169138e-16
+      },
+      {
+        "temperature_kelvin": 4,
+        "imposed_gap_mev": 1.5,
+        "mean_squared_active": [
+          -1.5542205069404963e-07,
+          -1.554519411951863e-07
+        ],
+        "second_moment_active": [
+          0.007572775287514661,
+          0.007572767298221063
+        ],
+        "second_moment_all": [
+          0.007572690278423447,
+          0.0075726902784229375
+        ],
+        "fine_grid_reference": 0.007572690278422804,
+        "direct_reference_max_absolute_error": 6.42715047849407e-16
+      },
+      {
+        "temperature_kelvin": 8,
+        "imposed_gap_mev": 1.5,
+        "mean_squared_active": [
+          -1.4743638949451923e-07,
+          -1.4746437458795173e-07
+        ],
+        "second_moment_active": [
+          0.004729138321631681,
+          0.004729133320141633
+        ],
+        "second_moment_all": [
+          0.004729085223009366,
+          0.004729085223009473
+        ],
+        "fine_grid_reference": 0.004729085223009522,
+        "direct_reference_max_absolute_error": 1.5612511283791264e-16
+      }
+    ],
+    "scope": "Matched-energy constant-gap closure diagnostic; not a converged material response"
+  },
+  "cache_dimensions": [
+    100,
+    6,
+    7,
+    512,
+    2
+  ],
+  "cache_physical": [
+    1.4213149536207327e-12,
+    122.17535992426924,
+    1e-12,
+    0.0,
+    0.0
+  ],
+  "comparison": [
+    {
+      "name": "velocity-moments.txt",
+      "bytes": 924,
+      "expected_sha256": "c7e4f8564723ee3160beae97ed09bc9c9a7cc13589134db3f478366cf44f6b66",
+      "actual_sha256": "c7e4f8564723ee3160beae97ed09bc9c9a7cc13589134db3f478366cf44f6b66",
+      "bitwise_equal": true
+    },
+    {
+      "name": "response-assignment.txt",
+      "bytes": 205,
+      "expected_sha256": "11059fa33166bf168df8fb5914c334fa5b62876a5804c4db263a2dce39ca9328",
+      "actual_sha256": "11059fa33166bf168df8fb5914c334fa5b62876a5804c4db263a2dce39ca9328",
+      "bitwise_equal": true
+    },
+    {
+      "name": "response-assignment.bin",
+      "bytes": 5436800,
+      "expected_sha256": "829fd98c5f690597edd44a2e211a8c8695a81a743b40c417618499a2d10849ed",
+      "actual_sha256": "829fd98c5f690597edd44a2e211a8c8695a81a743b40c417618499a2d10849ed",
+      "bitwise_equal": true
+    },
+    {
+      "name": "response-symmetry.txt",
+      "bytes": 5388,
+      "expected_sha256": "c72df4d4883bbe81c69011c33f82086ecc91abfc6f28e5487a06f7bde3725efe",
+      "actual_sha256": "c72df4d4883bbe81c69011c33f82086ecc91abfc6f28e5487a06f7bde3725efe",
+      "bitwise_equal": true
+    },
+    {
+      "name": "cell-moments-raw.txt",
+      "bytes": 277,
+      "expected_sha256": "f2e3ce38fd936ae1884f2eba41f64b798a486cadd2344ee4c4bc9a9217b2f828",
+      "actual_sha256": "f2e3ce38fd936ae1884f2eba41f64b798a486cadd2344ee4c4bc9a9217b2f828",
+      "bitwise_equal": true
+    },
+    {
+      "name": "cell-moments-raw.bin",
+      "bytes": 6555200,
+      "expected_sha256": "11378f1c63ba6198a2f482e5b2d0b9af08d773b313c03e07d0c72ffceff6d643",
+      "actual_sha256": "11378f1c63ba6198a2f482e5b2d0b9af08d773b313c03e07d0c72ffceff6d643",
+      "bitwise_equal": true
+    },
+    {
+      "name": "cell-moments-averaged.txt",
+      "bytes": 282,
+      "expected_sha256": "a5c393b7035bd024d11d3a0ebff520554819f8c2f47339b3cd275771be49dd0d",
+      "actual_sha256": "a5c393b7035bd024d11d3a0ebff520554819f8c2f47339b3cd275771be49dd0d",
+      "bitwise_equal": true
+    },
+    {
+      "name": "cell-moments-averaged.bin",
+      "bytes": 6555200,
+      "expected_sha256": "095901131e129193ac1d3b4bb0afebfc056b8cbd81db5cd6c68c4d061709d680",
+      "actual_sha256": "095901131e129193ac1d3b4bb0afebfc056b8cbd81db5cd6c68c4d061709d680",
+      "bitwise_equal": true
+    }
+  ],
+  "all_eight_exports_bitwise_equal": true,
+  "all_declared_inputs_unchanged": true,
+  "storage_change_baseline_qualified": true,
+  "manifest_sha256": "a82d88c2c1234f1f379c366857468a7c1738fb034ed01a4247a6062f9e193863",
+  "physical_response_verified": false,
+  "scope": "Only the consistently rebuilt point capacity changes. Exact32cubed public diagnostic baseline passes all8exports. This qualifies the storage change on this path, not a physical response prediction."
+}

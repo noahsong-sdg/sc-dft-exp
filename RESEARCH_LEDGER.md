@@ -1,5 +1,31 @@
 # Research restart ledger
 
+## Latest — capacity baseline bitwisePASS;48band sole owner84791
+
+Capacity build001/session36936 TERMINALPASS265.485332s/474333184B individual,
+sampledgroup779436032B. Fresh npk300000, unchanged equations; manifests/sources
+unchanged. public_capacity_build_result.json preserves build/patch/guard hashes.
+
+Capacity32baseline001/session30840 TERMINALPASS35.671543s/187219968B.
+Strict postrun all8 expectedexports bitwise match, all declaredinputs unchanged,
+moment/cache controlsPASS. public_capacity_response_result.json qualifies storage
+change on this path only. Original checkpoint build result retains its pre-run
+numerical_baseline_qualified=false; the later response result owns qualification.
+
+48band001 sole owner session84791/PID32048, raw/public-band-grid48-001,
+waitingnormal120 since~12:29Z;105s normal observed12:31:40Z. Manifest
+public_band_grid48_manifest.json pins actual copied restart inputs, scripts,
+build and required32baseline. Poll same owner. After terminal run
+public_band_grid_analysis.py against this original manifest, all serializedbands
+and >=100common absolute reference energies target1e-6Ry; nooffsetfit.
+
+Derived-response staging is implemented/tested but not used yet. It must label
+new a2Fsave as derived and bind both source/copy to its readback identity, while
+keeping original publicfiles intact. Fourth-order probe builder is prepared,
+not launched; it reuses source-built libraries and changes only velocity stencil.
+Rank38 reduced008 remains staged only. No other watcher/native queue.
+Goal active; full physical prediction, conditioning and final audit remain open.
+
 ## Latest — dense897 numericPASS; capacity build sole owner36936 running
 
 Dense001/session3129 TERMINALPASS98.947410s/96403456B. Strict readbackPASS all

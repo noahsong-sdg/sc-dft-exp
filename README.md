@@ -51,6 +51,12 @@ now passes from12.9MB of author-hosted Nb inputs: fresh source compilation
 261.64s, native diagnostic33.24s/187MB. All eight exported files match the
 retained run bit for bit and the31source inputs remain unchanged. This proves
 diagnostic reproducibility; it is not a full SCDFT cold start or physical response prediction.
+The complete original32cubed dense-band input also reproduces from saved charge
+in98.95s/96MB: all23322eigenvalues agree within4.152e-7Ry, without a fitted offset.
+A consistent larger-capacity build preserves all8response exports bit for bit;
+the [48cubed band-grid study](research/BAND_DERIVATIVE_REFINEMENT_GATE.md) is the
+next numerical-sensitivity experiment, not a physical-prediction claim.
+
 
 Portable regression checks run in [public CI](https://github.com/noahsong-sdg/sc-dft-exp/actions/workflows/research-checks.yml).
 The [first verified run](https://github.com/noahsong-sdg/sc-dft-exp/actions/runs/45956886205)

@@ -1,0 +1,151 @@
+{
+  "build": {
+    "wall_s": 265.2193069588393,
+    "tools": {
+      "gfortran": "/opt/homebrew/bin/gfortran",
+      "cpp-16": "/opt/homebrew/bin/cpp-16",
+      "clang": "/usr/bin/clang",
+      "cmake": "/opt/homebrew/bin/cmake",
+      "make": "/usr/bin/make"
+    },
+    "commands": [
+      {
+        "command": [
+          "/opt/homebrew/bin/cmake",
+          "-S",
+          "/Users/noahs/Developer/sc-dft-exp/research/raw/public-capacity-build-001/build/lapack",
+          "-B",
+          "/Users/noahs/Developer/sc-dft-exp/research/raw/public-capacity-build-001/build/lapack-build",
+          "-DCMAKE_POLICY_VERSION_MINIMUM=3.5",
+          "-DCMAKE_Fortran_COMPILER=/opt/homebrew/bin/gfortran",
+          "-DCMAKE_BUILD_TYPE=Release",
+          "-DCMAKE_Fortran_FLAGS_RELEASE=-O2 -ffp-contract=off -frecursive",
+          "-DBUILD_TESTING=OFF",
+          "-DBUILD_SHARED_LIBS=OFF",
+          "-DLAPACKE=OFF",
+          "-DCBLAS=OFF"
+        ],
+        "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-capacity-build-001/build",
+        "wall_s": 4.678223500028253,
+        "log_sha256": "f9b1dbe8d813fe517deb95ff44876e09678a19767b5c42ca82ebac4599efd7a4",
+        "environment_overrides": {
+          "CMAKE_POLICY_VERSION_MINIMUM": "3.5"
+        }
+      },
+      {
+        "command": [
+          "/opt/homebrew/bin/cmake",
+          "--build",
+          "/Users/noahs/Developer/sc-dft-exp/research/raw/public-capacity-build-001/build/lapack-build",
+          "--parallel",
+          "2"
+        ],
+        "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-capacity-build-001/build",
+        "wall_s": 111.30992425000295,
+        "log_sha256": "ff00fe775aafcb840e57313caa328ca0cb36a2ef7951fe92cef87ab530ae76c4",
+        "environment_overrides": {
+          "CMAKE_POLICY_VERSION_MINIMUM": "3.5"
+        }
+      },
+      {
+        "command": [
+          "./configure",
+          "--disable-parallel",
+          "--disable-openmp",
+          "F90=/opt/homebrew/bin/gfortran",
+          "F77=/opt/homebrew/bin/gfortran",
+          "FC=/opt/homebrew/bin/gfortran",
+          "CC=/usr/bin/clang",
+          "FFLAGS=-O2 -ffp-contract=off -fallow-argument-mismatch",
+          "F90FLAGS=-O2 -ffp-contract=off -fallow-argument-mismatch -cpp",
+          "BLAS_LIBS=/Users/noahs/Developer/sc-dft-exp/research/raw/public-capacity-build-001/build/lapack-build/lib/libblas.a",
+          "LAPACK_LIBS=/Users/noahs/Developer/sc-dft-exp/research/raw/public-capacity-build-001/build/lapack-build/lib/liblapack.a /Users/noahs/Developer/sc-dft-exp/research/raw/public-capacity-build-001/build/lapack-build/lib/libblas.a"
+        ],
+        "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-capacity-build-001/build/qe",
+        "wall_s": 10.53950308309868,
+        "log_sha256": "c3c4a00c80efd5f9b561c7575de7c7d4d18b397ba3f60feabb16ebe5fd15c16b",
+        "environment_overrides": {
+          "CMAKE_POLICY_VERSION_MINIMUM": "3.5"
+        }
+      },
+      {
+        "command": [
+          "/usr/bin/make",
+          "-j2",
+          "pw",
+          "ph",
+          "pp"
+        ],
+        "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-capacity-build-001/build/qe",
+        "wall_s": 129.22334850020707,
+        "log_sha256": "6c48fe4f49fd6f929a162df3685e0f9f4b4110469a92c51c2305c141a02edb8b",
+        "environment_overrides": {
+          "CMAKE_POLICY_VERSION_MINIMUM": "3.5"
+        }
+      },
+      {
+        "command": [
+          "/usr/bin/make",
+          "-C",
+          "SCTK/src",
+          "-j2",
+          "libs-sctk",
+          "TLDEPS="
+        ],
+        "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-capacity-build-001/build/qe",
+        "wall_s": 5.081282208207995,
+        "log_sha256": "5a702d9d1b64d03d983296ac424430d45ce0d66b8dbe889ac58293d7e724ca8e",
+        "environment_overrides": {
+          "CMAKE_POLICY_VERSION_MINIMUM": "3.5"
+        }
+      },
+      {
+        "command": [
+          "/usr/bin/make",
+          "-f",
+          "/Users/noahs/Developer/sc-dft-exp/research/public_response_probe.mk",
+          "QE_ROOT=/Users/noahs/Developer/sc-dft-exp/research/raw/public-capacity-build-001/build/qe",
+          "velocity-moment-probe.x"
+        ],
+        "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-capacity-build-001/build/probe",
+        "wall_s": 0.9166359170340002,
+        "log_sha256": "5dd6c3f58579ffb3ba6668bf2721c0b25eb88b0cf41cc8bf608c9211b977ade8",
+        "environment_overrides": {
+          "CMAKE_POLICY_VERSION_MINIMUM": "3.5"
+        }
+      }
+    ],
+    "point_capacity": 300000,
+    "executable": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-capacity-build-001/build/probe/velocity-moment-probe.x",
+    "executable_sha256": "98cc839b7fa67ba37c365f04b30797ef8cc2d643d106e17a3cbb4cb5306d6bb0",
+    "source_manifest_sha256": "a61610cec78189e3c7f8c3f00483deb0195f897d0d9699cad57b22211bc2e36d",
+    "scope": "Fresh archive build; numerical/material qualification requires separate execution"
+  },
+  "terminal_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "/Users/noahs/Developer/sc-dft-exp/research/build_public_response.py",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-capacity-build-001/build",
+      "--archive-directory",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-001/downloads",
+      "--point-capacity",
+      "300000"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-capacity-build-001",
+    "wall_s": 265.4853320000693,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 474333184,
+    "sampled_peak_group_rss_bytes": 779436032,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 1200.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "manifest_sha256": "885fc632a6e62aa6e26de083a8a0c9e362637423bf2f6c0b35ac248427701b02",
+  "source_patch_sha256": "748c572c671b8b9dbe1825d21a7f9af8b3797b1ce01491da7fcbd6b29a9baa07",
+  "declared_inputs_unchanged": true,
+  "numerical_baseline_qualified": false,
+  "scope": "Fresh consistent npk300000 source build; exact32cubed response baseline still required"
+}

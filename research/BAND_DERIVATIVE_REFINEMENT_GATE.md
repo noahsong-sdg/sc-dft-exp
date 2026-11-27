@@ -66,3 +66,56 @@ A fourth-order48-grid control needs a separately pinned, consistently linked
 probe and identical generated inputs. A64-grid extension requires a new measured
 cost decision. If changes persist, report non-convergence rather than choosing
 the preferred value or fitting normalization to experiment.
+
+## Runnable stages
+
+Use fresh destinations and the exact environment recorded by each manifest.
+Do not launch these stages concurrently or skip the preceding qualification:
+
+```
+python3 research/stage_public_band_grid.py /absolute/capacity-build /absolute/public-inputs /absolute/new-band48
+python3 research/macos_native_guard.py bands 1200 /absolute/new-band48 /absolute/new-band48/pw.x -in /absolute/new-band48/native.in
+python3 research/public_band_grid_analysis.py /absolute/new-band48 /absolute/new-band48/run-manifest.json
+python3 research/stage_refined_response.py /absolute/capacity-build /absolute/public-inputs /absolute/new-band48 /absolute/new-band48/run-manifest.json /absolute/new-response48
+SCTK_MOMENT_GRID=8 python3 research/macos_native_guard.py moment 240 /absolute/new-response48 /absolute/new-response48/velocity-moment-probe.x -in /absolute/new-response48/native.in
+python3 research/moment_analysis.py /absolute/new-response48/velocity-moments.txt
+```
+
+The refined-response stager repeats the band validation before destination
+creation. It constructs a separate consumed bundle, preserving original public
+identities and explicitly labeling a2Fsave as derived. No invented download URL
+or replacement author-hosted checksum is used. Both the generated source and
+consumed copy stay bound to the readback hash if a later change occurs. A stale
+or failed band gate rejects staging; a concurrent-change fixture verifies that
+new identities are never silently adopted. The copied bundle is immutable for
+this read-only response diagnostic, unlike the band-generation XML lifecycle.
+
+## Separately linked fourth-order control
+
+`build_fourth_order_response.py` reuses the freshly source-built QE/SCTK and
+reference LAPACK/BLAS libraries; it does not claim another cold-start build.
+It fetches the same SHA-pinned geometry source and applies the existing
+`fourth_order=True` velocity-only extraction, leaving curvature unchanged.
+A new probe directory prevents old module/object adoption. All parent archives,
+modules, make.inc, probe sources and generated geometry are hash-recorded;
+LAPACK/BLAS outside the QE subdirectory are included. A changed or pre-capacity
+parent is rejected before output creation. The native link/run is still the
+integration gate.
+
+After48band/response controls terminate, one180s/3GiB guarded link is justified,
+expected seconds plus bounded source retrieval. Require120s normal pressure and
+no other heavy owner. Then stage separate original32 and derived48 response
+controls with that probe, retaining the exact tiny-Q/full48 diagnostic and
+response-cell grid8. Use120s and240s guards respectively. Require unchanged
+inputs, native first-moment replay, and second-moment conservation on each grid.
+Compare all2/4/8K fine-quadrature values to the corresponding second-order run;
+report differences without treating them as a certified truncation bound.
+
+```
+python3 research/build_fourth_order_response.py /absolute/capacity-build /absolute/new-fourth-build
+```
+
+The command itself is a build, so execute it through the documented guard and a
+prospective input manifest. Subsequent staging uses `/absolute/new-fourth-build`
+as its build argument. The parent remains untouched. A successful link is not
+response qualification; retain all failed attempts and measured cost.
