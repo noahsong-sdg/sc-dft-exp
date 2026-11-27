@@ -1,0 +1,64 @@
+{
+  "summary_url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Nb1-151406/delta0.dat",
+  "summary_sha256": "ef5d836d375670c4f02522b62b20c22a61cacb515b9578661840652a40d63f1b",
+  "summary_rows": [
+    [
+      0.5,
+      1.4658,
+      54.3715,
+      366.731
+    ],
+    [
+      0.7,
+      1.46255,
+      54.3715,
+      366.731
+    ],
+    [
+      1.0,
+      1.4571,
+      54.3715,
+      366.731
+    ],
+    [
+      3.0,
+      1.39615,
+      54.3715,
+      366.731
+    ],
+    [
+      4.0,
+      1.3377,
+      54.3715,
+      366.731
+    ],
+    [
+      5.0,
+      1.24415,
+      54.3715,
+      366.731
+    ],
+    [
+      6.0,
+      1.09825,
+      54.3715,
+      366.731
+    ],
+    [
+      7.0,
+      0.867415,
+      54.3715,
+      366.731
+    ]
+  ],
+  "legacy_fermi_state_counts": [
+    701,
+    724
+  ],
+  "legacy_grid_mean_gap_mev": [
+    2.208079603601031,
+    2.1986978911288064
+  ],
+  "legacy_two_grid_mean_mev": 2.2033887473649187,
+  "scope": "Consistency diagnostic only; a matching scalar would not establish gap temperature or convergence"
+}

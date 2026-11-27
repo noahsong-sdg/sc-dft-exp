@@ -1,5 +1,14 @@
 # Research restart ledger
 
+## New input qualification evidence — archived gap scalar mismatch
+
+Legacy gap Fermi-surface mean from native compute_dabs convention is 2.20338875
+meV; neither grid matches any released delta0.dat temperature row (0.867415 to
+1.4658 meV). See research/NB_GAP_CONSISTENCY.md and hashed scalar consistency JSON.
+This rules out assigning the backup to that series from geometry alignment alone;
+it does not identify the backup's setup or prove it erroneous. No gap rescaling
+or physical transfer accepted. Moment study remains explicitly imposed-gap.
+
 ## Latest independent gate — current revision and physical interpretation
 
 Progress: fetched/hash-audited current geometry source 4bc883e5. First-velocity
