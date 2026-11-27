@@ -119,3 +119,22 @@ The command itself is a build, so execute it through the documented guard and a
 prospective input manifest. Subsequent staging uses `/absolute/new-fourth-build`
 as its build argument. The parent remains untouched. A successful link is not
 response qualification; retain all failed attempts and measured cost.
+
+## Attribution without another native solve
+
+`constant_moment_components.py` contracts the raw cache on all support, including
+negative or zero DOS cells, and separates the computed thermal velocity-squared
+and curvature terms. Their sum must reproduce the native direct fine-grid value
+at2/4/8K. The32cubed baseline agrees within4.78e-16 in the native diagnostic units.
+The curvature term is only about20–31ppm of the total in these imposed-gap cases;
+the velocity-squared term dominates. This supports the velocity-stencil control,
+without assigning separately validated physical meanings to those terms.
+A signed/zero-support fixture prevents accidental support filtering.
+
+```
+python3 research/constant_moment_components.py /absolute/response-run
+```
+
+This decomposition shares the native thermal approximation. It is an attribution
+of a discrete computed sum, not independent physical validation or a truncation
+error certificate. Preserve component source/input hashes alongside comparisons.
