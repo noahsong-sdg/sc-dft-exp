@@ -1,5 +1,30 @@
 # Research restart ledger
 
+## Latest priority — full pilot live; public BLAS tests repaired
+
+Previous turn made progress: full-map implementation90f922f public. CI45968647370
+and45968782110 failed linking the two new fixtures. Exposed stderr establishes
+missing-lblas; workflow now installs libblas-dev ate06f8f0. CI45968992356
+SUCCESS for59 tests and moment replay. New full local suite60 tests PASS(5.075s),
+compileall/diff checks PASS. No scientific code or native-owner reset.
+
+Verified LIVE owner31203, watcherPID10080, nativePID15357. Full native pilot
+launched08:48:20Z; latest progress27680/66867rows at295.371CPU seconds, normal
+pressure and within3GiB cap. Poll same handle and full-nonlinear-001 outputs.
+No full terminal result yet; do not duplicate launch.
+
+New saved-mode audit matches retained candidate lambda1.0018603316299344,
+relative saved residual3.9203756985271495e-11, both Fermi averages positive,
+finite arrays/exact padding. See research/saved_nb_mode_audit.json and
+FULL_NONLINEAR_MAP_GATE.md. Candidate may seed a more informative next solve,
+but fresh operator application remains required; no new eigenpair acceptance.
+
+Next after fullpass: strict readback/receipt and resource accounting; then
+consider batching nonlinear amplitudes along this source-bound conventional
+mode, including a fresh linear action and full residual checks, before a costly
+iterative solve. A projected amplitude root alone is not a full gap solution.
+Goal active; ceiling2026-11-27T17:41Z.
+
 ## Latest priority — full nonlinear native pilot live
 
 Previous turn made progress: selected-map result public ate0bffd2; CI45967820966

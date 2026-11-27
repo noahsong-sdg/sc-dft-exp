@@ -78,3 +78,27 @@ Checkpoint verification:59 offline tests PASS(4.478s), compileall PASS and
 `git diff --check` PASS. Full native boundschecked build PASS. No separate
 project typecheck command applies to these Python/Fortran diagnostics. The
 previous unchanged moment refinement replay passed in the preceding checkpoint.
+
+## Public CI dependency correction
+
+The first Ubuntu run failed both new fixture links. Captured compiler output
+initially hid the cause; exposing it showed `cannot find -lblas`. The runner
+lacked the BLAS development library, so the workflow now installs `libblas-dev`.
+The local Mac already had that link library. Installing the declared dependency
+preserves the real BLAS tests; skipping them or substituting another application
+would weaken the intended check. CI45968992356 at e06f8f0 passed the59-test
+suite and committed moment replay. This changes test setup, not native physics.
+
+## Candidate for the next nonlinear starting state
+
+`saved_mode_audit.py` reads the retained fresh-action Ritz candidate and its
+initialization. `saved_nb_mode_audit.json` records hashes, exact dimensions,
+padding, finite checks, reconstructed residual and Fermi averages. Eigenvalue
+1.0018603316299344 and relative saved residual3.9203756985271495e-11 agree with
+its metadata; both Fermi averages are positive. A fixture tests complete readback
+and stale dimensions/schema, nonfinite/truncated payload and changed padding.
+This does not freshly apply the operator or prove completeness over branches.
+The stored conventional candidate could reduce wasted nonlinear evaluations
+compared with the arbitrary diagnostic seed. Its use requires a fresh native
+action and explicit source/operator binding; this audit alone does not qualify
+a nonlinear gap or justify a physical response claim.
