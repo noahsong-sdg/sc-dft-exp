@@ -19,7 +19,10 @@ class MacGuardTest(unittest.TestCase):
             (root/'run-manifest.json').write_text(json.dumps(dict(cwd=str(root),
                 command=['declared-pw.x','-in','native.in'],files=[dict(path=str(data),
                 bytes=data.stat().st_size,sha256=hashlib.sha256(data.read_bytes()).hexdigest())])))
-            with patch.object(guard,'wait_normal'), patch.object(guard,'run',return_value={'status':'PASS'}) as run:
+            def running(*args):
+                self.assertEqual(json.loads((root/'campaign_launch_watch.json').read_text())['phase'],'running')
+                return {'status':'PASS'}
+            with patch.object(guard,'wait_normal'), patch.object(guard,'run',side_effect=running) as run:
                 result=guard.main(['bands','180',str(root),'declared-pw.x','-in','native.in'])
                 self.assertEqual(result['status'],'PASS')
                 self.assertEqual(guard.ROOT,root)

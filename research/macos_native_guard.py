@@ -135,6 +135,7 @@ def main(arguments=None):
     try:
         wait_normal(ROOT)
         verify_manifest(ROOT,argv)
+        (ROOT/'campaign_launch_watch.json').write_text(json.dumps(dict(pid=os.getpid(),phase='running'))+'\n')
         result=run(label,argv,ROOT,float(seconds),dict(os.environ,OMP_NUM_THREADS='1',OPENBLAS_NUM_THREADS='1'))
     except BaseException:
         (ROOT/'campaign_launch_watch.json').write_text(json.dumps(dict(pid=os.getpid(),phase='failed'))+'\n')
