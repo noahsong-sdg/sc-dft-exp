@@ -18,9 +18,9 @@ New candidate not solved/verified; inheritedoperatorconsistency still unproved.
 
 Fresh raw/reduced-nonlinear-002 prepared, unchanged executable, newbasis and
 same0.15meV branchseed. enriched_reduced_manifest.json pins runtimefiles and
-launcher; launcher rechecks hashes immediately beforeexecution. Next launch
-raw/run-reduced-nonlinear-002.py with120 quietnormal seconds and120s/3GiB guard,
-oneowner. Then strict reducedreadback, assess source-bound fullnativevalidation
+launcher; launcher rechecks hashes immediately beforeexecution. Launched owner6371/PID40033; verified live waiting at15 normal seconds.
+Poll this same owner or inspect its actual process. raw/run-reduced-nonlinear-002.py
+uses120 quietnormal seconds and120s/3GiB guard, oneowner. Then strict reducedreadback, assess source-bound fullnativevalidation
 with same1e-10Ry/1e-5ratio targets. Goal active; ceiling2026-11-27T17:41Z.
 
 ## Latest priority — full candidate failed targets; enrichment identity tested
