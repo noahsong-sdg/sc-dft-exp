@@ -3515,3 +3515,17 @@ Controller64977 remains active; no additional heavy job launched.
 Rows1:16384 terminal PASS, wall212.2156986668706s, individualpeak1030258688B, sampledgroup980303872B. Public/consumed manifest equality and original native certificate/postrun checks PASS. New guarded total9317.654697834365s; historical189.29min separate.
 Next022 prospectively staged rows16385:32768,600s/3GiB/quiet120.
 No maintained code/threshold changes. Scientific gap and response acceptance remain incomplete.
+
+
+## External comparison protocol clarified
+
+Rechecked primary SCDFT and uniform-pairing papers and the2026 Nb experimental
+abstract/author manuscript. PHYSICAL_INTERPRETATION_GATE now distinguishes
+intrinsic q->0 response from finite-q/dirty sample screening, records the
+uniform-pairing reference's rescaled experimental comparison, and separates
+absolute-temperature predictions from reduced-temperature diagnostics. No fitted
+mass/Tc adjustment or physical acceptance granted. The published experimental
+abstract matches the manuscript's29.1(10)nm value; final full-text conditions
+remain unverified. Sources/sections/version limitations recorded in the gate.
+Documentation only;184tests/193compilations/moment checks lastPASS. DiffcheckPASS.
+Controller64977 is still the sole active campaign owner; no new native job.

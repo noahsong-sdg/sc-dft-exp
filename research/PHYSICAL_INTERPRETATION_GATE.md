@@ -53,3 +53,47 @@ mass factor in a separate normal-state estimate. Our inference is that numerical
 moment closure and physical response renormalization must be audited separately.
 We have not derived an additional response vertex consistent with that functional.
 Do not insert a fitted mass factor into the diagnostic cache.
+
+
+## Prospective external comparison conditions (checked27November2026)
+
+[SCDFT v2, S67/S79 and TableS2](https://arxiv.org/html/2603.05123v2)
+freezes the momentum dependence of K and Z, and lists its mass-enhanced
+normal-state estimate separately from the current-slope result. For Nb its
+calculated Tc is8.09K versus experimental9.50K in that table. This is evidence
+about that calculation, not a measured Tc for our current run. The table does
+not justify inserting its normal-state mass factor into our current slope.
+
+[Hiorth et al. v1, SectionIII.1 and Table1](https://arxiv.org/html/2603.10955v1)
+reports Nb15nm with uniform pairing at zero temperature. Its comparison near
+16–19nm rescales experimental values by1/sqrt(Z), with Z approximately2.1.
+Thus that comparison is not a direct uncorrected experimental benchmark for our
+finite-temperature anisotropic result. Their conventional/geometric split and
+strong-coupling comparison must remain distinct; we have not matched their DFT
+inputs or independently derived their correction for our functional.
+
+[McFadden et al., published abstract](https://journals.aps.org/prb/abstract/10.1103/2nsw-n8gf)
+reports intrinsic lambda_L=29.1(10)nm from oxygen-doped Nb with nonlocal screening
+analysis. The [author-hosted manuscript dated4November2025](https://misportal.jlab.org/sti/publications/25858/attachments/21075/lem-sims-nbV3.pdf),
+Figure2 and Equations3–10, describes Meissner profiles at3K, a finite-mean-free-path
+and stopping-distribution model, surface dead layer and demagnetization, and
+fixed Tc9.25K/gap1.53meV in its joint fit. TableII selects the nonlocal weighted
+estimate. Its parameter is not simply a fitted exponential screening distance.
+The published abstract agrees on29.1(10); full final publication conditions have
+not been independently checked against that manuscript.
+
+Our resulting comparison protocol is prospective, not an accepted result:
+
+1. Keep the registered2/4/8.05K calculations and report physical temperatures.
+   Any reduced-temperature comparison must disclose each independently obtained
+   Tc and remain a separate diagnostic. Do not shift Tc to fit a measured curve.
+2. Compare intrinsic q->0 stiffness/London length with a matched intrinsic
+   quantity, distinguishing it from a finite-q field profile or dirty-sample
+   exponential length. Do not infer the missing corrections from agreement.
+3. Keep numerical1% uncertainty separate from current-functional, strong-coupling,
+   sample and extraction mismatch. A common scalar normalization cancels in a
+   ratio only if it is actually common; state/temperature-dependent vertices
+   cannot be assumed to cancel.
+4. Accept no physical length comparison until mass/current assumptions and
+   matched conventions are derived and independently checked. These sources
+   identify useful external checks; none closes that gate by itself.
