@@ -2,6 +2,14 @@
 
 ## Latest restart point — preparation pilot staged
 
+Further progress: all 78 retained input/library hashes verified against historical
+manifests; final preparation wrapper rebuilt in raw/nb-preparation-002. Memory
+pressure still 2, so no child launched. REUSE_BOUNDARIES.md records why primitive
+Q scaling does not certify reuse of final assigned states. PAPER_EQUATION_MAP.md
+ties the normal-reference scalar identity to the paper while leaving overall
+sign/factor qualification explicitly unresolved. Next: stage/run guarded pilot
+when pressure is normal; otherwise finish the full current-equation derivation.
+
 Previous turn: progress. The requested two-week prompt is saved and linked from
 AGENTS.md. The original twelve-hour goal remains active. Eighteen offline tests
 pass; the networked full-routine threshold probe also passes optimized OpenMP

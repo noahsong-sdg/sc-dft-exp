@@ -33,8 +33,9 @@ statistical uncertainty or a comparison between independent physical methods.
 `prepare_response_state.f90` and `.mk` build against the pre-existing native
 libraries. Build in a fresh ignored directory, passing `NATIVE_MAKEFILE` and
 `RESPONSE_SOURCE` as absolute paths. No full QE rebuild is claimed. Initial
-wrapper compiled/linked successfully; its final schema edit requires rebuild
-before running. The linker reports a pre-existing duplicate BLAS library warning.
+wrapper compiled/linked successfully; the final schema was subsequently rebuilt
+successfully in `research/raw/nb-preparation-002`. The linker reports a
+pre-existing duplicate BLAS library warning.
 
 The first attempt was staged under `research/raw/nb-preparation-001`, with the
 existing native input changed only to temp=1 K and q_fflo=(.001,0,0). A 120-second,
@@ -44,8 +45,12 @@ the pilot was zero. Failure receipt remains in the ignored attempt directory.
 Do not overwrite it when retrying. The prior historical initializer's 30.96 s /
 0.91 GB observation is only a sizing lead, not a measurement of this wrapper.
 
-Next: recheck memory pressure; rebuild the final wrapper into a fresh directory;
-verify retained input/library hashes against historical manifests; run one guarded
+All 78 retained library/input files matched the historical recorded SHA256 hashes;
+see preparation_input_verification.json. This verifies retained artifacts, not
+their physical adequacy. Memory pressure remained at 2 after the rebuild.
+
+Next: recheck memory pressure; stage the final wrapper in the fresh directory;
+run one guarded
 pilot only when normal. Check all output counts, finite values, nonzero curvature
 and provenance before evaluating any currents. Qualification of a self-consistent
 material response requires additional matching gap data and convergence evidence.
