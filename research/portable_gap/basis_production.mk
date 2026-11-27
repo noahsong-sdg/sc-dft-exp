@@ -6,5 +6,5 @@ basis-production.x: basis_production_driver.o linear_image_checkpoint.o block_li
 	$(LD) $(LDFLAGS) -o $@ $^ $(CORELIBS)
 linear_image_checkpoint.o: $(RESEARCH)/portable_gap/linear_image_checkpoint.f90
 	$(MPIF90) $(FF) -fcheck=all -c $< -o $@
-basis_production_driver.o: $(RESEARCH)/portable_gap/basis_production_driver.f90 linear_image_checkpoint.o block_linear_operator.o native_state_io.o saved_coulomb.o
+basis_production_driver.o: $(RESEARCH)/portable_gap/basis_production_driver.f90 tc_native_oracle.o tc_subspace.o linear_image_checkpoint.o block_linear_operator.o native_state_io.o saved_coulomb.o
 	$(MPIF90) $(FF) -fcheck=all -c $< -o $@

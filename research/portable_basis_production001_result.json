@@ -1,0 +1,31 @@
+{
+  "status": "FAIL",
+  "receipt": {
+    "status": "FAIL",
+    "error": "RuntimeError: Native command exit 2",
+    "command": [
+      "/usr/bin/make",
+      "-f",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/basis_production.mk",
+      "RESEARCH=/Users/noahs/Developer/sc-dft-exp/research",
+      "QE_ROOT=/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe",
+      "NATIVE_INPUT=/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-production-001/native.in",
+      "produce-basis"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-production-001",
+    "wall_s": 2.847260208334774,
+    "exit": 2,
+    "max_individual_descendant_rss_bytes": 134496256,
+    "sampled_peak_group_rss_bytes": 46940160,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 600.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "manifest_sha256": "ee533319d3b90d298fc6cbec63262c78463e790f4683199551a66e4528dc80b5",
+  "console_sha256": "22559b8b470551f4546d8ef1702e34385547b2c01f0a67b36da42775cb1da79a",
+  "postrun_inputs_verified_before_fix": true,
+  "source_revision": "2c24f60bafcafc4a17909ef6697dd1343c16b738",
+  "root_cause": "Missing tc_native_oracle.o and tc_subspace.o prerequisites on basis_production_driver.o; compilation stopped before execution",
+  "accepted_rows": 0
+}

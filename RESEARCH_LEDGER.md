@@ -2722,3 +2722,21 @@ first16384rows; maxregisteredsegment17715rows. No nativeowner beforepublication.
 163offline testsPASS11.294s;178maintainedPython sourcescompilePASS; momentreplay
 anddiffcheckPASS. Nativeproductioncompile/runtime pending. PublicpreviousCI
 46053223670 on220a121PASS. Guardedtotal2550.734333s unchanged.
+
+
+## Production001 compile failure; minimal build-order repair
+
+TerminalFAIL2.847260s/134496256B, exit2 beforedriverexecution; no acceptedrows.
+Rootcause: basis_production_driver.o omitted tc_native_oracle.o and tc_subspace.o
+prerequisites despite importing both modules. Cleanbuild reacheddriver before
+modulefiles existed. Add exactly those two prerequisiteedges; scientificsource
+unchanged. Actualmake dry-run fixture confirms both modulebuilds precededriver.
+All failedruninputs verified BEFORE editingmakefile; oldsource recoverableat
+2c24f60. Originalmanifest/receipt retained, never rehashed to adoptnewmakefile.
+See portable_basis_production001_result.json. Guardedtotal2553.581593s.
+
+Recovery002 stagesrows1:16384 fromzero with freshcontext reflecting repaired
+makefile. Same600s/3GiB/quiet120, same250–300s estimate, same scientificsource.
+165offline testsPASS11.142s;178maintainedPythoncompilePASS; momentreplay/diffPASS.
+PublicprotocolCI46053577820 on2c24f60PASS (offline CI didnotcatchnativebuildorder;
+new regression exercisesactual make rule). No owner beforepublication/launch.
