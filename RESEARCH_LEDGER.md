@@ -3529,3 +3529,10 @@ abstract matches the manuscript's29.1(10)nm value; final full-text conditions
 remain unverified. Sources/sections/version limitations recorded in the gate.
 Documentation only;184tests/193compilations/moment checks lastPASS. DiffcheckPASS.
 Controller64977 is still the sole active campaign owner; no new native job.
+
+
+## Bounded48-vector controller checkpoint022
+
+Rows16385:32768 terminal PASS, wall214.91488233301789s, individualpeak1028046848B, sampledgroup978042880B. Public/consumed manifest equality and original native certificate/postrun checks PASS. New guarded total9532.569580167383s; historical189.29min separate.
+Next023 prospectively staged rows32769:49152,600s/3GiB/quiet120.
+No maintained code/threshold changes. Scientific gap and response acceptance remain incomplete.
