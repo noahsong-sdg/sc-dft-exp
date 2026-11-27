@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "checkpoint": {
+    "context": "4cb53ff814508aeded12a089a42157af5f08bb2cfb3468f2238a61e209a83184",
+    "counts": [
+      66867,
+      67940,
+      67940
+    ],
+    "completed": 32784,
+    "beta": 19613.355577892344
+  },
+  "manifest_sha256": "29c19145d4edfdd315ded9c4de9cbb8473d970aa61d0184e8864d1a06fa8c896",
+  "receipt_sha256": "ced764ab0a5d5c73235c8f6767a83d7e343c852ff9e2db7309e8a993ca9703e8",
+  "checkpoint_sha256": "00619908619c043288914299e74441deb168ee8cebcc3d0a2d7abc37df01f1ea",
+  "metadata_sha256": "18af52b5fd83beb621fa74d2c80b8fc9b4e45b36da11803358bf70c43e217eba",
+  "executable_sha256": "53d5cb17bc0f8e79d34e2ab08d37e16027b17babbedbf966b3c3868437f30dd6",
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/usr/bin/make",
+      "-f",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/z_sweep.mk",
+      "RESEARCH=/Users/noahs/Developer/sc-dft-exp/research",
+      "QE_ROOT=/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe",
+      "NATIVE_INPUT=/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-sweep-005/native.in",
+      "qualify-sweep"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-sweep-005",
+    "wall_s": 170.2877814997919,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 1644101632,
+    "sampled_peak_group_rss_bytes": 1645756416,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 2400.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "split_qualification_passed": false,
+  "full_Z_qualified": false,
+  "physical_response_verified": false,
+  "new_guarded_total_s": 1707.4748505403647
+}

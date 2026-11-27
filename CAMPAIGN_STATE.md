@@ -197,3 +197,7 @@ Recovery004 terminalPASS170.075772s, certifiedthrough24592. Old53294/session6345
 terminal. Guardedtotal1537.187069s. Root005 stages24593:32784; unchanged frozen
 context and quiet120/3GiB guard. Independentuniform-gap control is public/tested,
 not nativeNb validation. FullZ/gap/response acceptance still incomplete.
+
+Recovery005 terminalPASS170.287781s, certifiedthrough32784. Old62352/session51699
+terminal. Guardedtotal1707.474851s. Root006 stages32785:40976; unchanged frozen
+context and quiet120/3GiB guard. FullZ/oracle/gap/response remain incomplete.

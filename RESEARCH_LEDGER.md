@@ -2549,3 +2549,16 @@ no historicalcustomobjectpath. AcceptedpartialZ through24592. New guardedtotal
 8192rows/2400s/3GiB/quiet120. FullZ/oracle/materialresponse remain unqualified.
 155tests/169sourcecompilation/moment gates lastpassed. PublicCI46047155453 on
 7ccd4c9PASS. No new codechange; no owner before publication/launch.
+
+
+### Recovery005 accepted through32784; continuation006 staged
+
+TerminalPASS170.287781s/1644101632B individualpeak (group1645756416B). Native
+rows24593:32784 took121.671252s. Strict context/checkpoint/certificate and all
+declaredinputs, public/consumed manifests,16explicitlinkarchives checkedPASS;
+no historicalcustomobjectpath. AcceptedpartialZ through32784. New guardedtotal
+1707.474851s including failed001. Root006 stages32785:40976 from accepted005,
+8192rows/2400s/3GiB/quiet120. FullZ and independentoracle remain incomplete.
+155tests/169sourcecompilation/moment gates lastpassed; publicCI46047493241 on
+2d34257PASS. This result/manifest-only step changes no code. No owner before
+prospective publication/launch.
