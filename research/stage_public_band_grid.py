@@ -1,4 +1,4 @@
-"""Stage one48cubed fixed-density band grid; no new density or phonon solve."""
+"""Stage48cubed fixed-density XML bands; serialize a2Fsave in a separate action."""
 import argparse
 import json
 from pathlib import Path
@@ -24,7 +24,6 @@ def stage(build, inputs, destination, manifest_path=RESEARCH/'public_response_in
     if native.count(marker)!=1 or native.count("occupations='fixed',")!=1:
         raise ValueError('Changed qualified band input boundaries')
     native=native.split(marker)[0]+'K_POINTS automatic\n48 48 48 0 0 0\n'
-    native=native.replace("occupations='fixed',","occupations='fixed', la2F=.true.,")
     (root/'native.in').write_text(native)
     (root/'reference.json').write_text(json.dumps(reference,indent=2)+'\n')
     for entry in result['files']:

@@ -26,6 +26,18 @@ class RefinedResponseStagingTest(unittest.TestCase):
             band_manifest=bands/'manifest.json';band_manifest.write_text('band protocol')
             checked=dict(shared_point_and_serialization_targets_met=True,
                 sha256={str(derived):digest(derived),str(band_manifest):digest(band_manifest)})
+            serialized=bands/'serialization-manifest.json'
+            serialized.write_text(json.dumps(dict(source_band_manifest=str(band_manifest))))
+            receipt=bands/'results/serialize/receipt.json';receipt.parent.mkdir(parents=True);receipt.write_text('{}')
+            checked['sha256'].update({str(serialized):digest(serialized),str(receipt):digest(receipt)})
+            with patch('stage_refined_response.check_serialization',return_value=checked), patch(
+                    'stage_refined_response.check_bands',side_effect=AssertionError('Wrong validation route')):
+                result=stage(build,inputs,bands,band_manifest,root/'serialized-run',manifest,serialization_manifest=serialized)
+            self.assertEqual(result['derived_inputs']['pwscf.a2Fsave']['sha256'],digest(derived))
+            serialized.write_text(json.dumps(dict(source_band_manifest='/stale/parent.json')))
+            with self.assertRaisesRegex(ValueError,'different parent'):
+                stage(build,inputs,bands,band_manifest,root/'wrong-parent',manifest,serialization_manifest=serialized)
+            self.assertFalse((root/'wrong-parent').exists())
             with patch('stage_refined_response.check_bands',return_value=dict(shared_point_and_serialization_targets_met=False)):
                 with self.assertRaisesRegex(ValueError,'validation failed'):
                     stage(build,inputs,bands,band_manifest,root/'failed',manifest)

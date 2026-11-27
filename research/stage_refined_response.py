@@ -7,16 +7,24 @@ import shutil
 from fetch_public_response_inputs import digest
 from public_band_grid_analysis import analyze as check_bands
 from stage_public_response import RESEARCH, stage as stage_original
+from verify_band_serialization import verify as check_serialization
 
 
 def stage(build, inputs, bands, band_manifest, destination,
-          manifest_path=RESEARCH/'public_response_inputs.json'):
+          manifest_path=RESEARCH/'public_response_inputs.json', serialization_manifest=None):
     build,inputs,bands,root=[Path(p).absolute() for p in (build,inputs,bands,destination)]
     band_manifest=Path(band_manifest).absolute()
     built=json.loads((build/'build-result.json').read_text())
     if built.get('point_capacity',40000)<48**3:
         raise ValueError('Response build cannot store48cubed')
-    checked=check_bands(bands,band_manifest)
+    if serialization_manifest is None:
+        checked=check_bands(bands,band_manifest)
+    else:
+        serialization_manifest=Path(serialization_manifest).absolute()
+        serialized=json.loads(serialization_manifest.read_text())
+        if serialized['source_band_manifest']!=str(band_manifest):
+            raise ValueError('Serialization belongs to a different parent band protocol')
+        checked=check_serialization(bands,serialization_manifest)
     if not checked['shared_point_and_serialization_targets_met']:
         raise ValueError('Generated band-grid validation failed')
     derived=bands/'scratch/pwscf.a2Fsave'
@@ -45,6 +53,12 @@ def stage(build, inputs, bands, band_manifest, destination,
     for path in (Path(__file__),RESEARCH/'public_band_grid_analysis.py',
                  RESEARCH/'public_band_pilot_analysis.py',RESEARCH/'stage_public_response.py'):
         result['files'].append(dict(path=str(path),bytes=path.stat().st_size,sha256=digest(path)))
+    if serialization_manifest is not None:
+        for path in (serialization_manifest,bands/'results/serialize/receipt.json'):
+            result['files'].append(dict(path=str(path),bytes=path.stat().st_size,
+                                       sha256=checked['sha256'][str(path)]))
+        path=RESEARCH/'verify_band_serialization.py'
+        result['files'].append(dict(path=str(path),bytes=path.stat().st_size,sha256=digest(path)))
     result.update(grid=[48]*3,response_cell_grid=8,guard_seconds=240,
                   derived_inputs={'pwscf.a2Fsave':dict(source=str(derived),sha256=expected,
                     original_public_sha256=catalog['pwscf.a2Fsave']['sha256'],
@@ -59,4 +73,5 @@ if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     for name in ('build','inputs','bands','band_manifest','destination'):
         parser.add_argument(name,type=Path)
+    parser.add_argument('--serialization-manifest',type=Path,help='Explicit separately verified QE serialization protocol')
     print(json.dumps(stage(**vars(parser.parse_args())),indent=2))

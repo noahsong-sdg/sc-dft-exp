@@ -1,5 +1,31 @@
 # Research restart ledger
 
+
+## Latest — native48 serialization PASS; response48 sole owner86926
+
+Band48 diagonalization completed359.615475s/109379584B, but its original
+output protocol FAILED: disk_io=nowf returns in QE punch before a2Fsave.
+public_band_grid48_result.json preserves this failure. The XML contains all2769
+completed points; do not rerun the diagonalization or relabel that protocol PASS.
+
+A separate owning-QE XML reader/a2F writer linked in0.377621s and ran in
+1.243783s/108068864B. Strict all-coordinate/26-band/weight readback PASS;
+145 shared reference points max4.613280e-8Ry <= unchanged1e-6 target, no offset.
+public_a2f_serialize48_result.json owns this distinct protocol. Its source copies,
+XML, executable, parent receipt and declared inputs are hash-bound and unchanged.
+This validates serialization and shared-point accuracy, not new-point convergence.
+
+Response48 staged using the explicitly verified derived a2Fsave; original31
+public files remain preserved. Sole watcher session86926 under
+raw/public-response-grid48-001, response240s/3GiB/normal120 gate. Prospective
+public_response_grid48_manifest.json binds the consumed bundle and parent
+serialization. Poll same owner; after terminal verify all inputs, native controls,
+cache pair and compare32/48 computed terms. Imposed gap remains diagnostic.
+Fourth-order build and rank38 reduced008 are staged only, not queued.
+
+117 tests previously passed9.353s; final post-edit suite session16556 running.
+Physical response accuracy, gap conditioning and full final audit remain open.
+
 ## Latest — capacity baseline bitwisePASS;48band sole owner84791
 
 Capacity build001/session36936 TERMINALPASS265.485332s/474333184B individual,

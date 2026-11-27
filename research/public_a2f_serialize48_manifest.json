@@ -1,0 +1,165 @@
+{
+  "command": [
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize48-001/a2f-serialize.x",
+    "-in",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize48-001/native.in"
+  ],
+  "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize48-001",
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid48-001/scratch/pwscf.save/data-file-schema.xml",
+      "bytes": 4441112,
+      "sha256": "929d75c09e07a3e44a4102169ffa29b773c5365edfcdfa422a1a1421c8e96bc1"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize48-001/scratch/pwscf.save/data-file-schema.xml",
+      "bytes": 4441112,
+      "sha256": "929d75c09e07a3e44a4102169ffa29b773c5365edfcdfa422a1a1421c8e96bc1"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid48-001/scratch/pwscf.save/charge-density.dat",
+      "bytes": 331888,
+      "sha256": "1eb9af07995d970ae1c5ea73ce7a0ac83a54a7987d667509efb9204672289205"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize48-001/scratch/pwscf.save/charge-density.dat",
+      "bytes": 331888,
+      "sha256": "1eb9af07995d970ae1c5ea73ce7a0ac83a54a7987d667509efb9204672289205"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid48-001/scratch/pwscf.save/paw.txt",
+      "bytes": 3755,
+      "sha256": "0c7aa84653216c5ecac06f052f9c46c1a6b37a36ade321e3354335afbe2d2706"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize48-001/scratch/pwscf.save/paw.txt",
+      "bytes": 3755,
+      "sha256": "0c7aa84653216c5ecac06f052f9c46c1a6b37a36ade321e3354335afbe2d2706"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid48-001/scratch/pwscf.save/Nb.pbe-spn-kjpaw_psl.0.3.0.UPF",
+      "bytes": 2052531,
+      "sha256": "ccf07218ea34daaa63ff57d9f44ca8b4b529728cccbc8f74dd5fc804ac01e48e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize48-001/scratch/pwscf.save/Nb.pbe-spn-kjpaw_psl.0.3.0.UPF",
+      "bytes": 2052531,
+      "sha256": "ccf07218ea34daaa63ff57d9f44ca8b4b529728cccbc8f74dd5fc804ac01e48e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid48-001/reference.json",
+      "bytes": 712998,
+      "sha256": "d4205fae604591bcccb6df0e5654787f7fbb7415de7e54b94eb12628d516ea11"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize48-001/reference.json",
+      "bytes": 712998,
+      "sha256": "d4205fae604591bcccb6df0e5654787f7fbb7415de7e54b94eb12628d516ea11"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize48-001/a2f-serialize.x",
+      "bytes": 7457344,
+      "sha256": "dd6f16029a59afcc7e6ad2ebdce0c9c2384b82c89bf7781600f3f8fb5a78ae8e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize48-001/native.in",
+      "bytes": 97,
+      "sha256": "605e7108b4811062bda53b608305ad5ba0eb3a3e2765a5ebac2112923962e0b4"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_band_grid48_manifest.json",
+      "bytes": 6414,
+      "sha256": "d3d952d0191dcfbce1c0a9bc68ed61d314b83cadb06a158ad7a1226c4bb8a133"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid48-001/results/bands/receipt.json",
+      "bytes": 657,
+      "sha256": "6879fcc774ab1bf17b54233d1e96f4e5177713ba941b5e0e59d87c611c9084bb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/stage_band_serialization.py",
+      "bytes": 3341,
+      "sha256": "5fa553edea6a847395652f2b80bd31be776e660f2a77cf4d883be423246f8173"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/verify_band_serialization.py",
+      "bytes": 4137,
+      "sha256": "06bbed193e310db00a780fb78281d7a4f6c94a8d472c7f3abd334654f5c64874"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_band_grid_analysis.py",
+      "bytes": 4404,
+      "sha256": "7df5a7d4b57848564bb96aa037aabb9d858c9940201189f1cf4e9b5552725073"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_band_pilot_analysis.py",
+      "bytes": 3789,
+      "sha256": "d966cf1434e6390a0aa79cace3bdc62962f93e051faac1b89bffe758cbbfbcbc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/macos_native_guard.py",
+      "bytes": 8195,
+      "sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/a2f_serialization.f90",
+      "bytes": 624,
+      "sha256": "8e5cd79a98d59fe7be448f5f0806c387a5d537e796153799a986c29c4d334126"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/a2f_serialization.mk",
+      "bytes": 265,
+      "sha256": "b9543118c318949f9b9c69339e85e40f40c49db86954f5ef58c7ac610ce86c9d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_a2f_build_manifest.json",
+      "bytes": 123914,
+      "sha256": "5f533b09d72fe3dba52d94d9a443f26c9dd3a8238073fbea85ada686289a1990"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-build-001/results/build/receipt.json",
+      "bytes": 685,
+      "sha256": "26c3812dc7d74ab7414485b76e64a76281e1ffc174e7f86cddeb7f6d9c57f187"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_band_grid48_result.json",
+      "bytes": 1836,
+      "sha256": "18bfff1cd1a98e84c3483bfe72708df9ca4f662682c963fb860ce35bbadd52d1"
+    }
+  ],
+  "grid": [
+    48,
+    48,
+    48
+  ],
+  "expected_points": 2769,
+  "minimum_common_reference_points": 100,
+  "acceptance_max_eigenvalue_difference_ry": 1e-06,
+  "guard_seconds": 120,
+  "source_band_directory": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid48-001",
+  "source_band_manifest": "/Users/noahs/Developer/sc-dft-exp/research/public_band_grid48_manifest.json",
+  "original_band_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid48-001/pw.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid48-001/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid48-001",
+    "wall_s": 359.61547504132614,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 109379584,
+    "sampled_peak_group_rss_bytes": 109379584,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 1200.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "source_xml_sha256": "929d75c09e07a3e44a4102169ffa29b773c5365edfcdfa422a1a1421c8e96bc1",
+  "scope": "Stage owning QE XML-to-a2F serialization after a completed fixed-density run. New serialization action, not a repeat diagonalization or a passing original a2Fsave output protocol.",
+  "launch_normal_seconds": 120,
+  "rss_cap_bytes": 3221225472,
+  "decision": "Direct QE reader/writer link terminalPASS0.378s/108MB. Preserve failed original48 output protocol. One120s read-only XML restart plusowning a2Fsave serialization atfreshroot; no diagonalization. Verify all2769 coordinates/26bands/weights, grid48,145sharedpoints targetunchanged1e-6Ry.",
+  "status": "Sole queued native serializer; all band/previous build owners terminal"
+}

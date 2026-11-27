@@ -1,0 +1,33 @@
+{
+  "status": "FAIL_MISSING_REQUIRED_SERIALIZATION",
+  "native_guard_pass": true,
+  "terminal_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid48-001/pw.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid48-001/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid48-001",
+    "wall_s": 359.61547504132614,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 109379584,
+    "sampled_peak_group_rss_bytes": 109379584,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 1200.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "generated_xml_points": 2769,
+  "shared_xml_reference_points": 145,
+  "max_shared_xml_eigenvalue_difference_ry": 4.613279802612169e-08,
+  "original_inputs_unchanged": true,
+  "prospective_full_readback_pass": false,
+  "missing_file": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid48-001/scratch/pwscf.a2Fsave",
+  "root_cause": "PW punch returns for io_level<0 (disk_io=nowf) before a2Fsave despite la2F=true. XML contains the completed bands.",
+  "xml_sha256": "929d75c09e07a3e44a4102169ffa29b773c5365edfcdfa422a1a1421c8e96bc1",
+  "manifest_sha256": "d3d952d0191dcfbce1c0a9bc68ed61d314b83cadb06a158ad7a1226c4bb8a133",
+  "next_decision": "Preserve failed output protocol. A bounded direct QE read_file_new(needwf=false)->a2Fsave postprocessor can serialize the finished XML without rediagonalization; separately verify all records and shared energies. No numerical threshold changes.",
+  "scope": "Band diagonalization passed; required native a2Fsave output was absent, so the original complete protocol did not pass."
+}

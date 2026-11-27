@@ -1,5 +1,13 @@
 # Prospective48cubed derivative-grid study
 
+Latest:48band diagonalization PASS359.615s/109MB, but its original required
+a2Fsave output protocol FAILED. The complete XML has2769points;145shared
+reference points agree within4.6133e-8Ry. `disk_io=nowf` makes QE punch return
+before a2Fsave even when la2F is requested. Preserve public_band_grid48_result.json
+as that failure. The separate native serialization protocol below is the fix;
+it does not retroactively pass the original protocol.
+
+
 ## Scientific question
 
 The tested32cubed constant-gap response changes about9% when only its velocity
@@ -28,8 +36,10 @@ The initial four-hour guarded native pilot ceiling remains in force.
 `stage_public_band_grid.py` retains the exact qualified one-atom Nb cell,
 pseudopotential, density/PAW state, cutoffs40/320Ry, FFT32/24,26bands and tight
 1e-10 diagonalization control. Only the explicit k-point card becomes an
-unshifted48cubed automatic grid, and la2F is enabled to serialize the owning
-band input. `PW/src/punch.f90 -> a2Fsave` writes that file in internal Ry.
+unshifted48cubed automatic grid. The original la2F request proved ineffective:
+`PW/src/punch.f90` returns for io_level<0 before its a2Fsave call. A separate
+`read_file_new(needwf=false) -> a2Fsave` action now writes the owning format in
+internal Ry from completed XML, without redoing diagonalization.
 The density is fixed; the coarse-density convergence problem remains separate.
 
 `public_band_grid_analysis.py` requires exact staged input hashes and terminal
@@ -67,28 +77,41 @@ probe and identical generated inputs. A64-grid extension requires a new measured
 cost decision. If changes persist, report non-convergence rather than choosing
 the preferred value or fitting normalization to experiment.
 
-## Runnable stages
+## Runnable stages after the observed writer boundary
 
 Use fresh destinations and the exact environment recorded by each manifest.
-Do not launch these stages concurrently or skip the preceding qualification:
+Do not launch stages concurrently. Build the small serializer against the same
+qualified source tree, using a fresh directory and the supplied make target:
 
 ```
+make -C /absolute/fresh-serializer-build -f /absolute/repository/research/a2f_serialization.mk QE_ROOT=/absolute/capacity-build/qe a2f-serialize.x
 python3 research/stage_public_band_grid.py /absolute/capacity-build /absolute/public-inputs /absolute/new-band48
 python3 research/macos_native_guard.py bands 1200 /absolute/new-band48 /absolute/new-band48/pw.x -in /absolute/new-band48/native.in
-python3 research/public_band_grid_analysis.py /absolute/new-band48 /absolute/new-band48/run-manifest.json
-python3 research/stage_refined_response.py /absolute/capacity-build /absolute/public-inputs /absolute/new-band48 /absolute/new-band48/run-manifest.json /absolute/new-response48
+python3 research/stage_band_serialization.py /absolute/fresh-serializer-build/a2f-serialize.x /absolute/new-band48 /absolute/new-band48/run-manifest.json /absolute/new-serialized48
+python3 research/macos_native_guard.py serialize 120 /absolute/new-serialized48 /absolute/new-serialized48/a2f-serialize.x -in /absolute/new-serialized48/native.in
+python3 research/verify_band_serialization.py /absolute/new-serialized48 /absolute/new-serialized48/run-manifest.json
+python3 research/stage_refined_response.py /absolute/capacity-build /absolute/public-inputs /absolute/new-serialized48 /absolute/new-band48/run-manifest.json /absolute/new-response48 --serialization-manifest /absolute/new-serialized48/run-manifest.json
 SCTK_MOMENT_GRID=8 python3 research/macos_native_guard.py moment 240 /absolute/new-response48 /absolute/new-response48/velocity-moment-probe.x -in /absolute/new-response48/native.in
 python3 research/moment_analysis.py /absolute/new-response48/velocity-moments.txt
 ```
 
-The refined-response stager repeats the band validation before destination
+The build is also guarded in this campaign; public_a2f_build_manifest.json records
+its exact command/inputs/receipt. The original direct-band analyzer remains
+available for runs which actually produced native a2Fsave. The separate
+serialization route is explicitly selected; it does not silently fall back after
+an error. It validates all coordinates,26-band energies, weights and grid against
+the parent XML, both terminal receipts and the original shared-energy targets.
+A regression changes the final band, balanced point weights and an immutable
+consumed copy; each is rejected. The actual native serializer is its integration
+gate. Original source/consumed manifests and failed protocol remain preserved.
+
+The refined-response stager repeats the selected validation before destination
 creation. It constructs a separate consumed bundle, preserving original public
 identities and explicitly labeling a2Fsave as derived. No invented download URL
-or replacement author-hosted checksum is used. Both the generated source and
-consumed copy stay bound to the readback hash if a later change occurs. A stale
-or failed band gate rejects staging; a concurrent-change fixture verifies that
-new identities are never silently adopted. The copied bundle is immutable for
-this read-only response diagnostic, unlike the band-generation XML lifecycle.
+or replacement author-hosted checksum is used. Both generated source and consumed
+copy stay bound to the readback hash if a later change occurs. A stale or failed
+band gate rejects staging; a concurrent-change fixture verifies that new
+identities are never silently adopted.
 
 ## Separately linked fourth-order control
 
@@ -138,3 +161,24 @@ python3 research/constant_moment_components.py /absolute/response-run
 This decomposition shares the native thermal approximation. It is an attribution
 of a discrete computed sum, not independent physical validation or a truncation
 error certificate. Preserve component source/input hashes alongside comparisons.
+
+
+## Why this fix is chosen
+
+The problem is an I/O control-flow boundary, not a failed band calculation.
+Technically, nowf maps to io_level=-1 and punch returns before the writer call.
+In plain terms, the requested small output sits behind the setting that suppresses
+wavefunction output. Directly calling the unchanged QE reader/writer in a small
+serial postprocessor is the smallest coherent way to preserve the native format
+and recover the completed work. Enabling broader wavefunction output would add
+unneeded storage; repeating diagonalizations would add no information. No solver,
+thermal expression, numerical threshold or band energy is changed.
+
+
+Native serialization checkpoint: separate action completed in1.243783s with
+108068864B peak individual RSS. All2769 coordinates,26 bands and point weights
+match the parent XML within1e-12;145 shared reference points differ at most
+4.613280e-8Ry, below the unchanged1e-6Ry criterion. See
+`public_a2f_serialize48_result.json`. This does not make the original missing-output
+protocol pass. The next experiment is the independently staged48cubed response,
+with imposed gap and unchanged512 response cells; no physical accuracy claim.
