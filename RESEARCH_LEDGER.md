@@ -97,6 +97,14 @@ for standalone matplotlib figures (pip session 63829; poll before assuming done)
 Next: generate figures, expand native parameter controls, map paper equation
 explicitly, and test fresh-state preparation feasibility. No production run.
 
+## Standalone figures
+
+Matplotlib environment completed. Generated PNG/PDF response and extraction
+figures using released curves, with source/interpretation captions. Visually
+inspected response figure. No corrected-material claim; nonlinear fitting
+windows explicitly separated from uncertainty. Next: broad native grid controls,
+paper-equation mapping, and practical preparation-only reconstruction route.
+
 ## Candidate correction validated
 
 Full-routine harness now builds original and narrowly corrected variants;
