@@ -2704,3 +2704,21 @@ segments, without per-segmentnormalization. Finalnormalizeonlyafter66867leftrows
 161offline testsPASS11.008s;176maintainedPython sourcescompilePASS; momentreplay
 anddiffcheckPASS. Source-only actualnativecompile/runtimePASS. ProtocolpublicCI
 46052841352 on1ab1ae9PASS. Modelbilling/energy remainunknown.
+
+
+## First full-image production segment staged
+
+portable-basis-production-001 rows1:16384 staged with qualified32-row contraction
+subroutine byteidentical to actual-input splitqualification; regression enforces
+identity. New productioncontext binds source, libraries, microscopic inputs,
+freshgeometry, fullZ, trialpayload and qualificationevidence. Startfromzero rather
+than importrow64 from the different qualificationcontext. Subsequentsegments
+must be contiguous, samecontext and certified; unnormalizedcheckpointonly.
+Final66867 segment requires uncachedcomplete-row/columnoracle before initial
+Ritzbasis. No convergedgap or response follows from that basis alone.
+
+Forecast250–300s includingcoldsetup, estimate notbound.600s/3GiB/quiet120guard,
+first16384rows; maxregisteredsegment17715rows. No nativeowner beforepublication.
+163offline testsPASS11.294s;178maintainedPython sourcescompilePASS; momentreplay
+anddiffcheckPASS. Nativeproductioncompile/runtime pending. PublicpreviousCI
+46053223670 on220a121PASS. Guardedtotal2550.734333s unchanged.
