@@ -40,3 +40,23 @@ IEEE exception flags outside support may differ because unused divisions are
 removed; no claim about preserving those flags is made. Interior degeneracy
 formulas and their behavior are unchanged. No speedup or physical-accuracy claim
 is established by this candidate.
+
+
+## Subsequent full-run sample: do not prioritize this candidate
+
+The complete fourth-order32 diagnostic was sampled at10ms across execution.
+Of3278 observed main-thread samples,2865 are inside read_a2fsave, including1778
+in optimized tetrahedron Fermi weights and1087 in tetrahedron initialization.
+The two calc_dosk calls account for291samples. Fractions are approximate sample
+fractions, not exact wall times; sampling overhead was not calibrated.
+
+Even eliminating all observed DOS-weight work would give only about1.10x under
+this observed-workload/Amdahl model. The ratio relocation removes less than all
+of it. A native candidate baseline is therefore not justified at this checkpoint.
+The stronger optimization lead is initialization: opt_tetra_init searches every
+uniform-grid point through input points and symmetries, and the second call does
+so even after read_a2fsave has already constructed a fully ordered identity grid.
+Trace and qualify that mapping before any code change. Preserve first-match
+semantics, periodic tolerance, shifts, symmetry and time reversal. No mapper
+optimization has been implemented or validated by this document.
+See public_fourth_response32_result.json for sample counts and profile identity.

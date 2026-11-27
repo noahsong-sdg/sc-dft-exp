@@ -9,7 +9,7 @@
   "guard_seconds": 180,
   "launch_normal_seconds": 120,
   "rss_cap_bytes": 3221225472,
-  "status": "DEFERRED; no watcher. Require measured phase-time evidence before launch.",
+  "status": "DEFERRED: full-run profile gives calc_dosk about9% of observed work; no native candidate pilot justified.",
   "decision": "The original late sample captured calc_dosk; the retry late sample captured opt_tetra_init. Neither establishes total phase fractions. The source relocation preserves support conditions and arithmetic but is not a demonstrated overall bottleneck fix. Compiled synthetic fixtures bitwise match. Obtain phase timings before choosing this candidate over initialization work; if justified, require an180s guarded link and all8 original32 exports bitwise before48. No current launch authorization inferred from staging.",
   "original_source_sha256": "3268aa8bd3a182b4cede3cf345845557e1f9e0c71fe2372cfb0a73246398946b",
   "candidate_source_sha256": "cba2c496ffddcb639556d807967a4f9b9b4dd178dfca684ba10e204cdfddfd5b",

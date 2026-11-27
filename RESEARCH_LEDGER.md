@@ -2,6 +2,39 @@
 
 
 
+## Latest — fourth32 PASS; fourth48 sole owner79865
+
+Fourth32/session91639 TERMINALPASS39.619239s/197935104B (sampled run).
+Strict source/input/receipt/context/native/cache/component checks PASS; fourth
+velocity raises the computed fine diagnostic8.9780% versus second order at all
+three temperatures. public_fourth_response32_result.json owns evidence.
+Sampling observer76469 terminal0; no monitoring process remains for32.
+
+Fourth48 sole native watcher session79865/PID21500, root
+raw/public-fourth-response48-001,900s/3GiB/normal120. Prospective manifest
+public_fourth_response48_manifest.json freezes same generated48bands and fourth
+probe. After terminal, run verify_refined_response.py with explicit
+--guard-seconds 900 and this manifest, then compare to fourth32 and second48.
+The pre-readback hypothesis is public grid_stencil_hypothesis.json/d19ee32:
+if velocity error leads, the fourth-order32/48 spread should be smaller than5.52%
+at each temperature. No prediction of physical accuracy or continuum bound.
+Do not edit pinned verifier or public_fourth_response32_result.json while active.
+
+Full-run sampled evidence:3278main-thread samples,2865inside read_a2fsave;
+1778Fermi tetra weights,1087tetra initialization;291across bothcalc_dosk calls.
+These are sample fractions, not exact phase times. DOS ratio candidate remains
+deferred: even removing all9% observed DOS work gives only~1.10x in this model.
+Stronger optimization lead: read_a2fsave calls generic opt_tetra_init twice;
+PW/src/tetra.f90:452 onward searches full-grid points through inputpoints/symmetry.
+The second call uses nsym1, noTR and an already constructed full ordered mesh,
+creating a quadratic identity lookup. First-match/tolerance/shift/TR semantics
+must be traced and tested before a direct mapping change. No mapper code exists.
+This is a prospective optimization lead, not a qualified speedup or next launch.
+
+Current publicd19ee32; portable fix179ad2e CI46003872378PASS;121localtestsPASS.
+Rank38reduced008 remains staged; no other native queue. Full stationary gap,
+conditioning, physical normalization, final scope decision and audit still open.
+
 ## Latest — fourth link PASS;32 fourth response sole owner91639
 
 Fourth link/session80336 TERMINALPASS1.654223s/108249088B; all original/link
