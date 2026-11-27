@@ -1,0 +1,35 @@
+{
+  "status": "FAIL at SCTK interface imports after QE build success; no response execution",
+  "terminal_receipt": {
+    "status": "FAIL",
+    "error": "RuntimeError: Native command exit 1",
+    "command": [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "/Users/noahs/Developer/sc-dft-exp/research/build_public_response.py",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-002",
+      "--archive-directory",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-001/downloads"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-control-002",
+    "wall_s": 281.61665166635066,
+    "exit": 1,
+    "max_individual_descendant_rss_bytes": 469352448,
+    "sampled_peak_group_rss_bytes": 493174784,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 1200,
+    "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+  },
+  "root_cause": "Pinned QE marks six existing tetrahedron helper functions private; SCTK nesting_proj imports them. Fresh compatibility patch exports only those names; retained tree already had these exports.",
+  "files_sha256": {
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-control-002/results/build/receipt.json": "bbe37b7a4e5723a895e2ba56d1d19d0e27313168141fb3702adaaad79f369c4c",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-control-002/results/build/console.log": "a1cf3dcc314048187af2a9a33eccc453da6341ef449e330d87f46f63613c22bc",
+    "/Users/noahs/Developer/sc-dft-exp/research/public_response_build_retry_manifest.json": "c13ad276fec6e029b6d702ae4012b8c8ff8934ce1170f4b8052a5f4ba8196450",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-002/build-progress.json": "1a27d495dc3343ebadf9b616b9a165c045e3edd110fa04c62d7207a4fcf2558d",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-002/build-step-1.log": "56e3ebb28bd0bf3cf708e2a56302b6c54048c670d8fd819348293ac5c12d6bd6",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-002/build-step-2.log": "685460436e0e88e58d6755da33863ada7b040ac1571bf63c3e2a77b003d2187a",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-002/build-step-3.log": "0f09320ff451c55c22a14105935cf26c5ce0a3aa48237ecbffd401b9cf347c2e",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-002/build-step-4.log": "9b102800d79d0fc90b903d9f50e6ccc3626310232a504a5a7b2b54efd755154d",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-002/build-step-5.log": "83253c388fa54ac2cdde48ea707b30ac13f4b5a9fb38c2844fc81da868895dff"
+  }
+}

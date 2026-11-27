@@ -101,3 +101,26 @@ prospective retry manifest preserve attempt001. The retry reuses only the
 source archives freshly downloaded by001, after rechecking every hash; it
 reuses no configured tree, object or module. Retry compilation and material
 qualification are still pending. Failure time remains part of the cost record.
+
+
+## QE/SCTK interface compatibility
+
+Attempt002 passes LAPACK and QE compilation, then fails compiling SCTK's
+`nesting_proj`: it imports six existing `dfpt_tetra_lindhard_*` procedures which
+the pinned QE module declares private. The retained historical tree already
+exports them. A fresh build exposes this previously undocumented dependency.
+
+The build patch now adds exactly those six names to the module's PUBLIC list.
+Procedure bodies and thresholds are unchanged. In simple terms, SCTK can now
+see the helpers it already calls. This is preferable to importing unrelated
+historical numerical patches, suppressing compiler errors, or silently building
+a partial library. The archived patch records the exact interface change.
+An actual Fortran module/client regression fails before the export and passes
+afterward; it also checks that all procedure bodies stay identical and rejects
+an already-changed interface. The full native build is the integration gate.
+
+Attempt002's281.617s/469MB failure and log hashes are preserved in
+`public_response_build_attempt002_result.json`. Attempt003 uses a fresh root,
+the same verified archives, both compatibility fixes, and its own prospective
+manifest. No earlier object/module/library is reused. Numerical equivalence to
+the retained diagnostic remains a separate measured test after build success.

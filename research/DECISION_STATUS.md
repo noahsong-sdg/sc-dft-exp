@@ -22,8 +22,10 @@ source tracing explains why Coulomb files are unnecessary for this response-only
 entry point and why matdyn0 is generated. Isolation has not yet been demonstrated
 by running it. Fresh-build attempt001 failed at nested CMake configuration;
 the process-local policy propagation fix passes a real regression. Attempt002
-has built reference BLAS/LAPACK and configured QE, with compilation in progress.
-No retained objects enter that build. All92 offline research tests pass locally;
+built reference BLAS/LAPACK and QE, then failed on six private tetrahedron-helper
+imports used by SCTK. An export-only interface patch passes a Fortran regression;
+attempt003 is staged in a new root and waits for normal pressure.
+No retained objects enter that build. All94 offline research tests pass locally;
 public CI for1647d4a also passes (run45991207491).
 
 This supports a narrow methods thesis: reusable response moments may make

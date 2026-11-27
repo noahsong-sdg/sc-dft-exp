@@ -1,5 +1,25 @@
 # Research restart ledger
 
+## Latest — attempt002 interface failure diagnosed; retry003 sole pending owner
+
+Build002/session17080 TERMINALFAIL281.616652s/469352448B. LAPACK+QE build PASS;
+SCTK nesting_proj imports six private QE tetrahedron procedures. Retained source
+exports them; fresh patch now changes onlyPUBLIC names, no routine arithmetic.
+Fortran module/client regression fails before and passes after; repeated patch
+rejected, bodies identical. All94 researchtestsPASS5.944s, compileall maintained
+sources PASS, diffcheckPASS. Native integration stillpending.
+
+Retry003 session17058/PID98608 is the only watcher, waiting normal120s since
+11:36:48Z; research/raw/public-response-build-control-003 owns guard. Fresh
+root public-response-build-003, source-archive reuse only; prospective
+public_response_build_retry003_manifest.json binds source/launcher. Poll same
+owner; rank37 staged only. public_response_build_attempt002_result.json preserves
+failure, prior manifest and log hashes. Do not restart002 or overwrite receipts.
+
+Accounting now47terminalattempts6616.466s, including2buildfailures298.081s;
+other45attempts6318.385s. Scope regression fixes misleading compilation-excluded
+wording; math unchanged. Living report published81ab796; final verdict pending.
+
 ## Latest — rank37 staged, fresh build002 still owns heavy slot; public CI PASS
 
 Public CI45991207491 for1647d4a completed success. Local92testsPASS7.320s.

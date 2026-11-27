@@ -63,9 +63,23 @@ def unpack(archive, target):
         (Path(temporary)/roots.pop()).rename(target)
 
 
+def export_required_tetra_interfaces(source):
+    # SCTK imports these existing procedures from the pinned QE module.
+    marker = '            dfpt_tetra_main, dfpt_tetra_linit\n'
+    if source.count(marker) != 1:
+        raise ValueError('Pinned QE tetrahedron public interface changed')
+    return source.replace(marker,
+        '            dfpt_tetra_main, dfpt_tetra_linit, &\n'
+        '            dfpt_tetra_lindhard_1234, dfpt_tetra_lindhard_1231, &\n'
+        '            dfpt_tetra_lindhard_1233, dfpt_tetra_lindhard_1221, &\n'
+        '            dfpt_tetra_lindhard_1222, dfpt_tetra_lindhard_1211\n')
+
+
 def patch_build_rules(qe, pins):
-    """Offline archive acquisition replaces git hooks; numerical code unchanged."""
-    changes = []
+    """Patch acquisition, source hash and required exports; arithmetic unchanged."""
+    interface = qe/'LR_Modules/dfpt_tetra_mod.f90'
+    original = interface.read_text()
+    changes = [(interface, original, export_required_tetra_interfaces(original))]
     path = qe/'install/install_utils'
     original = path.read_text()
     start = original.index('define update_submodule\n')
