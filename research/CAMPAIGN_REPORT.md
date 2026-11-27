@@ -21,6 +21,18 @@ or averaging is smaller than other numerical sensitivities before spending on
 new microscopic inputs or a material scan. It is a scientific reliability tool;
 its value is not an established new-material discovery capability.
 
+## Held-out electronic-grid test
+
+The fourth-order 64³ control passes native/readback checks in173.621s/881MB.
+Its48→64response shift is−0.335%,−0.337%,−0.340% at2/4/8K, after the32→48
+increase of~0.68%. The registered absolute-step contraction holds, but the
+same-direction continuation and both conditional h²/h⁴ extrapolations fail.
+This makes the third grid scientifically useful: the encouraging two-grid
+sensitivity reduction cannot support a simple monotone accuracy estimate.
+Same-grid stencil and band-regeneration controls remain pending.
+[Registered comparison](third_grid_comparison_result.json),
+[standalone figure](figures/third_grid.png).
+
 ## Measured evidence and what it proves
 
 | Evidence | Result | Valid conclusion | Not established |

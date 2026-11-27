@@ -1,0 +1,21 @@
+{
+  "recorded_utc": "2026-11-27T14:23:35.249235+00:00",
+  "question": "Does the same-grid velocity-stencil difference contract with its conditional leading h^2 scale at64?",
+  "reason": "The fourth-order64 response reverses the32to48trend. Same bands, cells, gap and curvature with a second-order velocity isolates stencil sensitivity from band regeneration and other grid effects.",
+  "protocol": "Run the already48qualified indexed second-order probe on the identical qualified64band artifact. Compare second/fourth scalar responses at2/4/8K; check unchanged DOS and curvature arrays. Preserve the original registered third-grid comparison.",
+  "conditional_prediction": "D64 = (48/64)^2 * D48, where D=F4-F2. Report relative discrepancy and sign; no fitted exponent, acceptance tolerance or continuum error bound.",
+  "conditional_predictions": {
+    "2": 0.00019218258772938854,
+    "4": 0.00017868396818915668,
+    "8": 0.00011159172535196173
+  },
+  "budget": "Forecast180native seconds/0.9GB;900s/3GiBguard,120normal seconds,oneowner. About184.42native minutes used; fits original240minute ceiling. No expansion.",
+  "sha256": {
+    "research/grid_stencil_comparison.json": "2a15c3c88be9d9d80a690681b9b76a02fd02c13936f236245c667eb32c5f73f2",
+    "research/public_indexed_fourth_response64_result.json": "5b9c67a984af7bc82a014732b3e111e390892ec3aca286537c649754863527b1",
+    "research/public_indexed_response48_result.json": "318a93e3f6699929279670d47f338cbcc46337daf9a2a732b77a51ca941dca12",
+    "research/public_a2f_serialize64_result.json": "0b8bf3385b2e47d6c45c44b0bc77a0c7113eb1e462d025be65f5d26d5894abaa",
+    "research/public_indexed_mesh_build_result.json": "fcaac7e009dae9075c9e6226819b35b0cd8d3ba820f6a8f884a69459c42c2969"
+  },
+  "physical_response_claim": false
+}

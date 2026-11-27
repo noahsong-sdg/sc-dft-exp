@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "temperature_kelvin": 2,
+      "fourth32": 0.00887613449048529,
+      "fourth48": 0.008936196842382234,
+      "fourth64": 0.008906227812731963,
+      "previous_grid_fraction": 0.006766723956394216,
+      "held_out_grid_fraction": -0.0033536671336664714,
+      "observed_change_contracts": true,
+      "continued_direction": false,
+      "conditional64": {
+        "2": 0.008957218665546164,
+        "4": 0.008946303488134123
+      },
+      "conditional_model_discrepancy_over48": {
+        "2": -0.005706102239418518,
+        "4": -0.004484645549893303
+      }
+    },
+    {
+      "temperature_kelvin": 4,
+      "fourth32": 0.008252568740912828,
+      "fourth48": 0.008308499527531016,
+      "fourth64": 0.008280540942707098,
+      "previous_grid_fraction": 0.006777379065127542,
+      "held_out_grid_fraction": -0.0033650582432213083,
+      "observed_change_contracts": true,
+      "continued_direction": false,
+      "conditional64": {
+        "2": 0.008328075302847382,
+        "4": 0.008317910957971577
+      },
+      "conditional_model_discrepancy_over48": {
+        "2": -0.005721172635657538,
+        "4": -0.004497805547277203
+      }
+    },
+    {
+      "temperature_kelvin": 8,
+      "fourth32": 0.005153666461070597,
+      "fourth48": 0.00518872259808683,
+      "fourth64": 0.005171094749647874,
+      "previous_grid_fraction": 0.00680217419598983,
+      "held_out_grid_fraction": -0.003397338768014957,
+      "observed_change_contracts": true,
+      "continued_direction": false,
+      "conditional64": {
+        "2": 0.005200992246042512,
+        "4": 0.005194621467296292
+      },
+      "conditional_model_discrepancy_over48": {
+        "2": -0.005762014798336107,
+        "4": -0.004534202244130806
+      }
+    }
+  ],
+  "contracts_at_all_temperatures": true,
+  "same_direction_at_all_temperatures": false,
+  "continuum_error_bounded": false,
+  "physical_response_verified": false,
+  "sha256": {
+    "research/third_grid_hypothesis.json": "ca0c7c2e4e5fb1bb0114af1c0f188799d54e67bc6b7ac56250b6b9d69c4b1503",
+    "research/public_indexed_fourth_response48_result.json": "154c3e02abf7ec213340e69955b11a2ee123ab3bf30106d40407f9541dd3e30e",
+    "research/public_indexed_fourth_response64_result.json": "5b9c67a984af7bc82a014732b3e111e390892ec3aca286537c649754863527b1",
+    "/Users/noahs/Developer/sc-dft-exp/research/third_grid_comparison.py": "c06260d7cdf9fe1f82e0abe3f49f53d606c1a38746ea483968a6b36deefe4f73"
+  },
+  "scope": "Compare a held-out64-grid diagnostic to the registered32/48 continuation.\n\nObserved contraction is not a continuum-error bound or physical validation."
+}

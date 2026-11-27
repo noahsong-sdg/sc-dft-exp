@@ -1,3 +1,16 @@
+# Latest checkpoint — 2026-11-27 14:24 UTC
+
+The held-out64response reverses the32→48trend at all temperatures. Absolute
+steps contract, but no monotone convergence estimate or continuum error bound
+is established. Native173.621s/881MB, all strict readback checks PASS.
+A prospectively registered identical-band second-order64control will separate
+velocity-stencil sensitivity; the alreadyregistered automatic32control will
+separate input regeneration. Both fit the original4native-hour ceiling.
+Rank38stationarity remains PASS; reliable material prediction remains unproved.
+Current process state belongs to ../CAMPAIGN_STATE.md, not old checkpoints below.
+
+---
+
 # Latest checkpoint — 2026-11-27 13:48 UTC
 
 Rank38 now meets both unchanged full stationary-residual targets: maximum

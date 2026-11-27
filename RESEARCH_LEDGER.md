@@ -2052,3 +2052,20 @@ After terminal: verify_refined_response.py --grid 64 --guard-seconds 900; compar
 with third_grid_comparison.py plus published hypothesisSHA. Preserve prospective
 criteria and do not call contraction an error bound. Then add same-grid
 regeneration control without changing any already consumed protocol identities.
+
+
+## Held-out64response reverses; same-grid stencil control registered
+
+Native fourth64 PASS173.620682s/880738304B. Strict native/cache/component/context
+and prospective-input readback PASS. Registered third-grid comparison contracts
+allT but reverses allT: +~0.68%32to48 then−0.335/−0.337/−0.340%48to64.
+This rejects simple same-direction continuation, not all possible convergence.
+Conditional h²/h⁴continuation values are reported, not adopted as error bounds.
+Third-grid PNG/PDF source hashes checked and PNG visually inspected.
+
+Before seeing second64response, stencil64_control_plan.json registers identical
+bands/gap/cells/curvature and the alreadyqualified second-order indexed probe.
+D=F4−F2; conditional h²prediction D64=.5625D48 is frozen, without a tuned
+acceptance tolerance. DOS/curvature must be unchanged for stencil attribution.
+Forecast180s,guard900s/3GiB,120normal seconds,oneowner; initial4hbudgetfits.
+Then the separatelyregistered automatic32control isolates band regeneration.

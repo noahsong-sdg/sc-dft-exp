@@ -1,0 +1,504 @@
+{
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/pwscf.a2Fsave",
+      "bytes": 500838,
+      "sha256": "e331b8c2e7d9e55c6efa158d37ee6ef2e51301c5ffc67e0f2b11527738ee8a90"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/pwscf.save/data-file-schema.xml",
+      "bytes": 1922580,
+      "sha256": "8576d6aae7a680916ab64bd21fed3ed0f4354f420f4ac2ea681fd3595e540bac"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/pwscf.save/Nb.pbe-spn-kjpaw_psl.0.3.0.UPF",
+      "bytes": 2052531,
+      "sha256": "ccf07218ea34daaa63ff57d9f44ca8b4b529728cccbc8f74dd5fc804ac01e48e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/pwscf.save/charge-density.dat",
+      "bytes": 331888,
+      "sha256": "1eb9af07995d970ae1c5ea73ce7a0ac83a54a7987d667509efb9204672289205"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/pwscf.save/paw.txt",
+      "bytes": 3755,
+      "sha256": "0c7aa84653216c5ecac06f052f9c46c1a6b37a36ade321e3354335afbe2d2706"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/_ph0/pwscf.q_1/pwscf.elph1",
+      "bytes": 309401,
+      "sha256": "b2ebc49e6d4a59858acb3da6c0b5db81018bcda9ba947f7d7360b9fd5bfdb8f3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/_ph0/pwscf.q_2/pwscf.elph2",
+      "bytes": 309398,
+      "sha256": "651be4c47ca04faefae2ae4c359e13773ea649d2a0d9694777a9d060c4ec9eff"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/_ph0/pwscf.q_3/pwscf.elph3",
+      "bytes": 309398,
+      "sha256": "84b9fa395d98433fb7ebbe32227c32a5ede4a41da7296575adf05c4cf2cd4a93"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/_ph0/pwscf.q_4/pwscf.elph4",
+      "bytes": 309398,
+      "sha256": "d7edfb4c077f9e62c3e628a1bb0201b8a901296235160dbc6429b64e865090eb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/_ph0/pwscf.q_5/pwscf.elph5",
+      "bytes": 309402,
+      "sha256": "3ee343dc21068376555e15b382cb19cbd0aac9de94175660e06ce8dc960f9960"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/_ph0/pwscf.q_6/pwscf.elph6",
+      "bytes": 309395,
+      "sha256": "bf52bdb5946b48d03a233d3b0a37c4dd6bec226acc35cae8276f19885f29ae3e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/_ph0/pwscf.q_7/pwscf.elph7",
+      "bytes": 309395,
+      "sha256": "ddaf6703383fbf93f9aa12af9938e94c6f78bee7f8b3abb76585c6b9f6875909"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/_ph0/pwscf.q_8/pwscf.elph8",
+      "bytes": 309396,
+      "sha256": "272ef0b964af9e33b4152825387a4268469aef95a248a6ed3b806ff22ba24e64"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/_ph0/pwscf.q_9/pwscf.elph9",
+      "bytes": 309395,
+      "sha256": "86cb70f379d0ac6f46c394ce2c97c85814a16cf0a592dc3a99fd3ea1e5f5ea22"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/_ph0/pwscf.q_10/pwscf.elph10",
+      "bytes": 309396,
+      "sha256": "ee5d6ee4f94b5e964b0e84f19857633f73c62c93f7dac44509bd28f33e262373"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/_ph0/pwscf.q_11/pwscf.elph11",
+      "bytes": 309396,
+      "sha256": "60d27e6600d37f1b0cd08bde11ad8d65723c15fb095f207dd8866f9dcb641231"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/_ph0/pwscf.q_12/pwscf.elph12",
+      "bytes": 309396,
+      "sha256": "233460cffe84d40bf6d5d7d57ca332a1ba18eae6ce2a41a9c73ce4803062a6c5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/_ph0/pwscf.q_13/pwscf.elph13",
+      "bytes": 309396,
+      "sha256": "372f4f2b92ab3a240df4b0c98bf36d4ae6281e96b2f0533797078124911c09d0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/_ph0/pwscf.q_14/pwscf.elph14",
+      "bytes": 309397,
+      "sha256": "75a4ae06e50dc4f1cb04358285e0de359a1d9a3a1540a02a42a8203262fddb1c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/_ph0/pwscf.q_15/pwscf.elph15",
+      "bytes": 309397,
+      "sha256": "e5b46c4b7b8045699c30e6d06c07eeb48e6a6535d9b969bbf3b7950a2cd7b6a7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/_ph0/pwscf.q_16/pwscf.elph16",
+      "bytes": 309392,
+      "sha256": "2e7e693357872d506e90decc6cd0218879977b19e2b9e59ad0f7aa7c86c9a506"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/_ph0/pwscf.q_17/pwscf.elph17",
+      "bytes": 309392,
+      "sha256": "3e0ad20c8949b42fe17d65d0f7d8c17218211c5de765ae53631362151dc82b52"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/_ph0/pwscf.q_18/pwscf.elph18",
+      "bytes": 309393,
+      "sha256": "ff819c74b3ad38be50fa1613b1860dc37ac2ee54de59a666d2692b5d70e5322b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/_ph0/pwscf.q_19/pwscf.elph19",
+      "bytes": 309393,
+      "sha256": "0badf95c0b6a3756fa13865214fe0f05ff89ee0d849ee2d3740e10df38a9a130"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/_ph0/pwscf.q_20/pwscf.elph20",
+      "bytes": 309393,
+      "sha256": "966e4c679bdfc5a19b0cfd87e067df3ad201bc07ab03175c35636dc921e3d9c0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/_ph0/pwscf.q_21/pwscf.elph21",
+      "bytes": 309393,
+      "sha256": "16ea3f48522f2ebb4f59cc60a3922390d45d9c3a81c9b2c7e80d2bae3b461c5f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/_ph0/pwscf.q_22/pwscf.elph22",
+      "bytes": 309394,
+      "sha256": "8ee1f3d572edc0ee84fe193195e46df6e4ff33d92f1a991caeda564aa4ca8172"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/_ph0/pwscf.q_23/pwscf.elph23",
+      "bytes": 309393,
+      "sha256": "c06353cf1faeef35411cc5228f9137b35fcb70d52f1c2b4e7e6986ded5821741"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/_ph0/pwscf.q_24/pwscf.elph24",
+      "bytes": 309393,
+      "sha256": "003dde86fbe3729404be24458bd9266e44c95897ce0ec38e8987547a7b1ba4bb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/_ph0/pwscf.q_25/pwscf.elph25",
+      "bytes": 309394,
+      "sha256": "0114779d7cb8af2fba6f7c232285ce0a87d86acefba3d08655a5b7a2c4d15945"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-inputs-001/_ph0/pwscf.q_26/pwscf.elph26",
+      "bytes": 309393,
+      "sha256": "5fbbbebd31f7892a84d272687381d88f4442b8172a2b4174b885bc7fe565434d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/velocity-moment-probe.x",
+      "bytes": 7661160,
+      "sha256": "3e89dcba25002f18fddf86288fe737dc36a405bd2192ad111fe37d37530333e2"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/native.in",
+      "bytes": 432,
+      "sha256": "165ed1e435037b2f33e59fda8a7e06ec050c556c8996463673b2be39e81a0bf9"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-mesh-build-001/build/build-result.json",
+      "bytes": 125151,
+      "sha256": "6f320c036db9d7aa28114109fddb983cb9319396cfe66687d49740b493859281"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_response_inputs.json",
+      "bytes": 8886,
+      "sha256": "31cbcbef74f3f2f4a2c9432253a1a68214d2ecd9476926c759cb77563bac6687"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_response_native.in.template",
+      "bytes": 366,
+      "sha256": "2b2cee5b21a25071a291b3f78eb63dc458e680e6a435e207f43fb02f4318fb8a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/pwscf.a2Fsave",
+      "bytes": 4898827,
+      "sha256": "178ef8d8c1f7f74001daddc6129ac8f85a271ea0f8c278c66b629ed9c95eb5d1"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/pwscf.save/data-file-schema.xml",
+      "bytes": 1922580,
+      "sha256": "8576d6aae7a680916ab64bd21fed3ed0f4354f420f4ac2ea681fd3595e540bac"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/pwscf.save/Nb.pbe-spn-kjpaw_psl.0.3.0.UPF",
+      "bytes": 2052531,
+      "sha256": "ccf07218ea34daaa63ff57d9f44ca8b4b529728cccbc8f74dd5fc804ac01e48e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/pwscf.save/charge-density.dat",
+      "bytes": 331888,
+      "sha256": "1eb9af07995d970ae1c5ea73ce7a0ac83a54a7987d667509efb9204672289205"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/pwscf.save/paw.txt",
+      "bytes": 3755,
+      "sha256": "0c7aa84653216c5ecac06f052f9c46c1a6b37a36ade321e3354335afbe2d2706"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/_ph0/pwscf.q_1/pwscf.elph1",
+      "bytes": 309401,
+      "sha256": "b2ebc49e6d4a59858acb3da6c0b5db81018bcda9ba947f7d7360b9fd5bfdb8f3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/_ph0/pwscf.q_2/pwscf.elph2",
+      "bytes": 309398,
+      "sha256": "651be4c47ca04faefae2ae4c359e13773ea649d2a0d9694777a9d060c4ec9eff"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/_ph0/pwscf.q_3/pwscf.elph3",
+      "bytes": 309398,
+      "sha256": "84b9fa395d98433fb7ebbe32227c32a5ede4a41da7296575adf05c4cf2cd4a93"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/_ph0/pwscf.q_4/pwscf.elph4",
+      "bytes": 309398,
+      "sha256": "d7edfb4c077f9e62c3e628a1bb0201b8a901296235160dbc6429b64e865090eb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/_ph0/pwscf.q_5/pwscf.elph5",
+      "bytes": 309402,
+      "sha256": "3ee343dc21068376555e15b382cb19cbd0aac9de94175660e06ce8dc960f9960"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/_ph0/pwscf.q_6/pwscf.elph6",
+      "bytes": 309395,
+      "sha256": "bf52bdb5946b48d03a233d3b0a37c4dd6bec226acc35cae8276f19885f29ae3e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/_ph0/pwscf.q_7/pwscf.elph7",
+      "bytes": 309395,
+      "sha256": "ddaf6703383fbf93f9aa12af9938e94c6f78bee7f8b3abb76585c6b9f6875909"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/_ph0/pwscf.q_8/pwscf.elph8",
+      "bytes": 309396,
+      "sha256": "272ef0b964af9e33b4152825387a4268469aef95a248a6ed3b806ff22ba24e64"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/_ph0/pwscf.q_9/pwscf.elph9",
+      "bytes": 309395,
+      "sha256": "86cb70f379d0ac6f46c394ce2c97c85814a16cf0a592dc3a99fd3ea1e5f5ea22"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/_ph0/pwscf.q_10/pwscf.elph10",
+      "bytes": 309396,
+      "sha256": "ee5d6ee4f94b5e964b0e84f19857633f73c62c93f7dac44509bd28f33e262373"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/_ph0/pwscf.q_11/pwscf.elph11",
+      "bytes": 309396,
+      "sha256": "60d27e6600d37f1b0cd08bde11ad8d65723c15fb095f207dd8866f9dcb641231"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/_ph0/pwscf.q_12/pwscf.elph12",
+      "bytes": 309396,
+      "sha256": "233460cffe84d40bf6d5d7d57ca332a1ba18eae6ce2a41a9c73ce4803062a6c5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/_ph0/pwscf.q_13/pwscf.elph13",
+      "bytes": 309396,
+      "sha256": "372f4f2b92ab3a240df4b0c98bf36d4ae6281e96b2f0533797078124911c09d0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/_ph0/pwscf.q_14/pwscf.elph14",
+      "bytes": 309397,
+      "sha256": "75a4ae06e50dc4f1cb04358285e0de359a1d9a3a1540a02a42a8203262fddb1c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/_ph0/pwscf.q_15/pwscf.elph15",
+      "bytes": 309397,
+      "sha256": "e5b46c4b7b8045699c30e6d06c07eeb48e6a6535d9b969bbf3b7950a2cd7b6a7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/_ph0/pwscf.q_16/pwscf.elph16",
+      "bytes": 309392,
+      "sha256": "2e7e693357872d506e90decc6cd0218879977b19e2b9e59ad0f7aa7c86c9a506"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/_ph0/pwscf.q_17/pwscf.elph17",
+      "bytes": 309392,
+      "sha256": "3e0ad20c8949b42fe17d65d0f7d8c17218211c5de765ae53631362151dc82b52"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/_ph0/pwscf.q_18/pwscf.elph18",
+      "bytes": 309393,
+      "sha256": "ff819c74b3ad38be50fa1613b1860dc37ac2ee54de59a666d2692b5d70e5322b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/_ph0/pwscf.q_19/pwscf.elph19",
+      "bytes": 309393,
+      "sha256": "0badf95c0b6a3756fa13865214fe0f05ff89ee0d849ee2d3740e10df38a9a130"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/_ph0/pwscf.q_20/pwscf.elph20",
+      "bytes": 309393,
+      "sha256": "966e4c679bdfc5a19b0cfd87e067df3ad201bc07ab03175c35636dc921e3d9c0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/_ph0/pwscf.q_21/pwscf.elph21",
+      "bytes": 309393,
+      "sha256": "16ea3f48522f2ebb4f59cc60a3922390d45d9c3a81c9b2c7e80d2bae3b461c5f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/_ph0/pwscf.q_22/pwscf.elph22",
+      "bytes": 309394,
+      "sha256": "8ee1f3d572edc0ee84fe193195e46df6e4ff33d92f1a991caeda564aa4ca8172"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/_ph0/pwscf.q_23/pwscf.elph23",
+      "bytes": 309393,
+      "sha256": "c06353cf1faeef35411cc5228f9137b35fcb70d52f1c2b4e7e6986ded5821741"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/_ph0/pwscf.q_24/pwscf.elph24",
+      "bytes": 309393,
+      "sha256": "003dde86fbe3729404be24458bd9266e44c95897ce0ec38e8987547a7b1ba4bb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/_ph0/pwscf.q_25/pwscf.elph25",
+      "bytes": 309394,
+      "sha256": "0114779d7cb8af2fba6f7c232285ce0a87d86acefba3d08655a5b7a2c4d15945"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/inputs/_ph0/pwscf.q_26/pwscf.elph26",
+      "bytes": 309393,
+      "sha256": "5fbbbebd31f7892a84d272687381d88f4442b8172a2b4174b885bc7fe565434d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize64-001/scratch/pwscf.a2Fsave",
+      "bytes": 4898827,
+      "sha256": "178ef8d8c1f7f74001daddc6129ac8f85a271ea0f8c278c66b629ed9c95eb5d1"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_band_grid64_manifest.json",
+      "bytes": 5222,
+      "sha256": "0f23aacf64527c14e89a7c6a3652f658f902c2ef99cde19d57d032bf4ceb03fc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/stage_refined_response.py",
+      "bytes": 6304,
+      "sha256": "874eecfc73c5586d10c54b59a1c3df38ba6dc4293b621bae3835ac2bd3f84eec"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_band_grid_analysis.py",
+      "bytes": 4404,
+      "sha256": "7df5a7d4b57848564bb96aa037aabb9d858c9940201189f1cf4e9b5552725073"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_band_pilot_analysis.py",
+      "bytes": 3789,
+      "sha256": "d966cf1434e6390a0aa79cace3bdc62962f93e051faac1b89bffe758cbbfbcbc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/stage_public_response.py",
+      "bytes": 2612,
+      "sha256": "6353661c8bb0a50bb50d8e995b6c88bddc7b565b737448761ecd5c6eba5f33c0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_a2f_serialize64_manifest.json",
+      "bytes": 6214,
+      "sha256": "5cb2d81d94547a8e76a488a1c4af968f8489e1738ebbee393d0ee3c01a4f218a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize64-001/results/serialize/receipt.json",
+      "bytes": 675,
+      "sha256": "06596d9d814d8fc969ae1a23b4887c4be67d30685f99eb4300012231f7aa59d2"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/verify_band_serialization.py",
+      "bytes": 4268,
+      "sha256": "3df22824145df8703748ff685d09b76c82ff7b24dd57c0c4361fcd7fcf3fe5fb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/stencil64_control_plan.json",
+      "bytes": 1781,
+      "sha256": "60da1c36cf8c7ec835542079f9e1142a036fbe2cbcebb61dd8b1ee062d465167"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/verify_refined_response.py",
+      "bytes": 2796,
+      "sha256": "270ecc1eced61ea01ec846c1c173ef2c9df5259bec7046ae88761848086a8f7f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/macos_native_guard.py",
+      "bytes": 8195,
+      "sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_indexed_response48_result.json",
+      "bytes": 9686,
+      "sha256": "318a93e3f6699929279670d47f338cbcc46337daf9a2a732b77a51ca941dca12"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_a2f_serialize64_result.json",
+      "bytes": 3335,
+      "sha256": "0b8bf3385b2e47d6c45c44b0bc77a0c7113eb1e462d025be65f5d26d5894abaa"
+    }
+  ],
+  "command": [
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/velocity-moment-probe.x",
+    "-in",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001/native.in"
+  ],
+  "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-second-response64-001",
+  "environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "SCTK_MOMENT_GRID": "8"
+  },
+  "scope": "Stage a declared48/64cubed response diagnostic with derived band data. Imposed gap; unchanged density/phonons/cell grid. Not physical response accuracy.",
+  "matdyn0": "Generated by QE q_points; not an acquired input",
+  "grid": [
+    64,
+    64,
+    64
+  ],
+  "response_cell_grid": 8,
+  "guard_seconds": 900,
+  "derived_inputs": {
+    "pwscf.a2Fsave": {
+      "source": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize64-001/scratch/pwscf.a2Fsave",
+      "sha256": "178ef8d8c1f7f74001daddc6129ac8f85a271ea0f8c278c66b629ed9c95eb5d1",
+      "original_public_sha256": "e331b8c2e7d9e55c6efa158d37ee6ef2e51301c5ffc67e0f2b11527738ee8a90",
+      "provenance": "Generated fixed-density64cubed bands, not an author-hosted original"
+    }
+  },
+  "band_validation": {
+    "grid": [
+      64,
+      64,
+      64
+    ],
+    "generated_irreducible_points": 6273,
+    "shared_reference_points": 897,
+    "max_shared_eigenvalue_difference_ry": 4.1517320514827816e-07,
+    "minimum_common_reference_points": 100,
+    "acceptance_max_eigenvalue_difference_ry": 1e-06,
+    "shared_point_and_serialization_targets_met": true,
+    "all_parent_coordinates_energies_weights_preserved": true,
+    "energy_offset_fitted": false,
+    "terminal_receipt": {
+      "status": "PASS",
+      "error": null,
+      "command": [
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize64-001/a2f-serialize.x",
+        "-in",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize64-001/native.in"
+      ],
+      "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize64-001",
+      "wall_s": 1.4731302913278341,
+      "exit": 0,
+      "max_individual_descendant_rss_bytes": 104546304,
+      "sampled_peak_group_rss_bytes": 32768,
+      "macos_ru_maxrss_units": "bytes",
+      "rss_sample_interval_s": 2,
+      "continuous_deadline_s": 120.0,
+      "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+    },
+    "original_band_receipt": {
+      "status": "PASS",
+      "error": null,
+      "command": [
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid64-001/pw.x",
+        "-in",
+        "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid64-001/native.in"
+      ],
+      "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid64-001",
+      "wall_s": 826.5420493334532,
+      "exit": 0,
+      "max_individual_descendant_rss_bytes": 116391936,
+      "sampled_peak_group_rss_bytes": 116391936,
+      "macos_ru_maxrss_units": "bytes",
+      "rss_sample_interval_s": 2,
+      "continuous_deadline_s": 1800.0,
+      "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+    },
+    "original_output_protocol_pass": false,
+    "separate_native_serialization": true,
+    "sha256": {
+      "/Users/noahs/Developer/sc-dft-exp/research/public_a2f_serialize64_manifest.json": "5cb2d81d94547a8e76a488a1c4af968f8489e1738ebbee393d0ee3c01a4f218a",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize64-001/results/serialize/receipt.json": "06596d9d814d8fc969ae1a23b4887c4be67d30685f99eb4300012231f7aa59d2",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize64-001/scratch/pwscf.a2Fsave": "178ef8d8c1f7f74001daddc6129ac8f85a271ea0f8c278c66b629ed9c95eb5d1",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize64-001/scratch/pwscf.save/data-file-schema.xml": "6812bbaeb021cbeba28d7db8bf37e9ffaeea43df75cea363b72e16b4810678d0",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-serialize64-001/reference.json": "d4205fae604591bcccb6df0e5654787f7fbb7415de7e54b94eb12628d516ea11",
+      "/Users/noahs/Developer/sc-dft-exp/research/public_band_grid64_manifest.json": "0f23aacf64527c14e89a7c6a3652f658f902c2ef99cde19d57d032bf4ceb03fc",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-grid64-001/results/bands/receipt.json": "fb35aeea143fc823090da66e4e00ca20d310686f534406728fe715add65de009"
+    },
+    "scope": "Verify a separate owning-QE serialization action against all parent XML data. Not independent new-point accuracy, grid convergence or physical response validation."
+  },
+  "source_revision": "b5cc571",
+  "launch_normal_seconds": 120,
+  "rss_cap_bytes": 3221225472,
+  "decision": "Same-band64second/fourthcausal stencil control; no continuum/physicalaccuracyclaim; original4hnativebudget."
+}
