@@ -107,3 +107,20 @@ enriched_reduced_manifest.json pins all runtime inputs; the launcher rechecks
 their hashes immediately before execution after 120 quiet normal seconds.
 Keep the existing 120 s / 3 GiB guard and one heavy owner. A qualifying candidate
 would justify considering one fresh full check at unchanged acceptance targets.
+
+## Rank33 full native result
+
+The occupation-plus-critical-mode candidate also fails the unchanged stationary
+targets. Terminal guard PASS599.926s,951713792-byte individual peak RSS. Exact
+input gap preserved. Infinity residual4.58440815e-8Ry and RMS residual/gap
+0.00212817009 exceed1e-10Ry/1e-5. Tile sum difference4.9083e-15 and analytic
+Jacobian/finite-difference difference3.4433e-9 pass their native controls.
+See verify_critical_gap_result.json with terminal receipt and prospective
+manifest hash. This is not a converged gap, despite exact representation of the
+measured critical mode and a tiny reduced coefficient residual.
+
+The new full image permits a second exact occupation-defect enrichment without
+another kernel pass. Preparation rank33->34 took13.20s /178307072-byte RSS;
+relative occupation defect0.000636889, new direction norm1 and old-basis overlap
+4.08e-19. This qualifies the measured enrichment algebra, not the inherited
+operator globally. A cheap reduced pilot is prepared, not yet launched.

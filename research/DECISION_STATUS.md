@@ -108,12 +108,12 @@ Mac runtime forecast is justified by the cluster logs alone.
 
 ## Next decisive evidence, in order
 
-1. Finish the running rank33 full native check against the unchanged acceptance
-   targets. Occupation-defect and measured-critical-mode enrichments are now
-   source-bound and tested; the rank33 reduced solve passed in 0.906 s. Its mean
-   gaps lie between the rank31 and rank32 values, so full-space acceptance and
-   refinement remain essential. Preserve a failed result rather than adjusting
-   tolerances. See critical_reduced_result.json and verify_critical_gap_manifest.json.
+1. Evaluate the prepared rank34 reduced candidate after the response-assignment
+   owner terminates. Rank33 full validation finished in 599.93 s / 952 MB and
+   failed unchanged targets: infinity residual 4.58e-8 Ry, RMS ratio 0.00213.
+   A second source-bound occupation enrichment is prepared; its reduced solve
+   is cheap, but another full pass requires a new cost/information decision.
+   See verify_critical_gap_result.json and second_occupation_reduced_manifest.json.
 2. Qualify conditioning and refinement of a successful gap. A point residual
    alone cannot bound gap error near the transition.
 3. Connect that gap to the same-cell anisotropic response using the verified

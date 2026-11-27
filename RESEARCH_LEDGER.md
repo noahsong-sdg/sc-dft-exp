@@ -1,5 +1,24 @@
 # Research restart ledger
 
+## Latest — rank33 full check fails; assignment watcher live
+
+Owner57262 TERMINAL guardPASS599.926s/951713792-byte peakRSS; strictreader
+PASS but numericaltargetsFAIL: Rinf4.58441e-8Ry,RMSratio0.00212817. Exactseed
+preserved; tile/derivativecontrolsPASS. verify_critical_gap_result.json pins
+terminalreceipt+manifestSHA. Do not call this a qualified stationary gap.
+
+Secondoccupation enrichment rank33->34 passes13.20s/178307072B; relative
+defect0.000636889. second_occupation_enrichment_result.json and prospective
+second_occupation_reduced_manifest.json prepared. No rank34 launcher active.
+Wait for assignment owner before launching cheapreducedpilot; anotherfullpass
+requires renewed measuredcost/information decision.
+
+Assignment owner23012/PID785 verifiedlivewaitingnormalpressure1 (30seconds
+at10:16:08UTC). Pollsameowner; 120quietseconds/120s/3GiB, no duplicate.
+Nativeaccounting34terminalattempts4447.189s (23guardPASS,11FAIL), excludeslive
+assignment and all waiting/Python/build/modelcosts. 72testsPASS5.848s; compileall
+anddiffchecksPASS; publicCI45979863672PASSfor71b6ce0. Goal active.
+
 Completion remains unproved: [campaign requirements audit](research/CAMPAIGN_REQUIREMENTS_AUDIT.md) maps all ten original deliverables and the decisive remaining gates.
 
 ## Current checkpoint — full owner live; response assignment prepared only
