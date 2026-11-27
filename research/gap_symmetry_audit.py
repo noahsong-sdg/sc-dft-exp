@@ -92,20 +92,21 @@ def audit_records(records, size, rotations):
                 gap_relative_tolerance=1e-10, physical_response_verified=False)
 
 
-def analyze(candidate, prepare, symmetry_file):
-    candidate, prepare, symmetry_file = map(Path, (candidate, prepare, symmetry_file))
-    checked = reduced_readback(candidate, prepare)
+def audit_values(gap, prepare, symmetry_file):
+    """Audit supplied gap-shaped values in Ry on the declared native geometry."""
+    prepare, symmetry_file = map(Path, (prepare, symmetry_file))
     size, rotations = read_rotations(symmetry_file)
     counts, state = native_arrays(prepare)
     if size**3 != counts[4]:
         raise ValueError('Cell rotations belong to a different geometry')
-    gap = array.array('d')
-    with (candidate/'reduced-gap.bin').open('rb') as source:
-        gap.fromfile(source, 2*counts[2])
+    if len(gap) != 2*counts[2] or not all(map(math.isfinite, gap)):
+        raise ValueError('Invalid gap-shaped orbit vector')
     nodes = {x: i for i, x in enumerate(state['xi0'])}
     records = {}
     for side, count in enumerate(counts[:2]):
         start = side*counts[2]
+        if any(gap[start+count:start+counts[2]]):
+            raise ValueError('Nonzero gap-shaped orbit padding')
         groups = Counter((state['kindx'][i], state['bindx'][i]) for i in range(start, start+count))
         for i in range(start, start+count):
             cell, band = state['kindx'][i], state['bindx'][i]
@@ -117,9 +118,20 @@ def analyze(candidate, prepare, symmetry_file):
                 raise ValueError('Duplicate native orbit key')
             records[key] = state['xi'][i], state['dk'][i], gap[i]
     result = audit_records(records, size, rotations)
-    result.update(reduced_readback=checked, scope=__doc__,
+    result.update(scope=audit_values.__doc__,
                   sha256={str(p): digest(p) for p in (symmetry_file, prepare/'native-init.meta',
-                      prepare/'native-init.bin', candidate/'reduced-gap.bin')})
+                      prepare/'native-init.bin')})
+    return result
+
+
+def analyze(candidate, prepare, symmetry_file):
+    candidate = Path(candidate)
+    checked = reduced_readback(candidate, prepare)
+    gap = array.array('d')
+    gap.frombytes((candidate/'reduced-gap.bin').read_bytes())
+    result = audit_values(gap, prepare, symmetry_file)
+    result.update(reduced_readback=checked, scope=__doc__)
+    result['sha256'][str(candidate/'reduced-gap.bin')] = digest(candidate/'reduced-gap.bin')
     return result
 
 

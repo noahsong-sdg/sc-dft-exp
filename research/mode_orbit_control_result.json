@@ -1,0 +1,178 @@
+{
+  "reports": {
+    "mode_scaled_to_015mev": {
+      "states": 134807,
+      "rotations": 48,
+      "mapped_comparisons": 6470736,
+      "missing_orbit_records": 0,
+      "noncommensurate_operations_skipped": 0,
+      "geometry_comparisons_beyond_64eps": 0,
+      "max_energy_difference_ry": 0.0,
+      "max_weight_difference": 0.0,
+      "max_gap_difference_ry": 9.240553472140284e-15,
+      "max_gap_difference_over_global_max": 3.985056774616999e-10,
+      "geometry_orbits_compatible": true,
+      "gap_symmetry_test_passed": false,
+      "gap_relative_tolerance": 1e-10,
+      "physical_response_verified": false,
+      "scope": "Audit supplied gap-shaped values in Ry on the declared native geometry.",
+      "sha256": {
+        "research/raw/response-orbit-001/response-symmetry.txt": "c72df4d4883bbe81c69011c33f82086ecc91abfc6f28e5487a06f7bde3725efe",
+        "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.meta": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+        "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.bin": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37"
+      }
+    },
+    "fresh_linear_image_same_scale": {
+      "states": 134807,
+      "rotations": 48,
+      "mapped_comparisons": 6470736,
+      "missing_orbit_records": 0,
+      "noncommensurate_operations_skipped": 0,
+      "geometry_comparisons_beyond_64eps": 0,
+      "max_energy_difference_ry": 0.0,
+      "max_weight_difference": 0.0,
+      "max_gap_difference_ry": 4.533452470844787e-15,
+      "max_gap_difference_over_global_max": 1.9514544307528394e-10,
+      "geometry_orbits_compatible": true,
+      "gap_symmetry_test_passed": false,
+      "gap_relative_tolerance": 1e-10,
+      "physical_response_verified": false,
+      "scope": "Audit supplied gap-shaped values in Ry on the declared native geometry.",
+      "sha256": {
+        "research/raw/response-orbit-001/response-symmetry.txt": "c72df4d4883bbe81c69011c33f82086ecc91abfc6f28e5487a06f7bde3725efe",
+        "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.meta": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+        "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.bin": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37"
+      }
+    }
+  },
+  "measured_mode_readback": {
+    "dimensions": [
+      66867,
+      67940,
+      67940,
+      8
+    ],
+    "beta": 19613.355577892344,
+    "eigenvalue": 1.0018603316299344,
+    "fresh_relative_residual": 3.920375975386137e-11,
+    "fresh_action_max_error": 1.5612511283791264e-17,
+    "kernel_cpu_s": 747.158671,
+    "rows": [
+      {
+        "mean_gap_amplitude_mev": 0.025,
+        "mode_scale_ry": 0.0006440216156029688,
+        "projected_residual_ry": 1.1523702908636805e-06,
+        "max_absolute_residual_ry": 7.014738656900298e-09,
+        "rms_residual_ry": 3.1396730583519114e-09,
+        "fermi_residuals_ry": [
+          3.3525087172366565e-09,
+          3.335515670830374e-09
+        ]
+      },
+      {
+        "mean_gap_amplitude_mev": 0.05,
+        "mode_scale_ry": 0.0012880432312059376,
+        "projected_residual_ry": 2.0305267419572787e-06,
+        "max_absolute_residual_ry": 1.2981019531300137e-08,
+        "rms_residual_ry": 5.569204750711171e-09,
+        "fermi_residuals_ry": [
+          6.24968083428484e-09,
+          6.235392813182889e-09
+        ]
+      },
+      {
+        "mean_gap_amplitude_mev": 0.1,
+        "mode_scale_ry": 0.0025760864624118753,
+        "projected_residual_ry": 1.8711478607294715e-06,
+        "max_absolute_residual_ry": 1.764357976195045e-08,
+        "rms_residual_ry": 7.314549791665327e-09,
+        "fermi_residuals_ry": [
+          8.863460498353842e-09,
+          8.99188154987035e-09
+        ]
+      },
+      {
+        "mean_gap_amplitude_mev": 0.15,
+        "mode_scale_ry": 0.0038641296936178125,
+        "projected_residual_ry": -2.6478423618023605e-06,
+        "max_absolute_residual_ry": 3.921736152934325e-08,
+        "rms_residual_ry": 1.9085255478911502e-08,
+        "fermi_residuals_ry": [
+          4.241480469071232e-09,
+          4.8234982534630136e-09
+        ]
+      },
+      {
+        "mean_gap_amplitude_mev": 0.2,
+        "mode_scale_ry": 0.005152172924823751,
+        "projected_residual_ry": -1.365619671039067e-05,
+        "max_absolute_residual_ry": 1.2920002642471276e-07,
+        "rms_residual_ry": 5.592141184556742e-08,
+        "fermi_residuals_ry": [
+          -1.1144885268770474e-08,
+          -9.65057930788243e-09
+        ]
+      },
+      {
+        "mean_gap_amplitude_mev": 0.3,
+        "mode_scale_ry": 0.007728259387235625,
+        "projected_residual_ry": -6.334824977492523e-05,
+        "max_absolute_residual_ry": 5.368722223103784e-07,
+        "rms_residual_ry": 2.220237302882692e-07,
+        "fermi_residuals_ry": [
+          -8.777039873266129e-08,
+          -8.253073171064131e-08
+        ]
+      },
+      {
+        "mean_gap_amplitude_mev": 0.5,
+        "mode_scale_ry": 0.012880432312059376,
+        "projected_residual_ry": -0.00032576304950798963,
+        "max_absolute_residual_ry": 2.65558128651974e-06,
+        "rms_residual_ry": 1.0880814871981262e-06,
+        "fermi_residuals_ry": [
+          -5.102734659505743e-07,
+          -4.867712991002769e-07
+        ]
+      }
+    ],
+    "projected_sign_change_intervals_mev": [
+      [
+        0.1,
+        0.15
+      ]
+    ],
+    "sha256": {
+      "mode-amplitudes.txt": "4904c1dde0506643b217488d9afed06903598f786c983c9d21f06ab9a29930c4",
+      "mode-amplitudes.bin": "9d7b150445896f6da815d3e5f09d87104154aee3945a09d7debebf7a86082d81"
+    },
+    "scope": "Validate full residual readback along a saved mode; no solved-gap inference."
+  },
+  "context": "abfcecc2bacf7acac94a87e8d7cf4e88945bc589fea82dc9475106428818b74c",
+  "beta": 19613.355577892344,
+  "scope": "Compare a freshly validated linear mode and its image on native cell orbits.",
+  "sha256": {
+    "research/mode_amplitude_manifest.json": "cebcb109e1947e86d0205ecbeb47d4eb2d3a6fbe2c647d6ae062cc254d4c9e3a",
+    "research/mode_amplitude_result.json": "c3f101f8cc1347f88d0a36b710e8412c0211f929d4d37c723a135e8c18b2c42c",
+    "research/third_occupation_reduced_manifest.json": "aa406560febf708c8d5d387c92074f954aa1d656c7b2b5eab617a15f3da86b1e",
+    "research/raw/response-orbit-001/response-symmetry.txt": "c72df4d4883bbe81c69011c33f82086ecc91abfc6f28e5487a06f7bde3725efe",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/mode-amplitude-001/native.in": "8aebd2e7b1f538a2ec39489e24a146bf93689bab92812de62ea65fd0bb4e9dcc",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/mode-amplitude-001/map-control.in": "81c10f2ae79de44b1a886cbefa5ddfb4bf16f9b52184d3844bc0cd7a43344e42",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/mode-amplitude-001/mode-control.in": "7be5942a6af0eb4f01c54a83917c33cf156b4951b403ed32dbcbbfcac8b5fa10",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/mode-amplitude-001/mode-amplitude-probe.x": "5de909984e7c015c886517e8118a60a1f7b6a3f00c77d8c3e50c7875b989068b",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.meta": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.bin": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/fresh-action/basis.meta": "d45564e51567f33ebb512c33df91215534eecc032422986f218e86bd4f6066d7",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/mode-amplitude-001/results/moment/receipt.json": "c02c81853c3ca13a1829391647f7d64745dd0a8621145c5a4f2b8167d9554009",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/mode-amplitude-001/mode-amplitudes.txt": "4904c1dde0506643b217488d9afed06903598f786c983c9d21f06ab9a29930c4",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/mode-amplitude-001/mode-amplitudes.bin": "9d7b150445896f6da815d3e5f09d87104154aee3945a09d7debebf7a86082d81"
+  },
+  "physical_response_verified": false,
+  "audit_wall_s": 34.51,
+  "audit_peak_rss_bytes": 135315456,
+  "analysis_source_sha256": {
+    "research/mode_orbit_control.py": "0ab8aef00f431d7643ebc408c3bbae1487755215e2bcb28b1581bf161160a8df",
+    "research/gap_symmetry_audit.py": "ae6639a42b7c1b214835be9544e3f4c108e118d05c6a406ebfa505b74032070a",
+    "research/mode_amplitude_analysis.py": "3fd766317113517b2ce4f0c6ed69f4cda0e77061f34fc751c50937da033e37db"
+  }
+}

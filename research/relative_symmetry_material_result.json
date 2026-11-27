@@ -1,0 +1,215 @@
+{
+  "geometry_compatible": true,
+  "dimensions": [
+    62850,
+    64662,
+    64662,
+    100,
+    512,
+    1,
+    26
+  ],
+  "reference_dimensions": [
+    62850,
+    64662,
+    64662,
+    100,
+    512,
+    1,
+    26
+  ],
+  "geometry_mismatches": {
+    "xi0": 0,
+    "dx0": 0,
+    "xi": 0,
+    "dk": 0,
+    "kindx": 0,
+    "bindx": 0
+  },
+  "normalized_directional_differences": {
+    "dxq": {
+      "max_absolute_difference": 1.5809938938800638e-13,
+      "difference_over_reference_max": 2.078868379931015e-14,
+      "passes": true
+    },
+    "d2xq": {
+      "max_absolute_difference": 9.094947017729282e-13,
+      "difference_over_reference_max": 1.1753243839802694e-15,
+      "passes": true
+    }
+  },
+  "directional_scale_test_passed": true,
+  "normwise_relative_tolerance": 1e-10,
+  "input_direction_verified": false,
+  "physical_response_verified": false,
+  "sha256": {
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/relative-symmetry-material-001/response-assignment.txt": "f729f65c9471e194614127fce0eb8b136ed6c2eab165197e3b9489c37c2f5442",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/relative-symmetry-material-001/response-assignment.bin": "66a750ae96082dd107c039ce8e485a850430fb5f0e3d1e4a82b3f83617724ab6",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/response-assignment-001/response-assignment.txt": "e928405c7405164e0af0fba519e65c91f069db6eccdc5456612d3048c3ed7f32",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/response-assignment-001/response-assignment.bin": "29f6ddab6da24f0cd14c68fc2695f5e28e23e5020bdc7879b6644d8335a71a60"
+  },
+  "scope": "Compare identical directional geometry at two nonzero momentum scales.",
+  "terminal_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/relative-symmetry-material-001/velocity-moment-probe.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/relative-symmetry-material-001/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/relative-symmetry-material-001",
+    "wall_s": 34.68819020781666,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 195182592,
+    "sampled_peak_group_rss_bytes": 192004096,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 120,
+    "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+  },
+  "native_selected_symmetries": [
+    4,
+    4,
+    4
+  ],
+  "moment_readback": {
+    "sha256": "05361c9c1897ec581305d3b61c59adc8d6536e04491671e16d23df98719d3605",
+    "dimensions": [
+      100,
+      6,
+      7,
+      32768,
+      512
+    ],
+    "qnorm": 1.4213149536207327e-12,
+    "volume": 122.17535992426924,
+    "native_control_max_absolute_errors": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "negative_fine_weights": 1164403,
+    "negative_fine_weight_absolute_sum": 42.86565944990891,
+    "fine_weight_absolute_sum": 801.6763201504745,
+    "cases": [
+      {
+        "temperature_kelvin": 2,
+        "imposed_gap_mev": 1.5,
+        "mean_squared_active": [
+          0.0032751992498834116,
+          0.0037020810215884835
+        ],
+        "second_moment_active": [
+          0.008145052022837176,
+          0.008144966603060813
+        ],
+        "second_moment_all": [
+          0.00814488376180505,
+          0.008144883761805029
+        ],
+        "fine_grid_reference": 0.008144883761805485,
+        "direct_reference_max_absolute_error": 4.562322741819003e-16
+      },
+      {
+        "temperature_kelvin": 4,
+        "imposed_gap_mev": 1.5,
+        "mean_squared_active": [
+          0.0030451012306283746,
+          0.0034419983046809245
+        ],
+        "second_moment_active": [
+          0.007572846724270962,
+          0.007572767299828727
+        ],
+        "second_moment_all": [
+          0.007572690278423135,
+          0.007572690278423187
+        ],
+        "fine_grid_reference": 0.007572690278422804,
+        "direct_reference_max_absolute_error": 3.8337388819087437e-16
+      },
+      {
+        "temperature_kelvin": 8,
+        "imposed_gap_mev": 1.5,
+        "mean_squared_active": [
+          0.0019016074551313647,
+          0.002149477130624496
+        ],
+        "second_moment_active": [
+          0.004729182943443264,
+          0.004729133321749044
+        ],
+        "second_moment_all": [
+          0.004729085223009569,
+          0.00472908522300942
+        ],
+        "fine_grid_reference": 0.004729085223009522,
+        "direct_reference_max_absolute_error": 1.0234868508263162e-16
+      }
+    ],
+    "scope": "Matched-energy constant-gap closure diagnostic; not a converged material response"
+  },
+  "moment_relative_changes": [
+    {
+      "mean_squared_active": [
+        2.220446049250313e-16,
+        -6.661338147750939e-16
+      ],
+      "second_moment_all": [
+        0.0,
+        -4.440892098500626e-16
+      ],
+      "fine_grid_reference": -4.440892098500626e-16,
+      "second_moment_active": [
+        -2.220446049250313e-16,
+        -2.220446049250313e-16
+      ]
+    },
+    {
+      "mean_squared_active": [
+        -6.661338147750939e-16,
+        -2.220446049250313e-16
+      ],
+      "second_moment_all": [
+        -4.440892098500626e-16,
+        -3.3306690738754696e-16
+      ],
+      "fine_grid_reference": -1.1102230246251565e-16,
+      "second_moment_active": [
+        -5.551115123125783e-16,
+        -3.3306690738754696e-16
+      ]
+    },
+    {
+      "mean_squared_active": [
+        -4.440892098500626e-16,
+        6.661338147750939e-16
+      ],
+      "second_moment_all": [
+        -2.220446049250313e-16,
+        0.0
+      ],
+      "fine_grid_reference": -3.3306690738754696e-16,
+      "second_moment_active": [
+        -2.220446049250313e-16,
+        -2.220446049250313e-16
+      ]
+    }
+  ],
+  "manifest_sha256": "571a675d12efcf246f53d4772c73467b7d1b80c14fc3d66c07ce759de519f1c8",
+  "material_geometry_scale_targets_met": true,
+  "input_decks_fractional_vectors": {
+    "candidate": [
+      1e-12,
+      0.0,
+      0.0
+    ],
+    "baseline": [
+      0.0001,
+      0.0,
+      0.0
+    ]
+  },
+  "input_direction_verified_from_pinned_decks": true,
+  "native_log_sha256": "6b3401974d5f48a0173fb05a153cd8181bd12f013f24df33c6477bf213c4b7c2"
+}

@@ -3,7 +3,7 @@ import tempfile
 import struct
 import unittest
 
-from gap_symmetry_audit import HEADER, analyze, audit_records, mapped_cell, read_rotations
+from gap_symmetry_audit import HEADER, analyze, audit_records, audit_values, mapped_cell, read_rotations
 
 IDENTITY = ((1, 0, 0), (0, 1, 0), (0, 0, 1))
 INVERSION = ((-1, 0, 0), (0, -1, 0), (0, 0, -1))
@@ -65,6 +65,9 @@ class GapSymmetryTests(unittest.TestCase):
             self.assertTrue(result['gap_symmetry_test_passed'])
             self.assertEqual(result['states'], 4)
             self.assertFalse(result['physical_response_verified'])
+            for values in ([.01]*3, [.01, .01, float('nan'), .01]):
+                with self.assertRaisesRegex(ValueError, 'orbit vector'):
+                    audit_values(values, prepare, symmetry)
             symmetry.write_text(symmetry.read_text().replace('2 1 1 1 1 1 1', '2 2 2 2 1 1 1'))
             with self.assertRaisesRegex(ValueError, 'different geometry'):
                 analyze(root, prepare, symmetry)

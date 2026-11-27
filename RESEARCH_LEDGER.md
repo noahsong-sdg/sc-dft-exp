@@ -1,5 +1,25 @@
 # Research restart ledger
 
+## Latest — relative selector material PASS; linear-mode orbit control measured
+
+Owner39794 TERMINALPASS34.688s/195182592B. Relative-selector geometrypasses
+registered scalecontrol:4symmetriesatq1e-12;baseline62850/64662layout matches;
+normalizedv/h maxrelative2.08e-14/1.18e-15. All momentcomparisons pass1e-10;
+inputdecks independently verifydirection100. relative_symmetry_material_result.json
+preparedpublicreadback; no fullsolver/physicalresponseclaim.
+
+mode_orbit_control.py bindsfreshmode runtime/receipt/publishedpayload and
+samegeometrycontext. Actualproducer-schemafixture+stalereceipt/contextcases
+pass. Materialaudit34.51s/135315456B: modeandfreshimage orbitvariation
+3.98506e-10/1.95145e-10 relativeglobalmax, ~6ordersbelow rank34; bothstillFAIL
+unchanged1e-10symmetrycriterion. mode_orbit_control_result.json captures hashes.
+Points towardreduced/nonlinearerrorasstrongerlead, notproofofoperatorcovariance.
+Newaudit_values preservesoldcandidateinterface; historicalversionc4c7496.
+78regressionsPASS5.384s; compileall/diffchecksPASS.
+
+Rank35reduced owner47395/PID48634 verifiedlivewaitingnormalpressure1 at105quiet
+seconds10:47:41UTC. Pollsameowner thenstrictreadback; no anotherproductionjob.
+
 ## Latest — material orbit geometry PASS; scalar gap invariance FAIL
 
 Orbitowner96156 TERMINALPASS34.9467s/195346432B; strictassignmentPASS.

@@ -103,3 +103,22 @@ The public reader before this extension is50d8bb3; historical manifest hashes
 are not rewritten. All77regressions pass5.398s, Python compilation and diff
 checks pass. The native candidate build uses the actual exporter and retained
 libraries, not only the scalar fixture.
+
+## Relative selector passes the tested material scale control
+
+The registered candidate completes in34.688s/195182592-byte peak RSS. It retains
+4operations atq1e-12, restoring62850/64662states and matching the q1e-4 baseline
+geometry. Normalized directional velocity and curvature differ by2.08e-14 and
+1.18e-15 of their reference maxima, respectively. All first/second-moment and
+fine-reference scalar comparisons pass1e-10relative; observed differences are
+below7e-16relative. The two pinned input decks independently verify identical
+fractional direction(1,0,0), rather than relying on binary momentum norm alone.
+See relative_symmetry_material_result.json with terminal receipt, prospective
+manifest hash, strict geometry/derivative comparison and moment readback.
+
+This qualifies the narrow relative-selector candidate for this unshifted
+material-geometry diagnostic, in addition to its synthetic owning-routine
+regression. It prevents the demonstrated scale-dependent subgroup change in
+this tested path. It does not correct the coarse squared-mean closure, derive a
+self-consistent gap, prove full finite-Q behavior, or establish physical accuracy.
+No system installation or full SCTK solver replacement is implied.

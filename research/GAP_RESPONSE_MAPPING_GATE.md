@@ -211,3 +211,29 @@ image on the same orbits, or propagate the variation through a clearly defined
 response before judging its importance. Do not silently symmetrize the gap or
 relax the recorded test. A bounded approximate moment route remains possible,
 but requires an explicit observable-error assessment.
+
+## Measured linear-mode control separates the symmetry scales
+
+`mode_orbit_control.py AMPLITUDE_DIRECTORY AMPLITUDE_MANIFEST AMPLITUDE_RESULT
+GEOMETRY_MANIFEST SYMMETRY_FILE` binds the original runtime inputs, terminal
+receipt, published amplitude payload and same-beta/operator-context geometry.
+It audits the measured mode and its fresh linear image at the registered
+0.15meV mean-amplitude scale. The shared `audit_values` function preserves the
+existing reduced-candidate audit and adds finite/shape/padding checks for this
+controlled alternate vector. A file fixture uses actual amplitude readback
+(including its `rows` schema), then rejects stale context and execution receipts.
+The initial unpublished adapter used the wrong field name; this regression
+executes the real producer schema and prevents that integration error.
+
+The material control takes34.51s/135315456-byte peak RSS. Geometry is exact
+for both vectors. Relative maximum orbit variations are3.98506e-10 for the
+mode and1.95145e-10 for its fresh image, versus0.000294718 for rank34. Both
+mode vectors still fail the unchanged1e-10 symmetry criterion, but their
+variations are roughly six orders smaller. See mode_orbit_control_result.json.
+This weakens an attribution of the large rank34 variation solely to the saved
+linear mode and motivates checking reduced/nonlinear convergence. It does not
+prove general operator equivariance or distinguish every possible discretization
+effect. Do not infer an observable error from these norms alone.
+
+The gap-orbit implementation before this reusable-vector adapter is c4c7496;
+historical source hashes retain their original meaning.
