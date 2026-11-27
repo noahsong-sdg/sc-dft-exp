@@ -1,5 +1,25 @@
 # Research restart ledger
 
+## Current live handle — campaign-bounded resource wait
+
+Progress: current upstream main/issue/PR duplication check published in
+research/UPSTREAM_STATUS_AUDIT.md. Main remains the tested revision; no matching
+report found by the stated limited searches. No novelty or demand claim follows.
+
+Verified live launch watcher: tool session **6712**, PID **85327**, started
+2026-11-27 06:20:14 UTC. Poll this handle before any new launch; do not duplicate
+the watcher or assume its state from this ledger. Its atomic status file is
+research/raw/nb-preparation-003/campaign_launch_watch.json. It checks pressure
+every 15 seconds, starts exactly one guarded 120-second attempt only at normal
+pressure=1, then exits. Latest observed phase waiting, pressure=2. No pilot child
+had launched at this checkpoint.
+
+Latest permissible launch: 17:38 UTC, before the original campaign's 17:41 UTC
+end. Watch exits at the launch deadline if conditions never permit. On completed
+pilot, inspect actual receipt/log/state, validate arrays, and proceed to the
+material-derived diagnostic. On guard failure, preserve output and trace cause.
+There is no paid service, outreach, new automation or unbounded research job.
+
 ## Latest runtime state — corrected pilot still unlaunched
 
 The additional five-minute pressure watch (tool session 67049) exited normally:
