@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this progress record, please cite this repository."
+title: "Superconducting DFT benchmark progress"
+type: dataset
+authors:
+  - family-names: Song
+    given-names: Noah
+repository-code: "https://github.com/noahsong-sdg/scdft-benchmark-progress"
+date-released: 2026-11-26
+license: CC-BY-4.0
+
