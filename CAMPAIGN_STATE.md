@@ -234,3 +234,26 @@ Samplequalification, not exhaustiveindependentrecomputation. Guardedtotal
 2458.238037s. Old90439/session11445 terminal. Basispartial001 staged16freshtrials/
 four64rowblocks,420s/3GiB/quiet120. No retainedbasis; fullbasis/gap/response remain
 incomplete. Source files pinned by this stage must remain frozen while live.
+
+
+## Fresh basis partial qualification certified; checkpoint format tested
+
+basispartial001 terminalPASS53.081329s/1042350080B individual peak; sampled
+uncached error1.6941e-20 <=2.3540e-13. Persisted Gram error2.8755e-14, binary
+34785280B, finite/padding checksPASS. Public/consumedmanifest identical; all
+postruninputs and16actual linked archives hash-verified; no historicalcustompath.
+Guarded total2511.319366s, historical189.29min separate. No nativeowner.
+Certifier draft had doubled the expected binary byte count: corrected to two
+binary64 arrays, with truncated/doubled-size and nonfinite regression tests.
+No native data or pinned scientific sources changed.
+
+Measured full16-vector row-only estimate804.755s (sampled752.254–867.181s), not
+bound. Plan four contiguous32-tile segments with measured restart qualification
+first. New linear-image checkpoint format preserves unnormalized partial sums;
+compiled fixture passes exact split-order and stale-context/temperature/columns/
+rows/schema/trailing/truncation/nonfinite/padding cases. Actual-input split driver
+and qualification remain pending. Fullbasis/gap/physicalresponse not achieved.
+
+Final gate:159offline testsPASS14.528s;172maintained Python sources compilePASS;
+moment_refinement replay and diffcheckPASS. Nativecheckpoint fixture compiled
+with gfortran -O2 -fcheck=all. No separate repository typecheck is configured.

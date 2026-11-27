@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "manifest_sha256": "0a8164bb8e30b2597d0d8dfe07fea1fdf32c089f8ed3679ce6e6a21754425c3d",
+  "receipt_sha256": "b3c992ba392936c00c742fc224810595e82d3e988ad5114ce30ae435d5d8f274",
+  "binary_sha256": "3da0b2d31744462620f3c022dc71acec5209a037d05d505bad9b728db3daa73e",
+  "metadata_sha256": "598c9523a0e5a4a137cff86d31249e23a7d0ea7bf0d176a38f8eec7c213e32a9",
+  "executable_sha256": "03b28094b92bed53a9ea142cfd14f3c140643cfd99e45b3dc1db492b2d3bd194",
+  "analysis_source_sha256": "de939fc1d3d38deea06f4b81de44db9b8b4fa6a27a4d0f1a856ec5072b3dea26",
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/usr/bin/make",
+      "-f",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/basis_partial.mk",
+      "RESEARCH=/Users/noahs/Developer/sc-dft-exp/research",
+      "QE_ROOT=/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe",
+      "NATIVE_INPUT=/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-partial-001/native.in",
+      "qualify-basis-partial"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-partial-001",
+    "wall_s": 53.08132941741496,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 1042350080,
+    "sampled_peak_group_rss_bytes": 1042153472,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 420.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "beta": 19613.355577892344,
+  "uncached_error": 1.6940658945086007e-20,
+  "uncached_bound": 2.3540438237882763e-13,
+  "trial_gram_error": 2.8754776337791554e-14,
+  "block_wall_s": [
+    0.804,
+    0.72,
+    0.83,
+    0.727
+  ],
+  "row_only_full_sweep_forecast_s": {
+    "mean": 804.7547929687499,
+    "sampled_min": 752.25375,
+    "sampled_max": 867.18140625
+  },
+  "partial_images_only": true,
+  "physical_response_verified": false,
+  "forecast_limitation": "Row extrapolation from four64-row blocks, not a runtime bound or isolated workflow benchmark"
+}
