@@ -4,6 +4,11 @@
 [RESEARCH_LEDGER.md](RESEARCH_LEDGER.md).** Future agents should read
 [AGENTS.md](AGENTS.md). The benchmark snapshot below predates this campaign.
 
+Portable regression checks run in [public CI](https://github.com/noahsong-sdg/sc-dft-exp/actions/workflows/research-checks.yml).
+The [first verified run](https://github.com/noahsong-sdg/sc-dft-exp/actions/runs/45956886205)
+passed 38 tests and replayed committed refinement data on Ubuntu. This does not
+rerun the retained-input native QE experiment or certify physical accuracy.
+
 Current campaign: [scientific decision checkpoint](research/DECISION_STATUS.md),
 [analytic linear-response reuse route](research/LINEAR_RESPONSE_LIMIT.md),
 [first material-geometry diagnostic](research/NB_MATERIAL_DIAGNOSTIC.md),

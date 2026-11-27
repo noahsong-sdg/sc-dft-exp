@@ -1,5 +1,22 @@
 # Research restart ledger
 
+## Latest external execution evidence and live held-out owner
+
+Public CI run 45956886205 on exact commit
+cbb6eff895ca0f17d82370ca820c40f2d81998d4 completed SUCCESS. Checked job/steps and
+test log: 38 tests in 2.575 s, OK, no reported skips. Committed moment refinement
+replay also passed. URL: https://github.com/noahsong-sdg/sc-dft-exp/actions/runs/45956886205 .
+This checks portable regressions on Ubuntu, not native material physics.
+
+Held-out [111] attempt 001 (tool 56782) TERMINAL resource interruption at
+6.342 s / 97353728-byte peak, exit -15, no diagnostic. Fresh attempt 002 is
+owned by verified LIVE tool session **17286**, PID 16560; poll this handle before
+any native launch. Requires 60 continuous normal-pressure seconds, then one
+guarded 120-second/3-GiB run. Latest launch 2026-11-27 17:38 UTC. Atomic state:
+raw/nb-moments-current-111-002/campaign_launch_watch.json. No other owned native
+job remains. On success analyze velocity-moments.txt and compare signed direct
+references at matched physical Qnorm with current [011] case. Original goal active.
+
 ## Latest completed method gate — refinement and current-source agreement
 
 Runner 3520 TERMINAL SUCCESS: grid16 50.835 s / 286277632-byte peak; grid32
