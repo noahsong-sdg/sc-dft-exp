@@ -20,7 +20,7 @@ Create a compact campaign state file linked from the README and AGENTS entry poi
 
 Verify the current Mac model, CPU, RAM, free disk, compiler/toolchain, existing software builds, and competing machine load. Previous observations of Apple Silicon and 32 GiB RAM are leads, not current measurements. Inspect existing processes before launching work. Do not terminate unrelated processes or change system settings to obtain resources.
 
-Audit pending changes before adopting them. At prompt preparation, OpenMP fixture changes were present in `research/full_current_probe.py`, `research/threshold_probe.py`, and `research/threshold_results.json`; their existence does not establish that they are committed, reviewed, or sufficient for production use.
+Audit pending changes before adopting them. Inspect live process ownership and persisted launch watchers before starting native work: a waiting watcher can launch a job later. Existing changes, compiled executables, and passing fixtures do not establish that a method is committed, independently reviewed, or physically qualified.
 
 ## Starting evidence and unresolved findings
 
@@ -33,6 +33,15 @@ Revalidate the following against the owning artifacts before making consequentia
 5. Current competing methods weaken any unsupported claim that inexpensive superconducting response is an empty field. Review current SCTK, EPW, IsoME, finite-momentum methods, stiffness methods, and relevant reduced models before selecting a contribution.
 
 Use these as falsifiable starting points. Do not inherit a preferred conclusion, extrapolated speedup, claim of unmet demand, or hypothetical model capability as established evidence.
+
+Subsequent campaign evidence provides stronger leads to audit in the ledger and owning artifacts:
+
+6. Full-routine tests extended the thermal finding to the gap-equation right-hand side and exposed a separate zero-energy product boundary in the current routine. Passing numerical tests establish the tested identities and boundaries; they do not establish the size of a material-level correction. Check adjacent zero-energy limits separately, including their temperature domain.
+7. A native niobium diagnostic found that squaring a DOS-averaged velocity can differ substantially from retaining its second moment. On the tested grids, a signed second-moment reconstruction matched the corresponding fine-grid constant-gap quadrature to floating-point precision. First-moment results changed markedly with response-grid refinement. Signed integration weights and discarded support complicate interpretation; this is not yet a validated penetration-depth prediction.
+8. A compatibility probe using pinned current geometry routines reproduced the historical fully shifted niobium output. This checks a specific execution path, not the complete current SCTK build or every shift convention. Held-out direction and unshifted-band controls remain important qualification steps.
+9. Archived niobium gap states matched some geometry and indices but lacked sufficient temperature and convergence provenance; their extracted gap scale did not match the inspected released temperature series. Do not promote those states to qualified microscopic inputs or tune their scale to obtain agreement.
+
+Prioritize qualifying or falsifying the reusable response-moment route before building a general workflow. Determine whether it preserves the intended microscopic response, whether the apparent discrepancy reflects a closure error or different physical approximations, and whether usable equilibrium gap inputs can actually be obtained. Consult `research/PHYSICAL_INTERPRETATION_GATE.md` and the ledger for the latest unresolved gates. These findings are a starting hypothesis, not a commitment to a positive result.
 
 ## Choose the consequential scientific question
 
