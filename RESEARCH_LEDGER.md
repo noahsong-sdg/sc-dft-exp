@@ -3234,3 +3234,23 @@ Focused continuity tests2PASS; full unittest discovery180PASS in13.751s;
 191maintainedPython sources compilePASS; moment_refinement.py replayPASS;
 diffcheckPASS. Previous publicCI46069297369 on97608a6PASS. No new native owner
 beforelaunch; do not duplicate the staged014 launch. Scientific goal remainsactive.
+
+
+## Enrichment014 accepted; third48-vector segment staged
+
+Rows16385:32768 terminal PASS 206.297643041704s; individualpeak
+1011105792B/group960479232B. Checkpoint, allpostruninputs, public/consumedmanifest
+and16linkedarchives PASS; no historicalcustompath. Owner55922/session10351
+terminal exit0. Guardednewtotal6997.170445210150s; prior189.29min separate.
+Enrichment015 stagedrows32769:49152, sameold32basis/16trials/physicalcontext,
+predecessor014;600s/3GiB/quiet120. Fullapplication/Ritz outcome stillpending.
+No codechanged;180tests/191Pythoncompilations/moment gates lastPASS; diffcheckPASS.
+PublicCI46070080362 on37fca5dPASS. Scientific goal remainsincomplete.
+
+Read-only next-stage trace: source-only full_link.mk builds nonlinear_map_probe
+with FULL_MAP/VERIFY_SEED. Geometry and Z are read from the map-control point,
+but gap_seed_io reads a separate seed-control directory and checks its declared
+point/context/beta/counts/positiveFermibranch. A future explicit hash-pinned
+geometry/Z bundle may therefore reuse the existing driver; a new driver is not
+yet shown necessary. This is a traced staging route, not a qualified runtime or
+permission to combine unrelated contexts. Fresh seed and cost protocol required.
