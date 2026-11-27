@@ -1,5 +1,27 @@
 # Research restart ledger
 
+## Latest — rank37 full target FAIL; dense897 sole owner3129 running
+
+Full37/session79090 TERMINALPASS513.389230s/926105600B, scientific targetFAIL:
+Rinf1.099906719e-10Ry >unchanged1e-10; RMSratio2.025058e-6 passes1e-5.
+Tile3.963e-15/JacFD3.405e-9 and bitwise seed preservationPASS. Strict result
+verify_fifth_occupation_gap_result.json; no stationary/conditioning/physical claim.
+Updated gap-validation figure inspected; rank37 remains above maximum target.
+Same-cache rank37 response changes~ -0.038% from36, still diagnostic only.
+
+Next measured enrichment rank38 prepared9.75s/194854912B; relative occupation
+defect2.053155e-6. sixth_occupation_reduced_manifest.json stages008 only, no watcher.
+
+Dense897 sole owner session3129/PID14264 publicguard, raw/public-dense-band-001;
+normal gate passed, live log atpoint401/897 at12:17Z. Poll same owner and run
+public_dense_band_analysis.py with original public_dense_band_manifest.json
+BEFORE editing any of its pinned scripts. Every eigenvalue target1e-6Ry, nooffset.
+
+Point-capacity build support/public protocol committedf06c6ee; CI45996815738PASS.
+108 testsPASS7.302s, maintainedcompileall/diffcheckPASS. Larger build not launched,
+conditional on dense readback. New48grid stager/readback are work in progress,
+not yet a qualified experiment. Goal active; deadline17:41UTC unchanged.
+
 ## Latest — rank37 reduced PASS; full residual owner79090 running; dense replay staged
 
 Rank37 reduced007/session1397 TERMINALPASS0.912687s/132661248B; four Newton

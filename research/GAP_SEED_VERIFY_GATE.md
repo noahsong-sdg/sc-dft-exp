@@ -141,3 +141,20 @@ is prepared in third_occupation_reduced_manifest.json, not launched. It must
 wait behind the material response controls. A further full pass still needs a
 source-bound candidate and explicit measured-cost decision. No conditioned gap
 or physical response has been established.
+
+## Rank37: unchanged maximum target still fails narrowly
+
+Full native check513.389230s/926105600B passes its process guard, tile-sum
+error3.963e-15 and analytic-Jacobian difference3.405e-9. Exact input preservation
+passes. Rinf1.099906719e-10Ry remains above1e-10; RMSratio2.025058e-6 passes1e-5.
+The candidate is therefore unaccepted. No threshold is rounded or relaxed.
+`verify_fifth_occupation_gap_result.json` binds the original prospective manifest.
+Rank36->37 mean gaps change about -0.019%; the same-cache anisotropic diagnostic
+changes about -0.038%, while derivative/integration/physical gates remain open.
+
+The measured next occupation defect has relative norm2.053155e-6. Preparing
+rank38 takes9.75s/194854912B, without another kernel pass. A roughly one-second
+reduced follow-up is staged in sixth_occupation_reduced_manifest.json. It is not
+queued behind the active897point band replay; inspect owners before launch.
+A stationary residual pass, if obtained later, still will not bound conditioned
+gap error or establish physical response accuracy.

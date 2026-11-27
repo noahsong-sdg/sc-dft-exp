@@ -1,0 +1,77 @@
+{
+  "occupation_defect_norm": 8.073423995356655e-09,
+  "relative_occupation_defect_norm": 2.053155290457276e-06,
+  "new_direction_old_basis_overlap": 7.040980043170446e-19,
+  "new_direction_norm": 0.9999999999999999,
+  "inherited_operator_consistency_verified": false,
+  "old_rank": 37,
+  "new_rank": 38,
+  "beta": 19613.355577892344,
+  "context": "abfcecc2bacf7acac94a87e8d7cf4e88945bc589fea82dc9475106428818b74c",
+  "full_candidate_targets_met": false,
+  "full_evaluation": {
+    "full_readback": {
+      "dimensions": [
+        66867,
+        67940,
+        67940,
+        4
+      ],
+      "beta": 19613.355577892344,
+      "finite_difference_step_ry": 1e-08,
+      "kernel_cpu_s": 479.81602399999997,
+      "tile_sum_max_absolute_difference": 3.962975780869016e-15,
+      "jacobian_difference": 3.405489223951008e-09,
+      "jacobian_acceptance_bound": 1.045294790432456e-05,
+      "sides": [
+        {
+          "side": 1,
+          "max_absolute_residual_ry": 6.727210223272484e-11,
+          "rms_residual_ry": 1.8682107600245688e-11,
+          "max_absolute_jacobian_action": 5.22147395216228
+        },
+        {
+          "side": 2,
+          "max_absolute_residual_ry": 1.0999067188795686e-10,
+          "rms_residual_ry": 2.434924453893016e-11,
+          "max_absolute_jacobian_action": 4.986212820468216
+        }
+      ],
+      "sha256": {
+        "full-map.txt": "d20c081ae647ce4e9954c7b99ad0faed409cd5d083a335cc976f40dadadbdd07",
+        "full-map.bin": "18b1a17fb879b7ebd2d2fdbc7f4044cdfa3f070d4194ad9fb584a366defb1534"
+      },
+      "scope": "Full native Q0 residual at imposed seed; terminal receipt required; no gap convergence or physical response validation"
+    },
+    "terminal_guard_pass": true,
+    "input_gap_bitwise_preserved": true,
+    "wall_s": 513.3892302499153,
+    "peak_individual_rss_bytes": 926105600,
+    "residual_infinity_ry": 1.0999067188795686e-10,
+    "rms_residual_over_gap": 2.025058002158888e-06,
+    "thresholds": {
+      "residual_infinity_ry": 1e-10,
+      "rms_residual_over_gap": 1e-05
+    },
+    "stationary_residual_targets_met": false,
+    "conditioned_gap_error_bounded": false,
+    "physical_response_verified": false,
+    "manifest_sha256": "3edb963d48d92a075506b87faf231ed8a39c3d3487e65db3b21de1052805c4dd",
+    "scope": "Certify declared stationary residual targets, never physical response accuracy."
+  },
+  "inputs_sha256": {
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/enriched-basis-006/basis.meta": "4bdd19c1a85361b58704f365c2132f370a47d9b8596ce0266e894bb5e20c96bc",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/enriched-basis-006/basis.bin": "a225d023bcd7ddb6cd8b9635ef3d8ce5db9e76af626ffd5351598aef7cb12494",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.meta": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.bin": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37",
+    "research/raw/reduced-nonlinear-007/reduced-control.in": "befb0bda243c5abdb06b94c20e293165610c8fc5625ea39441a619556519ac1f",
+    "research/raw/reduced-nonlinear-007/reduced-gap.bin": "a22da42064fdcaf6115660e60ae156466a3e51c416f0dad6444f9c89dbfed541",
+    "research/verify_fifth_occupation_gap_manifest.json": "3edb963d48d92a075506b87faf231ed8a39c3d3487e65db3b21de1052805c4dd",
+    "research/fifth_occupation_reduced_manifest.json": "343ce9a9efc805309971a45ae433a905cb0905e116d7d1f16cf1a11cb2bfaf51"
+  },
+  "outputs_sha256": {
+    "research/raw/enriched-basis-007/basis.meta": "6c6917736322fe4a36d50ab20dab6952aac5b78382c01d85d0d476d13777ca64",
+    "research/raw/enriched-basis-007/basis.bin": "aa6459cbf2ce06fa008cc81abc2c575fc9c63004600584e29661133c3e282b6b"
+  },
+  "scope": "Prepare one hash-bound basis enrichment after a full candidate evaluation."
+}

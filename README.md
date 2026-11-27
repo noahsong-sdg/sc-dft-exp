@@ -20,17 +20,15 @@ response prediction and a portable cold-start workflow remain unproved.
 |---|---|---|
 | Fixed-gap response moments | Second moments preserve the matched fine-grid sum; squared means retain only 40–45% on the tested coarse cells | Constant gap; shared band/quadrature approximations |
 | Full nonlinear map and derivative action | 908.65 s, 882 MB peak RSS on the Mac | Arbitrary seed, not a solved gap; upstream inputs reused |
-| Reduced nonlinear enrichment | Rank36 candidate: 0.893 s, 129 MB peak RSS, four Newton iterations | Rank36 passes RMS target but fails maximum-residual target |
+| Reduced nonlinear enrichment | Rank37 candidate: 0.913 s, 133 MB peak RSS, four Newton iterations | Rank37 passes RMS target but narrowly fails maximum-residual target |
 | Frozen converged Nb replay | Released currents reproduced; thermal correction changes them by 2.5–2.8 ppm | Not corrected self-consistency or a Q=0 prediction |
 
 Measured occupation and critical-mode enrichment improve the full native residual,
-but no stationary gap is accepted yet. Rank35's independent check takes
-587.60 s / 934 MB, with maximum residual1.049e-9 Ry and RMS residual/gap
-1.677e-5; both exceed the unchanged1e-10 Ry/1e-5 targets. Rank36 changes the
-candidate mean gaps by0.047%; its full check takes580.35s/938MB. Its RMSratio
-6.302e-6 passes, while Rinf4.055e-10Ry still fails. Its candidate response
-changes0.093–0.094%, a sensitivity rather than a conditioned error bound. No speedup against
-an equivalently qualified full solve is claimed.
+but no stationary gap is accepted yet. Rank37's full check takes513.39s/926MB:
+RMS residual/gap2.025e-6 passes1e-5, while maximum residual1.100e-10Ry remains
+about10% above the unchanged1e-10 target. The candidate response changes about
+-0.038% from rank36; this is a sensitivity, not a conditioned error bound.
+No speedup against an equivalently qualified full solve is claimed.
 
 A new [anisotropic moment audit](research/ANISOTROPIC_MOMENT_GATE.md) reuses one
 37.28 s /194 MB native cache across five candidates. For rank35, the computed

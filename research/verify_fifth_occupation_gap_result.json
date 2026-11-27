@@ -1,0 +1,50 @@
+{
+  "full_readback": {
+    "dimensions": [
+      66867,
+      67940,
+      67940,
+      4
+    ],
+    "beta": 19613.355577892344,
+    "finite_difference_step_ry": 1e-08,
+    "kernel_cpu_s": 479.81602399999997,
+    "tile_sum_max_absolute_difference": 3.962975780869016e-15,
+    "jacobian_difference": 3.405489223951008e-09,
+    "jacobian_acceptance_bound": 1.045294790432456e-05,
+    "sides": [
+      {
+        "side": 1,
+        "max_absolute_residual_ry": 6.727210223272484e-11,
+        "rms_residual_ry": 1.8682107600245688e-11,
+        "max_absolute_jacobian_action": 5.22147395216228
+      },
+      {
+        "side": 2,
+        "max_absolute_residual_ry": 1.0999067188795686e-10,
+        "rms_residual_ry": 2.434924453893016e-11,
+        "max_absolute_jacobian_action": 4.986212820468216
+      }
+    ],
+    "sha256": {
+      "full-map.txt": "d20c081ae647ce4e9954c7b99ad0faed409cd5d083a335cc976f40dadadbdd07",
+      "full-map.bin": "18b1a17fb879b7ebd2d2fdbc7f4044cdfa3f070d4194ad9fb584a366defb1534"
+    },
+    "scope": "Full native Q0 residual at imposed seed; terminal receipt required; no gap convergence or physical response validation"
+  },
+  "terminal_guard_pass": true,
+  "input_gap_bitwise_preserved": true,
+  "wall_s": 513.3892302499153,
+  "peak_individual_rss_bytes": 926105600,
+  "residual_infinity_ry": 1.0999067188795686e-10,
+  "rms_residual_over_gap": 2.025058002158888e-06,
+  "thresholds": {
+    "residual_infinity_ry": 1e-10,
+    "rms_residual_over_gap": 1e-05
+  },
+  "stationary_residual_targets_met": false,
+  "conditioned_gap_error_bounded": false,
+  "physical_response_verified": false,
+  "manifest_sha256": "3edb963d48d92a075506b87faf231ed8a39c3d3487e65db3b21de1052805c4dd",
+  "scope": "Certify declared stationary residual targets, never physical response accuracy."
+}
