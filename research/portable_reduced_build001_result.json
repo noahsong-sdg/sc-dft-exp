@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "manifest_sha256": "082e51f2c7271b78763407a8668c97fc657fab40149e1fac8c3339d4c33ef919",
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/usr/bin/make",
+      "-f",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/reduced_nonlinear.mk",
+      "QE_ROOT=/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe",
+      "reduced-nonlinear-solve.x"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-reduced-build-001",
+    "wall_s": 0.797260666731745,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 60637184,
+    "sampled_peak_group_rss_bytes": 5095424,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 120.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "inputs_unchanged": true,
+  "executable_sha256": "bfa3de4ac98932740b7f948307885128323e32025c64c8878153001b97fa745c",
+  "executable_bytes": 87032,
+  "outputs": {
+    "reduced-nonlinear-solve.x": "bfa3de4ac98932740b7f948307885128323e32025c64c8878153001b97fa745c",
+    "reduced_nonlinear_core.o": "6c1ebcc5e841d3d46b76a010660b7d3e6632397f172502153a0097202c5ba8ab",
+    "reduced_nonlinear_driver.o": "fdecf92ea8df5f41c1ae0f1a79afb19301ae8a4dbc670be442a509021633b440"
+  },
+  "build_only": true,
+  "gap_seed_qualified": false,
+  "physical_response_verified": false,
+  "scope": "Configured public QE modules/libraries; fresh reduced solver source build. No material runtime acceptance."
+}

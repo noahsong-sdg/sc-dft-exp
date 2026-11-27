@@ -3678,3 +3678,14 @@ and separate full nonlinear/conditioning/response gates.
 Source-only reduced-build001 may now run: prior controller terminal; no native
 owner observed. It removes historical build coupling, does not qualify a seed.
 No scientific thresholds or maintained code changed.
+
+
+## Public-configuration reduced solver build complete
+
+portable-reduced-build-001 terminal PASS: source-only compile/link0.797260666731745s,
+max individual RSS60637184B. All15 staged inputs unchanged; public and consumed
+manifest identical; binary/object hashes recorded. No historical custom object
+dependency. Build-only acceptance: material runtime remains gated on qualified
+mode and full nonlinear residual. New guarded total10881.112085126192s.
+Restart009 manifest staged; four-segment application remains within pilot cap.
+No maintained code changes; diffcheckPASS.
