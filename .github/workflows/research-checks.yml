@@ -1,0 +1,29 @@
+name: Offline research regressions
+
+on:
+  push:
+    paths:
+      - 'research/**'
+      - '.github/workflows/research-checks.yml'
+  pull_request:
+    paths:
+      - 'research/**'
+      - '.github/workflows/research-checks.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  offline-regressions:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Require native fixture compiler
+        run: |
+          gfortran --version
+          python3 --version
+      - name: Run offline regression suite
+        run: python3 -m unittest discover -s research -p 'test_*.py' -v
+      - name: Replay committed moment refinement
+        run: python3 research/moment_refinement.py
