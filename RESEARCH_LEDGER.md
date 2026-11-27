@@ -1,5 +1,32 @@
 # Research restart ledger
 
+## Latest — anisotropic observable audit published; rank36 full owner26476 waiting
+
+Code bb3cf52 implements native orbit replay and signed-weight triangle bound,
+including measured cache replay +64eps contraction allowance (not formalinterval
+transcendental certification). One-cache material run owner19935 TERMINAL
+PASS37.280349s/194461696B. Five candidate analyses take5.11s/176177152B;
+`anisotropic_candidate_response_series.json` binds their unchanged gaps and
+cache/source hashes. Rank35 averagingbound20.071/19.593ppm; actualchanges
+-0.169/+0.900ppm. Constant native controls match3.54e-16. Separate12288
+single-state records/grid are preserved identically; regression covers the
+native >=2-node boundary, stale receipt/input, symmetry/support/replay failures.
+84 regressions PASS5.986s, retained-native builds PASS, compileall/diffcheck PASS.
+New response figure PNG/PDF generated and visually inspected. Physicalresponse
+still unqualified: two-gridspread2.738%,rank34->35 responsechange~1.01%, plus
+derivative/functional/discretization/gapconditioning gates. No fitted SI factor.
+
+Rank36 basis preparation14.92s/184532992B; relativeoccupationdefect2.67829e-5.
+Reduced owner34614 TERMINALPASS0.893453s/129417216B,4iterations, coefficient
+residual4.51028e-17, means0.1534081823/0.1525029520meV(~0.047%changerank35).
+fourth_occupation_reduced_result.json and manifest preserve source/receipt.
+Fullnextcheck manifest verify_fourth_occupation_gap_manifest.json pinsseed
+5d8e085ca71b02ac4cc96b922f51b0fe3a29adc332eed131d198d7775bce2949,
+unchangedexe/targets. Owner26476/PID88625 verifiedlive waitingnormalpressure.
+Pollsameowner; do not start anothernativejob. Current44terminalguardattempts
+5738.039s(~95.6min), below4hpilotceiling; excludes activefullrun, waiting/builds,
+Pythonanalysis/modelcost. Goal stillactive; finalreport/decisionaudit incomplete.
+
 ## Latest — rank35 full FAIL, improves again; cache owner19935 waiting
 
 Owner2285/child57859 TERMINAL guardPASS587.598004s/934281216B. Strict

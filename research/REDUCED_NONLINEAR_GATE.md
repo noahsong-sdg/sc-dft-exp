@@ -201,3 +201,16 @@ the unchanged executable, new exact seed and original1e-10Ry/1e-5 targets.
 Owner2285 is waiting behind120 quiet normal-pressure seconds, then1200s/3GiB;
 no other production owner is active. No full residual or conditioning claim
 is made for rank35 before terminal readback.
+
+## Latest: rank35 full failure and rank36 reduced follow-up
+
+The rank35 full check is terminal:587.598s/934281216B; native controls pass,
+but Rinf1.04879e-9Ry and RMSratio1.67659e-5 fail both original targets.
+`verify_third_occupation_gap_result.json` preserves exact seed and receipt hashes.
+The next measured occupation defect has relative norm2.67829e-5; preparing
+rank36 takes14.92s/184532992B. Its reduced solve takes0.893453s/129417216B,
+four Newton iterations, coefficient residual4.51028e-17. Mean gaps
+0.1534081823/0.1525029520meV change~0.047% fromrank35. Full rank36 residual
+is unknown; verify_fourth_occupation_gap_manifest.json registers the next check.
+No threshold or conditioning requirement has been relaxed. Earlier launch and
+unknown-result statements above describe historical checkpoints.

@@ -1,0 +1,79 @@
+{
+  "occupation_defect_norm": 1.0528652912921867e-07,
+  "relative_occupation_defect_norm": 2.6782894106621855e-05,
+  "new_direction_old_basis_overlap": 6.046301292848405e-19,
+  "new_direction_norm": 1.0,
+  "inherited_operator_consistency_verified": false,
+  "old_rank": 35,
+  "new_rank": 36,
+  "beta": 19613.355577892344,
+  "context": "abfcecc2bacf7acac94a87e8d7cf4e88945bc589fea82dc9475106428818b74c",
+  "full_candidate_targets_met": false,
+  "full_evaluation": {
+    "full_readback": {
+      "dimensions": [
+        66867,
+        67940,
+        67940,
+        4
+      ],
+      "beta": 19613.355577892344,
+      "finite_difference_step_ry": 1e-08,
+      "kernel_cpu_s": 546.131583,
+      "tile_sum_max_absolute_difference": 3.6852031842782296e-15,
+      "jacobian_difference": 3.4140894555889645e-09,
+      "jacobian_acceptance_bound": 1.0452968290357184e-05,
+      "sides": [
+        {
+          "side": 1,
+          "max_absolute_residual_ry": 8.29783659430603e-10,
+          "rms_residual_ry": 1.369213632405116e-10,
+          "max_absolute_jacobian_action": 5.221484145178592
+        },
+        {
+          "side": 2,
+          "max_absolute_residual_ry": 1.0487879142387845e-09,
+          "rms_residual_ry": 2.1377287138506078e-10,
+          "max_absolute_jacobian_action": 4.986222243154416
+        }
+      ],
+      "sha256": {
+        "full-map.txt": "20843eaf0059fa092adb9c485b8bb4c2d1d0daa83589e32b03789ed719769485",
+        "full-map.bin": "8074c61cdd95d4a76e6a8fa2b0600d07916c20554d4d86c88f7d1eee03e42fe9"
+      },
+      "scope": "Full native Q0 residual at imposed seed; terminal receipt required; no gap convergence or physical response validation"
+    },
+    "terminal_guard_pass": true,
+    "input_gap_bitwise_preserved": true,
+    "wall_s": 587.5980042503215,
+    "peak_individual_rss_bytes": 934281216,
+    "residual_infinity_ry": 1.0487879142387845e-09,
+    "rms_residual_over_gap": 1.6765948159484994e-05,
+    "thresholds": {
+      "residual_infinity_ry": 1e-10,
+      "rms_residual_over_gap": 1e-05
+    },
+    "stationary_residual_targets_met": false,
+    "conditioned_gap_error_bounded": false,
+    "physical_response_verified": false,
+    "manifest_sha256": "96b126338bba0aeee41720d7d18b26da37ebb59bafb6b6008bf8331dc82e60c5",
+    "scope": "Certify declared stationary residual targets, never physical response accuracy."
+  },
+  "inputs_sha256": {
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/enriched-basis-004/basis.meta": "5a002081125f308a3d0f1fcc909d6ddff05728845c6d390021572db6fa0800e6",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/enriched-basis-004/basis.bin": "ffe89ec675cb6be06f64c4d098fdc999948f35a38ddd548bfb6eda013420d99f",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.meta": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.bin": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37",
+    "research/raw/reduced-nonlinear-005/reduced-control.in": "b573b9546a9ab989c9dd5f83e14c279aef89304d5860620d81b10cf25c46f9fe",
+    "research/raw/reduced-nonlinear-005/reduced-gap.bin": "a7b1130b02f9a462766828a767c255f0c79ce1c1c511a4b7ffa3b85b9adb016f",
+    "research/verify_third_occupation_gap_manifest.json": "96b126338bba0aeee41720d7d18b26da37ebb59bafb6b6008bf8331dc82e60c5",
+    "research/third_occupation_reduced_manifest.json": "aa406560febf708c8d5d387c92074f954aa1d656c7b2b5eab617a15f3da86b1e"
+  },
+  "outputs_sha256": {
+    "research/raw/enriched-basis-005/basis.meta": "00624dcad11fe3464b497512d75ea3eb23de41efed4a30f5e2b67ecdef83d868",
+    "research/raw/enriched-basis-005/basis.bin": "d48fd35ba9cb1e67887833db90b0d28dc816077f32b298eabca48b36ac7fbe82"
+  },
+  "scope": "Prepare one hash-bound basis enrichment after a full candidate evaluation.",
+  "preparation_wall_s": 14.92,
+  "preparation_peak_rss_bytes": 184532992
+}

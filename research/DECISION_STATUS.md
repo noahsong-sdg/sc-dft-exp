@@ -1,3 +1,30 @@
+# Latest checkpoint — 2026-11-27 11:11 UTC
+
+Rank35 full native residual contracts again but fails both unchanged targets:
+Rinf1.049e-9Ry, RMSratio1.677e-5,587.60s/934MB. Rank36 reduced PASS0.893s/129MB,
+mean change0.047%; its full check is pending under verify_fourth_occupation_gap_manifest.json.
+No stationary or physically qualified gap has been accepted.
+
+[Anisotropic moment error](ANISOTROPIC_MOMENT_GATE.md) is now measured without
+silently symmetrizing the gap. One37.28s cache supports five candidate analyses
+in5.11s. At rank35, the computed averaging bound is~20ppm; observed changes
+are-0.169/+0.900ppm. Native orbit replay, constant-gap controls, exact state
+mapping and the separate single-state branch are checked. This bound concerns
+one numerical operation, not self-consistent gap or physical response error.
+The two grid estimates differ2.738%; rank34→35 changes response~1.01%.
+Those larger effects and the prior derivative/functional gates remain unresolved.
+
+This strengthens a narrow scientific-methods lead: reusable response moments
+can expose and bound an accuracy issue for anisotropic candidates cheaply.
+It does not yet establish a decision-grade material prediction, end-to-end
+laptop feasibility, validated public demand or an unsaturated platform opportunity.
+The relative selector now passes separate material geometry tests, not a full
+current-version SCTK production qualification. Final recommendation remains pending.
+
+The checkpoint text below records earlier milestones and their then-open gates.
+
+---
+
 New measured feasibility evidence: a complete retained-input Q0 nonlinear
 residual and Jacobian action now pass in908.65s at882MB peak RSS, without the
 67.7GiB dense allocation. See [full nonlinear gate](FULL_NONLINEAR_MAP_GATE.md).

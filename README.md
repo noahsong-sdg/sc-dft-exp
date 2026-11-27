@@ -17,29 +17,31 @@ response prediction and a portable cold-start workflow remain unproved.
 |---|---|---|
 | Fixed-gap response moments | Second moments preserve the matched fine-grid sum; squared means retain only 40–45% on the tested coarse cells | Constant gap; shared band/quadrature approximations |
 | Full nonlinear map and derivative action | 908.65 s, 882 MB peak RSS on the Mac | Arbitrary seed, not a solved gap; upstream inputs reused |
-| Reduced nonlinear candidate | 1.07 s, 113 MB peak RSS, five Newton iterations | Failed subsequent full-space residual targets |
+| Reduced nonlinear enrichment | Rank36 candidate: 0.893 s, 129 MB peak RSS, four Newton iterations | Rank35 full check still fails; rank36 full check pending |
 | Frozen converged Nb replay | Released currents reproduced; thermal correction changes them by 2.5–2.8 ppm | Not corrected self-consistency or a Q=0 prediction |
 
-The reduced candidate's mean Fermi gaps are 0.1663/0.1653 meV at 8.05 K.
-Its full native check completed in 785.63 s / 904 MB peak RSS, but its maximum
-residual of 8.96e-8 Ry and residual/gap RMS ratio of 0.00236 fail the declared
-targets. One source-bound occupation enrichment gives a second reduced
-candidate in 1.01 s, but changes its mean gaps by about 26%; it is also
-unverified in full space. Adding the measured critical mode produces a rank33
-candidate in 0.906 s, with mean gaps 0.13967/0.13884 meV. Its full-space
-validation finished in 599.93 s / 952 MB peak RSS but also failed: maximum
-residual 4.58e-8 Ry and residual/gap RMS ratio 0.00213. No stationary gap has
-yet been accepted. A second measured occupation defect now supports a prepared
-rank34 candidate. Its full check in524.86s/934MB improves the RMS residual
-ratio about19-fold to0.000112, but still fails both original targets. A rank35
-measured enrichment is prepared. Direct response-assignment reuse failed because the
-directional and Q0 paths produce different state counts; a symmetry-selection
-control restores the layout, identifying symmetry selection as the cause in
-this tested pair. This is a geometry diagnostic, not a production response fix.
-No speedup against an equivalently
-qualified full solve is claimed. The [gap-to-response mapping audit](research/GAP_RESPONSE_MAPPING_GATE.md)
-identifies the energy-resolved and single-state branches that a subsequent
-anisotropic response test must preserve.
+Measured occupation and critical-mode enrichment improve the full native residual,
+but no stationary gap is accepted yet. Rank35's independent check takes
+587.60 s / 934 MB, with maximum residual1.049e-9 Ry and RMS residual/gap
+1.677e-5; both exceed the unchanged1e-10 Ry/1e-5 targets. Rank36 changes the
+candidate mean gaps by0.047% and is awaiting its full check. No speedup against
+an equivalently qualified full solve is claimed.
+
+A new [anisotropic moment audit](research/ANISOTROPIC_MOMENT_GATE.md) reuses one
+37.28 s /194 MB native cache across five candidates. For rank35, the computed
+symmetry-averaging bound is about20 ppm of the candidate response. The two grid
+estimates still differ2.738%, and rank34→35 changes the response about1.01%.
+These unresolved sensitivities exceed that averaging effect. The analysis keeps
+the separate native single-state branch and changes no gap values.
+
+Directional response and Q0 initialization have different layouts. The cache
+uses a deliberate full-symmetry diagnostic to match Q0 geometry; it is not a
+qualified physical small-Q prescription. A relative symmetry-selector fix
+passes separate material geometry controls, with full solver qualification still
+open. See the [mapping audit](research/GAP_RESPONSE_MAPPING_GATE.md) and
+[standalone figures](research/figures/README.md). Physical normalization,
+discretization convergence, conditioned gap error and public cold-start inputs
+remain open gates.
 
 Portable regression checks run in [public CI](https://github.com/noahsong-sdg/sc-dft-exp/actions/workflows/research-checks.yml).
 The [first verified run](https://github.com/noahsong-sdg/sc-dft-exp/actions/runs/45956886205)
