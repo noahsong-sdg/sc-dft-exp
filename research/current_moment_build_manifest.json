@@ -1,0 +1,45 @@
+{
+  "scope": "Build-only qualification; no current-geometry material runtime yet",
+  "files": [
+    {
+      "path": "research/current_moment_geometry.py",
+      "sha256": "879370b120e83fc46c3e77961a3ff09dea57dbec146bed4c95d560dc20f2305c",
+      "bytes": 1987
+    },
+    {
+      "path": "research/velocity_moment_probe.f90",
+      "sha256": "14e541dbfbb18915023c677357f2bad7fc44f1f27ccbae803e9b73f37ae4f0be",
+      "bytes": 6629
+    },
+    {
+      "path": "research/velocity_moment_probe.mk",
+      "sha256": "c1a41514b981643f98ca8c063dca238269579a42fbddc5a2a1b75af78c975d59",
+      "bytes": 436
+    },
+    {
+      "path": "research/raw/nb-moments-current-001/current_geometry.f90",
+      "sha256": "ce6be4d9f3f48b1f4625194eaf30ab46eb88278833e7ba2dba1b3c3e2b585e6b",
+      "bytes": 7412
+    },
+    {
+      "path": "research/raw/nb-moments-current-001/velocity-moment-probe.x",
+      "sha256": "ef2ecf4af935d093fe6c2eb07c1dd2f2fcdabba3051b197c74b6aab050c52c74",
+      "bytes": 7660408
+    },
+    {
+      "path": "research/raw/nb-moments-current-001/build.log",
+      "sha256": "7508af83bee40cdaff650e06065f7235aa13370ee1dd15b8f4d6be822da95793",
+      "bytes": 9207
+    },
+    {
+      "path": "research/raw/nb-moments-default-build-001/velocity-moment-probe.x",
+      "sha256": "0b9058a516498bf7eb8cc7973dacd75273d1c2eb0620e744cf02af396fd1cd4f",
+      "bytes": 7627032
+    },
+    {
+      "path": "research/raw/nb-moments-default-build-001/build.log",
+      "sha256": "234a89e671bec4622e1d9a5bb91a0996c0deaeea27db94af19e3b18a69177812",
+      "bytes": 5679
+    }
+  ]
+}

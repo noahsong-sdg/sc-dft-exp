@@ -11,7 +11,12 @@ program velocity_moment_probe
   use elph_tetra_mod, only: lshift_q
   use sctk_stdin, only: stdin_control, stdin_scdft
   use sctk_read_file, only: degenerated_band, read_a2Fsave, read_elph
-  use sctk_ini_delta, only: energy_grid, calc_d_xi_q, compute_dosk, symm_dosk
+  use sctk_ini_delta, only: energy_grid, calc_d_xi_q
+#ifdef CURRENT_GEOMETRY
+  use sctk_current_moment_geometry, only: compute_dosk, symm_dosk
+#else
+  use sctk_ini_delta, only: compute_dosk, symm_dosk
+#endif
   use sctk_tetra, only: calc_dosk, interpol_indx
   use sctk_val, only: nx, nqbz, xi0, dx0, d_et, d2_et, q_fflo
   use wvfct, only: et, nbnd

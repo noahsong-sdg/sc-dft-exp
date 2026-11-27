@@ -1,5 +1,11 @@
 # Matched-quadrature velocity-moment experiment
 
+Physical interpretation is separately gated in PHYSICAL_INTERPRETATION_GATE.md.
+The newer source audit, moment_source_audit.json, finds the same first-moment
+closure in current upstream, but changed shifted-grid handling. All completed
+native numbers below use the explicitly historical revision. A current-routine
+compatibility build succeeded; its material runtime is not yet qualified.
+
 ## Completed first material test
 
 Attempt 002 PASS: 52.575 s, peak individual RSS 178372608 bytes, exit 0.

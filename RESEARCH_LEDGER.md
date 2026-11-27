@@ -1,5 +1,30 @@
 # Research restart ledger
 
+## Latest independent gate — current revision and physical interpretation
+
+Progress: fetched/hash-audited current geometry source 4bc883e5. First-velocity
+moment closure remains; calc_d_xi_q is byte-identical to historical routine, but
+compute_dosk/store_d3k/symm_dosk changed shifted-grid handling. See
+research/moment_source_audit.json. Completed numerical moment results remain
+explicitly historical; do not silently promote them to current-version results.
+
+Current-routine compatibility build is ready under raw/nb-moments-current-001.
+Generator current_moment_geometry.py pins full source SHA and maps the retained
+fully shifted logical grid to current integer flags [1,1,1]. It extracts actual
+current compute_dosk/symm_dosk; this is not a full current-SCTK/QE build. Native
+symbol inspection verifies the intended routines are called. Both current and
+default builds pass; 38 offline tests pass. No current material runtime yet.
+Build artifacts/hashes: current_moment_build_manifest.json.
+
+PHYSICAL_INTERPRETATION_GATE.md records why quadrature improvement alone cannot
+establish experimental accuracy or justify tuning a mass factor. Current source
+and physical-model verification remain part of the original objective.
+
+Resource wait: tool session 3520 confirmed LIVE, still owns grid16/grid32 refinement;
+latest observed phase waiting with pressure=2. Do not duplicate it or launch the
+current-geometry material test concurrently. After that owner is terminal, analyze
+receipts then run the prepared current compatibility test under the same guard.
+
 ## Current live owner — moment-grid refinement
 
 Tool session **3520** owns the verified live refinement runner. Poll it before

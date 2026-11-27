@@ -1,0 +1,30 @@
+{
+  "url": "https://raw.githubusercontent.com/mitsuaki1987/sctk/4bc883e5dfd8a2b38f47f2cb6efba26b773d5b33/src/sctk_ini_delta.f90",
+  "current_source_sha256": "2cc0458b5c98016567919d8d0c6d60cc2438f5a4e07c5e1ed43f8021e2305d80",
+  "routines": [
+    {
+      "routine": "compute_dosk",
+      "historical_sha256": "5380c15c2384b93a18bbfb506d4a3bd58f18fdc193ca799a6bb52e41da4ed1ca",
+      "current_sha256": "ebacec88b1788a28b1555ee4c72ad6d859690152e911bcff84f6ab72f8c6eaf9",
+      "identical": false
+    },
+    {
+      "routine": "calc_d_xi_q",
+      "historical_sha256": "9cbe5a95e671ad4b3d3c53dff86cd88f15fd4a4cc6d227ff8f2d7af15e3bfd73",
+      "current_sha256": "9cbe5a95e671ad4b3d3c53dff86cd88f15fd4a4cc6d227ff8f2d7af15e3bfd73",
+      "identical": true
+    },
+    {
+      "routine": "store_d3k",
+      "historical_sha256": "fafed2c9c36e753c7b6c78a4d471a124fe6e737c3823c07f7e768c9d1da1967a",
+      "current_sha256": "37b7ec3d04d96c83a49163febdc07749724371e247b425a3933bb497e39b5dfd",
+      "identical": false
+    },
+    {
+      "routine": "symm_dosk",
+      "historical_sha256": "25e9d78e48222458e48078e15a3ef4cb82cf399f8e9ac9b94e9d6fec4582890d",
+      "current_sha256": "f85bdb3838d46bfe6af29214a30eecbba268a3e2d60d700f6f9f0dad8a5aec9d",
+      "identical": false
+    }
+  ]
+}

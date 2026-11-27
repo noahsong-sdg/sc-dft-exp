@@ -1,5 +1,16 @@
 # Scientific decision checkpoint
 
+New method evidence: [velocity-moment study](VELOCITY_MOMENT_METHOD.md) reproduces
+historical native geometry arrays exactly, then shows that preserving the second
+velocity moment recovers the direct same-energy fine-grid sum within 8.27e-16
+absolute. Squaring the mean retains only about 40–45% in this imposed-gap Nb
+test. It costs 52.6 s / 178 MB peak RSS on retained inputs. This is a potentially
+consequential accuracy/access route, but cell refinement, current-source runtime,
+tensor/gap mapping and physical normalization remain open. Current source shares
+the closure but changes shifted-grid handling; its compatibility build is ready.
+[Physical interpretation](PHYSICAL_INTERPRETATION_GATE.md) is separately gated:
+numerical improvement cannot alone establish experimental accuracy.
+
 Latest material gate: [Nb geometry diagnostic](NB_MATERIAL_DIAGNOSTIC.md).
 Preparation succeeded in 49.8 s / 200 MB peak RSS. Complete current on imposed
 1.5-meV-gap material geometry shows roughly 5–11% released error at 2 K versus
