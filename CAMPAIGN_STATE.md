@@ -606,3 +606,16 @@ Enrichment011 stagedrows32769:49152, sameold48basis/16vectors/context,
 predecessor010;600s/3GiB/quiet120. No codechanged;170offline tests and184Python
 compilations/moment gates lastPASS; diffcheckPASS. PublicCI46063664923 on12ddb84
 PASS. No convergedgap or acceptedresponse; full64application stillincomplete.
+
+
+## 64-vector application: segment011 accepted
+
+Enrichment011 terminalPASS rows32769:49152,184.231873833109s,
+individualpeak972128256B/group974356480B. Checkpoint, allpostruninputs,
+public/consumedmanifest and16linkedarchives verified; no historicalcustompath.
+Guardedtotal5464.518020709361s; oldcampaignseparate. Session96883 terminalexit0.
+Enrichment012 stages finalrows49153:66867, sameold48basis/16vectors/context,
+predecessor011;600s/3GiB/quiet120. Finalsegment mustalsoPASS uncachedsums
+before64-vectorRitz. No codechanged;170offline tests/184Pythoncompilations
+andmoment gates lastPASS;diffcheckPASS. PublicCI46064294726 onf81d04aPASS.
+Independent64readback, convergedgap andresponse remainincomplete.

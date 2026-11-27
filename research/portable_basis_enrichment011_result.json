@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "checkpoint": {
+    "context": "45ee510ab0d4e40441d480edfb50323a8349d3c8fef0ef49fb548b1d7655e7cd",
+    "counts": [
+      66867,
+      67940,
+      67940,
+      16
+    ],
+    "completed": 49152,
+    "beta": 19613.355577892344
+  },
+  "manifest_sha256": "8d379ccc261390f40d4732e40adfd9d25d2d2c896301c441a206c86e01649d9a",
+  "receipt_sha256": "06e601a224c0e656676675fc8c9ba95ddf941d7754a5a8dd0f53d1e0c2f23fb3",
+  "checkpoint_sha256": "c5bc30ea11dcbc7ff2fac8b00aad4f879b26698e3a80c430c781194cac11f8db",
+  "metadata_sha256": "007b7dfb086d46d872e5f60b2a2d64081dadfbfc73fdfcc29f5a8909ef324505",
+  "executable_sha256": "ac40b26920517ad9b5ffe7881001730d7c2b20efeb8184833fc2db70992f01ea",
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/usr/bin/make",
+      "-f",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/basis_enrichment.mk",
+      "RESEARCH=/Users/noahs/Developer/sc-dft-exp/research",
+      "QE_ROOT=/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe",
+      "NATIVE_INPUT=/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-011/native.in",
+      "enrich-basis"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-011",
+    "wall_s": 184.2318738331087,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 972128256,
+    "sampled_peak_group_rss_bytes": 974356480,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 600.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "full_images_native_checked": false,
+  "full_output_sha256": {},
+  "physical_response_verified": false
+}
