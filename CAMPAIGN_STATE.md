@@ -21,8 +21,12 @@ Native slice1 is terminal PASS:1.122804s/96MB. All902checks bitwise equal;
 strict receipt/result/executable/input readback PASS. No native owner remains.
 See research/portable_gap_cache_result.json.136offline testsPASS20.595s;
 maintained-source compileall,moment replay and diff checksPASS.
-Next: migrate minimal rotation/slab/tiled dependency slice, then IO/full driver.
-Do not call this a full gap build or physical-response validation.
+Slice2 rotation/slab/tiled/native-pair sources compile against the same public
+libraries in3.735528s/134MB;902cachechecks still match. All source/input hashes
+checked afterrun. Operator runtime is NOT yet qualified. No native owner remains.
+136testsPASS16.200s; compileall/momentreplay/diffcheckPASS. New guarded total4.858332s.
+Next: migrate strict state IO, streamed Coulomb/hash helpers and full driver link;
+then qualify initialization/operator entries against the retained context.
 
 New native pilot ceiling4wallhours, prior campaign189.29min accounted separately.
 Hardware rechecked:M5/10cores/32GiB,normalpressure,~151GBfree. Preserve dirty

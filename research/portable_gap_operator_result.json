@@ -1,0 +1,39 @@
+{
+  "checks": 902,
+  "all_checks_bitwise_equal": true,
+  "historical_objects_used": false,
+  "executable_sha256": "9537a1dcdc37a86a8b0e5339029d5c37f3a2f48aa5d74f586e567583f2b3dc51",
+  "public_build": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004",
+  "operator_sources_compiled": true,
+  "operator_runtime_qualified": false,
+  "scope": "Fresh custom-cache build and original-function qualification; not a full gap solve.",
+  "terminal_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_gap_cache.py",
+      "run",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-operator-001"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-operator-001",
+    "wall_s": 3.735527833458036,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 134447104,
+    "sampled_peak_group_rss_bytes": 69173248,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 120.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "all_declared_inputs_unchanged": true,
+  "sha256": {
+    "research/portable_gap_operator_manifest.json": "32e318488c7b01e3e67270c1a619b716cfe4e966948378831260e41aea5cb4d8",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-operator-001/results/build/receipt.json": "dc8d4863f1a04b9ec07360f7f6fbcee21539014beeb7419c0be585d712b1b7e5",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-operator-001/results/build/console.log": "5561b9efa484ee6c425102f28b8f7b6bbecc1e1c47b68a2ea676fdc1edacf4e5",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-operator-001/native_rotation.o": "b98591370fe48885a7c31dfc901702a80ec3a8c26e133165dc6d2ca91881db85",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-operator-001/slab_operator.o": "b4c27ee55f2a9412927a260200850bd0f7747198e8abee67780bb942e4722023",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-operator-001/tiled_operator.o": "b4ef0cad66b3f112a85438650d2966599571e5fcd242c1583e9b235aa35b2f97",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-operator-001/tc_native_oracle.o": "fcdb2a25491e2e06b67807c9c862637001a80f9365d4e24b4dbd19a1b478e04f"
+  }
+}

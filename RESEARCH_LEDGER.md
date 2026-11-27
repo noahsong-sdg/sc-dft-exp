@@ -2170,3 +2170,13 @@ status,andexecutablehashPASS. Compiler/linklog contains no historicalcustompath.
 portable_gap_cache_result.json owns evidence. Newcampaignnativecost1.122804s;
 priorcost separate.136testsPASS20.595s,compileall/momentreplay/diffcheckPASS.
 Theactualresponsegoal remains incomplete; nextmigrationrotation/slab/tiledapply.
+
+
+### Source-only operator compilation slice PASS
+
+Unchanged rotation/slab/tiled/native-pair source bytes migrated with provenance.
+FreshpublicQE/SCTK build3.735528s/134447104B; allfour newobjects exist/hashrecorded;
+902directcachechecks still bitwisePASS. Manifest/receipt/postruninputchecksPASS;
+no historicalcustominclude/linkpath. This is interface compilation, NOT operator
+runtimequalification. Newguardedtotal4.858332s.136testsPASS16.200s,compileall/
+momentreplay/diffcheckPASS. NextstrictIO/Coulomb/hash/full-driverlink slice.

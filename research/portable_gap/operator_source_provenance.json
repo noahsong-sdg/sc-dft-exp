@@ -1,0 +1,26 @@
+{
+  "native_rotation.f90": {
+    "origin": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/full-init-z-retry-v1/native_rotation.f90",
+    "bytes": 8338,
+    "sha256": "a34f6485025505c0dfe8b5497f8f8f98e45b87d48dc0d871de168a6843438c3e",
+    "arithmetic_changed": false
+  },
+  "slab_operator.f90": {
+    "origin": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/nb-tc-benchmark-v1/memory-study-v1/slab_operator.f90",
+    "bytes": 2607,
+    "sha256": "ebf038d85a48e6034476bad18be7a95748f4e6f75b9537a61779c63a050ea3f8",
+    "arithmetic_changed": false
+  },
+  "tiled_operator.f90": {
+    "origin": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/nb-tc-benchmark-v1/scdft/tiled_operator.f90",
+    "bytes": 6437,
+    "sha256": "02df9cd10583e10e7141f20a1378e5a284f1576e9dc87d273bc647de2a4d3489",
+    "arithmetic_changed": false
+  },
+  "tc_native_oracle.f90": {
+    "origin": "/Users/noahs/Developer/flux-pinning/native-macos-v1/work/project/nb-tc-benchmark-v1/scdft/tc_native_oracle.f90",
+    "bytes": 4812,
+    "sha256": "0def51ff70762bd25419d4ad5feab668003dcf026d0f5a6f27826aeceb60eae2",
+    "arithmetic_changed": false
+  }
+}

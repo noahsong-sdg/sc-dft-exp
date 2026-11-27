@@ -28,6 +28,17 @@ class PortableGapStageTest(unittest.TestCase):
                 self.assertFalse(result['historical_objects_used'])
                 with self.assertRaisesRegex(ValueError,'Fresh custom'):
                     build.stage(public,root/'run')
+                source=research/'portable_gap/tiled_operator.f90';source.write_text('operator source')
+                proof=research/'portable_gap/operator_source_provenance.json'
+                proof.write_text(json.dumps({source.name:dict(sha256=digest(source))}))
+                makefile=research/'portable_gap/operator_compile.mk';makefile.write_text('operator target')
+                operator=build.stage(public,root/'operator',operator_compile=True)
+                self.assertTrue(operator['operator_compile'])
+                self.assertIn(str(source),{item['path'] for item in operator['files']})
+                source.write_text('changed operator')
+                with self.assertRaisesRegex(ValueError,'Changed migrated'):
+                    build.stage(public,root/'changed-operator',operator_compile=True)
+                self.assertFalse((root/'changed-operator').exists())
                 (research/'portable_gap/cached_kel.f90').write_text('modified arithmetic')
                 with self.assertRaisesRegex(ValueError,'Changed migrated'):
                     build.stage(public,root/'changed')
