@@ -1,0 +1,92 @@
+{
+  "source_sha256": "1062c2a6656455b223111928fbc37996fce564d6dcf0a3acc945b973a9101598",
+  "analytic_slope": 0.6689372637280748,
+  "released_limit_bias": 0.37093253416346555,
+  "cases": [
+    {
+      "q": 0.03,
+      "gap_quadratic_coefficient": 0.0,
+      "released_slope": 1.039497831443834,
+      "candidate_slope": 0.6687052315066587,
+      "candidate_error": 0.0002320322214161008
+    },
+    {
+      "q": 0.01,
+      "gap_quadratic_coefficient": 0.0,
+      "released_slope": 1.0398284611641009,
+      "candidate_slope": 0.6689114784315249,
+      "candidate_error": 2.5785296549951653e-05
+    },
+    {
+      "q": 0.003,
+      "gap_quadratic_coefficient": 0.0,
+      "released_slope": 1.039866077513149,
+      "candidate_slope": 0.6689349430110604,
+      "candidate_error": 2.320717014447915e-06
+    },
+    {
+      "q": 0.001,
+      "gap_quadratic_coefficient": 0.0,
+      "released_slope": 1.039869384515451,
+      "candidate_slope": 0.6689370058702347,
+      "candidate_error": 2.578578400802556e-07
+    },
+    {
+      "q": 0.0003,
+      "gap_quadratic_coefficient": 0.0,
+      "released_slope": 1.039869760687685,
+      "candidate_slope": 0.6689372405208649,
+      "candidate_error": 2.3207209931541684e-08
+    },
+    {
+      "q": 0.0001,
+      "gap_quadratic_coefficient": 0.0,
+      "released_slope": 1.0398697937577783,
+      "candidate_slope": 0.6689372611494957,
+      "candidate_error": 2.578579127998637e-09
+    },
+    {
+      "q": 0.03,
+      "gap_quadratic_coefficient": 3.0,
+      "released_slope": 1.0424507672757921,
+      "candidate_slope": 0.6708193735633732,
+      "candidate_error": 0.0018821098352983512
+    },
+    {
+      "q": 0.01,
+      "gap_quadratic_coefficient": 3.0,
+      "released_slope": 1.0401569937790183,
+      "candidate_slope": 0.669146631141651,
+      "candidate_error": 0.00020936741357613364
+    },
+    {
+      "q": 0.003,
+      "gap_quadratic_coefficient": 3.0,
+      "released_slope": 1.0398956498363292,
+      "candidate_slope": 0.6689561092927374,
+      "candidate_error": 1.8845564662584025e-05
+    },
+    {
+      "q": 0.001,
+      "gap_quadratic_coefficient": 3.0,
+      "released_slope": 1.039872670371998,
+      "candidate_slope": 0.6689393577040972,
+      "candidate_error": 2.0939760223548376e-06
+    },
+    {
+      "q": 0.0003,
+      "gap_quadratic_coefficient": 3.0,
+      "released_slope": 1.0398700564152124,
+      "candidate_slope": 0.668937452186166,
+      "candidate_error": 1.8845809113265943e-07
+    },
+    {
+      "q": 0.0001,
+      "gap_quadratic_coefficient": 3.0,
+      "released_slope": 1.0398698266163966,
+      "candidate_slope": 0.6689372846678645,
+      "candidate_error": 2.0939789679985665e-08
+    }
+  ],
+  "scope": "Synthetic complete current, serial, Q-even gap controls; no material prediction"
+}

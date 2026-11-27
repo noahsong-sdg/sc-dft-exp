@@ -1,5 +1,13 @@
 # Material-derived response fixture: preparation pilot
 
+Latest runtime update: attempts 003 and 004 launched but were terminated by the
+host-pressure guard after 24.701 s and 14.423 s, respectively. Peak individual
+RSS was 100,204,544 and 86,294,528 bytes. Neither produced a response state.
+Attempt 004's unbuffered log reached dense-grid initialization; no wrapper crash
+was observed before termination. These are resource interruptions, not a measured
+preparation-memory ceiling or numerical failure. Watch 6712 and run 88751 are
+terminal; no owned watcher remains. See RESEARCH_LEDGER.md for next steps.
+
 This pilot reconstructs the missing response arrays from existing Nb microscopic
 inputs. It does not restore the V3Si archive or solve a superconducting state.
 An imposed initial gap permits only a numerical diagnostic of material-derived

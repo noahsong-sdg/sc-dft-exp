@@ -1,5 +1,30 @@
 # Research restart ledger
 
+## Latest checkpoint — analytic slope and terminal preparation attempts
+
+The full pinned current routine passes twelve Q→0 controls against an analytic
+slope, including a prescribed Q-even varying gap. See research/LINEAR_RESPONSE_LIMIT.md
+and linear_response_results.json. This is a narrower route around new dense
+finite-Q nonlinear solves for linear response only; material qualification,
+directional coefficients and physical normalization remain open. All 31 offline
+tests pass (`python3 -m unittest discover -s research -p 'test_*.py'`). Native
+networked probe also passed (`python3 research/linear_response_probe.py`).
+
+Watch session 6712 is TERMINAL, not live: it launched attempt 003 at normal
+pressure, then the guard stopped it after 24.701 s when pressure rose; peak
+individual RSS 100,204,544 bytes, exit -15. No state was produced. Attempt 004
+used the identical executable/input in a fresh directory with unbuffered native
+logging; stopped for the same pressure condition after 14.423 s, peak 86,294,528
+bytes, exit -15. It reached dense-grid initialization (32³, 897 irreducible k)
+without an observed wrapper crash. Both receipts/logs retained under ignored
+research/raw. Tool session 88751 is terminal too. No watcher or solver remains
+owned by these attempts. Do not launch duplicates based on older ledger entries.
+
+The repeated interruptions establish unstable host availability, not the pilot's
+required peak or runtime. Next useful step is a sustained-normal-pressure bounded
+retry, then validate the actual response-state schema. Do not replace missing
+material evidence with more synthetic examples. Original twelve-hour goal active.
+
 ## Latest independent progress — saved Nb geometry alignment
 
 Downloaded bounded 15.77 MB legacy Nb gap backup into ignored raw storage.

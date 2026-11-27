@@ -5,6 +5,7 @@
 [AGENTS.md](AGENTS.md). The benchmark snapshot below predates this campaign.
 
 Current campaign: [scientific decision checkpoint](research/DECISION_STATUS.md),
+[analytic linear-response reuse route](research/LINEAR_RESPONSE_LIMIT.md),
 [complete gap-RHS finding](research/RHS_THERMAL_FINDING.md),
 [thermal-factor finding](research/CURRENT_IDENTITY_FINDING.md),
 [held-out boundary tests](research/THERMAL_BOUNDARY_RESULT.md),
