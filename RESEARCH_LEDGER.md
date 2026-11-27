@@ -3130,3 +3130,16 @@ boundaries. Fullsuite178PASS in10.878s;189maintainedPython sources compilePASS;
 moment_refinement.py replay anddiffcheckPASS. No pinnedpilot source modified.
 PublicCI46066437675 on8c0d871PASS. Firstpilot owner99213/session50272 remains
 waiting/running; do not launch a duplicate. Native walltotalunchanged5679.466351s.
+
+
+## First restarted application segment accepted
+
+portable-restart-sweep-001 terminalPASS rows1:16384,186.684210833628s,
+individualpeak972161024B/group974323712B. Checkpointcertification, allpostrun
+inputs, public/consumedmanifest and16linkedarchives PASS; no historicalcustompath.
+Oldowner99213/session50272 terminalexit0. Guardednewtotal5866.150561417769s;
+old189.29min separate. No fullapplication/Ritz result or accelerationclaim yet.
+Secondsegment portable-restart-sweep-002 prospectively stages16385:32768 with
+samecertifiedrestart16/next16/context and predecessor001;600s/3GiB/quiet120.
+No codechanged since178testsPASS/189Pythoncompilation/moment gatesPASS; current
+diffcheckPASS. PublicCI46066622090 on6de6b7dPASS. Gap/response remainincomplete.
