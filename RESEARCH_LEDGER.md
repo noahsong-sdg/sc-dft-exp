@@ -1,5 +1,28 @@
 # Research restart ledger
 
+## Latest checkpoint — direction control and unshifted-band qualification
+
+Previous goal turn made progress: two-week mandate updated and publicly pushed.
+Held-out [111] owner 17286 is now TERMINAL SUCCESS, 72.553 s / 144293888-byte
+peak. Its signed moment reconstruction passes, but direct [111] differs from
+[011] by about -0.906% across 2/4/8 K. This leaves isotropy unresolved; see
+research/DIRECTION_AND_ZERO_Q_GATE.md and current_111 result JSON.
+
+Unshifted-band generator/build completed. Attempt 001 (tool 84830) TERMINAL
+pressure interruption at 53.694 s, exit -15, peak 100450304 bytes; no accepted
+result. Fresh attempt 002 has verified LIVE owner **78162**, PID in
+research/raw/nb-moments-unshifted-002/campaign_launch_watch.json. Requires 120
+continuous normal-pressure seconds before exactly one guarded run. Poll that
+handle before native work; no other owned heavy job remains. Then analyze the
+complete output, compare with finite-Q [011], and qualify unshifted [111].
+
+Public patch package fb3ae73 pins both complete upstream files; isolated
+dry-run/application/candidate hashes pass. Fresh zero_energy_probe.py passes
+nine cases in serial/OpenMP; full_rhs_probe.py with retained real BLAS passes
+both candidate builds, released residual error .34324. Offline suite: 38 tests
+pass. This patch leaves the adjacent RHS delta/E zero-energy boundary open.
+No full production solver or material-accuracy qualification claimed.
+
 ## Latest external execution evidence and live held-out owner
 
 Public CI run 45956886205 on exact commit

@@ -1,0 +1,75 @@
+{
+  "scope": "Unshifted-band diagnostic build passed bounds-checked native compilation; attempt 001 pressure-interrupted, not a runtime result",
+  "upstream_revision": "4bc883e5dfd8a2b38f47f2cb6efba26b773d5b33",
+  "files": [
+    {
+      "path": "research/current_moment_geometry.py",
+      "sha256": "277dc382683757d9957db5e7d4a5ae702b70c9150a8d9ec9ae2b96eef1f3a697",
+      "bytes": 2757
+    },
+    {
+      "path": "research/velocity_moment_probe.f90",
+      "sha256": "265ece829f0506b4ccd69b4337b1af93beaf31800b0c66a4fb06d3e5a2d2c6ef",
+      "bytes": 6642
+    },
+    {
+      "path": "research/velocity_moment_probe.mk",
+      "sha256": "c1a41514b981643f98ca8c063dca238269579a42fbddc5a2a1b75af78c975d59",
+      "bytes": 436
+    },
+    {
+      "path": "research/raw/nb-moments-unshifted-001/current_geometry.f90",
+      "sha256": "747c0b9c28ec6589c0460375484ebf7a404aa65543380cecd6a05334016a7005",
+      "bytes": 11359
+    },
+    {
+      "path": "research/raw/nb-moments-unshifted-001/velocity-moment-probe.x",
+      "sha256": "92c2a1d807215d7575761d03520e97cdffc90c77bb614e03db3eafdb92a42c0a",
+      "bytes": 7660536
+    },
+    {
+      "path": "research/raw/nb-moments-unshifted-001/build.log",
+      "sha256": "1fd9e65c8a759f8e0981f4363ddc3d968c312820b5436100b3bd774a898088e0",
+      "bytes": 9209
+    },
+    {
+      "path": "research/raw/nb-moments-unshifted-001/native.in",
+      "sha256": "15c537fef837b64b8ff92d11ef10c15ffb24bd1a75f18a004260e9c40a6d3b95",
+      "bytes": 435
+    },
+    {
+      "path": "research/raw/nb-moments-unshifted-001/matdyn0",
+      "sha256": "96bf9e490721008167c28f83b76b13e47fe88d78b7eff6d95a1807c603dda5c8",
+      "bytes": 1916
+    },
+    {
+      "path": "research/raw/nb-moments-default-build-002/velocity-moment-probe.x",
+      "sha256": "0b9058a516498bf7eb8cc7973dacd75273d1c2eb0620e744cf02af396fd1cd4f",
+      "bytes": 7627032
+    },
+    {
+      "path": "research/raw/nb-moments-default-build-002/build.log",
+      "sha256": "234a89e671bec4622e1d9a5bb91a0996c0deaeea27db94af19e3b18a69177812",
+      "bytes": 5679
+    }
+  ],
+  "first_attempt_receipt": {
+    "status": "FAIL",
+    "error": "RuntimeError: Host memory pressure not normal",
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/nb-moments-unshifted-001/velocity-moment-probe.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/nb-moments-unshifted-001/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/nb-moments-unshifted-001",
+    "wall_s": 53.69402691628784,
+    "exit": -15,
+    "max_individual_descendant_rss_bytes": 100450304,
+    "sampled_peak_group_rss_bytes": 100450304,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 120,
+    "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+  },
+  "default_mode_rebuild": "PASS, fresh directory, bounds checking enabled"
+}
