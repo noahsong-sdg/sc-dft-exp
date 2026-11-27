@@ -1213,3 +1213,10 @@ work remain separate. Model price/energy and token cache/input/output breakdown
 unknown. This snapshot makes development resources visible alongside compute;
 no claim of low total cost follows. Documentation/evidence only; diffcheckPASS.
 Controller39727 remains live; no duplicate native owner or changed thresholds.
+
+
+## Bounded64-vector controller checkpoint027
+
+Rows32769:49152 terminal PASS, wall219.26768016675487s, individualpeak1008304128B, sampledgroup958267392B. Public/consumed manifest equality and original native certificate/postrun checks PASS. New guarded total10643.495773501545s; historical189.29min separate.
+Next028 prospectively staged rows49153:66867,600s/3GiB/quiet120.
+No maintained code/threshold changes. Scientific gap and response acceptance remain incomplete.
