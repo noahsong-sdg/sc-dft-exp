@@ -1,5 +1,15 @@
 # Research restart ledger
 
+## Latest verified milestone — complete RHS discrepancy
+
+Full pinned gapeq_rhs compiled against actual retained BLAS and serial MPI/clock
+stubs, unequal 2/3-state grids. Released residual max error 0.34324189787377124;
+narrow finite-T saturation candidate matches independent Python assembly in serial
+and O3/four-thread builds. xic=-1 only; no material/convergence qualification.
+See research/full_rhs_results.json and RHS_THERMAL_FINDING.md. Added guarded
+transformation regression for earlier zero-temperature ELSE ambiguity. Resources
+still report pressure 2; corrected material pilot has not run successfully.
+
 ## Latest findings — upstream RHS and wrapper contract
 
 Previous turn remains progress. Exact pinned finite-temperature gap-RHS thermal

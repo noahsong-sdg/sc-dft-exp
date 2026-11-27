@@ -1,5 +1,11 @@
 # Saved-response analysis
 
+Current correctness follow-up: [RHS thermal finding](RHS_THERMAL_FINDING.md) now
+includes the complete gap-RHS assembly fixture. Run its networked native check
+with `python3 research/full_rhs_probe.py --blas /path/to/libblas.a`; it requires
+gfortran and a compatible double-precision BLAS library. These synthetic routines
+are distinct from the staged [material preparation pilot](PREPARATION_PILOT.md).
+
 Run from the repository root with Python 3.9+ (standard library only):
 
 ```

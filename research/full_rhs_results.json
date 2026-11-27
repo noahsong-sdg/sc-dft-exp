@@ -1,0 +1,67 @@
+{
+  "source_sha256": "177d0e9738a4accf658aea108b5349a1d392035b3ec4e98c1c5fea82c98ccf73",
+  "compiler": "GNU Fortran (Homebrew GCC 16.2.0) 16.2.0",
+  "blas_sha256": "f94d46a38588cd81c8b8051a5873da69b4254da5a2c42d3371279f507407d144",
+  "direct": [
+    -1.7933128011082151,
+    -1.926535133252447,
+    -1.7815592790323458,
+    -1.8119766047144916,
+    -2.1006909368011235
+  ],
+  "builds": {
+    "released": {
+      "values": [
+        -2.1337987058651167,
+        -1.8775277863424993,
+        -2.124801176906117,
+        -1.7887980083127248,
+        -2.0686406472983645
+      ],
+      "max_absolute_error": 0.34324189787377124,
+      "flags": [
+        "-O0",
+        "-ffree-line-length-none",
+        "-fcheck=all"
+      ],
+      "threads": 1,
+      "fixture_sha256": "6b64984e8389648d54b61464272e9057bdb1f4ef88005460db58c4a2a43b1d7b"
+    },
+    "candidate_serial": {
+      "values": [
+        -1.7933128011082151,
+        -1.926535133252447,
+        -1.7815592790323458,
+        -1.8119766047144916,
+        -2.1006909368011235
+      ],
+      "max_absolute_error": 0.0,
+      "flags": [
+        "-O0",
+        "-ffree-line-length-none",
+        "-fcheck=all"
+      ],
+      "threads": 1,
+      "fixture_sha256": "b576c1407657227197fab956ba6f1a0c1a148dbcf6860d815c3f45f754dd465b"
+    },
+    "candidate_openmp": {
+      "values": [
+        -1.7933128011082151,
+        -1.926535133252447,
+        -1.7815592790323458,
+        -1.8119766047144916,
+        -2.1006909368011235
+      ],
+      "max_absolute_error": 0.0,
+      "flags": [
+        "-O3",
+        "-fopenmp",
+        "-ffree-line-length-none",
+        "-fcheck=all"
+      ],
+      "threads": 4,
+      "fixture_sha256": "b576c1407657227197fab956ba6f1a0c1a148dbcf6860d815c3f45f754dd465b"
+    }
+  },
+  "scope": "Complete RHS, synthetic interactions, xic=-1, serial MPI stubs; no gap solve"
+}

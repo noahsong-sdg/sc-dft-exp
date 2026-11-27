@@ -38,3 +38,27 @@ assembly and gap iteration. Their amplification/cancellation and scientific
 significance remain open. Any eventual patch needs its own single-purpose review
 and regression qualification; a scalar counterexample alone cannot establish a
 new penetration-depth value or explain the released peak-route discrepancy.
+
+## Complete RHS assembly fixture
+
+`full_rhs_probe.py --blas /path/to/libblas.a` compiles the complete hash-checked
+`gapeq_rhs`, with small state modules, actual BLAS DGEMV, and serial MPI/clock
+stubs. The two grids have unequal counts (2 and 3), distinct interaction matrices,
+weights and mass renormalizations. High-energy extrapolation is disabled (xic=-1).
+The independent Python reference explicitly assembles each matrix-vector product
+from direct thermal identities. The candidate changes only the demonstrated
+finite-temperature saturation branch and leaves the regular and zero-temperature
+branches untouched; guarded transformation tests cover that boundary.
+
+Released maximum residual-component error is 0.34324189787377124 in this
+dimensionless synthetic fixture. The candidate serial (-O0) and four-thread
+OpenMP (-O3 -fopenmp) outputs match the direct reference at serialized double
+precision, with bounds checks enabled. The run used the retained reference BLAS
+library whose SHA256 is recorded in preparation_input_verification.json.
+Exact five-component outputs are in full_rhs_results.json.
+
+This proves that the scalar discrepancy survives weighting, interaction
+application, mass renormalization and residual subtraction in a controlled full
+routine. It does not test actual material interactions, distributed collectives,
+xic>0, convergence, or change to a stable physical solution. Those remain separate
+gates. No global accuracy or speed claim follows from this fixture.
