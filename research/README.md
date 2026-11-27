@@ -21,11 +21,12 @@ physical nonlinear response. No statistical confidence intervals are implied.
 
 ## Initial observation
 
-Seven V3Si curves contain 10–20 samples each. At 1 K the author's script formula
-on the current public processed file gives 184.44 nm, not the paper's table value
-97 nm. This mismatch remains unresolved: release version, extraction protocol,
-units, averaging, functional and temperature choices need tracing. Do not call
-it a paper error or use this value as a reproduced published prediction.
+Seven V3Si curves contain 10–20 samples each. At 1 K the author's script and plot
+conversion give approximately 97.60 nm, close to the paper's table value 97 nm.
+The initial 184.44 nm diagnostic omitted the plotting script's multiplicative
+Bohr conversion (0.529177249). That was an error in our analysis, now corrected
+and covered by a regression comparison with the independently archived xi.dat.
+The remaining sub-nm difference is not yet attributed to rounding or protocol.
 
 At 1 K, fitting two rather than one nonzero sample changes the inferred length
 ratio to 1.1065, and four samples to 1.4511. This could include genuine nonlinear

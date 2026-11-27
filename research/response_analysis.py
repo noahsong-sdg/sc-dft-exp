@@ -52,7 +52,8 @@ def analyze(rows):
     if first <= 0:
         raise ValueError("Nonpositive initial stiffness proxy")
     # Reproduce xi.sh and its plot's conversion to nm, retaining its constants.
-    author_lambda = math.sqrt(0.529177249 / (1.3383525114e-3 * 0.5 * first)) * 0.1
+    author_lambda = (math.sqrt(0.529177249 / (1.3383525114e-3 * 0.5 * first))
+                     * 0.1 * 0.529177249)
     windows = []
     for count in (1, 2, 3, 4):
         estimate = slope(rows[1:count+1])
