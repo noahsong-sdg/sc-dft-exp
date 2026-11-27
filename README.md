@@ -4,7 +4,9 @@
 [RESEARCH_LEDGER.md](RESEARCH_LEDGER.md).** Future agents should read
 [AGENTS.md](AGENTS.md). The benchmark snapshot below predates this campaign.
 
-Current campaign evidence: [thermal-factor finding](research/CURRENT_IDENTITY_FINDING.md),
+Current campaign: [scientific decision checkpoint](research/DECISION_STATUS.md),
+[complete gap-RHS finding](research/RHS_THERMAL_FINDING.md),
+[thermal-factor finding](research/CURRENT_IDENTITY_FINDING.md),
 [held-out boundary tests](research/THERMAL_BOUNDARY_RESULT.md),
 [workflow costs](research/WORKFLOW_COSTS.md), and
 [response figures](research/figures/README.md). The correction is validated on
