@@ -1,5 +1,16 @@
 # Research restart ledger
 
+## Current live owner — sustained-pressure gate
+
+After two short normal-pressure windows failed, attempt 005 now requires 60
+continuous seconds at normal pressure before launching. Verified live tool
+session **91019** owns this watch. Poll it before any new launch. Status lives
+in research/raw/nb-preparation-005/campaign_launch_watch.json. Same executable
+and input, fresh outputs; 120-second / 3-GiB guard unchanged. Checks every 15 s,
+latest launch 2026-11-27 17:38 UTC. Exactly one launch then terminal. This is
+resource gating, not a new scientific method or permission to bypass pressure.
+Commit 9a57215 published the analytic route and its 31-test validation to main.
+
 ## Latest checkpoint — analytic slope and terminal preparation attempts
 
 The full pinned current routine passes twelve Q→0 controls against an analytic
