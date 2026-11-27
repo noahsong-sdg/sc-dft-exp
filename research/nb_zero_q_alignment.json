@@ -1,0 +1,26 @@
+{
+  "prepared_sha256": "eabb77cb33ed8d2198be673358803ec1a814ab64886cd0101f3db85c45236e48",
+  "prepared_counts": [
+    66867,
+    67940
+  ],
+  "grids": [
+    {
+      "states": 66867,
+      "index_mismatches": 0,
+      "max_xi_difference": 4.2721381987576024e-13,
+      "max_weight_difference": 1.3893610383269167e-13,
+      "nonzero_velocity_states": 0,
+      "nonzero_curvature_states": 0
+    },
+    {
+      "states": 67940,
+      "index_mismatches": 0,
+      "max_xi_difference": 1.9149171137655685e-10,
+      "max_weight_difference": 1.234844136123979e-13,
+      "nonzero_velocity_states": 0,
+      "nonzero_curvature_states": 0
+    }
+  ],
+  "scope": "Fresh Q=0 geometry alignment only; legacy gap temperature/convergence still unknown"
+}

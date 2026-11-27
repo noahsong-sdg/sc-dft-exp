@@ -1,0 +1,17 @@
+{
+  "momentum_ratio": 10.0,
+  "large_q_counts": [
+    62850,
+    64662
+  ],
+  "small_q_counts": [
+    62850,
+    64662
+  ],
+  "index_mismatches": 0,
+  "scope": "Prepared geometry comparison only; no gap transfer or physical convergence claim",
+  "max_xi_absolute_difference": 2.586866421250278e-05,
+  "max_weight_absolute_difference": 7.575934158955168e-07,
+  "max_directional_velocity_coefficient_difference": 2.1469716914569745,
+  "max_directional_curvature_coefficient_difference": 127.76183537624433
+}

@@ -1,0 +1,28 @@
+{
+  "sha256": "9afa4fd104e18c1259fa1999ff92bfc384d9f1493e4c2cca7773470b3eb8b818",
+  "beta": 157887.51240203338,
+  "volume": 122.17535992426924,
+  "tpiba": 1.1604988000527778,
+  "qnorm": 0.00014213149536207326,
+  "grids": [
+    {
+      "states": 62850,
+      "nonzero_velocity_states": 61152,
+      "nonzero_curvature_states": 62850,
+      "weight_sum": 25.986275918041184,
+      "initial_gap_slope": 0.0032517888456922374,
+      "released_reference_slope_bias": -2.1799908583255537e-09,
+      "distinct_band_k_pairs": 13312
+    },
+    {
+      "states": 64662,
+      "nonzero_velocity_states": 63026,
+      "nonzero_curvature_states": 64662,
+      "weight_sum": 25.986245618792566,
+      "initial_gap_slope": 0.003680456246875416,
+      "released_reference_slope_bias": -2.179765946224401e-09,
+      "distinct_band_k_pairs": 13312
+    }
+  ],
+  "scope": "Initial-gap diagnostic at prepared finite-Q geometry; NOT a self-consistent or Q=0 material prediction"
+}

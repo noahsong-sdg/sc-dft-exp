@@ -1,5 +1,20 @@
 # Research restart ledger
 
+## Latest geometry controls — Q=0 reconstruction recovered
+
+Attempts 006 (.0001) and 007 (Q=0) both PASS: 51.631 s / 113590272-byte peak
+and 50.587 s / 189956096-byte peak. Session 19837 is TERMINAL, no owned process
+remains. Nonzero-Q runs share counts and ordered indices; exactly Q=0 recovers
+the archived counts and indices. See research/GEOMETRY_LIMIT_CONTROLS.md and JSONs.
+No gap-temperature or convergence qualification follows.
+
+Next potentially substantive route: audit the first-moment closure in
+compute_dosk against the second velocity moment required by the microscopic
+linear-response expansion. This is a hypothesis needing direct fine-grid and
+symmetry/tetrahedron-sign controls, not another proven bug. Preserve the old
+path as control and do not implement a scalar shortcut for a tensor problem.
+Goal active; source current boundary correction dd22977 already public.
+
 ## Latest correctness gate — exact zero-energy product repaired
 
 Root cause traced to unconditional xi/E*e_d with xi=delta=E=0. A narrow exact
