@@ -1,5 +1,31 @@
 # Research restart ledger
 
+## Latest — dense897 numericPASS; capacity build sole owner36936 running
+
+Dense001/session3129 TERMINALPASS98.947410s/96403456B. Strict readbackPASS all
+23322 eigenvalues max4.151893e-7Ry <=1e-6, nooffset. Original hashes unchanged;
+postrun consumed density/PAW/UPF copies separately match originals. NativeXML
+rewritten as expected. public_dense_band_result.json public. Historical consumed
+manifest remains intact; use94a6326 for its original hash-bound code readback.
+
+Capacity build001 sole owner session36936/PID29410, raw/public-capacity-build-001,
+passed normal120 gate; at12:23Z running QE after LAPACK. Child35894 live.
+Public capacity manifest binds current builder/probes/archives; do not edit those
+while build active. All outputs under guarded root. No response or rank38 watcher.
+After terminal check receipt/build-result, stage unchanged32 public response and
+require all8 exports bitwise before48. Forecast262s/guard1200s/3GiB.
+
+Prospective48grid stager/readback/tests committed, BAND_DERIVATIVE_REFINEMENT_GATE.md:
+fixed density, automatic48, la2F serialization, >=100sharedpoints/1e-6Ry nooffset,
+all XML/a2Fsave records agree; forecast334s/guard1200. Not launched/staged yet.
+Follow-up response240s conditional on fresh baseline and generated-band pass.
+
+Review fixed two actual provenance boundaries: preserve originala2F catalog hash
+after reference read; pin actual consumed restart copies. Only consumedXML may
+be rewritten at native execution, path-specific postrun check. Regression against
+old implementations confirms both gaps.113 testsPASS8.412s, compileall/diffcheck
+PASS. No physics/conditioning claim; goal active until full audit/verdict.
+
 ## Latest — rank37 full target FAIL; dense897 sole owner3129 running
 
 Full37/session79090 TERMINALPASS513.389230s/926105600B, scientific targetFAIL:

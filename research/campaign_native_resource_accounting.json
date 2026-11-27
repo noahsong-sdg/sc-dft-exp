@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-27T11:53:36.738705+00:00",
+  "as_of_utc": "2026-11-27T12:24:12.665704+00:00",
   "attempts": [
     {
       "path": "full-nonlinear-001/results/moment/receipt.json",
@@ -310,6 +310,39 @@
       "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
     },
     {
+      "path": "public-band-pilot-001/results/bands/receipt.json",
+      "receipt_sha256": "e0be3529985798cea45db9e3aeaf4e54dfbd5155b586d5870db478b6e80e8cf7",
+      "status": "FAIL",
+      "wall_s": 0.47952066641300917,
+      "error": "RuntimeError: Native command exit 1",
+      "exit": 1,
+      "individual_peak_rss_bytes": 12910592,
+      "sampled_group_peak_rss_bytes": 32768,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "public-band-pilot-002/results/bands/receipt.json",
+      "receipt_sha256": "eaf8fbf1bb5a7b704948106aabe7aa1596f1085af83c4e3ad4ef6a97c9153e6c",
+      "status": "PASS",
+      "wall_s": 1.6948689999990165,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 91963392,
+      "sampled_group_peak_rss_bytes": 32768,
+      "guard_source_sha256": "25353dbebc871bf6016ab0114fbb8aa04e78a184ef988f14141debed3afa252e"
+    },
+    {
+      "path": "public-dense-band-001/results/bands/receipt.json",
+      "receipt_sha256": "42693c78d9bf30891898198b328a40f1840685b93665dba078e4a0ada85f0d95",
+      "status": "PASS",
+      "wall_s": 98.94740970851853,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 96403456,
+      "sampled_group_peak_rss_bytes": 96403456,
+      "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+    },
+    {
       "path": "public-response-build-control-001/results/build/receipt.json",
       "receipt_sha256": "0f3be3b22ea8f504638773c4077b62ca5d3702fc1c157346d17efcf8a91f1d54",
       "status": "FAIL",
@@ -442,6 +475,17 @@
       "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
     },
     {
+      "path": "reduced-nonlinear-007/results/solve/receipt.json",
+      "receipt_sha256": "c312046a3a8825ecf3e95112a9ee857243ac668a5f5a725670ae215525799d79",
+      "status": "PASS",
+      "wall_s": 0.9126869579777122,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 132661248,
+      "sampled_group_peak_rss_bytes": 32768,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
       "path": "relative-symmetry-material-001/results/moment/receipt.json",
       "receipt_sha256": "fc1e19746e883f3a4b44cdeffc7e01f8ede36af79fe1e27f68b3c6b0655ce341",
       "status": "PASS",
@@ -550,19 +594,30 @@
       "individual_peak_rss_bytes": 937852928,
       "sampled_group_peak_rss_bytes": 917176320,
       "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+    },
+    {
+      "path": "verify-reduced-gap-006/results/moment/receipt.json",
+      "receipt_sha256": "24574c8f18f484342046f85e947942ae4898e883198560469e943bf404098e21",
+      "status": "PASS",
+      "wall_s": 513.3892302499153,
+      "error": null,
+      "exit": 0,
+      "individual_peak_rss_bytes": 926105600,
+      "sampled_group_peak_rss_bytes": 905428992,
+      "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
     }
   ],
   "totals": {
     "PASS": {
-      "attempts": 36,
-      "wall_s": 6345.562441544142
+      "attempts": 40,
+      "wall_s": 6960.506637460552
     },
     "FAIL": {
-      "attempts": 14,
-      "wall_s": 814.6287322076969
+      "attempts": 15,
+      "wall_s": 815.1082528741099
     }
   },
-  "total_guarded_wall_s": 7160.1911737518385,
+  "total_guarded_wall_s": 7775.614890334662,
   "scope": "Account for all terminal guarded attempts, including failed/prelaunch ones.\n\nThis includes builds or downloads executed inside a guarded command. It excludes\nlaunch-watch waiting and unguarded compilation, acquisition, Python analyses and\nunmetered model use. Guard PASS is not scientific or physical acceptance.",
   "cpu_time_energy_model_cost": "Not instrumented; no estimates inferred"
 }

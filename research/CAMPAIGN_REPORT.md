@@ -30,14 +30,15 @@ its value is not an established new-material discovery capability.
 | Rank35 anisotropic audit | ~20ppm computed averaging bound; actual changes−0.169/+0.900ppm | This averaging operation is small for this candidate | Formal interval certification or total response error |
 | Same candidate, two grids | 2.738% response spread | Larger unresolved numerical sensitivity remains | Statistical uncertainty or a convergence certificate |
 | Complete native nonlinear evaluation | 908.65s/882MB; tile/Jacobian controls pass | The tested action fits memory without the67.7GiB dense payload | End-to-end solve speedup or new-material feasibility |
-| Rank36 reduced/full pair | Reduced0.893s; full580.35s/938MB; RMS passes, max residual fails | Compression approaches the registered stationary targets | Accepted gap, conditioned error, physical response |
+| Rank37 reduced/full pair | Reduced0.913s; full513.39s/926MB; RMS passes, max residual narrowly fails | Compression approaches the registered stationary targets | Accepted gap, conditioned error, physical response |
 | Frozen converged archived Nb replay | Released currents reproduced; correction changes2.5–2.8ppm | Synthetic thermal findings need material weighting | Large demonstrated material impact |
 | Public response reproduction | Fresh build261.64s; native33.24s/187MB; all8exports bitwise match retained run;31inputs unchanged | Diagnostic is reproducible from public sources/inputs on this Mac | Full SCDFT cold start or physical prediction |
+| Complete public saved-density band replay | All23322energies at897points agree within4.152e-7Ry;98.95s/96MB | Full original32cubed band input is cheaply reconstructible from saved density | Density convergence, derivative refinement or fresh phonon/Coulomb generation |
 
 Detailed sources: [moments](VELOCITY_MOMENT_METHOD.md),
 [anisotropic audit](ANISOTROPIC_MOMENT_GATE.md),
 [full map](FULL_NONLINEAR_MAP_GATE.md),
-[rank36 full receipt](verify_fourth_occupation_gap_result.json),
+[rank37 full receipt](verify_fifth_occupation_gap_result.json),
 [archived replay](ARCHIVED_NB_FINITE_Q_GATE.md), and
 [public reproduction](PUBLIC_RESPONSE_REPRODUCTION.md).
 
@@ -119,10 +120,19 @@ the diagnostic. The full prediction remains unqualified. The next bounded
 fixed-density band replay tests an upstream reuse substage and measures its cost;
 it does not refine the32³ derivative grid merely by changing XML bands.
 
-Test rank37 cheaply after the build terminates. Consider another full check only
-if the candidate stays numerically stable and the expected information justifies
-its measured cost. If stationary targets pass, address conditioning rather than
-promoting residual convergence directly to physical accuracy.
+Rank37's full residual contracts again but still misses the maximum target by
+about10%; the RMS target passes. A measured rank38 occupation enrichment is
+prepared, and its reduced follow-up remains staged. Conditioning remains a
+separate requirement even if the next residual targets pass.
+
+The full897-point saved-density replay now passes at98.95s/96MB. This establishes
+a practical way to regenerate the actual32cubed band input and justifies a
+bounded48cubed band-grid study. Pinned QE's40000-point storage limit requires a
+consistent larger-capacity build and unchanged32cubed response baseline first.
+The [refinement protocol](BAND_DERIVATIVE_REFINEMENT_GATE.md) holds density,
+phonons, cell interpolation and imposed gap fixed; the grid-dependent Fermi
+energy is explicitly part of the measured sensitivity. A smaller stencil effect
+would still not certify physical normalization or material accuracy.
 
 The final recommendation must distinguish a supported methods contribution
 from the still-open material-access thesis, and explain what new calculation,

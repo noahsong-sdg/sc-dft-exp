@@ -55,17 +55,36 @@ postprocessing entry point is not established by this trace.
 [campaign_native_resource_accounting.json](campaign_native_resource_accounting.json)
 snapshots terminal native guard receipts, including prelaunch and failed attempts.
 Recompute with `python3 research/resource_accounting.py`. The latest snapshot
-contains47 terminal guarded attempts totaling6616.466s:6050.684s in34 guard-PASS
-attempts and565.782s in13 failures. This now includes two guarded source-build
-failures totaling298.081s. The other45 attempts total6318.385s (~105.3min).
-The accounting description has been corrected: any work inside a guarded command,
-including compilation/acquisition, is included. Unguarded builds/downloads,
-launch-watch waiting, Python analyses and model use remain excluded.
+contains55 terminal guarded attempts totaling7775.615s:
+6960.507s in40 guard-PASS attempts and
+815.108s in15 failures, as of2026-11-27T12:24:12.665704+00:00.
+It includes all four original public-source builds (808.571s),
+the isolated native response, failed/retried band pilot, rank37 reduced/full checks,
+and the complete897-point band replay. The live point-capacity build is excluded
+until terminal. Compilation/acquisition inside guarded commands is included;
+unguarded work, launch-watch waiting, Python analyses and model use are excluded.
 
-Guard PASS does not mean scientific acceptance: rank36 passes the guard and RMS
-target but fails the maximum-residual target. The fresh retry003 is excluded until
-terminal. These are guarded wall times, not total campaign time, CPU, energy or
-monetary cost. Each row preserves receipt hash and resource metrics.
+Guard PASS does not mean scientific acceptance: rank37 passes the guard and RMS
+target but fails the maximum-residual target. These are guarded wall times,
+not total campaign time, CPU, energy or monetary cost. Each row preserves its
+receipt hash and resource metrics. Recompute before using this as a live budget.
+
+## Public saved-input substages now measured
+
+| Substage | Wall | Peak individual RSS | Scope |
+|---|---:|---:|---|
+|31public microscopic input downloads|74.642s|Not instrumented|12,855,871bytes; no Coulomb files|
+|Fresh serial source build004|261.643s|466MB|No retained objects/modules/libraries|
+|Exact public response diagnostic|33.235s|187MB|All8exports bitwise match; physical gates open|
+|Eight-point fixed-density bands|1.695s|92MB|All208energies within9.61e-9Ry|
+|Complete897-point fixed-density bands|98.947s|96MB|All23322energies within4.152e-7Ry; no offset fit|
+
+These are individually measured, composable saved-input substages. The smaller
+band pilot is calibration, not additional production required by every user.
+Archive acquisition, all compatibility failures, quiet windows and unguarded
+analysis must remain visible when describing campaign cost. They do not measure
+new-density convergence, phonon/Coulomb generation, savedZ preparation, an accepted
+gap, or a converged physical response. No end-to-end cold-start forecast follows.
 
 
 ## Retained basis setup: historical partial accounting
