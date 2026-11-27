@@ -1,0 +1,54 @@
+{
+  "source_sha256": "1062c2a6656455b223111928fbc37996fce564d6dcf0a3acc945b973a9101598",
+  "fixture_sha256": "2765614a9d0920c466d1f49be1e4b0204f9ed9648c786cac58fbe580ef05cdcb",
+  "compiler": "GNU Fortran (Homebrew GCC 16.2.0) 16.2.0",
+  "reference": {
+    "radial_points": 12000,
+    "cutoff": 4.0,
+    "beta": 1000.0,
+    "gap": 0.1,
+    "total_particle_density": 0.03432557115237991,
+    "analytic_code_slope": 0.03432557115182688,
+    "relative_density_error": -1.6111556533360272e-11
+  },
+  "builds": [
+    {
+      "flags": [
+        "-O0",
+        "-std=f2008",
+        "-fcheck=all"
+      ],
+      "threads": 1,
+      "momenta": [
+        0.001,
+        0.0001,
+        1e-05
+      ],
+      "relative_density_errors": [
+        1.6398494184777235e-07,
+        1.655195536187648e-09,
+        3.2506886071814733e-11
+      ]
+    },
+    {
+      "flags": [
+        "-O3",
+        "-fopenmp",
+        "-std=f2008",
+        "-fcheck=all"
+      ],
+      "threads": 4,
+      "momenta": [
+        0.001,
+        0.0001,
+        1e-05
+      ],
+      "relative_density_errors": [
+        1.6398492297398093e-07,
+        1.6551908732509446e-09,
+        3.2496783042290645e-11
+      ]
+    }
+  ],
+  "scope": "Low-T free gas, single-spin weights and implicit two-spin current; not a niobium prediction"
+}

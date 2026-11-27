@@ -1,5 +1,23 @@
 # Research restart ledger
 
+## Latest independent gate — continuum normalization
+
+Previous goal turn made progress: unshifted direction and native fourth-order
+velocity sensitivity published at f30d102. New free-electron complete-current
+control passes in serial/OpenMP: smallest-Q slope matches independently
+integrated two-spin particle density within 3.26e-11 relative. Analytic scalar
+limit differs by 1.62e-11. This qualifies the tested scalar spin/projection/pair-Q
+convention, not native tetrahedron normalization or physical material accuracy.
+See RESPONSE_NORMALIZATION.md and free_electron_response_results.json. Conditional
+SI conversion uses retained QE constants/hash and passes independent London
+density relation. Offline suite now 42 tests PASS; compileall/diff checks PASS.
+
+Native owner **65389**, PID 69566, remains verified LIVE waiting for normal
+pressure before fourth-order [111]. Latest observed pressure=2, no normal
+seconds. [011] remains complete; do not duplicate the live owner. Once terminal,
+compare directions, then run bounded energy-grid qualification. Original goal
+remains active; qualified gap provenance and physical response still unresolved.
+
 ## Latest method checkpoint — zero-Q preparation and derivative sensitivity
 
 Previous goal turn made progress: complete-RHS product fix and public patch.
