@@ -1,5 +1,15 @@
 # Research restart ledger
 
+## Latest — rank37 staged, fresh build002 still owns heavy slot; public CI PASS
+
+Public CI45991207491 for1647d4a completed success. Local92testsPASS7.320s.
+Rank37 reduced manifest fifth_occupation_reduced_manifest.json stages unchanged
+executable and new measured basis006; no watcher launched. Build002 owner13042
+/session17080 live: LAPACK PASS123.916s; QE configure PASS, make-j2 progressing.
+DECISION_STATUS.md now records rank36's actual RMS PASS/max FAIL rather than
+pending validation, and the public isolation gate. Poll build owner before any
+new native launch. Whole goal and physical-response gates remain incomplete.
+
 ## Latest — fresh public-source retry002 compiling; CMake root-cause regression PASS
 
 Retry watcher PID13042/session17080 owns the only heavy job, running since

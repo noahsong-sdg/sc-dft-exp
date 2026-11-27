@@ -1,11 +1,13 @@
-# Latest checkpoint — 2026-11-27 11:11 UTC
+# Latest checkpoint — 2026-11-27 11:35 UTC
 
-Rank35 full native residual contracts again but fails both unchanged targets:
-Rinf1.049e-9Ry, RMSratio1.677e-5,587.60s/934MB. Rank36 reduced PASS0.893s/129MB,
-mean change0.047%; its full check is pending under verify_fourth_occupation_gap_manifest.json.
-No stationary or physically qualified gap has been accepted.
+No self-consistent physical response is accepted. Rank36's independent full
+native evaluation takes580.35s/938MB. RMS residual/gap6.302e-6 passes1e-5;
+maximum residual4.055e-10Ry fails1e-10. Its mean gap changes0.047% and response
+changes0.093–0.094% relative to rank35. These sensitivities are not conditioned
+error bounds. Rank37's measured occupation enrichment is prepared and its cheap
+reduced pilot staged, not launched while the fresh build is active.
 
-[Anisotropic moment error](ANISOTROPIC_MOMENT_GATE.md) is now measured without
+[Anisotropic moment error](ANISOTROPIC_MOMENT_GATE.md) is measured without
 silently symmetrizing the gap. One37.28s cache supports five candidate analyses
 in5.11s. At rank35, the computed averaging bound is~20ppm; observed changes
 are-0.169/+0.900ppm. Native orbit replay, constant-gap controls, exact state
@@ -14,12 +16,22 @@ one numerical operation, not self-consistent gap or physical response error.
 The two grid estimates differ2.738%; rank34→35 changes response~1.01%.
 Those larger effects and the prior derivative/functional gates remain unresolved.
 
-This strengthens a narrow scientific-methods lead: reusable response moments
-can expose and bound an accuracy issue for anisotropic candidates cheaply.
-It does not yet establish a decision-grade material prediction, end-to-end
+The [public-input reproduction path](PUBLIC_RESPONSE_REPRODUCTION.md) now
+retrieves31exact-hash files/12.86MB from the author's public release. Native
+source tracing explains why Coulomb files are unnecessary for this response-only
+entry point and why matdyn0 is generated. Isolation has not yet been demonstrated
+by running it. Fresh-build attempt001 failed at nested CMake configuration;
+the process-local policy propagation fix passes a real regression. Attempt002
+has built reference BLAS/LAPACK and configured QE, with compilation in progress.
+No retained objects enter that build. All92 offline research tests pass locally;
+public CI for1647d4a also passes (run45991207491).
+
+This supports a narrow methods thesis: reusable response moments may make
+otherwise hidden quadrature and averaging errors practical to diagnose on a
+laptop. It does not establish decision-grade material prediction, end-to-end
 laptop feasibility, validated public demand or an unsaturated platform opportunity.
-The relative selector now passes separate material geometry tests, not a full
-current-version SCTK production qualification. Final recommendation remains pending.
+The relative selector passes separate material geometry tests, not full production
+qualification. Final recommendation remains pending.
 
 The checkpoint text below records earlier milestones and their then-open gates.
 
@@ -135,23 +147,19 @@ Mac runtime forecast is justified by the cluster logs alone.
 
 ## Next decisive evidence, in order
 
-1. Test the prepared rank35 reduced candidate after the current response
-   controls terminate. Rank34 full check completes in524.86s/934MB, with
-   infinity residual5.01e-9Ry and RMSratio0.000112. Both unchanged targets
-   still fail, but19-fold RMS contraction supports one further measured
-   occupation enrichment. No next full pass has launched.
-2. Qualify conditioning and refinement of a successful gap. A point residual
-   alone cannot bound gap error near the transition.
-3. Resolve the failed direct response assignment before connecting a gap:
-   directional preparation gives62850/64662states versusQ0gap66867/67940.
-   The geometry-only control restores the layout under48 symmetries, identifying
-   symmetry selection as the cause for this pair. Tiny-Q current reuse is not
-   valid; investigate a symmetry-consistent moment formulation. Preserve far-band
-   single states; do not infer a fine-grid gap from the constant-gap experiment.
-4. Resolve derivative/integration, physical normalization and functional gates,
-   then quantify a selected observable against those uncertainties. Choose a
-   response demonstration, focused correction/method report, or bounded negative
-   result from that evidence. A public cold-start reproduction remains separate.
+1. Finish the isolated public-source build and run its response probe from only
+   the31 downloaded inputs. Compare the native cache and geometry to the retained
+   result, check input immutability, and account for failures/build/download time.
+2. Run staged rank37 reduced pilot only after the heavy build terminates. If it
+   remains positive and numerically stable, consider one independent full check
+   against unchanged targets. A successful residual still requires conditioning
+   and refinement before a solution-error claim.
+3. Resolve directional mapping without invoking the tiny-Q48-symmetry diagnostic
+   as a physical limit. The separate relative-selector control establishes the
+   cause, not a fully qualified response method.
+4. Quantify derivative/integration and functional/normalization limitations before
+   any material decision. Prefer the bounded, reproducible numerical-methods
+   result if these gates cannot be closed within the campaign.
 
 Further synthetic examples are lower priority now that the complete RHS effect
 is demonstrated. Do not expand the platform or launch a material screen before
