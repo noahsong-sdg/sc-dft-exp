@@ -3543,3 +3543,11 @@ No maintained code/threshold changes. Scientific gap and response acceptance rem
 Rows32769:49152 terminal PASS, wall215.32252954132855s, individualpeak1024671744B, sampledgroup974536704B. Public/consumed manifest equality and original native certificate/postrun checks PASS. New guarded total9747.892109708711s; historical189.29min separate.
 Next024 prospectively staged rows49153:66867,600s/3GiB/quiet120.
 No maintained code/threshold changes. Scientific gap and response acceptance remain incomplete.
+
+
+CI audit:46078763560 failed during apt update on an external Microsoft package
+repository HTTP403, before tests. Subsequent46079095826 on989a3ed completed
+dependency installation, regressions and moment replay successfully. No
+scientific source changes or trust relaxation were warranted. Checkpoint023
+public result/parent inputs and024 prospective manifest independently rechecked.
+Controller64977 continues into final024; full-image analysis still pending.
