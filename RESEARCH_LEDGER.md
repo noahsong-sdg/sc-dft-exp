@@ -1935,3 +1935,32 @@ are not uncertainty intervals. Odd parity is an assumption, not an empirical
 check: positive-Q processed curves average both currents. Raw estimates and
 convergence histories remain missing for those checks. Full rank38owner55500
 stilllive; noothernativewatcher launched.
+
+
+##13:50UTC rank38 stationary residual accepted; third grid underway
+
+Rank38 full native terminalPASS680.801683s/937721856B. All frozen external and
+local identities unchanged; exact seed preserved; tile/Jacobian controls pass.
+Rinf3.171891839e-11Ry≤1e-10 and RMSratio7.546354472e-7≤1e-5 both pass.
+verify_sixth_occupation_gap_result.json records this limited acceptance. Further
+enrichment is not justified just to exceed the registered threshold. Conditioning,
+discretization, fresh parent setup and physical response remain open.
+
+Same-cache rank38anisotropic response changes+0.008518/+0.008888% vs37;
+operation-specific averaging-bound fractions3.571e-7/4.257e-7. Both summary
+figures now include38 and were visually inspected.130offline testsPASS10.822s;
+compileall and diffcheckPASS.
+
+Indexed/fourth combinedbuildterminalPASS2.545802s/108544000B; all inputhashes
+unchanged. Numerical qualification not yet done. Sole new native owner94314,
+session22373, rootraw/public-band-grid64-001, waits120normal seconds then
+bands1800s/3GiB. No other watcher. This independent bandgeneration can precede
+combined48qualification, but no64response may be interpreted before all eight
+fourth48exports match.
+
+Reuse-boundary issue for next staging: old48serialization manifests pin earlier
+staging scripts now changed by explicit64extension. Do not rewrite their hashes
+or weaken old verification. A new response may explicitly reuse the prior
+qualified serialized artifact by its already-published output/result hashes,
+keeping historical qualification separate from current consumed runtime inputs.
+Resolve that explicit provenance path before the combined48response launch.

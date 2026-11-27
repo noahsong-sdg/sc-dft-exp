@@ -26,7 +26,7 @@ def main():
         ax.set(xlabel='Basis rank', xticks=ranks)
         ax.grid(alpha=.2)
         ax.legend(fontsize=8)
-    fig.suptitle('Nb: one moment cache, five unaccepted gap candidates', fontsize=11)
+    fig.suptitle('Nb: one moment cache; residual-qualified rank38 is not a physical prediction', fontsize=10)
     out = ROOT/'figures'
     for suffix in ('png', 'pdf'):
         fig.savefig(out/f'anisotropic_response.{suffix}', dpi=180)

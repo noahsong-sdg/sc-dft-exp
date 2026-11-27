@@ -1,3 +1,23 @@
+# Latest checkpoint — 2026-11-27 13:48 UTC
+
+Rank38 now meets both unchanged full stationary-residual targets: maximum
+3.172e-11Ry≤1e-10 and RMSratio7.546e-7≤1e-5. Full check680.802s/938MB;
+seed, prospective input hashes and native controls pass. This is a retained-input
+stationarity result, not conditioned gap or physical-response accuracy.
+No further enrichment is justified merely to exceed this registered target.
+
+The next scientific control remains the third electronic grid. Sole native
+owner87838/session2963 waits for120normal seconds to build explicit indexed+
+fourth-order composition. It must then match all eight qualified fourth48exports
+before64response. No64band watcher is queued. All130offline tests and public
+CI441eeed pass. Saved-curve point removal/cubic/peak controls are public; local
+peak interpolation does not resolve the177vs136nm discrepancy. Final verdict
+remains pending the bounded grid experiment and requirement audit.
+
+Earlier checkpoints below preserve their then-current evidence and launch state.
+
+---
+
 # Latest checkpoint — 2026-11-27 13:38 UTC
 
 The strongest supported contribution is a reproducible numerical-validity and

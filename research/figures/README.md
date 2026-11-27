@@ -32,14 +32,13 @@ JSON diagnostics; `gap_validation_sources.json` records their SHA256 hashes.
 The left panel is a reduced coefficient residual, not the full gap residual.
 The middle panel shows candidate sensitivity to enrichment, not experimental
 gap measurements. The right panel divides independently measured full native
-residuals by their registered targets; both ratios must be ≤1. No tested full
-candidate in this snapshot passes. Rank32 was not full-validated and receives no invented full-space point.
-Rank35 was independently evaluated and still misses both targets. Rank36 passes
-the RMS target but misses the maximum-residual target. The updated rank36 PNG
-was visually inspected for scales, labels and clipping. Connecting lines
-only guide the eye. These fixed microscopic inputs do not establish discretization
-convergence, conditioned solution error, or physical response accuracy.
-PNG was visually inspected for labels, scales, and clipping.
+residuals by their registered targets; both ratios must be ≤1. Rank38 passes
+both stationary-residual targets. Rank32 was not full-validated and receives no
+invented full-space point. Ranks31/33/34/35 fail both;36/37passRMS but failmaximum.
+The rank38 PNG was visually inspected for scales, labels and clipping. Connecting
+lines only guide the eye. These retained fixed inputs do not establish fresh
+basis setup, discretization convergence, conditioned gap error or physical
+response accuracy.
 
 ## Anisotropic candidate response
 
@@ -50,8 +49,9 @@ resolved support plus the unchanged native single-state contribution. Right:
 computed absolute moment-averaging bound divided by that combined response.
 Bounds concern this numerical operation at each unmodified candidate. They do
 not bound self-consistent gap error, discarded support, discretization, current
-functional accuracy, or material prediction error. All candidates remain
-unaccepted. The full48-operation geometry deliberately exercises the documented
+functional accuracy, or material prediction error. Rank38 separately meets
+stationary-residual targets; no candidate is a validated physical prediction.
+The updated rank38 PNG was visually inspected for scales, labels and clipping. The full48-operation geometry deliberately exercises the documented
 absolute-selector defect; it is not the qualified directional small-Q method.
 See ../ANISOTROPIC_MOMENT_GATE.md for assumptions and floating-point scope.
 

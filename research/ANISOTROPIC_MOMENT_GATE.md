@@ -112,3 +112,18 @@ a claim that the production directional four-operation calculation has the same
 failure magnitude. The relative-selector fix and this averaging experiment have
 different purposes. No SI penetration depth, experimental agreement, or
 end-to-end speedup is inferred.
+
+
+## Rank38 residual-qualified candidate at the unchanged cache
+
+The separate full operator now passes both registered stationary residuals.
+Reusing the same moment cache with the unchanged rank38seed gives combined
+second-moment diagnostics0.000102113138815/0.000099356165326(code units).
+Changes from rank37are+0.008518/+0.008888%; computed averaging-bound fractions
+are3.571e-7/4.257e-7. Native constant controls, orbit replay, support mapping
+and original cache/seed hashes pass. See rank38_anisotropic_response_result.json.
+
+The improved stationary residual does not remove the two-grid/derivative or
+physical-functional gates. The bound applies only to this averaging operation;
+response sensitivity to basis enrichment is not conditioned error. The summary
+figure includes ranks31–38and labels this limited acceptance explicitly.

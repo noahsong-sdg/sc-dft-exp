@@ -158,3 +158,24 @@ reduced follow-up is staged in sixth_occupation_reduced_manifest.json. It is not
 queued behind the active897point band replay; inspect owners before launch.
 A stationary residual pass, if obtained later, still will not bound conditioned
 gap error or establish physical response accuracy.
+
+
+## Rank38 meets unchanged stationary-residual targets
+
+Full native check680.801683s/937721856B passes its guard. All prospective
+external/local identities remain unchanged after the run; the exact input seed
+is preserved. Maximum residual3.171891839e-11Ry≤1e-10 and RMSratio
+7.546354472e-7≤1e-5 both pass. Tile error4.7825e-15 and Jacobian difference
+3.4183e-9 pass their native controls. No threshold changed between candidates.
+
+This certifies stationary residual accuracy for one fixed retained Q0problem,
+not conditioned gap error, uniqueness, discretization or physical current.
+The rank38 reduced solve took1.115s; full independent validation680.802s and
+historical/retained basis setup must be included in any practical solve cost.
+Do not report a subsecond complete solve or infer a speedup against an absent
+equivalently qualified full-solver baseline. No additional enrichment is needed
+merely to drive this residual below an already satisfied arbitrary threshold.
+
+Owning result: verify_sixth_occupation_gap_result.json; frozen prospective
+protocol: verify_sixth_occupation_gap_manifest.json. Run verify_gap_candidate.py
+with those inputs to reproduce the strict residual readback.

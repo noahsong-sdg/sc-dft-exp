@@ -11,13 +11,14 @@ ROOT = Path(__file__).resolve().parent
 REDUCED = ['reduced_nonlinear_result.json', 'enriched_reduced_result.json',
            'critical_reduced_result.json', 'second_occupation_reduced_result.json',
            'third_occupation_reduced_result.json', 'fourth_occupation_reduced_result.json',
-           'fifth_occupation_reduced_result.json']
+           'fifth_occupation_reduced_result.json', 'sixth_occupation_reduced_result.json']
 FULL = {31: 'verify_reduced_gap_result.json',
         33: 'verify_critical_gap_result.json',
         34: 'verify_second_occupation_gap_result.json',
         35: 'verify_third_occupation_gap_result.json',
         36: 'verify_fourth_occupation_gap_result.json',
-        37: 'verify_fifth_occupation_gap_result.json'}
+        37: 'verify_fifth_occupation_gap_result.json',
+        38: 'verify_sixth_occupation_gap_result.json'}
 
 
 def main():
@@ -46,7 +47,7 @@ def main():
     for ax in axes:
         ax.set(xlabel='Basis rank', xticks=ranks)
         ax.grid(alpha=.2)
-    fig.suptitle('Nb fixed-input candidate study: ranks31/33/34/35/36/37 evaluated in full; none accepted', fontsize=11)
+    fig.suptitle('Nb fixed-input study: rank38 meets stationary residual targets; conditioned gap error not bounded', fontsize=10)
     out = ROOT / 'figures'
     for suffix in ['png', 'pdf']:
         fig.savefig(out / f'gap_validation.{suffix}', dpi=180)
