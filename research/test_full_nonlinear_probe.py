@@ -89,7 +89,7 @@ end program
             subprocess.run([compiler, '-O2', '-fcheck=all', 'stubs.f90',
                             str(research / 'nonlinear_tile_apply.f90'),
                             str(research / 'full_nonlinear_probe.f90'), 'main.f90',
-                            '-lblas', '-o', 'test'], cwd=root, check=True, capture_output=True)
+                            '-lblas', '-o', 'test'], cwd=root, check=True)
             subprocess.run([str(root / 'test')], cwd=root, check=True, capture_output=True)
             lines = (root / 'full-map.txt').read_text().splitlines()
             self.assertEqual(len(lines), 5)

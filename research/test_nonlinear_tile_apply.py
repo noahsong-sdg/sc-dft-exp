@@ -52,7 +52,7 @@ end program
             (root / 'test.f90').write_text(source)
             module = Path(__file__).with_name('nonlinear_tile_apply.f90')
             subprocess.run([compiler, '-O2', '-fcheck=all', str(module), 'test.f90',
-                            '-lblas', '-o', 'test'], cwd=root, check=True, capture_output=True)
+                            '-lblas', '-o', 'test'], cwd=root, check=True)
             subprocess.run([str(root / 'test')], cwd=root, check=True, capture_output=True)
 
 
