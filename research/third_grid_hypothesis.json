@@ -1,0 +1,46 @@
+{
+  "recorded_utc": "2026-11-27T13:55:22.931399+00:00",
+  "stage": "Before any64-grid response exists;64band job only is running",
+  "question": "Does fourth-order diagnostic continue to show contracting electronic-grid sensitivity?",
+  "comparison": "At each2/4/8K, compare abs(S64/S48-1) against abs(S48/S32-1); record sign of both differences. No rounding of comparisons.",
+  "conditional_model": "S_n=S_limit+c*n^(-p), p=2 or4 fixed before64response; predictions diagnose model adequacy, not physical estimates or acceptance tolerances.",
+  "interpretation": "Smaller same-sign changes support continued observed convergence only. Noncontraction or reversal rejects simple continuation and requires more evidence, not a declaration of global nonconvergence.",
+  "physical_response_claim": false,
+  "continuum_error_bound": false,
+  "cases": [
+    {
+      "temperature_kelvin": 2,
+      "fourth32": 0.00887613449048529,
+      "fourth48": 0.008936196842382234,
+      "previous_fraction": 0.006766723956394216,
+      "conditional64": {
+        "2": 0.008957218665546164,
+        "4": 0.008946303488134123
+      }
+    },
+    {
+      "temperature_kelvin": 4,
+      "fourth32": 0.008252568740912828,
+      "fourth48": 0.008308499527531016,
+      "previous_fraction": 0.006777379065127542,
+      "conditional64": {
+        "2": 0.008328075302847382,
+        "4": 0.008317910957971577
+      }
+    },
+    {
+      "temperature_kelvin": 8,
+      "fourth32": 0.005153666461070597,
+      "fourth48": 0.00518872259808683,
+      "previous_fraction": 0.00680217419598983,
+      "conditional64": {
+        "2": 0.005200992246042512,
+        "4": 0.005194621467296292
+      }
+    }
+  ],
+  "input_sha256": {
+    "public_fourth_response32_result.json": "5205a6a2d589949efdce11da3e5ce3bbe8fea449fb32fa8f7fb92fe20bed6c1f",
+    "public_fourth_response48_result.json": "795379a326878f10a32ef2fed8614228516e5f8087fa58030f726716940b8cbd"
+  }
+}

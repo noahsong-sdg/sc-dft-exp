@@ -105,7 +105,11 @@ Public progress record for a preregistered comparison between an isotropic
 Migdal–Eliashberg solver (IsoME) and the superconducting DFT implementation in
 the Superconducting Toolkit (SCTK).
 
-## Current result
+## Original scalar/Tc benchmark snapshot
+
+This earlier benchmark snapshot is separate from the response campaign above;
+its process-state statements are historical. Use the research decision checkpoint
+and ledger for the current campaign.
 
 The benchmark is **in progress**. It does not yet support a solver ranking or a
 claim of predictive accuracy.

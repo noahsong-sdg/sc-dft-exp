@@ -54,20 +54,19 @@ postprocessing entry point is not established by this trace.
 
 [campaign_native_resource_accounting.json](campaign_native_resource_accounting.json)
 snapshots terminal native guard receipts, including prelaunch and failed attempts.
-Recompute with `python3 research/resource_accounting.py`. The latest snapshot
-contains55 terminal guarded attempts totaling7775.615s:
-6960.507s in40 guard-PASS attempts and
-815.108s in15 failures, as of2026-11-27T12:24:12.665704+00:00.
-It includes all four original public-source builds (808.571s),
-the isolated native response, failed/retried band pilot, rank37 reduced/full checks,
-and the complete897-point band replay. The live point-capacity build is excluded
-until terminal. Compilation/acquisition inside guarded commands is included;
-unguarded work, launch-watch waiting, Python analyses and model use are excluded.
+Recompute with `python3 research/resource_accounting.py`. Snapshot as of
+2026-11-27T13:50:29.721170+00:00 records71 terminal guarded attempts,
+9979.667s (166.33min):
+8924.429s in55 guard-PASS attempts and
+1055.237s in16 failures. The live64-grid band
+run is excluded until terminal. Guard-PASS is process acceptance, not scientific
+acceptance; rank38 separately passes both registered stationary residuals.
 
-Guard PASS does not mean scientific acceptance: rank37 passes the guard and RMS
-target but fails the maximum-residual target. These are guarded wall times,
-not total campaign time, CPU, energy or monetary cost. Each row preserves its
-receipt hash and resource metrics. Recompute before using this as a live budget.
+This includes guarded build/download work and failed attempts. It excludes
+launch-watch waiting, unguarded compilation/acquisition/analysis, and model use.
+CPU, energy and monetary cost are not inferred. It is not the total campaign
+wall time or an end-to-end new-material cost. Source input/basis setup costs
+remain separate below. Refresh the JSON before using this as a live budget.
 
 ## Public saved-input substages now measured
 
@@ -83,8 +82,9 @@ These are individually measured, composable saved-input substages. The smaller
 band pilot is calibration, not additional production required by every user.
 Archive acquisition, all compatibility failures, quiet windows and unguarded
 analysis must remain visible when describing campaign cost. They do not measure
-new-density convergence, phonon/Coulomb generation, savedZ preparation, an accepted
-gap, or a converged physical response. No end-to-end cold-start forecast follows.
+new-density convergence, phonon/Coulomb generation, savedZ preparation, fresh
+basis setup or a converged physical response. The separate retained rank38problem
+meets stationary-residual targets; that is not a complete cold-start solve. No end-to-end cold-start forecast follows.
 
 
 ## Retained basis setup: historical partial accounting

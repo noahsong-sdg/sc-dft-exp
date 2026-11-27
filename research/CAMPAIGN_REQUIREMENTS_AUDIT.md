@@ -1,3 +1,12 @@
+# Historical campaign audit — superseded
+
+This checkpoint is retained as history. The authoritative current completion
+audit is [REQUIREMENTS_AUDIT.md](REQUIREMENTS_AUDIT.md); live execution state is
+in [the ledger](../RESEARCH_LEDGER.md). The ranks, launch states and gaps below
+describe this earlier checkpoint and must not be used as current instructions.
+
+---
+
 # Campaign completion audit — still incomplete
 
 This maps the original `PROJECT_SPEC.md` deliverables to evidence and remaining

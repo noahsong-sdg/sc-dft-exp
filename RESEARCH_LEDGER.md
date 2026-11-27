@@ -1981,3 +1981,15 @@ captured before launch; five published hashes checked, three new prospective
 assignment/symmetry captures labelled. Guard900s/3GiB; forecast85s; no watcher.
 64bandsowner94314/session22373 is confirmedrunning. No other heavy owner.
 After terminal64bands, qualify combined48response before interpreting64response.
+
+
+## Third-grid prospective interpretation and documentation audit
+
+third_grid_hypothesis.json freezes32/48source hashes and conditional h^2/h^4
+64predictions before any64response exists. Compare48→64fractional change with
+32→48at each2/4/8K and record sign; no continuum bound follows from contraction.
+The older CAMPAIGN_REQUIREMENTS_AUDIT is now explicitly historical and points
+to authoritative REQUIREMENTS_AUDIT. The cost summary reflects71terminal
+guard attempts/9979.667s, excludes live64bands and distinguishes55guardPASS
+from scientific acceptance. README separates the originalTcbenchmark snapshot
+from current response work. Sole nativeowner94314remains live.
