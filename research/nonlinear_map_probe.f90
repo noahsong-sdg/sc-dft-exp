@@ -2,6 +2,9 @@
 ! Copyright (C) 2026 Noah Song. GNU GPL-2.0-or-later.
 ! Uses retained GPL SCTK-derived tiled and uncached native-pair routines.
 program nonlinear_map_probe
+#ifdef MODE_AMPLITUDE
+  use mode_amplitude_probe, only: run_mode_amplitudes
+#endif
   use kinds, only: dp
   use environment, only: environment_start, environment_end
   use input_parameters, only: calculation, restart_mode
@@ -66,6 +69,9 @@ program nonlinear_map_probe
   call read_full_Z(trim(point),1,full)
   Z=full
   deallocate(full)
+#ifdef MODE_AMPLITUDE
+  call run_mode_amplitudes()
+#else
   ! Deliberately imposed, energy-dependent seed. This is not a solved gap.
   delta=0
   chi=0
@@ -133,6 +139,7 @@ program nonlinear_map_probe
     deallocate(block,image)
   end do
   close(unit)
+#endif
 #endif
   call environment_end('SCTK')
 end program

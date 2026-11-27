@@ -1,5 +1,29 @@
 # Research restart ledger
 
+## Latest priority — full pilot live; informed amplitude experiment prepared
+
+Previous turn made progress: saved-mode audit public ata3cc2d6; CI45969422618
+SUCCESS. All62 current local tests PASS(5.902s), compileall/diffcheck PASS.
+New explicit mode-amplitude target builds boundschecked. Analytic
+rectangular rank-one fullmodule test checks all seven nonlinear amplitudes,
+fresh linear action and stale-context rejection; strict reader checks persisted
+full residuals rather than treating projected roots as gaps. See
+research/MODE_AMPLITUDE_GATE.md and mode_amplitude_manifest.json. Prepared raw
+directory/executable only; no second native owner launched.
+
+Owner31203/PID15357 remains LIVE in full-nonlinear-001. Latest observed
+47136/66867rows,504.303CPU seconds, hostpressure1. Poll same handle; do not
+relaunch or infer terminal state from observation timeouts. After terminal
+receipt, run strict full_nonlinear_analysis.py and update costs. Only if it
+passes, pin amplitude prospective manifest and authorize one1200s/3GiB next
+pass within initial4h pilot budget;120 quiet normal seconds, one heavy owner.
+
+Next scientific question: can a source-bound conventional mode yield a useful
+nonlinear seed with small FULL residual, cheaply sharing kernel work across
+amplitudes? A scalar projected zero is insufficient. Fresh linear action must
+match stored mode/residual; no eigenpair reordering or inferred completeness.
+Goal active; ceiling2026-11-27T17:41Z.
+
 ## Latest priority — full pilot live; public BLAS tests repaired
 
 Previous turn made progress: full-map implementation90f922f public. CI45968647370

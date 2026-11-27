@@ -1,0 +1,86 @@
+{
+  "status": "Prepared, not launched; contingent on full pilot terminal PASS and strict readback",
+  "question": "Use conventional mode as nonlinear seed while sharing exact kernel work across seven amplitudes and one fresh linear control",
+  "physical_temperature_kelvin": 8.05,
+  "amplitudes_mev": [
+    0.025,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.3,
+    0.5
+  ],
+  "acceptance": "MODE_AMPLITUDE_GATE.md; full residuals, no solved-gap inference",
+  "guard_seconds": 1200,
+  "group_rss_cap_bytes": 3221225472,
+  "launch_normal_seconds": 120,
+  "verification": "62 offline tests PASS5.902s; compileall/diffcheck PASS; native boundschecked build PASS",
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/mode_amplitude_probe.f90",
+      "bytes": 5970,
+      "sha256": "4483577260dc1698f3011eabd8dd83af751850dcccc5077451c785f63f8cc3c4"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/mode_amplitude_analysis.py",
+      "bytes": 4121,
+      "sha256": "3fd766317113517b2ce4f0c6ed69f4cda0e77061f34fc751c50937da033e37db"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/nonlinear_map_probe.f90",
+      "bytes": 5707,
+      "sha256": "fb51f0a60aa6aa3380c37d8e62744111fb04be6c3789bcb7b7f81bff9d6e3d5a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/nonlinear_map_probe.mk",
+      "bytes": 1549,
+      "sha256": "3f9a57c20c6827d620f3892a70b20234507b701a02dedd4e2a1e3a1a8562404a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/nonlinear_tile_apply.f90",
+      "bytes": 1035,
+      "sha256": "71f70997604f37f3c5f5db6d406a377ea91e1a50b5d78ca520e0294cf7f4c739"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/mode-amplitude-001/native.in",
+      "bytes": 430,
+      "sha256": "8aebd2e7b1f538a2ec39489e24a146bf93689bab92812de62ea65fd0bb4e9dcc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/mode-amplitude-001/map-control.in",
+      "bytes": 139,
+      "sha256": "81c10f2ae79de44b1a886cbefa5ddfb4bf16f9b52184d3844bc0cd7a43344e42"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/mode-amplitude-001/mode-control.in",
+      "bytes": 209,
+      "sha256": "7be5942a6af0eb4f01c54a83917c33cf156b4951b403ed32dbcbbfcac8b5fa10"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/mode-amplitude-001/mode-amplitude-probe.x",
+      "bytes": 7784520,
+      "sha256": "5de909984e7c015c886517e8118a60a1f7b6a3f00c77d8c3e50c7875b989068b"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/fresh-action/selected.meta",
+      "bytes": 78,
+      "sha256": "1253b6c7975ad57363a62f8fd9441b6eb1a6ec5c88ba3cef6d466b5d24239687"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/fresh-action/selected.bin",
+      "bytes": 2174080,
+      "sha256": "b7f1d360f9f5fdc08b758026a15cd1bd559fd55aba26c3ee9fcb988745c3d8e1"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/fresh-action/basis.meta",
+      "bytes": 202,
+      "sha256": "d45564e51567f33ebb512c33df91215534eecc032422986f218e86bd4f6066d7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/mode-amplitude-build-001/build.log",
+      "bytes": 14439,
+      "sha256": "aa19e2321bd7955146618147e083f94be8c21cd322c632b89e55d9c2cbb3b3b4"
+    }
+  ]
+}

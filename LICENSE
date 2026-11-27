@@ -26,3 +26,6 @@ native operator interface. See licenses/GPL-2.0.txt.
 Exception: research/nonlinear_tile_apply.f90 and research/full_nonlinear_probe.f90
 are distributed under GNU GPL version2 or later; they implement the retained
 SCTK-derived native operator diagnostic. See licenses/GPL-2.0.txt.
+
+Exception: research/mode_amplitude_probe.f90 is distributed under GNU GPL
+version2 or later; see its header and licenses/GPL-2.0.txt.

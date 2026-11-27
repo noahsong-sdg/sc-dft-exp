@@ -21,3 +21,12 @@ full_nonlinear_probe.o: $(RESEARCH_SOURCE_DIR)/full_nonlinear_probe.f90 nonlinea
 
 full_nonlinear_driver.o: $(MAP_SOURCE) full_nonlinear_probe.o
 	$(MPIF90) $(FF) $(MAP_FLAGS) -DFULL_MAP -I$(NATIVE)/build -fcheck=all -c $< -o $@
+
+mode-amplitude-probe.x: nonlinear_tile_apply.o mode_amplitude_probe.o mode_amplitude_driver.o
+	$(LD) $(LDFLAGS) -o $@ $^ $(RETAINED_OBJECTS) $(MAP_EXTRA_OBJECTS) $(CORELIBS)
+
+mode_amplitude_probe.o: $(RESEARCH_SOURCE_DIR)/mode_amplitude_probe.f90 nonlinear_tile_apply.o
+	$(MPIF90) $(FF) -I$(NATIVE)/build -fcheck=all -c $< -o $@
+
+mode_amplitude_driver.o: $(MAP_SOURCE) mode_amplitude_probe.o
+	$(MPIF90) $(FF) $(MAP_FLAGS) -DMODE_AMPLITUDE -I$(NATIVE)/build -fcheck=all -c $< -o $@
