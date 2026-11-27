@@ -86,6 +86,15 @@ subgroup is retained; no full-group scalar averaging replaces a response tensor.
 
 ## Build and acceptance gates
 
+For controlled response-cell refinement only, the diagnostic accepts environment
+variable SCTK_MOMENT_GRID. A positive grid must divide every native fine-grid
+dimension; it replaces the interpolation-cell grid after input reading, without
+regenerating or changing phonon interactions. At a constant imposed gap this
+isolates response coarsening. It does not justify finer anisotropic gap or
+interaction resolution without corresponding microscopic inputs. A fresh build
+with this option succeeded; grid-16/32 runtime results remain pending in the
+live runner recorded in RESEARCH_LEDGER.md.
+
 Build in a fresh ignored directory using `velocity_moment_probe.mk`, passing
 the retained native Makefile as NATIVE_MAKEFILE and the absolute diagnostic
 source as MOMENT_SOURCE. Target velocity-moment-probe.x. Native libraries are

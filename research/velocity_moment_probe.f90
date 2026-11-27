@@ -27,7 +27,8 @@ program velocity_moment_probe
     end subroutine
   end interface
   logical :: needwf=.false.
-  integer :: ik,ib,ix,g,i8,iv(3),ki(8),u,t
+  integer :: ik,ib,ix,g,i8,iv(3),ki(8),u,t,grid,status
+  character(32) :: grid_text
   real(dp) :: kv(3),wi(8),q,qv(3),beta,gap,e,thermal,curvature,w
   real(dp) :: first_s(2),second_s(2),all_s(2),fine_s(3),errors(3)
   real(dp),allocatable :: bands(:,:),fine(:,:,:),dos(:,:,:,:),m1(:,:,:,:),m2(:,:,:,:),h(:,:,:,:)
@@ -44,6 +45,17 @@ program velocity_moment_probe
   call stdin_scdft()
   call read_elph()
   call energy_grid()
+  ! Refine only response-cell interpolation; retained phonon inputs are unchanged.
+  call get_environment_variable('SCTK_MOMENT_GRID',grid_text,status=status)
+  if(status==0) then
+    read(grid_text,*,iostat=status) grid
+    if(status/=0) error stop 'Invalid response-cell grid'
+    if(grid<=0) error stop 'Positive response-cell grid required'
+    if(any(mod([nk1,nk2,nk3],grid)/=0)) error stop 'Response grid must divide the native fine grid'
+    nq1=grid;nq2=grid;nq3=grid;nqbz=grid**3
+  else if(status/=1) then
+    error stop 'Truncated or inaccessible response-cell grid setting'
+  end if
   qv=matmul(bg,q_fflo)*tpiba
   q=sqrt(sum(qv*qv))
   if(q==0) error stop 'Nonzero directional contraction required'

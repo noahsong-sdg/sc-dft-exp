@@ -1,5 +1,23 @@
 # Research restart ledger
 
+## Current live owner — moment-grid refinement
+
+Tool session **3520** owns the verified live refinement runner. Poll it before
+any duplicate launch. It waits for 60 continuous seconds of normal pressure,
+then runs response-cell grid 16 in fresh nb-moments-grid16-002 and, only on
+success, grid 32 in nb-moments-grid32-001. Each run has the unchanged 120-second/
+3-GiB guard; latest launch 2026-11-27 17:38 UTC. Per-run atomic state files are
+campaign_launch_watch.json in those ignored raw directories. First grid16-001
+was refused before launch due pressure=2; receipt preserved, exit null.
+
+The diagnostic source now accepts SCTK_MOMENT_GRID for commensurate response-cell
+refinement, leaving retained phonon inputs intact. Fresh native build succeeded;
+runtime refinement is NOT yet verified. Previous grid-8 finding is published
+at 9fad3cb; its build manifest deliberately describes that earlier source build.
+On successful refinement, analyze velocity-moments.txt with moment_analysis.py,
+record native control/conservation errors and measured resources, then compare
+closure convergence. Do not relabel the grid-8 result as a converged prediction.
+
 ## Latest material-method evidence — second velocity moment
 
 Native moment attempt 002 PASS in 52.575 s / 178372608-byte peak. Session 32316
