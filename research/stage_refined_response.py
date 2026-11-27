@@ -1,4 +1,4 @@
-"""Stage a48cubed response diagnostic with explicitly derived band data."""
+"""Stage a declared48/64cubed response diagnostic with derived band data."""
 import argparse
 import json
 from pathlib import Path
@@ -11,12 +11,14 @@ from verify_band_serialization import verify as check_serialization
 
 
 def stage(build, inputs, bands, band_manifest, destination,
-          manifest_path=RESEARCH/'public_response_inputs.json', serialization_manifest=None):
+          manifest_path=RESEARCH/'public_response_inputs.json', serialization_manifest=None,grid=48):
+    if grid not in (48,64) or (grid==64 and serialization_manifest is None):
+        raise ValueError('Declared64cubed response requires explicit serialization provenance')
     build,inputs,bands,root=[Path(p).absolute() for p in (build,inputs,bands,destination)]
     band_manifest=Path(band_manifest).absolute()
     built=json.loads((build/'build-result.json').read_text())
-    if built.get('point_capacity',40000)<48**3:
-        raise ValueError('Response build cannot store48cubed')
+    if built.get('point_capacity',40000)<grid**3:
+        raise ValueError(f'Response build cannot store{grid}cubed')
     if serialization_manifest is None:
         checked=check_bands(bands,band_manifest)
     else:
@@ -24,7 +26,7 @@ def stage(build, inputs, bands, band_manifest, destination,
         serialized=json.loads(serialization_manifest.read_text())
         if serialized['source_band_manifest']!=str(band_manifest):
             raise ValueError('Serialization belongs to a different parent band protocol')
-        checked=check_serialization(bands,serialization_manifest)
+        checked=check_serialization(bands,serialization_manifest,grid=grid)
     if not checked['shared_point_and_serialization_targets_met']:
         raise ValueError('Generated band-grid validation failed')
     derived=bands/'scratch/pwscf.a2Fsave'
@@ -59,10 +61,10 @@ def stage(build, inputs, bands, band_manifest, destination,
                                        sha256=checked['sha256'][str(path)]))
         path=RESEARCH/'verify_band_serialization.py'
         result['files'].append(dict(path=str(path),bytes=path.stat().st_size,sha256=digest(path)))
-    result.update(grid=[48]*3,response_cell_grid=8,guard_seconds=240,
+    result.update(grid=[grid]*3,response_cell_grid=8,guard_seconds=240 if grid==48 else 900,
                   derived_inputs={'pwscf.a2Fsave':dict(source=str(derived),sha256=expected,
                     original_public_sha256=catalog['pwscf.a2Fsave']['sha256'],
-                    provenance='Generated fixed-density48cubed bands, not an author-hosted original')},
+                    provenance=f'Generated fixed-density{grid}cubed bands, not an author-hosted original')},
                   band_validation=checked,
                   scope=__doc__.strip()+' Imposed gap; unchanged density/phonons/cell grid. Not physical response accuracy.')
     (root/'run-manifest.json').write_text(json.dumps(result,indent=2)+'\n')
@@ -74,4 +76,5 @@ if __name__=='__main__':
     for name in ('build','inputs','bands','band_manifest','destination'):
         parser.add_argument(name,type=Path)
     parser.add_argument('--serialization-manifest',type=Path,help='Explicit separately verified QE serialization protocol')
+    parser.add_argument('--grid',type=int,choices=(48,64),default=48)
     print(json.dumps(stage(**vars(parser.parse_args())),indent=2))

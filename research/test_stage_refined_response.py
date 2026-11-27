@@ -34,6 +34,15 @@ class RefinedResponseStagingTest(unittest.TestCase):
                     'stage_refined_response.check_bands',side_effect=AssertionError('Wrong validation route')):
                 result=stage(build,inputs,bands,band_manifest,root/'serialized-run',manifest,serialization_manifest=serialized)
             self.assertEqual(result['derived_inputs']['pwscf.a2Fsave']['sha256'],digest(derived))
+            with patch('stage_refined_response.check_serialization',return_value=checked) as checker:
+                result64=stage(build,inputs,bands,band_manifest,root/'serialized64',manifest,
+                    serialization_manifest=serialized,grid=64)
+                self.assertEqual(result64['grid'],[64]*3)
+                self.assertEqual(result64['guard_seconds'],900)
+                checker.assert_called_once_with(bands,serialized,grid=64)
+            with self.assertRaisesRegex(ValueError,'serialization'):
+                stage(build,inputs,bands,band_manifest,root/'unqualified64',manifest,grid=64)
+            self.assertFalse((root/'unqualified64').exists())
             serialized.write_text(json.dumps(dict(source_band_manifest='/stale/parent.json')))
             with self.assertRaisesRegex(ValueError,'different parent'):
                 stage(build,inputs,bands,band_manifest,root/'wrong-parent',manifest,serialization_manifest=serialized)

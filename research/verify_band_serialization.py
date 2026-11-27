@@ -10,10 +10,10 @@ from public_band_pilot_analysis import verify_postrun_inputs
 from stage_public_band_pilot import numbers
 
 
-def verify(directory, manifest_path):
+def verify(directory, manifest_path,grid=48):
     root=Path(directory).absolute();manifest_path=Path(manifest_path).absolute()
     manifest=json.loads(manifest_path.read_text())
-    if (manifest['cwd']!=str(root) or manifest['grid']!=[48]*3
+    if (grid not in (48,64) or manifest['cwd']!=str(root) or manifest['grid']!=[grid]*3
             or manifest['minimum_common_reference_points']!=100
             or manifest['acceptance_max_eigenvalue_difference_ry']!=1e-6):
         raise ValueError('Changed declared serialization protocol')
@@ -25,14 +25,14 @@ def verify(directory, manifest_path):
     if (original!=manifest['original_band_receipt'] or original.get('status')!='PASS'
             or original.get('error') is not None or original.get('exit')!=0
             or original['command']!=parent['command'] or original['cwd']!=parent['cwd']
-            or original['continuous_deadline_s']!=1200):
+            or original['continuous_deadline_s']!=(1200 if grid==48 else 1800)):
         raise ValueError('Changed parent native band provenance')
     receipt_path=root/'results/serialize/receipt.json';receipt=json.loads(receipt_path.read_text())
     if (receipt.get('status')!='PASS' or receipt.get('error') is not None or receipt.get('exit')!=0
             or receipt['command']!=manifest['command'] or receipt['cwd']!=str(root)
             or receipt['continuous_deadline_s']!=120):
         raise ValueError('Serialization execution did not pass')
-    output=root/'scratch/pwscf.a2Fsave';rows=read_dense(output.read_text(),48)
+    output=root/'scratch/pwscf.a2Fsave';rows=read_dense(output.read_text(),grid)
     xml=root/'scratch/pwscf.save/data-file-schema.xml'
     if digest(xml)!=manifest['source_xml_sha256']:
         raise ValueError('Changed parent XML during serialization')
@@ -47,7 +47,7 @@ def verify(directory, manifest_path):
                 or abs(float(state.find('k_point').get('weight'))-weight)>1e-12):
             raise ValueError('Owning writer does not preserve parent XML bands or weights')
     common,error=shared_comparison(json.loads((root/'reference.json').read_text()),rows)
-    return dict(grid=[48]*3,generated_irreducible_points=len(rows),shared_reference_points=common,
+    return dict(grid=[grid]*3,generated_irreducible_points=len(rows),shared_reference_points=common,
         max_shared_eigenvalue_difference_ry=error,minimum_common_reference_points=100,
         acceptance_max_eigenvalue_difference_ry=1e-6,
         shared_point_and_serialization_targets_met=common>=100 and error<=1e-6,
@@ -61,4 +61,5 @@ def verify(directory, manifest_path):
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('directory',type=Path);parser.add_argument('manifest_path',type=Path)
+    parser.add_argument('--grid',type=int,choices=(48,64),default=48)
     print(json.dumps(verify(**vars(parser.parse_args())),indent=2,allow_nan=False))

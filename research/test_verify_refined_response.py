@@ -47,6 +47,13 @@ import verify_refined_response
                 terminal=json.loads(receipt.read_text());terminal['continuous_deadline_s']=900
                 receipt.write_text(json.dumps(terminal))
                 self.assertTrue(verify(root,path,guard_seconds=900)['diagnostic_readback_pass'])
+                manifest['grid']=[64]*3;path.write_text(json.dumps(manifest))
+                controls['dimensions'][3]=64**3
+                self.assertTrue(verify(root,path,guard_seconds=900,grid=64)['diagnostic_readback_pass'])
+                with self.assertRaises(ValueError):
+                    verify(root,path,guard_seconds=900)
+                manifest['grid']=[48]*3
+                controls['dimensions'][3]=48**3
                 manifest['guard_seconds']=240;path.write_text(json.dumps(manifest))
                 terminal['continuous_deadline_s']=240;receipt.write_text(json.dumps(terminal))
                 controls['dimensions'][3]=32**3

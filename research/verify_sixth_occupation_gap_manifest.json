@@ -1,0 +1,99 @@
+{
+  "question": "Does rank38 satisfy unchanged full Q0 stationary residual targets?",
+  "source_revision": "ada2ff0",
+  "current_source_snapshot": "ada2ff0",
+  "candidate_sha256": "638fd064b87a1566c8e1c484fcc1ceefb2f541c72891054ce495ca61e1fdc558",
+  "acceptance": "GAP_SEED_VERIFY_GATE.md; exact input-vector preservation, full finite residual inf<=1e-10Ry and RMSresidual/RMSgap<=1e-5 for stationary-residual certification; conditioning/response accuracy separate",
+  "guard_seconds": 1200,
+  "group_rss_cap_bytes": 3221225472,
+  "launch_normal_seconds": 120,
+  "decision": "Rank37 missed unchanged max residual by10%; rank38 positive reduced solution is stable with coefficient residual5.72e-17. One full native check expected~513s/926MB fits remaining four-hour pilot budget. All prior owners terminal. Conditioning and response accuracy remain separate.",
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/gap_seed_io.f90",
+      "bytes": 2236,
+      "sha256": "12b8e04e9a6c0c3f6d4a990dc1f26a9b0603e8f3e7ce1ec8360d1242193bfc28"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/nonlinear_map_probe.f90",
+      "bytes": 5936,
+      "sha256": "8f268526d2f647336e5e24458ff85c7b822a4deaed4760a2a6a4f869fb7fee7f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/nonlinear_map_probe.mk",
+      "bytes": 2397,
+      "sha256": "42436a4fe4a70ba44534c33fb3c5be4d2147d8990c7cb4ef7090e9a02fe90dfa"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/full_nonlinear_probe.f90",
+      "bytes": 4579,
+      "sha256": "c3601b2e13d77c49ae84461ef21027d8eb43e895c0144b3bd8a72adb6cc88d34"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/nonlinear_tile_apply.f90",
+      "bytes": 1035,
+      "sha256": "71f70997604f37f3c5f5db6d406a377ea91e1a50b5d78ca520e0294cf7f4c739"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-gap-build-001/build.log",
+      "bytes": 32758,
+      "sha256": "1dd3b74f251227aef3094a26ea09acf6f3d826de6ad91c15eeacac77d6bddbfb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-007/verify-gap-seed.x",
+      "bytes": 7784672,
+      "sha256": "c49f5c8d6fdb12f1725118f377a7501fb8c455c991485060bb6736f2780f6c18"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-007/native.in",
+      "bytes": 430,
+      "sha256": "8aebd2e7b1f538a2ec39489e24a146bf93689bab92812de62ea65fd0bb4e9dcc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-007/map-control.in",
+      "bytes": 139,
+      "sha256": "81c10f2ae79de44b1a886cbefa5ddfb4bf16f9b52184d3844bc0cd7a43344e42"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-007/gap-seed.meta",
+      "bytes": 287,
+      "sha256": "78e4acf5dedf8e76575c350885a0d05e507101b759739d27639890666ae30549"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-007/matdyn0",
+      "bytes": 1916,
+      "sha256": "96bf9e490721008167c28f83b76b13e47fe88d78b7eff6d95a1807c603dda5c8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-007/seed-control.in",
+      "bytes": 135,
+      "sha256": "a4dfd47deb7b8ee1d67e14ec1974254e4d38dd3a183ff7eb10f36207f07cad40"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-007/gap-seed.bin",
+      "bytes": 1087040,
+      "sha256": "638fd064b87a1566c8e1c484fcc1ceefb2f541c72891054ce495ca61e1fdc558"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/sixth_occupation_reduced_result.json",
+      "bytes": 1038,
+      "sha256": "c118309f272c4a9a2096994538fc01fcab74722c8d7d6387952ff3932f5857cc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/sixth_occupation_reduced_manifest.json",
+      "bytes": 5155,
+      "sha256": "006b3f07758fe96d9b2cc5dd7ed7d2e8ce5900b0181df0533fb6c55fcc0226ee"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/macos_native_guard.py",
+      "bytes": 8195,
+      "sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+    }
+  ],
+  "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-007",
+  "command": [
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-007/verify-gap-seed.x",
+    "-in",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-007/native.in"
+  ]
+}

@@ -1888,3 +1888,16 @@ requires dense band finite differences plus energy-resolved interpolation and
 state assignment; velocity-only replay is insufficient. Next: compile broad
 parameter-grid validation (including near thresholds) and produce cost/response
 figures; investigate a saved-state preparation-only route without kernel solve.
+
+
+## Rank38 and explicit third-grid preparation
+
+Rank38 reduced solve completed1.115s/135970816B, four iterations, coefficient
+residual5.725e-17. This does not qualify full stationarity. Its positive seed
+SHA638fd064... is frozen in verify_sixth_occupation_gap_manifest.json for one
+unchanged-target full check. Sole native owner raw/verify-reduced-gap-007 is
+waiting for normal pressure; expected~513s/926MB, guard1200s.
+
+Explicit64-grid staging/serialization/readback now has fixtures, preserving48
+defaults and unchanged shared-energy tolerance. Third-grid rationale and budget
+are in BAND_DERIVATIVE_REFINEMENT_GATE.md. No64native job launched yet.

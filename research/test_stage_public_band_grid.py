@@ -31,6 +31,18 @@ class PublicBandGridTest(unittest.TestCase):
                 stage(build,inputs,root/'insufficient',catalog)
             self.assertFalse((root/'insufficient').exists())
             result.write_text(json.dumps(dict(point_capacity=300000)))
+            staged64=stage(build,inputs,root/'run64',catalog,grid=64)
+            self.assertEqual(staged64['grid'],[64]*3)
+            self.assertEqual(staged64['guard_seconds'],1800)
+            self.assertIn('K_POINTS automatic\n64 64 64 0 0 0',(root/'run64/native.in').read_text())
+            result.write_text(json.dumps(dict(point_capacity=110592)))
+            with self.assertRaisesRegex(ValueError,'full64cubed'):
+                stage(build,inputs,root/'small64',catalog,grid=64)
+            self.assertFalse((root/'small64').exists())
+            result.write_text(json.dumps(dict(point_capacity=300000)))
+            with self.assertRaisesRegex(ValueError,'Only declared'):
+                stage(build,inputs,root/'unsupported',catalog,grid=96)
+            self.assertFalse((root/'unsupported').exists())
             def changed_after_check(*args):
                 staged=stage_pilot(*args)
                 dense.write_bytes(b'changed')

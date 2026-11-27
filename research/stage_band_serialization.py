@@ -10,16 +10,18 @@ from public_band_pilot_analysis import verify_postrun_inputs
 from stage_public_band_pilot import NAMES
 
 
-def stage(executable, bands, band_manifest, destination):
+def stage(executable, bands, band_manifest, destination,grid=48):
+    if grid not in (48,64):
+        raise ValueError('Only declared48/64cubed serialization protocols are supported')
     exe,bands,band_manifest,root=[Path(p).absolute() for p in (executable,bands,band_manifest,destination)]
     upstream=json.loads(band_manifest.read_text())
-    if upstream['cwd']!=str(bands) or upstream['grid']!=[48]*3:
-        raise ValueError('Expected declared48cubed band parent')
+    if upstream['cwd']!=str(bands) or upstream['grid']!=[grid]*3:
+        raise ValueError(f'Expected declared{grid}cubed band parent')
     verify_postrun_inputs(upstream,bands)
     receipt_path=bands/'results/bands/receipt.json';receipt=json.loads(receipt_path.read_text())
     if (receipt.get('status')!='PASS' or receipt.get('error') is not None or receipt.get('exit')!=0
             or receipt['command']!=upstream['command'] or receipt['cwd']!=str(bands)
-            or receipt['continuous_deadline_s']!=1200):
+            or receipt['continuous_deadline_s']!=(1200 if grid==48 else 1800)):
         raise ValueError('Parent band execution did not pass')
     xml=bands/'scratch/pwscf.save/data-file-schema.xml'
     points=len(ET.fromstring(xml.read_text()).findall('output/band_structure/ks_energies'))
@@ -42,7 +44,7 @@ def stage(executable, bands, band_manifest, destination):
     if digest(target)!=executable_hash:
         raise ValueError('Serialization executable changed during staging')
     result=dict(command=[str(target),'-in',str(root/'native.in')],cwd=str(root),files=files,
-                grid=[48]*3,expected_points=points,minimum_common_reference_points=100,
+                grid=[grid]*3,expected_points=points,minimum_common_reference_points=100,
                 acceptance_max_eigenvalue_difference_ry=1e-6,guard_seconds=120,
                 source_band_directory=str(bands),source_band_manifest=str(band_manifest),
                 original_band_receipt=receipt,source_xml_sha256=identities[xml]['sha256'],
@@ -55,4 +57,5 @@ if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     for name in ('executable','bands','band_manifest','destination'):
         parser.add_argument(name,type=Path)
+    parser.add_argument('--grid',type=int,choices=(48,64),default=48)
     print(json.dumps(stage(**vars(parser.parse_args())),indent=2))

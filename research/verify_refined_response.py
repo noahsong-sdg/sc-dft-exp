@@ -1,4 +1,4 @@
-"""Read back a declared48cubed imposed-gap response, without claiming convergence."""
+"""Read back a declared48/64cubed imposed-gap response, without claiming convergence."""
 import argparse
 import json
 from pathlib import Path
@@ -10,10 +10,10 @@ from moment_analysis import analyze as native_controls
 from public_band_pilot_analysis import verify_postrun_inputs
 
 
-def verify(directory, manifest_path, guard_seconds=240):
+def verify(directory, manifest_path, guard_seconds=240,grid=48):
     root=Path(directory).absolute();manifest_path=Path(manifest_path).absolute()
     manifest=json.loads(manifest_path.read_text())
-    if (guard_seconds not in (240,900) or manifest['cwd']!=str(root) or manifest['grid']!=[48]*3
+    if (grid not in (48,64) or guard_seconds not in (240,900) or manifest['cwd']!=str(root) or manifest['grid']!=[grid]*3
             or manifest['response_cell_grid']!=8 or manifest['guard_seconds']!=guard_seconds):
         raise ValueError('Changed declared refined-response protocol')
     if json.loads((root/'run-manifest.json').read_text())!=manifest:
@@ -27,7 +27,7 @@ def verify(directory, manifest_path, guard_seconds=240):
         raise ValueError('Refined-response execution did not pass')
     controls=native_controls(root/'velocity-moments.txt')
     dims,physical,_,_=read_pair(root)
-    if (controls['dimensions']!=[100,6,7,48**3,8**3]
+    if (controls['dimensions']!=[100,6,7,grid**3,8**3]
             or dims!=[100,6,7,8**3,2]
             or physical[2:]!=[1e-12,0.,0.]):
         raise ValueError('Changed native response grid or imposed momentum')
@@ -46,4 +46,5 @@ if __name__=='__main__':
     parser.add_argument('directory',type=Path);parser.add_argument('manifest_path',type=Path)
     parser.add_argument('--guard-seconds',type=int,default=240,choices=(240,900),
                         help='Explicit prospective protocol deadline; no automatic retry')
+    parser.add_argument('--grid',type=int,choices=(48,64),default=48)
     print(json.dumps(verify(**vars(parser.parse_args())),indent=2,allow_nan=False))

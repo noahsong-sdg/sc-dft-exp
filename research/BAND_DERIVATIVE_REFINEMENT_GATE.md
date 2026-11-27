@@ -225,3 +225,42 @@ uses the existing portable postrun hash checker, preserving receipt/context
 validation and leaving the Mac launcher unchanged. A subprocess regression
 forbids loading a native library during import. The successful retry was checked
 before this source edit; its original manifest retains the dcf39b3 code identity.
+
+
+## Explicit third-grid protocol (64 cubed)
+
+The measured fourth-order 32-to-48 spread is about0.68%, versus5.52%
+for second order. This supports the registered stencil hypothesis but cannot
+distinguish convergence from accidental agreement of two grids. A third grid
+is the next informative control; it is not a new material or a screening study.
+
+The prior stagers and readers encoded48 cubed. Reusing those declarations for64
+would misstate the native point count and provenance. The extension therefore
+adds an explicit `--grid64` selection (CLI spelling: `--grid 64`) to band
+staging, owning serialization, response staging and strict readback. Default48
+behavior is preserved.64 response requires the separate owning-QE serialization
+manifest; no implicit conversion or relaxed acceptance is allowed. Band capacity
+must cover262144 full-grid points. Shared-energy tolerance stays1e-6Ry with at
+least100 common reference points, no fitted energy offset. Native deadlines are
+1800s for bands,120s for serialization and900s for response. These are limits,
+not predictions. Fixtures cover explicit64 success, wrong/default grid rejection,
+insufficient capacity, changed parent, all-band/weight preservation and stale data.
+
+Cost decision before launch: forecast~850s for fixed-density bands by scaling the
+359.6s48 run;~2s serialization. An indexed fourth-order probe must first match
+all eight qualified48 exports bitwise before its64 response is interpreted.
+The combined48/64 response forecast is~300s; allow900s per response. Full rank38
+gap check separately forecasts~513s. These bounded experiments fit the remaining
+initial four native wall-hour ceiling at~155min already consumed. Only one
+native owner, including a waiting watcher, may exist. Observe normal memory
+pressure continuously120s and recheck every consumed hash before each launch.
+
+Historical48 manifests pin their consumed code at owning commits; these edits
+do not rewrite or retroactively qualify those protocols. At this checkpoint64
+has test coverage only: no64 native result or physical accuracy claim exists.
+
+Verification: `python3.13 -m unittest discover -s research -p 'test_*.py'`
+passed124 tests in9.879s. `python3.13 research/moment_refinement.py`,
+maintained-research `compileall` excludingraw, and `git diff --check` passed.
+No separate repository typecheck is configured. Native64 qualification remains
+pending; offline tests do not replace it.
