@@ -9,6 +9,9 @@ writing it does not schedule continuous background execution.
 
 ## Active campaign evidence
 
+Read the [living scientific report](research/CAMPAIGN_REPORT.md) for the integrated
+answer, supporting evidence, reuse boundaries, and remaining acceptance gates.
+
 The present scientific lead is an accuracy audit of response quadrature,
 supported by a retained-input matrix-free gap workflow. A reliable physical
 response prediction and a portable cold-start workflow remain unproved.

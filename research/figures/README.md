@@ -34,7 +34,9 @@ The middle panel shows candidate sensitivity to enrichment, not experimental
 gap measurements. The right panel divides independently measured full native
 residuals by their registered targets; both ratios must be ≤1. No tested full
 candidate in this snapshot passes. Rank32 was not full-validated and receives no invented full-space point.
-Rank35 was independently evaluated and still misses both targets. Connecting lines
+Rank35 was independently evaluated and still misses both targets. Rank36 passes
+the RMS target but misses the maximum-residual target. The updated rank36 PNG
+was visually inspected for scales, labels and clipping. Connecting lines
 only guide the eye. These fixed microscopic inputs do not establish discretization
 convergence, conditioned solution error, or physical response accuracy.
 PNG was visually inspected for labels, scales, and clipping.
