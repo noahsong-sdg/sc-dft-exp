@@ -1,5 +1,24 @@
 # Research restart ledger
 
+## Latest — rank34 full contracts but fails; orbit export waiting
+
+Owner17667 TERMINALguardPASS524.858s/934281216B. StrictreaderPASS, exactseed
+preserved, tile/JaccontrolsPASS. Rinf5.00949e-9Ry,RMSratio0.000112069 FAIL
+unchangedtargets, improvingrank33~9x/~19x. verify_second_occupation_gap_result.json
+pinsreceipt/manifest. Thirdoccupationenrichment rank34->35 PASS13.22s/180436992B,
+relativedefect0.000132615. third_occupation_enrichment_result.json andprospective
+third_occupation_reduced_manifest.json prepared; no rank35/full launcher active.
+
+Orbitexport owner96156/PID35789 verifiedlivewaitingnormalpressure1 (45quiet
+secondsat10:36:58UTC). Pollsameowner; thenstrictassignmentandgap_symmetry_audit.py
+usingitsactualresponse-symmetry.txt. Afterorbitterminal, relative-selector
+materialcontrolprepared in relative_symmetry_material_manifest.json shouldrun
+beforerank35; do notlaunchcompetingwatchers. NativecandidatebuildPASS, existing
+relative_selection isonlygeometrychange. Scalecomparisonreader sharesstrict
+assignmentparser and explicitlydoesnotverifydirection; pinnedinputdecksdo.
+77regressionsPASS5.398s, compileall/diffcheckPASS, codecommit aa0e992public.
+No productionresponsefix or qualifiedgap. Goal active.
+
 ## Latest — scalar-gap orbit audit built/tested; full owner live
 
 Rank34 fullowner17667/nativePID22638 verifiedlive at3:29,892192KiB RSS,

@@ -30,7 +30,9 @@ candidate in 0.906 s, with mean gaps 0.13967/0.13884 meV. Its full-space
 validation finished in 599.93 s / 952 MB peak RSS but also failed: maximum
 residual 4.58e-8 Ry and residual/gap RMS ratio 0.00213. No stationary gap has
 yet been accepted. A second measured occupation defect now supports a prepared
-rank34 reduced pilot. Direct response-assignment reuse failed because the
+rank34 candidate. Its full check in524.86s/934MB improves the RMS residual
+ratio about19-fold to0.000112, but still fails both original targets. A rank35
+measured enrichment is prepared. Direct response-assignment reuse failed because the
 directional and Q0 paths produce different state counts; a symmetry-selection
 control restores the layout, identifying symmetry selection as the cause in
 this tested pair. This is a geometry diagnostic, not a production response fix.

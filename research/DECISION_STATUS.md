@@ -108,11 +108,11 @@ Mac runtime forecast is justified by the cluster logs alone.
 
 ## Next decisive evidence, in order
 
-1. Finish the running rank34 full check. Its reduced solve passes in0.810s,
-   but mean gaps change10.35% from rank33. Rank33 full validation failed:
-   infinity residual4.58e-8Ry, RMS ratio0.00213. The prospective
-   verify_second_occupation_gap_manifest.json records one bounded full-pass
-   decision using the measured599.93s/952MB cost; targets remain unchanged.
+1. Test the prepared rank35 reduced candidate after the current response
+   controls terminate. Rank34 full check completes in524.86s/934MB, with
+   infinity residual5.01e-9Ry and RMSratio0.000112. Both unchanged targets
+   still fail, but19-fold RMS contraction supports one further measured
+   occupation enrichment. No next full pass has launched.
 2. Qualify conditioning and refinement of a successful gap. A point residual
    alone cannot bound gap error near the transition.
 3. Resolve the failed direct response assignment before connecting a gap:

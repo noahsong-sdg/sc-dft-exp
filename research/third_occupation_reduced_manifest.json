@@ -1,0 +1,85 @@
+{
+  "question": "Does another measured occupation direction continue the rank34 residual contraction?",
+  "basis_columns": 35,
+  "beta": 19613.355577892344,
+  "context": "abfcecc2bacf7acac94a87e8d7cf4e88945bc589fea82dc9475106428818b74c",
+  "initial_amplitude_mev": 0.15,
+  "guard_seconds": 120,
+  "rss_cap_bytes": 3221225472,
+  "launch_normal_seconds": 120,
+  "status": "Prepared only; wait for orbit owner96156 and relative-symmetry material control to terminate",
+  "decision": "Rank34 full check improved RMSratio19-fold and infinity9-fold, but still fails stationarytargets. One cheap rank35 reduced pilot uses its measured defect/image without another kernel pass; no next full pass launched.",
+  "acceptance": "Unchanged reduced candidate gates; full native residual and conditioning remain separate",
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/reduced-nonlinear-005/reduced-nonlinear-solve.x",
+      "bytes": 87032,
+      "sha256": "e2d39193bf803ca9033ecfdf76fa76e8ced2b217a315005c20926f511dd25490"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/reduced-nonlinear-005/reduced-control.in",
+      "bytes": 438,
+      "sha256": "b573b9546a9ab989c9dd5f83e14c279aef89304d5860620d81b10cf25c46f9fe"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/run-reduced-nonlinear-005.py",
+      "bytes": 1961,
+      "sha256": "d909ef3e4080fa3f7356aa4bfe10712b96eb9f2f31adcafe80784b47c8f6ab4b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/enriched-basis-004/basis.meta",
+      "bytes": 187,
+      "sha256": "5a002081125f308a3d0f1fcc909d6ddff05728845c6d390021572db6fa0800e6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/enriched-basis-004/basis.bin",
+      "bytes": 76092800,
+      "sha256": "ffe89ec675cb6be06f64c4d098fdc999948f35a38ddd548bfb6eda013420d99f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/enriched-basis-004/enrichment.json",
+      "bytes": 3993,
+      "sha256": "5ab2cbbbe0f27934cda205cf3c887ac3b340d0989b99578fd130d7978cc4904b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/prepare_occupation_enrichment.py",
+      "bytes": 5239,
+      "sha256": "8329ca9d53b82abb42571dfa5ad8171e9a0d4cab72094fb3b89a9c760c65664d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/occupation_enrichment.py",
+      "bytes": 2218,
+      "sha256": "61b3eaccd5e9406bf4c1ad9787ecf589391cc3632a484129e0b43cc1702bb901"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/verify_second_occupation_gap_result.json",
+      "bytes": 2510,
+      "sha256": "ee1d807ffab455c77132e0926550b48b6e010e83bf38a9c89b1878a1834a1b9f"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.meta",
+      "bytes": 335,
+      "sha256": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.bin",
+      "bytes": 6523840,
+      "sha256": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/fresh-action/basis.meta",
+      "bytes": 202,
+      "sha256": "d45564e51567f33ebb512c33df91215534eecc032422986f218e86bd4f6066d7"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/fresh-action/selected.meta",
+      "bytes": 78,
+      "sha256": "1253b6c7975ad57363a62f8fd9441b6eb1a6ec5c88ba3cef6d466b5d24239687"
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/fresh-action/selected.bin",
+      "bytes": 2174080,
+      "sha256": "b7f1d360f9f5fdc08b758026a15cd1bd559fd55aba26c3ee9fcb988745c3d8e1"
+    }
+  ]
+}

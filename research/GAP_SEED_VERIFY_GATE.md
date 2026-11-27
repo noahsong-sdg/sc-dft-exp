@@ -124,3 +124,20 @@ another kernel pass. Preparation rank33->34 took13.20s /178307072-byte RSS;
 relative occupation defect0.000636889, new direction norm1 and old-basis overlap
 4.08e-19. This qualifies the measured enrichment algebra, not the inherited
 operator globally. A cheap reduced pilot is prepared, not yet launched.
+
+## Rank34 full native result: contraction, not acceptance
+
+Terminal guard PASS524.858s/934281216-byte individual peak RSS. Strict readback
+and exact seed preservation pass. Infinity residual5.00949e-9Ry and RMS ratio
+0.000112069 still fail1e-10Ry/1e-5. Relative to rank33, the RMS ratio contracts
+about19-fold and infinity norm about9-fold. Tile error3.9439e-15 and Jacobian
+finite-difference error3.4150e-9 pass the native controls. See
+verify_second_occupation_gap_result.json with receipt/manifest binding.
+
+This supports another cheap measured enrichment rather than changing tolerances.
+Rank34->35 preparation took13.22s/180436992-byte peak RSS; relative occupation
+defect0.000132615, new norm1, old-basis overlap6.96e-19. A rank35 reduced pilot
+is prepared in third_occupation_reduced_manifest.json, not launched. It must
+wait behind the material response controls. A further full pass still needs a
+source-bound candidate and explicit measured-cost decision. No conditioned gap
+or physical response has been established.

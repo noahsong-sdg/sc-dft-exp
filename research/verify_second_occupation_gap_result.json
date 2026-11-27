@@ -1,0 +1,68 @@
+{
+  "full_readback": {
+    "dimensions": [
+      66867,
+      67940,
+      67940,
+      4
+    ],
+    "beta": 19613.355577892344,
+    "finite_difference_step_ry": 1e-08,
+    "kernel_cpu_s": 490.295393,
+    "tile_sum_max_absolute_difference": 3.943893822633271e-15,
+    "jacobian_difference": 3.414974081294986e-09,
+    "jacobian_acceptance_bound": 1.0452595555257385e-05,
+    "sides": [
+      {
+        "side": 1,
+        "max_absolute_residual_ry": 5.009485585474627e-09,
+        "rms_residual_ry": 1.2092129583209912e-09,
+        "max_absolute_jacobian_action": 5.221297777628693
+      },
+      {
+        "side": 2,
+        "max_absolute_residual_ry": 4.855328367711718e-09,
+        "rms_residual_ry": 1.2069313837555394e-09,
+        "max_absolute_jacobian_action": 4.986047985499255
+      }
+    ],
+    "sha256": {
+      "full-map.txt": "9ae4c3701d8f7108e9385dc5b1b5a8b7142cad8ad2478626c8b33064edae0890",
+      "full-map.bin": "54d89ab57451169a2066d03dabea62a94af13db08094ca6fc9ac896724881b3e"
+    },
+    "scope": "Full native Q0 residual at imposed seed; terminal receipt required; no gap convergence or physical response validation"
+  },
+  "terminal_guard_pass": true,
+  "input_gap_bitwise_preserved": true,
+  "wall_s": 524.8583346251398,
+  "peak_individual_rss_bytes": 934281216,
+  "residual_infinity_ry": 5.009485585474627e-09,
+  "rms_residual_over_gap": 0.00011206870034857846,
+  "thresholds": {
+    "residual_infinity_ry": 1e-10,
+    "rms_residual_over_gap": 1e-05
+  },
+  "stationary_residual_targets_met": false,
+  "conditioned_gap_error_bounded": false,
+  "physical_response_verified": false,
+  "manifest_sha256": "cd7947c40957b6768c9647840ded71d77642a79c16e33905af49ff9c92a95d89",
+  "scope": "Certify declared stationary residual targets, never physical response accuracy.",
+  "terminal_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-003/verify-gap-seed.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-003/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/verify-reduced-gap-003",
+    "wall_s": 524.8583346251398,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 934281216,
+    "sampled_peak_group_rss_bytes": 913604608,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 1200,
+    "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+  }
+}
