@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "checkpoint": {
+    "context": "6efcf2d527d3c81ae9620e3280916bb6b58db4809e6683cf0795256ed9fcce62",
+    "counts": [
+      66867,
+      67940,
+      67940,
+      16
+    ],
+    "completed": 66867,
+    "beta": 19613.355577892344
+  },
+  "manifest_sha256": "989466be785a98c22b35c32a639a91e587b5af3d0bd6364f344c276452e707aa",
+  "receipt_sha256": "d7d54a339060cf66c4b72f8aba6110c7d121970c3baf6c786e55c7338f211979",
+  "checkpoint_sha256": "269093444d85537be8b7c07f8aa03e40b428923ef2992092103aa2d42d31f2af",
+  "metadata_sha256": "72bfec55b492ba2c9dc4ea5183bba1afa6d00009cd3527ade449bad5211c073a",
+  "executable_sha256": "7acfdaa748fae0be90c7b13321af42501e913804251665680e10a39dee5734ff",
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/usr/bin/make",
+      "-f",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/basis_production.mk",
+      "RESEARCH=/Users/noahs/Developer/sc-dft-exp/research",
+      "QE_ROOT=/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe",
+      "NATIVE_INPUT=/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-production-005/native.in",
+      "produce-basis"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-production-005",
+    "wall_s": 206.1747497501783,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 1044201472,
+    "sampled_peak_group_rss_bytes": 927629312,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 600.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "full_images_native_checked": true,
+  "physical_response_verified": false,
+  "full_output_sha256": {
+    "native-linear.meta": "874de626693520f098ebe90b1538b549df0961421067856a94f91c4273e302f5",
+    "basis.meta": "464c9934a70ac8effbc1f1b230d3dbff0754eefccb18dc1a39fdf97f34e07556",
+    "basis.bin": "7bd26b5491260de4cd11cdf4b3cfe04a6ee0c659df4cba94762bef021209532c",
+    "ritz.meta": "d8587cc860030797b00f7dc5415b2f7a8c3a6cade8dc47db3e92b127efcb1d5c",
+    "reduced.bin": "0336bab75336cf2179d997463950a1c137a98e9e05fc742f68a8780110a6a9b3",
+    "selected.meta": "e30fe8733911ae3484e18befae3bf85dd831106d61b32433c3f633963a49c7b1",
+    "next.meta": "efc8597520e0d83a0da13b5d929a3cd5fde4a74a3d6d7b23e44bbda8104dcd95",
+    "next-vectors.bin": "d584145dff4c39b3cd2d20167404be23af68c1c60d47222b7952a2583ba619c8"
+  }
+}

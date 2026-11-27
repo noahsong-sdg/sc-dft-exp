@@ -66,3 +66,14 @@ Actual-input restart qualification now PASS: portable_basis_split001_result.json
 The source-built32-row traversal and serialization are bitwise restart-equivalent
 for1:64 vs32+32 across all16columns aftercache/slabreset. Complete16-vector
 images and independent complete-row/column nativeoracle remain pending.
+
+## Initial complete images accepted; enrichment required
+
+All66867leftrows and16images now complete, normalizedonlyatend; sixuncached
+complete row/column samples matchedexactly. Independentbinaryreadback confirms
+Gram/projection/residuals. See portable_basis_production005_result.json and
+initial_basis001_result.json. No conventionalmodeaccepted atdimension16; largest
+positive Ritzvalue0.917756 with0.234relative residual isnotconverged. Applythe
+operator to16emittednext-vectors, appendtobasis underunchangedoperatorcontext,
+thenrepeatRitz. Distinctbatchidentity mustbindnewtrialpayload/oldbasis/source and
+checkpointintervals. Preserveunchanged nonlinearandphysicalacceptancegates.

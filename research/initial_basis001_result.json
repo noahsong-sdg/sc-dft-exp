@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "basis_sha256": "7bd26b5491260de4cd11cdf4b3cfe04a6ee0c659df4cba94762bef021209532c",
+  "reduced_sha256": "0336bab75336cf2179d997463950a1c137a98e9e05fc742f68a8780110a6a9b3",
+  "analysis_source_sha256": "f20278c2f3df6ac4cad2da9a358f06a9464e98d0dcb23a39efa72201a336017a",
+  "gram_error": 2.8754776337791554e-14,
+  "projection_error": 1.554312234475219e-14,
+  "real_modes": [
+    {
+      "index": 1,
+      "eigenvalue": -2.9758559722326083,
+      "relative_residual": 0.14322139398187536,
+      "native_channel": -1
+    },
+    {
+      "index": 2,
+      "eigenvalue": 0.917756368128286,
+      "relative_residual": 0.23419716455529083,
+      "native_channel": -1
+    },
+    {
+      "index": 3,
+      "eigenvalue": -0.19741474065993858,
+      "relative_residual": 0.9963027619061312,
+      "native_channel": -1
+    },
+    {
+      "index": 4,
+      "eigenvalue": 0.04552881405231851,
+      "relative_residual": 0.9104840930661247,
+      "native_channel": -1
+    },
+    {
+      "index": 5,
+      "eigenvalue": -0.003222597048476416,
+      "relative_residual": 0.9994047650417559,
+      "native_channel": -1
+    },
+    {
+      "index": 6,
+      "eigenvalue": 0.00042860095699159606,
+      "relative_residual": 0.9999763225607105,
+      "native_channel": -1
+    },
+    {
+      "index": 7,
+      "eigenvalue": 0.0003837535922196095,
+      "relative_residual": 0.9999538390540376,
+      "native_channel": -1
+    },
+    {
+      "index": 8,
+      "eigenvalue": -0.00024173777427575205,
+      "relative_residual": 0.9999698971521933,
+      "native_channel": -1
+    },
+    {
+      "index": 9,
+      "eigenvalue": 0.00018437592731339615,
+      "relative_residual": 0.9999884684097812,
+      "native_channel": -1
+    },
+    {
+      "index": 12,
+      "eigenvalue": 4.0879519588534286e-05,
+      "relative_residual": 0.9999955530616441,
+      "native_channel": -1
+    },
+    {
+      "index": 15,
+      "eigenvalue": 8.227125524837389e-06,
+      "relative_residual": 0.9999997206939586,
+      "native_channel": -1
+    },
+    {
+      "index": 16,
+      "eigenvalue": -6.232906001670296e-06,
+      "relative_residual": 0.999999839896147,
+      "native_channel": -1
+    }
+  ],
+  "selected_index": 0,
+  "gap_converged": false,
+  "physical_response_verified": false
+}

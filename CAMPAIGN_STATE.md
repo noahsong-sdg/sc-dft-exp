@@ -376,3 +376,33 @@ retain250–300s forecast as estimate notbound. Only finalcompletion maynormaliz
 and run uncachedcomplete-row/columnoracle before initialRitzbasis.165offline tests/
 178sourcecompilation/moment gates lastPASS; no scientificcodechanged. PublicCI
 46055380357 on4750beePASS. Fullimages/basis/gap/response notyetaccepted.
+
+
+## Complete fresh16-vector images and initial Ritz basis qualified
+
+Final005 terminalPASS206.174750s/1044201472B individualpeak (group927629312B).
+All66867leftrows complete, final17715rows segment. Source-onlydriver normalized
+onlyaftercomplete, then sixuncached complete row/column sums matched exactly
+(absdifference0, frozenbound2.34438533480045225e-13), before initialRitzbasis.
+Nativecheckpoint roundtrip and independentPython context/metadata/finite/padding
+checksPASS. Public/consumedmanifest identical, allpostruninputs/16linkedarchives
+verified; no historicalcustomobjectpath. Fulloutputhashes in production005result.
+Guardedtotal3322.467223s includingcompilefailure; historical189.29min separate.
+All nativeowners terminal; old50422/session12782 iscomplete, no queuedjob.
+
+Independent initial_basis_analysis reads nativebinaryarrays, reconstructs Q^TQ
+andQ^TAQ usingPython fsum, and recomputes full-image residuals of all realRitz
+modes. Gramerror2.8754776337791554e-14; projectedmatrixerror1.554312234475219e-14;
+allresiduals agreewithin5e-12. No conventionalmode accepted (selectedindex0).
+LargestpositiveRitzvalue0.917756368128286, relativeresidual0.234197164555292;
+this coarse16-vector basis isnotconverged anddoesnotestablish absenceofpairing.
+16new enrichmentvectors emitted. Need applytheoperator tothosevectors, appendto
+same operatorcontext and repeatRitz, up toregistered64-columnlimit. Keepnewtrial
+payload/checkpointidentity distinctfromunchanged physicaloperatorcontext. Do not
+relaxchannel/residualgates or consumeunqualifiedselectedmode. Nonlineargap and
+physicalresponse remainunachieved. No Tcclaim follows frominitialRitzspectrum.
+
+167offline testsPASS11.158s;180maintainedPython sourcescompilePASS; momentreplay
+anddiffcheckPASS. Known nonsymmetricmatrix validatesindependentresidualreader;
+stale-size/nonfinitepayloadregressionsPASS. Actualnativefull-imageoracle/Ritz
+PASS. ProtocolpublicCI46056063407 on2cfcba1PASS. Energy/modelbillingunknown.
