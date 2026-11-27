@@ -2243,3 +2243,16 @@ are saved for independent arithmetic analysis. No gap-state acceptance follows.
 139offline testsPASS15.146s; compileall/momentreplay/diffcheckPASS.
 Regression measures one-ULP stale-weight change, rejects malformed/nonfinite
 payloads and preserves existing destinations. Prior failure CI46038021563PASS.
+
+
+### Current quadrature discrepancy measured; fresh-state route selected
+
+Probe001PASS0.592295s/96747520B; manifest/input/receipt/executable readbackPASS.
+All100transformednodes match. Only dx0[52] differs13ULP/6.88214269644119e-22.
+This reproduces historical signature, not a new causal COS intervention.
+Independent75digit rule momenterror throughdegree199<=1.036e-73; upstream
+scalar binary64 momenterror<=2.404e-14. Neither establishes a responseerrorbound.
+No production arithmetic or strict acceptance was changed.140testsPASS13.313s;
+compileall/momentreplay/diffPASS. Prior prospective CI46038278012PASS.
+New guardedtotal82.482673s. No owner remains. Fresh Mac state/Z/basis path is
+selected rather than silently mixing contexts; see GRID_PORTABILITY_FINDING.md.

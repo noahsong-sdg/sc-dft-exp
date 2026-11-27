@@ -36,12 +36,15 @@ Strict retained8.05K check001 is terminal FAIL61.246787s/911048704B:
 unchanged and public/consumed manifests identical afterrun. Original gate stays
 unchanged; no residual or response qualification follows. No native owner remains.
 New guarded total81.890378s. Public result/console retain the failure.
-Next: source-built tiny quadrature diagnostic to measure current dx0 discrepancy;
-trace energy_grid -> weightspoints_gl -> COS/Newton -> weights before fixing.
-Historical arithmetic diagnostics suggest a platform cosine seed sensitivity,
-but that is not proof of the current mismatch. Do not inject old grid values.
-The microscopic/Z/basis inputs remain retained; a fresh internally consistent
-Mac grid/Z/basis path remains necessary for the actual physical goal.
+Tiny source-built quadrature probe001 terminalPASS0.592295s/96747520B.
+All100xi0 match; only dx0[52] differs,13ULP/6.882e-22absolute. Historical platform
+signature matches, but no current controlled COS intervention was performed.
+Independent75digit quadrature passes degree199moments(~1.036e-73); this is not
+an interval proof or response bound. See GRID_PORTABILITY_FINDING.md and results.
+Native guarded total82.482673s;140testsPASS13.313s; compileall/moment/diffPASS.
+No native owner remains. Next: fresh genuine Mac initialization export, compatible
+Z generation and basis/solve; retain the failed old-context check unchanged.
+Do not inject old grid values or silently reuse incompatible retainedZ.
 
 New native pilot ceiling4wallhours, prior campaign189.29min accounted separately.
 Hardware rechecked:M5/10cores/32GiB,normalpressure,~151GBfree. Preserve dirty
