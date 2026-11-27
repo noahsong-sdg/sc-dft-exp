@@ -406,3 +406,22 @@ physicalresponse remainunachieved. No Tcclaim follows frominitialRitzspectrum.
 anddiffcheckPASS. Known nonsymmetricmatrix validatesindependentresidualreader;
 stale-size/nonfinitepayloadregressionsPASS. Actualnativefull-imageoracle/Ritz
 PASS. ProtocolpublicCI46056063407 on2cfcba1PASS. Energy/modelbillingunknown.
+
+
+## First enrichment application staged under unchanged physical operator
+
+portable-basis-enrichment-001 rows1:16384 stages the certified16next-vectors from
+production005. Nativecontraction subroutine byteidentical to qualifiedproduction;
+regression enforcesidentity. New batchcontext binds oldbasis,next-vectorpayload,
+sourceandallinheritedinputs; separateoperatorcontext preserves acceptedinitial
+basiscontext6efcf2d527d3c81ae9620e3280916bb6b58db4809e6683cf0795256ed9fcce62.
+Partialcheckpoints usebatchcontext, finalRitzappend usesphysicaloperatorcontext.
+No oldimage is relabeled as a newapplication. Finalcomplete66867 requires
+uncachedrow/columnoracle before append16tooldbasis. Maxbasis64 unchanged.
+
+Same32-rowtiles,600s/3GiB/quiet120; forecast250–300s per <=17715rows including
+setup, previous187–206s; estimate notbound.169offline testsPASS10.122s;
+182maintainedPython sourcescompilePASS; momentreplay/diffcheckPASS. Admission
+regressions coverchangedvectors/context andexhaustedbasis. Actualnewdrivercompile/
+runtime pending. PriorCI46056851956 on14ce875PASS. Guardedtotal3322.467223s
+unchanged. No nativeowner beforepublication/launch. Gap/response goalincomplete.
