@@ -121,3 +121,13 @@ verify the initialized arrays and Z exactly, preserve the candidate input,
 pass occupation/tile/Jacobian controls, and satisfy unchanged residual targets
 (1e-10Ry maximum and1e-5 normalizedRMS). Conditioning, discretization,
 response mapping and physical normalization remain additional gates.
+
+
+## Conditioning acceptance, separate from stationarity
+
+See [GAP_CONDITIONING_PROTOCOL.md](GAP_CONDITIONING_PROTOCOL.md) for the
+fixed-operator Jacobian/sign convention, a possible reduced inverse, a
+sufficient local full-space certificate and transport to stiffness/ratios.
+No such bound has been measured yet. A finite set of actions or a compressed
+condition estimate does not control the unmeasured complement. The existing
+stationary thresholds and registered1% response target remain unchanged.
