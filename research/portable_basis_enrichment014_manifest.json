@@ -1,0 +1,3995 @@
+{
+  "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-014",
+  "command": [
+    "/usr/bin/make",
+    "-f",
+    "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/basis_enrichment.mk",
+    "RESEARCH=/Users/noahs/Developer/sc-dft-exp/research",
+    "QE_ROOT=/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe",
+    "NATIVE_INPUT=/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-014/native.in",
+    "enrich-basis"
+  ],
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/fresh-gap-init-001/native-init.meta",
+      "bytes": 335,
+      "sha256": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/fresh-gap-init-001/native-init.bin",
+      "bytes": 6523840,
+      "sha256": "f0873f6a0dd6bbd7f435f9045e2225119b0fae4a0a28f025c2ee90032bda169b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/fresh-gap-init-001/native.in",
+      "bytes": 414,
+      "sha256": "d152ac53720dbb50b9706ab294c1cf3028f9e9839de4192d973aecaf1eb536fa"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_response_inputs.json",
+      "bytes": 8886,
+      "sha256": "31cbcbef74f3f2f4a2c9432253a1a68214d2ecd9476926c759cb77563bac6687"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.a2Fsave",
+      "bytes": 500838,
+      "sha256": "e331b8c2e7d9e55c6efa158d37ee6ef2e51301c5ffc67e0f2b11527738ee8a90"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.save/data-file-schema.xml",
+      "bytes": 1922580,
+      "sha256": "8576d6aae7a680916ab64bd21fed3ed0f4354f420f4ac2ea681fd3595e540bac"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.save/Nb.pbe-spn-kjpaw_psl.0.3.0.UPF",
+      "bytes": 2052531,
+      "sha256": "ccf07218ea34daaa63ff57d9f44ca8b4b529728cccbc8f74dd5fc804ac01e48e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.save/charge-density.dat",
+      "bytes": 331888,
+      "sha256": "1eb9af07995d970ae1c5ea73ce7a0ac83a54a7987d667509efb9204672289205"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.save/paw.txt",
+      "bytes": 3755,
+      "sha256": "0c7aa84653216c5ecac06f052f9c46c1a6b37a36ade321e3354335afbe2d2706"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_1/pwscf.elph1",
+      "bytes": 309401,
+      "sha256": "b2ebc49e6d4a59858acb3da6c0b5db81018bcda9ba947f7d7360b9fd5bfdb8f3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_2/pwscf.elph2",
+      "bytes": 309398,
+      "sha256": "651be4c47ca04faefae2ae4c359e13773ea649d2a0d9694777a9d060c4ec9eff"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_3/pwscf.elph3",
+      "bytes": 309398,
+      "sha256": "84b9fa395d98433fb7ebbe32227c32a5ede4a41da7296575adf05c4cf2cd4a93"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_4/pwscf.elph4",
+      "bytes": 309398,
+      "sha256": "d7edfb4c077f9e62c3e628a1bb0201b8a901296235160dbc6429b64e865090eb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_5/pwscf.elph5",
+      "bytes": 309402,
+      "sha256": "3ee343dc21068376555e15b382cb19cbd0aac9de94175660e06ce8dc960f9960"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_6/pwscf.elph6",
+      "bytes": 309395,
+      "sha256": "bf52bdb5946b48d03a233d3b0a37c4dd6bec226acc35cae8276f19885f29ae3e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_7/pwscf.elph7",
+      "bytes": 309395,
+      "sha256": "ddaf6703383fbf93f9aa12af9938e94c6f78bee7f8b3abb76585c6b9f6875909"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_8/pwscf.elph8",
+      "bytes": 309396,
+      "sha256": "272ef0b964af9e33b4152825387a4268469aef95a248a6ed3b806ff22ba24e64"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_9/pwscf.elph9",
+      "bytes": 309395,
+      "sha256": "86cb70f379d0ac6f46c394ce2c97c85814a16cf0a592dc3a99fd3ea1e5f5ea22"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_10/pwscf.elph10",
+      "bytes": 309396,
+      "sha256": "ee5d6ee4f94b5e964b0e84f19857633f73c62c93f7dac44509bd28f33e262373"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_11/pwscf.elph11",
+      "bytes": 309396,
+      "sha256": "60d27e6600d37f1b0cd08bde11ad8d65723c15fb095f207dd8866f9dcb641231"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_12/pwscf.elph12",
+      "bytes": 309396,
+      "sha256": "233460cffe84d40bf6d5d7d57ca332a1ba18eae6ce2a41a9c73ce4803062a6c5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_13/pwscf.elph13",
+      "bytes": 309396,
+      "sha256": "372f4f2b92ab3a240df4b0c98bf36d4ae6281e96b2f0533797078124911c09d0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_14/pwscf.elph14",
+      "bytes": 309397,
+      "sha256": "75a4ae06e50dc4f1cb04358285e0de359a1d9a3a1540a02a42a8203262fddb1c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_15/pwscf.elph15",
+      "bytes": 309397,
+      "sha256": "e5b46c4b7b8045699c30e6d06c07eeb48e6a6535d9b969bbf3b7950a2cd7b6a7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_16/pwscf.elph16",
+      "bytes": 309392,
+      "sha256": "2e7e693357872d506e90decc6cd0218879977b19e2b9e59ad0f7aa7c86c9a506"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_17/pwscf.elph17",
+      "bytes": 309392,
+      "sha256": "3e0ad20c8949b42fe17d65d0f7d8c17218211c5de765ae53631362151dc82b52"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_18/pwscf.elph18",
+      "bytes": 309393,
+      "sha256": "ff819c74b3ad38be50fa1613b1860dc37ac2ee54de59a666d2692b5d70e5322b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_19/pwscf.elph19",
+      "bytes": 309393,
+      "sha256": "0badf95c0b6a3756fa13865214fe0f05ff89ee0d849ee2d3740e10df38a9a130"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_20/pwscf.elph20",
+      "bytes": 309393,
+      "sha256": "966e4c679bdfc5a19b0cfd87e067df3ad201bc07ab03175c35636dc921e3d9c0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_21/pwscf.elph21",
+      "bytes": 309393,
+      "sha256": "16ea3f48522f2ebb4f59cc60a3922390d45d9c3a81c9b2c7e80d2bae3b461c5f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_22/pwscf.elph22",
+      "bytes": 309394,
+      "sha256": "8ee1f3d572edc0ee84fe193195e46df6e4ff33d92f1a991caeda564aa4ca8172"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_23/pwscf.elph23",
+      "bytes": 309393,
+      "sha256": "c06353cf1faeef35411cc5228f9137b35fcb70d52f1c2b4e7e6986ded5821741"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_24/pwscf.elph24",
+      "bytes": 309393,
+      "sha256": "003dde86fbe3729404be24458bd9266e44c95897ce0ec38e8987547a7b1ba4bb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_25/pwscf.elph25",
+      "bytes": 309394,
+      "sha256": "0114779d7cb8af2fba6f7c232285ce0a87d86acefba3d08655a5b7a2c4d15945"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/_ph0/pwscf.q_26/pwscf.elph26",
+      "bytes": 309393,
+      "sha256": "5fbbbebd31f7892a84d272687381d88f4442b8172a2b4174b885bc7fe565434d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_gap_coulomb_inputs.json",
+      "bytes": 6771,
+      "sha256": "f7004314f332b8c4a74b664a06cd1866503446917cd46979a777be3561cb043c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel1",
+      "bytes": 55378012,
+      "sha256": "90426552853f9e9029a8dea43ceb31a54d401fa2f3c4f1dbcf58d85af571a00a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel2",
+      "bytes": 55378012,
+      "sha256": "21c641239c7d8d0f7d3bb88354f13e2cb4494f33701e7a3737b1f89e8d0b5273"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel3",
+      "bytes": 55378012,
+      "sha256": "400e3f97e7f6f298a1c691d28bdacbf1fe19bb1741493929225d81acc9c78732"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel4",
+      "bytes": 55378012,
+      "sha256": "15c8204ac1aec1b61ce2823cfc9e174ddd42f78646681771ee1c1d6e531eb0a3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel5",
+      "bytes": 55378012,
+      "sha256": "c8dfff93e49ed7eca2ff15f8b40e8a0cc29a225fa391f64de80b341b5cdc9d1e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel6",
+      "bytes": 55378012,
+      "sha256": "5ade6e82bb5c02c9f89af166734aacc581b08bd469a8a87b2863a28bdcb3a5f5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel7",
+      "bytes": 55378012,
+      "sha256": "30f5b7fb849186190fb8ed3699609e6651a2559cfc5efd6a12c18307a6a23eb6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel8",
+      "bytes": 55378012,
+      "sha256": "ad44923a33ff7484d1b06bf84149300ffd9437d77f6d8ac29b1fa6975c8386f2"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel9",
+      "bytes": 55378012,
+      "sha256": "e2c4d8ff62098fea818911c6198eaaa6322d64b1a05d2ac7e627b8868e5f7055"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel10",
+      "bytes": 55378012,
+      "sha256": "f553f941949502dde77c85cf542c44ff7688e3748bc59aa397341a618aaffd94"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel11",
+      "bytes": 55378012,
+      "sha256": "9c7c4211ea84eaeea8406706d2bc16f41900782a8bd36e7225af0dc836ec4933"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel12",
+      "bytes": 55378012,
+      "sha256": "76d9f0329b21919ff621feea070ae75426bfc825e2ef737b04c0c897ea08203e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel13",
+      "bytes": 55378012,
+      "sha256": "669446ce6f7c70c8055a6970563cb4cada8f4283deb97834396430edc603ebf9"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel14",
+      "bytes": 55378012,
+      "sha256": "969a1046e9209fcb8adcce0027c8a1a023ef3fd832e9f77c715c78fdc93f52b2"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel15",
+      "bytes": 55378012,
+      "sha256": "c591ac329a54d8d16e61237731dca3e65ec666499127e06009aee8eb548260d9"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel16",
+      "bytes": 55378012,
+      "sha256": "ec410136227ebda7094b1031ccf28111ff048a58f60a374af6b9a2691851d406"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel17",
+      "bytes": 55378012,
+      "sha256": "7c2761cdd4929fcb30a102f13f3558862d2fd8fc339df4b1320205a513e12a65"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel18",
+      "bytes": 55378012,
+      "sha256": "0825f9229a868d10005a12fe92cea245366e1c94522feb2077417eac65255e54"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel19",
+      "bytes": 55378012,
+      "sha256": "f2d9632862cd8ba7bce1cd578cefb760abb795755420df879dadbe31d864285f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel20",
+      "bytes": 55378012,
+      "sha256": "e60dac2f4e55dfb42f8d212406625d30b8e90022da1505425f2abbc2b1a3fdfa"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel21",
+      "bytes": 55378012,
+      "sha256": "1af6dbedb7fc842f7a054ac955de8c66f3ce27f776c00c50925335302fe4555c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel22",
+      "bytes": 55378012,
+      "sha256": "03a73505333e9e6d7034ab7998afaa2b21dcee26cf81ad360606a3ee5f74b52a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel23",
+      "bytes": 55378012,
+      "sha256": "d001f2280c2ef853938a413f47ac7e0dcc5065097cd0ef83a4d7c09bfcfa0b8c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel24",
+      "bytes": 55378012,
+      "sha256": "2751b226a339d251d74a387be76ef6612423b08e76c682620b1c2a81583426ed"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel25",
+      "bytes": 55378012,
+      "sha256": "c84dec158f5526894b0df4e63bfcc60d90f7e0cdd94c5472f1140342f5d7fbaa"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.vel26",
+      "bytes": 55378012,
+      "sha256": "dc2360e6bcd2cc708c921f08a31dea63dd0096c02c8cd6586fceb919a703d6b9"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_z_sweep.py",
+      "bytes": 10971,
+      "sha256": "6ae8e8064da6a767ca8fb269f9ea117f2e0b65788afb1d8fe39699314f062ada"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/macos_native_guard.py",
+      "bytes": 8195,
+      "sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_response_probe.mk",
+      "bytes": 1283,
+      "sha256": "87abe126d35ef3a3f650b9c77eb53390efdd75e7aad51b4c559fc0ece88bdcdf"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/build-result.json",
+      "bytes": 4654,
+      "sha256": "bbeedad010efbf5a0a645bdc45786b9e0001719c97a0a0158cd2e56e6589ebb5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/make.inc",
+      "bytes": 6624,
+      "sha256": "1e2b920b258b45d61ee9114938e8622a2302111b0ad460642b33d4dcb29d4c65"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/z_sweep_driver.f90",
+      "bytes": 4448,
+      "sha256": "896933c568786b97060d9e53aa13b4ffc43efd50df32f7fa69c37674633f45dd"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/z_checkpoint.f90",
+      "bytes": 3359,
+      "sha256": "951ebaa0c1795b539170e942cca4a7d7f1e1a7cdacd6debd5bb5b3b34696a640"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/z_sweep.mk",
+      "bytes": 596,
+      "sha256": "4002bd7f8d794b0fcb8cb368250f969164beaf0fe5a675d495341040e45f9883"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/z_partial.mk",
+      "bytes": 841,
+      "sha256": "323bab20739da0f3724e396199abffdd12f5032893bf08778a3173be41ad4b33"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/z_build.mk",
+      "bytes": 762,
+      "sha256": "e8ca6e1d76c87cf399189a62f4ce3f154a3e6ed715b26982afe2897b65063432"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/prefix_operator.f90",
+      "bytes": 2456,
+      "sha256": "f53f9e7bb9a18a4d158ec0cbd8314e72b8b24cbb6f9e7ab5f4ae37e6448fa129"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/zsf_workspace.f90",
+      "bytes": 5002,
+      "sha256": "3f07c34dd792f63efd27868fd1dd6d46322999969befe34be8b59b7ae3200b95"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/native_rotation.f90",
+      "bytes": 8338,
+      "sha256": "a34f6485025505c0dfe8b5497f8f8f98e45b87d48dc0d871de168a6843438c3e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/slab_operator.f90",
+      "bytes": 2607,
+      "sha256": "ebf038d85a48e6034476bad18be7a95748f4e6f75b9537a61779c63a050ea3f8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/native_state_io.f90",
+      "bytes": 8253,
+      "sha256": "1d3c2e0651b78aa9caa665506798c98da062edb4bd4a4516784eb25c479825b4"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/native_coefficients.f90",
+      "bytes": 1922,
+      "sha256": "c4e375667d79d579860ae178b12667e9a2994cb18b4d95728287820ebc391991"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/hash_stream.c",
+      "bytes": 1637,
+      "sha256": "f5cb99395a5e7dae1d334d652b39000cc5e808c04d4b7dec58f53151977f4918"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/hash_pipe.c",
+      "bytes": 641,
+      "sha256": "58874b874b0881644c99701b7bb57b041cbec8dce583296659af6dfec34003e5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/lapack-build/CMakeFiles/FortranCInterface/VerifyC/libVerifyFortran.a",
+      "bytes": 1480,
+      "sha256": "fd9eef112188f7a59ae9a637460a4acb0fa587dfb4ab0ce06d6c5ae4b4a50abc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/lapack-build/CMakeFiles/FortranCInterface/libmyfort.a",
+      "bytes": 2816,
+      "sha256": "e6a1d75baae0250ca8559af4306399bac0ae152d68142958884a83aa59f21207"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/lapack-build/CMakeFiles/FortranCInterface/libsymbols.a",
+      "bytes": 26864,
+      "sha256": "95160bcc15a9271fc43c9b6631880e14acb940bf339aab0f135ff9fdcad90cfa"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/lapack-build/lib/libblas.a",
+      "bytes": 408608,
+      "sha256": "7e9d7deb845da206e72e1c64401d2e86aeb9ad52581c5f6c28237b7bada12569"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/lapack-build/lib/liblapack.a",
+      "bytes": 8463672,
+      "sha256": "fd609240dea1e3a9bcb79fc59db48f0bc3de32fc5159ec8b1b48462bfb82a362"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/FFTXlib/src/libqefft.a",
+      "bytes": 414616,
+      "sha256": "2ab90dfcfda438f2de9b34c788fbf901de452bd7a301d4c5bd58bcb97f4f0f12"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/KS_Solvers/CG/libcg.a",
+      "bytes": 46152,
+      "sha256": "d0aee5d509cea5c247660aa3fb6521671492951e2ab8d61e7f765f006f71eb6b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/KS_Solvers/DENSE/libdense.a",
+      "bytes": 203728,
+      "sha256": "64ca8c14ae60909557050bcc6e51f109a2a6f50e66ad0346591c7e8ca38b75d0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/KS_Solvers/Davidson/libdavid.a",
+      "bytes": 93120,
+      "sha256": "0e9e528d830cc7bd78e7f1353c6351da8f25f7b4e3108f4a22185245cb86199e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/KS_Solvers/Davidson_RCI/libdavid_rci.a",
+      "bytes": 21008,
+      "sha256": "eaaf597c5c081a788ac25f9cb6476df8369cdd8b414ad1eed657455b131e698c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/KS_Solvers/PPCG/libppcg.a",
+      "bytes": 312552,
+      "sha256": "97e83345b76c7dfbe311c8faf6c26feb71f2e5ff0529d33e5521d26c8ddfb451"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/KS_Solvers/ParO/libparo.a",
+      "bytes": 60864,
+      "sha256": "da9b0057ad14dc5e7828be8c4a14680459d4f3f8090565629a3b105679ad3809"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/KS_Solvers/RMM/librmm.a",
+      "bytes": 192704,
+      "sha256": "f3a60cd98ddb22d245cece6d4c7d72fa3a45b0fd1529a81a4f72a0df4dc56f8d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/KS_Solvers/libks_solvers.a",
+      "bytes": 929536,
+      "sha256": "e571278496e24b3f174275e5365a9c68aa907f688bac81b6374a5a1e42c768af"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LAXlib/libqela.a",
+      "bytes": 121592,
+      "sha256": "e469a0dd4ec030cd70b3265ddc40d27909a554aa3ed8f536c0cc84a81f010619"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LR_Modules/liblrmod.a",
+      "bytes": 604696,
+      "sha256": "5886b3c5cabe1031db5a75a86a389b70c678a3ffc84a08fa32b55c5b15d81b23"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/MBD/libmbd.a",
+      "bytes": 422664,
+      "sha256": "cef2bbef6385aac4b5a5c94d6e398982829a792a24ba2ace7d35a55dba190b4b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/libqemod.a",
+      "bytes": 4367640,
+      "sha256": "190356ae1124182252ae98518a794bd9a0c885868d11b334af66960dd15a7bba"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/Gamma/libphcg.a",
+      "bytes": 150800,
+      "sha256": "ce5427a01475da7f3ce903fd6f8794ceb6396bfcd30310d6ee73ad3c89d538fc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/libph.a",
+      "bytes": 2101872,
+      "sha256": "d642967ef489c2055dbd29ff7e64a31756d6a4b02b072b46c3a2607d51e0fdcd"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/libphaux.a",
+      "bytes": 11352,
+      "sha256": "e1e0dbabcf4ebb96c7017971d5311d842babe8833fd2971786c51ede19fd2e81"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PP/src/libpp.a",
+      "bytes": 882152,
+      "sha256": "23bbeae743227b5ce0f1a82cc5780db38983fb8dbcd776d41e1c3e607806655f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/libpw.a",
+      "bytes": 4138456,
+      "sha256": "e939db17715c31b58090b76547de521fd3030e9d8773f04aa6d4c217e5884b92"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/libsctk.a",
+      "bytes": 607232,
+      "sha256": "dfe5274366eba2df9dd9e7f8690b535a872da6760c68e07fc13ddaf4b1a047ba"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/UtilXlib/libutil.a",
+      "bytes": 129824,
+      "sha256": "969d36f8fc586a46cd478892ea502d0bb60000def1aa07935df830c3309a4335"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/XClib/xc_lib.a",
+      "bytes": 258096,
+      "sha256": "42c028e597f2ad55480da01ba3b8f1bb4f302c32690e1abf7834f2b6866a692b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/dft-d3/libdftd3qe.a",
+      "bytes": 1625792,
+      "sha256": "d4d6b0d40624da711fcdbef42740651e63d2b18e38ee063f82b465d87dd2bf47"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/devxlib/src/libdevXlib.a",
+      "bytes": 108000,
+      "sha256": "856914447fccc51d6b1592ab7b61df7bd65e60fc3bd45c52ec8cb97013512781"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/mbd/src/libmbd.a",
+      "bytes": 422664,
+      "sha256": "cef2bbef6385aac4b5a5c94d6e398982829a792a24ba2ace7d35a55dba190b4b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/libupf.a",
+      "bytes": 702728,
+      "sha256": "6cec6ab9732a4f028bc8f4a0520d06dbd1e0392fcfd27b701d5edeb88202a970"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/FFTXlib/src/fft_buffers.mod",
+      "bytes": 2085,
+      "sha256": "f9ce9290783529bff0c56ecc3bcfdb51f541fc5181bf11e5434cca34f3fefe86"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/FFTXlib/src/fft_ggen.mod",
+      "bytes": 1616,
+      "sha256": "c7bd4a6e75a44517cfc474346f517e365a2f2f8760967e6f7898a8ef2cb41aae"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/FFTXlib/src/fft_helper_subroutines.mod",
+      "bytes": 5908,
+      "sha256": "40fc638e6db91dbef43ecec46fb4cbba32765f58fd7244028452d711f3c713bb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/FFTXlib/src/fft_interfaces.mod",
+      "bytes": 3628,
+      "sha256": "6c9628dba6a5e1ae317967de99252e0a89ca6d69a0204e6ddf7f5bffbe8ac8f4"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/FFTXlib/src/fft_parallel.mod",
+      "bytes": 4918,
+      "sha256": "6c15c5d155a985ea27a35427f2cf2f29f382a96b4be21737d60a555ffe044c98"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/FFTXlib/src/fft_parallel_2d.mod",
+      "bytes": 1931,
+      "sha256": "df2ed9ace2429136cf0f6d2cc212f3159b8417df293c6af21f848f8f24c83781"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/FFTXlib/src/fft_param.mod",
+      "bytes": 588,
+      "sha256": "21e30ed38bf07fa1d1d54fe29a69822416d9e0ce9b2f5bbad3b69219772653eb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/FFTXlib/src/fft_scalar.mod",
+      "bytes": 1520,
+      "sha256": "3a111b7492d09816e7be93cb24e79dde4f4478adaef75b709a166bd64aa3536f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/FFTXlib/src/fft_scalar_cufft.mod",
+      "bytes": 180,
+      "sha256": "2da93cfdb87f7ffdddddec10b9712e9fd034911dd225b70771492a24d612ad30"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/FFTXlib/src/fft_scalar_dfti.mod",
+      "bytes": 179,
+      "sha256": "a212bf0e23aedd6b73c9e2f109aa21486ab38a6e0e340035d1fa33550b76aa9c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/FFTXlib/src/fft_scalar_fftw.mod",
+      "bytes": 1572,
+      "sha256": "48914f4ce8db03ee84f20ad39c6d8de1eb51bdef1fc474346a68cd1f23346321"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/FFTXlib/src/fft_scatter.mod",
+      "bytes": 2618,
+      "sha256": "1013503bc57dbcb1133d264392542d5a335907d6bc5276e8312f8457511fda7b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/FFTXlib/src/fft_scatter_2d.mod",
+      "bytes": 2208,
+      "sha256": "5087e4d94fa01c1db0583f2455b4032b2f36adffcc656029af922e8a3f25f669"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/FFTXlib/src/fft_smallbox.mod",
+      "bytes": 1344,
+      "sha256": "d7f4b3ebc2f86fa241c352c1f05615cc80ee8cd3fa4823ee96ba24a6fd6f1d48"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/FFTXlib/src/fft_smallbox_type.mod",
+      "bytes": 2957,
+      "sha256": "6101157d510105ad2cfb79602a7665f1a498557655933f53740d39dc4f3bde9b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/FFTXlib/src/fft_support.mod",
+      "bytes": 400,
+      "sha256": "25113e9a33f22f1e064777ad496d804b461027823deec73d677a1075db83f88b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/FFTXlib/src/fft_types.mod",
+      "bytes": 2981,
+      "sha256": "8527e23fdb35e09029f28144d7a4369e336b886c75d19512321dfb1d455edc90"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/FFTXlib/src/fftw_interfaces.mod",
+      "bytes": 1454,
+      "sha256": "88f11238ce47d0bdcd2ae1c2149e670cb829e3422146eee8e2a04b0dc9527882"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/FFTXlib/src/scatter_mod.mod",
+      "bytes": 2824,
+      "sha256": "3ed5cac434ea72e33082566a26afcbeb0ea2793712d918c0183a411b1f35537c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/FFTXlib/src/stick_base.mod",
+      "bytes": 2375,
+      "sha256": "337b95c779fa1890841cd8e2c9ab4214e4a20851b67f4ffa37a68301dc26b588"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/KS_Solvers/Davidson_RCI/david_rci_m.mod",
+      "bytes": 1687,
+      "sha256": "536cdb685330b9db43f3a81d9a0a0597fea6599501769cf6a43c760a687eb998"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LAXlib/dspev_module.mod",
+      "bytes": 808,
+      "sha256": "d13e226a628a8d564ee0d0e7ff15adb3443c79b36795bb0d73c9ca17022cc896"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LAXlib/laxlib.mod",
+      "bytes": 1028,
+      "sha256": "25c7bab797ea4b54f2be3ede46a89c0c4e4e1b7ba3749f12c14ca99bd3dc71ff"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LAXlib/laxlib_descriptor.mod",
+      "bytes": 1446,
+      "sha256": "5f9051e8e6b1323840df232e8d857d2c750b31f379f0a6860ca9077d27c6f68e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LAXlib/laxlib_parallel_include.mod",
+      "bytes": 301,
+      "sha256": "8198f7626b55d413f4ed181ea83c2e2697cb3964f919429215f3a5a0c2208652"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LAXlib/laxlib_processors_grid.mod",
+      "bytes": 822,
+      "sha256": "08a479b136c9736f08c0e249d3350346493a2e2e6681e7c56a1025974fb3ce0a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LAXlib/laxlib_ptoolkit.mod",
+      "bytes": 988,
+      "sha256": "9611b0991a3b8c39c53e7637f2c85c9299892cce5158d288622bc78c3d68fb45"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LAXlib/zhpev_module.mod",
+      "bytes": 790,
+      "sha256": "7c2f0eb3bb4d40efe10b356642f00e68a8632da03b4a29dc1d2107042d57d87b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LR_Modules/apply_dpot_mod.mod",
+      "bytes": 2793,
+      "sha256": "4e6ba67160f615919d5ccb571e077d54cedaf98d419ad1f456abdc0b6f26721b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LR_Modules/control_lr.mod",
+      "bytes": 1516,
+      "sha256": "a50a00c2caa9598988297fa982c3fe6677d3ded227e64ef6ed98116165594a88"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LR_Modules/coul_cut_2d_ph.mod",
+      "bytes": 4338,
+      "sha256": "3d2c0fcb32e5ec89dc7bdd0a2368102b0a10b80c7f84619799097db54fd5ac4b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LR_Modules/dfpt_tetra_mod.mod",
+      "bytes": 1688,
+      "sha256": "fc1bbaae72a3b926de6508e7d0e3cb102034a61237565daefa0e24aabf67d705"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LR_Modules/dv_of_drho_lr.mod",
+      "bytes": 2473,
+      "sha256": "1410e854b41684b7ae464aa066d4a8f06b0de8a164cd2f88b1cf310742fe29b7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LR_Modules/dynamical.mod",
+      "bytes": 1300,
+      "sha256": "7dd138895e857b1f01d2443467503f3fda63e437536b8ca4688e8c4f2c5102a3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LR_Modules/efermi_shift.mod",
+      "bytes": 3848,
+      "sha256": "80da26c0816ef79250104ff10aab392a82a900cced77725ba79c4fd991415a8c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LR_Modules/eqv.mod",
+      "bytes": 1283,
+      "sha256": "803412c2f3ac3be90c0caac082ffdb04b9151605f18e16f9306da942114f562b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LR_Modules/gc_lr.mod",
+      "bytes": 1273,
+      "sha256": "63b4677acf1aa3c2ff520e03b6bc6f0ddf93af45a1de5acd9c16ff0004d81880"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LR_Modules/ldau_lr.mod",
+      "bytes": 1344,
+      "sha256": "088ab270e7c858863429526e514d0fb47c0ded0ec950a2c8c60c0185bdd635fb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LR_Modules/lr_nc_mag.mod",
+      "bytes": 1375,
+      "sha256": "35edf00811f697049dce0518626f519e2dc71677ccb542cbb71eaca85328bd0c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LR_Modules/lr_sym_mod.mod",
+      "bytes": 2119,
+      "sha256": "5a86d8cbf034ff0af6061770b1dbf1022c262a9dd953aa004d8328ca17ddf6b9"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LR_Modules/lr_symm_base.mod",
+      "bytes": 1429,
+      "sha256": "dbac527104983afaeb4317498831f13b192154aec3f2aec0f670ec63c04b2fa0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LR_Modules/lr_two_chem.mod",
+      "bytes": 7695,
+      "sha256": "501b2bfafd336cfbbb512a9c805d4081e3a62e058f098534a04d23ccffb0fcf2"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LR_Modules/lrus.mod",
+      "bytes": 2125,
+      "sha256": "a82b6a6b6fce4e2ffa4dd86727f8e495444f3b3ca9d0e7f1fc261db7e60738ad"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LR_Modules/ph_rvv10.mod",
+      "bytes": 4056,
+      "sha256": "fba443ae6343b3fe04d9d008f1448205cf8aaa65c9138fa21d8f1d2e8f1ebdcb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LR_Modules/ph_vdw_df.mod",
+      "bytes": 4099,
+      "sha256": "720141441baf94519acaa594034fe9f3022b65aae8174f84b7e9f84062caac22"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LR_Modules/qpoint.mod",
+      "bytes": 1355,
+      "sha256": "dd471914fb1cf77aa492d7876c39de624359eb8053414a35cfc46f5ba7191cda"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LR_Modules/qpoint_aux.mod",
+      "bytes": 2004,
+      "sha256": "655ef157150701e248d8a370ce383afd6dc08ef6ced6eff0bdff9a6850e50054"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LR_Modules/response_kernels.mod",
+      "bytes": 2094,
+      "sha256": "d05550b11f613545102a3f52a9a5423ea46816cb9abed38a3fdc65af846151e6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LR_Modules/units_lr.mod",
+      "bytes": 1206,
+      "sha256": "04a253b4bff9351967278a2a405b4346e1e6766b63b76ebdb29a801ef00fe3fc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/MBD/mbd.mod",
+      "bytes": 15690,
+      "sha256": "a472ad995b421fc66f192295f96cb1f39f0cebba4771bc3c8e059028164e4a73"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/MBD/mbd_constants.mod",
+      "bytes": 716,
+      "sha256": "b497907b52f8b09790e779121d47bb3a5916f487d3ea08590dec4e2a927ee3ff"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/MBD/mbd_coulomb.mod",
+      "bytes": 12392,
+      "sha256": "f9562a72a587ce4e1635a2a95fcc9b4c8a9006c8217f18323b018c74ec516e4b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/MBD/mbd_damping.mod",
+      "bytes": 6193,
+      "sha256": "17a946f5db28734e7e8ca798620bd1f024cb8a4a4fed5e2c117e28106ab83f81"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/MBD/mbd_defaults.mod",
+      "bytes": 874,
+      "sha256": "62f1a68e4c7dabf092995c8c76be279227045233bb71d52b2779b9de7b772d96"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/MBD/mbd_density.mod",
+      "bytes": 8674,
+      "sha256": "83a3810cc9672ec90a4e3aad36f23734b9a186431286c44dce8eef24a6a24ba0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/MBD/mbd_dipole.mod",
+      "bytes": 13122,
+      "sha256": "64901c5b8ad284ad279a13ea2be77a02e0aa203f916075ec8c6c703fae33c8be"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/MBD/mbd_formulas.mod",
+      "bytes": 6203,
+      "sha256": "66295529db0564471611da615da489bfd7fba7d82ff912e0374a69c6984bec70"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/MBD/mbd_geom.mod",
+      "bytes": 7207,
+      "sha256": "7c5e952133f657d4a3dcae4e2616fe06e0a4d50618aa4bb26ed30a1a98f18fb4"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/MBD/mbd_gradients.mod",
+      "bytes": 2934,
+      "sha256": "cbd81b4475af7cc769e9bb26c2e79eddeb5120b92c689813509ab04980ca9cce"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/MBD/mbd_hamiltonian.mod",
+      "bytes": 12465,
+      "sha256": "66dccee60d964090bbb892d641f4bff923576a0d03b3857038193a6f6eed726e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/MBD/mbd_lapack.mod",
+      "bytes": 6757,
+      "sha256": "6ebc0b88efc45dff1b3bad50c57b7ca927c79179feb79e71a4947e25af920651"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/MBD/mbd_linalg.mod",
+      "bytes": 1004,
+      "sha256": "3e0b71553a20446021354a49dc4717ca154175f311f4d265ee810e570158274c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/MBD/mbd_matrix.mod",
+      "bytes": 10191,
+      "sha256": "cbc5ed2b9b8eab040575b529e784dc21c1a205053b440aebe957f9d71a0b9b21"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/MBD/mbd_methods.mod",
+      "bytes": 12411,
+      "sha256": "0602e3dd2591cdeed790dbf6d248bbc5307de683a8fe6ba06be2fb3118b4894e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/MBD/mbd_rpa.mod",
+      "bytes": 12370,
+      "sha256": "5df73e86be7b712fc21061aacc1da791634f7be51832afe718d6de9a7d20ed91"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/MBD/mbd_scs.mod",
+      "bytes": 12414,
+      "sha256": "06304744f9fe3acc9117b081b0314b612d38f6fbc776923609777eff11b74b3f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/MBD/mbd_ts.mod",
+      "bytes": 7493,
+      "sha256": "d30279e3b9cd6d2a5439840a52e6dc0985f520431275fed6ff576711c88d7411"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/MBD/mbd_utils.mod",
+      "bytes": 6225,
+      "sha256": "ca6e7d6b67da27be9a0e95373bb5f4615435ba038bd42c467dbcb92f7ddc8448"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/MBD/mbd_vdw_param.mod",
+      "bytes": 7620,
+      "sha256": "6e6314184bb96c2bcb57ba09cab95c72fa96a363e894704c2cd52abf7b4a938f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/MBD/mbd_version.mod",
+      "bytes": 341,
+      "sha256": "bb3b1aad7b879d8b07f6a7fa08aa4fadead2d3f29c8fb7f87c65fc47c89baa7d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/additional_kpoints.mod",
+      "bytes": 1463,
+      "sha256": "6aa63b5ae612eb6c2bcf7f80938d37937fdcb155de4c82ba5bda19b2f65e1e4e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/atomic_wfc_mod.mod",
+      "bytes": 652,
+      "sha256": "18ddcd49ed375cc00d8a78b2860bd97e51384ac547885a90592a705fa954e17c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/autopilot.mod",
+      "bytes": 2176,
+      "sha256": "4eae34df5ef988e07f7fa304e6e2b3f921b20ed3beb8c70d247ba793807cca9f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/basic_algebra_routines.mod",
+      "bytes": 1779,
+      "sha256": "a3be20c4e200f04f50f7485057f697b7f68d47af75d471be350dbcfdd0131fb6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/becmod.mod",
+      "bytes": 4086,
+      "sha256": "a52070d74d16d72c92a4ec357515c2902474d6cafa221f65bdfdec6cf6b5a265"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/bfgs_module.mod",
+      "bytes": 1808,
+      "sha256": "00f957712670c7b3be28dd124c3453f48a9a92fa75f9d01339f3d0860cd982f1"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/bspline.mod",
+      "bytes": 3585,
+      "sha256": "a4e632807810eb1f48ceb4c329717a206e1dfdd43ea94ba788510c94082c54a1"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/bz_form.mod",
+      "bytes": 3969,
+      "sha256": "64a5f9e8a9b45c5257a573e0b247b06bf4e5eee1d7b6eb6949f602b27361119d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/cell_base.mod",
+      "bytes": 5008,
+      "sha256": "794b335053cda96b880414471b83b19c02ca73c7794415e3554483531eeddb9b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/check_stop.mod",
+      "bytes": 1188,
+      "sha256": "cecf70fbed7f55673aec2526669fff38c9545e1e77d3a1b4ce1f22bce1ab92d5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/command_line_options.mod",
+      "bytes": 2316,
+      "sha256": "e284d7c7238d4f933e08c60ea16f69d3ede264b9d182d8b2e55ba5a23e2b4c04"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/constants.mod",
+      "bytes": 2702,
+      "sha256": "7ee7a51768d03476144e3ae94c79fc1f4cd9823b324972943a3193755b3bb1d2"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/constraints_module.mod",
+      "bytes": 2088,
+      "sha256": "0ae6536b1c9f9a7c587930afb7d8b3f35d926743db3e912503e328580c13971e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/control_flags.mod",
+      "bytes": 3579,
+      "sha256": "4a7cb334d13a76874a32ef2f3d597c254dbfecfa8e979fad451fba2b99232415"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/coulomb_vcut_module.mod",
+      "bytes": 1342,
+      "sha256": "76162e8637da8846c5e6a7fe204dadbf64deeaca2eb557630640d726e6992037"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/electrons_base.mod",
+      "bytes": 2085,
+      "sha256": "36408460d1f9e272e7f0de61332d65410aa65ee1d9bf961d48e6fdd9531d342e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/environ_api.mod",
+      "bytes": 176,
+      "sha256": "0e8c3a5b29ed244690358a172bdac11f5944b65c6d0469b1b9b1aceb01dc9208"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/environ_base_module.mod",
+      "bytes": 175,
+      "sha256": "4f492aa0b27aee565115d785b8d88e1f27415febe28464beda0acd6eee115d68"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/environment.mod",
+      "bytes": 1806,
+      "sha256": "903751d2f4b05f994359a18a4ef49d4170c2a1c7625a0305adafc089ca7faa47"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/err_rism.mod",
+      "bytes": 738,
+      "sha256": "64511f9aa7125693880c2539cdb0e7037895c51aec76fa0cec228f44af384b45"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/extffield.mod",
+      "bytes": 4993,
+      "sha256": "cc42f7e08fde683984dcf31a09da32adcaee9c02203fa2ed9a96d2ea03fcfed9"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/f90sockets.mod",
+      "bytes": 3522,
+      "sha256": "c048a743f65fe8349554a60744535cdfab7c2b2bb445bee6abe748ad5554c4a3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/fd_gradient.mod",
+      "bytes": 1434,
+      "sha256": "e7dab06977230c134d4fd7d088e8615abcec7b131ded779fec4d9e109205660b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/fft_base.mod",
+      "bytes": 3265,
+      "sha256": "c57ca785e68882602d6b1494905ed6ecd29934b48f3424274f9380cc0b8e4d48"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/fft_rho.mod",
+      "bytes": 4779,
+      "sha256": "b28d87bde43fc57074adff4e48c3e4a46028dbabac3fefca31f99f70c8fa86d7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/fft_wave.mod",
+      "bytes": 3316,
+      "sha256": "a1591a601b8d7050e8f136b01de7c7399d90e3150a3725173a046a81f80b76d8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/fox_init_module.mod",
+      "bytes": 204,
+      "sha256": "7d98c1645a964f110192f70bd0fa770daff9117f5734f29711e08e16231464cd"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/funct.mod",
+      "bytes": 1655,
+      "sha256": "a2c1972aa0c6c3282caec4e0c38e6c863d78874efa8d9137330c50dde5324fa7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/generate_function.mod",
+      "bytes": 4003,
+      "sha256": "fe8a841d2b2da7f41f9843b5d44661e28996307b826e5691fb47be52dc26f824"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/global_version.mod",
+      "bytes": 258,
+      "sha256": "1eddf9eccadcc3dc6eddcda0d27103db9d35ea43397766ed9a4f867cf20cfd21"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/gvec_3drism.mod",
+      "bytes": 3821,
+      "sha256": "ecaecf68ef587766b2ebbb3a9a5321752b3219a9baa3175aa133fcf30eaa6f58"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/gvecs.mod",
+      "bytes": 1340,
+      "sha256": "a7d1a888442e46dc01c483c79e1b4ec0e9fd9accf0eb5826e0a74e917ea9b447"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/gvect.mod",
+      "bytes": 1681,
+      "sha256": "b42b6d3295252cfe9908e3bd0198ac4e4559932c3b10d400b57e5510fe1942b0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/gvecw.mod",
+      "bytes": 1381,
+      "sha256": "b607369124c5bdaa5a204805caf19b1bd948300fa49ebb773fbd60247328382c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/hdf5_qe.mod",
+      "bytes": 218,
+      "sha256": "54b3cf1eaa4c0f284000f5a8a2e85173b31c1fd6b65dd9d6df0ae698e694737e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/input_parameters.mod",
+      "bytes": 14567,
+      "sha256": "c6469e735895488476692175bf7928b0196fe226484258dbdfac9028f22903b5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/io_base.mod",
+      "bytes": 1932,
+      "sha256": "4c737e7c269e71da8edfb143ca1a2971b0e9c6e464d8dd76ffd463b750227d98"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/io_files.mod",
+      "bytes": 5621,
+      "sha256": "e0cc98d3738904914b421a0fcbb8ecc1228a5d7a691c4ecb1d3ba1ac4db98e06"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/io_global.mod",
+      "bytes": 326,
+      "sha256": "a3c57091bfc06ecb2e582fcfa9569dec4bd841f770c3cb3feadec30573b218f8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/io_rism_xml.mod",
+      "bytes": 8843,
+      "sha256": "95565747da18875c609074bde8d1e5b8712a3cd09e19a7dc792902470fc94619"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/ions_base.mod",
+      "bytes": 6081,
+      "sha256": "858f53f904ddde66464e1f3d6e9972752f14d697e81b77010a0e2839ea8bcdcf"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/kinds.mod",
+      "bytes": 1369,
+      "sha256": "87600ad9c2f1ce1f150ad394504dca2adb6690fa4ae62879941afe8235932e2c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/lauefft.mod",
+      "bytes": 5250,
+      "sha256": "bf1089d8e320f721272ac05672c50362dfd7db92b9d8f840ba9a30795dd8f14e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/libmbd_interface.mod",
+      "bytes": 22695,
+      "sha256": "b1bab325694bced9dd718da882ac2a832bb1cfdce84e502093fd6551046fc992"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/lmdif_module.mod",
+      "bytes": 903,
+      "sha256": "8856c4b919017b13aad230850199c95482a51d69cd94579b23f716eeb554b7a1"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/london_module.mod",
+      "bytes": 1981,
+      "sha256": "62ff0a7117eb20a225c91e8e942ae6386d1c11905b6e57c223f613c24bb325eb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/makovpayne.mod",
+      "bytes": 815,
+      "sha256": "285163655c555021036a81ed3bedfd47dabe522b7a22dda2a85a88d89285fb85"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/matrix_inversion.mod",
+      "bytes": 520,
+      "sha256": "5f1a218f379dcb01a781f81e11600190148fcf2f76dafddd57cf8d24f8020100"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/mdiis.mod",
+      "bytes": 1826,
+      "sha256": "6bfa75f6299a356ad28771bc483a379f840965c6fbe95ca0fc68f732f2fca00b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/molecule_const.mod",
+      "bytes": 1139,
+      "sha256": "2adf7260ffa9d5c7c0b956cb2ad48731bb452e79435ecfe68818d33b94f89d7a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/molecule_types.mod",
+      "bytes": 1793,
+      "sha256": "bdf5509a913299544b29f5d848864f19ace8e5d9e6095b02afd368b5ad717db0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/mp_bands.mod",
+      "bytes": 2228,
+      "sha256": "89e3b452099e56b66932d0814fd94824fc01e820352e8f63f386ced8bcab1e72"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/mp_bands_tddfpt.mod",
+      "bytes": 249,
+      "sha256": "f8ac834d789f1987a9f45559aac7abd12ff95e103abe1cc8556a60cedc9b82b9"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/mp_exx.mod",
+      "bytes": 2727,
+      "sha256": "40db77b570f9726dfddff8d27ff0f733e316e9089090b6ab349cc787fd8b3b15"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/mp_global.mod",
+      "bytes": 3048,
+      "sha256": "26c1d2655a8e3c42b9a17794a3da73503eac2d2734e0939d02f6c8472cebdb93"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/mp_images.mod",
+      "bytes": 2196,
+      "sha256": "b8e63917835a4c82fb959e3eb71fd536cdf6c86ad01f119a152e6a71e319e6ae"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/mp_orthopools.mod",
+      "bytes": 930,
+      "sha256": "32e0166f323bf3e4e1f08ac47519053b4e70d6727a9f5f4e7a8b78945ebf0cb5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/mp_pools.mod",
+      "bytes": 790,
+      "sha256": "ea2063d1993ad2f8501b0ef6e8b9cc4c6da9958425985901e9d712052e0cf6c5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/mp_rism.mod",
+      "bytes": 1629,
+      "sha256": "d030309a3c43b6cf550266f619cd027673833b95777aabe1ff151aed658958f7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/mp_wave.mod",
+      "bytes": 1309,
+      "sha256": "2737211f3c61d0c98594f58a852c73327929450ea592f9c0dfd947c7da631833"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/mp_world.mod",
+      "bytes": 371,
+      "sha256": "52b33a2331b3cb442ea820199a442a6da48ff6bd71cffcea96d913f03e72b780"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/noncollin_module.mod",
+      "bytes": 1804,
+      "sha256": "af845f23e7a9dfb90bf168b358b7e71859991c6b81a461b61aa7398257396428"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/open_close_input_file.mod",
+      "bytes": 440,
+      "sha256": "8532662138d25b938d73eedb4c70d601ec186247b596334804ae3ac4727506a8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/parameters.mod",
+      "bytes": 323,
+      "sha256": "a5ddfa2109dfbc1b4b38de2254d92532236d9cfd38697b52d478bab7c28f5ac0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/parser.mod",
+      "bytes": 1374,
+      "sha256": "298a6987c5ab18dffd5951e41a3cdb1e5664ed1cbe58cd6021bc7dd12fa1f810"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/plugin_flags.mod",
+      "bytes": 1112,
+      "sha256": "e78814085f5584be94d7a0a3247422e03a5290d70ae8ff1aa02e887e350d42bc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/plugin_variables.mod",
+      "bytes": 1003,
+      "sha256": "bfc3bc1f6b6250f1547e912c38297d289e6812cd51d30091ce07548a40da8f3c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/printout_base.mod",
+      "bytes": 2254,
+      "sha256": "0e70f68220888bf24358785392b48db636f5db04077f966e1747de56df98cebe"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/qeh5_base_module.mod",
+      "bytes": 172,
+      "sha256": "022eed7ce6aebb07a080e9714bd1680e6de0912267061a439e2ed9a5b1c668c1"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/qes_bcast_module.mod",
+      "bytes": 58164,
+      "sha256": "8596bfc62c5d74d970b494e849e79aee814624b4935b552ddf403aa50af75571"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/qes_init_module.mod",
+      "bytes": 60407,
+      "sha256": "7242a02590099bced90e7096865593133cf4f2eca65e84110c23374f28dc8c58"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/qes_libs_module.mod",
+      "bytes": 80053,
+      "sha256": "2977e5bee2e4b6dabce52ca311cd9457d0acffd3bbd3fc9bc6afd1d3afd84bf2"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/qes_read_module.mod",
+      "bytes": 60029,
+      "sha256": "4ce52731607cbadeeaec76583eebc5f803e789a0a9fee8a3911063aaa093abb0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/qes_reset_module.mod",
+      "bytes": 48414,
+      "sha256": "480c13db23c0db3256994f6dd860bc66499a4bb7ee697b143b2f92d0aff2daa2"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/qes_types_module.mod",
+      "bytes": 49935,
+      "sha256": "b4e56d22b8ea3a4f9cb3340e3699382c63d2c63a893c3647df5a19024e366a87"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/qes_write_module.mod",
+      "bytes": 57347,
+      "sha256": "2a67458d437eac3c41e0a2b2015639e605a124fb89417424ef3974aeca0bf166"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/qexsd_copy.mod",
+      "bytes": 16209,
+      "sha256": "60131096322e4d0f5ba7e169a556fc2797ad52c7f3dfe8a65a7c6945a160ba34"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/qexsd_init.mod",
+      "bytes": 50322,
+      "sha256": "23966fd8325bf47f5d961cfbf273d88be0f952097cd49733526be891f5a8c81e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/qexsd_input.mod",
+      "bytes": 49787,
+      "sha256": "02e09e611f723a09ba813cfddc6a9fc1876edfec98c14912c9875f089d078ea9"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/qexsd_module.mod",
+      "bytes": 48251,
+      "sha256": "6811cc4b8bae2280fce6f98503f41259f33520dde6af0c93b1c955114b2901e5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/qmmm.mod",
+      "bytes": 3900,
+      "sha256": "55d27be034aee83be48bfd63ec45ca4e82822739abe1ea8173ebca5bdb82c2a1"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/radfft.mod",
+      "bytes": 2443,
+      "sha256": "8edadfca000bcf9f6382f782a212ed3878dfc370132b5bdcfc9f2de21ad17637"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/random_numbers.mod",
+      "bytes": 1600,
+      "sha256": "13edcb0ae0c9a08dec1417095504d7e3b00c6fc89cc39b7a0e28883acc42b2ce"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/random_numbers_gpum.mod",
+      "bytes": 1420,
+      "sha256": "f1a699fadd30189019325e9efd441b3980a1dab79e3d9b56c908cfd94f2aef3e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/read_cards_module.mod",
+      "bytes": 1812,
+      "sha256": "545d4a73b6fe08dd2b1188bf9634b3f5160098ed1c65e0e128df6c833b549dcc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/read_input.mod",
+      "bytes": 1110,
+      "sha256": "60695579223d2f0fc33206a50ea80815dc812cf70c3b68ec54cdbff7517a5b0c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/read_mol_module.mod",
+      "bytes": 3278,
+      "sha256": "0902fed1eb4a216f418680fcbcfa05fae729635bed03e773b034cb04ba634463"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/read_namelists_module.mod",
+      "bytes": 2613,
+      "sha256": "788cd406cfb64e840a08d42777b7c218a7f0b5b8b01aec65649602cc81ab57f0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/read_pseudo_mod.mod",
+      "bytes": 4139,
+      "sha256": "2dd77e50f1d8d087e6a92453216ada0c8500310cfe3e09f3eb831d46dd2421dc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/read_solv_module.mod",
+      "bytes": 3144,
+      "sha256": "749107769fd60844e154f39e13969500626bdd4263e1a154fa42d1d483f9ad8a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/recvec_subs.mod",
+      "bytes": 3108,
+      "sha256": "d3ffaf24b1003a72a8187bffe172341433627acc0ceb55a3af80a09a3b30e000"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/rism.mod",
+      "bytes": 8309,
+      "sha256": "94966be57c0cd1ec108e9f3c7a23aa1a7ea92d909081543be65d9d1383c124fc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/rism1d_facade.mod",
+      "bytes": 9966,
+      "sha256": "48cb476f6596209c3ad24809d2a419b702ca723291c20d41352066b4685199b3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/rism3d_facade.mod",
+      "bytes": 13029,
+      "sha256": "8fe9916345feb6512403064aead608a02b00b0982efc99bc289e7ef814bf1f2c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/run_info.mod",
+      "bytes": 250,
+      "sha256": "d730f9b07ba41f5ba3337b571dcdf2dc092895f99ea0258e0060280836a807d5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/rvv10.mod",
+      "bytes": 4884,
+      "sha256": "8aefc3204bb17348d4cc77d6c5e1fe802613ebb49358bd1d298af39121fa9d02"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/set_signal.mod",
+      "bytes": 331,
+      "sha256": "22070fa808ac4c15bbb38d52e43b275620ea0557c16c9eb9d9d05489f5791b47"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/solute.mod",
+      "bytes": 10445,
+      "sha256": "51aaea3a838fe1628e69aad23fbd56395010dc51cf9e43b912a37d334e6d3744"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/solvavg.mod",
+      "bytes": 4998,
+      "sha256": "fc670639d3fb8be6246819862028b5e533d5c4395c39c4d9b4e7a6eee1d59691"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/solvmol.mod",
+      "bytes": 1973,
+      "sha256": "e7c509ef733a27b6ec3783a5c7ad14614d24336575d8bcc4f5d6d8339742a7f8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/space_group.mod",
+      "bytes": 1273,
+      "sha256": "a40d1891bb4664413fd4d7aecd15b9040539623060e152d5fa9daa982932926f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/time_step.mod",
+      "bytes": 1126,
+      "sha256": "b020e884113b9e0846515c5a441539124307bab527aed93b283607250ea043e8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/tsvdw_module.mod",
+      "bytes": 8960,
+      "sha256": "4d3984a4940af6040ed8aadbd520b1f5cde8497ce08a697a6d8f372943654552"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/vdw_df.mod",
+      "bytes": 5438,
+      "sha256": "f33dd640876eace0ba255c621e05f74f996dd79006de89f4ba07e7fb26d6c870"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/wannier_gw.mod",
+      "bytes": 4477,
+      "sha256": "c3f02b321c13d43d4d6bb6dc94995f69e0f33bbd93c203c3a38a65751140b84e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/wannier_new.mod",
+      "bytes": 2148,
+      "sha256": "f0bf6b39695492f5d44584104e26fc2e61f32100488a375a6c6f53b64a82f61c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/wave_gauge.mod",
+      "bytes": 1634,
+      "sha256": "67618a9669ffeff7e932657c8da4eaad38f6ef2e197d4929d92c9c0e2c1d49b6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/wavefunctions.mod",
+      "bytes": 1463,
+      "sha256": "3c88f514f1f4af7dd2197467f771fc9edcfc56cbb138392bdafee9469658baed"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/ws_base.mod",
+      "bytes": 1901,
+      "sha256": "d8bff780db6e8f60202eec8891803a11b2ca849731da9a84614f7a34628c85cc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/wy_pos.mod",
+      "bytes": 1234,
+      "sha256": "d79b39c8695cabb1870983565fe3bcfb3c58eed7f5d518d6538347e815f1f4c2"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/wyckoff.mod",
+      "bytes": 1387,
+      "sha256": "5e9ecdf0d2674625dda6804c0092b6ea63a466215d30f9f842d46cb9ed19626b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/xml_io_rism.mod",
+      "bytes": 6940,
+      "sha256": "f35daa984ef96e8271d0f7a8a8d7bd6f8363acba45895bdd79b97ea073441d53"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/Gamma/aa.mod",
+      "bytes": 1210,
+      "sha256": "97e1dd290fbe3cf961ee6eb21ecb6a48d04ebe2ffc1b5891b32a5aaa57c0c798"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/Gamma/cgcom.mod",
+      "bytes": 2124,
+      "sha256": "5106e24012e884d6bded044d3c5bac2b4c9ff0657e9bf9d344e5978080e25a7e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/Gamma/cgconv.mod",
+      "bytes": 1172,
+      "sha256": "8377eacd63c75e735026a8938aa4db052347e003a047c0d9ff546b4cca741187"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/Gamma/dielectric.mod",
+      "bytes": 1239,
+      "sha256": "700692d457c15e035e85e3ee4edaa1e4ece1f7cbd1c946cd6608a23b9c234a1b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/Gamma/diffs.mod",
+      "bytes": 1197,
+      "sha256": "ae244d139b11bae12b7876aa39b626c3452d967d761ceb94b97cb67986906b0b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/Gamma/flags.mod",
+      "bytes": 294,
+      "sha256": "98cb4cde23dc42bd9e5aa17e262f324e9a4610b93e810f41b0113cc0fd3f05c8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/Gamma/modes1.mod",
+      "bytes": 1194,
+      "sha256": "767e55f7db43e1e27dd86edf535d9c4ce5560a800faa5c801973c30e66df8830"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/Gamma/phon.mod",
+      "bytes": 1210,
+      "sha256": "05dc7ca06465c7d1928a7efd60fee90deed6e3ee1212d64e5b8b553f68865cd3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/Gamma/phunits.mod",
+      "bytes": 403,
+      "sha256": "58d04ec28ae63479df86f3fafef444df2663f95f7fcc045ca1cafa49bab94642"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/Gamma/symmetry.mod",
+      "bytes": 359,
+      "sha256": "4862e6cecb60fcb99d2163318474e147caca05feaa51e438d90edaaea75f966a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/acfdtest.mod",
+      "bytes": 1781,
+      "sha256": "2c0589e16848c1c4bce3cb704938324c9a914792b128166408097aef282368c1"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/ahc.mod",
+      "bytes": 1791,
+      "sha256": "f192eae2e3d1b70dcf75c0f76c2852c72a33d38e1f13f2e2b7959777a9ffd051"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/alpha2f_routines.mod",
+      "bytes": 299,
+      "sha256": "3434ec351e7e7c3b3415da557bf2d02eddaafbb80aaa431cd7882436d88cd083"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/alpha2f_vals.mod",
+      "bytes": 1233,
+      "sha256": "fff51271ded7537804ddadfa49478da2fd96ee413097a1f18958283be0452c74"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/control_ph.mod",
+      "bytes": 2291,
+      "sha256": "c9f5ac16c0f9f58cc3bd5d80a221d035140df36a297dd42d06488bd0d01cdc53"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/cryst_ph.mod",
+      "bytes": 1166,
+      "sha256": "9badbb82daaac87ae08753ecee2cedbc3299a99727f9b0c63a0bcbe1aa934f48"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/d2nsq_bare_module.mod",
+      "bytes": 525,
+      "sha256": "e32c1f08b93a6a05595dc87f478534911be69aa211899a775e436e75c0d15f33"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/dfile_autoname.mod",
+      "bytes": 1451,
+      "sha256": "8c5e0eb8283778bc1b4e65a49ec5e8e1fa5414b9990c592a3a4c3ef658412136"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/dfile_star.mod",
+      "bytes": 2828,
+      "sha256": "96823ee0e64dce44869909e64bf3861a10bae0056168977e3d9c222172fd396f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/disp.mod",
+      "bytes": 1346,
+      "sha256": "c06150c82f6091f57c41d0a43efe844289e9b7631e712ecbf695e72ee911ed7b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/doubleprojqq_module.mod",
+      "bytes": 541,
+      "sha256": "988a415c77dba861d952fec451222acf5cfefcceb0ab22238f4fab0ffb93de69"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/dvscf_interpolate.mod",
+      "bytes": 5447,
+      "sha256": "9c8d5fd38e1b2e8a7d4f5406ead65b76282893762e71b3c64cd43e8927eb3e4c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/dynamicalq.mod",
+      "bytes": 1264,
+      "sha256": "9164c7e00c363f34ec1b8a211e1bf81e78deb670cdc993a480d1333761429851"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/dynmat.mod",
+      "bytes": 1270,
+      "sha256": "447d9d99de08b95bcf6689971443e8eb801a7c5e6166cf7290afaed9ed1a6963"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/efield_mod.mod",
+      "bytes": 1321,
+      "sha256": "7cf92fde3ad7c1207833724e697eaf8442113ec0420510a07080d942d6ccf4ef"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/el_phon.mod",
+      "bytes": 1812,
+      "sha256": "6faa969914f0ba48150c5ebd2b735664cf4ea23146f4a0857f4281651a6ed155"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/elph_scdft_mod.mod",
+      "bytes": 210,
+      "sha256": "df706ec36e174e7df5ae517553f01d036249afd7406a3ce70e1a189c60894284"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/elph_tetra_mod.mod",
+      "bytes": 577,
+      "sha256": "004453b6b8faf131fcc05bc233085b4b52c239817ddbdbec0309cc08201b082e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/freq_ph.mod",
+      "bytes": 1328,
+      "sha256": "3d11841e33a1167b956ca17ce34134dcd4b114c2a74507a47b78cbae9cf115aa"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/gamma_gamma.mod",
+      "bytes": 402,
+      "sha256": "e1f9a534f7bd2357dc391a4919edbc3d5a1c6e0e20391e6074717c01c29e9884"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/grid_irr_iq.mod",
+      "bytes": 383,
+      "sha256": "e8d29969ac720a9c65f8bbd3e06a52b75572d0eb8daa7cf40ce1d5eb741868f9"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/ifconstants.mod",
+      "bytes": 1325,
+      "sha256": "487c1952e245ef0de717c534caa37345792939d73322a096c4104fb77c851887"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/io_dyn_mat.mod",
+      "bytes": 2653,
+      "sha256": "32d959f5c39bba44679d52e3f80ef2fcee569ca068448a53a75a332615a5b068"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/ldau_ph.mod",
+      "bytes": 1647,
+      "sha256": "cc418ae49ac02aaa266b55e7fa00dbe3b081bfefb4fd3aa0a3a3bce052bc81f6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/modes.mod",
+      "bytes": 1359,
+      "sha256": "19b22043b41dc353a48da465a6be2a23c02bf2ef7db7fc997866a8bba1107196"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/nlcc_ph.mod",
+      "bytes": 1172,
+      "sha256": "6725f96d0d5700075829153386c5de1fdc418b3a56a00bc2f410b3e373810b44"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/output.mod",
+      "bytes": 293,
+      "sha256": "bd04ecb00e709f59a4a94e52da708e2e6c7bc5369bff028598cc342ea5f36144"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/partial.mod",
+      "bytes": 1517,
+      "sha256": "0d2126cfc48c5e05d02b95a51db6e07bff05c46fe9bebbae67e1bad3d8836177"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/ph_restart.mod",
+      "bytes": 1383,
+      "sha256": "abd9fcbfcb0356ad069e4c4157b1c88569edcc8387e6337dec7c69c78bfc30e8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/phcom.mod",
+      "bytes": 5959,
+      "sha256": "596bb959f697451fc1409661ff561301df09562adaa736e14caf89bbb1daf8d7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/phus.mod",
+      "bytes": 2167,
+      "sha256": "9714b25790e8a2b2f7c7888e3e03eb744078c9d44f07743a416b83cc1a8b7a4f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/ramanm.mod",
+      "bytes": 1532,
+      "sha256": "e24f20ee76815e28535e99c60c986d1f052f6e2e109668233e8ba6814887f5af"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/recover_mod.mod",
+      "bytes": 2861,
+      "sha256": "b50f5143185cb3ae86bd0cbbc399699b92a0debb22cde34e65fc847bd5f52029"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/rigid.mod",
+      "bytes": 1211,
+      "sha256": "cda951193f0e8043c36fa1a0951de5bc3badd1f62149c7c1b8d7ee88815e4379"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/save_ph.mod",
+      "bytes": 1128,
+      "sha256": "e8b8f978dce1a8751c1ca5f426f18414fcfd5bc0606b62bcc519e8f03967f945"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/sym_def_module.mod",
+      "bytes": 335,
+      "sha256": "cfb16c2b6f75a6c87d7e82fdb6aa2d6c9f81ab286cae983f408019d14eb0a964"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/term_one_1_module.mod",
+      "bytes": 1702,
+      "sha256": "0dea4cc09c764594b56d4d9991f1f890b90a2486e74a1560be664b2b51f4517b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/term_one_module.mod",
+      "bytes": 988,
+      "sha256": "e4ac6b23517bc0c9600af9e6ed048fb5704fe76c214e9bac3c6d792043652484"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/term_three_1_module.mod",
+      "bytes": 459,
+      "sha256": "144357ee648e705812b37dedee1b7efa08054a62ea7be35a02aec0e17c9f2072"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/term_three_module.mod",
+      "bytes": 2006,
+      "sha256": "3fe3a34209ba40732aace89042c857172af6200d8d1367408c961a3fe2a96f83"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/units_ph.mod",
+      "bytes": 629,
+      "sha256": "d6b833fc0a22db48e548130efecd61d2e6b567c95023bc6a69546a29b989b07f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/write_hub.mod",
+      "bytes": 281,
+      "sha256": "5388354b13415efc3b6c69bc4c9a0813f0a9d49d7faa4921b46a596600f74f32"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/yambo.mod",
+      "bytes": 1209,
+      "sha256": "13da4e3dbfd0a4c6e7463f3bf54a1c5fbd302c357cf7506346de89aa25ae3bce"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PP/src/adduscore.mod",
+      "bytes": 1318,
+      "sha256": "2a1193705cfafa9781052fcff3b283e4ad1ae17303d53e9baa9d4e4195826def"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PP/src/atproj.mod",
+      "bytes": 2754,
+      "sha256": "5a47b379bd518d7ec9dd39f83b6a9e82f73fb642686f2b6ce50c2af246d4eeb2"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PP/src/chdens_module.mod",
+      "bytes": 1761,
+      "sha256": "6ca5c6a56e68b7780c065f2e42d576718dcba380cb68899b976da7afbe8098eb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PP/src/eps_writer.mod",
+      "bytes": 447,
+      "sha256": "81e2d9b0a44835ed49a3750292bf5abb794610def15151cb126f5a6765c5965c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PP/src/fermi_proj_routines.mod",
+      "bytes": 514,
+      "sha256": "97c9d6c9d6ecc4300232cccfe4e485868ff00220685fc68a22aa0ce02ad44eb3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PP/src/fermisurfer_common.mod",
+      "bytes": 628,
+      "sha256": "788769b4d506a683df78ebff7d53f42a5a7cbd3ca5be5004356f7fd2f0b2ac08"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PP/src/fft_interpolation_mod.mod",
+      "bytes": 1443,
+      "sha256": "b15d71c12b6cb6061a17a30947938906d0947d4adcc6ee1a9c71c7f7aed94a2c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PP/src/fouriermod.mod",
+      "bytes": 2517,
+      "sha256": "3fc91a7cfa2aa75f94e64d08818fc00c5be2b903f789e9b455c00d223381c982"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PP/src/fs.mod",
+      "bytes": 1077,
+      "sha256": "b653dc7f7414e4a01fe7f7c8c7cc3b4fc3b2fe6f11a418dc980df54759b1a983"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PP/src/globalmod.mod",
+      "bytes": 1582,
+      "sha256": "d8e2da70f10d34e317e5633f9fef4a4a050a6727425e1cabb3efb9cef0a4265c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PP/src/grid_module.mod",
+      "bytes": 1303,
+      "sha256": "8e56bc96c9c337d0f6b2f578f3c7e9e103bfe211cb59f180395a0167a8396d15"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PP/src/idwmod.mod",
+      "bytes": 1275,
+      "sha256": "90c02975e61097597bc1d8013b6e9ce2bd03f0dd71f69106de2e0f2473e0b9ab"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PP/src/oscdft_et_mod.mod",
+      "bytes": 171,
+      "sha256": "3a958eabf319619e18e75a0074740a253545117732b1a2d2c70c7acfd2f632bf"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PP/src/oscdft_pp_mod.mod",
+      "bytes": 171,
+      "sha256": "eb63105faf69e80af6c309873fb1e541e4a27d1d6843d924933ba7d06291b700"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PP/src/paw_postproc.mod",
+      "bytes": 2056,
+      "sha256": "42914366a6b172af95cd4862488afe91ed95114df9862f41f270e159d511c2c3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PP/src/paw_postproc_.mod",
+      "bytes": 2176,
+      "sha256": "fbae04868795aeb4686e872232c4134030fff79a79c0c7d85cccb68169d225dc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PP/src/pp_module.mod",
+      "bytes": 393,
+      "sha256": "32047c866ab8300c4936e19d5dfa7aab73b6ef6cf683bc759cdac7c54f9bb410"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PP/src/projections.mod",
+      "bytes": 2777,
+      "sha256": "bcc2eb3d5571de86420a9611564ea02917f94d3371317940535ff9408899e738"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PP/src/projections_ldos.mod",
+      "bytes": 1186,
+      "sha256": "17a6399911b96aa6542dbbdf635933608ab4831116a86ac0a58640de079f8397"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PP/src/read_proj.mod",
+      "bytes": 542,
+      "sha256": "a6a050eb6a8cdaec19866e05eba09200f894c87f5b6bddc91e9b597c21ff59a3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PP/src/vasp_read_chgcar.mod",
+      "bytes": 1064,
+      "sha256": "a0a83e57c899bfd23fa0838e2fb2cff1a2d4cf09d196ea96859b7d6b46d6d99b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PP/src/vasp_xml.mod",
+      "bytes": 4065,
+      "sha256": "c7bac35ac8e7d0effe9cff19530845102d7ad3410d21c53ce9d9d6c2238cdff8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PP/src/vdw_df_scale.mod",
+      "bytes": 8390,
+      "sha256": "9daa4a9279867b9aaeb7cf312f410bbc09cb4eda37eb29d3933740b97fc23625"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PP/src/wannier.mod",
+      "bytes": 3620,
+      "sha256": "936f603a09e388874afaeb28232770d32ba0c7e15e656c6652c31d5537b947cf"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/a2f.mod",
+      "bytes": 1054,
+      "sha256": "5978298869942c2fcf18f7d707e2ee8c3116f23ee87e06593aeb456d3ae73e1a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/acfdt_ener.mod",
+      "bytes": 1180,
+      "sha256": "9bb47f2a225b9c0640816943d775953fb07f1176ed373f232e7fdc91e252e688"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/add_dmft_occ.mod",
+      "bytes": 4445,
+      "sha256": "89afd9f060ac74c85e665c9e0abfc85b5afc59e0b10d5717fcdc9c01bf2d69cf"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/basis.mod",
+      "bytes": 1226,
+      "sha256": "e02045cdff1d9323adcff934461bba90d262d0758cdd2b80fc6b58b36d28d0f0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/beef.mod",
+      "bytes": 1115,
+      "sha256": "3b61f78de5597948317d30dabac5314dbd7a2e01d0f2551afc71e6d5eaefeaaf"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/bp.mod",
+      "bytes": 2605,
+      "sha256": "fce72766a8eaa39d4a8c17066b4861753bf64278b0a4b61308be75739e0b25b6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/buffers.mod",
+      "bytes": 2104,
+      "sha256": "661f17afc788fea92fd6ef2d4a0ec7257a588a80fbecd2246d5ce5c9e9ab338b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/buiol.mod",
+      "bytes": 2373,
+      "sha256": "3eb4f997b3d176b6279bc804fc66c49483411783248b8bc5df24bd4b5788500c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/cellmd.mod",
+      "bytes": 1357,
+      "sha256": "73fb6e9bfdd2eeef507de2efeb5763ece7dcf65f15865e0507a83fdc1cd9a227"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/class_io.mod",
+      "bytes": 180,
+      "sha256": "47783c174fe838a3ec15bb0798d032c644de4c89d6f379d861fe0bff94f4ed07"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/coul_cut_2d.mod",
+      "bytes": 4875,
+      "sha256": "bfd39e465bb905b0ef4cf9716eb2743de847b76423dd84fb030e9d58218e565a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/d3hess_mod.mod",
+      "bytes": 1515,
+      "sha256": "56a00a6fd181795319a83642d2eacacaf60329be9812ed84c4132fa669cfc1fa"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/dfunct.mod",
+      "bytes": 1759,
+      "sha256": "2ee4e0f560003ffc705414d0635d30e315d5f805692d761faa28386c23cecab9"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/dfunct_gpum.mod",
+      "bytes": 1778,
+      "sha256": "bb9181603b61130e5e2c8906f1e804393facf1000991df230243b23bb47f49b0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/dynamics_module.mod",
+      "bytes": 4532,
+      "sha256": "84a6ed6c409702ea9579586f21b786589aef2859e56f43f67d5d232b0f099dab"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/ener.mod",
+      "bytes": 1521,
+      "sha256": "49648e7cf0f6d1d9bd9d39b751e009a66765eff127431b6440eb67073b3becd4"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/environ_pw_module.mod",
+      "bytes": 172,
+      "sha256": "5c6de15bed2c1784971c3906611b3f965a08603f87c280a1b66856891e5ee21c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/esm.mod",
+      "bytes": 4262,
+      "sha256": "7d8cbb842fae87db362de21077a72cadea23e58c811bf427326605eb7ca7a6e8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/esm_common_mod.mod",
+      "bytes": 3754,
+      "sha256": "26b04feb1a6725b4d5fef60516ac24934b23c3145c0d4b4a054bdec4c972fd13"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/esm_ewald_mod.mod",
+      "bytes": 2664,
+      "sha256": "ebd818ebbc6307c93ae467c7c9a51e047fe07df103efd605bab7fd354565e386"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/esm_force_mod.mod",
+      "bytes": 7654,
+      "sha256": "ac17ff649555755e808102933bb99b6d94fb9caede2fd2ede53b2e8912fe7fa1"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/esm_hartree_mod.mod",
+      "bytes": 5372,
+      "sha256": "306c4d361543b16755169462df2112bccbabe88b9044c8f81c34a47722a43bb0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/esm_local_mod.mod",
+      "bytes": 5231,
+      "sha256": "c59d59af3b8382b5f262041964cc1578d44c3658a59934aacca3c9fd3f7e0a13"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/esm_stres_mod.mod",
+      "bytes": 2464,
+      "sha256": "a913343f2a0842cd39dcfd530a108c28fc02e723c8694d52d5b87c5790f015c8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/extfield.mod",
+      "bytes": 1679,
+      "sha256": "9e0718e24c345a955824c728682a17190ada96ccaf811ad086f49d6bc26ef3df"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/extrapolation.mod",
+      "bytes": 1189,
+      "sha256": "1db93757785de97cd1205b0a09872d0c013f6d4911a0a989181ce3b5945a1143"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/exx.mod",
+      "bytes": 7131,
+      "sha256": "a53b43f16b2cb1f348f90498cc75bdc5cbb0fc2f78ed2ac6c5fe95ea3f3cab42"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/exx_band.mod",
+      "bytes": 5669,
+      "sha256": "7f4d3a66783111b4f69c6832a05033cc7843ba9706cd41aa63433e1ab4184c53"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/exx_base.mod",
+      "bytes": 5568,
+      "sha256": "10e948b87e3d324181d00bc199f9e93038ee8afc9b7119835a2995204ca792f6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/fcp_dynamics.mod",
+      "bytes": 4380,
+      "sha256": "316e53fc0e8a1e358879b686b4e428a3103a2c751d6ff270ced1acda6d302eeb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/fcp_module.mod",
+      "bytes": 13733,
+      "sha256": "a68290d2f04cc15cbe6b9ce99bebe016ba5c0565dc821c12b544e133c6607b2a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/fcp_relaxation.mod",
+      "bytes": 4525,
+      "sha256": "5bceea361b49e6b5e72db6ef7a9abbac9643477dd3a6d4aaa0a206d5b2db30ff"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/fixed_occ.mod",
+      "bytes": 1240,
+      "sha256": "c336feb18ee8fbec8141515121cc0fd8a98a78c94ea37d47b46f94066589347d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/force_mod.mod",
+      "bytes": 1411,
+      "sha256": "94aff54fa9539ea61b24ae671d2fc1cabbfcb2d4a88e0d433476e18cd269b765"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/g_psi_mod.mod",
+      "bytes": 1193,
+      "sha256": "bfdc2dce8d8e016aad4f334391e64cec6ecfd31242ae6cc968e865851a04f584"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/g_psi_mod_gpum.mod",
+      "bytes": 858,
+      "sha256": "0adea20a8b0067a4e4e3048f1ab620676a8336e69b363a29102ac438b1e7478d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/gcscf_module.mod",
+      "bytes": 13539,
+      "sha256": "7e4060abef5bf54cbab9b08aeb7aebc830c8855839ebdd43cfbbd60dbd4ef2f6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/io_rho_xml.mod",
+      "bytes": 1482,
+      "sha256": "ad3efaab12b6af6bea00f5025c25c4f8cc0ef973dace3c06ebe6eca2a25bd618"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/klist.mod",
+      "bytes": 1841,
+      "sha256": "408ea69f8d928995a4bb2f94b0a0e4298a3b95595db1f50000294c008210c7d6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/ktetra.mod",
+      "bytes": 2905,
+      "sha256": "bf8333037aa41dd09a5aa0ad23ab5cb2df4e2229b4d3d21ff5859188794ce8bf"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/ldau.mod",
+      "bytes": 6715,
+      "sha256": "440ce32cd2c0e0f97f167f6695b2dd73d23ab857cb2045e93c39847e190d1638"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/loc_scdm.mod",
+      "bytes": 5549,
+      "sha256": "72620562a96ca1ac93b825e903c791a4f068334b36f055650c2bcfe33b333550"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/loc_scdm_k.mod",
+      "bytes": 4898,
+      "sha256": "0becdb0bcc2f6759acccb80d89afa911585337ce80eebd1672bc4085721fec8d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/lsda_mod.mod",
+      "bytes": 1474,
+      "sha256": "5ee97cd15b46eee29e5ab4630afbc5b7ab8f3987c86c10a6f234bf39fd2b34e6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/martyna_tuckerman.mod",
+      "bytes": 2009,
+      "sha256": "a7bded068e0dbcfec70897557b5f3587a13c63f79fe9b332a21263d90e2f3fb3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/oscdft_base.mod",
+      "bytes": 171,
+      "sha256": "31b57e92e946cb11cceb944b8862b74fc1ad95c1935900c4df2dda9083a2efb7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/oscdft_context.mod",
+      "bytes": 173,
+      "sha256": "61cc72187e0f984c605c1a2bd1ed419aa6ebb217fa2c1dd08e0bdb438c5ce57b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/oscdft_enums.mod",
+      "bytes": 171,
+      "sha256": "da41dc0225051513af74c265d0f7caa49b740154cba89c6a21c8753164ccc164"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/oscdft_forces.mod",
+      "bytes": 172,
+      "sha256": "bf9f5cd733723002b45dd2b7a05b5d46861639db6876fa72a9aabf67860ef554"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/oscdft_forces_subs.mod",
+      "bytes": 178,
+      "sha256": "0a4cc003f9109f1f5cc8e186623fc7d9f5dc6ba14107d7d664e7837798295dc4"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/oscdft_functions.mod",
+      "bytes": 174,
+      "sha256": "58eb08f237533d5fcca79b18fe6a5af310f9538d071258d84f105eb8773526a8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/oscdft_functions_gpu.mod",
+      "bytes": 179,
+      "sha256": "ebd3531861232b647497cf49c59924b20627046380e9447448d04f9736f444f8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/oscdft_indices.mod",
+      "bytes": 173,
+      "sha256": "262f48444a7aaa876836fa82ba8a0d25b028ea621867c6f214aafb1c7aefb60a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/oscdft_input.mod",
+      "bytes": 171,
+      "sha256": "ede80670a9a71617bd47df6473108f40a0eda10fc21712dc6138956c2686217e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/oscdft_occupations.mod",
+      "bytes": 177,
+      "sha256": "7e9ca5d2bfc95764068deecc819d8102e35a215b5e68a7ec19c668190eaea163"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/oscdft_wavefunction.mod",
+      "bytes": 178,
+      "sha256": "0820abfa3710b385d598f922ca2e5f6fb3359a25fc7d31a192f656d42751dc24"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/oscdft_wavefunction_subs.mod",
+      "bytes": 183,
+      "sha256": "601f2b6ead54278f8d4432664cafa166150da5c71e2e80a57cba615dca59be9a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/oscdft_wfco.mod",
+      "bytes": 172,
+      "sha256": "b3299b5fbd6808a920c379588dac0fbfa05b8d339dc5648c2e7eecce3dd2e20c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/paw_exx.mod",
+      "bytes": 4186,
+      "sha256": "411ed6b045419a4d912bbc01cc71289183cec892b3e40c126ae5cdcbfca5c66e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/paw_init.mod",
+      "bytes": 1633,
+      "sha256": "6e34f588261bfb80134994cf3a0ec7c0167022ba40c3f12d2043eb5684e0010b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/paw_onecenter.mod",
+      "bytes": 4526,
+      "sha256": "02787b65eddfb7ccc19c949205688b4c24f00000249e065a4cde46b2a2a5b12d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/paw_symmetry.mod",
+      "bytes": 1884,
+      "sha256": "e992c0276b4206045a6d0c7413afddfb5b6c033c4d829f55562634c2f729760e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/pw2blip.mod",
+      "bytes": 2471,
+      "sha256": "d62de26e5309aea66715ba92666202a98caf0a8464ad80696b12a353f1c4e13b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/pw_interfaces.mod",
+      "bytes": 1225,
+      "sha256": "7e4a65f539e8f844a84dd8a261cfbb9f33ccdb41ffb85bc0e436750f950017f7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/pw_restart_new.mod",
+      "bytes": 47517,
+      "sha256": "f5340971ec3324060e969e99920dfa1dbaabd80bd4e3c4d85e878f932605bc27"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/pwcom.mod",
+      "bytes": 3370,
+      "sha256": "49d3a2841740fd2a479eb9fec0252138268326e210fedcf4c5055f86335b2eaa"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/rap_point_group.mod",
+      "bytes": 1495,
+      "sha256": "25a74f312606cfc866422e1024ee7cd6bbd293e2d96e1b98ab606569830ade5f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/rap_point_group_is.mod",
+      "bytes": 1390,
+      "sha256": "c4df1a26a6977f1a48fb7c21ddb468f715e190bbc5f6bcc76d044b84a10f3d91"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/rap_point_group_so.mod",
+      "bytes": 1474,
+      "sha256": "326d68cdbc624b19fc646d96c563af909fb3c9383c7810d9f44b039530bc46ba"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/realus.mod",
+      "bytes": 5706,
+      "sha256": "da70ca3cdb9d069f57d70709875c5605e18d8bb7a83cc9422a80365e9001c516"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/relax.mod",
+      "bytes": 1204,
+      "sha256": "adc74e40a3bf22f001172e9e2d66c63f1792958d0882d959404f3ff082d624ef"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/rism_module.mod",
+      "bytes": 13748,
+      "sha256": "e5b744c97f981ddc51b67bd8558d8454fc83640a8ad5d7f34d03975d1e33a71a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/scf.mod",
+      "bytes": 12077,
+      "sha256": "9d0ab9ca8375eb802f302bb58a7f4408b3e43a18356686248045b0d3f7cb1258"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/sci_mod.mod",
+      "bytes": 11778,
+      "sha256": "3781b85a5545fa723afcec44b3dd66051c2e4ed1f185a91320e32343756258bb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/sic_mod.mod",
+      "bytes": 12305,
+      "sha256": "3c93d5dade6719de1210027726660b6b74d950b0121729e8c480a25af75d185b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/start_k.mod",
+      "bytes": 1985,
+      "sha256": "9e99a755fec2cb1d11ba96442c751ef8596891720106d63fd15e2110b28de421"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/starting_scf.mod",
+      "bytes": 1310,
+      "sha256": "5f673fb54f168b1a2335845f877f46d572b1341031ed05a69b8ba36a33e12b3d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/symm_base.mod",
+      "bytes": 5420,
+      "sha256": "463c1c400d88762df22ce4dc155b3e53e4c85c5ffed2c7578756ca08cacb3d99"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/symme.mod",
+      "bytes": 4970,
+      "sha256": "314d00006cdd711ab1a9aad9affd75266885c849e515899743b0afbcb1120ddf"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/two_chem.mod",
+      "bytes": 1184,
+      "sha256": "3e45056df1b7e0073a56230dc567a5cc5080ba82f72759ad650a90c7b14e9c53"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/us_exx.mod",
+      "bytes": 6963,
+      "sha256": "570386f80bae868606610afe43c887c5688d68258b4b4ac6b39409a16500ccb3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/uspp_init.mod",
+      "bytes": 670,
+      "sha256": "63bc24dc8467e9458d0650e62e4552d4a331bac25aab94b2fd989744548934d9"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/vlocal.mod",
+      "bytes": 1254,
+      "sha256": "2d9eb69b74813b1313b3b7261a59ddfeb899a1e5e2af1dc825a0b2061f29b166"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/wvfct.mod",
+      "bytes": 1331,
+      "sha256": "bbd3fdb8e3915c2d539205bf2ac5b7f52278b6b097625d75ce6170e0c32df244"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/xdm_module.mod",
+      "bytes": 1392,
+      "sha256": "1fb40a160b23f34826691f900fe13fc9ebe1307b5b6bdc9bd98ef9fbd1ef1d17"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/ixs_mod.mod",
+      "bytes": 401,
+      "sha256": "0802be12abf99704b5496f2002f41ecb29f55d85376ad41fed14c9dc2edf8474"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/mp_kel.mod",
+      "bytes": 719,
+      "sha256": "f6c33296dd4b79582a3bd02e2e03b90c0276de72c6f30891df25a3a78fa8ddab"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/nesting_proj_routines.mod",
+      "bytes": 1258,
+      "sha256": "da3385b354f313fca39a1cae8ae6865f026bb8e683ba7191ba1f0bbb14fc4196"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/nesting_tetra.mod",
+      "bytes": 1298,
+      "sha256": "05dafcc4b0b0ed518d3780d660acb71ad85b4ff85049181adc98c78bace5a817"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/sctk_broyden.mod",
+      "bytes": 618,
+      "sha256": "f1dc987721f0791eed91287714c6fc4f2b9122ffbaac36737387c2f0f49bbf28"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/sctk_clock.mod",
+      "bytes": 241,
+      "sha256": "d34ec8f5ab65a26a56b9f267efefc2b66ea500b914f721dd0fa1a2b5803eafb6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/sctk_cnt_dsp.mod",
+      "bytes": 468,
+      "sha256": "ed4433d3f063a3f15bc0673310481d3939147cccf54678dea30e338e8bca29f2"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/sctk_coulomb.mod",
+      "bytes": 1270,
+      "sha256": "da752c37f5974f302721987bbf60dc1a0035f6b88d97b3b154071a42518b958f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/sctk_dmuxc.mod",
+      "bytes": 1846,
+      "sha256": "5cf4ddf37bf4c33bdb5ae024b75972ecd399d1c1b4fd45f0bcf175a3adec0042"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/sctk_eliashberg_sub.mod",
+      "bytes": 1452,
+      "sha256": "114efef4d4fa5b03530acf83b3066499ddd8748f4a4ee97d2b7d21018d8c8595"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/sctk_gapeq_rhs.mod",
+      "bytes": 481,
+      "sha256": "a937c0d07962b52b4d8ed705b2e8deeb3913b7a9e93c74399e89c9b2471d74e9"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/sctk_gauss_legendre.mod",
+      "bytes": 374,
+      "sha256": "bc8ef2357e580f6615a34bd526aff1d0f372f6e00e6332162518c45142597c46"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/sctk_ini_delta.mod",
+      "bytes": 1053,
+      "sha256": "ff6c1417ea89ea1b96c68b5f0b50dc25e02e682f606b9cbcc8373ed6bc31e17d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/sctk_invert.mod",
+      "bytes": 582,
+      "sha256": "5ff509c2b3b74e0b764f185efd6291d89290ea042b1350cf0254d7fbe7bc9ce5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/sctk_io_delta.mod",
+      "bytes": 641,
+      "sha256": "dbe2706296c55b9f7ceb87beb4b8c3235e7e58b68cd61339eb6750127bd0170c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/sctk_kernel_weight.mod",
+      "bytes": 667,
+      "sha256": "44e777aa12052b3a8df6b7bec7cfb51f80966216b9517e66e38c74e794060145"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/sctk_qpdos.mod",
+      "bytes": 404,
+      "sha256": "8c6846045432d7f9c1529d6d8407cce20ebe12a38dab91353346bcf01ff8911a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/sctk_read_file.mod",
+      "bytes": 301,
+      "sha256": "70b41f869b03ae7203b441f8e53be85bfe3ef3aeef1c86816fa2ffd2e00d0e3c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/sctk_rotate_kernel.mod",
+      "bytes": 895,
+      "sha256": "8a1f201572993bcf25d0aa79f6f7302b4a22f4880c0e691bc311aefa4a8427c6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/sctk_spinfluc.mod",
+      "bytes": 248,
+      "sha256": "910ac0a284a8668cd94c09cdf05b7a5da7d0019c8f830a497fdfa1f327ee2835"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/sctk_stdin.mod",
+      "bytes": 280,
+      "sha256": "6ca3ad038db3187dada7d827e7926637b1fc31d35a31aa732770156092cc20aa"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/sctk_tetra.mod",
+      "bytes": 1408,
+      "sha256": "094a082902454c4b3c16b69ffd3c1694fa999cf8b34bf4cfcf06887e257d3eff"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/sctk_usonic.mod",
+      "bytes": 437,
+      "sha256": "11e3ca0265c5f4ab8c74e442eefc784b2087a262380ce614d9c95938d64b8b1c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/sctk_val.mod",
+      "bytes": 2505,
+      "sha256": "1e7d3fadf90c72785d805f7b75080da85cec68e3f8b7d72400dfe5488372438d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/sctk_wfc.mod",
+      "bytes": 258,
+      "sha256": "00c085c009f6e8dab014dfb09a8479fd3af034393aab7d0a8c13185cc921b8f5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/sctk_z.mod",
+      "bytes": 274,
+      "sha256": "de55302cf348b3be36a8b2cd1aace367ef1b387995d5070bbefc09259cdadd83"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/UtilXlib/clib_wrappers.mod",
+      "bytes": 1693,
+      "sha256": "4a0280e806d2ceed7715dc1f5983fcdf65e2ec9bf99e174f73f683adb45dd865"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/UtilXlib/data_buffer.mod",
+      "bytes": 348,
+      "sha256": "0daa936371d9510a725b2966eaa3cc986a3f4ee04cb8ec336b1d1699d6d44d32"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/UtilXlib/error_handler.mod",
+      "bytes": 1073,
+      "sha256": "4faf82842c437afbd7fea4d3ab70ef15ac9f03181c91846c824ebe7f12509a4b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/UtilXlib/fletcher32_mod.mod",
+      "bytes": 1348,
+      "sha256": "80d6bff962e068e5d4fa3674d30676caf6338a566fa9c1aaf194a2816aba353a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/UtilXlib/mp.mod",
+      "bytes": 7149,
+      "sha256": "e8af4a22e41ebef23e20dc18e39ff53316d83c60197c32fcb60cf06eae0663e1"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/UtilXlib/mp_bands_util.mod",
+      "bytes": 2129,
+      "sha256": "dc6d1b6aa9e3176c526144195c0bcce91b8016323b457ca4ff9b1bd90e561d7c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/UtilXlib/mytime.mod",
+      "bytes": 999,
+      "sha256": "b6e5686d842387142087de0e2e4261ff3fd398ed5a09db45a286ca60a9f21ff6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/UtilXlib/nvtx.mod",
+      "bytes": 2748,
+      "sha256": "8608608b51ff2411dd004bf133487b8df666c6fac578897419e384ad57dcc435"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/UtilXlib/parallel_include.mod",
+      "bytes": 297,
+      "sha256": "ecc636430a9586632c0fae08cd3cf273f22c279747d78ffb135669f2f4292d28"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/UtilXlib/util_param.mod",
+      "bytes": 628,
+      "sha256": "85e47eb37a6fb220b109ebd023d067c25ef991a1d30f14c0136eaae3c4cffefd"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/XClib/beef_interface.mod",
+      "bytes": 897,
+      "sha256": "b29ecf5392b5b1b300ade63e24db93c946b479aff5cc2d899c28639d47f9dea2"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/XClib/constants_l.mod",
+      "bytes": 877,
+      "sha256": "a1645f2b8af21253f1beac4f33d3c5a45048c24928b1eb5ae1f27dd6b5b617dd"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/XClib/corr_gga.mod",
+      "bytes": 1142,
+      "sha256": "7aa08d2e2a515b7e1e12a277406af1a16e5cde3443bc200f4bf1d8df21a75ede"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/XClib/corr_lda.mod",
+      "bytes": 1288,
+      "sha256": "9632b6b5ec2df22f18b5130f6eca8c0ae0aeb4f47e2a33a03b0471252c427bd7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/XClib/dft_setting_params.mod",
+      "bytes": 983,
+      "sha256": "7d840b00d54651a3301d51adbaf87d30aaeb733207e02a368248f4f43d4ece55"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/XClib/dft_setting_routines.mod",
+      "bytes": 1707,
+      "sha256": "693625941c478a07122dea0f8933c61f0175c4825b1d75f41ef31b598f1cf3d2"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/XClib/exch_gga.mod",
+      "bytes": 2112,
+      "sha256": "058c42b8503c9d8d571ef0e6734e68ed3580be8d8e0f988f485831f789ac059a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/XClib/exch_lda.mod",
+      "bytes": 703,
+      "sha256": "2291a6db5fe1520ba75b61d73ba15127d875cefe5451c601333c8a079970be64"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/XClib/kind_l.mod",
+      "bytes": 317,
+      "sha256": "e1590461e53f6e81af62556954f6045c0866a3279b776c07bb6d413bbd0fda92"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/XClib/metagga.mod",
+      "bytes": 2380,
+      "sha256": "cc567bf2bcd5e43e2b54d4b76176fe8ed43e30bd71a47e327a17882b6d1a4ee5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/XClib/qe_dft_list.mod",
+      "bytes": 1488,
+      "sha256": "7a15f90e168472db269e5da27fa394865b674f93a1aca8aba50dfcec95d26ba1"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/XClib/qe_drivers_d_gga.mod",
+      "bytes": 715,
+      "sha256": "24b1187b9ce22577d61f2074c309b55cd683a5a71dcce57dbdeae447103f4cf2"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/XClib/qe_drivers_d_lda_lsda.mod",
+      "bytes": 519,
+      "sha256": "6741d87c1eeafa4ea059e276d8b609b87e1ad6eb1f21b6d65b10a57638a70947"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/XClib/qe_drivers_gga.mod",
+      "bytes": 793,
+      "sha256": "e2e493908a4e2bbec075da9185a1ded54ea413ebd78b216d4eea001b9d9a1a39"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/XClib/qe_drivers_lda_lsda.mod",
+      "bytes": 490,
+      "sha256": "8cd8a8573140b5bb2d6a0c204bc76598c26e36c689bf986cd8813a7a863e844e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/XClib/qe_drivers_mgga.mod",
+      "bytes": 667,
+      "sha256": "0ac8184f5f2fef46abad9c1087a3b0c830b45d95e63d1a5ffc387c879a2bb944"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/XClib/xc_lib.mod",
+      "bytes": 2619,
+      "sha256": "6767406fadac3de4fb2f5eff49307ffdb584cca8e6ea501ecb3389939cfd7ee7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/XClib/xclib_utils_and_para.mod",
+      "bytes": 450,
+      "sha256": "d1dec47f68faa733076706183c4c8976478130eb0c81392208395debae07a3f3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/dft-d3/dftd3_api.mod",
+      "bytes": 2173,
+      "sha256": "42df11223580f5e1dacd1440c541ce094523d7ee06d7a3d9853becab91e067ce"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/dft-d3/dftd3_common.mod",
+      "bytes": 707,
+      "sha256": "21b716cba654e3f30a92ec86f75a9369c3bcdea36ee422f34c46a2a6bcc58c41"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/dft-d3/dftd3_core.mod",
+      "bytes": 4773,
+      "sha256": "84f9902a4eb5dc502c11ce9189f09429d23c5bbd131ead23c85887f40dce1f96"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/dft-d3/dftd3_pars.mod",
+      "bytes": 424,
+      "sha256": "3086aed6bd3390220638d9e013f82927156827e49dbbb7347c24097cf6dc6a0b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/dft-d3/dftd3_qe.mod",
+      "bytes": 2518,
+      "sha256": "ca5277165a0fdf3c0bc31066a0dfb2b5e7daf1723f5c44606ce7421ffd21a3cb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/dft-d3/dftd3_sizes.mod",
+      "bytes": 303,
+      "sha256": "95efcf1537148ff4a4087e068aa73b30daddce3dd2f71e4a69dd7508d675868e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/devxlib/src/device_auxfunc_m.mod",
+      "bytes": 4528,
+      "sha256": "a98df6d1c5c4b51300db95febceee39eea591d72dbea4b01825a7050b3322761"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/devxlib/src/device_fbuff_m.mod",
+      "bytes": 8760,
+      "sha256": "e31561bc938a7b8edb586eaa8393642d0d873836cec7929fe2cda56644a022aa"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/devxlib/src/device_memcpy_m.mod",
+      "bytes": 6481,
+      "sha256": "b60251487b78f1adb6d0478ef7fbe12a2ee865a769fbff20959baf49ddb0c16f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/devxlib/src/devicexlib_m.mod",
+      "bytes": 19526,
+      "sha256": "e99580e7765481cceeebe5b1510aa9366afafcc66c99d4566ba809d62ea66d12"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/devxlib/src/tb_dev.mod",
+      "bytes": 4978,
+      "sha256": "db814eedf030e42aabddb371c6c2e5f3ba137b8a7e9d829fbbe4040dc1d413b4"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/devxlib/src/tb_pin.mod",
+      "bytes": 4950,
+      "sha256": "2c67ffd29c52a702b4c0d02edea1778e8d3a0cec5eed8eae4d4c4f600ee676af"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/devxlib/src/timer_m.mod",
+      "bytes": 988,
+      "sha256": "c4471426ff54a56209013fe024a36ef2b6e7df3d1cbfe5f4bbe7cafcbe2b06cc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/mbd/src/mbd.mod",
+      "bytes": 15690,
+      "sha256": "a472ad995b421fc66f192295f96cb1f39f0cebba4771bc3c8e059028164e4a73"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/mbd/src/mbd_constants.mod",
+      "bytes": 716,
+      "sha256": "b497907b52f8b09790e779121d47bb3a5916f487d3ea08590dec4e2a927ee3ff"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/mbd/src/mbd_coulomb.mod",
+      "bytes": 12392,
+      "sha256": "f9562a72a587ce4e1635a2a95fcc9b4c8a9006c8217f18323b018c74ec516e4b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/mbd/src/mbd_damping.mod",
+      "bytes": 6193,
+      "sha256": "17a946f5db28734e7e8ca798620bd1f024cb8a4a4fed5e2c117e28106ab83f81"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/mbd/src/mbd_defaults.mod",
+      "bytes": 874,
+      "sha256": "62f1a68e4c7dabf092995c8c76be279227045233bb71d52b2779b9de7b772d96"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/mbd/src/mbd_density.mod",
+      "bytes": 8674,
+      "sha256": "83a3810cc9672ec90a4e3aad36f23734b9a186431286c44dce8eef24a6a24ba0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/mbd/src/mbd_dipole.mod",
+      "bytes": 13122,
+      "sha256": "64901c5b8ad284ad279a13ea2be77a02e0aa203f916075ec8c6c703fae33c8be"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/mbd/src/mbd_formulas.mod",
+      "bytes": 6203,
+      "sha256": "66295529db0564471611da615da489bfd7fba7d82ff912e0374a69c6984bec70"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/mbd/src/mbd_geom.mod",
+      "bytes": 7207,
+      "sha256": "7c5e952133f657d4a3dcae4e2616fe06e0a4d50618aa4bb26ed30a1a98f18fb4"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/mbd/src/mbd_gradients.mod",
+      "bytes": 2934,
+      "sha256": "cbd81b4475af7cc769e9bb26c2e79eddeb5120b92c689813509ab04980ca9cce"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/mbd/src/mbd_hamiltonian.mod",
+      "bytes": 12465,
+      "sha256": "66dccee60d964090bbb892d641f4bff923576a0d03b3857038193a6f6eed726e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/mbd/src/mbd_lapack.mod",
+      "bytes": 6757,
+      "sha256": "6ebc0b88efc45dff1b3bad50c57b7ca927c79179feb79e71a4947e25af920651"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/mbd/src/mbd_linalg.mod",
+      "bytes": 1004,
+      "sha256": "3e0b71553a20446021354a49dc4717ca154175f311f4d265ee810e570158274c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/mbd/src/mbd_matrix.mod",
+      "bytes": 10191,
+      "sha256": "cbc5ed2b9b8eab040575b529e784dc21c1a205053b440aebe957f9d71a0b9b21"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/mbd/src/mbd_methods.mod",
+      "bytes": 12411,
+      "sha256": "0602e3dd2591cdeed790dbf6d248bbc5307de683a8fe6ba06be2fb3118b4894e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/mbd/src/mbd_rpa.mod",
+      "bytes": 12370,
+      "sha256": "5df73e86be7b712fc21061aacc1da791634f7be51832afe718d6de9a7d20ed91"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/mbd/src/mbd_scs.mod",
+      "bytes": 12414,
+      "sha256": "06304744f9fe3acc9117b081b0314b612d38f6fbc776923609777eff11b74b3f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/mbd/src/mbd_ts.mod",
+      "bytes": 7493,
+      "sha256": "d30279e3b9cd6d2a5439840a52e6dc0985f520431275fed6ff576711c88d7411"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/mbd/src/mbd_utils.mod",
+      "bytes": 6225,
+      "sha256": "ca6e7d6b67da27be9a0e95373bb5f4615435ba038bd42c467dbcb92f7ddc8448"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/mbd/src/mbd_vdw_param.mod",
+      "bytes": 7620,
+      "sha256": "6e6314184bb96c2bcb57ba09cab95c72fa96a363e894704c2cd52abf7b4a938f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/external/mbd/src/mbd_version.mod",
+      "bytes": 341,
+      "sha256": "bb3b1aad7b879d8b07f6a7fa08aa4fadead2d3f29c8fb7f87c65fc47c89baa7d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/atom.mod",
+      "bytes": 1025,
+      "sha256": "32a26d6289f8539fe34dacac803406c0743a47361f890a7995706dd0d3542635"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/atwfc_mod.mod",
+      "bytes": 674,
+      "sha256": "4797b45e0834d6745815cde40cfbe6a5931911ef2f77b713b8a7cfabe303c7d8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/beta_mod.mod",
+      "bytes": 661,
+      "sha256": "90bd1d0da07c4e132fdc1fc691baf79b7deb9a0d268f0252a29a68df8e6e7fa1"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/casino_pp.mod",
+      "bytes": 5281,
+      "sha256": "2877d81c77f10258ac0f922905649f03e0dbd8f1f9d2eea83d37a05f3143a643"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/cpmd_module.mod",
+      "bytes": 2025,
+      "sha256": "34fae09c3466523ed7185773c91e87467160e0d66484858d8d18aa6100f9cc50"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/dom.mod",
+      "bytes": 3474,
+      "sha256": "ee5892550cb06f2775deae39ace0ca7df9540899c5c47b2e970af46d4aa00859"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/fhi.mod",
+      "bytes": 3563,
+      "sha256": "abb5cb37ab55455b4e1ef6b74bf74adb3da0fa9e83eaa71378e7e9f9df2c0d37"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/m_gth.mod",
+      "bytes": 3128,
+      "sha256": "9b6a6ff2f1b9a7fb099f533e797c1ea3a0c18f0fdd0c954854cd3713ad0f3378"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/paw_variables.mod",
+      "bytes": 1638,
+      "sha256": "9a89647ae15f5a6ac2075ee37d756a04f899c8b40ff9e87d52f166f974d0e8ae"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/pseudo_types.mod",
+      "bytes": 3525,
+      "sha256": "267f04d203bd4e7051febf2642347107ac121dc4575faccbbb2b2d85f1913154"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/qrad_mod.mod",
+      "bytes": 519,
+      "sha256": "4c2d534a51394ac88a11db0d10b3155fd300980222677a7766463a0f690533d8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/radial_grids.mod",
+      "bytes": 1659,
+      "sha256": "ec7c2d37f45cd55ee52557b2151205fcca3fca69c482c2e089e5de1ef39eb7cc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/read_psml_module.mod",
+      "bytes": 2154,
+      "sha256": "bba811db45d370f1eb34e9dab9359f590b6341a57e3abb667c15d64f7278b8e3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/read_upf_new_module.mod",
+      "bytes": 6140,
+      "sha256": "28bc9ece29f8a50b6247f9302860d0d8714622eeab55e422460d1e83c4c440c3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/read_upf_v1_module.mod",
+      "bytes": 3312,
+      "sha256": "f18c243a100b60b4858cb5f662a5d1bdb67080a05791e5fcd325913b84a3f8ad"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/read_uspp_module.mod",
+      "bytes": 2957,
+      "sha256": "85ce559d76a84ef0d8d63ffad4b4832d9060275bf4c523eaace1ba86e60f2343"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/rhoat_mod.mod",
+      "bytes": 530,
+      "sha256": "fa735ecac7dc731a8077fc412e774e3a811c406fafc6deecc0d928000cb71f73"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/rhoc_mod.mod",
+      "bytes": 624,
+      "sha256": "cc7e421de7ad17dd201e32756754fa4686c959f772bdeac86e1cdb288bd04112"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/splinelib.mod",
+      "bytes": 767,
+      "sha256": "27ffb353187ebfef1b750c84c2fdb3b87d57dd10de35ac223995c065898aa869"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/upf_auxtools.mod",
+      "bytes": 3180,
+      "sha256": "facd82f8d97b4f207b32ee31e33693afd70798a53079333de0e2a87ef8d66af1"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/upf_const.mod",
+      "bytes": 600,
+      "sha256": "3ac14eefce51cbba091fb100dcc166883663db6bba8349e7b356159ab31ec52e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/upf_invmat.mod",
+      "bytes": 355,
+      "sha256": "091bad9c006ae72e79d3e49bb77e6288418b4f2c18159771921ce8ee1dee3e87"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/upf_io.mod",
+      "bytes": 235,
+      "sha256": "9fe3376a86709f0065831c0dd71ad0e03de5e1b48091595b1908551329baf001"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/upf_ions.mod",
+      "bytes": 369,
+      "sha256": "d62d17db7cd8d177b0379d5f6f0daf4ad3b79e6bb77ed1420d0340df8c6d399d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/upf_kinds.mod",
+      "bytes": 254,
+      "sha256": "e21fdbbfc0ec6125f8d1eed2a97a7e503f7a01c2f71d5af8646c9cb2acc6b281"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/upf_parallel_include.mod",
+      "bytes": 316,
+      "sha256": "8ab99e40b03e612b1e6cdd83a9dbf5c26eabde396148115595973dc78c0025bc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/upf_params.mod",
+      "bytes": 265,
+      "sha256": "b81dfdf9545806c29792b993852db370d54a677353df31f7f3d2f4d32a21d2f7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/upf_spinorb.mod",
+      "bytes": 812,
+      "sha256": "a3540edda3029720ad01feb3e614e1b5e3c9725e37968abb0c94d79d2ecbff6c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/upf_to_internal.mod",
+      "bytes": 3383,
+      "sha256": "3f3054651814a569332ea8b6444a221ed3a52c4de63ccaa5269966dd71d0baf6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/upf_utils.mod",
+      "bytes": 687,
+      "sha256": "08a37da249f1cb0bca024e2420b305d2cd3a9553aa9c32ff00b5d1f8709e161e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/uspp.mod",
+      "bytes": 1049,
+      "sha256": "4acde7c9e4305d2fb02a0169d3819b1d402a2a5506ea1a2c4b8712a4f4a90df0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/uspp_param.mod",
+      "bytes": 3358,
+      "sha256": "2d641b801fabba517e57dfea9fe0c9b79a7037efde5dfc1993097899b24d9367"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/vloc_mod.mod",
+      "bytes": 709,
+      "sha256": "edbdecaad76eeff0a58085e91aca5589d0ed67d6527a4ec17a7bebf8a1b5661b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/write_upf_new.mod",
+      "bytes": 3214,
+      "sha256": "2bea6f0e5f03a474506b21fef089f85aabe61691aa2bc1e35a7a84fa39f35020"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/wxml.mod",
+      "bytes": 2043,
+      "sha256": "21c085187824e53902d21f85bfba6f0eacc559856d128880e3b0b6c213b0d8f5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/xmltools.mod",
+      "bytes": 2360,
+      "sha256": "28a1fb9125f5397d9a395af0b133856a081e8298bcd74507945bdce6ace01ac6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/ylmr2_gpum.mod",
+      "bytes": 170,
+      "sha256": "6fdc60f79a49399f8807a1757858513481185730db920714d3ed064e6339f68b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/fresh-gap-init-001/run-manifest.json",
+      "bytes": 127821,
+      "sha256": "ea7a2a6b77dc582017e2e3d049f084f3cd1386543008082db773d6624adaa3d8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/fresh-gap-init-001/results/init/receipt.json",
+      "bytes": 869,
+      "sha256": "917736a60ff094ac270999758a441ffd87c5ef8d3f67bcbef1c2e5e957faac81"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/fresh-gap-init-001/results/init/console.log",
+      "bytes": 12839,
+      "sha256": "0495f5976299939cec2fde95c9081fc2f8f8cc93ac1fc40c62da05f42262ea68"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-partial-001/run-manifest.json",
+      "bytes": 137879,
+      "sha256": "b6c6f09641709810bd2b08b2ef636ec76522650ba6e6da2b6193476085e0b9b2"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-partial-001/results/zpartial/receipt.json",
+      "bytes": 858,
+      "sha256": "ea348246ed622ebffaf5747c7f5b2d5fd8b011c73760e688bda44922ba4b5234"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-partial-001/results/zpartial/console.log",
+      "bytes": 28596,
+      "sha256": "be99b630d162bcfb1268a13dd7de2b33b18052833c599fee3ff1426440b2c631"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-sweep-008/z-sweep-result.json",
+      "bytes": 1707,
+      "sha256": "cba20a09b0794132c4e76c4ff69b1e2bf05790f1d628f839c1c93895e0c76448"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-sweep-008/run-manifest.json",
+      "bytes": 139892,
+      "sha256": "44b1ddd4cf2c1b0b86ea34b0d913d89315ca97b361d84b6303d9f9e6be111b43"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-sweep-008/results/zsweep/receipt.json",
+      "bytes": 851,
+      "sha256": "ac3d6ace33bf25bbf4db38bb7b1899df786c88d4adf94cf75e77e3bd1cbfddf6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-sweep-008/results/zsweep/console.log",
+      "bytes": 31141,
+      "sha256": "f4f793ad29bcb322f44c377ec890d8caf851bd8cf6acdfa8a969b8c893436070"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-sweep-008/z-checkpoint.meta",
+      "bytes": 191,
+      "sha256": "412d4df97febf3bf65dccffe256365da541e6a5b50ab43b7d6deb716417d583f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-sweep-008/z-checkpoint.bin",
+      "bytes": 1087040,
+      "sha256": "36d7f7dde09489e7b6c8c1acd50e9fd87ccabfeda3d2ca763b8a1bd24aa3b7f0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/fresh_gap_initialization_result.json",
+      "bytes": 2964,
+      "sha256": "c8bb859681f34b660e15f2cf222459afd305280f94d9f7be0c3f784b96b3877a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_z_partial_result.json",
+      "bytes": 3142,
+      "sha256": "51b272790b5f08204d3c6a3c0eabebc642e639e4732d7f4d1526b645036422c3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-sweep-009/native.in",
+      "bytes": 414,
+      "sha256": "d152ac53720dbb50b9706ab294c1cf3028f9e9839de4192d973aecaf1eb536fa"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-sweep-009/z-sweep-control.in",
+      "bytes": 242,
+      "sha256": "725a6e2d62df7414a1f0942221b92f410e656f282cc187c1c8050c830fdda925"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-sweep-009/run-manifest.json",
+      "bytes": 139892,
+      "sha256": "69dae1dc0d1af8c68dd9d368678d169a6d37913cdae01cdc68ac9ce58bd17142"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-sweep-009/z-sweep-result.json",
+      "bytes": 1707,
+      "sha256": "03b182e598afad8851df1526300ab8dd9700e95eb8789c4cae0923d4b99d29dd"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-sweep-009/results/zsweep/receipt.json",
+      "bytes": 851,
+      "sha256": "2b42520a9a8b8b0e139f7eb3514f2d8e56d622c41a204eabb2bdc9f9dbcc8c7b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-sweep-009/results/zsweep/console.log",
+      "bytes": 31350,
+      "sha256": "49ef91dc8095e0a7469ca5f2b4b1c46878bc27b0812b0babce84340683733ea2"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-sweep-009/z-checkpoint.meta",
+      "bytes": 191,
+      "sha256": "20e7733d67bae894bd86df4f36441eed5ac6a33c4636e18944d6cf9a291c7b60"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-sweep-009/z-checkpoint.bin",
+      "bytes": 1087040,
+      "sha256": "4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-sweep-009/z-sweep.x",
+      "bytes": 7747096,
+      "sha256": "53d5cb17bc0f8e79d34e2ab08d37e16027b17babbedbf966b3c3868437f30dd6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-sweep-009/full-z.meta",
+      "bytes": 309,
+      "sha256": "289418f57bb1421baad2320e53e81aba35ee520ed39dd6eccb16b0718284e6da"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-sweep-009/full-z.bin",
+      "bytes": 1087040,
+      "sha256": "4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_z_oracle.py",
+      "bytes": 8469,
+      "sha256": "9c885d412779fa10911775eab3e81ac0a31b0003f7354d521290d27aa92f5193"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/native_oracle_z.f90",
+      "bytes": 3267,
+      "sha256": "3a49f12e179226caf809bccd40a4a67fa726ad7d418f37ce205ec78d31b8bb27"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/z_oracle_source_provenance.json",
+      "bytes": 294,
+      "sha256": "b82bed3f4369d8149d2d8d3fe5607d84bd4195031687c9b19792bb7906377f0d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/z_sample_oracle.f90",
+      "bytes": 3332,
+      "sha256": "0a15d7fe182803eccfe8f48967a5f68240b4a2494ca6679ae4fbba02196ba7b3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/z_sample_oracle.mk",
+      "bytes": 579,
+      "sha256": "2b6782dd5331ba0439ac20e59d24ba5a31f827411f3370dcb47e170f477f7474"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-oracle-001/native.in",
+      "bytes": 414,
+      "sha256": "d152ac53720dbb50b9706ab294c1cf3028f9e9839de4192d973aecaf1eb536fa"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-oracle-001/z-oracle-control.in",
+      "bytes": 134,
+      "sha256": "fa0c217e75b2e2ff1fb9c298435eb367af1fd8d59ae8a600d0d5b4afa428132f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-oracle-001/run-manifest.json",
+      "bytes": 143095,
+      "sha256": "c77ba29453957c50f65523781580f9253f6a9824a11566f3f4e40e7367ae5d07"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-oracle-001/z-oracle-result.json",
+      "bytes": 2644,
+      "sha256": "2a17155a8e3a2146caeabac62fc5703e67646e67030cee9a444ce775254fcec7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-oracle-001/results/zoracle/receipt.json",
+      "bytes": 860,
+      "sha256": "8c94a85e425633e75e6aa61bb0551588732be4995537a99bcbdf892c1dfef515"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-oracle-001/results/zoracle/console.log",
+      "bytes": 25080,
+      "sha256": "97bea2bfd5eb25022cf365c4ae4fd3f610d6b2020a22774c729c42df103b8e58"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-oracle-001/z-oracle-samples.bin",
+      "bytes": 96,
+      "sha256": "8c67185984c371983499f7f81bab16bc3eccc21f1a0f72ed0194e42b72276c62"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-oracle-001/z-samples.meta",
+      "bytes": 757,
+      "sha256": "3fecc5d184cd20035c71c328ef0d280603385b40433dbcea83ae689cfcffb4a0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-oracle-001/z-oracle.x",
+      "bytes": 7745288,
+      "sha256": "d1aec29ab1cfaccd0a3612386ecd08bbf9318daf862e733ef4515f5b4a781427"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_basis_partial.py",
+      "bytes": 4933,
+      "sha256": "3c42802ba421fdd5060410399d1157092a7b69a22ec689d0f23f8fc2acf9894e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_band_pilot_analysis.py",
+      "bytes": 3789,
+      "sha256": "d966cf1434e6390a0aa79cace3bdc62962f93e051faac1b89bffe758cbbfbcbc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/fetch_public_response_inputs.py",
+      "bytes": 4379,
+      "sha256": "ef6c29a14ca6c58abe7be79f3b6ee36f404a69d31e41df8baac651cf9ac1bd53"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/basis_partial_driver.f90",
+      "bytes": 4778,
+      "sha256": "4f4f1a7d7d37232f8e69c99b4f2c5537f6aa73d3d9edb2c3a5293f759eb4dad3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/basis_partial.mk",
+      "bytes": 652,
+      "sha256": "36f0168031e7550964938a456c20fc297da93fd120a942ea05b12a2a785a92ca"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/basis_compile.mk",
+      "bytes": 331,
+      "sha256": "b30570ac54a3e819e77213decbcf02e653bf9570757f850503805ff63958ff2d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/block_linear_operator.f90",
+      "bytes": 3535,
+      "sha256": "716fbc0bd7d14001a18bc3fbf263ac0a3db9cf6582711e664fcb1c01d3650fa4"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/tc_subspace.f90",
+      "bytes": 10282,
+      "sha256": "f65161cd947fa2f5dca95e92a670d15b46c9c4082c8127cd4159fb9650849a84"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/basis_source_provenance.json",
+      "bytes": 611,
+      "sha256": "7d88b50e5fca6ac6135857d8d2f15e5e3d170c673cd5ea23dc4cdd3eceaf82df"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/full_link.mk",
+      "bytes": 1562,
+      "sha256": "60acbadc35305ee8e23ba35721bd76c5501aa77ebc84f30df5a396b313f07821"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/operator_compile.mk",
+      "bytes": 663,
+      "sha256": "3287be14339db5d4721020c307ab10f2aa324918570e2f6a24f36c999538ad76"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/cache_qualification.mk",
+      "bytes": 498,
+      "sha256": "6f79884106d28ffa9faade394f6130d2fc1c25faa421bcab107a53c2f50f1589"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/cached_kel.f90",
+      "bytes": 2378,
+      "sha256": "d430878241d595fcdb824e3733d15f1272e4d5d4e335103ac94a2a1081286456"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/cached_phonon.f90",
+      "bytes": 2258,
+      "sha256": "6a6303ef53ccc0012cec27a72ddaf7a5d1869993d1b0890f0ad857a18196e200"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/tiled_operator.f90",
+      "bytes": 6437,
+      "sha256": "02df9cd10583e10e7141f20a1378e5a284f1576e9dc87d273bc647de2a4d3489"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/tc_native_oracle.f90",
+      "bytes": 4812,
+      "sha256": "0def51ff70762bd25419d4ad5feab668003dcf026d0f5a6f27826aeceb60eae2"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/streamed_coulomb.f90",
+      "bytes": 5882,
+      "sha256": "eeeabec84483caa6a4ea1a92d84785da8543ec4f0d2ec21ce8056620fb964e14"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/saved_coulomb.f90",
+      "bytes": 2732,
+      "sha256": "8705f20423dd1331738ac8bda90ed2932c77c83f9096da44943bfa088b2abcaf"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-partial-001/run-manifest.json",
+      "bytes": 149190,
+      "sha256": "0a8164bb8e30b2597d0d8dfe07fea1fdf32c089f8ed3679ce6e6a21754425c3d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-partial-001/results/basispartial/receipt.json",
+      "bytes": 875,
+      "sha256": "b3c992ba392936c00c742fc224810595e82d3e988ad5114ce30ae435d5d8f274"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-partial-001/basis-partial.bin",
+      "bytes": 34785280,
+      "sha256": "3da0b2d31744462620f3c022dc71acec5209a037d05d505bad9b728db3daa73e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-partial-001/basis-partial.meta",
+      "bytes": 316,
+      "sha256": "598c9523a0e5a4a137cff86d31249e23a7d0ea7bf0d176a38f8eec7c213e32a9"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-partial-001/basis-partial.x",
+      "bytes": 7832672,
+      "sha256": "03b28094b92bed53a9ea142cfd14f3c140643cfd99e45b3dc1db492b2d3bd194"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/basis_partial_analysis.py",
+      "bytes": 4180,
+      "sha256": "de939fc1d3d38deea06f4b81de44db9b8b4fa6a27a4d0f1a856ec5072b3dea26"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-partial-001/basis-partial-result.json",
+      "bytes": 2051,
+      "sha256": "999a6038bf5ecb28db17fb0eedbc2a366082cd7fe663fef48079c3afb90defb2"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_basis_split.py",
+      "bytes": 3598,
+      "sha256": "8bb34560d6496048850604be276f5471b2a1a7106253e77bdbfcac150ab7b2df"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/basis_sweep_driver.f90",
+      "bytes": 5229,
+      "sha256": "d41c37aed2c2e569d3802b4cc49d23901c67198a41861d931481837834816ee3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/basis_sweep.mk",
+      "bytes": 778,
+      "sha256": "80e3d17afd89a56e5c6b5a9d068abdf9d1c8a7f224e7dabdd7e722476121d4f8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/linear_image_checkpoint.f90",
+      "bytes": 3650,
+      "sha256": "2217532eca51beadc4db203342abad544a7b7f795eab2ebe19b967d58c56b01b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_basis_production.py",
+      "bytes": 8144,
+      "sha256": "66b14241c1d276e433616f7268927a5cb472eaf7819fefa574ac0b91cf070943"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/basis_split_analysis.py",
+      "bytes": 3967,
+      "sha256": "6ec06a124740b38d36a9274a99c8d11da92c1ca0ac6e2b992bef579418a135bb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/basis_production.mk",
+      "bytes": 835,
+      "sha256": "37c0385630e635cab9ec5c17d13906da9976b74ec6363b38c69cbc8fdba56ccd"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/basis_production_driver.f90",
+      "bytes": 5747,
+      "sha256": "6fe2def704134430ce4389345df549d274bee826643fa8e65f18724fe31b7fd7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-split-001/run-manifest.json",
+      "bytes": 151520,
+      "sha256": "70a4d1ad9e1ed5191a158a4aba47bca59fbee2198304c0a370d265d28b831438"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-split-001/results/basissplit/receipt.json",
+      "bytes": 865,
+      "sha256": "c64fea05b395d091b32fef2a9bc60b6fe3ce1770d7fa6ed62f0a762a0845416f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-split-001/linear-image-checkpoint.bin",
+      "bytes": 17392640,
+      "sha256": "9cf7c4b66513890e3820eae20431cb100046cf5af81b61b3c0b3773daff50afc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-split-001/linear-image-checkpoint.meta",
+      "bytes": 215,
+      "sha256": "2fc285c6194acd4052da49f0005cdd423de1b5b56cd7ef8eb8260c4598a14412"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-split-001/basis-sweep.x",
+      "bytes": 7833280,
+      "sha256": "d3aaa42f9b94bd228bba25ab9ee54bc83a4f9a1c74feea8dbddbe717b27737ca"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-split-001/basis-split-result.json",
+      "bytes": 2053,
+      "sha256": "e932a54da1c55495b365de7454d918a23b52f24b37285889cf2b4bfb4521236f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-production-004/run-manifest.json",
+      "bytes": 155296,
+      "sha256": "d123fa10b5a7fd669bd7a8ebd31fe0146657cd3671980704724b858da34e8aca"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-production-004/results/basisproduction/receipt.json",
+      "bytes": 875,
+      "sha256": "7e588a121715f28720953182183f7f11b1cdd8c6a380e845b4e9c111512566f6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-production-004/linear-image-checkpoint.bin",
+      "bytes": 17392640,
+      "sha256": "e87f41614bdce0f09e4708ddec5b5ac24449da300e29b989f2d6832a141f6a20"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-production-004/linear-image-checkpoint.meta",
+      "bytes": 215,
+      "sha256": "daf0218c443ba3d01b05a67e5ecd4b9f16e22b6528cf1686358c0eee6a24a6c6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-production-004/basis-production.x",
+      "bytes": 7849712,
+      "sha256": "7acfdaa748fae0be90c7b13321af42501e913804251665680e10a39dee5734ff"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-production-004/basis-production-result.json",
+      "bytes": 1740,
+      "sha256": "ae954b6c0228ca687deb32ffa5d14bf7c7c5c42b28a6bca960c640d6a5c62736"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-production-005/basis-production-control.in",
+      "bytes": 414,
+      "sha256": "26c50a94a570024e1b56d411f3c3bd887f13ca92b6f8494e281179595602fbd6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-production-005/native.in",
+      "bytes": 414,
+      "sha256": "d152ac53720dbb50b9706ab294c1cf3028f9e9839de4192d973aecaf1eb536fa"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-production-005/run-manifest.json",
+      "bytes": 155296,
+      "sha256": "989466be785a98c22b35c32a639a91e587b5af3d0bd6364f344c276452e707aa"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-production-005/results/basisproduction/receipt.json",
+      "bytes": 875,
+      "sha256": "d7d54a339060cf66c4b72f8aba6110c7d121970c3baf6c786e55c7338f211979"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-production-005/linear-image-checkpoint.bin",
+      "bytes": 17392640,
+      "sha256": "269093444d85537be8b7c07f8aa03e40b428923ef2992092103aa2d42d31f2af"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-production-005/linear-image-checkpoint.meta",
+      "bytes": 215,
+      "sha256": "72bfec55b492ba2c9dc4ea5183bba1afa6d00009cd3527ade449bad5211c073a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-production-005/basis-production.x",
+      "bytes": 7849712,
+      "sha256": "7acfdaa748fae0be90c7b13321af42501e913804251665680e10a39dee5734ff"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-production-005/basis-production-result.json",
+      "bytes": 2444,
+      "sha256": "a92a38075d8315fdecb996df756b9dfac80654b928f1cf46374b26b2203c5362"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-production-005/native-linear.meta",
+      "bytes": 820,
+      "sha256": "874de626693520f098ebe90b1538b549df0961421067856a94f91c4273e302f5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-production-005/basis.meta",
+      "bytes": 202,
+      "sha256": "464c9934a70ac8effbc1f1b230d3dbff0754eefccb18dc1a39fdf97f34e07556"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-production-005/basis.bin",
+      "bytes": 34785280,
+      "sha256": "7bd26b5491260de4cd11cdf4b3cfe04a6ee0c659df4cba94762bef021209532c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-production-005/ritz.meta",
+      "bytes": 2313,
+      "sha256": "d8587cc860030797b00f7dc5415b2f7a8c3a6cade8dc47db3e92b127efcb1d5c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-production-005/reduced.bin",
+      "bytes": 4352,
+      "sha256": "0336bab75336cf2179d997463950a1c137a98e9e05fc742f68a8780110a6a9b3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-production-005/selected.meta",
+      "bytes": 25,
+      "sha256": "e30fe8733911ae3484e18befae3bf85dd831106d61b32433c3f633963a49c7b1"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-production-005/next.meta",
+      "bytes": 13,
+      "sha256": "efc8597520e0d83a0da13b5d929a3cd5fde4a74a3d6d7b23e44bbda8104dcd95"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-production-005/next-vectors.bin",
+      "bytes": 17392640,
+      "sha256": "d584145dff4c39b3cd2d20167404be23af68c1c60d47222b7952a2583ba619c8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_basis_enrichment.py",
+      "bytes": 9485,
+      "sha256": "5b7d9042977b0836485123f797a9c77cc75326410bc3ea41fd2238c33652e785"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/basis_enrichment.mk",
+      "bytes": 834,
+      "sha256": "47ce3aa3f88bdd134b356f2026bafac32261aa918992d2b8e0e2698afe2af55d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/basis_enrichment_driver.f90",
+      "bytes": 5847,
+      "sha256": "c66e5012474a96604f58929319af0a736ba4f777f5cc9fd7281f5ca7836a7ffc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-003/run-manifest.json",
+      "bytes": 161274,
+      "sha256": "6ca691b4e65e882dc784fd76d1026b4bf40c2092ac9769699a670f272088f7d5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-003/results/basisenrichment/receipt.json",
+      "bytes": 874,
+      "sha256": "0386b8f14d1250f55491389583a6babf599093966faa8c8709aa2728018d11a8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-003/linear-image-checkpoint.bin",
+      "bytes": 17392640,
+      "sha256": "42b3c62a310f6807e29308c9a5044bababa173766033ed0d2a14d3aa510cf320"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-003/linear-image-checkpoint.meta",
+      "bytes": 215,
+      "sha256": "98361943d0b98aff31b9470225fa2c99db5e6808fc0e1215b8fe8873aafffffb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-003/basis-enrichment.x",
+      "bytes": 7833200,
+      "sha256": "ac40b26920517ad9b5ffe7881001730d7c2b20efeb8184833fc2db70992f01ea"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-003/basis-enrichment-result.json",
+      "bytes": 1739,
+      "sha256": "ac7c59c7c8e93e49d79eab4011ff6df8df718bfb58cd48558a4e8e5eaff03f67"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-004/basis-enrichment-control.in",
+      "bytes": 558,
+      "sha256": "cd2ea5f3178c18b5903c2757f8e8a646ec3523e716319b9dad190fd0ff77d237"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-004/native.in",
+      "bytes": 414,
+      "sha256": "d152ac53720dbb50b9706ab294c1cf3028f9e9839de4192d973aecaf1eb536fa"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-004/run-manifest.json",
+      "bytes": 161274,
+      "sha256": "9d0df286909755d280aaa10ff6eabfa0a56b51e0ada4c95271a6144e7acefa63"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-004/results/basisenrichment/receipt.json",
+      "bytes": 874,
+      "sha256": "a7cad0fc336092c811bced46e3f9c71279b734591bcf0c701670e3336ac30ca6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-004/linear-image-checkpoint.bin",
+      "bytes": 17392640,
+      "sha256": "ab1d32acb83344f0014ce5ec068c45bc26f0c2461ccdabf3b85bba710c1fa498"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-004/linear-image-checkpoint.meta",
+      "bytes": 215,
+      "sha256": "6dcbdc86adf25308e5bcefcfa6481da5c2f629adcd023994ad64c2d30b3d2da7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-004/basis-enrichment.x",
+      "bytes": 7833200,
+      "sha256": "ac40b26920517ad9b5ffe7881001730d7c2b20efeb8184833fc2db70992f01ea"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-004/basis-enrichment-result.json",
+      "bytes": 2443,
+      "sha256": "38f8befeb64ed6db73a03973848a2c3cc1773a6f8a51843c8a213aa8a94945ae"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-004/native-linear.meta",
+      "bytes": 820,
+      "sha256": "ee31fcc0afd98c71321c8fcbf7c99ce6fbc7e9bda620d90fdfc8c7c3e77ba1fd"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-004/basis.meta",
+      "bytes": 202,
+      "sha256": "6bd946980d4cc787ca3919310ef8961fa54464be109fc4beca7d48b3e2e13efc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-004/basis.bin",
+      "bytes": 69570560,
+      "sha256": "f483081bf0cd29a30a45427d344421132345ce497bf929aae19bd188ad4326ee"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-004/ritz.meta",
+      "bytes": 5201,
+      "sha256": "9d2f28b291b44f2a25ea5605b2f7afa5e2b39202fc52a96d6a7a16aed666c7f2"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-004/reduced.bin",
+      "bytes": 16896,
+      "sha256": "5e00b3a68e4c45724a031712762fced972a95c6ef17a476b7e02314470a445d4"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-004/selected.meta",
+      "bytes": 25,
+      "sha256": "3780b5e1081db32294b0821d213064f29ca6f0cc2ba8eb6781f644cf2c59fc88"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-004/next.meta",
+      "bytes": 13,
+      "sha256": "efc8597520e0d83a0da13b5d929a3cd5fde4a74a3d6d7b23e44bbda8104dcd95"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-004/next-vectors.bin",
+      "bytes": 17392640,
+      "sha256": "dab06782ed2fbd6d4dd7fe835e25d47286fa419a0a48439db9304564bdbe96ef"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-007/run-manifest.json",
+      "bytes": 166392,
+      "sha256": "73b5ca61a603f8736bec6290c4e9f16c2c8efe99112bd3ffc0f5b86f40ed2daa"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-007/results/basisenrichment/receipt.json",
+      "bytes": 874,
+      "sha256": "228142de446212a490a4b8318f18dea2276dae2e7f17ca7814f916afcb8256cd"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-007/linear-image-checkpoint.bin",
+      "bytes": 17392640,
+      "sha256": "701522c3738fc9dc10c68afe88b086a127a0a034ddabcabf005cebc7ea7fd42a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-007/linear-image-checkpoint.meta",
+      "bytes": 215,
+      "sha256": "df2ca17516022138417f65506a98a3e7bbb2a00732989ca7822e16bd1fea1316"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-007/basis-enrichment.x",
+      "bytes": 7833200,
+      "sha256": "ac40b26920517ad9b5ffe7881001730d7c2b20efeb8184833fc2db70992f01ea"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-007/basis-enrichment-result.json",
+      "bytes": 1739,
+      "sha256": "13d7b05497b3e3a501e34efbbeab92448b1fe4ec31cb6481ac6a225ab530edcf"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-008/basis-enrichment-control.in",
+      "bytes": 558,
+      "sha256": "e7a68b4c71f373f6281a3cd1d76098b73ab9cb14f34b2c68ba2b19a6a3923dae"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-008/native.in",
+      "bytes": 414,
+      "sha256": "d152ac53720dbb50b9706ab294c1cf3028f9e9839de4192d973aecaf1eb536fa"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-008/run-manifest.json",
+      "bytes": 166392,
+      "sha256": "5bae158022bbcc14ad4c9fe3f9c9142b2f802be66125e765b362e1648c62b894"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-008/results/basisenrichment/receipt.json",
+      "bytes": 875,
+      "sha256": "1c6cc218ac7aa90039d772e66b19a1874935f2770886e15d509b3f2f41d23dec"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-008/linear-image-checkpoint.bin",
+      "bytes": 17392640,
+      "sha256": "da7b000b5975d778fe68a86764d0d8383f774b780b81692fb1291def480d8640"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-008/linear-image-checkpoint.meta",
+      "bytes": 215,
+      "sha256": "7bb9ebca09434b8412f71b5304f081a96b6f815c1a2238360ac1eab35d0082cb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-008/basis-enrichment.x",
+      "bytes": 7833200,
+      "sha256": "ac40b26920517ad9b5ffe7881001730d7c2b20efeb8184833fc2db70992f01ea"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-008/basis-enrichment-result.json",
+      "bytes": 2444,
+      "sha256": "a461de14d591d3a592c83ab859e42db20fedb4a13fd99221a93a6e11011c88ce"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-008/native-linear.meta",
+      "bytes": 820,
+      "sha256": "e6713645bf2742d97aecbcfd65fdb593cb1bcfdcdab118390ae58bca3b4f34ca"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-008/basis.meta",
+      "bytes": 202,
+      "sha256": "17e206b32423a659083fe9e1ee4e449475f078ace2a545f696bfc114c1014435"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-008/basis.bin",
+      "bytes": 104355840,
+      "sha256": "43b2b7ea97cf9f10da6717881063acf4c98fa46f8333740cfa4d7458f7e9f63c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-008/ritz.meta",
+      "bytes": 7873,
+      "sha256": "c8fdf2f80a883528e1f44827852b6a3a7651ecc18cdff01333a4b50c2affa978"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-008/reduced.bin",
+      "bytes": 37632,
+      "sha256": "8eb9ae364de6ebe28b244e6a201956d739c346dfc2bccd5c18dd4630ef5d67cb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-008/selected.meta",
+      "bytes": 25,
+      "sha256": "34867ec13c5f47a724aeb5f69fbb38e91e2ea4f5214597a66d66cbb5344087f6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-008/next.meta",
+      "bytes": 13,
+      "sha256": "efc8597520e0d83a0da13b5d929a3cd5fde4a74a3d6d7b23e44bbda8104dcd95"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-008/next-vectors.bin",
+      "bytes": 17392640,
+      "sha256": "133dfcda4f620423d25146fba15b4dab5dd0ba2fc635f55ad53f026218d2cf94"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-011/run-manifest.json",
+      "bytes": 171511,
+      "sha256": "8d379ccc261390f40d4732e40adfd9d25d2d2c896301c441a206c86e01649d9a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-011/results/basisenrichment/receipt.json",
+      "bytes": 873,
+      "sha256": "06e601a224c0e656676675fc8c9ba95ddf941d7754a5a8dd0f53d1e0c2f23fb3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-011/linear-image-checkpoint.bin",
+      "bytes": 17392640,
+      "sha256": "c5bc30ea11dcbc7ff2fac8b00aad4f879b26698e3a80c430c781194cac11f8db"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-011/linear-image-checkpoint.meta",
+      "bytes": 215,
+      "sha256": "007b7dfb086d46d872e5f60b2a2d64081dadfbfc73fdfcc29f5a8909ef324505"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-011/basis-enrichment.x",
+      "bytes": 7833200,
+      "sha256": "ac40b26920517ad9b5ffe7881001730d7c2b20efeb8184833fc2db70992f01ea"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-011/basis-enrichment-result.json",
+      "bytes": 1738,
+      "sha256": "8581c15d71643ddb322732f697f60fbf6589c9334f67f7ff4d7a6f77b9409013"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-012/basis-enrichment-control.in",
+      "bytes": 558,
+      "sha256": "1871350882d2d449012c29ce5d9aba4ab8cd5cc588860803468453c4ce5e185c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-012/native.in",
+      "bytes": 414,
+      "sha256": "d152ac53720dbb50b9706ab294c1cf3028f9e9839de4192d973aecaf1eb536fa"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-012/run-manifest.json",
+      "bytes": 171511,
+      "sha256": "876be2d15aff74bda126cb72587142333114ef1cb281d6afc234c55420eb2739"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-012/results/basisenrichment/receipt.json",
+      "bytes": 876,
+      "sha256": "ba3adcde58d5bbd26a2bbdbb233761a713e547b15f7c2b3a7ed1a62b275a842b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-012/linear-image-checkpoint.bin",
+      "bytes": 17392640,
+      "sha256": "94ae2227ccd554a7084b0e934728a96a1243b0f59952d9e9120319a781ebd351"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-012/linear-image-checkpoint.meta",
+      "bytes": 215,
+      "sha256": "f4a1cff5e2d897320025ce8363cb268b5a576a329be709755a68995a74b12535"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-012/basis-enrichment.x",
+      "bytes": 7833200,
+      "sha256": "ac40b26920517ad9b5ffe7881001730d7c2b20efeb8184833fc2db70992f01ea"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-012/basis-enrichment-result.json",
+      "bytes": 2445,
+      "sha256": "608b03e2b340831f289ab1eeed623e4ec164625eab271ae52927a58d79bc082f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-012/native-linear.meta",
+      "bytes": 820,
+      "sha256": "0d951de1e8e9a6472e9a81602193089ad2d3aaf221c7100a77f29d209db03f94"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-012/basis.meta",
+      "bytes": 202,
+      "sha256": "15285f4940c123f94d51d294b81b9ce27bec0ae93dd41eb59775209492c1009e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-012/basis.bin",
+      "bytes": 139141120,
+      "sha256": "184ea3b148e3ebbb7e982a8136260d9fc91beed34ba2458e8a3b65bcbf801a33"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-012/ritz.meta",
+      "bytes": 10113,
+      "sha256": "a4947890094d9125823a822879ecc310b0636a9a71a91eba6cbf11b4659a36c4"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-012/reduced.bin",
+      "bytes": 66560,
+      "sha256": "c8e8b7bbe15f54b46374d314c7546e61f82e87be8e425d7c933ccd8d8789ae7a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-012/selected.meta",
+      "bytes": 25,
+      "sha256": "f2b242e837475f1934c52682190deb02bd52f03b26b13107897eba70b0ced4f7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-012/next.meta",
+      "bytes": 13,
+      "sha256": "efc8597520e0d83a0da13b5d929a3cd5fde4a74a3d6d7b23e44bbda8104dcd95"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-012/next-vectors.bin",
+      "bytes": 17392640,
+      "sha256": "bd0b4214ebc3be7a400fbef43d749f98105f6ccde7fb659bea32d437a9ca60be"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/enlarged_basis003_result.json",
+      "bytes": 9093,
+      "sha256": "5e5c9c256208082f3b4c861819b4e03cc8f8c5718857ef5d784c6f6fe57bd7d1"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_basis_restart.py",
+      "bytes": 9292,
+      "sha256": "34986bef0c6b03057732e36bc47acaa6204fed82a454acc7d0e44b5a903f7e9c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/enlarged_basis_analysis.py",
+      "bytes": 3865,
+      "sha256": "e6f7b7732d9328347f434b62269f52d0c8c0c97bc927e95ae1e10f16a5219af5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/initial_basis_analysis.py",
+      "bytes": 4447,
+      "sha256": "f20278c2f3df6ac4cad2da9a358f06a9464e98d0dcb23a39efa72201a336017a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/occupation_enrichment.py",
+      "bytes": 2218,
+      "sha256": "61b3eaccd5e9406bf4c1ad9787ecf589391cc3632a484129e0b43cc1702bb901"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-restart-001/basis.meta",
+      "bytes": 187,
+      "sha256": "7e3cf1a93ad95be17f30e69080bfdb806da1b841b8cc0b82f224a964fb14cea9"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-restart-001/basis.bin",
+      "bytes": 34785280,
+      "sha256": "d388b0484d7f669fc135a18feefa9656d1a614d49221677d1a112f79fc6ee5e7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-restart-001/next.meta",
+      "bytes": 13,
+      "sha256": "efc8597520e0d83a0da13b5d929a3cd5fde4a74a3d6d7b23e44bbda8104dcd95"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-restart-001/next-vectors.bin",
+      "bytes": 17392640,
+      "sha256": "bd0b4214ebc3be7a400fbef43d749f98105f6ccde7fb659bea32d437a9ca60be"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-restart-001/native.in",
+      "bytes": 414,
+      "sha256": "d152ac53720dbb50b9706ab294c1cf3028f9e9839de4192d973aecaf1eb536fa"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-restart-001/retained-coefficients.bin",
+      "bytes": 8192,
+      "sha256": "4e224d707e99712db66b44657ea6e7a6f01bbaf120857875e7bd5f67dda0c6e3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-restart-001/restart-result.json",
+      "bytes": 355734,
+      "sha256": "7ab750ef56625a3c6a46d478df2b7a5e64959414be9bea6968b33b858a517c0c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_restart_sweep.py",
+      "bytes": 3099,
+      "sha256": "0185a5b43208b30fbd0760886d8d09c82bcc2f4e8ad8ee837b25cc2391370531"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-003/run-manifest.json",
+      "bytes": 179366,
+      "sha256": "3759d3c8760c5b47c16a5bb9d2ed99a4b6effaef41c014b8e14511b06f91ccb0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-003/results/basisenrichment/receipt.json",
+      "bytes": 868,
+      "sha256": "6b42aee92e64e6545471dbd96ba26d722ace1a60e3d3441306e986e9bb0ce5d4"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-003/linear-image-checkpoint.bin",
+      "bytes": 17392640,
+      "sha256": "94271cc67cedb61448e19dbdba0e7700402effeafcccbf4e66b82986acabe0b7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-003/linear-image-checkpoint.meta",
+      "bytes": 215,
+      "sha256": "c1329de90424077f7d48747202e01e8e4824e0c11afe775d516b5678ba37b269"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-003/basis-enrichment.x",
+      "bytes": 7833200,
+      "sha256": "ac40b26920517ad9b5ffe7881001730d7c2b20efeb8184833fc2db70992f01ea"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-003/basis-enrichment-result.json",
+      "bytes": 1733,
+      "sha256": "08a57dc0e3492b0f4419ab38ba040f8480d811c7262113b52dce8100d64bfb6a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-004/basis-enrichment-control.in",
+      "bytes": 549,
+      "sha256": "aec0885d4c3f5815ee39f52b31ef54cb761de12ddf0047dc962c2980f2d86690"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-004/native.in",
+      "bytes": 414,
+      "sha256": "d152ac53720dbb50b9706ab294c1cf3028f9e9839de4192d973aecaf1eb536fa"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-004/run-manifest.json",
+      "bytes": 179366,
+      "sha256": "b1f3ea20902135344f28ed73fb81aba1de228299443c1f4f73b0c7ca0dcc6b42"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-004/results/basisenrichment/receipt.json",
+      "bytes": 866,
+      "sha256": "7c404f17f95e42e47f206598429139af2fb13da992ceba8d14e348e3f01e173f"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-004/linear-image-checkpoint.bin",
+      "bytes": 17392640,
+      "sha256": "7273c3c076d82a1acc3a39a31fc9b28d52fbee4e5dc25292462a38d6c074ce94"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-004/linear-image-checkpoint.meta",
+      "bytes": 215,
+      "sha256": "5182799d5b64154d539dee17190912621d4d295750fd8535a474d2c6c6b19562"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-004/basis-enrichment.x",
+      "bytes": 7833200,
+      "sha256": "ac40b26920517ad9b5ffe7881001730d7c2b20efeb8184833fc2db70992f01ea"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-004/basis-enrichment-result.json",
+      "bytes": 2624,
+      "sha256": "8f88bfb44ad6e2509bb16c92623381f94640cb898f55b1f475578f4e7e49b8d2"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-004/native-linear.meta",
+      "bytes": 820,
+      "sha256": "bb2b4fa46cc9f33e5be111354aa5585da79ad00780f813e83432627e66ab1866"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-004/basis.meta",
+      "bytes": 202,
+      "sha256": "6bd946980d4cc787ca3919310ef8961fa54464be109fc4beca7d48b3e2e13efc"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-004/basis.bin",
+      "bytes": 69570560,
+      "sha256": "e34e493729e59c919fcc2030f8e3652df7f200607e785fbf363a682fd28d381c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-004/ritz.meta",
+      "bytes": 4985,
+      "sha256": "3acfaa20fa18ece1672ceda079ee340639b574c22fb2e6fc0e9543299f07dc44"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-004/reduced.bin",
+      "bytes": 16896,
+      "sha256": "dbb36dc2be10e34de13efa4af152dbf86ec5c6c53a4ee39e590e0876cb9df79a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-004/selected.meta",
+      "bytes": 78,
+      "sha256": "6f9caffa70fcb897a7da5f5b50bfccb1cab31ecc70b2c5d923df592f1704381b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-004/next.meta",
+      "bytes": 13,
+      "sha256": "efc8597520e0d83a0da13b5d929a3cd5fde4a74a3d6d7b23e44bbda8104dcd95"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-004/next-vectors.bin",
+      "bytes": 17392640,
+      "sha256": "92b165ff66c10fbc451bfd6267bddc39f5996c39f9f79ba8c5b797aec44223fe"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-004/selected.bin",
+      "bytes": 2174080,
+      "sha256": "5e04ed9be79d2e094fa40e4644b764283abcb848329c06e4a7aa373de587f10e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-004/selected-coefficients.bin",
+      "bytes": 256,
+      "sha256": "64282e480c46fc24809b4c4f33d9a8dcb839493f845e3f7b0d43aa2028be1754"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-013/run-manifest.json",
+      "bytes": 183414,
+      "sha256": "ab434bb7e11e747f6e67a164f7f8288fc52dd16171cac51837c58a6a624e4c49"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-013/results/basisenrichment/receipt.json",
+      "bytes": 873,
+      "sha256": "e368d798e9e973620423480e577cb00e42f5befc949e495e16a0ca3cad9145fe"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-013/linear-image-checkpoint.bin",
+      "bytes": 17392640,
+      "sha256": "9553c21b9a3db94193842ce92c1037ec8036dde8a641737054e504c7177e38f8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-013/linear-image-checkpoint.meta",
+      "bytes": 215,
+      "sha256": "f02c9964d0d45963ffbbd501291ecc1b772292b9bcf487f087995f80e272ec1d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-013/basis-enrichment.x",
+      "bytes": 7833200,
+      "sha256": "ac40b26920517ad9b5ffe7881001730d7c2b20efeb8184833fc2db70992f01ea"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-013/basis-enrichment-result.json",
+      "bytes": 1738,
+      "sha256": "839d5ffc6fe1d0ecebbdfc65c0f871841a88260b0366a483895d0184ae4af4d7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-014/basis-enrichment-control.in",
+      "bytes": 552,
+      "sha256": "a85d3c8a1aa118f3445f111becee3dc93e978ab92dfd531821ab3b4dfa4cdb28"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-014/native.in",
+      "bytes": 414,
+      "sha256": "d152ac53720dbb50b9706ab294c1cf3028f9e9839de4192d973aecaf1eb536fa"
+    }
+  ],
+  "context_sha256": "8d7577dc70eb0e1fca1b07a526aed11f835e57717a020a288e34c4bf5cb2da3e",
+  "operator_context_sha256": "6efcf2d527d3c81ae9620e3280916bb6b58db4809e6683cf0795256ed9fcce62",
+  "basis_source": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-restart-sweep-004",
+  "old_columns": 32,
+  "rows": [
+    16385,
+    32768
+  ],
+  "predecessor": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-013",
+  "temperature_kelvin": 8.05,
+  "trial_columns": 16,
+  "tile_width": 32,
+  "guard_seconds": 600,
+  "launch_normal_seconds": 120,
+  "acceptance": "Certified next16vectors, unchanged physical operator; contiguous32-row tiles and bitwise checkpoint roundtrip; final uncached oracle before append/Ritz; not a converged gap or response.",
+  "forecast": "250\u2013300s per <=17715rows including setup; previous full16-vector sweep segments187\u2013206s. Final oracle/Ritz additional, estimate not bound.600s/3GiB/quiet120."
+}

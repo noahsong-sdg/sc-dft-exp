@@ -16,7 +16,8 @@ see the [independent result](research/restarted_basis001_result.json) and
 [mode tracking](research/restart_mode001_result.json). This is a 5.99-fold residual
 reduction, **not a runtime speedup or an accepted superconducting response**.
 The unchanged seed threshold is 1e-9. A bounded extension to 48 vectors is next.
-New guarded compute totals 109.26 minutes, separate from the historical campaign.
+Guarded compute through that completed restart totals 109.26 minutes, separate
+from the historical campaign; subsequent segments are recorded in the current state.
 Converged gaps at all three temperatures, conditioning, response normalization
 and state mapping, and the registered 1% uncertainty target remain unqualified.
 

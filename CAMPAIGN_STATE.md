@@ -794,3 +794,30 @@ No code changed this turn. Last checks178testsPASS,189maintained Python sources
 compilePASS, moment replayPASS; current diffcheckPASS. PublicCI46068381656 on
 64945adPASS. 2K/4K, nonlinear gap, conditioning, response mapping/functional,
 1% uncertainty and accepted-result reproduction remain incomplete. Goal active.
+
+
+## Enrichment013 accepted; continuity analysis extended to32 ->48
+
+Rows1:16384 terminal PASS235.2346882498823 s; individualpeak957743104 B,
+group959397888 B. Session23712/owner45522 terminal exit0. Checkpoint, allpostrun
+inputs, public/consumedmanifest and16linkedarchives verified; no historicalcustom
+object path. Guardednewtotal6790.8728021684465 s (113.18 min), prior189.29 min
+separate. Enrichment014 prospectively stages16385:32768 from the same certified
+restart-sweep004 basis and16trialvectors, predecessor013;600s/3GiB/quiet120.
+The complete48-vector application and convergence outcome remain incomplete.
+
+The earlier mode tracker was specific to offline restart16 ->32. New
+basis_mode_continuity.py checks certified complete extensions and independent
+readbacks, compares actual retained Q/AQ bytes at their different binary offsets,
+and measures overlap with the previous selected conventional mode. This is
+necessary to distinguish improvement of the same mode from a branch change.
+Its spending decision keeps registered2x residual reduction/0.99 overlap,
+same-sign averages,lambda>1 and64cap; it never accepts a gap seed/response.
+Byte-comparison tests reject changed AQ data, signedzero bytes and truncated
+persisted files. The already completed restart's actual Q/AQ prefixes also
+passed literal-byte comparison. Native operator/checkpoint/physicalinputs unchanged.
+
+Focused continuity tests2PASS; full unittest discovery180PASS in13.751s;
+191maintainedPython sources compilePASS; moment_refinement.py replayPASS;
+diffcheckPASS. Previous publicCI46069297369 on97608a6PASS. No new native owner
+beforelaunch; do not duplicate the staged014 launch. Scientific goal remainsactive.
