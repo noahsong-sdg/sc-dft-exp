@@ -2256,3 +2256,19 @@ No production arithmetic or strict acceptance was changed.140testsPASS13.313s;
 compileall/momentreplay/diffPASS. Prior prospective CI46038278012PASS.
 New guardedtotal82.482673s. No owner remains. Fresh Mac state/Z/basis path is
 selected rather than silently mixing contexts; see GRID_PORTABILITY_FINDING.md.
+
+
+### Prospective fresh Mac initialization export
+
+Fresh-gap-init001 runs upstream geometry initialization on pinned31public inputs
+and writes native-init-v1 from its own arrays. Strict existing native_state_io
+roundtrip checks those current arrays, with no retained gap/Z/basis consumed.
+The original failed reproduction is unchanged. Fresh state is needed before
+compatible Z/basis generation; roundtrip is not gap convergence or physics.
+Source trace confirms ini_delta needs phonon/band data but not Coulomb matrices.
+Bound180s/3GiB after120snormalpressure; forecast below old61sfullinitialization
+plus source compile/link, excluding unnecessary Coulomb read.
+141testsPASS20.516s; compileall/momentreplay/diffcheckPASS. Initial fixture missed
+required catalog URL and failed; fixture corrected, focusedtest and fullsuitePASS.
+Stale input, mismatched input directory and existing destination reject before
+creating a root. Source compilation/native roundtrip remain the launch gate.

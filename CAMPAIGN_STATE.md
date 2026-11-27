@@ -45,6 +45,10 @@ Native guarded total82.482673s;140testsPASS13.313s; compileall/moment/diffPASS.
 No native owner remains. Next: fresh genuine Mac initialization export, compatible
 Z generation and basis/solve; retain the failed old-context check unchanged.
 Do not inject old grid values or silently reuse incompatible retainedZ.
+Fresh-gap-init001 staged with31public inputs, no retainedZ/gap/basis consumed;
+source build + genuine upstream initialization + own-array exact roundtrip.
+141testsPASS20.516s; prospective manifest committed before launch.180s/3GiB,
+quiet120s. No watcher exists until explicitly launched after publication.
 
 New native pilot ceiling4wallhours, prior campaign189.29min accounted separately.
 Hardware rechecked:M5/10cores/32GiB,normalpressure,~151GBfree. Preserve dirty
