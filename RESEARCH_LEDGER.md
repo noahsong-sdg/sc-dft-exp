@@ -3551,3 +3551,10 @@ dependency installation, regressions and moment replay successfully. No
 scientific source changes or trust relaxation were warranted. Checkpoint023
 public result/parent inputs and024 prospective manifest independently rechecked.
 Controller64977 continues into final024; full-image analysis still pending.
+
+
+## Bounded48-vector controller checkpoint024
+
+Rows49153:66867 terminal PASS, wall241.45573329227045s, individualpeak1170735104B, sampledgroup1033453568B. Public/consumed manifest equality and original native certificate/postrun checks PASS. New guarded total9989.347843000982s; historical189.29min separate.
+Complete48 basis native checked; independent full-image and continuity checks remain pending. No further native run authorized by this controller.
+No maintained code/threshold changes. Scientific gap and response acceptance remain incomplete.
