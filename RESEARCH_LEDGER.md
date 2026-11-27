@@ -2772,3 +2772,20 @@ Production004 stages32769:49152 from003, samefrozencontext/trials/sources and
 32-rowtileorder. Same600s/3GiB/quiet120,250–300s estimate notbound. No scientific
 code changed;165offline tests/178sourcecompilation/moment gates lastPASS. Public
 CI46054693233 on3cff40dPASS. Fullimages/oracle/Ritz/gap/response stillincomplete.
+
+
+## Production004 certified through49152; final005 staged
+
+Production004 terminalPASS187.537134s/926597120B individualpeak (group928120832B).
+Rows32769:49152 took148.053s. Nativebitwise checkpointserialization, independent
+metadata/context/counts/temperature/shape/finite/allcolumnpadding checksPASS.
+Public/consumedmanifest identical; allpostruninputs and16linkedarchivesverified;
+no historicalcustomobjectpath. Guardedtotal3116.292473s includingcompilefailure.
+Oldguard44825/session47117 terminal. No nativeowner at certification.
+
+Final005 stages49153:66867 (17715rows) from004, same frozencontext/trials/source.
+Same600s/3GiB/quiet120. Row-scaledcost~160s plus~40scoldsetup, oracle/Ritzadditional;
+retain250–300s forecast as estimate notbound. Only finalcompletion maynormalize
+and run uncachedcomplete-row/columnoracle before initialRitzbasis.165offline tests/
+178sourcecompilation/moment gates lastPASS; no scientificcodechanged. PublicCI
+46055380357 on4750beePASS. Fullimages/basis/gap/response notyetaccepted.
