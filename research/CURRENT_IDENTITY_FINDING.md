@@ -91,3 +91,21 @@ demonstrate the discrepancy survives summation in the full routine. Synthetic
 energies, weights, volume and curvature are unit fixtures, not a material model;
 these magnitudes or ratios cannot be assigned to V3Si. OpenMP directives are
 ignored in this serial build, so this does not qualify parallel behavior.
+
+## Narrow candidate correction
+
+The harness now compiles a second candidate with two substitutions only inside
+the normal-reference branch: tanhe -> tanhx in x_d's numerator, and removal of
+delta**2 from that branch's energy comparison. The superconducting expressions
+and native threshold algorithm remain untouched. Both asymmetric examples then
+match direct identities at printed precision (0.11690 and 4.5975); symmetric and
+zero-gap outputs remain unchanged. This chooses a narrow root-cause correction
+over replacement of the entire thermal evaluator, whose stability/performance
+would require wider qualification. It is a harness candidate, not an adopted
+production backend or an upstream submission.
+
+Curvature construction traces through calc_d_xi_q (finite differences of dense
+band energies), compute_dosk (energy-resolved weighted interpolation) and
+compute_d3k (active gap-state assignment) in sctk_ini_delta.f90. Reconstructing
+the missing legacy field therefore requires matching grid/interpolation inputs
+and state ordering, not simply filling it from a velocity column.

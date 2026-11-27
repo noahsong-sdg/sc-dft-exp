@@ -70,6 +70,33 @@ def expected(case):
                for sign,w in ((1.,1.),(-1.,weight)))
 
 
+def correction(routine):
+    """Two exact substitutions confined to the normal-reference branch."""
+    marker = "IF(1.0_dp - tanhd * tanhx < 1.0e-10_dp) THEN"
+    if routine.count(marker) != 1:
+        raise ValueError("Normal branch boundary changed")
+    before, normal = routine.split(marker)
+    old_condition = "IF(xi(igap,ii)**2 + delta(igap,ii)**2 > dxq(igap,ii)**2) THEN"
+    old_factor = "x_d = tanhe *"
+    if normal.count(old_condition) != 1 or normal.count(old_factor) != 1:
+        raise ValueError("Expected normal expressions changed")
+    normal = normal.replace(old_condition, "IF(xi(igap,ii)**2 > dxq(igap,ii)**2) THEN")
+    normal = normal.replace(old_factor, "x_d = tanhx *")
+    return before + marker + normal
+
+
+def compile_run(routine):
+    with tempfile.TemporaryDirectory(prefix="sctk-full-current-") as folder:
+        root = pathlib.Path(folder)
+        source = root / "probe.f90"
+        source.write_text(STUB + "\n" + routine)
+        subprocess.run(["gfortran","-O0","-std=f2008","-fcheck=all",
+                        str(source),"-o",str(root/"probe")],cwd=root,check=True,
+                       capture_output=True,text=True)
+        result = subprocess.run([str(root/"probe")],check=True,capture_output=True,text=True)
+    return re.findall(r"Super current \[a.u.\] :\s+(\S+)\s+(\S+)", result.stdout)
+
+
 def run():
     with urlopen(URL, timeout=45) as response:
         data = response.read(1_000_001)
@@ -78,22 +105,18 @@ def run():
     match = re.search(r"(?ims)^SUBROUTINE supercurrent\(\).*?^END SUBROUTINE supercurrent", data.decode())
     if not match:
         raise ValueError("Routine not found")
-    with tempfile.TemporaryDirectory(prefix="sctk-full-current-") as folder:
-        root = pathlib.Path(folder)
-        source = root / "probe.f90"
-        source.write_text(STUB + "\n" + match.group())
-        subprocess.run(["gfortran","-O0","-std=f2008","-fcheck=all",
-                        str(source),"-o",str(root/"probe")],cwd=root,check=True,
-                       capture_output=True,text=True)
-        result = subprocess.run([str(root/"probe")],check=True,capture_output=True,text=True)
-    values = re.findall(r"Super current \[a.u.\] :\s+(\S+)\s+(\S+)", result.stdout)
-    if len(values) != 4:
+    values = compile_run(match.group())
+    corrected = compile_run(correction(match.group()))
+    if len(values) != 4 or len(corrected) != 4:
         raise ValueError("Expected four current outputs")
     rows = []
     for i, pair in enumerate(values,1):
         direct = expected(i)
         rows.append(dict(case=i, released=list(map(float,pair)), direct=direct,
+                         corrected=list(map(float,corrected[i-1])),
                          absolute_error=abs(float(pair[0])-direct)))
+        if any(abs(float(value)-direct) > 5e-5 for value in corrected[i-1]):
+            raise AssertionError("Corrected full routine differs from direct identity")
     # Upstream writes only five significant digits: compare controls at its
     # printed precision, not at full internal floating-point precision.
     if rows[0]["absolute_error"] > 5e-6 or rows[2]["absolute_error"] > 5e-6:

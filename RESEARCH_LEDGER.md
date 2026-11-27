@@ -87,3 +87,13 @@ See SAVED_STATE_AUDIT.md. No large download/native job. Heavy unrelated VM is
 active; leave it alone. Next: validate narrowly corrected full routine against
 direct identities, inspect state reconstruction path, then assess a lightweight
 dump or regeneration pilot if justified and resources permit.
+
+## Candidate correction validated
+
+Full-routine harness now builds original and narrowly corrected variants;
+both changed asymmetric results agree with direct identities at printed
+precision, controls unchanged. Command succeeded. Curvature reconstruction
+requires dense band finite differences plus energy-resolved interpolation and
+state assignment; velocity-only replay is insufficient. Next: compile broad
+parameter-grid validation (including near thresholds) and produce cost/response
+figures; investigate a saved-state preparation-only route without kernel solve.
