@@ -1,0 +1,47 @@
+{
+  "cases": [
+    {
+      "temperature_kelvin": 2,
+      "released32": 0.00887613449048529,
+      "regenerated32": 0.00887613449243864,
+      "fourth48": 0.008936196842382234,
+      "fourth64": 0.008906227812731963,
+      "regeneration_fraction": 2.2006751976277883e-10,
+      "regeneration_shift_over_original32to48": 3.252201885604303e-08,
+      "consistent_generation32to48_fraction": 0.006766723734837443,
+      "consistent_generation48to64_fraction": -0.0033536671336664714
+    },
+    {
+      "temperature_kelvin": 4,
+      "released32": 0.008252568740912828,
+      "regenerated32": 0.008252568742724679,
+      "fourth48": 0.008308499527531016,
+      "fourth64": 0.008280540942707098,
+      "regeneration_fraction": 2.1954993378869858e-10,
+      "regeneration_shift_over_original32to48": 3.239452054931434e-08,
+      "consistent_generation32to48_fraction": 0.0067773788440894656,
+      "consistent_generation48to64_fraction": -0.0033650582432213083
+    },
+    {
+      "temperature_kelvin": 8,
+      "released32": 0.005153666461070597,
+      "regenerated32": 0.005153666462199826,
+      "fourth48": 0.00518872259808683,
+      "fourth64": 0.005171094749647874,
+      "regeneration_fraction": 2.1911161773857657e-10,
+      "regeneration_shift_over_original32to48": 3.221201053912656e-08,
+      "consistent_generation32to48_fraction": 0.0068021739753876265,
+      "consistent_generation48to64_fraction": -0.003397338768014957
+    }
+  ],
+  "original_third_grid_comparison_preserved": true,
+  "continuum_error_bounded": false,
+  "physical_response_verified": false,
+  "sha256": {
+    "research/regenerated32_control_plan.json": "a55ad8b902fac9a365c6c1a24c38680a0eff1a36602f44393d16ed22b4381eff",
+    "research/third_grid_comparison_result.json": "f93f959ff365a52192d54b11906af8cb69f29c49faddbb7162c6229005420562",
+    "research/public_fourth_regenerated32_result.json": "2eee74a5d22172c93c4008d3d1ddf474cfb403b16a5029878b96266141f50fb7",
+    "/Users/noahs/Developer/sc-dft-exp/research/regenerated32_analysis.py": "d94bb0e4d332e2cf5918bf2cc6b9fa12b5bfef7e065c2e2608dd70a5f1b4a9f2"
+  },
+  "scope": "Separate same-grid band regeneration from the registered grid-refinement series."
+}

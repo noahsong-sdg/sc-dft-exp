@@ -54,10 +54,11 @@ postprocessing entry point is not established by this trace.
 
 [campaign_native_resource_accounting.json](campaign_native_resource_accounting.json)
 snapshots terminal native guard receipts, including prelaunch and failed attempts.
-Recompute with `python3 research/resource_accounting.py`. Latest committed terminal snapshot records75guarded attempts and11065.181s
-(184.42min). The fourth-order64response is included; the prospective second-order
-64control is excluded until terminal. Guard-PASS is process acceptance, not
-scientific acceptance. Rank38 separately passes stationary-residual targets.
+Recompute with `python3 research/resource_accounting.py`. Final terminal snapshot: 79 guarded attempts, 11,357.647 s (189.29 min).
+Guard passes: 63 / 10,302.409 s; failures: 16 / 1,055.237 s. All registered
+native owners are terminal. Guard acceptance is not scientific acceptance;
+rank 38 separately passes stationary residuals, and the grid controls are
+numerical diagnostics. The original 240-minute native ceiling was not expanded.
 
 This includes guarded build/download work and failed attempts. It excludes
 launch-watch waiting, unguarded compilation/acquisition/analysis, and model use.
@@ -116,3 +117,18 @@ generation or establish a statistical speedup. Refresh JSON for full attempt cos
 Fourth64response:173.621s/881MB, serializer1.473s. Registered comparison
 contracts the absolute step but reverses its sign at all temperatures. This
 provides a negative control on monotone extrapolation, not a physical prediction.
+
+
+## Final same-grid control and model-cost boundary
+
+Automatic 32 bands: 97.211 s / 98 MB; owning serialization: 0.803 s / 85 MB;
+fourth-order response: 22.419 s / 195 MB. Relative regeneration shift: 2.19–2.20e-10;
+it does not explain the grid trend. These are saved-density costs, not a new
+microscopic cold start.
+
+At a 14:37 UTC checkpoint, the goal system reported 3,120,349 aggregate tokens.
+That counter is not an API invoice, a per-model breakdown or the final token
+count; monetary model cost remains unknown. It is recorded to make the substantial
+agent overhead visible. No measured scientific-value-per-dollar claim follows.
+Future work should optimize information per token as well as native runtime;
+sunk effort is not a reason to expand the project.

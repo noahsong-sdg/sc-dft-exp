@@ -12,6 +12,11 @@ Treat fourteen days as a maximum campaign duration, not a requirement to consume
 
 This file is the reusable two-week mandate. It extends the scientific intent of `PROJECT_SPEC.md`; its old twelve-hour deadline is historical when this campaign is explicitly started. Do not reinterpret this prompt-writing request itself as evidence that fourteen days of execution have already been scheduled.
 
+The completed twelve-hour campaign's latest handoff is `CAMPAIGN_STATE.md` and
+`research/CAMPAIGN_REPORT.md`, including the held-out grid reversal and final
+recommendation. Recover that evidence before treating any earlier starting
+hypothesis below as a reason to repeat work or expand compute.
+
 ## First action: recover and audit the real state
 
 Read `AGENTS.md`, `PROJECT_SPEC.md`, `RESEARCH_LEDGER.md`, the research documentation, recent commits, and the working-tree diff. The primary checkout is `/Users/noahs/Developer/sc-dft-exp`. Preserve unrelated work and the dirty historical checkout at `/Users/noahs/Developer/flux-pinning`.

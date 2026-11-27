@@ -1,3 +1,26 @@
+# Final decision — NARROW, 27 November 2026
+
+The bounded native campaign and requirements audit are complete. Final public
+synchronization is verified after the documentation/data commit.
+Read [CAMPAIGN_REPORT.md](CAMPAIGN_REPORT.md) for the scientific answer and
+[REQUIREMENTS_AUDIT.md](REQUIREMENTS_AUDIT.md) for all ten deliverables.
+
+The useful contribution is a reproducible numerical-validity study plus a
+qualified exact downstream optimization. The held-out 64³ response reverses the
+two-grid trend; same-band stencil differences persist. Regenerating 32³ bands
+changes the response by only ~2.2e-10 relative, excluding that tested provenance
+confound. Rank 38 passes both stationary-residual targets on retained inputs.
+
+Reliable material response, fresh full-gap portability, total physical error,
+novelty and unmet demand remain unproved. Stop broad screening. Continue only
+through explicit portable-build/input and independent physical-validation gates.
+All native owners are terminal; guarded cost 189.29 min stays below 240 min.
+The two-week prompt is saved, not scheduled or automatically started.
+
+Historical checkpoints below preserve their then-current evidence.
+
+---
+
 # Latest checkpoint — 2026-11-27 14:24 UTC
 
 The held-out64response reverses the32→48trend at all temperatures. Absolute

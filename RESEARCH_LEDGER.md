@@ -2100,3 +2100,41 @@ hashes,nativegrid/temperature/gap/context and reports regeneration separately.
 135testsPASS9.362s,compileall/momentreplay/diffcheckPASS. No earlierprotocol
 rewritten. Finalreportconsolidated; fullrequirementsaudit remains to close after
 this last bounded control. Hardware refreshed:M5/10CPU/32GiB/pressure1.
+
+
+## Final bounded control and acceptance audit — 2026-11-27 14:46 UTC
+
+Automatic32 fourth-order response terminal PASS22.419022s/195477504B.
+Strict response/native/cache/component/context/all-input readback PASS. Registered
+regeneration analysis PASS: relative shifts2.200675e-10/2.195499e-10/2.191116e-10
+at2/4/8K, only3.22–3.25e-8of the original32→48absolute difference. The tested
+released-versus-regenerated32input confound does not explain the grid trend.
+Original registered three-grid result remains unchanged; no physical bound added.
+
+All79guarded attempts terminal:11357.646588s/189.294min,63guardPASS and16FAIL.
+Initial240minute ceiling not expanded. Process inspection found no native owner
+or waiting guard; no new job is staged to launch. Final hardware snapshot:M5,
+10cores,32GiB,normal pressure. No energy or model billing inferred. Goal-system
+aggregate token checkpoint3,120,349at14:37UTC is disclosed separately from costs.
+
+Final code suite135testsPASS9.362s; maintained Python compileall excludingraw,
+moment_refinement replay andgit diff --checkPASS. Native32serialization and
+response plus registered comparison commands PASS. Figure source hashes PASS:
+15gap-validation,1anisotropic-series,7two-grid,6third-grid identities; figures
+were visually inspected when generated. No code changed after that test gate.
+Public CI46017822969 for4eb969c passes135tests/replay onUbuntu after retry;
+initialfailure occurred duringapt setup due unrelatedMicrosoftfeedHTTP403,
+before any tests. No CI/code weakening was introduced.
+
+Reviewed changed execution paths and adjacent invariants: explicitgrid selection,
+parent/deadline/source/copy identity, immutablehistoricalmanifests, cachefields,
+fixedgap/temperature/context, registeredsourcehashes and comparisonratios. Public
+source/input nativepath already completed separately; retainedgap portability
+is explicitly not implied. All ten PROJECT_SPECdeliverables audited in
+REQUIREMENTS_AUDIT.md; unknown physical/coldstart/demand gates are retained as
+negative boundaries, not declared passing. Final recommendationNARROW and exact
+next gates are inCAMPAIGN_REPORT.md. Thetwo-weekprompt is saved/linked,notstarted.
+
+Repositoryvisibility verifiedPUBLIC. Final documentation/data commit will be
+pushed and its HEAD/CI checked after this entry; final chat reports that result.
+End before the17:41UTCceiling: further sweeps would not close the physical gates.

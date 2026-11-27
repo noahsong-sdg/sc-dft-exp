@@ -1,14 +1,15 @@
 # Superconducting response on a laptop: evidence and decision
 
-Checkpoint: 27 November 2026. The final registered32³ regeneration control is
-running; the campaign audit is not yet closed. [Current process state](../CAMPAIGN_STATE.md),
-[requirements audit](REQUIREMENTS_AUDIT.md), [chronological evidence](../RESEARCH_LEDGER.md).
+Final bounded campaign report, 27 November 2026. All registered native controls
+are terminal and read back. [Acceptance audit](REQUIREMENTS_AUDIT.md),
+[cost ledger](WORKFLOW_COSTS.md), [restart state](../CAMPAIGN_STATE.md),
+[chronological evidence](../RESEARCH_LEDGER.md).
 
 ## Answer supported by the evidence
 
 **Narrow the project to a reproducible numerical-validity study.** Reusable
 microscopic inputs make useful response diagnostics and a retained-input gap
-stationarity check practical on this32 GiB Mac. The campaign does **not** establish
+stationarity check practical on this 32 GiB Mac. The campaign does **not** establish
 reliable material-response prediction, a portable microscopic cold start, or a
 new unsaturated market. Those are separate, still-open claims.
 
@@ -25,26 +26,28 @@ that such studies were previously impossible.
 
 | Test | Verified result | What it establishes |
 |---|---|---|
-| Public response reproduction | Fresh source build261.64 s; native33.24 s / 187 MB; all eight exports bitwise equal to the retained run;31 inputs unchanged | The response diagnostic has a public source/input path on this Mac |
-| Second-moment closure | Squared mean velocities retain only40–45% of the matched fine-grid sum on tested coarse cells; retained second moments reproduce that discrete sum | Averaging then squaring can discard a large numerical contribution in this approximation |
-| Fourth-order velocity,32→48 | Response spread falls from~5.52% to~0.68% at2/4/8 K | Reduced observed two-grid sensitivity; no continuum bound |
-| Held-out fourth-order64 |48→64 shift−0.335/−0.337/−0.340%, after the positive32→48step | Absolute changes contract, but same-direction continuation fails at every temperature |
-| Same-band64 stencil control | DOS/curvature/energy axes bitwise equal; F4/F2−1≈1.947%; absolute difference D64/D48≈.4979 rather than frozen .5625 | Isolated velocity-stencil sensitivity remains; leading h² conditional prediction misses by~11.5% |
-| Exact indexed mesh lookup |1920 compiled brute-force cases; all8native exports bitwise equal at 32/48; combined fourth 48 takes83.878 s versus227.041 s | A qualified exact downstream optimization, single-pair ratio2.707× |
-| Retained-input rank 38gap | Reduced1.115 s; full680.80 s / 938 MB; maximum3.172e-11 Ry and RMS ratio7.546e-7 pass unchanged targets | Stationarity for this fixed retained problem, not conditioned gap or material accuracy |
-| Matrix-free full action |908.65 s / 882 MB versus67.7 GiB dense allocation floor at the inspected state counts | This action fits laptop memory; no paired solve-speed benchmark |
-| Frozen converged Nb thermal replay | Released currents reproduced; correction changes them by2.5–2.8 ppm | Synthetic thermal defects do not imply a large demonstrated material correction |
+| Public response reproduction | Fresh source build 261.64 s; native 33.24 s / 187 MB; all eight exports bitwise equal to the retained run; 31 inputs unchanged | The response diagnostic has a public source/input path on this Mac |
+| Second-moment closure | Squared mean velocities retain only 40–45% of the matched fine-grid sum on tested coarse cells; retained second moments reproduce that discrete sum | Averaging then squaring can discard a large numerical contribution in this approximation |
+| Fourth-order velocity, 32→48 | Response spread falls from ~5.52% to~0.68% at 2/4/8 K | Reduced observed two-grid sensitivity; no continuum bound |
+| Held-out fourth-order 64³ | 48→64 shift −0.335/−0.337/−0.340%, after the positive 32→48 step | Absolute changes contract, but same-direction continuation fails at every temperature |
+| Same-band 64³ stencil control | DOS/curvature/energy axes bitwise equal; F4/F2−1≈1.947%; absolute difference D64/D48≈.4979 rather than frozen .5625 | Isolated velocity-stencil sensitivity remains; leading h² conditional prediction misses by ~11.5% |
+| Exact indexed mesh lookup | 1920 compiled brute-force cases; all eight native exports bitwise equal at 32/48; combined fourth 48 takes 83.878 s versus 227.041 s | A qualified exact downstream optimization, single-pair ratio 2.707× |
+| Retained-input rank 38 gap | Reduced 1.115 s; full 680.80 s / 938 MB; maximum 3.172e-11 Ry and RMS ratio 7.546e-7 pass unchanged targets | Stationarity for this fixed retained problem, not conditioned gap or material accuracy |
+| Matrix-free full action | 908.65 s / 882 MB versus 67.7 GiB dense allocation floor at the inspected state counts | This action fits laptop memory; no paired solve-speed benchmark |
+| Same-grid input-regeneration control | Reconstructed 32³ response shifts only 2.19–2.20e-10 relative; 22.419 s / 195 MB | Released versus regenerated bands do not explain the observed grid trend |
+| Frozen converged Nb thermal replay | Released currents reproduced; correction changes them by 2.5–2.8 ppm | Synthetic thermal defects do not imply a large demonstrated material correction |
 
 [Third-grid comparison](third_grid_comparison_result.json),
 [same-band stencil control](stencil64_control_result.json),
+[input-regeneration control](regenerated32_control_result.json),
 [gap validation](verify_sixth_occupation_gap_result.json),
 [public reproduction](PUBLIC_RESPONSE_REPRODUCTION.md),
 [exact lookup](INDEXED_MESH_GATE.md), [figures](figures/README.md).
 
-All response-grid values above use an imposed1.5 meV gap, the same saved density,
-26 bands,512 response cells and the documented tiny-Q/full-symmetry diagnostic.
+All response-grid values above use an imposed 1.5 meV gap, the same saved density,
+26 bands, 512 response cells and the documented tiny-Q/full-symmetry diagnostic.
 They are not self-consistent penetration depths. Curvature is held at its
-original stencil when the velocity stencil changes. The observed64reversal
+original stencil when the velocity stencil changes. The observed 64³ reversal
 appears in the velocity-squared term; the much smaller curvature term changes
 in the opposite direction. That decomposition does not identify all remaining
 quadrature or microscopic errors.
@@ -82,14 +85,22 @@ needs conditioning and discretization evidence before becoming a gap-error
 bound. The public response build and retained full-gap dependency chain are
 not interchangeable; [the portability gate](PORTABLE_GAP_GATE.md) traces that boundary.
 
+The registered same-grid regeneration control closes an input-provenance
+confound. Automatic 32³ bands and owning serialization preserve all 897 points,
+26 bands and weights; shared energies pass the unchanged 1e-6 Ry test. The new
+response differs from the released 32³ result by only 2.19–2.20e-10 relative,
+about 3.2e-8 of the original 32→48 absolute difference. The consistent-generation
+series still rises ~0.68% and then falls ~0.34%. This excludes this tested
+regeneration difference as the explanation, without assigning a physical error.
+
 ## Released length-scale extraction
 
-The slope route reproduces a V3Si penetration depth near97.6 nm versus the
-published~97 nm after correcting our own unit conversion. The peak route remains
-near177 nm versus136 nm. Local peak interpolation moves177.09 to 176.24 nm and does
-not resolve the discrepancy. At1 K, first-four-point linear leave-one-out fits
+The slope route reproduces a V3Si penetration depth near 97.6 nm versus the
+published ~97 nm after correcting our own unit conversion. The peak route remains
+near 177 nm versus 136 nm. Local peak interpolation moves 177.09 to 176.24 nm and does
+not resolve the discrepancy. At 1 K, first-four-point linear leave-one-out fits
 change the length ratio to1.25–1.53 relative to the author's single-point estimate;
-odd-cubic alternatives give1.001 / 1.050. These are window/model sensitivities,
+odd-cubic alternatives give 1.001 / 1.050. These are window/model sensitivities,
 not confidence intervals. [Controls and raw provenance](FINITE_WINDOW_CONTROLS.md).
 
 The released processing script averages two currents before writing the curves,
@@ -109,9 +120,9 @@ and ordering; reusing assigned response states unchanged across Q is not exact.
 [Source trace and invalidation boundary](REUSE_BOUNDARIES.md).
 
 Public saved-density band reconstruction is measured: the original897-point
-replay takes98.95 s;48³ bands 359.62 s;64³ bands 826.54 s. The64 input preserves6273
-points / 26 bands, with897 shared reference points agreeing within4.152e-7 Ry under
-the registered1e-6 Ry test. Owning-QE serialization takes1.473 s. Shared-point
+replay takes 98.95 s;48³ bands 359.62 s;64³ bands 826.54 s. The64 input preserves 6273
+points / 26 bands, with897 shared reference points agreeing within 4.152e-7 Ry under
+the registered 1e-6 Ry test. Owning-QE serialization takes 1.473 s. Shared-point
 energy agreement is not derivative accuracy at new points or density convergence.
 
 The full new-material cost remains unknown: relaxed density, converged phonons,
@@ -121,8 +132,9 @@ cluster clocks cannot be converted to Mac time by multiplying core counts.
 The retained basis has historical partial setup accounting and an absent parent
 payload. [Complete stage ledger and explicit unknowns](WORKFLOW_COSTS.md).
 
-The initial native ceiling remains four wall-hours. Terminal-attempt accounting
-includes failures; quiet gates, unguarded analysis and model use are separate.
+Final guarded native accounting is 11,357.647 s (189.29 minutes) across 79
+terminal attempts: 63 guard passes and 16 failures. This stays below the initial
+four-wall-hour ceiling. Quiet gates, unguarded analysis and model use are separate.
 Energy and model monetary cost were not measured. No total dollar return or
 end-to-end cold-start speedup is claimed. Further sweeps without a better-defined
 observable would spend resources without closing the limiting physical gates.

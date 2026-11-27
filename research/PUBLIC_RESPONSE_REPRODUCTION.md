@@ -226,3 +226,23 @@ The subsequent explicit32extension changes owning script hashes again. Historica
 64protocols were read back before that extension; do not rewrite their identities.
 Fresh automatic32reproduction uses `--grid 32` throughout, bandguard600,
 serializationguard120and responseguard120. Default48behavior is preserved.
+
+
+## Final registered 32 control readback
+
+Automatic bands, owning serialization and response all pass. The new response
+shifts only 2.19–2.20e-10 relative from the released 32 baseline; the grid reversal
+persists. Keep the original registered comparison and this causal control distinct.
+Exact commands used from the repository root:
+
+```sh
+python3.13 research/verify_band_serialization.py research/raw/public-a2f-regenerated32-001 research/public_a2f_regenerated32_manifest.json --grid 32
+python3.13 research/verify_refined_response.py research/raw/public-fourth-regenerated32-001 research/public_fourth_regenerated32_manifest.json --grid 32 --guard-seconds 120
+python3.13 research/regenerated32_analysis.py research/regenerated32_control_plan.json research/third_grid_comparison_result.json research/public_fourth_regenerated32_result.json --plan-sha256 a55ad8b902fac9a365c6c1a24c38680a0eff1a36602f44393d16ed22b4381eff
+```
+
+These commands strictly read the recorded local raw artifacts. A different
+machine must create fresh inputs/manifests and result paths, as described above;
+committed historical receipts do not supply missing raw files or retained gap
+objects. Pre-32-extension 64 readback code is available at fa0aa59. The 135 offline
+tests and committed standalone figures are public; physical validation remains open.

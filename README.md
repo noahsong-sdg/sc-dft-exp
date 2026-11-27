@@ -1,16 +1,21 @@
 # Superconducting DFT benchmark progress
 
-**Active research: start with [CAMPAIGN_STATE.md](CAMPAIGN_STATE.md), then
+**Research state: start with [CAMPAIGN_STATE.md](CAMPAIGN_STATE.md), then
 [PROJECT_SPEC.md](PROJECT_SPEC.md) and [RESEARCH_LEDGER.md](RESEARCH_LEDGER.md).** Future agents should read
 [AGENTS.md](AGENTS.md). The benchmark snapshot below predates this campaign.
 
 The reusable [two-week mandate](TWO_WEEK_GOAL_PROMPT.md) is also saved here;
 writing it does not schedule continuous background execution.
 
-## Active campaign evidence
+## Campaign result
 
-Read the [living scientific report](research/CAMPAIGN_REPORT.md) for the integrated
-answer, supporting evidence, reuse boundaries, and remaining acceptance gates.
+Read the [scientific report](research/CAMPAIGN_REPORT.md) and
+[acceptance audit](research/REQUIREMENTS_AUDIT.md). The recommendation is **NARROW**:
+keep the reproducible numerical-validity study and exact optimization; gate
+material prediction on portable inputs and independent physical qualification.
+The held-out 64³ control reverses the 32³→48³ trend. Same-grid band regeneration
+changes the response by only ~2.2e-10 relative and does not explain that reversal.
+All registered native controls are terminal; total guarded time 189.29 minutes.
 
 The present scientific lead is an accuracy audit of response quadrature,
 supported by a retained-input matrix-free gap workflow. A reliable physical
@@ -65,7 +70,8 @@ the [48cubed band-grid study](research/BAND_DERIVATIVE_REFINEMENT_GATE.md) now
 produces verified derived band data and a response diagnostic. Its roughly5.52%
 change from32cubed shows why conservation alone is insufficient for accuracy.
 A fourth-order velocity control reduces the observed spread to about0.68%,
-supporting the preregistered stencil hypothesis; this is not a continuum error bound.
+supporting the preregistered two-grid stencil hypothesis. The held-out 64³ step
+then reverses direction by ~0.34%; this is not a continuum error bound.
 The original missing-serialization protocol and240s response timeout are preserved;
 separate successful protocols do not erase those failures. No physical prediction follows.
 

@@ -1,50 +1,62 @@
-# Campaign requirements audit — incomplete
+# Twelve-hour campaign acceptance audit
 
-This audits the twelve-hour [specification](../PROJECT_SPEC.md), not the separate
-future two-week mandate. Evidence must cover each claim's scope. Passing one
-fixture does not close a material-validation requirement. The live
-[report](CAMPAIGN_REPORT.md) integrates conclusions; the
-[ledger](../RESEARCH_LEDGER.md) owns process state.
+This audits [PROJECT_SPEC.md](../PROJECT_SPEC.md), not a scheduled two-week run.
+All registered native controls are terminal and strictly read back.
+Open physical gates are limitations of the scientific answer, not passed tests.
 
-## Scientific questions
+## Questions answered within the available evidence
 
-| Specification question | Owning evidence | Current verdict / missing evidence |
+| Question | Evidence inspected | Verdict |
 |---|---|---|
-| Complete laptop workflow, accuracy and cost | WORKFLOW_COSTS.md; campaign_native_resource_accounting.json; public response pipeline | Several downstream actions measured. Full microscopic cold start, conditioned gap error and physical response incomplete; PORTABLE_GAP_GATE.md traces the retained dependency/basis boundary and reviewable continuation. Rank38 now meets both fixed-input stationary-residual targets. Energy and model monetary cost unmeasured. |
-| Reusable inputs and invalidation | REUSE_BOUNDARIES.md; GAP_RESPONSE_MAPPING_GATE.md; exact context/hash checks | Fixed-layout reuse documented; momentum state reuse rejected. Cache invalidation regressions pass. No general exact kernel invariance claim. |
-| Robust length-scale extraction | response_analysis.py; extraction results/figures; PHYSICAL_INTERPRETATION_GATE.md | Released slope reproduced; point-removal/odd-cubic/local-peak controls in FINITE_WINDOW_CONTROLS.md pass analytic fixtures. Local peak interpolation does not close the discrepancy. Positive-Q averaged curves cannot test empirical parity or separate-current agreement; fitting sensitivity is not uncertainty. No matched experimental prediction. |
-| Small-Q versus scan | LINEAR_RESPONSE_LIMIT.md; SYMMETRY_SCALE_FINDING.md; DIRECTION_AND_ZERO_Q_GATE.md | Analytic limits and selector defect tested. Full production directional small-Q response not qualified. |
-| Separate error sources | CAMPAIGN_REPORT.md; ANISOTROPIC_MOMENT_GATE.md; PHYSICAL_INTERPRETATION_GATE.md | Operation-specific averaging bound measured; larger grid/basis/derivative effects remain. Total physical error unbounded. |
-| Newly practical scientific decision | CAMPAIGN_REPORT.md | Practical numerical-method diagnosis demonstrated with retained inputs. New reliable material decision remains unproved. |
-| Current important gap/demand | CURRENT_LANDSCAPE.md; UPSTREAM_STATUS_AUDIT.md | Existing competitors checked; generic saturation/demand thesis unsupported. No outreach or interviews. |
-| Strongest contribution within window | CAMPAIGN_REPORT.md; patches/README.md; public reproduction pipeline | Focused numerical correctness/moment audit is supported. Portable source/input response run passes. Full prediction and final recommendation pending. |
+| Laptop workflow, accuracy and cost | WORKFLOW_COSTS.md; native receipt ledger; public source/input runs; PORTABLE_GAP_GATE.md | Several downstream actions fit this M5 / 32 GiB Mac. Full microscopic cold start, fresh Z/basis, energy/billing and total physical error remain unknown. Rank 38 stationary residuals pass. No global hardware-impossibility claim. |
+| Reuse and invalidation | REUSE_BOUNDARIES.md; GAP_RESPONSE_MAPPING_GATE.md; input/context/stale-state tests | Fixed-context diagnostics reuse bands/caches. Assigned state reuse across Q is not exact; layout, DOS and gap changes require qualification. |
+| Length-scale extraction | Original curves/scripts and hashes; response_analysis.py; FINITE_WINDOW_CONTROLS.md | Slope reproduction succeeds; peak discrepancy remains. Window sensitivities are measured; positive-Q averaged curves cannot establish empirical parity or separate-current agreement. |
+| Small-Q versus scans | LINEAR_RESPONSE_LIMIT.md; SYMMETRY_SCALE_FINDING.md; DIRECTION_AND_ZERO_Q_GATE.md | Analytic limits and selector defect tested. Full production directional small-Q response is unqualified. |
+| Error separation | Moment/anisotropic bounds; full residuals; grid/stencil and held-out 64 controls | Specific numerical operations and sensitivities separated. Total material error is not bounded. Third-grid reversal blocks simple monotone extrapolation. |
+| Newly practical decision | Public native diagnostics and CAMPAIGN_REPORT.md | A working numerical-validity audit can reject misleading convergence/closure claims. New reliable material prediction and previously impossible access are not demonstrated. |
+| Current alternatives and demand | CURRENT_LANDSCAPE.md; UPSTREAM_STATUS_AUDIT.md; current QE source identity | Direct overlapping methods exist. No empty-field, novelty or unmet-demand claim; no interviews/outreach. |
+| Strongest supported contribution | Public regressions; exact 32/48 exports; rank 38 full check; registered 64 holdout | Narrow to reproducible numerical reliability plus a qualified exact downstream optimization. Further material work is gated on portable inputs and physical qualification. |
 
-## Required durable deliverables
+## Required deliverables
 
-| Item | Evidence checked | Status |
+| # | Deliverable and owning evidence | Acceptance scope |
 |---|---|---|
-| 1. Clear question/current decision | PROJECT_SPEC.md; DECISION_STATUS.md; CAMPAIGN_REPORT.md | Present, provisional; final continue/narrow/pivot/stop still needed. |
-| 2. Retrieval/evidence manifest | retrieval_manifest.json; public_response_inputs.json; public_response_sources.json; source/result manifests | Present; public source and input hashes verified on acquisition. Isolated response run PASS33.24s/187MB; all8exports bitwise match. |
-| 3. Complete workflow/cost ledger | WORKFLOW_COSTS.md; resource_accounting.py + regression; historical source-clock manifest | Present with explicit unknowns. Final terminal-attempt accounting must be refreshed. |
-| 4. Tested code/runnable commands | research tests; public CI; PUBLIC_RESPONSE_REPRODUCTION.md | Latest local131 tests pass (10.589s), compileall excluding raw, moment-refinement replay and diff check pass. The earlier Mac-only import failure was fixed with a subprocess regression; public CI through871d424 passes. Exact48/64protocol and composition fixtures pass; the combined native build passes; its response comparison and64-grid control remain pending. Public response,897-point bands and separate2769-point serialization/48response integrations pass. |
-| 5. Standalone figures/provenance | figures/README.md; PNG/PDF and source hash files | Present. Rank38 stationary-residual and anisotropic diagnostic figures generated from hash-bound results and visually inspected. Third-grid figure remains pending. |
-| 6. Reproduction/sensitivity | archived Nb gate; extraction figures; direction/refinement and moment analyses | Present with bounded claims. Peak extraction, derivative and physical gates unresolved. |
-| 7. Qualified improvement/held-out validation or no-improvement verdict | thermal/current/RHS fixtures and high-precision controls; second-moment exact identities; candidate full checks; exact32/48indexed exports | Rank38 meets unchanged stationary targets; exact indexed lookup is held-out48qualified; specific numerical corrections and diagnostics supported; no qualified total material-response improvement. Final scope/validation judgment pending. |
-| 8. Current alternatives | CURRENT_LANDSCAPE.md; UPSTREAM_STATUS_AUDIT.md | Present, targeted rather than exhaustive; no empty-field claim. |
-| 9. Negative results/uncertainties | CAMPAIGN_REPORT.md; failed full residual receipts; mapping/physical gates; build failures | Present. Do not turn local failures into global impossibility claims. |
-| 10. Final recommendation | CAMPAIGN_REPORT.md | Incomplete while decisive bounded experiments run. |
+|1| Question/decision: PROJECT_SPEC.md; CAMPAIGN_REPORT.md; DECISION_STATUS.md | NARROW; no decision-grade material claim. The regeneration control does not change this verdict. |
+|2| Retrieval manifests: retrieval_manifest.json; public_response_inputs.json; public_response_sources.json; per-run manifests | Pinned URLs/revisions/bytes/hashes; relevant raw data remain separate from derived public results. |
+|3| Complete stage/cost ledger: WORKFLOW_COSTS.md; campaign_native_resource_accounting.json; source-clock and basis audits | Every workflow stage is measured, historical, projected or explicitly unknown. Final accounting: 79 attempts / 11,357.647 s, below four native wall-hours. |
+|4| Tested code/commands: public source build/staging/readback; PUBLIC_RESPONSE_REPRODUCTION.md; offline suite | 135 local tests PASS, 9.362 s; compileall, moment replay and diff check PASS. Automatic 32 bands/serialization/response all PASS. Public Ubuntu CI 46017822969 passes on retry; initial setup failed at an unrelated Microsoft feed HTTP 403. |
+|5| Standalone figures/provenance: figures/README.md; PNG/PDF/source hashes | Rank38gap/anisotropic and two-/three-grid figures generated and visually inspected. No invented confidence or physical-error bars. |
+|6| Reproduction/sensitivity: archived Nb; V3Si extraction; moment, direction, stencil/grid controls | Reproduction and negative controls preserved. Physical and missing-data boundaries explicit. |
+|7| Qualified improvement or justified rejection | Exact indexed lookup: 1920 compiled cases and eight bitwise native exports at 32/48; combined fourth 48 also exact. Rank 38 passes both stationary targets. Held-out 64 reversal retained. No qualified total physical-response improvement. |
+|8| Current alternatives | Current primary-source/repository audit; limited search scope recorded. No adoption or researcher demand claimed. |
+|9| Negatives/uncertainties | Failed native/build/residual receipts; grid reversal; finite-window/extraction and physical/portability gates | Failures are not relabelled as passing or generalized into global impossibility. |
+|10| Final recommendation | CAMPAIGN_REPORT.md | NARROW to the validity study; stop broad material screening. Next gates: portable gap build/inputs, measured complete setup, independent physical qualification. |
 
-## Final verification still required
+## Execution-path review and verification
 
-Inspect the complete maintained change paths, including source acquisition,
-interface/build patch, input staging, terminal guards, native output parsing,
-state mapping, signed-weight bounds and public claims. Run the final research
-suite and maintained-source compilation check, inspect public CI and repository
-synchronization, refresh compute inventory, and verify the documented standalone
-native path actually runs or preserve a bounded, explained failure.
+The review follows public acquisition and source compatibility through build,
+input staging, the normal-pressure/hash launch gate, terminal receipt checks,
+XML/a2F serialization, native/cache context, response components and registered
+comparisons. It also checks the retained gap dependency boundary, signed-weight
+identities, extraction conventions and current public claims. This is an agent
+review with executable controls, not independent scientific peer review.
 
-An accepted stationary residual requires both unchanged targets. A physical
-prediction additionally needs conditioning, discretization, functional and
-normalization evidence. If those remain open, the final report must explicitly
-reject a reliable-material-access claim and identify the exact decisive missing
-experiment. No completion is established by this audit.
+Adjacent invariant fixtures cover changed/legacy inputs, wrong parent or grid,
+wrong deadlines/defaults, copied identities, energies/weights, missing or duplicate
+exports, nonfinite cache data, temperature/gap/context changes and altered
+prospective sources. Historical manifests remain immutable; a changed staging
+script is not silently adopted into an old execution identity.
+
+Final code checks: `python3.13 -m unittest discover -s research -p 'test_*.py'`
+PASS, 135 tests / 9.362 s; maintained-source `compileall` excluding `/raw/` PASS;
+`python3.13 research/moment_refinement.py` PASS; `git diff --check` PASS.
+Strict final 32 serialization/response and registered comparison commands PASS.
+Figure source hash checks and public synchronization are recorded in the ledger.
+There is no separate configured typecheck. Maintained Python compilation and
+native compiled fixtures/integration are the applicable build checks. CI runs
+the offline native fixtures and moment replay on Ubuntu; it does not rerun the
+Mac QE integration or validate the material physics.
+
+The acceptable terminal answer is a bounded methods contribution plus a rigorous
+explanation of the unproved material-access thesis. No open physical acceptance
+gate may be reclassified as completed prediction work.
