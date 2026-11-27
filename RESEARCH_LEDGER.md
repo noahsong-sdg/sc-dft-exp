@@ -11,8 +11,11 @@ Attempt 002 material preparation launched under normal pressure then SIGBUS in
 0.883 seconds. Traced our wrapper's literal logical argument to QE's INOUT write;
 fixed mutable variable + explicit interface and added actual-wrapper compiled
 serializer regression. 21 tests pass; attempt 003 rebuilt. A bounded memory-pressure
-watch is staged to launch only under normal pressure. Check its actual process
-handle/output before asserting whether it ran. No production gap solve performed.
+watch completed after 50 seconds without observing normal pressure; no attempt
+003 child launched. Its observations are retained in raw/nb-preparation-003/
+pressure_watch.json. No process is left running by that watch. No production gap
+solve performed. Next independent work: qualify the complete RHS assembly against
+the scalar finding; recheck resources before a later material-preparation attempt.
 
 ## Latest restart point — preparation pilot staged
 
