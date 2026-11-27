@@ -1,0 +1,19 @@
+{
+  "fresh_sha256": "74576f27edc47346a1deb7ec14f561ece05e190be42309efdcd2ca8d24860a89",
+  "saved_state_sha256": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37",
+  "metadata_sha256": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+  "nx": 100,
+  "differences": {
+    "xi0": [],
+    "dx0": [
+      {
+        "index": 52,
+        "fresh_hex": "0x1.d0271d8bffaf8p-22",
+        "saved_hex": "0x1.d0271d8bffb05p-22",
+        "absolute_difference": 6.88214269644119e-22,
+        "ulps_at_saved_value": 13.0
+      }
+    ]
+  },
+  "scope": "Grid prefix comparison only; no state/Z acceptance, no tolerance change"
+}

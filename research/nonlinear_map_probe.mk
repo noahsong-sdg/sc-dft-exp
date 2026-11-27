@@ -4,7 +4,7 @@ include $(NATIVE_MAKEFILE)
 RETAINED_OBJECTS = $(addprefix $(NATIVE)/build/,$(OBJECTS))
 
 nonlinear-map-probe.x: nonlinear_map_probe.o
-	$(LD) $(LDFLAGS) -o $@ $^ $(RETAINED_OBJECTS) $(CORELIBS)
+	$(LD) $(LDFLAGS) -o $@ $^ $(RETAINED_OBJECTS) $(MAP_EXTRA_OBJECTS) $(CORELIBS)
 
 nonlinear_map_probe.o: $(MAP_SOURCE)
-	$(MPIF90) $(FF) -I$(NATIVE)/build -fcheck=all -c $< -o $@
+	$(MPIF90) $(FF) $(MAP_FLAGS) -I$(NATIVE)/build -fcheck=all -c $< -o $@

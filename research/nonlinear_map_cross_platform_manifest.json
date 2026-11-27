@@ -1,0 +1,45 @@
+{
+  "mode": "Explicit pre-existing cross-platform state checker; default strict checker preserved",
+  "bounds": "64 binary64 eps relative elementwise real initialization arrays; exact metadata/indices and unchanged saved-Z checks",
+  "acceptance": "Same selected-row controls as nonlinear_map_build_manifest.json; no full residual or converged solve claim",
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/nonlinear_map_probe.f90",
+      "sha256": "4f7978c7456209050fc96b71d9c9b6e9d5f5127a0659e8d76368da6a1bb9ec3b",
+      "bytes": 5436
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/nonlinear_map_probe.mk",
+      "sha256": "2e2a51338b9ca7922512d2e0b46e9459e9f9cf1aa7cadb5e76a3a69774e5af85",
+      "bytes": 400
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/cross-platform-v1/native_state_io_cross_platform.f90",
+      "sha256": "ee882b357dda6cb51c8b49da720dd1e3fed30258f3761c1874d1fb5590e35f5d",
+      "bytes": 9091
+    },
+    {
+      "path": "/Users/noahs/Developer/flux-pinning/native-macos-v1/cross-platform-v1/build/native_state_io_cross_platform.o",
+      "sha256": "8dd9d63c1aca24eb7d7ca6329cb61573a6e0ea2fd5dff64bb718cafd45fa1d01",
+      "bytes": 25552
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/nonlinear-map-cross-platform-001/nonlinear-map-probe.x",
+      "sha256": "7fc4ffe6c9eb6b4e4d5ac5f37ba60f8e47edcaada7b79fdbd4bc412cc2071699",
+      "bytes": 7767512
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/nonlinear-map-cross-platform-001/native.in",
+      "sha256": "8aebd2e7b1f538a2ec39489e24a146bf93689bab92812de62ea65fd0bb4e9dcc",
+      "bytes": 430
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/nonlinear-map-cross-platform-001/map-control.in",
+      "sha256": "81c10f2ae79de44b1a886cbefa5ddfb4bf16f9b52184d3844bc0cd7a43344e42",
+      "bytes": 139
+    }
+  ],
+  "regression": "Existing test_cross_platform.py:4 tests PASS 0.186s",
+  "guard_seconds": 120,
+  "rss_cap_bytes": 3221225472
+}

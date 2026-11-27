@@ -11,7 +11,11 @@ program nonlinear_map_probe
   use sctk_read_file, only: degenerated_band, read_a2Fsave, read_elph
   use sctk_ini_delta, only: energy_grid, ini_delta
   use saved_coulomb, only: read_saved_coulomb, check_saved_coefficients
+#ifdef CROSS_PLATFORM_STATE_CHECKS
+  use native_state_io_cross_platform, only: verify_initialized_state, read_full_Z
+#else
   use native_state_io, only: verify_initialized_state, read_full_Z
+#endif
   use tiled_operator, only: build_tile
   use slab_operator, only: ensure_slab, clear_slab
   use tc_native_oracle, only: native_pair

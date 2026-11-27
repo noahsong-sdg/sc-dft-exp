@@ -105,3 +105,21 @@ gate, identify the grid input by hash, and require exact agreement of all newly
 prepared state arrays before accepting Z. The old common-seed causal diagnostic
 is expressly test-only and must not be linked into this calculation. A newly
 computed Mac Z is the alternative if compatible input reuse cannot be established.
+
+## Fresh audit and explicit numerical-compatibility mode
+
+The fresh grid audit finds exactly one changed weight, dx0[52],13ULP; all nodes
+match. The saved-quadrature proposal is superseded by an existing, independently
+tested cross-platform state checker. Four regression tests passed, including
+stale/truncated state, remapping, NaN/Inf, zero and over-bound rejection.
+The driver now supports an explicit compile-time mode; the default stays strict.
+It changes checker selection only, preserving native quadrature generation and
+the saved-Z checker. This avoids an unnecessary new input-injection path.
+The prior exact-mode failure remains valid. A selected map passing this mode
+would qualify only its declared numerical compatibility and selected rows.
+See nonlinear_map_cross_platform_manifest.json for prospective hashes/bounds.
+
+Verification at this checkpoint:56 offline unittest cases PASS(2.246s);
+compileall PASS; committed moment_refinement replay PASS; git diff --check PASS.
+Original strict-mode build manifest hashes refer to source at581f71f; the new
+explicit-mode manifest pins current source separately. Native outcome pending.

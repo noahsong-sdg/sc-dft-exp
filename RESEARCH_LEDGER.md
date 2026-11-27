@@ -1,5 +1,21 @@
 # Research restart ledger
 
+## Latest priority — explicit cross-platform nonlinear pilot
+
+Fresh quadrature audit PASS45.615s/110444544bytes: all100 nodes exact; only
+dx0[52] differs13ULP (6.88214269644119e-22). See research/quadrature_reuse_audit.json.
+The serialized-grid proposal below is superseded: retained cross-platform-v1
+already defines64-epsilon elementwise initialization checks with exact metadata,
+indices, zero padding, and unchanged saved-Z checks. Its4 regression tests PASS.
+Default byte-exact driver mode remains unchanged; no seeded-grid object linked.
+New explicit-mode boundschecked build PASS;56 offline tests PASS(2.246s),
+compileall, moment refinement and diff checks PASS. Live owner63945/PID97100.
+Prospective hashes and acceptance:
+research/nonlinear_map_cross_platform_manifest.json. Fresh native owner launched
+with120 quiet normal seconds and unchanged120s/3GiB runtime guard; see watcher
+research/raw/nonlinear-map-cross-platform-001/campaign_launch_watch.json.
+This is selected-map qualification, not a full solve or physical validation.
+
 ## Latest priority — nonlinear saved-state gate rejected; audit quadrature reuse
 
 Previous goal turn made progress:55 offline tests PASS(2.456s), compileall and
