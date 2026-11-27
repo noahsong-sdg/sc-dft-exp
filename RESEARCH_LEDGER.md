@@ -3446,3 +3446,17 @@ No separate typecheck configured. Review: production behavior unchanged, no
 persisted schema changed, no new network/security surface; derivative/measure
 qualification still required before material use. Restart007 owner21220/session
 86523 remains the sole guarded campaign run; no duplicate launched.
+
+
+## Second restart application: third segment accepted
+
+Restart-sweep007 rows32769:49152 terminal PASS, wall203.74481529183686s; individual
+peak1028669440B, sampled group978714624B.
+Public/consumed manifests match; checkpoint and pinned postrun inputs certified.
+Owner21220/session86523 terminal exit0. New guarded total8876.009163459148s
+(147.93min); historical189.29min separate. Final segment008 stages rows
+49153:66867 with same basis/operator, predecessor007,600s/3GiB/quiet120.
+Its complete sums/Ritz checks and independent full-image/mode analysis remain
+required before further spending. No code/threshold changes.184tests/193Python
+compilations/moment replay lastPASS; diffcheckPASS. CI46076819164 on c434224
+PASS. No gap or response accepted; scientific goal remains active.
