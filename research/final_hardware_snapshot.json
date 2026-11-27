@@ -1,0 +1,11 @@
+{
+  "recorded_utc": "2026-11-27T14:34:43.749770+00:00",
+  "machine": "arm64",
+  "chip": "Apple M5",
+  "cpu_cores": 10,
+  "ram_bytes": 34359738368,
+  "macos": "ProductName:\t\tmacOS\nProductVersion:\t\t26.6.2\nBuildVersion:\t\t25G83\n",
+  "memory_pressure_level": "1",
+  "disk_free_bytes": 152765927424,
+  "scope": "Final campaign hardware/pressure snapshot; no energy or runtime projection."
+}

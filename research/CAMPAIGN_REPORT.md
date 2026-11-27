@@ -1,205 +1,153 @@
-# Superconducting response on a laptop: living scientific report
+# Superconducting response on a laptop: evidence and decision
 
-Checkpoint: 2026-11-27. This report is provisional while the campaign runs.
-The [restart ledger](../RESEARCH_LEDGER.md) owns live process state. The
-[requirements audit](REQUIREMENTS_AUDIT.md) records incomplete acceptance gates.
+Checkpoint: 27 November 2026. The final registered32³ regeneration control is
+running; the campaign audit is not yet closed. [Current process state](../CAMPAIGN_STATE.md),
+[requirements audit](REQUIREMENTS_AUDIT.md), [chronological evidence](../RESEARCH_LEDGER.md).
 
-## Answer currently supported
+## Answer supported by the evidence
 
-Reusable microscopic inputs make several useful response **diagnostics** practical
-on this Mac. They do not yet make a reliable, self-consistent material response
-prediction demonstrably accessible. The distinction is the principal result so
-far: memory feasibility, a converged reduced equation, matched quadrature, and
-experimental accuracy are separate gates, and the experiments expose failures
-at more than one gate.
+**Narrow the project to a reproducible numerical-validity study.** Reusable
+microscopic inputs make useful response diagnostics and a retained-input gap
+stationarity check practical on this32 GiB Mac. The campaign does **not** establish
+reliable material-response prediction, a portable microscopic cold start, or a
+new unsaturated market. Those are separate, still-open claims.
 
-The strongest contribution is a reproducible accuracy audit: retain second
-velocity moments, test the native symmetry averaging at an unchanged anisotropic
-gap candidate, and bound that operation's observable effect even with signed
-quadrature weights. This can tell another method developer whether compression
-or averaging is smaller than other numerical sensitivities before spending on
-new microscopic inputs or a material scan. It is a scientific reliability tool;
-its value is not an established new-material discovery capability.
+The scientific benefit beyond faster reproduction is an executable way to find
+misleading numerical agreement before interpreting a material prediction. In
+this Nb diagnostic, conservation can pass while grid/stencil sensitivities
+remain substantial; a promising two-grid result reverses on a held-out third
+grid. Another method developer can reproduce these tests, inspect the failed
+inferences and decide which numerical stage needs attention. This is a proposed
+use backed by working examples, not demonstrated researcher adoption or proof
+that such studies were previously impossible.
 
-## Held-out electronic-grid test
+## Principal findings
 
-The fourth-order 64³ control passes native/readback checks in173.621s/881MB.
-Its48→64response shift is−0.335%,−0.337%,−0.340% at2/4/8K, after the32→48
-increase of~0.68%. The registered absolute-step contraction holds, but the
-same-direction continuation and both conditional h²/h⁴ extrapolations fail.
-This makes the third grid scientifically useful: the encouraging two-grid
-sensitivity reduction cannot support a simple monotone accuracy estimate.
-Same-grid stencil and band-regeneration controls remain pending.
-[Registered comparison](third_grid_comparison_result.json),
-[standalone figure](figures/third_grid.png).
+| Test | Verified result | What it establishes |
+|---|---|---|
+| Public response reproduction | Fresh source build261.64 s; native33.24 s / 187 MB; all eight exports bitwise equal to the retained run;31 inputs unchanged | The response diagnostic has a public source/input path on this Mac |
+| Second-moment closure | Squared mean velocities retain only40–45% of the matched fine-grid sum on tested coarse cells; retained second moments reproduce that discrete sum | Averaging then squaring can discard a large numerical contribution in this approximation |
+| Fourth-order velocity,32→48 | Response spread falls from~5.52% to~0.68% at2/4/8 K | Reduced observed two-grid sensitivity; no continuum bound |
+| Held-out fourth-order64 |48→64 shift−0.335/−0.337/−0.340%, after the positive32→48step | Absolute changes contract, but same-direction continuation fails at every temperature |
+| Same-band64 stencil control | DOS/curvature/energy axes bitwise equal; F4/F2−1≈1.947%; absolute difference D64/D48≈.4979 rather than frozen .5625 | Isolated velocity-stencil sensitivity remains; leading h² conditional prediction misses by~11.5% |
+| Exact indexed mesh lookup |1920 compiled brute-force cases; all8native exports bitwise equal at 32/48; combined fourth 48 takes83.878 s versus227.041 s | A qualified exact downstream optimization, single-pair ratio2.707× |
+| Retained-input rank 38gap | Reduced1.115 s; full680.80 s / 938 MB; maximum3.172e-11 Ry and RMS ratio7.546e-7 pass unchanged targets | Stationarity for this fixed retained problem, not conditioned gap or material accuracy |
+| Matrix-free full action |908.65 s / 882 MB versus67.7 GiB dense allocation floor at the inspected state counts | This action fits laptop memory; no paired solve-speed benchmark |
+| Frozen converged Nb thermal replay | Released currents reproduced; correction changes them by2.5–2.8 ppm | Synthetic thermal defects do not imply a large demonstrated material correction |
 
-## Measured evidence and what it proves
+[Third-grid comparison](third_grid_comparison_result.json),
+[same-band stencil control](stencil64_control_result.json),
+[gap validation](verify_sixth_occupation_gap_result.json),
+[public reproduction](PUBLIC_RESPONSE_REPRODUCTION.md),
+[exact lookup](INDEXED_MESH_GATE.md), [figures](figures/README.md).
 
-| Evidence | Result | Valid conclusion | Not established |
-|---|---|---|---|
-| Fixed-gap matched-energy response | Squared means retain only40–45% of the fine-grid second-moment sum in tested coarse cells | Mean-velocity closure can lose a large numerical contribution | Physical penetration-depth error of that magnitude |
-| Native moment export | 37.28s/194MB; constant controls and native averaging replay agree | One small cache supports repeated candidate diagnostics | Complete current functional or self-consistency |
-| Rank35 anisotropic audit | ~20ppm computed averaging bound; actual changes−0.169/+0.900ppm | This averaging operation is small for this candidate | Formal interval certification or total response error |
-| Same candidate, two grids | 2.738% response spread | Larger unresolved numerical sensitivity remains | Statistical uncertainty or a convergence certificate |
-| Complete native nonlinear evaluation | 908.65s/882MB; tile/Jacobian controls pass | The tested action fits memory without the67.7GiB dense payload | End-to-end solve speedup or new-material feasibility |
-| Rank38 reduced/full pair | Reduced1.115s; full680.80s/938MB; max3.172e-11Ry and RMSratio7.546e-7 pass unchanged targets | Retained fixed-Q0problem meets specified stationary residual accuracy | Conditioned gap error, fresh basis setup, physical response |
-| Frozen converged archived Nb replay | Released currents reproduced; correction changes2.5–2.8ppm | Synthetic thermal findings need material weighting | Large demonstrated material impact |
-| Public response reproduction | Fresh build261.64s; native33.24s/187MB; all8exports bitwise match retained run;31inputs unchanged | Diagnostic is reproducible from public sources/inputs on this Mac | Full SCDFT cold start or physical prediction |
-| Complete public saved-density band replay | All23322energies at897points agree within4.152e-7Ry;98.95s/96MB | Full original32cubed band input is cheaply reconstructible from saved density | Density convergence, derivative refinement or fresh phonon/Coulomb generation |
+All response-grid values above use an imposed1.5 meV gap, the same saved density,
+26 bands,512 response cells and the documented tiny-Q/full-symmetry diagnostic.
+They are not self-consistent penetration depths. Curvature is held at its
+original stencil when the velocity stencil changes. The observed64reversal
+appears in the velocity-squared term; the much smaller curvature term changes
+in the opposite direction. That decomposition does not identify all remaining
+quadrature or microscopic errors.
 
-Detailed sources: [moments](VELOCITY_MOMENT_METHOD.md),
-[anisotropic audit](ANISOTROPIC_MOMENT_GATE.md),
-[full map](FULL_NONLINEAR_MAP_GATE.md),
-[rank38 full receipt](verify_sixth_occupation_gap_result.json),
-[archived replay](ARCHIVED_NB_FINITE_Q_GATE.md), and
-[public reproduction](PUBLIC_RESPONSE_REPRODUCTION.md).
+## Why these interventions were chosen
 
-## Why the numerical changes are warranted
+The closure issue arises because averaging velocities and then squaring loses
+their variance, including cancellation between opposite velocities. Retaining
+the second moment preserves the intended matched discrete sum. Signed
+tetrahedron weights require direct identities and absolute triangle bounds;
+positivity arguments do not apply. This is a controlled numerical statement,
+not independent validation of the physical current functional.
 
-The first-moment closure squares an averaged directional velocity. Squaring and
-averaging do not commute; inversion-related velocities may cancel before they
-are squared. The second moment preserves the matched discrete sum instead.
-Signed tetrahedron weights require direct identities and absolute triangle
-bounds, rather than an assumed nonnegative variance theorem. The export is
-opt-in and changes no native solver arithmetic.
+The grid experiment tests a distinct derivative error. Changing only the
+velocity stencil reduces the original two-grid spread, so a held-out third
+grid was registered before its response was inspected. Its reversal blocks a
+simple monotone extrapolation. The same-band second-order 64 control then changes
+only that stencil: unchanged DOS, curvature and energy axes make the attribution
+specific. Neither stencil difference nor contraction is a total-error bound.
 
-The anisotropic extension does not silently force a candidate gap to respect
-symmetry. It replays the actual native averaging operator, verifies state/support
-mapping, and computes coefficient-range bounds at that same candidate. The
-separate native single-state branch remains unchanged. This directly tests the
-operation under suspicion while avoiding an unqualified interpolation or a
-looser scalar-symmetry acceptance threshold.
+Profiling traced a separate performance bottleneck through `read_a2fsave` into
+`opt_tetra_init`: repeated mesh searches, including identity-grid cases. An
+indexed scatter preserves the original first-match semantics within an explicit
+mesh/tolerance domain. Compiled adversarial fixtures and native bitwise exports
+qualify that replacement. It was chosen over approximate interpolation because
+it removes measured work without changing the mathematical outputs. Timings
+are single unprofiled pairs; setup, upstream preparation and timing variability
+remain separate.
 
-Separate thermal and zero-energy findings have complete-routine fixtures,
-high-precision scalar controls, and narrowly scoped source patches. Their frozen
-converged-material effect is small in the tested Nb state. They remain useful
-correctness findings, but do not carry a large-impact material claim. See the
-[patch explanations and validation](patches/README.md).
+The nonlinear path avoids a large dense interaction allocation by evaluating
+its action in tiles. Reduced occupation/critical-mode enrichment reaches the
+registered full stationary residuals at rank 38. Further enrichment merely to
+beat the passing threshold is not justified. A small equation residual still
+needs conditioning and discretization evidence before becoming a gap-error
+bound. The public response build and retained full-gap dependency chain are
+not interchangeable; [the portability gate](PORTABLE_GAP_GATE.md) traces that boundary.
 
-## Where reuse is valid and where it fails
+## Released length-scale extraction
 
-Primitive fixed-band derivatives can be reused algebraically within the stated
-finite-difference approximation. Final assigned response states cannot simply
-be reused across momentum: energy shifts precede DOS interpolation and can alter
-weights, selected states, and ordering. Directional response and Q0 gap geometry
-also differ under the inspected selector. The full48 tiny-Q control diagnoses
-that selector; it is not a physical small-Q prediction.
+The slope route reproduces a V3Si penetration depth near97.6 nm versus the
+published~97 nm after correcting our own unit conversion. The peak route remains
+near177 nm versus136 nm. Local peak interpolation moves177.09 to 176.24 nm and does
+not resolve the discrepancy. At1 K, first-four-point linear leave-one-out fits
+change the length ratio to1.25–1.53 relative to the author's single-point estimate;
+odd-cubic alternatives give1.001 / 1.050. These are window/model sensitivities,
+not confidence intervals. [Controls and raw provenance](FINITE_WINDOW_CONTROLS.md).
 
-A fixed-layout moment cache can be reused across candidate gaps only after exact
-mapping and context checks. A reduced interaction basis additionally depends on
-its kernel, saved renormalization, temperature convention and enrichment history.
-A small coefficient residual does not certify the full native residual. Neither
-residual alone bounds solution error near a critical eigenvalue. These boundaries
-are explicit in [reuse](REUSE_BOUNDARIES.md) and [mapping](GAP_RESPONSE_MAPPING_GATE.md).
+The released processing script averages two currents before writing the curves,
+and only nonnegative momenta are present. Separate-current agreement and
+empirical parity cannot be recovered from these processed files. Imposing odd
+parity in a fit supplies an assumption, not the missing measurement. Negative
+tails alone establish neither a physical instability nor a code defect.
+The current functional, normalization, low-temperature GL interpretation and
+experimental sample compatibility remain open gates.
 
-## Cost and opportunity cost
+## What reuse does and does not buy
 
-[Workflow costs](WORKFLOW_COSTS.md) separate historical cluster clocks, current
-Mac actions, retained-basis setup and unknown upstream work. No calibrated Mac
-cold-start forecast exists for microscopic electronic/phonon/Coulomb preparation.
-The historical64-vector parent printed39.1minutes across four stages; it is not
-a freshly reproduced Mac basis setup. A subsecond reduced solve therefore does
-not imply a subsecond accessible workflow.
+Primitive band energies/derivatives and matching geometry support repeated
+fixed-context diagnostics. Temperature-dependent gaps and occupations still
+change. Changing momentum can change DOS interpolation, active-state counts
+and ordering; reusing assigned response states unchanged across Q is not exact.
+[Source trace and invalidation boundary](REUSE_BOUNDARIES.md).
 
-The sensible remaining investment is a bounded isolated reproduction and a
-small number of discriminating validation experiments, not a material screen.
-Repeated full checks must buy evidence against unchanged targets. Token usage,
-energy and complete monetary cost are not measured here. Compute ceilings are
-limits, not a reason to consume them.
+Public saved-density band reconstruction is measured: the original897-point
+replay takes98.95 s;48³ bands 359.62 s;64³ bands 826.54 s. The64 input preserves6273
+points / 26 bands, with897 shared reference points agreeing within4.152e-7 Ry under
+the registered1e-6 Ry test. Owning-QE serialization takes1.473 s. Shared-point
+energy agreement is not derivative accuracy at new points or density convergence.
 
-## Comparison and scientific significance
+The full new-material cost remains unknown: relaxed density, converged phonons,
+electron–phonon and screened Coulomb preparation, saved Z, fresh basis setup and
+physical response qualification are not all measured on this Mac. Historical
+cluster clocks cannot be converted to Mac time by multiplying core counts.
+The retained basis has historical partial setup accounting and an absent parent
+payload. [Complete stage ledger and explicit unknowns](WORKFLOW_COSTS.md).
 
-The [current-method comparison](CURRENT_LANDSCAPE.md) identifies direct stiffness,
-extended-GL, Eliashberg and finite-Q SCDFT approaches. A broad claim that cheap
-response is an empty field is unsupported. No interviews or outreach establish
-unmet user demand. This audit instead addresses a concrete numerical question
-inside an existing microscopic workflow and provides inspectable evidence that
-another researcher can use without accepting our impact narrative.
+The initial native ceiling remains four wall-hours. Terminal-attempt accounting
+includes failures; quiet gates, unguarded analysis and model use are separate.
+Energy and model monetary cost were not measured. No total dollar return or
+end-to-end cold-start speedup is claimed. Further sweeps without a better-defined
+observable would spend resources without closing the limiting physical gates.
 
-A consequential positive material result would require an explicit decision,
-converged compatible gap, directional mapping, derivative/integration controls,
-consistent current functional and normalization, plus independent validation
-suited to that decision. [Physical interpretation](PHYSICAL_INTERPRETATION_GATE.md)
-explains why matching experiment by inserting a fitted mass factor is inadequate.
-The present data neither prove that broad goal impossible nor satisfy it.
+## Opportunity assessment and continuation gate
 
-## Remaining decisive experiments
+Current primary-source comparisons identify overlapping finite-Q SCDFT,
+extended-GL, DFT stiffness, EPW and IsoME work. The broad response-access pathway
+is not shown to be unsaturated, and no interviews or outreach establish unmet
+demand. [Current landscape](CURRENT_LANDSCAPE.md), [upstream audit](UPSTREAM_STATUS_AUDIT.md).
+The inspectable exact lookup and numerical regressions may be independently
+useful; novelty, adoption and publication significance remain unproved.
 
-The pinned public-source build and isolated31-input run now pass. Geometry,
-raw/averaged cache and controls match all eight retained exports bit for bit;
-original inputs are unchanged. This establishes practical reproducibility of
-the diagnostic. The full prediction remains unqualified. The next bounded
-fixed-density band replay tests an upstream reuse substage and measures its cost;
-it does not refine the32³ derivative grid merely by changing XML bands.
+Continue only as a focused methods/reliability project. Preserve the public
+regression harness, raw-source retrieval manifests, held-out negative result
+and exact optimization. Stop broad materials screening and unsupported claims
+of decision-grade penetration depth. The most ambitious justified next step is
+one **portable, physically qualified finite-temperature anisotropic response
+case**, with a concrete scientific decision and accuracy target fixed first.
 
-Rank37's full residual contracts again but still misses the maximum target by
-about10%; the RMS target passes. A measured rank38 occupation enrichment is
-prepared, and its reduced follow-up remains staged. Conditioning remains a
-separate requirement even if the next residual targets pass.
-
-The full897-point saved-density replay now passes at98.95s/96MB. This establishes
-a practical way to regenerate the actual32cubed band input and justifies a
-bounded48cubed band-grid study. Pinned QE's40000-point storage limit requires a
-consistent larger-capacity build and unchanged32cubed response baseline first.
-The [refinement protocol](BAND_DERIVATIVE_REFINEMENT_GATE.md) holds density,
-phonons, cell interpolation and imposed gap fixed; the grid-dependent Fermi
-energy is explicitly part of the measured sensitivity. A smaller stencil effect
-would still not certify physical normalization or material accuracy.
-
-The final recommendation must distinguish a supported methods contribution
-from the still-open material-access thesis, and explain what new calculation,
-decision or exclusion has actually become practical. No final verdict or goal
-completion is claimed at this checkpoint.
-
-
-## Public electronic-grid control
-
-Saved-density48cubed bands contain2769irreducible points. A separate owning-QE
-serialization preserves all26bands, coordinates and weights;145 shared reference
-points agree within4.6133e-8Ry, below the unchanged1e-6 target without an offset.
-The original no-wavefunction band protocol did not emit a2Fsave and remains failed.
-The separate XML reader/writer avoids repeating the successful diagonalization.
-
-The48cubed response passed strict readback in233.587811s/401113088B after an
-original240s attempt timed out. Fine-quadrature diagnostics increase5.5207%,
-5.5218%,5.5244% at2/4/8K relative to32cubed. The imposed gap, retained512response
-cells, density and phonon inputs remain fixed. Second moments still conserve
-this quadrature, but conservation is not a convergence test. The next control
-changes only the velocity derivative stencil. A physical penetration-depth
-prediction remains unjustified. See public_response_grid_sensitivity.json and
-BAND_DERIVATIVE_REFINEMENT_GATE.md for inputs, receipts, failures and limits.
-
-
-The prospective stencil hypothesis is now supported at all three temperatures:
-fourth-order32→48spread is0.6767/0.6777/0.6802%, versus5.5207/5.5218/5.5244%
-for second order. The fourth48run passed227.040529s/446545920B, with native
-conservation/cache/context/input checks. This demonstrates reduced observed
-sensitivity within the diagnostic, not physical response accuracy. The figure
-and grid_stencil_comparison.json preserve all four values and source identities.
-The remaining0.68% spread is not a certified error estimate.
-
-Full-run profiling identifies initialization rather than the final response
-contraction as the leading local cost on this path. An indexed mesh lookup has
-matched1920compiled brute-force cases and linked separately, but native exact
-output qualification is still pending. The official current QE tetra source is
-byte-identical to the pinned file; see INDEXED_MESH_GATE.md. No general speedup,
-novelty, upstream adoption or full microscopic cold-start claim follows yet.
-
-
-## Released extraction: point selection and missing information
-
-[Additional finite-window controls](FINITE_WINDOW_CONTROLS.md) now test
-first-four-point removal, three/four-point odd-cubic fits and local three-point
-peak interpolation against original hashed curves. At1K the linear leave-one-out
-length ratio spans1.25–1.53relative to the author single point, while the cubic
-ratios are1.001/1.050. These are model/window sensitivities, not confidence
-intervals. Local peak interpolation changes the fixed-xi peak-route result
-177.09nm to176.24nm; it does not reconcile136nm.
-
-The release processing script averages the two currents before writing these
-curves, and only nonnegative momenta are present. Separate-current agreement
-and empirical parity cannot be tested from this processed artifact. Raw current
-estimates/convergence histories are needed; imposing odd parity in a fit does
-not supply that missing evidence. Negative tails are catalogued without inferring
-a physical or implementation error. This closes the available saved-data
-sensitivity controls while preserving the unidentifiable checks as open.
+That continuation has three reviewable gates: rebuild the custom gap dependencies
+from inspectable licensed source without retained objects; reconstruct or release
+rights-cleared compatible microscopic/Z/basis inputs and measure complete setup;
+then qualify a held-out response with conditioning, discretization, functional
+normalization and a suitable independent benchmark. If these gates cannot be
+specified and verified, stop the material-access thesis rather than compensate
+with more optimization. Commodity hardware has not been shown to be the decisive
+remaining barrier; nor has the complete workflow been shown to fit it.

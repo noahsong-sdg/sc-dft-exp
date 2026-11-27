@@ -2087,3 +2087,16 @@ identities;134suitePASS9.470s,compileall/momentreplay/diffcheckPASS.
 Old manifests remain unchanged; pre-extension64readbackcompleted first.
 Fresh32root public-band-regenerated32-001 staged. Forecast100s,guard600s,
 120normal seconds,oneowner,initial4hbudgetfits. Thenserialize/responsecontrols.
+
+
+## Automatic32reconstruction and owning serialization PASS
+
+Automaticbands97.211369s/97517568B; owningwriter.803075s/85164032B.
+All897coordinates/26bands/weights preserved, shared897max4.151893e-7Ry.
+Fresh response root public-fourth-regenerated32-001 uses exact-qualified combined
+fourthprobe,guard120s/3GiB,120normal seconds. Regeneration comparison script was
+prepared before response values; it checks planidentity,registeredseries source
+hashes,nativegrid/temperature/gap/context and reports regeneration separately.
+135testsPASS9.362s,compileall/momentreplay/diffcheckPASS. No earlierprotocol
+rewritten. Finalreportconsolidated; fullrequirementsaudit remains to close after
+this last bounded control. Hardware refreshed:M5/10CPU/32GiB/pressure1.

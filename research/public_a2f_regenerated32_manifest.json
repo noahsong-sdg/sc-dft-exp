@@ -1,0 +1,135 @@
+{
+  "command": [
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-regenerated32-001/a2f-serialize.x",
+    "-in",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-regenerated32-001/native.in"
+  ],
+  "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-regenerated32-001",
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-regenerated32-001/scratch/pwscf.save/data-file-schema.xml",
+      "bytes": 1470236,
+      "sha256": "bbf1cfe2f80080bd33aa47ea7d60852eaddd00235db506ca29f92f4f58afa9c4"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-regenerated32-001/scratch/pwscf.save/data-file-schema.xml",
+      "bytes": 1470236,
+      "sha256": "bbf1cfe2f80080bd33aa47ea7d60852eaddd00235db506ca29f92f4f58afa9c4"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-regenerated32-001/scratch/pwscf.save/charge-density.dat",
+      "bytes": 331888,
+      "sha256": "1eb9af07995d970ae1c5ea73ce7a0ac83a54a7987d667509efb9204672289205"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-regenerated32-001/scratch/pwscf.save/charge-density.dat",
+      "bytes": 331888,
+      "sha256": "1eb9af07995d970ae1c5ea73ce7a0ac83a54a7987d667509efb9204672289205"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-regenerated32-001/scratch/pwscf.save/paw.txt",
+      "bytes": 3755,
+      "sha256": "0c7aa84653216c5ecac06f052f9c46c1a6b37a36ade321e3354335afbe2d2706"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-regenerated32-001/scratch/pwscf.save/paw.txt",
+      "bytes": 3755,
+      "sha256": "0c7aa84653216c5ecac06f052f9c46c1a6b37a36ade321e3354335afbe2d2706"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-regenerated32-001/scratch/pwscf.save/Nb.pbe-spn-kjpaw_psl.0.3.0.UPF",
+      "bytes": 2052531,
+      "sha256": "ccf07218ea34daaa63ff57d9f44ca8b4b529728cccbc8f74dd5fc804ac01e48e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-regenerated32-001/scratch/pwscf.save/Nb.pbe-spn-kjpaw_psl.0.3.0.UPF",
+      "bytes": 2052531,
+      "sha256": "ccf07218ea34daaa63ff57d9f44ca8b4b529728cccbc8f74dd5fc804ac01e48e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-regenerated32-001/reference.json",
+      "bytes": 712998,
+      "sha256": "d4205fae604591bcccb6df0e5654787f7fbb7415de7e54b94eb12628d516ea11"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-regenerated32-001/reference.json",
+      "bytes": 712998,
+      "sha256": "d4205fae604591bcccb6df0e5654787f7fbb7415de7e54b94eb12628d516ea11"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-regenerated32-001/a2f-serialize.x",
+      "bytes": 7457344,
+      "sha256": "dd6f16029a59afcc7e6ad2ebdce0c9c2384b82c89bf7781600f3f8fb5a78ae8e"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-a2f-regenerated32-001/native.in",
+      "bytes": 97,
+      "sha256": "605e7108b4811062bda53b608305ad5ba0eb3a3e2765a5ebac2112923962e0b4"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_band_regenerated32_manifest.json",
+      "bytes": 5490,
+      "sha256": "16a97e02cdef7cf45fb814ef31f53e4ad350fda36ca9f205bc9a75d89eafd7ce"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-regenerated32-001/results/bands/receipt.json",
+      "bytes": 674,
+      "sha256": "334b919f146d6923aa4ac1985edce38bd384f0a4a85703b79a91263e7e425ab3"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/stage_band_serialization.py",
+      "bytes": 3583,
+      "sha256": "868479e7d708a23efe20943a945ac921bf16ccd588abf46956f8848396551cbb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/regenerated32_control_plan.json",
+      "bytes": 1718,
+      "sha256": "a55ad8b902fac9a365c6c1a24c38680a0eff1a36602f44393d16ed22b4381eff"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/verify_band_serialization.py",
+      "bytes": 4278,
+      "sha256": "100bf4c02953d6f5e6e97c1d242e0c6999b27f3bfa9452ff2c8daea1971a981b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/macos_native_guard.py",
+      "bytes": 8195,
+      "sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+    }
+  ],
+  "grid": [
+    32,
+    32,
+    32
+  ],
+  "expected_points": 897,
+  "minimum_common_reference_points": 100,
+  "acceptance_max_eigenvalue_difference_ry": 1e-06,
+  "guard_seconds": 120,
+  "source_band_directory": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-regenerated32-001",
+  "source_band_manifest": "/Users/noahs/Developer/sc-dft-exp/research/public_band_regenerated32_manifest.json",
+  "original_band_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-regenerated32-001/pw.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-regenerated32-001/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-band-regenerated32-001",
+    "wall_s": 97.21136887511238,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 97517568,
+    "sampled_peak_group_rss_bytes": 96387072,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 600.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "source_xml_sha256": "bbf1cfe2f80080bd33aa47ea7d60852eaddd00235db506ca29f92f4f58afa9c4",
+  "scope": "Stage owning QE XML-to-a2F serialization after a completed fixed-density run. New serialization action, not a repeat diagonalization or a passing original a2Fsave output protocol.",
+  "source_revision": "d3d2dd2",
+  "launch_normal_seconds": 120,
+  "rss_cap_bytes": 3221225472,
+  "decision": "Automatic32bands97.211sPASS; owning XMLserialization,forecast2s,guard120s. No handedited grid metadata; initial4hnativebudget,oneowner."
+}

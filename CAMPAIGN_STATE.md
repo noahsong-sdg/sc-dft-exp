@@ -1,4 +1,4 @@
-# Current campaign state — 2026-11-27 14:32 UTC
+# Current campaign state — 2026-11-27 14:38 UTC
 
 Read this first; then PROJECT_SPEC.md, the scientific report and the relevant
 prospective manifest. The ledger is chronological history. Recheck processes
@@ -41,12 +41,14 @@ axes are bitwise equal; F4/F2−1≈1.947% at allT. Absolute stencil difference
 D64/D48≈.4979 versus the frozen .5625 prediction (−11.5% discrepancy).
 This is a controlled stencil effect, not a continuum-error estimate.
 
-All prior native owners are terminal. Next root is
-`research/raw/public-band-regenerated32-001`, guard600s after120normal seconds.
-The explicit32extension is tested:134offline testsPASS9.470s, compileall/moment
-replay/diffcheckPASS. Automatic32bands then owning serialization and response
-will execute the registered input-regeneration control. No queued second watcher.
-Historical64protocols pin pre-extension code; retain their original manifests.
+Automatic32bands PASS97.211s/98MB; owning serialization PASS0.803s/85MB.
+All897coordinates/26bands/weights preserved; shared897energies max4.152e-7Ry.
+All prior native owners are terminal. The sole next root is
+`research/raw/public-fourth-regenerated32-001`, responseguard120s after120normal
+seconds. It uses the exact-qualified combined fourth-order probe and frozen
+`regenerated32_analysis.py`.135offline testsPASS9.362s; compileall/momentreplay/
+diffcheckPASS. After strict readback and comparison, close the full requirement
+and public-evidence audit; do not add further variants without a new scientific gate.
 
 ## Remaining completion work
 
