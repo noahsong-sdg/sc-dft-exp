@@ -192,3 +192,8 @@ independentoracle remain incomplete. Poll new owner after launch, not old24002.
 Recovery003 terminalPASS171.351518s, certifiedthrough16400. Old44648/session53486
 terminal. New guardedtotal1367.111297s. Root004 stages16401:24592 from003; next
 single-owner launch must pass quiet120. FullZ/oracle/gap/response still open.
+
+Recovery004 terminalPASS170.075772s, certifiedthrough24592. Old53294/session63452
+terminal. Guardedtotal1537.187069s. Root005 stages24593:32784; unchanged frozen
+context and quiet120/3GiB guard. Independentuniform-gap control is public/tested,
+not nativeNb validation. FullZ/gap/response acceptance still incomplete.

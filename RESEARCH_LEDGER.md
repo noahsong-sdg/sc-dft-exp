@@ -2537,3 +2537,15 @@ and working-tree diffcheckPASS. No separatetypecheck configured. Source comparis
 is a validation control, not a new capability or materialprediction claim.
 Recovery004guard53294/session63452 confirmedlive, now running coldsetup; no new
 native research owner. Acceptedcheckpoint remains16400 until new certificate.
+
+
+### Recovery004 accepted through24592; continuation005 staged
+
+TerminalPASS170.075772s/1629650944B individualpeak (group1631223808B). Native
+rows16401:24592 took120.974319s. Strict context/checkpoint/certificate and all
+declaredinputs, public/consumed manifests,16explicitlinkarchives checkedPASS;
+no historicalcustomobjectpath. AcceptedpartialZ through24592. New guardedtotal
+1537.187069s including failed001. Root005 stages24593:32784 from accepted004,
+8192rows/2400s/3GiB/quiet120. FullZ/oracle/materialresponse remain unqualified.
+155tests/169sourcecompilation/moment gates lastpassed. PublicCI46047155453 on
+7ccd4c9PASS. No new codechange; no owner before publication/launch.
