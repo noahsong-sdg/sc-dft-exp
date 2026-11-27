@@ -1145,3 +1145,31 @@ Controller64977 continues into final024; full-image analysis still pending.
 Rows49153:66867 terminal PASS, wall241.45573329227045s, individualpeak1170735104B, sampledgroup1033453568B. Public/consumed manifest equality and original native certificate/postrun checks PASS. New guarded total9989.347843000982s; historical189.29min separate.
 Complete48 basis native checked; independent full-image and continuity checks remain pending. No further native run authorized by this controller.
 No maintained code/threshold changes. Scientific gap and response acceptance remain incomplete.
+
+
+## Second restart48 basis independently checked; bounded64 admitted
+
+Controller64977 terminal exit0; final024 PASS241.45573329227045s, individual
+peak1170735104B/group1033453568B. Total new guarded9989.347843000982s
+(166.49min); historical189.29min separate. Full certificate and six uncached
+complete sums PASS: maxdifference8.673617379884035e-19, frozenbound
+2.047307803158037e-13; not exhaustive all-column independent recomputation.
+restarted_basis005 independent PASS:48columns, Gram2.842170943040401e-14,
+projection1.509903313490213e-14; all real full-image residuals checked.
+Mode4 lambda1.0018603159017054, residual1.7049743340280324e-7.
+basis_continuity003 PASS: retained Q/AQ bytes exact, overlap
+0.9999999999994617, residual reduction5.483194861578966, same-sign averages;
+admit_next_extension=true. Scientific seed1e-9 still fails170x. No nonlinear
+gap or physical response accepted. Offline analysis time excluded from native
+wall total, not claimed free.
+
+Decision: next16vectors to reach64 in025–028, four contiguous segments,
+600s/3GiB/quiet120 each, one owner. Forecast15–17 native min from latest
+14.73min application, not bound;73.51min remains in4hpilot. Worst-case four
+guard ceilings40min fit that balance. Complete native/independent residual and
+mode checks required before any restart/extra spending;64cap unchanged.
+No cheaper projected-only calculation answers full-image convergence. Transient
+controller uses unchanged stage/guard/certify; stops on any failure, publishes
+each checkpoint, no automaticretry or continuation beyond028.025 staged.
+No maintained code changed;184tests/193compilations/moment lastPASS; diffcheck
+PASS. PublicCI46079644918 oned31f78 PASS. Scientific goal active.
