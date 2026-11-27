@@ -531,3 +531,19 @@ Enrichment007 stages32769:49152 from006, samebatch/physicaloperatorcontext,
 32-roworder/600s/3GiB/quiet120.250–300s estimate notbound.170offline tests/184
 Pythoncompilation/moment gates lastPASS; no codechanged. PublicCI46060779387
 on32ea15bPASS. Full48-basis/gap/response remainincomplete.
+
+
+## Enrichment007 certified through49152; final008 staged
+
+Enrichment007 terminalPASS183.629594s/1009106944B individualpeak.
+Nativebitwise serialization and independentcontext/counts/beta/shape/finite/
+allcolumnpadding checksPASS. Public/consumedmanifest identical; allpostruninputs/
+16linkedarchivesverified; no historicalcustomobjectpath. Guardedtotal4680.890978s.
+Old41312/session78646 terminal; no nativeowner atcertification. Newimages through
+49152 forold32 -> eventual48; no enlargedbasis yet.
+
+Final008 stages49153:66867 from007, samebatch/physicaloperatorcontext,
+32-roworder/600s/3GiB/quiet120.250–300s estimate notbound, finaloracle/Ritzextra.
+Only aftercomplete maynormalize andcheckselecteduncachedsums before48-vector
+Ritzappend.170offline tests/184Pythoncompilation/moment gates lastPASS; no code
+changed. PublicCI46061442403 on361a5c0PASS. Gap/response remainincomplete.
