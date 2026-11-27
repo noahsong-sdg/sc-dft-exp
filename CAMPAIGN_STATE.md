@@ -1095,3 +1095,10 @@ fixture modules do not establish material qualification. Reviewed dependency
 order and unchanged positive-branch/1e-9 seed gates. This small recipe removes
 the build coupling without modifying or duplicating the numerical solver.
 Controller64977 remains active; no additional heavy job launched.
+
+
+## Bounded48-vector controller checkpoint021
+
+Rows1:16384 terminal PASS, wall212.2156986668706s, individualpeak1030258688B, sampledgroup980303872B. Public/consumed manifest equality and original native certificate/postrun checks PASS. New guarded total9317.654697834365s; historical189.29min separate.
+Next022 prospectively staged rows16385:32768,600s/3GiB/quiet120.
+No maintained code/threshold changes. Scientific gap and response acceptance remain incomplete.
