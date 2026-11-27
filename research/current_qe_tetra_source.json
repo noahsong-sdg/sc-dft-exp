@@ -1,0 +1,8 @@
+{
+  "revision": "61569eb480231b649c47f631df9c5c83537df461",
+  "url": "https://github.com/QEF/q-e/blob/61569eb480231b649c47f631df9c5c83537df461/PW/src/tetra.f90",
+  "retrieved_utc": "2026-11-27T13:17:13.155129+00:00",
+  "source_sha256": "f2b5dde5691d510b613b3e3acef8bb837c549f03082ff7249429469d23d17812",
+  "bytes": 50575,
+  "purpose": "Current owning-source comparison for the mesh-lookup optimization; no novelty conclusion from old pinned QE alone."
+}

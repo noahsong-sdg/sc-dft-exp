@@ -1,0 +1,80 @@
+# Indexed equivalent-point lookup: prospective qualification
+
+## Problem and owning path
+
+The public response path is read_file_new -> read_a2fsave -> opt_tetra_init.
+The optimized-tetrahedron initializer generates a uniform mesh, then searches
+all input points and symmetries separately for every mesh point. A second search
+checks that every input point was used. read_a2fsave calls this first on
+irreducible inputs, then again after constructing the entire ordered identity
+mesh. The latter search is quadratic in full point count. In plain terms, it
+repeatedly searches for mesh addresses that are already determined by integer
+coordinates. The parent tree and equations remain unchanged by this experiment.
+
+Whole-run10ms samples: at32cubed,1087/3278main-thread samples are inside
+opt_tetra_init; at48cubed,12074/18842. These approximate sample fractions are not
+exact phase wall times. Sampling overhead was not separately calibrated.
+They support testing mapping work instead of the deferred DOS arithmetic
+candidate, whose32sample fraction was only about9%.
+
+## Exact candidate and domain
+
+mesh_equivalence.f90 scatters each rotated input point onto its nearest uniform
+mesh address, retains the original periodic Euclidean comparison and strict eps
+inequality, and writes only previously unassigned targets. Visiting input indices
+in ascending original order preserves the original first matching input. The
+selected symmetry is not persisted by the original routine. Time reversal,
+magnetic reversal flags, shifts, non-cubic dimensions and stride are explicit.
+A linear seen-array pass preserves reverse-coverage errors and their first
+input index. Missing target errors retain their first target index.
+
+The domain requires finite representable reciprocal coordinates and disjoint
+mesh matching neighbourhoods: eps*max(grid)<0.5. This is the condition allowing
+one candidate address per transformed point. The pinned owning routine itself
+generates the uniform reference coordinates. This candidate does not claim to
+preserve ambiguous-tolerance meshes outside that domain. No silent fallback is
+introduced. The native32/48/64meshes satisfy the domain by a wide margin.
+
+mesh_equivalence_patch.py requires the entire pinned QE tetra.f90 SHA256, then
+replaces only the lookup and reverse-coverage blocks. The rest of tetrahedron
+construction, transforms, Fermi weights and all response expressions remain.
+Generated modified GPL source stays in ignored raw storage. A separately linked
+module shadows the original archive member only in the new probe executable;
+the original source, libraries and modules remain untouched.
+
+This indexed algorithm is preferable here to a physical approximation, a new
+quadrature or broad parallel rewrite: it removes repeated search while retaining
+the discrete mapping. It still needs native exact-output qualification. No
+speedup follows from asymptotic reasoning or synthetic tests alone.
+
+## Current-source check
+
+On2026-11-27, the official QE develop revision
+[61569eb480231b649c47f631df9c5c83537df461](https://github.com/QEF/q-e/blob/61569eb480231b649c47f631df9c5c83537df461/PW/src/tetra.f90)
+has exactly the same50575-byte tetra.f90 SHA256 as the pinned native source:
+f2b5dde5691d510b613b3e3acef8bb837c549f03082ff7249429469d23d17812.
+current_qe_tetra_source.json records acquisition and identity. This verifies the
+specific search is present in current owning source. It establishes neither
+algorithmic novelty nor absence of unpublished/external alternatives. No outreach
+or upstream submission has been sent.
+
+## Acceptance and resource gates
+
+1920compiled cases compare against an independently enumerated brute-force
+search. They cover shifts, periodic boundaries, non-cubic meshes, symmetry/TR,
+magnetic reversal flags, stride, duplicate/unused/missing inputs and tolerance
+edges. Invalid finite-domain, integer-range and ambiguous-tolerance inputs are
+rejected. Pinned-source and stale-parent tests reject before output creation.
+
+A180s/3GiB guarded relink completed2.510227s/108249088B; all parent/link inputs
+unchanged and generated source matches the prospectively recorded hash. See
+public_indexed_mesh_build_result.json. This is reused-library compilation, not a
+cold-start build or numerical qualification.
+
+The32cubed native baseline must reproduce all eight original second-order
+exports bit for bit, plus context, native controls, cache and input hashes,
+before a separate48cubed comparison. Forecast~25s from the observed profile,
+120s guard,120normal-pressure seconds. A48attempt needs its own manifest and
+exact eight-export comparison to the existing second-order48result. Use actual
+accepted-result cost, not a projected search-only speedup. Any mismatch stops
+qualification. Larger-grid scientific controls remain conditional on these gates.

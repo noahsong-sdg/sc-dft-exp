@@ -1,0 +1,31 @@
+{
+  "terminal_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "/Users/noahs/Developer/sc-dft-exp/research/build_indexed_mesh_response.py",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-capacity-build-001/build",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-mesh-build-001/build"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-mesh-build-001",
+    "wall_s": 2.5102274999953806,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 108249088,
+    "sampled_peak_group_rss_bytes": 89276416,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 180.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "executable_sha256": "3e89dcba25002f18fddf86288fe737dc36a405bd2192ad111fe37d37530333e2",
+  "indexed_tetra_sha256": "ecef0e9ed3f0a77da0f867cfe13f863b245d0c16ab535125db76e28c2b0368ef",
+  "all_declared_and_link_inputs_unchanged": true,
+  "numerical_response_qualified": false,
+  "sha256": {
+    "/Users/noahs/Developer/sc-dft-exp/research/public_indexed_mesh_build_manifest.json": "f3c9839c73003bc78298ed9418acf00ad7c2881ba05beb379541a5bdcb421e28",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-mesh-build-001/results/build/receipt.json": "3cb20bfe6a9e809533e143e169e6ac6ff4bf5d2c952918caa66e174b179bde01",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-indexed-mesh-build-001/build/build-result.json": "6f320c036db9d7aa28114109fddb983cb9319396cfe66687d49740b493859281"
+  },
+  "scope": "Only the pinned equivalent-point lookup and coverage searches change. Reused libraries; not cold-start or scientific qualification."
+}

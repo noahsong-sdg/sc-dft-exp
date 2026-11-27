@@ -2,6 +2,41 @@
 
 
 
+## Latest — fourth48 PASS; indexed32 exact-output sole owner95608
+
+Fourth48/session79865 TERMINALPASS227.040529s/446545920B. All strict native,
+cache/component/context/hash checks PASS. Sampling observer66419 terminal0.
+The pre-recorded grid-stencil hypothesis is supported at2/4/8K: fourth-order
+32→48spread0.6767/0.6777/0.6802%, versus second5.5207/5.5218/5.5244%.
+grid_stencil_comparison.json owns all four values and frozen source hashes.
+plot_grid_stencil.py generated standalone PNG/PDF; PNG visually inspected.
+This is reduced observed two-grid sensitivity, not a continuum/physical bound.
+
+Indexed mesh candidate implemented after source trace. mesh_equivalence.f90
+scatters rotated input coordinates onto unique uniform addresses, preserves the
+original periodic-distance comparison and first input index, then linearly checks
+coverage. Exact source patch is SHA-bound.1920compiled cases match independent
+brute force; shifted/noncubic/TR/magnetic/stride/duplicate/missing/tolerance cases
+and invalid-domain checks pass. No other equations or parent artifacts change.
+Official current QE develop61569eb tetra.f90 is byte-identical to the pinned
+file (f2b5dde...); current_qe_tetra_source.json records current source acquisition.
+This is present-code evidence, not novelty/demand proof or upstream outreach.
+
+Indexed build/session73284 TERMINALPASS2.510227s/108249088B, all static/link
+inputs unchanged, candidate source hash exactly matches prospectively declared
+SHA. public_indexed_mesh_build_result.json owns this build-only checkpoint.
+Indexed32 sole native watcher session95608/PID35499, root
+raw/public-indexed-response32-001,120s/3GiB/normal120 gate. Prospective
+public_indexed_response32_manifest.json requires all8exports bitwise equal to
+public_capacity_response_result.json, plus native controls/cache/context/input
+checks. Poll same owner. Do not edit pinned helper/patch/builder while active.
+After PASS, register separate48exact-output protocol; no larger grid yet.
+Rank38 reduced008 still staged; no other native watcher or profile observer.
+
+Final123testsPASS10.142s, maintained compileall/diffcheckPASS. Scientific result
+and candidate code await publication; last public3331ccf, f579698 CI46004860628
+PASS. Physical accuracy, accepted stationary gap, conditioning and final audit open.
+
 ## Latest — fourth32 PASS; fourth48 sole owner79865
 
 Fourth32/session91639 TERMINALPASS39.619239s/197935104B (sampled run).
