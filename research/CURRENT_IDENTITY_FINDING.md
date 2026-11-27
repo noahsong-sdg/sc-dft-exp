@@ -36,6 +36,9 @@ not merely evidence of finite-sampling sensitivity.
 
 Eight unit tests across this and response extraction currently check analytic
 identities and archive conversions. No upstream Fortran patch is adopted yet.
+An initial 1e-9 equality check also exposed cancellation in the quotient form
+near saturation (7.6e-9 difference); regular-branch identity tests now use a
+well-conditioned grid. Stable evaluation near saturation needs separate tests.
 Need independently map the paper's current equation to these factors, compile
 a minimal Fortran reproduction, and determine the observable effect on fixed
 saved states. The identity discrepancy does not quantify changes to total
