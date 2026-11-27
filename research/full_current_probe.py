@@ -59,6 +59,10 @@ def expected(case):
         gap = 0.
     elif case == 4:
         x,d,gap,beta,weight = 1.,2.,2.,100.,.25
+    return direct_current(x,d,gap,beta,weight)
+
+
+def direct_current(x,d,gap,beta,weight):
     e = math.hypot(x,gap)
     def factors(energy):
         plus = math.tanh(.5*beta*(energy+d))
@@ -85,11 +89,11 @@ def correction(routine):
     return before + marker + normal
 
 
-def compile_run(routine):
+def compile_run(routine, stub=STUB):
     with tempfile.TemporaryDirectory(prefix="sctk-full-current-") as folder:
         root = pathlib.Path(folder)
         source = root / "probe.f90"
-        source.write_text(STUB + "\n" + routine)
+        source.write_text(stub + "\n" + routine)
         subprocess.run(["gfortran","-O0","-std=f2008","-fcheck=all",
                         str(source),"-o",str(root/"probe")],cwd=root,check=True,
                        capture_output=True,text=True)
