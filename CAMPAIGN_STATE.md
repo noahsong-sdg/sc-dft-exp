@@ -257,3 +257,16 @@ and qualification remain pending. Fullbasis/gap/physicalresponse not achieved.
 Final gate:159offline testsPASS14.528s;172maintained Python sources compilePASS;
 moment_refinement replay and diffcheckPASS. Nativecheckpoint fixture compiled
 with gfortran -O2 -fcheck=all. No separate repository typecheck is configured.
+
+
+## Actual-input linear-image restart qualification staged
+
+portable-basis-split-001 uses certifiedfreshtrial payload, freshgeometry and
+accepted8.05K Z. Compare uninterrupted32-row tiles1:64 against1:32 plus
+persisted/reloaded33:64, resettingKel/phonon/slab caches. All16 unnormalized
+imagecolumns mustmatchbitwise; exactcheckpointreadbackrequired. No fullbasis,
+Ritz or gap is claimed.420s/3GiB/quiet120, sameunchangedguard; estimatebelow420s
+basedon53s partialqualification, notbound. No owner before publication/launch.
+160offline testsPASS11.348s;174maintainedPython sourcescompilePASS; momentreplay
+anddiffcheckPASS. Source-only actualnativecompile/runtime pending. Previous
+milestoneCI46052498552 onde051f8PASS. Guardedtotal2511.319366s unchanged.
