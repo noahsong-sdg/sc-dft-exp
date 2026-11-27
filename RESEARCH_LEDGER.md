@@ -2399,3 +2399,8 @@ single-owner availability. Prospective oracle forecast420s/3GiB/quiet120.
 and diffcheckPASS. No separate typecheck configured. Tests ran concurrently with
 production001 cold initialization; its timing is not an isolated performance
 comparison. Production guardPID97361/session99981 confirmedlive; no restart.
+
+Oracle import staging note: staged whitespace check flagged the original trailing
+spaces on comment line69 in byte-preserved native_oracle_z.f90. Kept to preserve
+source provenance; no clean staged-whitespace claim for this import. The earlier
+working-tree diff check did not include untracked imports.
