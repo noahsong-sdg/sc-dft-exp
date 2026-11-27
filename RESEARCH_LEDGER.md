@@ -2586,3 +2586,22 @@ no historicalcustomobjectpath. AcceptedpartialZ through49168. New guardedtotal
 8192rows/2400s/3GiB/quiet120. FullZ/oracle/gap/response remain incomplete.
 155tests/169sourcecompilation/moment gates lastpassed; publicCI46048884197 on
 e36204bPASS. No newcodechange. No nativeowner before publication/launch.
+
+
+### Recovery008 accepted through57360; final9507-row segment staged
+
+TerminalPASS169.960300s/1613299712B individualpeak (group1613955072B). Native
+rows49169:57360 took121.251931s. Strict context/checkpoint/certificate and all
+declaredinputs, public/consumed manifests,16explicitlinkarchives checkedPASS;
+no historicalcustomobjectpath. AcceptedpartialZ through57360. Guardedtotal
+2209.537462s including failed001. Root009 stages57361:66867 from accepted008.
+
+Scheduling decision: combine final9507rows rather than8192+1315. Recent8192row
+segments take164.7–172.5s including~47–51ssetup. Row-scaled finalforecast~190s,
+register190–250s including setup/readback as estimate, not bound. This modest
+increase stays far below the630s interruptedsegment exposure and avoids another
+coldsetup/quietgate. Existing33434row admission maximum and all source/context/
+numerical invariants unchanged;2400s/3GiB/quiet120guard remains. Full-Z schema
+only after66867 complete; independentuncachedsample qualification stillrequired.
+155tests/169sourcecompilation/moment gates lastpassed; CI46049568984 on41b1ad8
+PASS. No codechange or owner before prospective publication/launch.
