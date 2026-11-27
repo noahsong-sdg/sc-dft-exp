@@ -6,8 +6,8 @@ from pathlib import Path
 from cell_moment_cache import read_pair
 from constant_moment_components import analyze as components
 from fetch_public_response_inputs import digest
-from macos_native_guard import verify_manifest
 from moment_analysis import analyze as native_controls
+from public_band_pilot_analysis import verify_postrun_inputs
 
 
 def verify(directory, manifest_path, guard_seconds=240):
@@ -18,7 +18,7 @@ def verify(directory, manifest_path, guard_seconds=240):
         raise ValueError('Changed declared refined-response protocol')
     if json.loads((root/'run-manifest.json').read_text())!=manifest:
         raise ValueError('Public and consumed manifests differ')
-    verify_manifest(root,manifest['command'])
+    verify_postrun_inputs(manifest,root)
     receipt_path=root/'results/response/receipt.json'
     receipt=json.loads(receipt_path.read_text())
     if (receipt.get('status')!='PASS' or receipt.get('error') is not None

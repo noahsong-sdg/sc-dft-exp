@@ -3,12 +3,24 @@ from pathlib import Path
 import tempfile
 import unittest
 from unittest.mock import patch
+import subprocess
+import sys
 
 from fetch_public_response_inputs import digest
 from verify_refined_response import verify
 
 
 class RefinedResponseReadbackTest(unittest.TestCase):
+    def test_readback_does_not_import_native_macos_runtime(self):
+        script="""import ctypes
+def forbidden(*args,**kwargs):
+    raise AssertionError('Readback must not load a platform runtime')
+ctypes.CDLL=forbidden
+import verify_refined_response
+"""
+        subprocess.run([sys.executable,'-c',script],cwd=Path(__file__).parent,
+                       check=True,capture_output=True)
+
     def test_changed_consumed_data_and_wrong_grid_do_not_qualify(self):
         with tempfile.TemporaryDirectory() as folder:
             root=Path(folder).resolve();data=root/'bands';data.write_text('original')
@@ -24,7 +36,7 @@ class RefinedResponseReadbackTest(unittest.TestCase):
                     'verify_refined_response.read_pair',return_value=([100,6,7,512,2],physical,{},{})), patch(
                     'verify_refined_response.components',return_value={}), patch(
                     'verify_refined_response.digest',return_value='hash'):
-                # Keep actual input hashing active inside the guard verifier.
+                # Keep actual input hashing active inside the portable verifier.
                 (root/'velocity-moments.txt').touch()
                 self.assertTrue(verify(root,path)['diagnostic_readback_pass'])
                 manifest['guard_seconds']=900;path.write_text(json.dumps(manifest))
@@ -41,7 +53,7 @@ class RefinedResponseReadbackTest(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError,'native response grid'):
                     verify(root,path)
                 data.write_text('changed!')
-                with self.assertRaisesRegex(ValueError,'Changed staged input'):
+                with self.assertRaisesRegex(ValueError,'Changed declared'):
                     verify(root,path)
 
 
