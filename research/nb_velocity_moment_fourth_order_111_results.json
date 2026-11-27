@@ -1,0 +1,117 @@
+{
+  "sha256": "2721c45e29b14b65e1d156d20466f2e10c791acb1ff73eeee6446ba304844094",
+  "dimensions": [
+    100,
+    6,
+    7,
+    32768,
+    512
+  ],
+  "qnorm": 0.00014213149536207326,
+  "volume": 122.17535992426924,
+  "native_control_max_absolute_errors": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "negative_fine_weights": 1164403,
+  "negative_fine_weight_absolute_sum": 42.86565944990891,
+  "fine_weight_absolute_sum": 801.6763201504745,
+  "cases": [
+    {
+      "temperature_kelvin": 2,
+      "imposed_gap_mev": 1.5,
+      "mean_squared_active": [
+        0.0034966507136675222,
+        0.003954766745327063
+      ],
+      "second_moment_active": [
+        0.008784480565528248,
+        0.008783818272091027
+      ],
+      "second_moment_all": [
+        0.008783762725173415,
+        0.008783762725173274
+      ],
+      "fine_grid_reference": 0.008783762725173462,
+      "direct_reference_max_absolute_error": 1.8735013540549517e-16
+    },
+    {
+      "temperature_kelvin": 4,
+      "imposed_gap_mev": 1.5,
+      "mean_squared_active": [
+        0.003251003785654997,
+        0.003676938378349354
+      ],
+      "second_moment_active": [
+        0.00816737147937718,
+        0.008166755698987617
+      ],
+      "second_moment_all": [
+        0.008166704055368701,
+        0.008166704055368533
+      ],
+      "fine_grid_reference": 0.008166704055368398,
+      "direct_reference_max_absolute_error": 3.0357660829594124e-16
+    },
+    {
+      "temperature_kelvin": 8,
+      "imposed_gap_mev": 1.5,
+      "mean_squared_active": [
+        0.002030196726114162,
+        0.0022961960106303203
+      ],
+      "second_moment_active": [
+        0.005100475012804777,
+        0.005100090430642033
+      ],
+      "second_moment_all": [
+        0.005100058168810853,
+        0.005100058168810834
+      ],
+      "fine_grid_reference": 0.005100058168810783,
+      "direct_reference_max_absolute_error": 6.938893903907228e-17
+    }
+  ],
+  "scope": "Matched-energy constant-gap closure diagnostic; not a converged material response",
+  "resource_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/nb-moments-velocity4-111-002/velocity-moment-probe.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/nb-moments-velocity4-111-002/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/nb-moments-velocity4-111-002",
+    "wall_s": 75.92675912519917,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 142311424,
+    "sampled_peak_group_rss_bytes": 136757248,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 120,
+    "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+  },
+  "input_sha256": "b6853b85efd11bd7f6b6b112ea7022f8b0aef92758bf4c9d323f3f842ffca1c9",
+  "executable_sha256": "163c1330f23373192effbc931290dcc3c3976daa8281d587eb85f845dc5afc1b",
+  "direction_comparison": {
+    "reference_file": "nb_velocity_moment_fourth_order_011_results.json",
+    "directions": [
+      "011",
+      "111"
+    ],
+    "relative_direct_difference": [
+      -0.010406755937604317,
+      -0.010404601069088915,
+      -0.010401971618605454
+    ]
+  },
+  "derivative_order_comparison": {
+    "reference_file": "nb_velocity_moment_unshifted_111_results.json",
+    "relative_direct_change": [
+      0.08830433917272718,
+      0.0883044681665699,
+      0.08830557883827361
+    ]
+  }
+}

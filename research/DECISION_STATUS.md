@@ -16,8 +16,12 @@ Both [unshifted-band directions](DIRECTION_AND_ZERO_Q_GATE.md) now pass native
 controls and moment conservation, but retain a ~0.906% direction discrepancy.
 Their accepted runtimes are 63.9 and 60.9 s, below 182 MB peak RSS. This excludes
 the tested finite-Q band shift as its main cause; it does not identify the cause.
-Derivative, energy-grid, tensor/gap mapping and physical normalization gates
-remain open. No full current-version SCTK build is implied.
+The paired fourth-order control increases the direct result by about9% and
+does not reduce the direction discrepancy (~1.04% versus~0.91%). Derivative,
+energy-grid, tensor/gap mapping and physical normalization gates remain open.
+A [separate exact-source symmetry regression](SYMMETRY_SCALE_FINDING.md) also
+shows why arbitrarily reducing momentum can change the selected symmetry group;
+its relative-tolerance candidate is not yet a material-qualified production fix. No full current-version SCTK build is implied.
 [Physical interpretation](PHYSICAL_INTERPRETATION_GATE.md) is separately gated:
 numerical improvement cannot alone establish experimental accuracy.
 

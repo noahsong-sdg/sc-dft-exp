@@ -1,0 +1,105 @@
+{
+  "sha256": "08446fe638bd45f21fbe35c0104469e9c68fd86504c6a1f7eda749a4c66034a4",
+  "dimensions": [
+    200,
+    6,
+    7,
+    32768,
+    512
+  ],
+  "qnorm": 0.00014213149536207326,
+  "volume": 122.17535992426924,
+  "native_control_max_absolute_errors": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "negative_fine_weights": 2272748,
+  "negative_fine_weight_absolute_sum": 83.86931146834243,
+  "fine_weight_absolute_sum": 1572.215617564022,
+  "cases": [
+    {
+      "temperature_kelvin": 2,
+      "imposed_gap_mev": 1.5,
+      "mean_squared_active": [
+        0.0032756443298542124,
+        0.0037025841459333076
+      ],
+      "second_moment_active": [
+        0.008146159337724255,
+        0.008146073902566551
+      ],
+      "second_moment_all": [
+        0.008145991052855578,
+        0.008145991052855421
+      ],
+      "fine_grid_reference": 0.00814599105285472,
+      "direct_reference_max_absolute_error": 8.569533971325427e-16
+    },
+    {
+      "temperature_kelvin": 4,
+      "imposed_gap_mev": 1.5,
+      "mean_squared_active": [
+        0.0030453125395447336,
+        0.003442237182268521
+      ],
+      "second_moment_active": [
+        0.007573372671210806,
+        0.007573293237477822
+      ],
+      "second_moment_all": [
+        0.007573216213530175,
+        0.007573216213529911
+      ],
+      "fine_grid_reference": 0.007573216213530134,
+      "direct_reference_max_absolute_error": 2.237793284010081e-16
+    },
+    {
+      "temperature_kelvin": 8,
+      "imposed_gap_mev": 1.5,
+      "mean_squared_active": [
+        0.0019016777116411226,
+        0.0021495565993740035
+      ],
+      "second_moment_active": [
+        0.00472935818579913,
+        0.004729308558487586
+      ],
+      "second_moment_all": [
+        0.004729260460772225,
+        0.004729260460772268
+      ],
+      "fine_grid_reference": 0.0047292604607723785,
+      "direct_reference_max_absolute_error": 1.5352302762394743e-16
+    }
+  ],
+  "scope": "Matched-energy constant-gap closure diagnostic; not a converged material response",
+  "resource_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/nb-moments-energy200-001/velocity-moment-probe.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/nb-moments-energy200-001/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/nb-moments-energy200-001",
+    "wall_s": 77.0204670834355,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 274808832,
+    "sampled_peak_group_rss_bytes": 274808832,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 120,
+    "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+  },
+  "input_sha256": "3a0264cf679532355d9199c3dc75aa4741348bfe986419e67a3f0d9b4f000c1a",
+  "executable_sha256": "92c2a1d807215d7575761d03520e97cdffc90c77bb614e03db3eafdb92a42c0a",
+  "energy_comparison": {
+    "reference_file": "nb_velocity_moment_unshifted_results.json",
+    "relative_direct_change": [
+      0.0001359492758417069,
+      6.94515539383378e-05,
+      3.7055319282774946e-05
+    ]
+  }
+}

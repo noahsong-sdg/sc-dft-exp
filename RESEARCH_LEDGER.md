@@ -1,5 +1,52 @@
 # Research restart ledger
 
+## Latest priority — native accuracy controls complete; nonlinear reuse audit
+
+Previous goal turn made progress: symmetry findingcfdd7e4 public and CI45963179303
+SUCCESS. Fourth-order111(51097) and energy200(46661) are TERMINAL SUCCESS; no
+live campaign native owner remains. Fourth-order pair does not reduce direction
+discrepancy(~1.04% vs0.91%); response changes~9% bystencil. Energy100->200 changes
+direct only0.0136/0.00695/0.00371% at2/4/8K. Native control/conservation gatespass.
+See research/DIRECTION_AND_ZERO_Q_GATE.md and both new resultJSONs. Energy200
+77.020s/274808832bytes. These imposed-gap sensitivities are not an error budget
+for archived real finite-Q state and are not experimental validation.
+
+Next promising audit: retained tiled_operator already implements nonlinear
+gapeq_rhs_tiled, not just linear Tc. Hash/check source and build an isolated
+Q0 finite-T map pilot before concluding dense allocation prevents new gaps.
+Compatible nx100/nmf10 Q0 preparation/fullZ at8.05K exists under historical
+benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/
+nx100-mf10-T8p05-b16-s29/prepare. Preserve all historical data. Its source input
+uses temp0 initialization then actualbeta for8.05, as existing driver does; do
+not treat this as a solved gap. native_state_io verifies geometry and beta, but
+Z metadata omitsnmf; bind reuse to checked source input/source hashes explicitly.
+Historical full actions~500–765s at<1GiB, not120s. A selected-tile/uncached-oracle
+pilot can qualify map within current120s guard; do not casually relax limits or
+launch an uncalibrated nonlinear iteration loop. Public goal remains incomplete.
+Latest checks:51 offline unittests PASS(3.102s), compileall PASS, committed
+moment refinement replay PASS, diff check PASS. No separate typecheck configured.
+Ceiling2026-11-27T17:41Z unchanged.
+
+
+## Latest priority — energy-grid pilot after completed fourth-order pair
+
+Previous goal turn made progress: symmetry invariant publishedcfdd7e4, public
+CI45963179303 verified SUCCESS. Native fourth111 owner51097 TERMINAL SUCCESS:
+75.927s/142311424-byte peak. All native controls pass; direct changes+8.8304%
+versussecondorder111. Direction discrepancy instead grows to~1.0407% versus
+fourth011. Neither stencil converged; see updated direction gate/resultsJSON.
+
+Verified LIVE owner46661, PID40057, raw/run-energy200-001.py: fresh nx200
+[011] unshifted second-order pilot. Same executable/input except nx100->200;
+response8cube, fine32cube. Forecast may fit120s but uncertain; unchanged120s/
+3GiB guard, no automatic relaxation/retry. Wait60s normalpressure, bounded20min
+launch watch. Latest normalpressure firstobservation; no nativechild yet. Poll
+samehandle before any new native launch. Pilot planraw/energy200-pilot-plan.json.
+Campaign guardednativewall~924s including failed attempts before this pilot,
+wellbelow initial4h ceiling. Next on success analyze and compare energy sensitivity.
+Goal incomplete; ceiling2026-11-27T17:41Z unchanged.
+
+
 ## Latest priority — small-Q symmetry control, native derivative owner waiting
 
 Previous goal turn made progress: converged archived Nb replay published58bdb43;

@@ -84,3 +84,30 @@ scale-invariance control below its fixed absolute tolerance. A relative-residual
 candidate passes both grid shifts and preserves the distinct exactly-zero
 subgroup. This does not explain the direction discrepancy at the tested larger Q,
 but forbids treating arbitrary momentum reduction as a safe convergence strategy.
+
+## Paired fourth-order control completed
+
+Fresh [111] attempt002 passed in75.927s, peak142311424 bytes, with unchanged
+120s/3GiB guard. All original-path reconstruction errors are exactlyzero; signed
+second moments preserve direct quadrature. See
+nb_velocity_moment_fourth_order_111_results.json. Relative to the second-order
+[111] result, direct response rises8.8304–8.8306%. Relative to fourth-order[011],
+[111] is1.0407/1.0405/1.0402% lower at2/4/8K. Thus the direction discrepancy
+does not improve with this stencil change, despite the independent smooth-band
+control's improvement. Neither derivative order is qualified as a converged
+material response; fine-grid, band-crossing and quadrature effects remain open.
+
+A bounded nx100-to200 pilot now isolates energy discretization while retaining
+the unshifted second-order executable and response8cube/fine32cube grids. Its
+live owner and stop conditions are in the latest restart ledger.
+
+## Energy-grid doubling completed
+
+The nx200 unshifted second-order [011] pilot passed in77.020s at274808832-byte
+peak RSS. All native reconstruction errors arezero and all-support second
+moments conserve direct quadrature. See nb_velocity_moment_energy200_results.json.
+Relative direct changes fromnx100 are+0.013595%,+0.006945%,+0.003706% at2/4/8K.
+Energy discretization has a much smaller observed sensitivity than derivative
+order in these specific fixed-band, imposed-gap controls. Two resolutions do
+not certify convergence, and these are not an error budget for the different
+archived finite-Q real-gap state. The native owner46661 is terminal SUCCESS.
