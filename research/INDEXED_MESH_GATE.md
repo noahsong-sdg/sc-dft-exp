@@ -89,3 +89,19 @@ single unprofiled runs with the same mathematical output, not a repeated timing
 study or end-to-end speedup. Native link cost is separate. See
 public_indexed_response32_result.json. A prospective48held-out protocol is now
 running; qualification does not yet extend to that grid or any physical response.
+
+
+## Held-out48cubed exact-output result
+
+The separate48run completed85.448508s/444203008B. Every one of the eight
+prospectively captured original48exports matches bit for bit; native conservation,
+cache/component/context checks and all declared inputs pass. The observed native
+wall ratio233.587811/85.448508 is2.734x. These are single unprofiled executions,
+not a repeated timing study. See public_indexed_response48_result.json and its
+prospective manifest. Only lookup/reverse coverage changes; no physical accuracy
+improvement is attributed to that exact acceleration.
+
+This qualifies the tested32/48path. A64mesh could deepen the scientific
+convergence test because0.68% two-grid spread is not a continuum error bound,
+but needs a separate cost decision, generated bands/serialization qualification,
+explicit grid handling and a fourth-order composition control. No64run is queued.

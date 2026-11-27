@@ -54,7 +54,11 @@ retained run bit for bit and the31source inputs remain unchanged. This proves
 diagnostic reproducibility; it is not a full SCDFT cold start or physical response prediction.
 The complete original32cubed dense-band input also reproduces from saved charge
 in98.95s/96MB: all23322eigenvalues agree within4.152e-7Ry, without a fitted offset.
-A consistent larger-capacity build preserves all8response exports bit for bit;
+A consistent larger-capacity build preserves all8response exports bit for bit.
+An [indexed mesh lookup](research/INDEXED_MESH_GATE.md) also preserves all8exports
+bit for bit at32and48, with observed native time ratios1.31x/2.73x in single pairs;
+these exclude setup and do not establish a full-workflow speedup.
+For numerical accuracy,
 the [48cubed band-grid study](research/BAND_DERIVATIVE_REFINEMENT_GATE.md) now
 produces verified derived band data and a response diagnostic. Its roughly5.52%
 change from32cubed shows why conservation alone is insufficient for accuracy.

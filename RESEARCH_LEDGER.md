@@ -2,6 +2,33 @@
 
 
 
+## Latest — held-out indexed48 all8PASS; rank38 reduced sole owner5479
+
+Indexed48/session37623 TERMINALPASS85.448508s/444203008B. All8prospective
+original48exports bitwise equal, native/cache/component/context/input checksPASS.
+public_indexed_response48_result.json owns evidence; observed unprofiled wall
+ratio233.587811/85.448508=2.734x, single pair not statistical/full-workflow gain.
+This qualifies only the tested32/48lookup path; no arithmetic approximation.
+Original32qualification remains1.311x and bitwise8exportsPASS.
+
+Rank38reduced008 now sole native watcher session5479, root
+raw/reduced-nonlinear-008,120s/3GiB/normal120 gate. The original prospective
+sixth_occupation_reduced_manifest.json was revalidated unchanged immediately
+before launch. Command reduced-nonlinear-solve.x only. Poll same owner, then
+reduced_nonlinear_analysis.py against the exact prepare directory in its manifest
+and validate terminal/input identities. This is a reduced candidate only; if
+stable, separately stage one full native residual check with unchanged targets.
+No other native watcher or sampling observer. Preserve all parent/historical dirs.
+
+Potential next scientific depth:64cubed fourth-order point to test whether the
+remaining0.68% spread keeps shrinking. Not yet staged or launched. Needs explicit
+64band/XML/serialization/response reader support, fresh band protocol(~850s from
+48), shared reference energy target1e-6Ry unchanged, and composition of indexed
+lookup with the qualified fourth geometry checked against existing48exports.
+Do not relabel two-grid sensitivity as an error estimate. All physical functional,
+normalization/discretization/conditioning and public full-gap gates remain open.
+Final scope recommendation and requirements audit remain incomplete.
+
 ## Latest — indexed32 all8bitwisePASS; held-out48 sole owner37623
 
 Indexed32/session95608 TERMINALPASS27.205847s/198131712B. All8exports bitwise
