@@ -1,0 +1,177 @@
+{
+  "conditions": {
+    "fine_k_grid": [
+      32,
+      32,
+      32
+    ],
+    "energy_bins": 100,
+    "imposed_gap_mev": 1.5,
+    "qnorm": 0.00014213149536207326
+  },
+  "cases": [
+    {
+      "grid": 8,
+      "temperature_kelvin": 2,
+      "mean_squared_ratios": [
+        0.40211734213717115,
+        0.45452836943792285
+      ],
+      "second_active_ratios": [
+        1.0000206584543356,
+        1.0000101709443856
+      ],
+      "second_all_ratios": [
+        1.0000000000000175,
+        0.9999999999999885
+      ],
+      "source": "nb_velocity_moment_results.json",
+      "raw_diagnostic_sha256": "3efb0e5036011c8a1afbdfb405e84ee14c0a0ba05c7f4feef19d57243c94ccaf"
+    },
+    {
+      "grid": 8,
+      "temperature_kelvin": 4,
+      "mean_squared_ratios": [
+        0.40211614308214355,
+        0.454527771778193
+      ],
+      "second_active_ratios": [
+        1.0000206591766914,
+        1.0000101709316962
+      ],
+      "second_all_ratios": [
+        0.9999999999999236,
+        0.9999999999998909
+      ],
+      "source": "nb_velocity_moment_results.json",
+      "raw_diagnostic_sha256": "3efb0e5036011c8a1afbdfb405e84ee14c0a0ba05c7f4feef19d57243c94ccaf"
+    },
+    {
+      "grid": 8,
+      "temperature_kelvin": 8,
+      "mean_squared_ratios": [
+        0.40210891239356517,
+        0.4545227804949544
+      ],
+      "second_active_ratios": [
+        1.0000206636675935,
+        1.0000101708219005
+      ],
+      "second_all_ratios": [
+        0.9999999999999291,
+        0.9999999999999057
+      ],
+      "source": "nb_velocity_moment_results.json",
+      "raw_diagnostic_sha256": "3efb0e5036011c8a1afbdfb405e84ee14c0a0ba05c7f4feef19d57243c94ccaf"
+    },
+    {
+      "grid": 16,
+      "temperature_kelvin": 2,
+      "mean_squared_ratios": [
+        0.8709446103653934,
+        0.871571468701737
+      ],
+      "second_active_ratios": [
+        1.0019545731323551,
+        1.0014808243506756
+      ],
+      "second_all_ratios": [
+        1.0000000000000226,
+        1.000000000000018
+      ],
+      "source": "nb_velocity_moment_grid16_results.json",
+      "raw_diagnostic_sha256": "1b674c43d133938b3502bfab2c2c29d290286b536ca104d160a5272e0b11e853"
+    },
+    {
+      "grid": 16,
+      "temperature_kelvin": 4,
+      "mean_squared_ratios": [
+        0.8709467714962988,
+        0.8715715901191605
+      ],
+      "second_active_ratios": [
+        1.0019564484257955,
+        1.001480798900136
+      ],
+      "second_all_ratios": [
+        0.9999999999999317,
+        0.9999999999999084
+      ],
+      "source": "nb_velocity_moment_grid16_results.json",
+      "raw_diagnostic_sha256": "1b674c43d133938b3502bfab2c2c29d290286b536ca104d160a5272e0b11e853"
+    },
+    {
+      "grid": 16,
+      "temperature_kelvin": 8,
+      "mean_squared_ratios": [
+        0.8709681374129207,
+        0.8716304132715599
+      ],
+      "second_active_ratios": [
+        1.0019580035324274,
+        1.0014821047741258
+      ],
+      "second_all_ratios": [
+        0.9999999999999254,
+        0.9999999999999114
+      ],
+      "source": "nb_velocity_moment_grid16_results.json",
+      "raw_diagnostic_sha256": "1b674c43d133938b3502bfab2c2c29d290286b536ca104d160a5272e0b11e853"
+    },
+    {
+      "grid": 32,
+      "temperature_kelvin": 2,
+      "mean_squared_ratios": [
+        1.044266064594902,
+        0.9613283567652128
+      ],
+      "second_active_ratios": [
+        1.0442660645949018,
+        1.0080598947412682
+      ],
+      "second_all_ratios": [
+        0.9999999999999778,
+        1.000000000000041
+      ],
+      "source": "nb_velocity_moment_grid32_results.json",
+      "raw_diagnostic_sha256": "52cb2f17c40b6b9f4eebae975179a81eac50539161301a1886d1deca645e6f9f"
+    },
+    {
+      "grid": 32,
+      "temperature_kelvin": 4,
+      "mean_squared_ratios": [
+        1.0442663031048653,
+        0.9601231929881014
+      ],
+      "second_active_ratios": [
+        1.0442663031048653,
+        1.008062481095557
+      ],
+      "second_all_ratios": [
+        0.9999999999998372,
+        0.9999999999999609
+      ],
+      "source": "nb_velocity_moment_grid32_results.json",
+      "raw_diagnostic_sha256": "52cb2f17c40b6b9f4eebae975179a81eac50539161301a1886d1deca645e6f9f"
+    },
+    {
+      "grid": 32,
+      "temperature_kelvin": 8,
+      "mean_squared_ratios": [
+        1.0442673416904278,
+        0.9595122589590674
+      ],
+      "second_active_ratios": [
+        1.0442673416904278,
+        1.0080613910878005
+      ],
+      "second_all_ratios": [
+        0.9999999999998826,
+        1.00000000000003
+      ],
+      "source": "nb_velocity_moment_grid32_results.json",
+      "raw_diagnostic_sha256": "52cb2f17c40b6b9f4eebae975179a81eac50539161301a1886d1deca645e6f9f"
+    }
+  ],
+  "scope": "Response-cell refinement only; same band/energy approximation and imposed gap"
+}

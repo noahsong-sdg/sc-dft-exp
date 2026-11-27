@@ -1,5 +1,10 @@
 # Matched-quadrature velocity-moment experiment
 
+Completed follow-up: MOMENT_REFINEMENT_RESULT.md reports 8³/16³/32³ controls
+and a successful current-geometry compatibility run. Older staging statements
+below are preserved as chronology; use that result and the latest ledger for
+current runtime state.
+
 Physical interpretation is separately gated in PHYSICAL_INTERPRETATION_GATE.md.
 The newer source audit, moment_source_audit.json, finds the same first-moment
 closure in current upstream, but changed shifted-grid handling. All completed

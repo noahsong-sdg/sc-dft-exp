@@ -1,0 +1,77 @@
+{
+  "sha256": "1b674c43d133938b3502bfab2c2c29d290286b536ca104d160a5272e0b11e853",
+  "dimensions": [
+    100,
+    6,
+    7,
+    32768,
+    4096
+  ],
+  "qnorm": 0.00014213149536207326,
+  "volume": 122.17535992426924,
+  "native_control_max_absolute_errors": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "negative_fine_weights": 1164403,
+  "negative_fine_weight_absolute_sum": 42.86566589527172,
+  "fine_weight_absolute_sum": 801.6764085868048,
+  "cases": [
+    {
+      "temperature_kelvin": 2,
+      "imposed_gap_mev": 1.5,
+      "mean_squared_active": [
+        0.007093743837286283,
+        0.00709884952645109
+      ],
+      "second_moment_active": [
+        0.008160804939612118,
+        0.008156946310187853
+      ],
+      "second_moment_all": [
+        0.008144885165900914,
+        0.008144885165900876
+      ],
+      "fine_grid_reference": 0.00814488516590073,
+      "direct_reference_max_absolute_error": 1.8388068845354155e-16
+    },
+    {
+      "temperature_kelvin": 4,
+      "imposed_gap_mev": 1.5,
+      "mean_squared_active": [
+        0.006595411283781497,
+        0.006600142842506331
+      ],
+      "second_moment_active": [
+        0.007587507161260782,
+        0.007583905214102437
+      ],
+      "second_moment_all": [
+        0.007572691580738094,
+        0.007572691580737917
+      ],
+      "fine_grid_reference": 0.007572691580738611,
+      "direct_reference_max_absolute_error": 6.938893903907228e-16
+    },
+    {
+      "temperature_kelvin": 8,
+      "imposed_gap_mev": 1.5,
+      "mean_squared_active": [
+        0.004118883253964658,
+        0.004122015213477846
+      ],
+      "second_moment_active": [
+        0.0047383456003155895,
+        0.0047360950341445085
+      ],
+      "second_moment_all": [
+        0.0047290860331571614,
+        0.0047290860331570955
+      ],
+      "fine_grid_reference": 0.0047290860331575145,
+      "direct_reference_max_absolute_error": 4.189357194483989e-16
+    }
+  ],
+  "scope": "Matched-energy constant-gap closure diagnostic; not a converged material response"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "attempt": "nb-moments-002",
+    "receipt_sha256": "3a722becad1040eab1c5e9817c26d1012596681e2d70708d567d4eceb20f0904",
+    "status": "PASS",
+    "wall_s": 52.57537258276716,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 178372608,
+    "sampled_peak_group_rss_bytes": 171458560,
+    "continuous_deadline_s": 120,
+    "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6",
+    "executable_sha256": "bc6e45fd6cd9ef22a72ef04d7d7a57a518d25d39c3dabf51edde1ce03d0e7738"
+  },
+  {
+    "attempt": "nb-moments-grid16-002",
+    "receipt_sha256": "7a77ac072c10b1793a8af7d6b837a856624ef22ff957401d5daf1c2e5f93114e",
+    "status": "PASS",
+    "wall_s": 50.83500908315182,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 286277632,
+    "sampled_peak_group_rss_bytes": 246956032,
+    "continuous_deadline_s": 120,
+    "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6",
+    "executable_sha256": "b662ba39b00ee1deb587e131509a60422d26d9a0501b7751c56aebff13d9b234"
+  },
+  {
+    "attempt": "nb-moments-grid32-001",
+    "receipt_sha256": "9c803285fa527d65db41db56a1539848d678587535973a58248fab42ff8ccd56",
+    "status": "PASS",
+    "wall_s": 52.832512291613966,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 1265909760,
+    "sampled_peak_group_rss_bytes": 924975104,
+    "continuous_deadline_s": 120,
+    "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6",
+    "executable_sha256": "b662ba39b00ee1deb587e131509a60422d26d9a0501b7751c56aebff13d9b234"
+  },
+  {
+    "attempt": "nb-moments-current-001",
+    "receipt_sha256": "150e86d858e63f35aaaa4d1dff2b391e4a733fe161797699c1cefd907f88bae5",
+    "status": "PASS",
+    "wall_s": 49.53679470857605,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 206405632,
+    "sampled_peak_group_rss_bytes": 206405632,
+    "continuous_deadline_s": 120,
+    "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6",
+    "executable_sha256": "ef2ecf4af935d093fe6c2eb07c1dd2f2fcdabba3051b197c74b6aab050c52c74"
+  }
+]

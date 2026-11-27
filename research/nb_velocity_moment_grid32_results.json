@@ -1,0 +1,77 @@
+{
+  "sha256": "52cb2f17c40b6b9f4eebae975179a81eac50539161301a1886d1deca645e6f9f",
+  "dimensions": [
+    100,
+    6,
+    7,
+    32768,
+    32768
+  ],
+  "qnorm": 0.00014213149536207326,
+  "volume": 122.17535992426924,
+  "native_control_max_absolute_errors": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "negative_fine_weights": 1164403,
+  "negative_fine_weight_absolute_sum": 42.86566589527172,
+  "fine_weight_absolute_sum": 801.6764085868048,
+  "cases": [
+    {
+      "temperature_kelvin": 2,
+      "imposed_gap_mev": 1.5,
+      "mean_squared_active": [
+        0.00850542717877255,
+        0.007829909072576706
+      ],
+      "second_moment_active": [
+        0.008505427178772548,
+        0.008210532083017606
+      ],
+      "second_moment_all": [
+        0.00814488516590055,
+        0.008144885165901065
+      ],
+      "fine_grid_reference": 0.00814488516590073,
+      "direct_reference_max_absolute_error": 3.3480163086352377e-16
+    },
+    {
+      "temperature_kelvin": 4,
+      "imposed_gap_mev": 1.5,
+      "mean_squared_active": [
+        0.007907906641571249,
+        0.007270716820012868
+      ],
+      "second_moment_active": [
+        0.007907906641571249,
+        0.007633746263450799
+      ],
+      "second_moment_all": [
+        0.007572691580737379,
+        0.007572691580738315
+      ],
+      "fine_grid_reference": 0.007572691580738611,
+      "direct_reference_max_absolute_error": 1.2325210296815214e-15
+    },
+    {
+      "temperature_kelvin": 8,
+      "imposed_gap_mev": 1.5,
+      "mean_squared_active": [
+        0.004938430100470728,
+        0.004537616022486742
+      ],
+      "second_moment_active": [
+        0.004938430100470728,
+        0.004767209045158652
+      ],
+      "second_moment_all": [
+        0.004729086033156959,
+        0.004729086033157656
+      ],
+      "fine_grid_reference": 0.0047290860331575145,
+      "direct_reference_max_absolute_error": 5.551115123125783e-16
+    }
+  ],
+  "scope": "Matched-energy constant-gap closure diagnostic; not a converged material response"
+}

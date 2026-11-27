@@ -1,5 +1,23 @@
 # Research restart ledger
 
+## Latest completed method gate — refinement and current-source agreement
+
+Runner 3520 TERMINAL SUCCESS: grid16 50.835 s / 286277632-byte peak; grid32
+52.833 s / 1265909760-byte peak. Current-geometry session 68475 also TERMINAL
+SUCCESS: 49.537 s / 206405632-byte peak; output byte-identical to historical
+grid8 case. No process remains from those handles. Signed second moment matches
+direct same-quadrature fine reference across all grids/temperatures within
+1.24e-15 absolute. Native reconstruction controls all zero. Mean-squared ratios
+at 2 K evolve .402/.455 -> .871/.872 -> 1.044/.961. At grid32, positive-support
+selection itself biases unshifted result ~4.4%. See MOMENT_REFINEMENT_RESULT.md.
+PNG/PDF generated and PNG visually inspected; no clipping observed.
+
+Current LIVE native owner: tool session **56782**, held-out cubic [111] direction,
+fresh raw/nb-moments-current-111-001. Same current compatibility executable,
+8³ response grid and physical momentum norm as original [011] direction.
+Poll before further native work. Next compare signed direct references and
+control errors; do not assume band finite-difference isotropy without evidence.
+
 ## New input qualification evidence — archived gap scalar mismatch
 
 Legacy gap Fermi-surface mean from native compute_dabs convention is 2.20338875
