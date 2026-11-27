@@ -4,6 +4,9 @@
 ! Distributed under the GNU General Public License; see licenses/GPL-2.0.txt.
 ! Diagnostic extensions Copyright (C) 2026 Noah Song, under the same license.
 program velocity_moment_probe
+#ifdef ASSIGNMENT_DUMP
+  use response_assignment_dump, only: dump_assignment
+#endif
   use kinds, only: dp
   use environment, only: environment_start, environment_end
   use mp_world, only: nproc
@@ -129,6 +132,9 @@ program velocity_moment_probe
     end do
   end do
   write(u,*) errors
+#ifdef ASSIGNMENT_DUMP
+  call dump_assignment(dos,check_v,check_h,q,omega)
+#endif
   do t=1,3
     beta=157887.51240203338_dp/real(2**t,dp)
     first_s=0;second_s=0;all_s=0

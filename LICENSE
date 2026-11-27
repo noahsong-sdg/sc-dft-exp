@@ -36,3 +36,7 @@ licenses/GPL-2.0.txt.
 
 Exception: research/gap_seed_io.f90 is distributed under GNU GPL version2 or
 later; see its header and licenses/GPL-2.0.txt.
+
+Exception: research/response_assignment_dump.f90 is distributed under GNU GPL
+version 2 or later; it follows SCTK's native assignment path. See its header
+and licenses/GPL-2.0.txt.

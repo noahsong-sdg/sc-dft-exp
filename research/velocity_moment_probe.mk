@@ -7,8 +7,15 @@ current_geometry.o: $(GEOMETRY_SOURCE)
 	$(MPIF90) $(FF) -fcheck=all -c $< -o $@
 endif
 
-velocity-moment-probe.x: velocity_moment_probe.o $(GEOMETRY_OBJECT)
+ifdef ASSIGNMENT_DUMP_SOURCE
+ASSIGNMENT_OBJECT = response_assignment_dump.o
+ASSIGNMENT_FLAG = -DASSIGNMENT_DUMP
+response_assignment_dump.o: $(ASSIGNMENT_DUMP_SOURCE)
+	$(MPIF90) $(FF) -fcheck=all -c $< -o $@
+endif
+
+velocity-moment-probe.x: velocity_moment_probe.o $(GEOMETRY_OBJECT) $(ASSIGNMENT_OBJECT)
 	$(LD) $(LDFLAGS) -o $@ $^ $(CORELIBS)
 
-velocity_moment_probe.o: $(MOMENT_SOURCE) $(GEOMETRY_OBJECT)
-	$(MPIF90) $(FF) $(GEOMETRY_FLAG) -fcheck=all -c $< -o $@
+velocity_moment_probe.o: $(MOMENT_SOURCE) $(GEOMETRY_OBJECT) $(ASSIGNMENT_OBJECT)
+	$(MPIF90) $(FF) $(GEOMETRY_FLAG) $(ASSIGNMENT_FLAG) -fcheck=all -c $< -o $@

@@ -1,0 +1,52 @@
+{
+  "status": "Both boundschecked retained-native builds PASS; material assignment export not run",
+  "scope": "Optional diagnostic output only; default compile path preserved; not full current SCTK build or gap transfer",
+  "historical_source_before_optional_extension": "bf3c155",
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/response_assignment_dump.f90",
+      "bytes": 2068,
+      "sha256": "6f1f65c1621155806768006bafab5f852eccac257d3ac5499315fa9832efd3a1"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/response_assignment_analysis.py",
+      "bytes": 3829,
+      "sha256": "3a69eb3b2e956ff57d66bf30c801f6fa2d348c3a1709ca1447effb426958b286"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/velocity_moment_probe.f90",
+      "bytes": 6808,
+      "sha256": "4b5bc258a49902e100b2fb2e006973b49089fbbcfa7019f35d3655bfd8884b41"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/velocity_moment_probe.mk",
+      "bytes": 711,
+      "sha256": "7df9cf760d69930f92a8498a48d841b5fe876a66e7c042debf3e175c968f8ba0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/nb-moments-unshifted-001/current_geometry.f90",
+      "bytes": 11359,
+      "sha256": "747c0b9c28ec6589c0460375484ebf7a404aa65543380cecd6a05334016a7005"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-assignment-build-001/velocity-moment-probe.x",
+      "bytes": 7660696,
+      "sha256": "768640aa7c9b5a1a90fee3682d0f33bb4b872ab9eab4338ac5345b70b3633fa9"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-assignment-build-001/build.log",
+      "bytes": 12734,
+      "sha256": "1656e69030340688acc2de070c50cc2ca58a209280621af385c004d48767308a"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-assignment-default-build-001/velocity-moment-probe.x",
+      "bytes": 7660536,
+      "sha256": "f01bb3b618c430b1d280d0875bbb78718c0940466086db22bceedc691fbd1b27"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-assignment-default-build-001/build.log",
+      "bytes": 9210,
+      "sha256": "e6272745e7abc3c19ff6e420d52c61ba68b0adb6eff972c2b91841016ee75a34"
+    }
+  ]
+}

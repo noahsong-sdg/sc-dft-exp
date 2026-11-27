@@ -49,3 +49,34 @@ but cannot establish fine-grid anisotropic convergence. Changing response cells
 requires an explicit gap-transfer/refinement study, rather than silently reusing
 the old vector. Physical normalization and response vertices remain the separate
 gates in PHYSICAL_INTERPRETATION_GATE.md.
+
+## Optional native assignment export built
+
+The constant-gap diagnostic previously wrote only scalar moment sums, which
+cannot establish compatibility with a vector gap. The optional
+`response_assignment_dump.f90` path now calls the owning native `store_d3k`
+with freshly checked DOS/mean-velocity/curvature arrays. It uses the original
+state-count rule and writes energy nodes, weights, assigned energies, directional
+derivatives and band/cell indices. It never loads or interpolates a gap.
+
+Set `ASSIGNMENT_DUMP_SOURCE` to this module when building
+`velocity_moment_probe.mk`; this explicitly enables `ASSIGNMENT_DUMP`. Leaving
+it unset preserves the original diagnostic path. Both variants build against
+the retained native libraries with bounds checks. Use the unshifted geometry
+source for the proposed Q=0 comparison; the export does not itself remove a
+band shift or certify the input geometry.
+
+`response_assignment_analysis.py DIRECTORY PREPARE_DIRECTORY` validates schema,
+size, finite values, padding and index ranges, then compares shape and exact
+band/cell indices with the gap initialization. Energies and weights use the
+already declared 64eps elementwise relative compatibility criterion, including
+exact zeros. Shape or numerical incompatibility is a reported failed mapping,
+not a reason to interpolate silently. Gap-transfer and physical-response flags
+remain false even for a compatible layout. The regression covers a compatible
+layout, changed indices and stale/truncated persisted data.
+
+The new export has not run on material inputs yet. Its next runtime must wait
+until the rank33 reduced owner is terminal and use a separate measured-cost
+decision, normal-pressure gate and single heavy owner. Historical moment
+manifests refer to the source before this optional extension (available at
+bf3c155); do not rewrite their hashes to the new source.

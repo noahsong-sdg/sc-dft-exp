@@ -1,5 +1,30 @@
 # Research restart ledger
 
+## Latest priority — optional native response-assignment export built
+
+Previous turn made progress: criticalmode/setupcostc205711/bf3c155 public.
+Owner25141/PID61326 verified live at06:30, phasewaiting; hostpressure recovered
+and90 quietnormal seconds accumulated. Pollsameowner, no duplicate. Rank33
+reducedcandidate not yetavailable. Hostpressure resets are verifiedwaiting,
+not evidence of an algorithmic failure or userinput blocker.
+
+Traced source: compute_d3k counts states then native store_d3k assigns resolved
+and fallbackrecords. Existingmomentprobe onlyexports scalar sums, insufficient
+to qualify vector gap reuse. New response_assignment_dump.f90 optionaloutput
+calls owningstore_d3k with freshlychecked DOS/meanvelocity/curvature, preserving
+bothrecordclasses. Defaultcompilepath unchanged. Parserchecks schema/length,
+finite/padding/indices and reports64epsrelative(zeros exact) geometrycompatibility
+againstnativeinit; never asserts gaptransfer/physicalqualification. Regression
+covers changedindices and stale/truncatedpersisteddata.
+
+Both nativeexport/defaultboundscheckedbuilds PASS inisolatedrawdirs, manifest
+response_assignment_build_manifest.json pinscode/geometry/exes/logs. All72tests
+PASS5.957s; compileall/diffcheck PASS. GPLexception added. No materialexport
+runtime launched; it mustwaitbehindrank33 and a separatecost/pressuredecision.
+Historicalmomenthashes refer to preextension source atbf3c155.
+Next: strict rank33 reducedreadback then possiblefullnativevalidation; prepare
+same-cellresponsemapping onlyafterrespecting singleowner. Goal active.
+
 ## Latest priority — rank33 pilot live waiting on pressure; setup cost traced
 
 Previous turn made progress: critical-mode preparationc205711 public. New live
