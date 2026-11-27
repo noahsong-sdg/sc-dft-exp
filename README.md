@@ -6,13 +6,19 @@ Read [current state](CAMPAIGN_STATE.md) and
 an actually reliable, reproducible material response on the laptop; it is **not
 yet achieved**. Progress and negative controls will remain public here.
 
-Latest: source-only full driver links; its exact retained-state check stops at
-a small platform grid-weight discrepancy. A [fresh Mac initialization](research/fresh_gap_initialization_result.json)
-now passes an exact serialization roundtrip (84.96 s / 134 MB including its small
-build). The source-only Z cache passes 1,200 direct-upstream comparisons; actual-input
-partial Z sums at 8.05 K also match bitwise (144.21 s / 1.62 GB). A complete Z
-sweep needs bounded checkpointing before gap convergence and physical response
-can be qualified.
+Latest: the fresh Mac source-only path has completed the [8.05 K Z sweep](research/portable_z_sweep009_result.json)
+and [independent uncached sample checks](research/portable_z_oracle001_result.json).
+Fresh full operator images and independent Ritz readbacks now reach 64 vectors.
+That basis did not meet the nonlinear seed gate. A [target-preserving restart](research/portable_basis_restart001_result.json)
+followed by one complete application reduced the tracked candidate residual from
+0.001498 to 0.0002501, with overlap 0.9999987 and a conventional-channel selection;
+see the [independent result](research/restarted_basis001_result.json) and
+[mode tracking](research/restart_mode001_result.json). This is a 5.99-fold residual
+reduction, **not a runtime speedup or an accepted superconducting response**.
+The unchanged seed threshold is 1e-9. A bounded extension to 48 vectors is next.
+New guarded compute totals 109.26 minutes, separate from the historical campaign.
+Converged gaps at all three temperatures, conditioning, response normalization
+and state mapping, and the registered 1% uncertainty target remain unqualified.
 
 The earlier bounded campaign and benchmark history follow below. Their passing
 diagnostics do not establish a physical response prediction.

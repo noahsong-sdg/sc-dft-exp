@@ -757,3 +757,40 @@ predecessor003;600s/3GiB/quiet120. Finaluncachedchecks and32-vectorRitz then
 independentreadback/targetoverlap required. No codechanged;178tests/189Python
 compilations/moment gates lastPASS; diffcheckPASS. PublicCI46067655603 on6572158
 PASS. GitHubrepository visibilityPUBLIC freshlyverified. Goal remainsincomplete.
+
+
+## Restart pilot improves the tracked mode; 48-vector extension admitted
+
+Final restart-sweep004 terminal PASS: 264.137123583816 s, individual peak
+997933056 B, group peak998391808 B. Session82950/owner37168 terminal exit0.
+Complete new16-column application, checkpoint roundtrip, postrun input hashes,
+public/consumed manifest and16linked archives PASS. Six uncached complete sums
+for first trial PASS: maxdifference3.2526065174565133e-19 versus frozen bound
+2.0279043698928268e-13. These samples do not independently recompute all columns.
+Guarded new total6555.638113918564 s (109.26 min); prior189.29 min separate.
+
+Independent restarted_basis001_result PASS:32 columns, Gram error
+3.3306690738754696e-14, projection error3.108624468950438e-14, all real-mode
+full-image residuals agree within5e-12. Native selectedindex3, conventional
+channel1, lambda1.0018549012182356, residual0.00025012316440494034. Mode tracking
+verifies bitwise retained Q/AQ prefix and overlap0.9999987330584513 with original
+target. Residual reduction5.987817545733344 passes registered2x/0.99 criteria.
+This is convergence progress, not a runtime speedup, qualified seed or pairing
+prediction. Residual remains250123 times above1e-9; nonlinear/full-response gates
+are unchanged. No claim about a general restart advantage from this one sequence.
+
+Decision: use the registered admission to extend32 ->48 with another complete
+16-column application. Same source/operator/temperature, no historical images.
+Forecast15–18 native minutes based on the measured14.60-minute restart application,
+not a bound; each segment600s/3GiB/quiet120, one heavy owner. This fits remaining
+4h pilot headroom. Target is residual reduction by another>=2x with same-mode
+overlap>=0.99, lambda>1, full-native/independent readback PASS; diagnose before
+further expansion if this fails. No increase beyond64 or relaxed acceptance.
+Enrichment013 stages firstrows1:16384 from certified restart-sweep004; no owner
+before launch. README latest summary updated because its Z-pending statement
+was stale; historical results remain labeled separately.
+
+No code changed this turn. Last checks178testsPASS,189maintained Python sources
+compilePASS, moment replayPASS; current diffcheckPASS. PublicCI46068381656 on
+64945adPASS. 2K/4K, nonlinear gap, conditioning, response mapping/functional,
+1% uncertainty and accepted-result reproduction remain incomplete. Goal active.
