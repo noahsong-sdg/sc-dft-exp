@@ -1,0 +1,36 @@
+# Historical V3Si workflow ledger
+
+Generated with `python3 research/workflow_costs.py`. URLs, hashes, all matching
+total clocks and reported core layouts are in workflow_cost_manifest.json.
+This is an author-machine resource trace, not a Mac forecast or summed bill.
+
+| Stage | Reported wall seconds | Reported cores | Interpretation |
+|---|---:|---:|---|
+| Ground-state SCF | 15.36 | 336 | One logged run |
+| Phonons | Multiple clocks | 336 | Concatenated jobs and intermediate/final summaries; do not sum blindly |
+| Dense electron–phonon coupling | Multiple clocks | 336 | Same scope ambiguity |
+| Electron–phonon matrices | Multiple clocks | 336 | Same scope ambiguity |
+| Dense NSCF | 50.68 | 960 | One logged run |
+| Twin-grid electronic calculation | 46.92 | 960 | One logged run |
+| Screened interactions | 131280 | 768 | Printed to minute resolution |
+| Tc calculation | 716.20 | 1152 | Historical output; not our accepted-result protocol |
+| One finite-Q solve | 732.02 | 1152 | 1 K, fractional Q=.0025 |
+
+Missing or unresolved: structure-relaxation allocation, complete phonon job
+group accounting, queue/setup costs, peak memory, failed attempts, convergence
+controls, retrieval time and machine equivalence. Public outputs have different
+dates; do not assume they form one contiguous execution campaign.
+
+For a reused-input scan the expensive interaction-generation step is amortized.
+Using just its 131280 s and one 732.02 s action as illustrative anchors,
+20 equal-cost response points would cost 145920.4 s total; a 19x speedup of
+those response points changes this to 132050.5 s, only 1.105x overall. If inputs
+are already available, that same response-only improvement can matter directly.
+Actual scan-point times vary; this algebra is not a runtime prediction.
+
+Execution trace: stdin_scdft -> read_elph -> read_Coulomb -> energy_grid ->
+ini_delta -> expand_g_v -> make_Z -> make_effint -> broyden_gapeq -> out_delta ->
+supercurrent. A preparation-only curvature dump could stop after ini_delta on
+the fresh-state branch, but historical saved gap/state alignment must be
+reconstructed. Restart does not regenerate the missing curvature. A direct
+postprocessing entry point is not established by this trace.

@@ -1,0 +1,707 @@
+{
+  "scope": "Historical author-machine logs; not laptop forecast; all totals retained",
+  "stages": [
+    {
+      "stage": "scf",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Si2V6-186003/scf.out",
+      "sha256": "2bd0ebf6c36d0f97fc5ed9914618847900e296da93790339a0ccd54bedc5d748",
+      "bytes": 48693,
+      "cores": [
+        "336"
+      ],
+      "totals": [
+        {
+          "program": "PWSCF",
+          "cpu_printed": "1m12.25s",
+          "wall_printed": "15.36s",
+          "wall_seconds": 15.36
+        }
+      ]
+    },
+    {
+      "stage": "ph",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Si2V6-186003/ph.out",
+      "sha256": "98ff25c74f269b191b9f8cf11a6ba19da063a69c92f2f42ffb80b95c30b91b94",
+      "bytes": 934363,
+      "cores": [
+        "336",
+        "336",
+        "336",
+        "336",
+        "336",
+        "336",
+        "336",
+        "336",
+        "336",
+        "336"
+      ],
+      "totals": [
+        {
+          "program": "PHONON",
+          "cpu_printed": "5m38.29s",
+          "wall_printed": "1m17.13s",
+          "wall_seconds": 77.13
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "10h25m",
+          "wall_printed": "2h 0m",
+          "wall_seconds": 7200.0
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "10h25m",
+          "wall_printed": "2h 0m",
+          "wall_seconds": 7200.0
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "11m54.43s",
+          "wall_printed": "2m32.02s",
+          "wall_seconds": 152.02
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "1d13h27m",
+          "wall_printed": "7h 9m",
+          "wall_seconds": 25740.0
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "1d13h27m",
+          "wall_printed": "7h 9m",
+          "wall_seconds": 25740.0
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "7m21.34s",
+          "wall_printed": "1m37.90s",
+          "wall_seconds": 97.9
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "22h47m",
+          "wall_printed": "4h18m",
+          "wall_seconds": 15480.0
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "22h47m",
+          "wall_printed": "4h18m",
+          "wall_seconds": 15480.0
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "12m 4.27s",
+          "wall_printed": "2m34.49s",
+          "wall_seconds": 154.49
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "1d18h18m",
+          "wall_printed": "7h43m",
+          "wall_seconds": 27780.0
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "1d18h18m",
+          "wall_printed": "7h43m",
+          "wall_seconds": 27780.0
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "12m44.14s",
+          "wall_printed": "2m46.38s",
+          "wall_seconds": 166.38
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "1d14h 5m",
+          "wall_printed": "7h24m",
+          "wall_seconds": 26640.0
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "1d14h 5m",
+          "wall_printed": "7h24m",
+          "wall_seconds": 26640.0
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "5m35.45s",
+          "wall_printed": "1m14.18s",
+          "wall_seconds": 74.18
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "8h58m",
+          "wall_printed": "1h44m",
+          "wall_seconds": 6240.0
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "8h58m",
+          "wall_printed": "1h44m",
+          "wall_seconds": 6240.0
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "5m39.49s",
+          "wall_printed": "1m17.30s",
+          "wall_seconds": 77.3
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "11h18m",
+          "wall_printed": "2h12m",
+          "wall_seconds": 7920.0
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "11h18m",
+          "wall_printed": "2h12m",
+          "wall_seconds": 7920.0
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "7m20.79s",
+          "wall_printed": "1m37.32s",
+          "wall_seconds": 97.32
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "20h58m",
+          "wall_printed": "3h57m",
+          "wall_seconds": 14220.0
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "20h58m",
+          "wall_printed": "3h57m",
+          "wall_seconds": 14220.0
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "5m42.96s",
+          "wall_printed": "1m14.65s",
+          "wall_seconds": 74.65
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "9h 6m",
+          "wall_printed": "1h47m",
+          "wall_seconds": 6420.0
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "9h 6m",
+          "wall_printed": "1h47m",
+          "wall_seconds": 6420.0
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "2m 4.87s",
+          "wall_printed": "31.83s",
+          "wall_seconds": 31.83
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "1h36m",
+          "wall_printed": "23m50.06s",
+          "wall_seconds": 1430.06
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "1h36m",
+          "wall_printed": "23m50.06s",
+          "wall_seconds": 1430.06
+        }
+      ]
+    },
+    {
+      "stage": "elph",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Si2V6-186003/elph.out",
+      "sha256": "c113f899d29b02c024969589c350c97710edd85e64a418f31670ee9622f502ec",
+      "bytes": 205988,
+      "cores": [
+        "336",
+        "336",
+        "336",
+        "336",
+        "336",
+        "336",
+        "336",
+        "336",
+        "336",
+        "336"
+      ],
+      "totals": [
+        {
+          "program": "PHONON",
+          "cpu_printed": "33m13.25s",
+          "wall_printed": "8m34.23s",
+          "wall_seconds": 514.23
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "59m 7.25s",
+          "wall_printed": "13m29.04s",
+          "wall_seconds": 809.04
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "59m 7.25s",
+          "wall_printed": "13m29.04s",
+          "wall_seconds": 809.04
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "1h24m",
+          "wall_printed": "21m16.16s",
+          "wall_seconds": 1276.16
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "2h22m",
+          "wall_printed": "32m32.28s",
+          "wall_seconds": 1952.28
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "2h22m",
+          "wall_printed": "32m32.28s",
+          "wall_seconds": 1952.28
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "47m43.72s",
+          "wall_printed": "12m16.65s",
+          "wall_seconds": 736.65
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "1h21m",
+          "wall_printed": "18m46.07s",
+          "wall_seconds": 1126.07
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "1h21m",
+          "wall_printed": "18m46.07s",
+          "wall_seconds": 1126.07
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "1h28m",
+          "wall_printed": "21m43.30s",
+          "wall_seconds": 1303.3
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "2h28m",
+          "wall_printed": "33m 4.77s",
+          "wall_seconds": 1984.77
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "2h28m",
+          "wall_printed": "33m 4.77s",
+          "wall_seconds": 1984.77
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "1h28m",
+          "wall_printed": "22m30.86s",
+          "wall_seconds": 1350.86
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "2h29m",
+          "wall_printed": "33m49.73s",
+          "wall_seconds": 2029.73
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "2h29m",
+          "wall_printed": "33m49.73s",
+          "wall_seconds": 2029.73
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "28m29.16s",
+          "wall_printed": "7m14.27s",
+          "wall_seconds": 434.27
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "48m50.06s",
+          "wall_printed": "11m11.94s",
+          "wall_seconds": 671.94
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "48m50.06s",
+          "wall_printed": "11m11.94s",
+          "wall_seconds": 671.94
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "34m34.31s",
+          "wall_printed": "8m43.38s",
+          "wall_seconds": 523.38
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "1h 0m",
+          "wall_printed": "13m45.28s",
+          "wall_seconds": 825.28
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "1h 0m",
+          "wall_printed": "13m45.29s",
+          "wall_seconds": 825.29
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "48m23.04s",
+          "wall_printed": "12m12.64s",
+          "wall_seconds": 732.64
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "1h22m",
+          "wall_printed": "18m38.86s",
+          "wall_seconds": 1118.86
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "1h22m",
+          "wall_printed": "18m38.86s",
+          "wall_seconds": 1118.86
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "28m47.18s",
+          "wall_printed": "7m20.03s",
+          "wall_seconds": 440.03
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "49m24.37s",
+          "wall_printed": "11m15.08s",
+          "wall_seconds": 675.08
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "49m24.37s",
+          "wall_printed": "11m15.08s",
+          "wall_seconds": 675.08
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "7m39.82s",
+          "wall_printed": "2m 7.41s",
+          "wall_seconds": 127.41
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "14m12.88s",
+          "wall_printed": "3m25.43s",
+          "wall_seconds": 205.43
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "14m12.88s",
+          "wall_printed": "3m25.43s",
+          "wall_seconds": 205.43
+        }
+      ]
+    },
+    {
+      "stage": "epmat",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Si2V6-186003/epmat.out",
+      "sha256": "aef638b110efd52953a31f604f051d63a18bf0acc15759ea87bb93106fcb15e8",
+      "bytes": 187600,
+      "cores": [
+        "336",
+        "336",
+        "336",
+        "336",
+        "336",
+        "336",
+        "336",
+        "336",
+        "336",
+        "336"
+      ],
+      "totals": [
+        {
+          "program": "PHONON",
+          "cpu_printed": "4m19.36s",
+          "wall_printed": "56.31s",
+          "wall_seconds": 56.31
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "8m10.89s",
+          "wall_printed": "1m42.93s",
+          "wall_seconds": 102.93
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "8m10.89s",
+          "wall_printed": "1m42.93s",
+          "wall_seconds": 102.93
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "4m28.75s",
+          "wall_printed": "54.72s",
+          "wall_seconds": 54.72
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "8m 1.12s",
+          "wall_printed": "1m37.79s",
+          "wall_seconds": 97.78999999999999
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "8m 1.12s",
+          "wall_printed": "1m37.79s",
+          "wall_seconds": 97.78999999999999
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "4m 4.71s",
+          "wall_printed": "51.12s",
+          "wall_seconds": 51.12
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "7m35.88s",
+          "wall_printed": "1m34.19s",
+          "wall_seconds": 94.19
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "7m35.89s",
+          "wall_printed": "1m34.19s",
+          "wall_seconds": 94.19
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "4m23.80s",
+          "wall_printed": "55.29s",
+          "wall_seconds": 55.29
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "7m56.59s",
+          "wall_printed": "1m38.65s",
+          "wall_seconds": 98.65
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "7m56.60s",
+          "wall_printed": "1m38.65s",
+          "wall_seconds": 98.65
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "4m25.59s",
+          "wall_printed": "54.76s",
+          "wall_seconds": 54.76
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "7m54.84s",
+          "wall_printed": "1m37.50s",
+          "wall_seconds": 97.5
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "7m54.85s",
+          "wall_printed": "1m37.50s",
+          "wall_seconds": 97.5
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "4m15.89s",
+          "wall_printed": "55.69s",
+          "wall_seconds": 55.69
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "7m53.69s",
+          "wall_printed": "1m39.76s",
+          "wall_seconds": 99.75999999999999
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "7m53.69s",
+          "wall_printed": "1m39.77s",
+          "wall_seconds": 99.77000000000001
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "4m24.24s",
+          "wall_printed": "57.22s",
+          "wall_seconds": 57.22
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "8m21.15s",
+          "wall_printed": "1m44.79s",
+          "wall_seconds": 104.78999999999999
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "8m21.15s",
+          "wall_printed": "1m44.79s",
+          "wall_seconds": 104.78999999999999
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "4m 7.41s",
+          "wall_printed": "51.40s",
+          "wall_seconds": 51.4
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "7m41.21s",
+          "wall_printed": "1m35.01s",
+          "wall_seconds": 95.00999999999999
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "7m41.21s",
+          "wall_printed": "1m35.01s",
+          "wall_seconds": 95.00999999999999
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "4m22.82s",
+          "wall_printed": "54.91s",
+          "wall_seconds": 54.91
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "8m 0.20s",
+          "wall_printed": "1m38.89s",
+          "wall_seconds": 98.89
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "8m 0.20s",
+          "wall_printed": "1m38.89s",
+          "wall_seconds": 98.89
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "3m54.73s",
+          "wall_printed": "54.74s",
+          "wall_seconds": 54.74
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "7m43.58s",
+          "wall_printed": "1m41.82s",
+          "wall_seconds": 101.82
+        },
+        {
+          "program": "PHONON",
+          "cpu_printed": "7m43.58s",
+          "wall_printed": "1m41.82s",
+          "wall_seconds": 101.82
+        }
+      ]
+    },
+    {
+      "stage": "nscf",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Si2V6-186003/nscf.out",
+      "sha256": "2b2f4d6d74d081fffc387d4c01071f479efa6abe28305b11ee73fc827e9fe4f3",
+      "bytes": 8169,
+      "cores": [
+        "960"
+      ],
+      "totals": [
+        {
+          "program": "PWSCF",
+          "cpu_printed": "2m55.19s",
+          "wall_printed": "50.68s",
+          "wall_seconds": 50.68
+        }
+      ]
+    },
+    {
+      "stage": "twin",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Si2V6-186003/twin.out",
+      "sha256": "405c38675e471f65f8a922cad9d29affc02906296b598047b1512c398677c72b",
+      "bytes": 8000,
+      "cores": [
+        "960"
+      ],
+      "totals": [
+        {
+          "program": "PWSCF",
+          "cpu_printed": "2m52.00s",
+          "wall_printed": "46.92s",
+          "wall_seconds": 46.92
+        }
+      ]
+    },
+    {
+      "stage": "kel",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Si2V6-186003/kel.out",
+      "sha256": "cbcc0bea19100f791cba0fdd09f796d8d6c9b90604aeee7d1b236a82459e9747",
+      "bytes": 50209,
+      "cores": [
+        "768"
+      ],
+      "totals": [
+        {
+          "program": "SCTK",
+          "cpu_printed": "35d 5h23m",
+          "wall_printed": "1d12h28m",
+          "wall_seconds": 131280.0
+        }
+      ]
+    },
+    {
+      "stage": "tc",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Si2V6-186003/tc.out",
+      "sha256": "1ead0c43044136007ababbee3413b5dbb00d83f40ceb6ef68b2549f7722b1016",
+      "bytes": 69739,
+      "cores": [
+        "1152"
+      ],
+      "totals": [
+        {
+          "program": "SCTK",
+          "cpu_printed": "4h51m",
+          "wall_printed": "11m56.20s",
+          "wall_seconds": 716.2
+        }
+      ]
+    },
+    {
+      "stage": "fflo_1.0_0.0025",
+      "url": "https://arim.mdx.jp/nextcloud/public.php/dav/files/zqS4RXS8zaD26p5/nso/Si2V6-186003/fflo_1.0_0.0025.out",
+      "sha256": "8e312dffe92febf889539115a2fa25fe782462c6dbade97ffabb85df49627eaa",
+      "bytes": 10024,
+      "cores": [
+        "1152"
+      ],
+      "totals": [
+        {
+          "program": "SCTK",
+          "cpu_printed": "6h36m",
+          "wall_printed": "12m12.02s",
+          "wall_seconds": 732.02
+        }
+      ]
+    }
+  ]
+}

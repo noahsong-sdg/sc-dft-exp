@@ -88,6 +88,15 @@ active; leave it alone. Next: validate narrowly corrected full routine against
 direct identities, inspect state reconstruction path, then assess a lightweight
 dump or regeneration pilot if justified and resources permit.
 
+## Workflow resource manifest
+
+Retrieved nine bounded V3Si stage logs with SHA256 and core layouts. Ledger
+distinguishes concatenated phonon summaries from independently billable jobs;
+no naive summed time. Sixteen tests pass. A local ignored .venv is being set up
+for standalone matplotlib figures (pip session 63829; poll before assuming done).
+Next: generate figures, expand native parameter controls, map paper equation
+explicitly, and test fresh-state preparation feasibility. No production run.
+
 ## Candidate correction validated
 
 Full-routine harness now builds original and narrowly corrected variants;
