@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "checkpoint": {
+    "context": "4cb53ff814508aeded12a089a42157af5f08bb2cfb3468f2238a61e209a83184",
+    "counts": [
+      66867,
+      67940,
+      67940
+    ],
+    "completed": 66867,
+    "beta": 19613.355577892344
+  },
+  "manifest_sha256": "69dae1dc0d1af8c68dd9d368678d169a6d37913cdae01cdc68ac9ce58bd17142",
+  "receipt_sha256": "2b42520a9a8b8b0e139f7eb3514f2d8e56d622c41a204eabb2bdc9f9dbcc8c7b",
+  "checkpoint_sha256": "4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426",
+  "metadata_sha256": "20e7733d67bae894bd86df4f36441eed5ac6a33c4636e18944d6cf9a291c7b60",
+  "executable_sha256": "53d5cb17bc0f8e79d34e2ab08d37e16027b17babbedbf966b3c3868437f30dd6",
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/usr/bin/make",
+      "-f",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/z_sweep.mk",
+      "RESEARCH=/Users/noahs/Developer/sc-dft-exp/research",
+      "QE_ROOT=/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe",
+      "NATIVE_INPUT=/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-sweep-009/native.in",
+      "qualify-sweep"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-z-sweep-009",
+    "wall_s": 182.99617408355698,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 1616281600,
+    "sampled_peak_group_rss_bytes": 1616936960,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 2400.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "split_qualification_passed": false,
+  "full_Z_qualified": false,
+  "physical_response_verified": false,
+  "new_guarded_total_s": 2392.5336359993917,
+  "full_Z_sha256": "4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426",
+  "full_Z_metadata_sha256": "289418f57bb1421baad2320e53e81aba35ee520ed39dd6eccb16b0718284e6da",
+  "full_Z_bytes": 1087040,
+  "full_Z_metadata": "native-Z-v1; binary64 Fortran order\n       66867       67940       67940         100           1\n  1.96133555778923437E+004  1.20283813387981513E-007  6.22718770736259506E-008  1.31124586756139516E+000  1.24793655939646193E-006  1.24791890087924572E-006  3.08655739781493832E+000  3.08974331821014614E+000\n F\n",
+  "all_finite": true,
+  "minimum_1_plus_Z": 1.0,
+  "maximum_Z": 4.497564035223879,
+  "all_left_rows_completed": true
+}

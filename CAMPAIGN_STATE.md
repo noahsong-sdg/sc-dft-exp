@@ -214,3 +214,13 @@ Recovery008 terminalPASS169.960300s, certifiedthrough57360. Old79007/session9832
 terminal. Guardedtotal2209.537462s. Root009 stages final57361:66867 (9507rows):
 measuredforecast190–250s, unchanged frozencontext/quiet120/3GiBguard. FullZ
 output onlyaftercomplete; independentoracle/gap/response remain incomplete.
+
+
+## Full ordered sweep complete; independent qualification pending
+
+Final009 terminalPASS182.996174s. All66867leftrows complete; fullZ/checkpoint
+byteequal, finite and positive1+Z, strictsource/input/metadata checksPASS.
+FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
+Guardedtotal2392.533636s. Old84584/session82011 terminal. Oracle001staged
+420s/3GiB/quiet120 for six uncached complete sums. No gap/response acceptance
+yet; do not feed fullZ into basis before oraclecertificatePASS.

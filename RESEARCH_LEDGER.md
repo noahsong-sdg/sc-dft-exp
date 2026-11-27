@@ -2605,3 +2605,23 @@ numerical invariants unchanged;2400s/3GiB/quiet120guard remains. Full-Z schema
 only after66867 complete; independentuncachedsample qualification stillrequired.
 155tests/169sourcecompilation/moment gates lastpassed; CI46049568984 on41b1ad8
 PASS. No codechange or owner before prospective publication/launch.
+
+
+### Full fresh-Mac8.05K Z sweep complete; independentoracle staged
+
+Final009PASS182.996174s/1616281600B individualpeak (group1616936960B). Native
+rows57361:66867 took137.042680s. Entire ordered sweep now complete, with exact
+checkpoint/fullZ binary equality, strict metadata/context and finite/positive1+Z
+checks. Public/consumedmanifest, all postruninputs and16linkarchives verified;
+no historicalcustomobjectpath. FullZ1087040B SHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
+Native Fermiaverages3.08655739781493832/3.08974331821014614, beta19613.355577892344
+at8.05K. Full_Z_qualified remainsfalse until independent uncached samples. This
+is not a gap or materialresponse result. Guardedtotal2392.533636s including failed
+001; historical189.29min remains separate. Timing not isolatedworkflowbenchmark.
+
+Oracle001 stages source-only original uncachedmake_Z plus freshgeometry/full
+twochannelCoulomb and completedZ. Six complete sampled sums must match bitwise,
+including strictmetadata/Fermi-average readback, followed by persisted-sample
+certificate.420s/3GiB/quiet120; scheduling forecast not bound.155tests/169source
+compilation/moment gates lastpassed; CI46050285722 on4b42048PASS. No nativeowner
+before prospective publication/launch.
