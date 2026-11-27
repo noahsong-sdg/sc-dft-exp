@@ -92,3 +92,24 @@ after 120 continuous normal-pressure seconds. No launcher is active for this
 pilot. It must wait behind full-validation owner57262, and all pinned inputs
 must be rechecked at launch. Passing assignment compatibility would authorize
 only investigation of gap reuse, not a physical response claim.
+
+## First material export: direct layout reuse fails
+
+The export completed in34.924s with195280896-byte individual peak RSS. Its
+62,850/64,662 states differ from the Q0 initializer's66,867/67,940 despite
+matching nx/nmf/ne/temp and the unshifted bands. Strict readback reports
+`mapping_compatible=false`; no gap was transferred. See
+response_assignment_result.json with its terminal receipt and prospective
+manifest hash. This rules out direct positional reuse for this tested pair,
+not every controlled state-transfer method.
+
+Owning source `symm_dosk` selects symmetries preserving q_fflo before averaging
+DOS and directional moments. Runtime logs select48 operations at Q0 but4 for
+the response direction. A causal geometry-only control is prepared in
+response_assignment_symmetry_manifest.json: same executable and unshifted
+bands, with q magnitude1e-12 so the documented absolute symmetry threshold
+admits all48 operations. That threshold defect is deliberately exercised here
+to isolate assignment behavior. It must not be presented as a physically valid
+response or a recommended way to choose Q. If the layout then matches, the
+symmetry-selection dependence is demonstrated; otherwise investigate the other
+initialization differences. Do not add interpolation or relax the gate.

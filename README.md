@@ -30,7 +30,9 @@ candidate in 0.906 s, with mean gaps 0.13967/0.13884 meV. Its full-space
 validation finished in 599.93 s / 952 MB peak RSS but also failed: maximum
 residual 4.58e-8 Ry and residual/gap RMS ratio 0.00213. No stationary gap has
 yet been accepted. A second measured occupation defect now supports a prepared
-rank34 reduced pilot; response-assignment compatibility is being checked separately.
+rank34 reduced pilot. Direct response-assignment reuse failed because the
+directional and Q0 paths produce different state counts; a symmetry-selection
+control is prepared.
 No speedup against an equivalently
 qualified full solve is claimed. The [gap-to-response mapping audit](research/GAP_RESPONSE_MAPPING_GATE.md)
 identifies the energy-resolved and single-state branches that a subsequent

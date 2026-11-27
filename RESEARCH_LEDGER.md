@@ -1,5 +1,21 @@
 # Research restart ledger
 
+## Latest — directional assignment incompatible; rank34 watcher live
+
+Assignment owner23012 TERMINAL PASS34.924s/195280896B. Strictlayout comparison
+FAIL:62850/64662states vsQ0gap66867/67940. response_assignment_result.json
+pinsreceipt+manifestSHA. No vectortransfer. Source/logs show symm_dosk selects
+4operations fordirectionalQ vs48atQ0. Causalgeometrycontrolprepared:
+response_assignment_symmetry_manifest.json, sameexe/unshiftedbands withq1e-12
+todeliberatelyexercise knownabsolutethreshold andadmit48. No physicalcurrent
+claim; no symmetrycontrol launcher active.
+
+Rank34 reduced owner58042/PID8387 verifiedlivewaitingnormalpressure1. Pollsame
+owner before symmetrycontrol launch; oneheavyjob only. Previous turn progress:
+publishedfailedfullrank33 andpreparedrank34; currentturn establishes independent
+assignmentfailure and its testable symmetryhypothesis. PublicCI45980769433PASS
+for93efada. Goal remainsactive.
+
 ## Latest — rank33 full check fails; assignment watcher live
 
 Owner57262 TERMINAL guardPASS599.926s/951713792-byte peakRSS; strictreader

@@ -116,8 +116,9 @@ Mac runtime forecast is justified by the cluster logs alone.
    See verify_critical_gap_result.json and second_occupation_reduced_manifest.json.
 2. Qualify conditioning and refinement of a successful gap. A point residual
    alone cannot bound gap error near the transition.
-3. Connect that gap to the same-cell anisotropic response using the verified
-   native state classes in GAP_RESPONSE_MAPPING_GATE.md. Preserve far-band
+3. Resolve the failed direct response assignment before connecting a gap:
+   directional preparation gives62850/64662states versusQ0gap66867/67940.
+   A geometry-only symmetry-selection control is prepared. Preserve far-band
    single states; do not infer a fine-grid gap from the constant-gap experiment.
 4. Resolve derivative/integration, physical normalization and functional gates,
    then quantify a selected observable against those uncertainties. Choose a

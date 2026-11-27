@@ -1,0 +1,53 @@
+{
+  "question": "Does forcing the existing absolute symmetry selector to admit all48 operations restore Q0 assignment compatibility?",
+  "status": "Prepared only; wait for rank34 reduced owner58042 terminal",
+  "guard_seconds": 120,
+  "group_rss_cap_bytes": 3221225472,
+  "launch_normal_seconds": 120,
+  "environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "SCTK_MOMENT_GRID": "8"
+  },
+  "prepare_directory": "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare",
+  "decision": "Directional export passed guard34.924s/195MB but failed mapping counts. Native logs show4 vs48 selected symmetries. One geometry-only control tests this causal hypothesis.",
+  "controls": "Same executable/unshiftedbands/energygrid; only q_fflo magnitude1e-4->1e-12 changes. The known absolute threshold now admits48operations; this is deliberate diagnostic use of a documented scale defect, NOT physical response validation.",
+  "acceptance": "response_assignment_analysis.py: exact counts and indices;64eps elementwise relative energies/weights with exact zeros; no tolerance relaxation",
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-assignment-symmetry-001/velocity-moment-probe.x",
+      "bytes": 7660696,
+      "sha256": "768640aa7c9b5a1a90fee3682d0f33bb4b872ab9eab4338ac5345b70b3633fa9"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-assignment-symmetry-001/native.in",
+      "bytes": 434,
+      "sha256": "6a4afe7a9891432a9db5d910ad23fef1a4dcf8f662dafb0666dcce1398e7b045"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-assignment-symmetry-001/matdyn0",
+      "bytes": 1916,
+      "sha256": "96bf9e490721008167c28f83b76b13e47fe88d78b7eff6d95a1807c603dda5c8"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/run-response-assignment-symmetry-001.py",
+      "bytes": 2024,
+      "sha256": "10236bd0debc1f3a41ca437a1f3499c37909b9ccfdba5a8c4e91c3a2fa1d94fb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/response_assignment_result.json",
+      "bytes": 2220,
+      "sha256": "f9ee7a99e48dce3988f0b462b03b7226a08ee1bc5a52f811d426f8613e80abdb"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/response_assignment_build_manifest.json",
+      "bytes": 2283,
+      "sha256": "d9f76f8e346fee6e58fd6fa6141b5bddb916bf20e61dedea89ad5c8cc8b9caec"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/response_assignment_analysis.py",
+      "bytes": 3829,
+      "sha256": "3a69eb3b2e956ff57d66bf30c801f6fa2d348c3a1709ca1447effb426958b286"
+    }
+  ]
+}

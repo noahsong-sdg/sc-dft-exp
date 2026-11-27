@@ -1,0 +1,54 @@
+{
+  "dimensions": [
+    62850,
+    64662,
+    64662,
+    100,
+    512,
+    1,
+    26
+  ],
+  "native_counts": [
+    66867,
+    67940,
+    67940,
+    100,
+    512,
+    26,
+    32768
+  ],
+  "shape_matches": false,
+  "mapping_compatible": false,
+  "differences": {},
+  "qnorm": 0.00014213149536207326,
+  "volume": 122.17535992426924,
+  "tolerance": "64eps elementwise relative; zeros exact; indices exact",
+  "gap_transfer_verified": false,
+  "physical_response_verified": false,
+  "sha256": {
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/response-assignment-001/response-assignment.txt": "e928405c7405164e0af0fba519e65c91f069db6eccdc5456612d3048c3ed7f32",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/response-assignment-001/response-assignment.bin": "29f6ddab6da24f0cd14c68fc2695f5e28e23e5020bdc7879b6644d8335a71a60",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.meta": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+    "/Users/noahs/Developer/flux-pinning/benchmarks/isome-sctk-v1/nb-tc-benchmark-v1/restarted-scdft-v1/points/nx100-mf10-T8p05-b16-s29/prepare/native-init.bin": "489beee84dc652caa65383674295460690c1db3716678cdf81b672be7b467c37"
+  },
+  "scope": "Compare exported response assignment with a gap's initialized native layout.",
+  "terminal_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/response-assignment-001/velocity-moment-probe.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/response-assignment-001/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/response-assignment-001",
+    "wall_s": 34.92442104173824,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 195280896,
+    "sampled_peak_group_rss_bytes": 192102400,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 120,
+    "guard_source_sha256": "f0f6d3399560497ad22e5391ae780ba9ab3d99058ac629dfd239a727390c16f6"
+  },
+  "prospective_manifest_sha256": "9408a762f32b390ea910cbd80d3a748956cf15b5eb741c2afd10ee87b218f6d6"
+}
