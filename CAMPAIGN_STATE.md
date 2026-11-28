@@ -19,25 +19,20 @@ coefficient residual4.2934406030425976e-17, not full stationarity.
 Qualification004 terminalPASS36.531995916739106s/916668416B;1279pins verified,
 continuous64 vs persisted32+32 bitwise, exact active source state and independent
 occupations PASS. [Result](research/portable_full_map_qualify004_result.json).
-Segment011 terminalPASS171.83193412516266s/894451712B; strict1327pins and
-qualification004 lineage PASS. Completed50112/66867leftrows; exact source state,
-independent weights and explicit-sum checks PASS. [Result](research/portable_full_map_segment011_result.json).
-Only `portable-full-map-segment-012` admitted, finalrows50113:66867,480s hard
-limit,quiet120/3GiB. [Manifest](research/portable_full_map_segment012_manifest.json).
-Require complete chain, independent normalization and original stationarity targets;
-no automatic correction/retry. Brave/otherstudy untouched; preserve flux-pinning.
+Rank50 complete full map: all66867leftrows and1343pins certified; exact source,
+seed and qualification004 lineage PASS. Independent normalization maxdiff0,
+explicit-sum and Jacobian finite-difference checks PASS.
+[Complete result](research/portable_full_map_segment012_result.json).
+Rinf3.150982530792019e-10Ry >1e-10: FAIL. RMSres/gap6.950913015827202e-6
+<=1e-5: PASS. Both are required, so stationary acceptance remains false.
+Maximum/RMS-ratio residuals improve7.995x/6.743x fromrank49. Conditioning and
+physical response remain unaccepted. Rank51 full residual unknown.
 
-Preparation002 strict1249pin readback passes, inherited Q/U bytes identical;
-new q norm1, overlap8.300874945971308e-19, independent exponential image error
-4.573977915173222e-19Ry. [Proof](research/portable_occupation_prepare002_result.json).
-Explicit-manifest occupation_prepare_readback.py preserves the frozen001 reader
-and replays all its scientific/receipt/hash fields exactly;220tests/219compilations PASS.
-
-Latest full rank49 candidate still fails stationarity: Rinf2.5192548497580036e-9Ry
-and RMSres/gap4.686882888771546e-5; unchanged targets1e-10Ry/1e-5.
-[Full result](research/portable_full_map_segment008_result.json). Errors contracted
-14.5x/31x fromrank48, supporting this second measured correction. No accepted
-gap, full-space conditioning or physical response. Rank50 full residual unknown.
+Only `portable-occupation-prepare-003` admitted: targeted50->51 correction from
+the complete measured image,180s/quiet120/3GiB. Unchanged frozen stager/preparer.
+[Prospective manifest](research/portable_occupation_prepare003_manifest.json).
+No automatic reduced solve/qualification/full pass/retry. Brave/otherstudy untouched.
+After preparation, strict explicit-manifest readback precedes any next admission.
 
 ## Latest accepted evidence
 
@@ -73,9 +68,12 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall19616.091419629138s; ceiling21600s leaves
-1983.9085803708622s. Finalsegment012 ceiling480 leaves1503.9085803708622s.
-Only segment012 admitted. No automatic budget increase.
+Actual guarded campaign wall19789.19029350424s; ceiling21600s leaves
+1810.8097064957583s. Preparation003 ceiling180 leaves1630.8097064957583s.
+A prospective180+60+180+4*300=1620s sequence fits with190.8097064957583s
+reserve. Later production, if separately justified, would use300s caps: all last
+four measured segments were171.83–173.50s. Only preparation003 is admitted.
+No automatic budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
@@ -102,7 +100,7 @@ controls do not qualify the Nb functional or fit a physical normalization.
 
 Latest code checks:220tests PASS22.258s including native fixture builds;
 219maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
-No separate configured typecheck. Public CI46120474500 onee77e3d PASS.
+No separate configured typecheck. Public CI46120939353 on5c9c4b9 PASS.
 Current docs/results do not replace native or scientific qualification.
 
 Chronology remains in RESEARCH_LEDGER.md and immutable public commits. The former
