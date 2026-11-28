@@ -57,3 +57,35 @@ it is not evidence that the laptop response goal is achieved.
 Source gate:321 offline regressions PASS49.854s, including native fixture builds;
 295 Python sources compile; moment_refinement exit0; git diff --check PASS.
 Parent replay/staging42.795815207995474s is a separate read-only workflow cost.
+
+## Accepted material diagnostic001
+
+Terminal guard PASS6.431358041707426s, individual descendant peak281575424B
+(268.531MiB); sampled group81510400B, which misses the short native peak.
+All1839 staged pins, exact manifest/receipt/watcher/outputs rechecked; accepted
+closure1856pins. Numerical readback ran inside the charged owner.
+[Result](defect_row_spectrum001_result.json). Public source5444ebf CI46146669175PASS.
+
+On these64 complete left rows, largest1/3/13 directions account for
+0.9995342161797829/0.9999841999517176/0.999999999999998 of squared Frobenius
+energy. Three exported eigenvalues in ascending order are
+0.0017376757891472221,0.017773109133059788,43.33866759332359.
+Their squared projections into the current Q span are
+1.3146600193764528e-6,2.4241107806445085e-7,1.3043278544934174e-6.
+Thus the dominant sampled input direction is almost entirely outside that span.
+This establishes a sample input-space mismatch, not a complete causal account
+or evidence that three new basis columns will qualify the full inverse.
+
+All64 reconstructed row norms agree with accepted defect output; maximum
+304.37575259990825. Independent A-only maximum6.971243858010709.
+Q orthogonality error3.5971e-14; V orthogonality1.9632e-11;
+Gram eigenpair/independent fsum errors1.9984e-14/1.2101e-14;
+sensitivity action6.5765e-13; sampled Q overlap5.1326e-16.
+No directions adopted, no new kernel, no full-space/outward/physical certificate.
+
+Charged campaign21989.224320587087s/25200;3210.7756794129127s remain.
+All owners terminal. Next: design a bounded enrichment test using orthogonalized
+sample sensitivity inputs, with independent rows not used in selecting them.
+Computing full A actions on new columns requires a separately admitted pass;
+full error control still needs both output orientations and unmeasured rows.
+A training-row improvement alone cannot establish that repair is useful.

@@ -23,6 +23,10 @@ pass all51rank components (maxdifference1.64e-14). A [selected defect diagnostic
 then found three independently checked complete row sums123.7–272.5, far above
 the unit-contraction requirement. The current stored inverse does not qualify
 the unweighted infinity-norm route; the full second sweep was not launched.
+A [retained-row diagnosis](research/RETAINED_ROW_SPECTRUM.md) then found99.953%
+of the sampled squared defect concentrated in one input direction almost outside
+the existing basis. It took6.43s and268.53MiB peak memory, with independent checks.
+This motivates a held-out basis-enrichment test; no new inverse is yet accepted.
 This is a numerical-route result, not rejection of the niobium solution. The [budget decision and
 resource limits](research/COMPLETE_P_ADMISSION.md) are public.
 Converged gaps at2K/4K, complete conditioning/error transport, response normalization,
