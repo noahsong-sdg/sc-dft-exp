@@ -4799,3 +4799,20 @@ No separate configured typecheck. Fixing the consumer preserves the original
 scientific operator/inverse, unlike rescaling stored D or refitting W.
 No new material time charged;21376.431543087903s total,223.56845691209674s
 remaining. Next source-bound material build and selected-tile qualification.
+
+### 2026-11-28 — compact native source-build001 prospective admission
+
+Previous goal turn classified progress: published corrected normalized derivative
+and finite-T linear weights with frozen-producer and independent P regression
+evidence; public CI46138435970PASS. New source build owner uses qualified parent
+portable-full-step-build-001;576pins. Actual dry make plan checks18fresh source
+compiles and explicit SDK-before-static-archives link. Exact console/plan, fresh
+objects/executables,902cache controls and final input equality required; terminal
+receipt separately required before acceptance. Three new focused testsPASS; full
+suite288PASS40.777s;265Python compilePASS; native fixturesPASS; moment refinement
+exit0; diffcheckPASS. No separate configured typecheck.
+Fresh compact-tile-build-001 admits60s source build only, no material kernels;
+120quiet seconds,3GiB group/workspace caps. Host pressure1 before admission.
+Charged21376.431543087903s/21600;223.56845691209674s remain, worst60s leaves
+163.56845691209674s. No budget expansion, Brave/otherstudy untouched.
+[Manifest](research/compact_tile_build001_manifest.json).

@@ -122,6 +122,12 @@ Prepared D/W and earlier accepted material artifacts are unchanged.
 [Probe](research/COMPACT_NATIVE_TILE_PROBE.md). New source-only link recipe is
 prospective; next guarded build, then bind accepted preparation/native context
 and independently qualify saved material tiles. No full P/norm acceptance.
+Compact source build001 now staged:576pins,18fresh compiles in checked dry plan,
+explicit SDK library before static archives. New owning runner requires exact
+plan/console, fresh objects/executables,902cache controls and unchanged inputs;
+raw output withholds terminal acceptance.288testsPASS40.777s.
+[Build admission](research/compact_tile_build001_manifest.json):60s,120quiet
+seconds,3GiB caps; no kernel admission or budget expansion.
 The exact [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md) includes
 same-side blocks and avoids a145GB dense matrix;2.78Tflops is not runtime evidence.
 [Method and interpretation](research/CORRECTION_INVERSE_DIAGNOSTIC.md).

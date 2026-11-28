@@ -89,3 +89,24 @@ actual native fixture compiles/executes with the frozen derivative producer;
 moment_refinement.py exit0; diffcheckPASS. Separate negative-control executions
 confirmed both defects: prior probe rejects producer D, and a correct-D/bare-dk
 variant fails the independent exact P oracle (first discrepancy0.0493376).
+
+## Prospective source build001
+
+`compact_tile_build.py` reuses the qualified parent-source validator, adds the
+new probe/reader/core/link file and explicit SDK library pins, and requires a fresh
+owner directory. Its dry make plan must contain each new source exactly once,
+local object outputs, exactly two expected executable links and pinned archives.
+The explicit SDK library must precede the first static archive. Compiler console
+must equal that plan, both executables must exist, all902native cache controls
+must pass and final input hashes must remain unchanged. The raw result withholds
+terminal acceptance until its guard receipt is independently checked.
+
+Actual staged plan:18fresh compiles,576input pins, no historical custom objects.
+The60s admission preserves120continuous normal-pressure seconds and3GiB caps.
+Before launch:21376.431543087903s charged,223.56845691209674s remaining; worst
+60s leaves163.56845691209674s. No material kernels or budget increase admitted.
+Three focused tests cover owner/freshness, incomplete/duplicate/foreign plan
+commands, missing/late SDK binding, mismatched console/cache and changed pins.
+Full suite288PASS40.777s;265Python compilePASS; native fixtures compile/execute
+PASS; moment_refinement.py exit0; diffcheckPASS. No separate configured typecheck.
+[Manifest](compact_tile_build001_manifest.json).
