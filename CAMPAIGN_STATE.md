@@ -1703,3 +1703,10 @@ portable-reduced-gap-001 terminal PASS 2.003628000151366s, peak individual168640
 Admit portable-full-gap-001, single1200s/3GiB/normal-pressure120s full-native residual with pinned source-built executable, public inputs, fresh geometry/Z, exact copied reduced gap. Original driver checks strict initialized context, positive conventional support, independent occupation formula, explicit tile sums and finite-difference Jacobian action. Require unchanged1e-10Ry infinity and1e-5 RMSratio targets. No automatic correction/retry; conditioning still open even on stationary success.
 
 New guarded native total14523.509137126934s; worst1200s leaves2276.4908628730664s of5h ceiling. This resolves the key missing full-equation check; no new linear enrichment, optional memory source optimization or diagnostic grid campaign before that result. Brave and other study untouched. No maintained source changed.
+
+
+## Fresh full-gap check stopped by monitoring timeout
+
+portable-full-gap-001 terminal FAIL after268.40038087498397s, exit-15. Guard memory query `/bin/ps -axo pgid=,rss=` exceeded3s and fail-closed termination completed; owned guard/native PIDs no longer present. Sampled peak916963328B, below3GiB; last complete progress3104/66867 at71.853621CPU seconds. This is a monitoring timeout, not demonstrated memory-cap failure or scientific residual failure. Cause of host command latency is unproven. All pinned inputs and public/consumed manifest equality revalidated. No full-map final output or accepted gap.
+
+New native total14791.909518001918s, remaining3208.0904819980824s under5h. No automatic retry or source-policy weakening. Investigate guard memory allocation and host observation costs before any separately justified admission. The fresh linear seed and reduced candidate remain valid evidence, not accepted material results. Brave and other Docker study untouched.

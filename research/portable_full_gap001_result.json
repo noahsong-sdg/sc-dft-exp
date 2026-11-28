@@ -1,0 +1,29 @@
+{
+  "status": "FAIL",
+  "receipt": {
+    "status": "FAIL",
+    "error": "TimeoutExpired: Command '['/bin/ps', '-axo', 'pgid=,rss=']' timed out after 3 seconds",
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-gap-001/verify-gap-seed.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-gap-001/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-gap-001",
+    "wall_s": 268.40038087498397,
+    "exit": -15,
+    "max_individual_descendant_rss_bytes": 916963328,
+    "sampled_peak_group_rss_bytes": 916963328,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 1200.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "inputs_unchanged": true,
+  "manifest_sha256": "c79f91c599a51032590ea583f6088b7ee74f5f659159e9971bf6f017c63db53e",
+  "last_progress": "        3104       66867   71.853621000000004     ",
+  "new_native_total_s": 14791.909518001918,
+  "full_native_residual_verified": false,
+  "conditioned_gap_error_bounded": false,
+  "physical_response_verified": false,
+  "scope": "Monitoring ps query exceeded3s; guard terminated owned native process. Partial map not accepted. No automatic retry."
+}
