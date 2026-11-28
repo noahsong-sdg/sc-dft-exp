@@ -68,15 +68,18 @@ Prepare001 terminalPASS46.14212279161438s;1486pins and independent artifact
 re-read PASS, peakindividual238190592B. Exact candidate preserved; unit direction,
 h5.502435566805578e-10Ry; observed maxabs(h*v-c)5.169878828456423e-26Ry.
 [Result](research/correction_direction_prepare001_result.json).
-Declared-step microscopic qualifier001 admitted:1533pins,180s/quiet120/3GiB;
-only continuous64vs32+32, no production sweep/retry/budget increase.
+Declared-step microscopic qualifier001 terminalPASS36.70167237473652s;
+1533pins/source/correction/evaluation and native split equality certified;
+peakindividual931561472B, independent weight error6.938893903907228e-18.
+[Result](research/portable_full_step_qualify001_result.json). No production run admitted.
 [Prospective manifest](research/portable_full_step_qualify001_manifest.json).
 Preparation certificate, strict step qualifier
 stager and evaluation/restart reader now fixture-qualified; all251tests PASS.
 [Evaluation method](research/CORRECTION_STEP_EVALUATION.md). Actual material
 preparation preflight2.7161237499676645s/33521664B process peak; separate from
-guarded wall, no controlled memory comparison. Next prospective actual-input
-continuous64vs32+32 qualification; production corrected-residual chain still open.
+guarded wall, no controlled memory comparison. Actual microscopic qualification now PASS. Production corrected-residual
+lineage/readback now fixture-qualified:255tests PASS36.891s;245Python compilePASS.
+[Coverage method](research/CORRECTION_STEP_COVERAGE.md).
 Later consider two production halves (~620s forecast from prior545.6skernelCPU
 plus two startups); not measured/admitted. Charge qualifier actual before each
 bounded segment decision. A successful corrected residual still cannot
@@ -119,8 +122,8 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall20645.51788821336s; ceiling21600s leaves
-954.4821117866413s. Only qualifier001 admitted180s; worst-case remainder774.4821117866413s. No automatic retry or budget increase.
+Actual guarded campaign wall20682.219560588095s; ceiling21600s leaves
+917.7804394119048s. No live owner or next native admission. No automatic retry or budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
@@ -145,8 +148,8 @@ Conditional gap-to-response derivative and outward ratio helpers exist, but no
 material gap radius/stiffness intervals are certified. Analytic parabolic/current
 controls do not qualify the Nb functional or fit a physical normalization.
 
-Latest code checks:251tests PASS32.932s including native fixture builds;
-242maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
+Latest code checks:255tests PASS36.891s including native fixture builds;
+245maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
 No separate configured typecheck. Public CI46125471800 on8653ee8 PASS; runner CI46126020760 on4e0fecf PASS; material-result CI46126382268 on2ac1a50 PASS; orientation helper CI46126757526 onf10730c PASS; result CI46126994654 on3997c72 PASS; direction helper CI46127521198 onad67046 PASS; result CI46127763049 on6a12d8c PASS; step helperCI46128222986 on1084b00 PASS; readerCI46128690566 ond839ced PASS; preparation helperCI46129155495 on79344e4 PASS.
 Current docs/results do not replace native or scientific qualification.
 
