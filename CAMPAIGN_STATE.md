@@ -1379,3 +1379,37 @@ inputs and public/consumed manifest equality PASS. Full-image result complete:
 True. Independent residual/mode check still required
 after032. No automatic continuation beyond032; no gap/response acceptance.
 Unchanged sources/thresholds; last187tests/194compilations/moment PASS.
+
+
+## Third-restart48-vector independent checkpoint and final64 decision
+
+029–032 terminal PASS; new guarded total12565.654792751502s (209.43min),
+historical189.29min separate. restarted_basis008 PASS: Gram2.3425705819590803e-14,
+projection5.684341886080802e-14. basis_continuity005 PASS: exact Q/AQ prefix,
+overlap1.0, same-sign averages; tracked/selected3 lambda1.0018603317743657,
+independent residual1.0991127847466307e-9. Reduction6.2904902744813365.
+Seed fails unchanged1e-9 target; no rounding into acceptance. No nonlinear gap
+or physical response accepted.
+
+Decision: one final16-vector extension to64 via033–036,420s per segment,3GiB,
+quiet120, same operator. Latest segments203–215s; forecast14–16native min, not
+bound. Four420s ceilings28min fit remaining30.57min initial4hpilot. Shorter
+run ceilings change no scientific formula or acceptance threshold; timeout
+remains a failed attempt.64cap unchanged; no automatic restart/extension/retry
+after036. Independent full-image residual and continuity checks required next.
+Projected-only arithmetic cannot measure these new images; current sixfold
+reduction and exact continuity justify this bounded test.
+
+Additional offline evidence: fresh_response_assignment001 shows exact energies,
+weights and indices between the existing public-source full48 selector export
+and fresh Q0 geometry. Its original manifests, receipt and eight output hashes
+revalidated; staging/public protocol are compatible but not identical (public
+protocol adds provenance). No gap transfer or physical tiny-Q choice accepted.
+fresh_normalization_sum_rule001 measures band6 weight0.9843, with raw signed
+DOS deficit already present before positive-support assignment. Nominal13
+electrons is not a matched occupation replay; no response error bound or
+rescaling follows. See NORMALIZATION_SUM_RULE_GATE.md. Resource snapshot002
+records1655371 goal-meter tokens/27330elapsed seconds at00:09:26UTC; separate
+from native cost, not dollars/energy or completed-result cost.
+No maintained production/native source changed. Last187tests/194Python
+compilations/moment PASS; new offline analyses exit0, diffcheckPASS.
