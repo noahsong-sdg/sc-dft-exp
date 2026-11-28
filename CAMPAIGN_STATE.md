@@ -1767,3 +1767,10 @@ Scientific value: resolve whether independently qualified linear seed plus4-step
 Terminal FAIL after1200.170438541565s, solely Native continuous deadline. Guard-owned native/group terminated; PIDs absent. Peak individual/group919617536B; no observation-query failure. All1037pins and public/consumed manifest equality revalidated. Last complete progress59424/66867 at1083.685013kernelCPU seconds; no full-map final output. Partial rows are unaccepted.
 
 New native total15992.079956543483s; remaining2007.9200434565173s under18000s. The historical680–908s forecast underestimates this source-built full checker on the present Mac. Last7tile intervals range16.024–17.289CPU seconds/1024rows, suggesting approximately120–126additional kernelCPU seconds for missing7443rows. A full replay around1320s is an estimate, not a bound. A separately admitted1500s run would stay inside5h with507.920043s reserve; no admission or launch follows solely from this failure. First finish outstanding analytic-control checks and record the explicit cost/value decision.
+
+
+## Independent continuum current-normalization control
+
+New analytic parabolic-band density identity checks audited Q0 slope against paired two-spin density minus thermal normal-fluid density, including the finite-cutoff normal-reference boundary.12cases beta4/12/40/120 and gap0/.15/.4Ry agree to maximum6.938893903907228e-18. Rydberg-to-Hartree transformation halves the slope; normal and low-temperature density limits pass. This is artificial continuum evidence for a conditional prefactor, not native current/stencil execution or Nb functional/normalization acceptance. See CURRENT_UNIT_CONTROL.md and parabolic_current_normalization001_result.json; no physical length or fitted factor introduced.
+
+Final repository gate193tests PASS19.855s including native fixtures;198maintained Python source compilations PASS; moment_refinement exit0; no separate configured typecheck. Native solver unchanged. Current full-gap002 terminal deadline/no accepted full residual remains separately recorded.

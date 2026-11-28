@@ -97,3 +97,18 @@ Our resulting comparison protocol is prospective, not an accepted result:
 4. Accept no physical length comparison until mass/current assumptions and
    matched conventions are derived and independently checked. These sources
    identify useful external checks; none closes that gate by itself.
+
+
+## Conditional unit/spin normalization control
+
+CURRENT_UNIT_CONTROL.md derives a separate continuum identity for the audited
+Q0 formula: in a parabolic band the Rydberg slope equals paired two-spin density
+minus thermal normal-fluid density, with an explicit finite-cutoff boundary.
+All12 artificial finite-temperature cases agree within6.94e-18; independent
+regressions check normal/low-temperature limits and S_Hartree=S_Rydberg/2.
+This provides a conditional unit ledger without fitting a niobium scale.
+The two native arrays are quadrature estimates, not separate spin factors.
+It does not execute the native current/stencil, qualify the released arithmetic,
+normalize the actual Nb quadrature, bound gap/response error, or justify a mass
+vertex. No physical material length is accepted.193tests/198source compilations
+and moment final checks pass; source/input identities are in the resultJSON.

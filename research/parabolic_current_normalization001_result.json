@@ -1,0 +1,146 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "beta_inverse_ry": 4.0,
+      "gap_ry": 0.0,
+      "paired_density": 0.0331772941846641,
+      "thermal_normal_density": 0.0331772941846641,
+      "finite_cutoff_normal_boundary": 1.4304991521857027e-26,
+      "slope_ry": 0.0,
+      "density_control": -1.4304991521857027e-26,
+      "absolute_difference": 1.4304991521857027e-26
+    },
+    {
+      "beta_inverse_ry": 4.0,
+      "gap_ry": 0.15,
+      "paired_density": 0.03384193456705258,
+      "thermal_normal_density": 0.03081910861999605,
+      "finite_cutoff_normal_boundary": 1.4304991521857027e-26,
+      "slope_ry": 0.0030228259470565385,
+      "density_control": 0.0030228259470565337,
+      "absolute_difference": 4.7704895589362195e-18
+    },
+    {
+      "beta_inverse_ry": 4.0,
+      "gap_ry": 0.4,
+      "paired_density": 0.03767810010670947,
+      "thermal_normal_density": 0.020402857723797505,
+      "finite_cutoff_normal_boundary": 1.4304991521857027e-26,
+      "slope_ry": 0.017275242382911966,
+      "density_control": 0.017275242382911962,
+      "absolute_difference": 3.469446951953614e-18
+    },
+    {
+      "beta_inverse_ry": 12.0,
+      "gap_ry": 0.0,
+      "paired_density": 0.030592615572790048,
+      "thermal_normal_density": 0.030592615572790048,
+      "finite_cutoff_normal_boundary": 6.265343213457946e-79,
+      "slope_ry": 0.0,
+      "density_control": -6.265343213457946e-79,
+      "absolute_difference": 6.265343213457946e-79
+    },
+    {
+      "beta_inverse_ry": 12.0,
+      "gap_ry": 0.15,
+      "paired_density": 0.03155686467710622,
+      "thermal_normal_density": 0.01650429269219261,
+      "finite_cutoff_normal_boundary": 6.265343213457946e-79,
+      "slope_ry": 0.015052571984913618,
+      "density_control": 0.015052571984913613,
+      "absolute_difference": 5.204170427930421e-18
+    },
+    {
+      "beta_inverse_ry": 12.0,
+      "gap_ry": 0.4,
+      "paired_density": 0.03638578789289721,
+      "thermal_normal_density": 0.0014820112344110599,
+      "finite_cutoff_normal_boundary": 6.265343213457946e-79,
+      "slope_ry": 0.03490377665848615,
+      "density_control": 0.03490377665848615,
+      "absolute_difference": 0.0
+    },
+    {
+      "beta_inverse_ry": 40.0,
+      "gap_ry": 0.0,
+      "paired_density": 0.030317310317116673,
+      "thermal_normal_density": 0.030317310317116673,
+      "finite_cutoff_normal_boundary": 3.4837363702685025e-262,
+      "slope_ry": 0.0,
+      "density_control": -3.4837363702685025e-262,
+      "absolute_difference": 3.4837363702685025e-262
+    },
+    {
+      "beta_inverse_ry": 40.0,
+      "gap_ry": 0.15,
+      "paired_density": 0.031441830013315866,
+      "thermal_normal_density": 0.00048783190865401486,
+      "finite_cutoff_normal_boundary": 3.4837363702685025e-262,
+      "slope_ry": 0.03095399810466186,
+      "density_control": 0.030953998104661852,
+      "absolute_difference": 6.938893903907228e-18
+    },
+    {
+      "beta_inverse_ry": 40.0,
+      "gap_ry": 0.4,
+      "paired_density": 0.036376756862461015,
+      "thermal_normal_density": 3.5130224668502294e-08,
+      "finite_cutoff_normal_boundary": 3.4837363702685025e-262,
+      "slope_ry": 0.03637672173223635,
+      "density_control": 0.03637672173223635,
+      "absolute_difference": 0.0
+    },
+    {
+      "beta_inverse_ry": 120.0,
+      "gap_ry": 0.0,
+      "paired_density": 0.030293290048983512,
+      "thermal_normal_density": 0.030293290048983512,
+      "finite_cutoff_normal_boundary": 0.0,
+      "slope_ry": 0.0,
+      "density_control": 0.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "beta_inverse_ry": 120.0,
+      "gap_ry": 0.15,
+      "paired_density": 0.031441564941054996,
+      "thermal_normal_density": 5.009473369332781e-09,
+      "finite_cutoff_normal_boundary": 0.0,
+      "slope_ry": 0.03144155993158163,
+      "density_control": 0.031441559931581625,
+      "absolute_difference": 6.938893903907228e-18
+    },
+    {
+      "beta_inverse_ry": 120.0,
+      "gap_ry": 0.4,
+      "paired_density": 0.036376756843418886,
+      "thermal_normal_density": 7.566315520410981e-22,
+      "finite_cutoff_normal_boundary": 0.0,
+      "slope_ry": 0.03637675684341889,
+      "density_control": 0.036376756843418886,
+      "absolute_difference": 6.938893903907228e-18
+    }
+  ],
+  "radial_cutoff_inverse_bohr": 4,
+  "simpson_intervals": 8192,
+  "chemical_potential_ry": 0.93,
+  "radial_measure": "k^2 dk/(2 pi^2), one spin; paired density uses 1-xi/E tanh(beta E/2), already includes two spins",
+  "maximum_absolute_difference": 6.938893903907228e-18,
+  "scope": "Fixed uniform-gap parabolic-band analytic normalization control for audited Q0 formula. Finite shared cutoff, no niobium result, no mass/vertex or quadrature acceptance.",
+  "sha256": {
+    "research/linear_response.py": "3329783e2668d0118da635e52aed6cd2f9111c73965364820b89eae557e6ccee",
+    "research/test_parabolic_current_normalization.py": "1fb405c9ec5163206afe5be77392e80a370425966c88856e26f23aca5a359fe8",
+    "research/raw/public-response-build-004/qe/SCTK/src/sctk_ini_delta.f90": "db9b4472bc0e1452cb58db009544a6ae77299b2e1ae3b5c4dc2f898503c706fe",
+    "research/raw/public-response-build-004/qe/SCTK/src/sctk_broyden.f90": "1062c2a6656455b223111928fbc37996fce564d6dcf0a3acc945b973a9101598",
+    "research/raw/public-response-build-004/qe/Modules/constants.f90": "56c39e90c6f0592aff13972cd090292024a3d4e9e86d0ce4fdfdb5643f1ac1c0"
+  },
+  "physical_response_verified": false,
+  "native_current_end_to_end_verified": false,
+  "verification": {
+    "tests": 193,
+    "test_wall_s": 19.855,
+    "maintained_python_compilations": 198,
+    "moment_refinement_exit": 0
+  }
+}
