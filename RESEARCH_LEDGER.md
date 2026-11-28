@@ -5246,3 +5246,15 @@ resolves the derivative-mapping uncertainty in favor of testing enrichment.
 Source31bad38 CI46147295398PASS. Charged21999.40743792042s/25200 leaves
 3200.592562079579s. All owners terminal; no new native pass admitted. Next path
 and prospective held-out rows fixed in research/SENSITIVITY_ENRICHMENT.md.
+
+### 2026-11-28 — joint A-action/extra-P native variant fixture-qualified
+
+Previous turn verified mapped trial inputs, not an adopted inverse. New native
+variant processes original two kernel orientations once, producing A*trial and
+trial^T*D*A. Every fixture component matches independent dense nonsymmetric
+operator for partial64/full65 including final short tile; saved samples and
+stale controls/shape checked. Full327testsPASS53.213s,300Python compiles/native
+fixture builds/moment/diffcheck PASS. Source/buildcode306lines, frozen producers
+untouched. Admit only build001,571pins,60s/quiet120/3GiB; no material kernels.
+Charged21999.40743792042s/25200 unchanged until terminal actual.
+See research/ENRICHMENT_ACTION_PASS.md and enrichment_action_build001_manifest.json.
