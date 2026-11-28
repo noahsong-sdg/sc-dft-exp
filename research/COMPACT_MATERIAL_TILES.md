@@ -48,5 +48,33 @@ Final source gate:292testsPASS40.688s, including actual compiled native fixtures
 269Python source files compilePASS; moment_refinement.py exit0; diffcheckPASS.
 No separate configured typecheck. Four focused new tests cover parent/closure
 admission and independent arithmetic/readback with stale persisted cases. The
-new material helper and readback total206non-test lines, one scientific purpose.
+new material helper and readback total191non-test lines, one scientific purpose.
 [Prospective manifest](compact_tile_material001_manifest.json),1666pins.
+
+## Material001 accepted result
+
+Terminal guardPASS29.737132583279163s; individual peak1033355264B
+(~985.48MiB), sampled group1033076736B. All1666pins, exact consumed/public
+manifest, receipt command/cwd/guard/deadline and terminal watcher checked. Native
+loaded state matches; normalized derivative maxdifference4.440892098500626e-16.
+All30native controls and21independent saved-kernel controls PASS, independent
+maxdifference1.1102230246251565e-16, maxerror/bound0.00014883289802275314.
+All kernel/P values finite, exact sizes match and unvisited left P columns zero.
+[Result](compact_tile_material001_result.json).
+
+The two native kernel CPU intervals are0.227426/0.219171s; contraction intervals
+0.017620/0.013659s. Kernel construction takes about93.5% of these **two timed
+sections combined**. This excludes initialization, file writes, scalar controls,
+state preparation/checks and readback. It is not a full-sweep profile or speedup
+comparison. The full guarded run takes29.74s, so short selected runs are dominated
+by work outside those two timer pairs. Actual streamed contractions are now
+measured; the earlier dense-BLAS-only forecast is not substituted for them.
+Independent readback separately takes6.107946458272636s/54394880B (~51.87MiB);
+its wall is outside the native charge, not an accepted whole-workflow cost claim.
+No controlled reduction in native or whole-host RSS is established by this run.
+
+Charged campaign total21409.829897628948s/21600, remainder190.17010237105205s. All owners terminal;
+no automatic full pass, retry or budget expansion. Next develop complete-P
+coverage/checkpointing and two-pass material qualification with an explicit cost
+admission before any full-space norm. Physical response remains unqualified.
+Public source/admission0f1bf41 CI46139614699PASS.

@@ -138,6 +138,15 @@ identities).292testsPASS40.688s.
 [Admission](research/compact_tile_material001_manifest.json),
 [method](research/COMPACT_MATERIAL_TILES.md):90s for selected rows1:64,120quiet
 seconds,3GiB caps. No full-pass admission or budget expansion.
+Material001 now terminalPASS29.737132583279163s/1033355264B (~985.48MiB);
+all1666pins, native state and D maxdifference4.44e-16 checked.30native and
+21independent saved-kernel controls PASS (maxdifference1.11e-16); all kernel/P
+values finite, unvisited left P columns zero.
+[Result](research/compact_tile_material001_result.json). Kernel CPU0.227426/
+0.219171s vs contraction0.017620/0.013659s; selected timer sections only, not
+full-sweep cost or speedup. Postread6.107946s/54394880B separate. All owners
+terminal; next complete-P coverage/checkpoints and explicitly budget any full
+pass. No full norm, conditioned gap error or physical-response acceptance.
 [Build admission](research/compact_tile_build001_manifest.json):60s,120quiet
 seconds,3GiB caps; no kernel admission or budget expansion.
 The exact [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md) includes
@@ -182,8 +191,8 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall21380.09276504567s; ceiling21600s leaves
-219.90723495433122s. No next run, automatic retry/fullnorm/kernel pass or budget
+Actual guarded campaign wall21409.829897628948s; ceiling21600s leaves
+190.17010237105205s. No next run, automatic retry/fullnorm/kernel pass or budget
 increase admitted.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.

@@ -4853,3 +4853,25 @@ launch21380.09276504567s/21600,219.90723495433122s remain; worst90s leaves
 [Manifest](research/compact_tile_material001_manifest.json),
 [method](research/COMPACT_MATERIAL_TILES.md). No complete P/norm/error/physical
 acceptance; terminal receipt and independent saved tile readback required.
+
+### 2026-11-28 — selected compact/native material001 accepted
+
+Guard terminalPASS29.737132583279163s, maxindividual1033355264B
+(~985.48MiB), sampled group1033076736B. All1666pins, exact manifest/receipt
+command/cwd/guard/deadline, terminal watcher and output shapes/identities checked.
+Native state matches and normalized D maxdifference4.440892098500626e-16;
+30native controls with exact identities PASS. Independent21saved-kernel P controls
+PASS, maxdifference1.1102230246251565e-16, maxerror/bound0.00014883289802275314.
+All P/kernel entries finite, unvisited left P columns zero. Separate chunked
+postread6.107946458272636s/54394880B, outside native charge.
+Kernel CPU intervals0.227426/0.219171s vs contraction0.017620/0.013659s. Kernel
+is~93.5% of these selected timer sections, not whole wall or a full-sweep profile.
+No controlled speedup or memory-reduction claim. Both kernel orientations and
+actual32-row native-to-compact contraction now have material evidence.
+Public source/admission0f1bf41 CI46139614699PASS.
+[Result](research/compact_tile_material001_result.json),
+[interpretation](research/COMPACT_MATERIAL_TILES.md).
+Charged total21409.829897628948s/21600; remainder190.17010237105205s. No full P/norm,
+conditioned gap error, physical response, seed/inverse promotion or budget expansion.
+All owners terminal; next complete-P coverage/checkpointing and explicit full-pass
+cost admission. Brave/otherstudy untouched.
