@@ -1,0 +1,91 @@
+{
+  "terminal_guard_pass": true,
+  "inputs_unchanged": true,
+  "manifest_sha256": "6175f404832e2e5777dd9166999bd5b23f6829667021ea57530c2ff472c6e9b7",
+  "verified_input_count": 1735,
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-material-001/compact-P-native.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-material-001/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-material-001",
+    "wall_s": 30.05208083288744,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 1076133888,
+    "sampled_peak_group_rss_bytes": 1041268736,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 90.0,
+    "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+  },
+  "fingerprint": "43be64148f45cab2975254ad80a543945a60423745b226bdbf77a09b8cf79cca",
+  "material_restart_qualified": true,
+  "continuous_checkpoint": {
+    "completed_left_rows": 64,
+    "cpu_s": [
+      0.4446070000000013,
+      0.03196799999999911
+    ],
+    "binary_sha256": "46131b24daf1d2f98d72f59b54cf22fcdf8af52821ffe76cdcca94c7682cb035",
+    "binary_bytes": 55001256,
+    "all_values_finite": true,
+    "unvisited_left_columns_zero": true
+  },
+  "split_checkpoint": {
+    "completed_left_rows": 32,
+    "cpu_s": [
+      0.2298669999999987,
+      0.016320000000000334
+    ],
+    "binary_sha256": "a626b66050cdf16954915b32a1b8c754aa7c21618e4539fc55858d601e9b34d8",
+    "binary_bytes": 55001256,
+    "all_values_finite": true,
+    "unvisited_left_columns_zero": true
+  },
+  "replay_cpu_s": [
+    0.46574799999999783,
+    0.030307000000000528
+  ],
+  "accepted_partial_P_bitwise_equal": true,
+  "complete_P": false,
+  "full_space_norm_measured": false,
+  "outputs": {
+    "compact-p.meta": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-material-001/compact-p.meta",
+      "bytes": 230,
+      "sha256": "306600e4c22a883bbc87ddf2973911418fe48bf5cb0ee93145c0f14dcbdbc15c"
+    },
+    "compact-p.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-material-001/compact-p.bin",
+      "bytes": 55001256,
+      "sha256": "46131b24daf1d2f98d72f59b54cf22fcdf8af52821ffe76cdcca94c7682cb035"
+    },
+    "split/compact-p.meta": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-material-001/split/compact-p.meta",
+      "bytes": 230,
+      "sha256": "137afd25ce33a7e5bec74fdbc1e595afdd962582c7d1d3c73b869d5f3f04c236"
+    },
+    "split/compact-p.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-material-001/split/compact-p.bin",
+      "bytes": 55001256,
+      "sha256": "a626b66050cdf16954915b32a1b8c754aa7c21618e4539fc55858d601e9b34d8"
+    },
+    "compact-P-qualification.txt": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-material-001/compact-P-qualification.txt",
+      "bytes": 270,
+      "sha256": "50b81ca2bbf0f051805b3a9c96cd960f15e4e2dc0be9cd0a3b6e068e4fd6b9f5"
+    },
+    "compact-P-progress.txt": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-material-001/compact-P-progress.txt",
+      "bytes": 308,
+      "sha256": "ddb7af1f81a30c12fde8d8a1e735e3ed23acb1dbbd7c1bc67f45839a22047fe7"
+    }
+  },
+  "conditioned_gap_error_bounded": false,
+  "physical_response_verified": false,
+  "postread_wall_s": 14.913044875022024,
+  "postread_maxrss_bytes": 55492608
+}

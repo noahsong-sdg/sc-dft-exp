@@ -182,3 +182,20 @@ Final source gate:306testsPASS43.509s;279Python compilationsPASS; actual Fortran
 fixture builds/runsPASS via full suite; moment_refinement.py exit0; diffcheckPASS.
 No separate configured typecheck. Actual staged manifest has1735pins, native
 counts66867/67940/rank51 and exact registered fingerprint.
+
+Material qualifier001 now terminalPASS30.05208083288744s, maxindividual
+1076133888B (~1026.28MiB), sampled group1041268736B. The actual native
+continuous64 versus checkpoint32+32 comparison passed every binary64 bit.
+Independent readback verified1735pins, exact consumed manifest/receipt/watcher,
+registered context, six output identities, finite/untouched-column invariants and
+continuous64 SHA25646131b24daf1d2f98d72f59b54cf22fcdf8af52821ffe76cdcca94c7682cb035
+against the accepted selected-material output: all6,875,157entries identical.
+Continuous kernel/contraction CPU0.4446070000000013/0.03196799999999911s;
+replay0.46574799999999783/0.030307000000000528s. These section timers do not
+replace30.052s guarded cost. Readback14.913044875022024s/55492608B
+(~52.92MiB) is separate workflow cost. [Result](compact_p_material001_result.json).
+Source/admission8a3a29c public CI46142133013PASS.
+Charge21443.538124337178s/21600;156.461875662822s remain. All owners terminal.
+Material restart for these two native tiles is now qualified; complete P, second
+pass, full norm/radius, conditioned gap error and physical response remain open.
+No budget expansion or full sweep follows automatically from this result.

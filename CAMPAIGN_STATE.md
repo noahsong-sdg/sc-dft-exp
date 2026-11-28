@@ -142,8 +142,13 @@ and stages continuous64 versus checkpoint32+32 with selected material001 P ident
 120quiet seconds,3GiB caps; no full pass/budget expansion.306testsPASS43.509s;
 279Python compilationsPASS; native fixtures and moment refinement PASS. No complete material P, full norm,
 outward certificate, conditioned gap error or physical response accepted.
-Before launch all owners terminal; only material restart qualifier001 admitted.
-No full pass or budget expansion admitted.
+Material restart qualifier001 now terminalPASS30.05208083288744s; all1735pins and
+6,875,157partial-P entries match accepted selected material001 bitwise.
+Native peak1076133888B (~1026.28MiB); readback14.913044875022024s/55492608B
+separate from native cost. [Result](research/compact_p_material001_result.json).
+All owners terminal. Next: complete ordered-P admission/checkpoint coverage and
+independent saved-action controls, then full second-pass defect diagnostic.
+No complete P, full norm, response or budget expansion accepted.
 The exact [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md) includes
 same-side blocks and avoids a145GB dense matrix;2.78Tflops is not runtime evidence.
 [Method and interpretation](research/CORRECTION_INVERSE_DIAGNOSTIC.md).
@@ -186,8 +191,8 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall21413.48604350429s; ceiling21600s leaves
-186.51395649570986s. No next run, automatic retry/fullnorm/kernel pass or budget
+Actual guarded campaign wall21443.538124337178s; ceiling21600s leaves
+156.46187566282242s. No next run, automatic retry/fullnorm/kernel pass or budget
 increase admitted.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.

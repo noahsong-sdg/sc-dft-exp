@@ -4989,3 +4989,27 @@ Pressure1 observed before admission. Charge21413.48604350429s/21600 leaves
 native work charged by actual guarded wall; parent hashing/postread separate.
 No full sweep/budget expansion admitted. No material acceptance yet.
 Brave and separate study untouched.
+
+### 2026-11-28 — actual niobium restart qualification001 accepted
+
+Source/admission8a3a29c public CI46142133013PASS. Guard observed120continuous
+normal-pressure seconds, then native qualifier terminalPASS30.05208083288744s,
+maxindividual1076133888B (~1026.28MiB), sampled group1041268736B.
+Actual uninterrupted64 versus persisted32+32cache-reset restart matches all bits.
+Independent postread validated all1735pins, exact consumed manifest/receipt/watcher,
+actual registered context, six output hashes, finite/untouched-column invariants;
+final P equals independently accepted selected-material P SHA256
+46131b24daf1d2f98d72f59b54cf22fcdf8af52821ffe76cdcca94c7682cb035
+across6,875,157binary64entries. Split32checkpoint separately content-bound.
+[Result](research/compact_p_material001_result.json).
+
+Continuous kernel/contraction CPU0.4446070000000013/0.03196799999999911s;
+replay0.46574799999999783/0.030307000000000528s. Actual guarded wall charges
+both modes plus initialization. Independent postread14.913044875022024s and
+55492608B (~52.92MiB) separate, not claimed as total workflow cost.
+Charge21443.538124337178s/21600; remainder156.461875662822s. All owners terminal.
+No code changes after306testsPASS43.509s/279compiles/native fixtures/moment PASS.
+Restart now qualified for these material tiles. Full P coverage and independent
+saved-action controls, second-pass full-space norm, outward/radius and physical
+response gates remain open. No budget expansion/full sweep admitted.
+Brave and separate study untouched.
