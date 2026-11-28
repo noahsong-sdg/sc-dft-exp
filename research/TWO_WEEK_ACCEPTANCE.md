@@ -28,16 +28,16 @@ sample/model discrepancy is separate and must not be absorbed by fitting a facto
 
 ## Requirement-to-evidence map
 
-| Gate | Evidence required | Initial status |
+| Gate | Evidence required | Current status |
 |---|---|---|
-| Public source-only native path | Fresh custom modules/executable from inspectable licensed source; pinned public QE/SCTK; no historical objects/modules; full recipe and cost | Source-only full driver linked; retained-context dx0 check fails; fresh own-array initialization roundtrip passes; full gap runtime unqualified |
+| Public source-only native path | Fresh custom modules/executable from inspectable licensed source; pinned public QE/SCTK; no historical objects/modules; full recipe and cost | Source-only checkpoint driver built; fresh own-array initialization and complete ordered full residual runtime qualified at8.05K; physical response path remains open |
 | Compatible reusable inputs | Public acquisition or rights-cleared release; geometry, temperature, kernel, Z, Coulomb and band contexts verified; reconstruction/invalidation tested | Fresh Mac geometry exported from pinned public band/phonon data; compatible Z/basis and full acquisition remain incomplete |
-| Converged equilibrium gap | Independent full residual, conditioning/error transport, basis/setup and relevant grid controls at each accepted temperature | Retained8.05K residual anchor only; conditioning/portability open |
+| Converged equilibrium gap | Independent full residual, conditioning/error transport, basis/setup and relevant grid controls at each accepted temperature | Fresh8.05K candidate passes both original full residual thresholds with complete source/state lineage; conditioning/error transport and2K/4K remain open; see FRESH_STATIONARITY_805K.md |
 | Correct response functional | Derivation of small-Q response and units, normal-state cancellation and zero-gap/zero-Q limits, consistent treatment of mass/vertex and SCDFT approximations | Incomplete |
 | Directional/state mapping | Qualified Q0-to-directional layout or independently derived linear-response route; no silent gap remapping | Incomplete |
 | Numerical reliability | Registered 1% target met by evidence covering all relevant contributions; independent formulation/analytic checks; held-out controls | Incomplete; imposed-gap grid diagnostics are not this evidence |
 | Physical interpretation | Reference with matched conventions/approximations and sample conditions; uncertainty/mismatch explained; no tuned normalization | Incomplete |
-| Laptop accessibility | Fresh accepted-result wall/memory/storage/setup costs, reuse boundaries and failures, usable resource limits | Downstream historical measurements only |
+| Laptop accessibility | Fresh accepted-result wall/memory/storage/setup costs, reuse boundaries and failures, usable resource limits | Fresh source-build and8.05K full-residual guarded wall/RSS recorded; whole accepted-response setup/runtime/storage and energy costs remain open |
 | Scientific decision | Report distinguishability or lack of it under the accepted uncertainty budget and its validation domain | Not achieved |
 | Public reproduction | Runnable source/input procedure, tests, figures, environment and verified public artifacts | Partial; earlier diagnostic path only |
 

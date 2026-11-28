@@ -1,0 +1,113 @@
+{
+  "terminal_guard_pass": true,
+  "inputs_unchanged": true,
+  "verified_input_count": 1448,
+  "checkpoint": {
+    "completed_rows": 66867,
+    "dimensions": [
+      66867,
+      67940,
+      67940
+    ],
+    "beta": 19613.355577892344,
+    "step_ry": 1e-08,
+    "tile_sum_max_absolute_difference": 5.124915249121731e-15,
+    "cumulative_kernel_cpu_s": 545.615483,
+    "partial_image_explicit_sum_bound": 1.2834705838092607e-11,
+    "independent_weights_max_absolute_difference": 6.938893903907228e-18,
+    "independent_weights_bound": 1e-14,
+    "state_bitwise_matches_source": true,
+    "sha256": {
+      "linear-image-checkpoint.meta": "3d3fa9b0a082e96f6768cb5d0228d9c2dd3e4aa85186456aff5f23cf193ce893",
+      "linear-image-checkpoint.bin": "d5ec4b4a13b67af1b79dfecd90ede5046e2a56e3d87f1463a320e40dff10af6f",
+      "full-map-checkpoint.meta": "4e10c134e470e0e2c7e0aba7f69b450b7ac1560c3cd1bb3ba6a0f0d8c31db64e",
+      "full-map-checkpoint-state.bin": "9ddeb01020ae343474f0a8edcdb8efc169acdefbfece110c98ac153c86748709"
+    }
+  },
+  "split_checkpoint": null,
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-map-segment-016/verify-gap-seed.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-map-segment-016/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-map-segment-016",
+    "wall_s": 173.92364558344707,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 920158208,
+    "sampled_peak_group_rss_bytes": 920158208,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 300.0,
+    "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+  },
+  "microscopic_split_qualified": false,
+  "full_native_residual_verified": true,
+  "physical_response_verified": false,
+  "manifest_sha256": "2fe44d8c97aaaed8ed801bff13684ad0e0d9be0e4770f652d2ee9a7c990e1d48",
+  "scope": "Certify ordered partial images and exact state binding, not a physical response.",
+  "lineage_depth": 4,
+  "lineage_native_wall_s": 725.6566818333231,
+  "qualification_manifest": "/Users/noahs/Developer/sc-dft-exp/research/portable_full_map_qualify005_manifest.json",
+  "qualification_manifest_sha256": "33707505f1c19508fa9d6e485dcadce9ab49ba1b6d045ddab5a224e145345a89",
+  "complete_left_row_coverage": true,
+  "full_candidate": {
+    "full_readback": {
+      "dimensions": [
+        66867,
+        67940,
+        67940,
+        4
+      ],
+      "beta": 19613.355577892344,
+      "finite_difference_step_ry": 1e-08,
+      "kernel_cpu_s": 545.615483,
+      "tile_sum_max_absolute_difference": 5.124915249121731e-15,
+      "jacobian_difference": 3.420923988528557e-09,
+      "jacobian_acceptance_bound": 1.045294453946166e-05,
+      "sides": [
+        {
+          "side": 1,
+          "max_absolute_residual_ry": 3.674527659415245e-11,
+          "rms_residual_ry": 6.999428852272078e-12,
+          "max_absolute_jacobian_action": 5.22147226973083
+        },
+        {
+          "side": 2,
+          "max_absolute_residual_ry": 6.09669437161189e-11,
+          "rms_residual_ry": 1.3951648703296969e-11,
+          "max_absolute_jacobian_action": 4.986211286125626
+        }
+      ],
+      "sha256": {
+        "full-map.txt": "f8751f3f87764a15a1ad65e91f11ae73cd3a196564883cb2c8955007ae6b9929",
+        "full-map.bin": "4738cd9dee699dcfff928565bece797ceeb613d25fa432570b6a1fe045d72711"
+      },
+      "scope": "Full native Q0 residual at imposed seed; terminal receipt required; no gap convergence or physical response validation"
+    },
+    "terminal_guard_pass": true,
+    "input_gap_bitwise_preserved": true,
+    "wall_s": 173.92364558344707,
+    "peak_individual_rss_bytes": 920158208,
+    "residual_infinity_ry": 6.09669437161189e-11,
+    "rms_residual_over_gap": 1.0312693411116765e-06,
+    "thresholds": {
+      "residual_infinity_ry": 1e-10,
+      "rms_residual_over_gap": 1e-05
+    },
+    "stationary_residual_targets_met": true,
+    "conditioned_gap_error_bounded": false,
+    "physical_response_verified": false,
+    "manifest_sha256": "2fe44d8c97aaaed8ed801bff13684ad0e0d9be0e4770f652d2ee9a7c990e1d48",
+    "scope": "Versioned owning-root residual verifier; numerical acceptance is unchanged."
+  },
+  "normalization_readback": {
+    "max_absolute_difference": 0.0,
+    "acceptance_bound": 1.044296453946166e-12
+  },
+  "campaign_native_wall_s": 20543.82354433773,
+  "campaign_native_ceiling_s": 21600,
+  "campaign_native_remaining_s": 1056.1764556622693
+}

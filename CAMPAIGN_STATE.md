@@ -16,32 +16,20 @@ Fermi means0.15338589025376448/0.15248045857965492meV, ~0.104% belowrank50;
 coefficient residual6.288372600415926e-17, not full stationarity.
 [Result](research/portable_reduced_gap004_result.json).
 
-Rank50 complete full map: all66867leftrows and1343pins certified; exact source,
-seed and qualification004 lineage PASS. Independent normalization maxdiff0,
+Rank51 complete full map: all66867leftrows and1448pins certified; exact source,
+seed and qualification005 lineage PASS. Independent normalization maxdiff0,
 explicit-sum and Jacobian finite-difference checks PASS.
-[Complete result](research/portable_full_map_segment012_result.json).
-Rinf3.150982530792019e-10Ry >1e-10: FAIL. RMSres/gap6.950913015827202e-6
-<=1e-5: PASS. Both are required, so stationary acceptance remains false.
-Maximum/RMS-ratio residuals improve7.995x/6.743x fromrank49. Conditioning and
-physical response remain unaccepted. Rank51 full residual unknown.
+[Complete result](research/portable_full_map_segment016_result.json).
+**Both original stationary-residual targets PASS:** Rinf6.09669437161189e-11Ry
+<=1e-10; RMSres/gap1.0312693411116765e-6 <=1e-5. This establishes the registered
+finite residual gates for this8.05K candidate; conditioned gap error, physical
+response and other temperatures remain unqualified. [Milestone](research/FRESH_STATIONARITY_805K.md).
 
-Preparation003 terminalPASS27.503475583158433s/231718912B. Strict1354pins,
-unchanged inherited Q/U bytes, norm1 and overlap1.0902204203517749e-18 PASS.
-Independent exponential image error4.607859233063394e-19Ry.
-[Readback](research/portable_occupation_prepare003_result.json).
-Launch label prepare was corrected to occupation after terminal completion;
-receipt/console bytes unchanged. [Layout provenance](research/occupation_receipt_layout003_result.json).
-Qualification005 terminalPASS36.779333082959056s/932052992B;1384pins verified,
-continuous64 vs persisted32+32 bitwise, exact active state and independent
-occupations PASS. [Result](research/portable_full_map_qualify005_result.json).
-Segment015 terminalPASS170.02282962482423s/922992640B;1432pins and
-qualification005 lineage verified. Completed50112/66867leftrows; exact source
-state, independent occupations and explicit-sum checks PASS.
-[Result](research/portable_full_map_segment015_result.json).
-Only `portable-full-map-segment-016` admitted, finalrows50113:66867,300s hard
-limit,quiet120/3GiB. [Manifest](research/portable_full_map_segment016_manifest.json).
-Require complete chain, independent normalization and original stationarity targets;
-no automatic correction/retry. Brave/otherstudy untouched.
+No native owner/admission. Next trace the full residual H and available low-rank
+inverse B to assess conditioning/correction evidence; do not replace a full-space
+error bound with reduced singular values or probe agreement. Preserve all frozen
+inputs/results/source. No further occupation correction is automatically needed
+merely to exceed the already-passing residual targets. Brave/otherstudy untouched.
 
 ## Latest accepted evidence
 
@@ -77,9 +65,10 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall20369.899898754284s; ceiling21600s leaves
-1230.1001012457164s. Finalsegment016 ceiling300 leaves930.1001012457164s.
-Only segment016 admitted. No automatic budget increase.
+Actual guarded campaign wall20543.82354433773s; ceiling21600s leaves
+1056.1764556622693s. No next native job admitted. Any material conditioning or
+response computation requires a bounded value/cost decision and immutable input
+closure. No automatic budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
@@ -106,7 +95,7 @@ controls do not qualify the Nb functional or fit a physical normalization.
 
 Latest code checks:220tests PASS22.258s including native fixture builds;
 219maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
-No separate configured typecheck. Public CI46123083498 on142c68b PASS.
+No separate configured typecheck. Public CI46123522903 onfc69e00 PASS.
 Current docs/results do not replace native or scientific qualification.
 
 Chronology remains in RESEARCH_LEDGER.md and immutable public commits. The former
