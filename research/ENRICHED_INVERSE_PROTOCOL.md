@@ -87,3 +87,69 @@ Brave and the separate study remain untouched.
 Final source gate331testsPASS53.854s including native fixture builds;309Python
 sources compilePASS; moment_refinement exit0; diffcheckPASS. No separate
 configured typecheck. Full-action result6a5ad60 CI46150039062PASS.
+
+## Accepted diagnostic001: enriched candidate rejected
+
+TerminalPASS30.27037683315575s, maxindividual328024064B (~312.83MiB), sampled
+group118308864B (short native peak missed).1958staged/1974accepted closure pins,
+exact consumed manifest/receipt/watcher and ten output identities checked.
+[Result](enriched_inverse001_result.json). Sourceb93c140 CI46150551746PASS.
+All independent checks passed: all2916 M entries (maxerror8.304468224196171e-14,
+maxerror/bound0.00026164815258147465), two-sided inverse1.7293459157869913e-13,
+324 C samples maxerror2.42861286636753e-16 and every old/new saved row element
+maxerror3.122502256758253e-17. Small-matrix singular ratio2328.1414351593335
+is not full-space conditioning.
+
+| Row | Role | Old defect sum | Enriched defect sum |
+|---|---|---:|---:|
+| left1 | training |272.463383|25.689839|
+| left32 | training |205.758588|19.468015|
+| left64 | training |123.741233|11.668872|
+| left65 | held-out |147.831350|13.936707|
+| left33434 | held-out |220.100539|20.753940|
+| left66867 | held-out |172.168725|16.080739|
+| right1 | held-out |245.730778|23.546274|
+| right33970 | held-out |203.334158|19.278254|
+| right67940 | held-out |155.813816|14.731376|
+
+Every tested row still exceeds one. This54-column candidate fails the registered
+unweighted contraction gate despite roughly tenfold improvement. No full defect
+sweep will run on it; no inverse/gap or physical result adopted.
+Charged22575.04157867035s/25200 leaves2624.958421329651s. All owners terminal.
+
+### Saved-direction postread, separate workflow cost
+
+[Read-only postread](enriched_inverse001_direction_postread.json) independently
+sums E*v using saved old/new nine-row matrices and the original three exported
+sensitivity directions. All27 enriched components have magnitude<=3.88e-15;
+old leading-direction components reach1.12228. Thus mapped-direction repair works
+on those directions; the large remaining row sums cannot be attributed simply
+to failure to annihilate them. This is not a full complement bound or a causal
+proof of every remaining error. Input identities match before/after; wall
+0.27378129167482257s separate from guarded ledger. Reproduce the numeric arrays:
+
+```python
+from pathlib import Path
+import math
+from defect_spectrum_readback import matrix
+from stream_inverse_action import column
+n=134807
+v=matrix(Path('research/raw/defect-row-spectrum-001/sensitivity-directions.bin'),n,3)
+for filename in ('baseline-rows.bin','enriched-rows.bin'):
+    parts=[[[] for _ in range(9)] for _ in range(3)]
+    with (Path('research/raw/enriched-inverse-001')/filename).open('rb') as stream:
+        for first in range(0,n,1024):
+            width=min(1024,n-first);values=column(stream,9*width)
+            for k in range(3):
+                for i in range(9):
+                    parts[k][i].append(math.fsum(a*b for a,b in zip(values[i::9],v[k][first:first+width])))
+    print(filename,[list(map(math.fsum,col)) for col in parts])
+```
+
+Run from repository root with PYTHONPATH=research; recorded JSON includes all
+three source binary hashes. No new kernels, inverse or physical acceptance.
+The original training spectrum has9directions above the already fixed1e-10
+relative-eigenvalue threshold; only3were exported for the first pilot. Any future
+candidate must be based on training data and a prospectively fixed rule, with
+fresh held-out rows; current held-out results are now validation history and
+cannot be reused as an untouched test. No new candidate or compute admitted here.

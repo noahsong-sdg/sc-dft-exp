@@ -28,8 +28,10 @@ of the sampled squared defect concentrated in one input direction almost outside
 the existing basis. It took6.43s and268.53MiB peak memory, with independent checks.
 Derivative-weighted trial inputs now have [complete interaction actions and
 projection rows](research/FULL_ENRICHMENT_ADMISSION.md), computed in507.83s at
-967.67MiB peak with36numerical controls passing. A [fixed held-out inverse
-test](research/ENRICHED_INVERSE_PROTOCOL.md) comes next; no new inverse is accepted.
+967.67MiB peak with36numerical controls passing. The [fixed held-out inverse test](research/ENRICHED_INVERSE_PROTOCOL.md) reduced
+all nine row sums about tenfold but left11.67–25.69, still above one. That
+candidate is rejected for this contraction route; no full sweep or inverse
+adoption. The diagnostic took30.27s at312.83MiB peak.
 This is a numerical-route result, not rejection of the niobium solution. The [budget decision and
 resource limits](research/COMPLETE_P_ADMISSION.md) are public.
 Converged gaps at2K/4K, complete conditioning/error transport, response normalization,

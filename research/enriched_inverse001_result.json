@@ -1,0 +1,188 @@
+{
+  "terminal_guard_pass": true,
+  "inputs_unchanged": true,
+  "manifest_sha256": "8f51cdbf341ce9809fa1168c24e4f36143919a4a7373d442eee73cb05b95c342",
+  "indices_one_based": [
+    1,
+    32,
+    64,
+    65,
+    33434,
+    66867,
+    66868,
+    100837,
+    134807
+  ],
+  "training_positions": [
+    0,
+    1,
+    2
+  ],
+  "heldout_positions": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "old_row_norms": [
+    272.46338330480893,
+    205.75858845030228,
+    123.74123328866376,
+    147.8313500350293,
+    220.10053879975484,
+    172.16872525604876,
+    245.73077813938397,
+    203.3341580764665,
+    155.81381555913453
+  ],
+  "enriched_row_norms": [
+    25.689838646225976,
+    19.46801516907153,
+    11.668872029458178,
+    13.936707299840338,
+    20.753939806838265,
+    16.08073946388024,
+    23.546274236177926,
+    19.278253575318736,
+    14.731376013057425
+  ],
+  "sampled_contraction_gate_pass": false,
+  "small_matrix_max_error": 8.304468224196171e-14,
+  "small_matrix_max_error_over_bound": 0.00026164815258147465,
+  "inverse_two_sided_max_error": 1.7293459157869913e-13,
+  "singular_values": [
+    4.8580294269248885,
+    3.75159449976011,
+    1.7983482686707606,
+    1.640831968933432,
+    1.5221969118251406,
+    1.5092743312925827,
+    1.5073623071050595,
+    1.5006342786727707,
+    1.4998938607847652,
+    1.493231161358176,
+    1.3567527519294356,
+    1.320868163660759,
+    1.2886578189822644,
+    1.2358027565623833,
+    1.2344825753771496,
+    1.220190461831251,
+    1.2065860146398455,
+    1.2007215381746121,
+    1.1932977750148612,
+    1.1801571054911666,
+    1.1749911840211287,
+    1.1703029258265327,
+    1.1499339135652211,
+    1.1392986005551702,
+    1.1364483484913714,
+    1.129883641225617,
+    1.1044443278683846,
+    1.1004527762254923,
+    0.987048078607064,
+    0.9240959376647028,
+    0.9017601946794706,
+    0.8876388802493693,
+    0.8804725915465599,
+    0.8696807763157088,
+    0.8389338608076532,
+    0.8320112710444106,
+    0.8299857784056127,
+    0.8186846139166297,
+    0.8142860399000708,
+    0.808936799187685,
+    0.8048734661758692,
+    0.7751688594643938,
+    0.7710808139773302,
+    0.7679809188986724,
+    0.7299505518129497,
+    0.6917046628064993,
+    0.6361133874502012,
+    0.508789554962035,
+    0.5069101318196263,
+    0.5052644744993651,
+    0.49241184856485615,
+    0.4900113638665775,
+    0.1778072233374189,
+    0.002086655627342681
+  ],
+  "small_matrix_singular_ratio": 2328.1414351593335,
+  "coefficient_max_error": 2.42861286636753e-16,
+  "row_element_max_error": 3.122502256758253e-17,
+  "inverse_adopted": false,
+  "full_space_norm_measured": false,
+  "outward_certified": false,
+  "physical_response_verified": false,
+  "outputs": {
+    "inverse.x": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/enriched-inverse-001/inverse.x",
+      "bytes": 52504,
+      "sha256": "4d94a453af09e95a13d264e5637077a9dc121755ddce8007aec9a8973c179535"
+    },
+    "inverse-build-command.json": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/enriched-inverse-001/inverse-build-command.json",
+      "bytes": 377,
+      "sha256": "5266cbd9f9713e7722d428217d1a11a3f87ce8443fed0760afc15ed2843bbe56"
+    },
+    "enriched-m.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/enriched-inverse-001/enriched-m.bin",
+      "bytes": 23328,
+      "sha256": "ae1e3465c0b6e0f9787da24f9f0ea4a98b900ee647008430fffa9f915d4f0ce1"
+    },
+    "enriched-w.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/enriched-inverse-001/enriched-w.bin",
+      "bytes": 23328,
+      "sha256": "332f974bf73e55e7c967a199906853d430eb325b4f309ad36eba386632198654"
+    },
+    "enriched-c.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/enriched-inverse-001/enriched-c.bin",
+      "bytes": 58236624,
+      "sha256": "ba8fc7cd20444f45025dd473ae9edaa120f97bf905e46b50235b91c310ee85c1"
+    },
+    "enriched-rows.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/enriched-inverse-001/enriched-rows.bin",
+      "bytes": 9706104,
+      "sha256": "855e065053e9a73388da1c691070a5e687e58e87c45674195393e7daccf4f7f8"
+    },
+    "baseline-rows.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/enriched-inverse-001/baseline-rows.bin",
+      "bytes": 9706104,
+      "sha256": "70793cc4e04d0483f0602dbd4051a246af37cd2b3ad9f57c7f8a1e2aeb275660"
+    },
+    "enriched-norms.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/enriched-inverse-001/enriched-norms.bin",
+      "bytes": 144,
+      "sha256": "7bd22f52b0f32fc8b54ff597de462c05209d4509d0c63da065041331140fbdf1"
+    },
+    "enriched-qgram.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/enriched-inverse-001/enriched-qgram.bin",
+      "bytes": 23328,
+      "sha256": "409ac80b8eb4a35a5dd12f78ef08894150168c385247728f27641c768e63ad78"
+    },
+    "enriched-singular.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/enriched-inverse-001/enriched-singular.bin",
+      "bytes": 432,
+      "sha256": "129486feaa7559faec0b936cc5215c1bf0c627efd92dedf6ca32d824d2907709"
+    }
+  },
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "/Users/noahs/Developer/sc-dft-exp/research/enriched_inverse_run.py"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/enriched-inverse-001",
+    "wall_s": 30.27037683315575,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 328024064,
+    "sampled_peak_group_rss_bytes": 118308864,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 240.0,
+    "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+  },
+  "readback_sha256": "fb3e408d704b38f10ffe8d4846face6aa959597c4b2d7f2eec231da52e5c3b31"
+}

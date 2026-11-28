@@ -5328,3 +5328,17 @@ checks all M entries, two-sided inverse, six C columns and every saved row eleme
 unchanged until actual. Parentreplay/stage3.2256356249563396s separate. Anytested
 row>=1 rejects this candidate for unweighted contraction; no threshold tuning.
 Full-action result6a5ad60 CI46150039062PASS. See ENRICHED_INVERSE_PROTOCOL.md.
+
+### 2026-11-28 — enriched inverse improves rows tenfold but fails held-out gate
+
+Diagnostic001 terminalPASS30.27037683315575s/328024064B (~312.83MiB),1958staged/
+1974accepted closure pins, ten outputs/receipt/watcher and all M/W/C/row checks
+PASS. New complete row sums11.67–25.69 vsold123.74–272.46, allabove1. Perfixed
+protocol this54-column candidate is rejected; no full sweep/inverse adoption.
+SmallM singular ratio2328.14 is not full Jacobian condition. Sourceb93c140
+CI46150551746PASS. Charge22575.04157867035s/25200 leaves2624.958421329651s.
+All owners terminal. Separate saved-direction fsum postread0.27378129167482257s,
+all27 Enew*v components<=3.88e-15. Repair annihilates its three selected directions;
+remaining errors are material. Original training threshold resolves9directions,
+only3used. Further candidate must use training-only selection/fresh heldouts;
+no further kernel compute/expansion admitted. Table/recipe ENRICHED_INVERSE_PROTOCOL.md.
