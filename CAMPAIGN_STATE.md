@@ -1557,3 +1557,24 @@ It gives a reviewable bounded-storage/accessor/whole-path qualification split
 without changing frozen sources. No measured replacement memory/performance
 claim. native_memory_accounting001_result.json binds five owning sources.
 No native owner or retry; user Brave/running study untouched. Diffcheck PASS.
+
+
+## Longer quiet-window admission, within unchanged pilot ceiling
+
+Host pressure now1; no SCDFT owner. No assumption that this instantaneous
+observation resolves the preceding stops. A stronger external admission test
+requires600continuous seconds of normal pressure, sampled15s, bounded1200s.
+Only then stage fresh043–045 from033,350s each; unchanged native guard then
+requires its own120normal seconds and3GiB cap. No concurrent watcher/native.
+Three350s ceilings1050s fit remaining1096.2261117064954s without expanding
+the4h pilot. Prior completed segments203–215s; latest253s attempt failed
+pressure, not time;350s is a hard failure bound, not guaranteed completion.
+Question/value unchanged: complete final64images and independently test the
+near-qualified conventional seed. Stronger quiet gate addresses short-lived
+normal windows without another source/storage change. No cheaper projected
+calculation supplies missing images. Stop on admission timeout or any native
+failure, no automatic retry, no cache clearing, no Brave or Docker-study action.
+This decision supersedes the earlier no-admission state only for this bounded
+attempt. No new scientific success threshold, no continuation beyond045.
+Any subsequent nonlinear work requires actual measured cost and a fresh
+scientific-value budget decision. Memory redesign remains an unmeasured proposal.
