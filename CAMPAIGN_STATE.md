@@ -126,6 +126,11 @@ Compact source build001 now staged:576pins,18fresh compiles in checked dry plan,
 explicit SDK library before static archives. New owning runner requires exact
 plan/console, fresh objects/executables,902cache controls and unchanged inputs;
 raw output withholds terminal acceptance.288testsPASS40.777s.
+Build001 now terminalPASS3.6612219577655196s/133087232B (~126.92MiB),
+all576pins,18fresh compiles/35outputs and902bitwise cache controls verified.
+[Build result](research/compact_tile_build001_result.json). Explicit SDK binding
+and console/plan checked independently. All owners terminal; next stage selected
+material tiles from accepted compact preparation and fresh native executable.
 [Build admission](research/compact_tile_build001_manifest.json):60s,120quiet
 seconds,3GiB caps; no kernel admission or budget expansion.
 The exact [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md) includes
@@ -170,8 +175,8 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall21376.431543087903s; ceiling21600s leaves
-223.56845691209674s. No next run, automatic retry/fullnorm/kernel pass or budget
+Actual guarded campaign wall21380.09276504567s; ceiling21600s leaves
+219.90723495433122s. No next run, automatic retry/fullnorm/kernel pass or budget
 increase admitted.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.

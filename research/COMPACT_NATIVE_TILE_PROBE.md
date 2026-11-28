@@ -110,3 +110,11 @@ commands, missing/late SDK binding, mismatched console/cache and changed pins.
 Full suite288PASS40.777s;265Python compilePASS; native fixtures compile/execute
 PASS; moment_refinement.py exit0; diffcheckPASS. No separate configured typecheck.
 [Manifest](compact_tile_build001_manifest.json).
+
+Source build001 now terminalPASS3.6612219577655196s, maxindividual
+133087232B (~126.92MiB). All576pins,18fresh local compiles,2expected links,
+35output hashes and902bitwise cache controls checked. Stored source plan and
+compiler console prefix agree; SDK library precedes static archives.
+[Result](compact_tile_build001_result.json). This qualifies the source build only;
+material initialization/tile values and cost remain unmeasured. All owners terminal.
+Charged total21380.09276504567s, remaining219.90723495433122s; no budget expansion.

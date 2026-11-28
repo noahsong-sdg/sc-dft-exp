@@ -4816,3 +4816,19 @@ Fresh compact-tile-build-001 admits60s source build only, no material kernels;
 Charged21376.431543087903s/21600;223.56845691209674s remain, worst60s leaves
 163.56845691209674s. No budget expansion, Brave/otherstudy untouched.
 [Manifest](research/compact_tile_build001_manifest.json).
+
+### 2026-11-28 — compact source-build001 accepted
+
+Guard terminalPASS3.6612219577655196s; maxindividual133087232B
+(~126.92MiB), sampled group46383104B,60s cap. Public/consumed manifest
+byte equality,576pins, exact command/cwd/guard/deadline and terminal watcher
+checked. Fresh18local compiles,2expected executable links and35output hashes
+checked; stored dry plan equals compiler console prefix, SDK precedes static
+archives. All902unchanged native cache controls bitwisePASS. No historical
+custom objects, material kernels or fullnorm accepted.
+Public source/admission6a57b38 CI46138786650PASS.
+Charged total21380.09276504567s/21600, remainder219.90723495433122s. No budget expansion.
+[Result](research/compact_tile_build001_result.json). Next fresh material admission
+binds compact preparation001 and the new source-built executable to original
+base-state native initialization, then independently checks saved selected tiles.
+Brave/otherstudy untouched; no live native owner or watcher.
