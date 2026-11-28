@@ -4153,3 +4153,12 @@ New native total15992.079956543483s; remaining2007.9200434565173s under18000s. T
 New analytic parabolic-band density identity checks audited Q0 slope against paired two-spin density minus thermal normal-fluid density, including the finite-cutoff normal-reference boundary.12cases beta4/12/40/120 and gap0/.15/.4Ry agree to maximum6.938893903907228e-18. Rydberg-to-Hartree transformation halves the slope; normal and low-temperature density limits pass. This is artificial continuum evidence for a conditional prefactor, not native current/stencil execution or Nb functional/normalization acceptance. See CURRENT_UNIT_CONTROL.md and parabolic_current_normalization001_result.json; no physical length or fitted factor introduced.
 
 Final repository gate193tests PASS19.855s including native fixtures;198maintained Python source compilations PASS; moment_refinement exit0; no separate configured typecheck. Native solver unchanged. Current full-gap002 terminal deadline/no accepted full residual remains separately recorded.
+
+
+## Measured-bound admission: one1500s full-native replay
+
+Admit portable-full-gap-003 after full-gap002 terminal deadline and postrun qualification. The failure cause is the1200s runtime ceiling; no query or pressure failure occurred in that attempt. Its recorded59424/66867rows and latest16.024–17.289CPU seconds per1024rows suggest a full runtime near1320s. This is an estimate, not demonstrated completion.
+
+The smallest coherent next experiment retains the exact source-built checker and candidate, all physics/acceptance/resource rules, and changes only the fresh root/control bindings plus1500s hard deadline. A checkpointed writer would require new ordering/state qualification and additional initializations; that architecture change is not needed to test the measured25minute path. Do not claim the deadline extension is a speedup or a scientific tolerance change. All original pins revalidated. Versioned low-memory guard remains SHA65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2.
+
+Native total15992.079956543483s; worst next1500s gives17492.079956543483s, leaving507.9200434565173s under18000s. No pilot budget expansion, no further replay/correction admitted here. Full strict residual readback determines the next scientific decision.193tests/198Python compilations/moment gate PASS; native sources unchanged. Brave and other Docker study untouched.
