@@ -89,8 +89,8 @@ inverse adopted. Independent70digit Decimal replay checks every action entry.
 [interpretation](research/SECANT_INVERSE_DIAGNOSTIC.md). All owners terminal;
 no next run/retry/budgetincrease. Next qualify bounded source-built tile cost and
 error controls for the original inverse's full-space norm route. Its source-built
-reference/Accelerate tile probe now passes fixture/source-boundary controls; no
-material timing run yet. [Method](research/TILE_BLAS_FEASIBILITY.md).
+reference/Accelerate tile probe passes fixture/source-boundary controls. Only
+feasibility001 admitted90s/quiet120/3GiB,44pins; terminal timing evidence pending. [Method](research/TILE_BLAS_FEASIBILITY.md).
 The exact [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md) includes
 same-side blocks and avoids a145GB dense matrix;2.78Tflops is not runtime evidence.
 [Method and interpretation](research/CORRECTION_INVERSE_DIAGNOSTIC.md).
@@ -134,7 +134,8 @@ Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
 Actual guarded campaign wall21348.708971087672s; ceiling21600s leaves
-251.291028912328s. No next run, automatic retry or budget increase admitted.
+251.291028912328s. Only tile-BLAS feasibility001 admitted90s, worst leaves
+161.291028912328s. No automatic retry/fullnorm/kernel run or budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
