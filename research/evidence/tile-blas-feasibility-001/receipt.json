@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "error": null,
+  "command": [
+    "/opt/homebrew/opt/python@3.13/bin/python3.13",
+    "/Users/noahs/Developer/sc-dft-exp/research/tile_blas_run.py"
+  ],
+  "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/tile-blas-feasibility-001",
+  "wall_s": 3.7081837086007,
+  "exit": 0,
+  "max_individual_descendant_rss_bytes": 66568192,
+  "sampled_peak_group_rss_bytes": 41811968,
+  "macos_ru_maxrss_units": "bytes",
+  "rss_sample_interval_s": 2,
+  "continuous_deadline_s": 90.0,
+  "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+}

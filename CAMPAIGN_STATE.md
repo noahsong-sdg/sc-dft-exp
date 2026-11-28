@@ -87,10 +87,15 @@ this rank-one update for the unweighted infinity-contraction route.** No seed or
 inverse adopted. Independent70digit Decimal replay checks every action entry.
 [Result](research/secant_inverse_action001_result.json),
 [interpretation](research/SECANT_INVERSE_DIAGNOSTIC.md). All owners terminal;
-no next run/retry/budgetincrease. Next qualify bounded source-built tile cost and
-error controls for the original inverse's full-space norm route. Its source-built
-reference/Accelerate tile probe passes fixture/source-boundary controls. Only
-feasibility001 admitted90s/quiet120/3GiB,44pins; terminal timing evidence pending. [Method](research/TILE_BLAS_FEASIBILITY.md).
+no next run/retry/budgetincrease. BLAS tile feasibility001 terminalPASS3.7081837s,
+peak66568192B (~63.48MiB),44pins, both80entry signed/54sample rational controls.
+Reference rates3.29–7.17GFLOP/s versus Accelerate285.91–352.60; contraction-only
+forecast490.89–545.04s versus8.42–9.69s. **No fullnorm/solver speedup claim.**
+[Result](research/tile_blas_feasibility001_result.json),
+[method/evidence](research/TILE_BLAS_FEASIBILITY.md). Committed synthetic binaries
+and summaries permit offline arithmetic replay. Current native producer has
+32-row blocks; test actual32-row layout or accounted buffering and error controls
+before full integration/admission. Kernel/IO/radius/rounding work remains open.
 The exact [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md) includes
 same-side blocks and avoids a145GB dense matrix;2.78Tflops is not runtime evidence.
 [Method and interpretation](research/CORRECTION_INVERSE_DIAGNOSTIC.md).
@@ -133,9 +138,9 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall21348.708971087672s; ceiling21600s leaves
-251.291028912328s. Only tile-BLAS feasibility001 admitted90s, worst leaves
-161.291028912328s. No automatic retry/fullnorm/kernel run or budget increase.
+Actual guarded campaign wall21352.417154796272s; ceiling21600s leaves
+247.58284520372763s. No next run, automatic retry/fullnorm/kernel pass or budget
+increase admitted.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
@@ -160,12 +165,14 @@ Conditional gap-to-response derivative and outward ratio helpers exist, but no
 material gap radius/stiffness intervals are certified. Analytic parabolic/current
 controls do not qualify the Nb functional or fit a physical normalization.
 
-Latest code checks:274tests PASS37.845s including native fixture builds;
+Latest code checks:275tests PASS38.915s including native fixture builds;
 257maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
 No separate configured typecheck. Public latest helper/resultCI46131518726 on7e37f98 PASS; prospective final-halfCI46131592238 on1d335c8 PASS. Earlier CI46125471800 on8653ee8 PASS; runner CI46126020760 on4e0fecf PASS; material-result CI46126382268 on2ac1a50 PASS; orientation helper CI46126757526 onf10730c PASS; result CI46126994654 on3997c72 PASS; direction helper CI46127521198 onad67046 PASS; result CI46127763049 on6a12d8c PASS; step helperCI46128222986 on1084b00 PASS; readerCI46128690566 ond839ced PASS; preparation helperCI46129155495 on79344e4 PASS.
 Latest streamed helper CI46132810239 onf7fdd9d PASS; prospective manifest
 CI46132854664 one59e821 PASS. Previous resultCI46133492457 one6aeff2 PASS;
-secant helperCI46133944602 on285e13e and prospectiveCI46133984159 ona95c65d PASS.
+secant helperCI46133944602 on285e13e and prospectiveCI46133984159 ona95c65d PASS;
+secant resultCI46134385800 on7f27443 PASS. Tile sourceCI46135078932 on1c44258 and
+prospectiveCI46135120773 onb210279 PASS.
 Current docs/results do not replace scientific qualification.
 
 Chronology remains in RESEARCH_LEDGER.md and immutable public commits. The former

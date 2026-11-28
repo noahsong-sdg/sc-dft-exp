@@ -1,0 +1,24 @@
+[
+  [
+    "/opt/homebrew/Cellar/gcc/16.2.0/bin/gfortran-16",
+    "-O2",
+    "-ffp-contract=off",
+    "-fcheck=all",
+    "-ffree-line-length-none",
+    "/Users/noahs/Developer/sc-dft-exp/research/tile_blas_probe.f90",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/lapack-build/lib/libblas.a",
+    "-o",
+    "probe-reference.x"
+  ],
+  [
+    "/opt/homebrew/Cellar/gcc/16.2.0/bin/gfortran-16",
+    "-O2",
+    "-ffp-contract=off",
+    "-fcheck=all",
+    "-ffree-line-length-none",
+    "/Users/noahs/Developer/sc-dft-exp/research/tile_blas_probe.f90",
+    "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate.tbd",
+    "-o",
+    "probe-accelerate.x"
+  ]
+]

@@ -65,3 +65,20 @@ class TileBlasProbeTest(unittest.TestCase):
             self.assertEqual(result['signed_controls']['entries_checked'],80)
             bindings=subprocess.check_output(['otool','-L',str(root/'probe.x')],text=True)
             self.assertIn('Accelerate.framework',bindings)
+
+    def test_committed_pilot_arithmetic_without_mac_runtime_or_binaries(self):
+        from fetch_public_response_inputs import digest
+        research=Path(__file__).resolve().parent
+        result=json.loads((research/'tile_blas_feasibility001_result.json').read_text())
+        evidence=research/'evidence/tile-blas-feasibility-001'
+        for name,item in result['public_evidence'].items():
+            self.assertEqual(item,dict(bytes=(evidence/name).stat().st_size,sha256=digest(evidence/name)))
+        checked=[analyze(evidence,prefix) for prefix in ('reference','accelerate')]
+        self.assertEqual(checked,result['libraries'])
+        self.assertTrue(result['terminal_guard_pass'])
+        self.assertFalse(result['conditioned_gap_error_bounded'])
+        self.assertFalse(result['physical_response_verified'])
+        # Hardware timings are replayed records, never remeasured or thresholded on CI.
+        for entry in checked:
+            self.assertEqual(entry['signed_controls']['entries_checked'],80)
+            self.assertEqual(entry['benchmark_samples_checked'],54)

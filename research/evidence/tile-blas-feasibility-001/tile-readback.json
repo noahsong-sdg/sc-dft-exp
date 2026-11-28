@@ -1,0 +1,317 @@
+{
+  "terminal_guard_pass": false,
+  "inputs_unchanged": true,
+  "manifest_sha256": "81fe1c20d72472f6d8099a2d28424a69207a3be8f14d26dec5c472b34a12de94",
+  "build_commands": [
+    [
+      "/opt/homebrew/Cellar/gcc/16.2.0/bin/gfortran-16",
+      "-O2",
+      "-ffp-contract=off",
+      "-fcheck=all",
+      "-ffree-line-length-none",
+      "/Users/noahs/Developer/sc-dft-exp/research/tile_blas_probe.f90",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/lapack-build/lib/libblas.a",
+      "-o",
+      "probe-reference.x"
+    ],
+    [
+      "/opt/homebrew/Cellar/gcc/16.2.0/bin/gfortran-16",
+      "-O2",
+      "-ffp-contract=off",
+      "-fcheck=all",
+      "-ffree-line-length-none",
+      "/Users/noahs/Developer/sc-dft-exp/research/tile_blas_probe.f90",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate.tbd",
+      "-o",
+      "probe-accelerate.x"
+    ]
+  ],
+  "libraries": [
+    {
+      "prefix": "reference",
+      "signed_controls": {
+        "entries_checked": 80,
+        "max_absolute_error": 1.737079286361358e-22,
+        "max_absolute_bound": 5.479991460657078e-15
+      },
+      "timings": [
+        {
+          "kind": "P",
+          "case": 1,
+          "tile_rows": 256,
+          "tile_columns": 384,
+          "rank": 51,
+          "repetitions": 32,
+          "wall_s": 0.075341,
+          "process_cpu_s": 0.074761,
+          "requested_threads": 1,
+          "flops": 320864256,
+          "gflops_per_s": 4.258826614990509
+        },
+        {
+          "kind": "U",
+          "case": 1,
+          "tile_rows": 256,
+          "tile_columns": 384,
+          "rank": 51,
+          "repetitions": 32,
+          "wall_s": 0.047305,
+          "process_cpu_s": 0.04709299999999998,
+          "requested_threads": 1,
+          "flops": 320864256,
+          "gflops_per_s": 6.782882485995138
+        },
+        {
+          "kind": "P",
+          "case": 2,
+          "tile_rows": 512,
+          "tile_columns": 768,
+          "rank": 51,
+          "repetitions": 32,
+          "wall_s": 0.346811,
+          "process_cpu_s": 0.34559599999999996,
+          "requested_threads": 1,
+          "flops": 1283457024,
+          "gflops_per_s": 3.700739088437218
+        },
+        {
+          "kind": "U",
+          "case": 2,
+          "tile_rows": 512,
+          "tile_columns": 768,
+          "rank": 51,
+          "repetitions": 32,
+          "wall_s": 0.178886,
+          "process_cpu_s": 0.17776899999999995,
+          "requested_threads": 1,
+          "flops": 1283457024,
+          "gflops_per_s": 7.1747203470366605
+        },
+        {
+          "kind": "P",
+          "case": 3,
+          "tile_rows": 1024,
+          "tile_columns": 1024,
+          "rank": 51,
+          "repetitions": 32,
+          "wall_s": 1.040989,
+          "process_cpu_s": 1.034382,
+          "requested_threads": 1,
+          "flops": 3422552064,
+          "gflops_per_s": 3.287788885377271
+        },
+        {
+          "kind": "U",
+          "case": 3,
+          "tile_rows": 1024,
+          "tile_columns": 1024,
+          "rank": 51,
+          "repetitions": 32,
+          "wall_s": 0.485894,
+          "process_cpu_s": 0.4827880000000002,
+          "requested_threads": 1,
+          "flops": 3422552064,
+          "gflops_per_s": 7.043824504933175
+        }
+      ],
+      "benchmark_samples_checked": 54,
+      "sample_max_absolute_error": 1.6201866220578965e-16,
+      "projections": [
+        {
+          "case": 1,
+          "first_pass_contraction_s": 217.6093688946915,
+          "second_pass_contraction_s": 273.2818360373004,
+          "contraction_only_s": 490.8912049319919
+        },
+        {
+          "case": 2,
+          "first_pass_contraction_s": 250.42580678427694,
+          "second_pass_contraction_s": 258.356910059024,
+          "contraction_only_s": 508.78271684330093
+        },
+        {
+          "case": 3,
+          "first_pass_contraction_s": 281.87958662487387,
+          "second_pass_contraction_s": 263.1579730726959,
+          "contraction_only_s": 545.0375596975698
+        }
+      ],
+      "scope": "Exact-rational signed controls and bounded-shape throughput; not a material bound.",
+      "conditioned_gap_error_bounded": false,
+      "physical_response_verified": false
+    },
+    {
+      "prefix": "accelerate",
+      "signed_controls": {
+        "entries_checked": 80,
+        "max_absolute_error": 1.737079286361358e-22,
+        "max_absolute_bound": 5.479991460657078e-15
+      },
+      "timings": [
+        {
+          "kind": "P",
+          "case": 1,
+          "tile_rows": 256,
+          "tile_columns": 384,
+          "rank": 51,
+          "repetitions": 32,
+          "wall_s": 0.001094,
+          "process_cpu_s": 0.0010810000000000004,
+          "requested_threads": 1,
+          "flops": 320864256,
+          "gflops_per_s": 293.2945667276052
+        },
+        {
+          "kind": "U",
+          "case": 1,
+          "tile_rows": 256,
+          "tile_columns": 384,
+          "rank": 51,
+          "repetitions": 32,
+          "wall_s": 0.00091,
+          "process_cpu_s": 0.000908,
+          "requested_threads": 1,
+          "flops": 320864256,
+          "gflops_per_s": 352.59808351648354
+        },
+        {
+          "kind": "P",
+          "case": 2,
+          "tile_rows": 512,
+          "tile_columns": 768,
+          "rank": 51,
+          "repetitions": 32,
+          "wall_s": 0.004489,
+          "process_cpu_s": 0.004481000000000001,
+          "requested_threads": 1,
+          "flops": 1283457024,
+          "gflops_per_s": 285.91156694141233
+        },
+        {
+          "kind": "U",
+          "case": 2,
+          "tile_rows": 512,
+          "tile_columns": 768,
+          "rank": 51,
+          "repetitions": 32,
+          "wall_s": 0.003994,
+          "process_cpu_s": 0.003986999999999999,
+          "requested_threads": 1,
+          "flops": 1283457024,
+          "gflops_per_s": 321.3462754131197
+        },
+        {
+          "kind": "P",
+          "case": 3,
+          "tile_rows": 1024,
+          "tile_columns": 1024,
+          "rank": 51,
+          "repetitions": 32,
+          "wall_s": 0.011858,
+          "process_cpu_s": 0.011824000000000001,
+          "requested_threads": 1,
+          "flops": 3422552064,
+          "gflops_per_s": 288.6281045707539
+        },
+        {
+          "kind": "U",
+          "case": 3,
+          "tile_rows": 1024,
+          "tile_columns": 1024,
+          "rank": 51,
+          "repetitions": 32,
+          "wall_s": 0.011971,
+          "process_cpu_s": 0.01193,
+          "requested_threads": 1,
+          "flops": 3422552064,
+          "gflops_per_s": 285.90360571380836
+        }
+      ],
+      "benchmark_samples_checked": 54,
+      "sample_max_absolute_error": 1.6201866220578965e-16,
+      "projections": [
+        {
+          "case": 1,
+          "first_pass_contraction_s": 3.1598286400604243,
+          "second_pass_contraction_s": 5.257086371291479,
+          "contraction_only_s": 8.416915011351904
+        },
+        {
+          "case": 2,
+          "first_pass_contraction_s": 3.241423849458694,
+          "second_pass_contraction_s": 5.76835246344455,
+          "contraction_only_s": 9.009776312903245
+        },
+        {
+          "case": 3,
+          "first_pass_contraction_s": 3.210915906121731,
+          "second_pass_contraction_s": 6.483438971572489,
+          "contraction_only_s": 9.69435487769422
+        }
+      ],
+      "scope": "Exact-rational signed controls and bounded-shape throughput; not a material bound.",
+      "conditioned_gap_error_bounded": false,
+      "physical_response_verified": false
+    }
+  ],
+  "requested_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "outputs": {
+    "build-plan.json": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/tile-blas-feasibility-001/build-plan.json",
+      "bytes": 740,
+      "sha256": "4d17eba615bb4362fd3a2f74ed9631f0eedb8efc14d486f05e9db840f7ad6874"
+    },
+    "library-bindings.txt": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/tile-blas-feasibility-001/library-bindings.txt",
+      "bytes": 926,
+      "sha256": "8e476e3ce026c3990e83388d6cdae4a75a37c1d3b4263a0550221fd3800601ec"
+    },
+    "probe-reference.x": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/tile-blas-feasibility-001/probe-reference.x",
+      "bytes": 69136,
+      "sha256": "7793a6b14959930d41e2ebb3282166851c6baf1d8086951b8aa79c9ab30e6a63"
+    },
+    "reference-summary.txt": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/tile-blas-feasibility-001/reference-summary.txt",
+      "bytes": 719,
+      "sha256": "89a752e01e273713cbe472387eea4e677f5f94256dbade2571dda93ce9e1bc53"
+    },
+    "reference-controls.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/tile-blas-feasibility-001/reference-controls.bin",
+      "bytes": 2288,
+      "sha256": "4726cd550c061ca0c4cd574a132a6f746583cfb1801cfcfcd2d03b7b3c2632bc"
+    },
+    "reference-samples.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/tile-blas-feasibility-001/reference-samples.bin",
+      "bytes": 432,
+      "sha256": "fcc542370b97aaf3035febf8d111464fc59243a3c1aba7862a09a12cd7cd7cb1"
+    },
+    "probe-accelerate.x": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/tile-blas-feasibility-001/probe-accelerate.x",
+      "bytes": 52416,
+      "sha256": "275cf58d152d61c4caf8856205009347da865905ed840c9c02178e734658d221"
+    },
+    "accelerate-summary.txt": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/tile-blas-feasibility-001/accelerate-summary.txt",
+      "bytes": 719,
+      "sha256": "f72bc47066f53437b833d34cd7c7273b51f70446770a5ba2d7d97af3b6c82757"
+    },
+    "accelerate-controls.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/tile-blas-feasibility-001/accelerate-controls.bin",
+      "bytes": 2288,
+      "sha256": "18bd8e1489a59c17256f12fbb5ea108ede136058fc0e88dd7503ae21e9f465bb"
+    },
+    "accelerate-samples.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/tile-blas-feasibility-001/accelerate-samples.bin",
+      "bytes": 432,
+      "sha256": "fcc542370b97aaf3035febf8d111464fc59243a3c1aba7862a09a12cd7cd7cb1"
+    }
+  },
+  "conditioned_gap_error_bounded": false,
+  "physical_response_verified": false,
+  "scope": "Source-build two BLAS tile probes in one guarded fresh root; no material solve."
+}
