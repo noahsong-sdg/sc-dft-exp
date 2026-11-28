@@ -6,6 +6,17 @@ research/TWO_WEEK_ACCEPTANCE.md. The actual reliable-response goal is incomplete
 The prior report and its NARROW verdict describe the completed bounded audit;
 they do not terminate or narrow the newly authorized scientific campaign.
 
+## Current production state — final coverage admitted
+
+Segment003 terminalPASS238.7802015002817s/902447104B;1114pin recursive
+certification PASS.50112/66867rows durable, no full residual yet.
+Native total17984.843735419065s;3615.1562645809354s remain under21600.
+Only segment004 rows50113:66867 admitted,480s/quiet120/3GiB. Publish prospective
+manifest before launch; certify full output before stationary/response claims.
+No automatic retry/correction.214tests/212Python compilations/moment/diffPASS.
+Ratio interval propagation now separately implemented; no material bound supplied.
+Older live/unknown statements below are historical.
+
 ## Current certified production state
 
 Segment002 terminalPASS387.73580245813355s/905297920B. Strict1098pin
