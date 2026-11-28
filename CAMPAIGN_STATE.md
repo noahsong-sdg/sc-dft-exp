@@ -146,9 +146,14 @@ Material restart qualifier001 now terminalPASS30.05208083288744s; all1735pins an
 6,875,157partial-P entries match accepted selected material001 bitwise.
 Native peak1076133888B (~1026.28MiB); readback14.913044875022024s/55492608B
 separate from native cost. [Result](research/compact_p_material001_result.json).
-All owners terminal. Next: complete ordered-P admission/checkpoint coverage and
-independent saved-action controls, then full second-pass defect diagnostic.
-No complete P, full norm, response or budget expansion accepted.
+All owners terminal before launch. Complete P segment001 now admitted: rows65–66867,
+900s,1756pins,120quiet seconds,3GiB caps. New owner checks exact predecessor,
+full checkpoint/progress and unchanged completed left prefix.309testsPASS44.719s;
+281Python compiles/native fixtures/moment PASS.
+[Scientific-value budget decision](research/COMPLETE_P_ADMISSION.md): local ceiling
+six to seven hours under original authorized4→16h pilot expansion; second pass
+not yet admitted. Next: complete coverage, saved-action controls, second-pass norm.
+No complete P, full norm or physical response accepted.
 The exact [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md) includes
 same-side blocks and avoids a145GB dense matrix;2.78Tflops is not runtime evidence.
 [Method and interpretation](research/CORRECTION_INVERSE_DIAGNOSTIC.md).
@@ -191,9 +196,10 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall21443.538124337178s; ceiling21600s leaves
-156.46187566282242s. No next run, automatic retry/fullnorm/kernel pass or budget
-increase admitted.
+Actual guarded campaign wall21443.538124337178s; revised local ceiling25200s
+leaves3756.461875662822s. Complete P segment001 alone admitted900s; worst-case
+leaves2856.461875662822s. No automatic retry/fullnorm pass or further budget
+increase admitted. [Decision and termination plan](research/COMPLETE_P_ADMISSION.md).
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.

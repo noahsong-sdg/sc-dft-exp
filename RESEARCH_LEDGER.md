@@ -5013,3 +5013,35 @@ Restart now qualified for these material tiles. Full P coverage and independent
 saved-action controls, second-pass full-space norm, outward/radius and physical
 response gates remain open. No budget expansion/full sweep admitted.
 Brave and separate study untouched.
+
+### 2026-11-28 — measured scientific-value expansion and complete P admission001
+
+Previous turn made verified material restart progress; publicf0d1e9c
+CI46142396457PASS. Goal prompt explicitly permits4→16cumulative native hours
+when measured pilots establish credible science. Raise narrower local ceiling
+six→seven hours (25200s), based on accepted full-kernel cost549.426167CPU s,
+621.720690guarded two-half cost and new actual64-row restart/independent P equality.
+Complete P is prerequisite to full-space defect testing; finite probes cannot
+bound conditioned error. A norm>=1 can disqualify this inverse route; <1 still
+needs outward/radius/physical gates. This is a testable numerical decision,
+not more screening or an assertion of physical success.
+
+[Decision](research/COMPLETE_P_ADMISSION.md) separates measured and projected
+10–12min first-pass cost. Charge21443.538124337178s; available3756.461875662822s.
+Admission900s leaves2856.461875662822s worst-case, reserving room for separately
+reviewed second-pass work. No second-pass/retry/further expansion admitted.
+Original historical11357.646588s remains separate; native charge excludes fixtures,
+quiet waits and postreads, and is not claimed as full workflow cost.
+
+New compact_p_segment.py revalidates accepted qualifier/parents/output hashes,
+restores exact64-row full-P predecessor and continues65–66867 (last19rows).
+Acceptance checks exact command/controls/closure/consumed manifest/receipt/watcher,
+complete checkpoint, preserved left prefix and actual progress stride/CPU counters.
+No independent full-P saved-action or norm claim. Frozen native sources unchanged.
+Three new regressions targeted3PASS0.012s; final309testsPASS44.719s,281Python
+compilationsPASS, actual native fixture builds/runsPASS, moment_refinement.py exit0,
+diffcheckPASS; no separate configured typecheck.
+[Manifest](research/compact_p_segment001_manifest.json):1756pins,900s,120quiet
+normal-pressure seconds,3GiB group/workspace caps, one owner. Pressure1 observed.
+On interruption, only prior accepted64checkpoint can be reused; partial new output
+is unaccepted. Brave and other study untouched. No owner started before publication.
