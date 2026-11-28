@@ -88,7 +88,9 @@ inverse adopted. Independent70digit Decimal replay checks every action entry.
 [Result](research/secant_inverse_action001_result.json),
 [interpretation](research/SECANT_INVERSE_DIAGNOSTIC.md). All owners terminal;
 no next run/retry/budgetincrease. Next qualify bounded source-built tile cost and
-error controls for the original inverse's full-space norm route.
+error controls for the original inverse's full-space norm route. Its source-built
+reference/Accelerate tile probe now passes fixture/source-boundary controls; no
+material timing run yet. [Method](research/TILE_BLAS_FEASIBILITY.md).
 The exact [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md) includes
 same-side blocks and avoids a145GB dense matrix;2.78Tflops is not runtime evidence.
 [Method and interpretation](research/CORRECTION_INVERSE_DIAGNOSTIC.md).
@@ -157,8 +159,8 @@ Conditional gap-to-response derivative and outward ratio helpers exist, but no
 material gap radius/stiffness intervals are certified. Analytic parabolic/current
 controls do not qualify the Nb functional or fit a physical normalization.
 
-Latest code checks:268tests PASS38.066s including native fixture builds;
-253maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
+Latest code checks:274tests PASS37.845s including native fixture builds;
+257maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
 No separate configured typecheck. Public latest helper/resultCI46131518726 on7e37f98 PASS; prospective final-halfCI46131592238 on1d335c8 PASS. Earlier CI46125471800 on8653ee8 PASS; runner CI46126020760 on4e0fecf PASS; material-result CI46126382268 on2ac1a50 PASS; orientation helper CI46126757526 onf10730c PASS; result CI46126994654 on3997c72 PASS; direction helper CI46127521198 onad67046 PASS; result CI46127763049 on6a12d8c PASS; step helperCI46128222986 on1084b00 PASS; readerCI46128690566 ond839ced PASS; preparation helperCI46129155495 on79344e4 PASS.
 Latest streamed helper CI46132810239 onf7fdd9d PASS; prospective manifest
 CI46132854664 one59e821 PASS. Previous resultCI46133492457 one6aeff2 PASS;
