@@ -80,9 +80,9 @@ correction reproduced within2.481541837659083e-24Ry. Useful-direction inverse
 defect0.6410778371097358; frozen B times plus residual/original correction
 0.6410456591853905. Neither is a gap/response error bound or global contraction.
 This reuses saved native images without a kernel sweep or resident basis copy;
-no controlled before/after memory comparison. All owners terminal, no next run
-or budget increase admitted. A saved-action rank-one secant runner now passes
-exact dense/adversarial/provenance controls; no material invocation yet. See
+no controlled before/after memory comparison. Only saved-action secant001 admitted60s/quiet120/3GiB,1597pins, no kernel or
+basis solve; no retry/budgetincrease. Exact dense/adversarial/provenance controls
+PASS; material terminal evidence pending. See
 [secant diagnostic](research/SECANT_INVERSE_DIAGNOSTIC.md). Assess the full-space
 norm route's validity/source-built tile cost before further material admission.
 The exact [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md) includes
@@ -128,7 +128,8 @@ Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
 Actual guarded campaign wall21327.460967379473s; ceiling21600s leaves
-272.539032620527s. No next run, automatic retry or budget increase admitted.
+272.539032620527s. Only secant001 admitted60s, worst remainder212.539032620527s.
+No automatic retry or budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
