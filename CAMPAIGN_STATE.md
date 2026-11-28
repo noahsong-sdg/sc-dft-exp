@@ -103,7 +103,13 @@ Kernel/IO/radius/rounding work remains open.
 Compact state writer/native reader now pass six regression tests: unequal-band
 padding, bitwise readback, independent dense inverse action and stale/context/
 shape boundaries. Basis columns stream; fixed stored W is checked on both sides.
-[Bridge](research/COMPACT_DEFECT_STATE.md). Material preparation remains pending.
+[Bridge](research/COMPACT_DEFECT_STATE.md). Material preparation001 terminalPASS24.014388291630894s/102563840B
+(~97.81MiB),1598pins. All102Q/U columns independently bitwise checked after
+compaction; three saved actions calibrate within1.11023e-15/3.61892e-25/
+5.16988e-25 absolute. Stored W two-sided errors2.33952e-14/4.49790e-14.
+[Result](research/compact_defect_prepare001_result.json). No material native
+reader/kernel run or full norm yet. All owners terminal; next source-bind native
+producer to this compact state and qualify selected actual tiles.
 The exact [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md) includes
 same-side blocks and avoids a145GB dense matrix;2.78Tflops is not runtime evidence.
 [Method and interpretation](research/CORRECTION_INVERSE_DIAGNOSTIC.md).
@@ -146,8 +152,8 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall21352.417154796272s; ceiling21600s leaves
-247.58284520372763s. No next run, automatic retry/fullnorm/kernel pass or budget
+Actual guarded campaign wall21376.431543087903s; ceiling21600s leaves
+223.56845691209674s. No next run, automatic retry/fullnorm/kernel pass or budget
 increase admitted.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.

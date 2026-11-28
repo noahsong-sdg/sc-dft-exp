@@ -4741,3 +4741,20 @@ Worst90s leaves157.58284520372763s; no budget expansion. Pressure1 and no own
 live solver/watcher observed before admission. Brave and other study untouched.
 [Manifest](research/compact_defect_prepare001_manifest.json). All terminal
 receipts and output hashes must be checked before any result acceptance.
+
+### 2026-11-28 — compact material preparation001 accepted
+
+Guard terminalPASS24.014388291630894s; peakindividual/group102563840B
+(~97.81MiB),90s cap. All1598pins, identical public/consumed manifest, exact
+command/cwd/guard/deadline and terminal watcher checked. Every output size/hash
+and all102Q/U columns independently read back bitwise against padded source.
+Three chosen-W saved-action maxerrors1.1102230246251565e-15,
+3.618915179919496e-25,5.169878828456423e-25 each below registered bound.
+MW-I/WM-I maxerrors2.3395198524890325e-14/4.497899109916735e-14.
+Active134807vs padded135880; basis binary110002512B vs110878080B. This is
+a modest padding saving and streamed preparation, not a controlled RSS speedup.
+No seed/inverse promotion, native material tile, full norm, error/physical acceptance.
+Charged total21376.431543087903s/21600, remainder223.56845691209674s. No budget expansion.
+Public source991b862 CI46137422272PASS; admissiond11742f CI46137448125PASS.
+[Result](research/compact_defect_prepare001_result.json). Next integrate the native
+producer and qualify selected actual tiles. Brave/otherstudy untouched.

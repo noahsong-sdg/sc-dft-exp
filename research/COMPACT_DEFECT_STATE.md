@@ -41,3 +41,18 @@ launch window and3GiB guard. This document alone admits no new kernel pass.
 No full-space norm, outward enclosure, conditioned gap-error bound or physical
 response is established by state preparation. Native producer integration and
 selected material tiles are the next gates; the full campaign remains open.
+
+Material preparation001 now terminalPASS24.014388291630894s, measured peak
+102563840B (~97.81MiB). All1598pins and output hashes checked; all102basis
+columns independently bitwise equal after removing padding. The three stored-W
+actions differ from accepted saved actions by1.1102230246251565e-15,
+3.618915179919496e-25 and5.169878828456423e-25, within their registered bounds.
+The two small inverse residuals are2.3395198524890325e-14/4.497899109916735e-14.
+This run exercises Python preparation; actual native material consumption still
+requires its own source build and receipt. Synthetic native readback passed.
+The modest basis saving is875568bytes; streaming avoids a second full resident
+basis copy. Neither is a controlled whole-host memory improvement claim.
+
+Final gate:284testsPASS42.456s;262Python sources compilePASS; native reader
+syntax and compiled fixturePASS; moment_refinement.py exit0; diffcheckPASS.
+Charged material total21376.431543087903s, remaining223.56845691209674s; all owners terminal.

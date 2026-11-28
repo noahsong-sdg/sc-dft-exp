@@ -1,0 +1,117 @@
+{
+  "active_states": 134807,
+  "rank": 51,
+  "beta": 19613.355577892344,
+  "operator_sha256": "6efcf2d527d3c81ae9620e3280916bb6b58db4809e6683cf0795256ed9fcce62",
+  "padded_candidate_sha256": "303b379af5a563e82e1a9c54bec0b36fada9ff94cd4622d7e1a83d6df296f3d7",
+  "source_manifest_sha256": "473c5424ddec077d9fccd9b6a6be44d8ce4ec91a6a27fa556116f920581473df",
+  "small_inverse_two_sided_max_errors": [
+    2.3395198524890325e-14,
+    4.497899109916735e-14
+  ],
+  "conditioned_gap_error_bounded": false,
+  "physical_response_verified": false,
+  "terminal_guard_pass": true,
+  "inputs_unchanged": true,
+  "manifest_sha256": "b2e283888fb5fbab0ecfd77644f4cf264b0cba443d29c2c2cca392a7e894c131",
+  "recipe": {
+    "schema": "compact-defect-preparation-v1",
+    "source_manifest": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/correction_inverse_action001_manifest.json",
+      "bytes": 365416,
+      "sha256": "473c5424ddec077d9fccd9b6a6be44d8ce4ec91a6a27fa556116f920581473df"
+    },
+    "source_result": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/correction_inverse_action001_result.json",
+      "bytes": 2137,
+      "sha256": "cfd8e6aa93d11a47412f73d70954b78acbb9b3aedfb466bcfe1b9fd6affb8f3b"
+    },
+    "source_basis": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-occupation-prepare-003/basis/basis.bin",
+      "bytes": 110878080,
+      "sha256": "b9da2789c1c2430f33cdd372559aef81d9aa5e28a32cd036de694cb8692d0f3b"
+    },
+    "vector_order": [
+      "gap",
+      "xi",
+      "dk",
+      "Z",
+      "D"
+    ],
+    "basis_order": "all active left, then all active right; columns in Fortran order",
+    "chosen_W": "Columns solve the stored nonsymmetric M against unit vectors; fixed binary64 W, not an exact inverse assumption.",
+    "calibration_max_errors": [
+      1.1102230246251565e-15,
+      3.618915179919496e-25,
+      5.169878828456423e-25
+    ],
+    "calibration_bounds": [
+      1.639649808478768e-10,
+      3.5273124351480224e-20,
+      5.502435566905601e-20
+    ],
+    "active_states": 134807,
+    "rank": 51,
+    "beta": 19613.355577892344,
+    "operator_sha256": "6efcf2d527d3c81ae9620e3280916bb6b58db4809e6683cf0795256ed9fcce62",
+    "padded_candidate_sha256": "303b379af5a563e82e1a9c54bec0b36fada9ff94cd4622d7e1a83d6df296f3d7",
+    "source_manifest_sha256": "473c5424ddec077d9fccd9b6a6be44d8ce4ec91a6a27fa556116f920581473df",
+    "small_inverse_two_sided_max_errors": [
+      2.3395198524890325e-14,
+      4.497899109916735e-14
+    ],
+    "conditioned_gap_error_bounded": false,
+    "physical_response_verified": false
+  },
+  "outputs": {
+    "compact-state.meta": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-defect-prepare-001/compact-state.meta",
+      "bytes": 297,
+      "sha256": "fd1539478c41261ddf2e7edc96be9634c55011966dd405e5677d9efbdf34c371"
+    },
+    "compact-q.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-defect-prepare-001/compact-q.bin",
+      "bytes": 55001256,
+      "sha256": "c7a8aa2efe6a8504a9648aac481c826d06188d1ff1b0d50651d261bc189f3b7a"
+    },
+    "compact-u.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-defect-prepare-001/compact-u.bin",
+      "bytes": 55001256,
+      "sha256": "fb2fb6731874a8d4d9cb9811c54e925623e798b8c68b98a1a0b4aedbdbc8c140"
+    },
+    "compact-state.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-defect-prepare-001/compact-state.bin",
+      "bytes": 5392280,
+      "sha256": "a983162b0df28353ab3d6fed2248d47ed452508ad2422cbca3f337fcea0a028c"
+    },
+    "compact-w.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-defect-prepare-001/compact-w.bin",
+      "bytes": 20808,
+      "sha256": "87b3694a7b28a98ca9ab95ad00a82e80e3d784e8187acefbc9aa33335e0aaf95"
+    },
+    "compact-recipe.json": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-defect-prepare-001/compact-recipe.json",
+      "bytes": 1795,
+      "sha256": "334431d553a71259ab4030207b84aedc8db20d7aa24c0a658e90197f5f6a6e81"
+    }
+  },
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "/Users/noahs/Developer/sc-dft-exp/research/prepare_compact_defect.py"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-defect-prepare-001",
+    "wall_s": 24.014388291630894,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 102563840,
+    "sampled_peak_group_rss_bytes": 102563840,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 90.0,
+    "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+  },
+  "readback_sha256": "e91eeca8f4d694e7ba4d63cfa240876ce9bb96819adecee9ef8f01ec40bff728",
+  "independent_all_basis_columns_bitwise": true
+}
