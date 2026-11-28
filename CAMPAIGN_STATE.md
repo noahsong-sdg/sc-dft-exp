@@ -13,6 +13,8 @@ separate-process and fabricated-residual controls. See latest RESEARCH_LEDGER.
 A recorded scientific-value decision expands the native ceiling to21600s;
 actual terminal total16972.38671996057s. Only segment001 rows65:16704 is admitted,
 480s hard limit, unchanged120s quiet pressure rule and3GiB cap. No automatic retry.
+GuardPID23038/nativePID35518, session8132, is live after quiet120 admission.
+Public CI46112365502 on4f10b0d PASS; local211tests PASS34.063s.
 The previous compact checkpoint below remains historical evidence.
 
 ## Latest compact checkpoint — actual-input ordered restart qualifies

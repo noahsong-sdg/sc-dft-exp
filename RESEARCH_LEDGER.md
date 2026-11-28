@@ -4229,3 +4229,5 @@ Scientific-value decision: actual-input continuous64 vs persisted32+32 is bitwis
 Admit exactly portable-full-map-segment-001, rows65:16704, under unchanged guardv2/quiet120/3GiB/480s. Same candidate, operator, evaluation identity, source-built executable and arithmetic. Public prospective manifest portable_full_map_segment001_manifest.json. No other heavy owner observed before admission. Brave/other Docker study untouched. Full residual, conditioned gap error and physical response remain unaccepted.
 
 Final gate: python3.13 -m unittest discover -s research -p test_*.py PASS211tests; compile() of210maintained Python sources PASS; python3.13 research/moment_refinement.py exit0; git diff --check PASS. Native fixtures compile and execute in the regression suite. No separate configured typecheck.
+
+Public CI46112365502 on4f10b0d973eaefc90e5091ba6b91f720ec9b433e PASS. Local211tests PASS34.063s. Segment001 quiet120 admitted; guardPID23038/nativePID35518/session8132 live. No numerical result claimed before terminal certification.
