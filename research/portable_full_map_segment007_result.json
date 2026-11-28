@@ -1,0 +1,59 @@
+{
+  "terminal_guard_pass": true,
+  "inputs_unchanged": true,
+  "verified_input_count": 1222,
+  "checkpoint": {
+    "completed_rows": 50112,
+    "dimensions": [
+      66867,
+      67940,
+      67940
+    ],
+    "beta": 19613.355577892344,
+    "step_ry": 1e-08,
+    "tile_sum_max_absolute_difference": 2.5006038906205674e-15,
+    "cumulative_kernel_cpu_s": 455.462216,
+    "partial_image_explicit_sum_bound": 1.2834192293304985e-11,
+    "independent_weights_max_absolute_difference": 6.938893903907228e-18,
+    "independent_weights_bound": 1e-14,
+    "state_bitwise_matches_source": true,
+    "sha256": {
+      "linear-image-checkpoint.meta": "2dc2104f10f552e7dccd2aaf8ec6416bc36466784d33400ddfd005372d5553ac",
+      "linear-image-checkpoint.bin": "f1976d8ad718e622b5be319996c4f1ce5bd425b07e9029118d5c35acc404d8f0",
+      "full-map-checkpoint.meta": "078d6073bd2fc4618b99ad99c693726de66f815db0f9a1fd210116700e8b80b4",
+      "full-map-checkpoint-state.bin": "46c47400b07ec5fba532fb4762f510036b29af639e5428a39ce86b3374184e82"
+    }
+  },
+  "split_checkpoint": null,
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-map-segment-007/verify-gap-seed.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-map-segment-007/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-map-segment-007",
+    "wall_s": 174.08241066662595,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 889716736,
+    "sampled_peak_group_rss_bytes": 880787456,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 480.0,
+    "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+  },
+  "microscopic_split_qualified": false,
+  "full_native_residual_verified": false,
+  "physical_response_verified": false,
+  "manifest_sha256": "a5bfa7c2cd4fb8e9e9cdd6cc024c81698a9e7de3faed1c1a6382b9fc1bdba9a3",
+  "scope": "Certify ordered partial images and exact state binding, not a physical response.",
+  "lineage_depth": 3,
+  "lineage_native_wall_s": 644.093406916596,
+  "qualification_manifest": "/Users/noahs/Developer/sc-dft-exp/research/portable_full_map_qualify003_manifest.json",
+  "qualification_manifest_sha256": "7824a2e6929e20e2c12a4052a8d0d1bfb3b80d5594ef7369c3f0b19e46d7d1ab",
+  "complete_left_row_coverage": false,
+  "campaign_native_wall_s": 18862.2468165032,
+  "campaign_native_ceiling_s": 21600,
+  "campaign_native_remaining_s": 2737.7531834967995
+}

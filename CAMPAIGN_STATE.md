@@ -10,22 +10,23 @@ The earlier twelve-hour audit and NARROW verdict are historical, not completion.
 
 ## Active owner and next action
 
-Only `portable-full-map-segment-007` is admitted: new candidate rows33409:50112,
+Only `portable-full-map-segment-008` is admitted: new candidate rows50113:66867,
 480s hard deadline after120 continuous normal-pressure seconds,3GiB group/
-workspace caps. Segment006 guard20927/native23073/session35715 terminalPASS.
+workspace caps. Segment007 guard42410/native45891/session87236 terminalPASS.
 Publish prospective segment manifest before launching one guard. No automatic
-retry or subsequent segment admission. Brave and the other Docker study remain
+retry or correction admission. Brave and the other Docker study remain
 untouched; preserve dirty historical flux-pinning checkout.
 
-[Prospective manifest](research/portable_full_map_segment007_manifest.json).
+[Prospective manifest](research/portable_full_map_segment008_manifest.json).
 Candidate evaluation identity c9d5ab380866e40be145ec06959287ab14c3dced27e12f0da4d5ca4c84acb5c2.
-Segment006 terminalPASS232.88537691673264s/906887168B,1206pins. Certified33408/
+Segment007 terminalPASS174.08241066662595s/889716736B,1222pins. Certified50112/
 66867leftrows; no full residual. Source stateSHA46c47400b07ec5fba532fb4762f510036b29af639e5428a39ce86b3374184e82.
-[Accepted checkpoint](research/portable_full_map_segment006_result.json).
+[Accepted checkpoint](research/portable_full_map_segment007_result.json).
 Origin qualify003 continuous64 versus persisted32+32images bitwise equal.
-After segment terminalPASS, certify full predecessor/output continuity, record
-actual guarded wall time and publish checkpoint before next admission. Never
-accept partial sums as a residual. Candidate seed002 is an unexecuted inventory.
+After final segment terminalPASS, certify full predecessor/output continuity,
+exact seed and checkpoint normalization, explicit-sum/FD gates, and original
+Rinf<=1e-10Ry AND RMSres/gap<=1e-5 targets. Record actuals before another decision.
+Partial sums or native exit alone are not residual/conditioning acceptance.
 
 ## Latest accepted evidence
 
@@ -60,10 +61,9 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual new guarded campaign wall18688.164405836575s; recorded six-hour ceiling
-21600s leaves2911.8355941634254s. Segment007 ceiling480 leaves2431.8355941634254s.
-Two remaining proposed480s production intervals fit with1951.8355941634254s
-reserve, but only007 is currently admitted.
+Actual new guarded campaign wall18862.2468165032s; recorded six-hour ceiling
+21600s leaves2737.7531834967995s. Final segment008 ceiling480 leaves2257.7531834967995s.
+Only008 is currently admitted; no automatic retry/correction or budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
