@@ -1,0 +1,30 @@
+{
+  "scope": "Source-shape byte accounting, not measured live allocations or proof of exclusive physical residency.",
+  "status": "PASS",
+  "registered_counts": {
+    "nci": 10,
+    "bands": 26,
+    "kpoints": 512,
+    "qpoints": 26,
+    "ngapmax": 67940,
+    "vectors": 16,
+    "tile_width": 32
+  },
+  "allocations_bytes": {
+    "compact_Coulomb": 719912960,
+    "one_Coulomb_slab": 27688960,
+    "kernel_tile": 34785280,
+    "verification_baseline": 17392640
+  },
+  "source_sha256": {
+    "portable_gap/saved_coulomb.f90": "8705f20423dd1331738ac8bda90ed2932c77c83f9096da44943bfa088b2abcaf",
+    "portable_gap/streamed_coulomb.f90": "eeeabec84483caa6a4ea1a92d84785da8543ec4f0d2ec21ce8056620fb964e14",
+    "portable_gap/slab_operator.f90": "ebf038d85a48e6034476bad18be7a95748f4e6f75b9537a61779c63a050ea3f8",
+    "portable_gap/tiled_operator.f90": "02df9cd10583e10e7141f20a1378e5a284f1576e9dc87d273bc647de2a4d3489",
+    "portable_gap/basis_enrichment_driver.f90": "c66e5012474a96604f58929319af0a736ba4f777f5cc9fd7281f5ca7836a7ffc"
+  },
+  "host_pressure_observed": 2,
+  "native_run": false,
+  "performance_gain_measured": false,
+  "physical_response_verified": false
+}

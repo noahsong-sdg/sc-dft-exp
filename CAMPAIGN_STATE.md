@@ -1543,3 +1543,17 @@ Fresh user resumption resets the blocked audit: this is the first terminal
 recurrence after resumption; leave goal active while reassessing rather than
 claiming completion or immediately reusing the previous blocked count.
 No maintained source changes; exact input hash checks and diffcheck PASS.
+
+
+## Internal native memory accounting, without another retry
+
+Host pressure2 persists. Traced read_saved_coulomb/read_pairing_files retention
+through slab access and kernel construction. Source-shape accounting locates
+686.5625MiB compact Coulomb array; tile33.17MiB and verification baseline16.59MiB
+are much smaller. These are exact shape bytes, not additive measured RSS.
+NATIVE_MEMORY_ACCOUNTING.md records why freeing the coefficients breaks the
+active path and why simple buffer/tile changes are not an established remedy.
+It gives a reviewable bounded-storage/accessor/whole-path qualification split
+without changing frozen sources. No measured replacement memory/performance
+claim. native_memory_accounting001_result.json binds five owning sources.
+No native owner or retry; user Brave/running study untouched. Diffcheck PASS.
