@@ -10,26 +10,27 @@ The earlier twelve-hour audit and NARROW verdict are historical, not completion.
 
 ## Active owner and next action
 
-Only `portable-occupation-prepare-002` is admitted: measured49->50occupation
-basis preparation,180s hard deadline after120 continuous normal-pressure seconds,
-3GiB group/workspace caps. Finalsegment008 guard49853/native51933/session82805
-terminalPASS. Publish preparation manifest before launching one guard. No automatic
-retry, reduced solve or full-validation admission. Brave and the other Docker
-study remain untouched; preserve dirty historical flux-pinning checkout.
+Only `portable-reduced-gap-003` is admitted:50column reduced candidate,
+60s hard limit after120 continuous normal-pressure seconds,3GiB group/workspace
+caps, unchanged solver/64column mode/geometry/operator/0.15meV initial amplitude.
+Preparation002 guard61855/session94460 terminalPASS25.520065541379154s/228605952B.
+Publish prospective manifest before one launch. No automatic retry/fullvalidation
+admission. Brave and the other study remain untouched; preserve flux-pinning.
 
-[Prospective manifest](research/portable_occupation_prepare002_manifest.json).
-Complete rank49 map certified:all66867leftrows,1238pins, exact source/state/chain,
-normalization maxdiff0, explicit-sum and FD controlsPASS. **StationarityFAIL:**
-Rinf2.5192548497580036e-9Ry >1e-10; RMSres/gap4.686882888771546e-5 >1e-5.
-[Full result](research/portable_full_map_segment008_result.json).
-These errors contract14.525868202968086x and30.969658983331286x fromrank48,
-supporting another measured occupation correction, not relaxed thresholds.
-No current gap/conditioning/response acceptance. Candidate stateSHA46c47400...
-After preparation terminalPASS, verify inputs/receipt/report, inherited columns,
-new direction and independent exponential image reconstruction before a reduced
-solve decision. The first readback001 script is intentionally frozen to its
-first dataset; create a version with explicit manifest input for actual second
-preparation readback, preserving original source and scientific checks.
+[Prospective manifest](research/portable_reduced_gap003_manifest.json).
+Preparation002 strict1249pin readback passes, inherited Q/U bytes identical;
+new q norm1, overlap8.300874945971308e-19, independent exponential image error
+4.573977915173222e-19Ry. [Proof](research/portable_occupation_prepare002_result.json).
+Explicit-manifest occupation_prepare_readback.py preserves the frozen001 reader
+and replays all its scientific/receipt/hash fields exactly;220tests/219compilations PASS.
+After terminal solve, check source/receipt/result and gap change before another
+candidate-specific split/full evaluation admission.
+
+Latest full rank49 candidate still fails stationarity: Rinf2.5192548497580036e-9Ry
+and RMSres/gap4.686882888771546e-5; unchanged targets1e-10Ry/1e-5.
+[Full result](research/portable_full_map_segment008_result.json). Errors contracted
+14.5x/31x fromrank48, supporting this second measured correction. No accepted
+gap, full-space conditioning or physical response. Rank50 full residual unknown.
 
 ## Latest accepted evidence
 
@@ -65,11 +66,10 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual new guarded campaign wall19035.22673212815s; recorded six-hour ceiling
-21600s leaves2564.7732678718494s. Preparation002 ceiling180 leaves2384.7732678718494s.
-Only preparation002 admitted. A prospective preparation180+reduced60+split180+
-four480 production ceilings totals2340s and fits with224.7732678718494s reserve,
-but each later step needs its own evidence/admission. No automatic budget increase.
+Actual new guarded campaign wall19060.74679766953s; recorded six-hour ceiling
+21600s leaves2539.2532023304702s. Reduced003 ceiling60 leaves2479.2532023304702s.
+Only reduced003 admitted; later split/full passes require fresh decisions.
+No automatic budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
@@ -94,8 +94,8 @@ Conditional gap-to-response derivative and outward ratio helpers exist, but no
 material gap radius/stiffness intervals are certified. Analytic parabolic/current
 controls do not qualify the Nb functional or fit a physical normalization.
 
-Latest code checks:218tests PASS25.993s including native fixture builds;
-217maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
+Latest code checks:220tests PASS22.258s including native fixture builds;
+219maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
 No separate configured typecheck. Public CI46116384431 onff1c92b PASS.
 Current docs/results do not replace native or scientific qualification.
 

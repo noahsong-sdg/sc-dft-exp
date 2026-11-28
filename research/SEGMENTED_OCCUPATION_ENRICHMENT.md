@@ -69,3 +69,36 @@ Admit exactly portable-reduced-gap-002, unchanged source-built solver and fresh
 0.15meV starting amplitude,60s/quiet120/3GiB.1155prospective pins. Actual guarded
 ledger18216.537426836174s leaves3383.462573163826s under21600; worst next60 leaves
 3323.462573163826s. No automatic retry/newfull evaluation admitted.
+
+## Explicit-manifest reader and second actual preparation
+
+The first independent reader intentionally names dataset001 and is now frozen
+in descendant input inventories. Dataset002 demonstrates the need for another
+input manifest. New occupation_prepare_readback.py takes that path explicitly,
+retaining the streaming inherited-column comparison, exponential occupation,
+normalization/orthogonality, source/receipt and complete-chain checks. It also
+checks finite nonnegative bounded RSS and report rank/beta/context against the
+full evaluation. Numerical thresholds and original001 reader remain unchanged.
+This small versioned change avoids per-dataset numerical copies and mutable
+shared globals; it adds no native solver abstraction or fallback.
+
+Two tests cover distinct declared datasets and reject adopted output hashes for
+changed inherited columns, nonunit direction, incorrect action and stale context,
+as well as incomplete certificates, nonfinite RSS and a changed acceptance flag.
+Full suite220tests PASS22.258s including native builds;219maintained Python sources
+compile PASS; moment_refinement exit0; diffcheckPASS; no separate typecheck.
+Replay on the actual001 manifest matches all prior scientific/receipt/hash fields
+exactly (scope text and separate ledger accounting excluded).
+
+Actual preparation002 terminalPASS25.520065541379154s, peak228605952B. All1249pins
+and original state/source/result binding pass. Every inherited Q/U byte is
+preserved; new direction norm1, old overlap8.300874945971308e-19. Independent
+exponential image reconstruction error4.573977915173222e-19Ry is below the
+4.956606846793945e-17 algebraic-control bound. Rank49->50 basisSHA
+8ef54048eccd584bf5eec919224e47c8fe83fb959d88b725ae40429c26bdd1a7.
+This does not accept another gap, inverse bound or physical response.
+
+Admit only reduced-gap003 with unchanged solver/mode/geometry/operator and
+0.15meV initial amplitude,50columns,60s/quiet120/3GiB;1260prospective pins.
+Guarded ledger19060.74679766953s leaves2539.2532023304702s under21600; worst
+next60 leaves2479.2532023304702s. No automatic retry or full-pass admission.
