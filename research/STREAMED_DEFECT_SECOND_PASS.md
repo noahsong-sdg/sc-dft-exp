@@ -129,3 +129,57 @@ a revised conditioner/metric. These components can be studied from saved origina
 kernel rows/C/state, without another kernel sweep. Whether this B amplifies or
 reduces the A-only row sums remains unmeasured; do not infer the cause from the
 large defect alone. Brave and other study untouched.
+
+## Retained-kernel comparison: identity B also fails these rows
+
+A follow-up read-only calculation checked all material input pins and output
+hashes, then used saved K1 rows and compact state to compute
+sum_j |A01(i,j) Dright(j)| with independent math.fsum. No new kernels or source
+changes. These are complete AD row sums because A has no same-left block.
+
+| Complete left row | AD only (B=I) | Current chosen B defect |
+|---|---:|---:|
+|1|6.308508191519916|272.46338330480893|
+|32|1.4204659137317137|205.75858845030228|
+|64|3.639464127532053|123.74123328866376|
+
+Thus the chosen inverse worsens the tested unweighted row metric, but simply
+using identity B also fails theunit threshold on these same rows. This comparison
+is specific to these rows and metric; it is not a whole-operator conditioning
+estimate. Whether small-matrix amplification, input-subspace mismatch or another
+feature dominates remains an inference to test. Do not adopt a different inverse
+or metric solely from these three values.
+
+Reproduce after material001 inputs/outputs are available, from repository root:
+
+```python
+import json, math, sys
+from pathlib import Path
+sys.path.insert(0, 'research')
+from inverse_material_run import check_pins, identity
+from stream_inverse_action import column
+m = json.loads(Path('research/compact_defect_material001_manifest.json').read_text())
+r = json.loads(Path('research/compact_defect_material001_result.json').read_text())
+check_pins(m)
+root = Path(m['cwd'])
+assert all(identity(root/name) == item for name, item in r['outputs'].items())
+compact = Path((root/'compact-defect-control.in').read_text().splitlines()[1])
+left, right = m['counts'][:2]
+n = left + right
+with (compact/'compact-state.bin').open('rb') as stream:
+    gap, xi, dk, z, d = [column(stream, n) for _ in range(5)]
+beta = float((compact/'compact-state.meta').read_text().splitlines()[2])
+w = [k/2*(beta/2 if x == 0 else math.tanh(beta*abs(x)/2)/abs(x))
+     for x, k in zip(xi, dk)]
+with (root/'defect-kernel-left.bin').open('rb') as stream:
+    for i in (0, 31, 63):
+        kernel = column(stream, right)
+        print(i+1, math.fsum(abs(k*w[left+j]*d[left+j]/(1+z[i]))
+                             for j, k in enumerate(kernel)))
+```
+
+This recipe uses the same already-qualified state/weights convention but a
+separate direct A-only sum. The saved chosen-B row values come from the earlier
+independent full row calculation. No additional native charge; all owners remain
+terminal. Next numerical work should diagnose the retained low-rank factors and
+sensitive input directions before another material kernel pass.

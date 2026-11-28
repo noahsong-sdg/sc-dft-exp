@@ -5185,3 +5185,18 @@ Next inspect saved A-only versus UC contributions and inverse factors to identif
 whether original row norms or inverse amplification dominate; not measured yet.
 No new kernels, full second sweep, automatic retry or further expansion admitted.
 README/CAMPAIGN_STATE updated with negative gate. Brave/otherstudy untouched.
+
+### 2026-11-28 — retained-kernel A-only comparison clarifies the negative result
+
+Read-only check of1824input pins and all material output hashes, followed by
+independent fsum on saved K1 rows and compact finite-T weights/D/Z. Complete
+left AD-only row sums1/32/64:6.308508191519916/1.4204659137317137/
+3.639464127532053; chosen B values272.46338330480893/205.75858845030228/
+123.74123328866376. Current B worsens these tested row metrics. Identity B also
+failsunit contraction on all three, so disabling the inverse is not an accepted
+fix. No claim about full operator/spectral condition or physical response.
+Exact reproducible recipe and comparison table added to
+research/STREAMED_DEFECT_SECOND_PASS.md. Small-matrix amplification versus
+input-subspace mismatch remains unproven; next inspect retained factors/directions
+before spending another kernel pass. No new code/native job/budget charge.
+Original318tests/291compiles/native fixtures/moment remain final source gate.

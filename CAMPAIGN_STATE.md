@@ -163,7 +163,10 @@ and final312testsPASS45.022s,285Python compilations/native fixtures/moment PASS.
 [Scientific-value budget decision](research/COMPLETE_P_ADMISSION.md): local ceiling
 seven hours under original authorized4→16h pilot expansion. The selected defect
 diagnostic below now rejects continuing this stored unweighted-contraction route.
-Next: diagnose retained A-only versus UC contributions and inverse factors before
+Retained K1 comparison now gives AD-only row sums6.30851/1.42047/3.63946
+versus chosen-B272.463/205.759/123.741: current B worsens this metric; identity B
+also fails. [Reproduction recipe](research/STREAMED_DEFECT_SECOND_PASS.md).
+Next inspect retained inverse factors/sensitive input directions before
 choosing a different conditioner/norm; do not spend a full second sweep on current B.
 New second-pass native driver and independent coefficient/row readback now pass
 compiled full/partial denseI-BJ controls, both same-side blocks, final short tiles,
