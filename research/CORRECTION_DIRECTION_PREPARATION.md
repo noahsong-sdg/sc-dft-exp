@@ -37,3 +37,18 @@ immutable evaluation/restart recipe, qualify actual-input continuous64 versus
 persisted32+32, then consider full coverage. Saved plus-image can measure actual
 correction usefulness; it does not bound the unmeasured complement. All physical
 response, numerical uncertainty and2K/4K requirements remain open.
+
+## Preparation001 accepted
+
+[Terminal result](correction_direction_prepare001_result.json):PASS
+46.14212279161438s, all1486pins and independent payload/recipe/source re-read
+PASS. Individual descendant peak238190592B (227.15625MiB). Exact candidate
+unchanged; h5.502435566805578e-10Ry, unit direction, observed binary64
+maxabs(h*v-c)5.169878828456423e-26Ry (relative9.395619023046153e-17).
+This is normalization-roundoff evidence, not a root-error bound.
+
+Ledger20645.51788821336s leaves954.4821117866413s; no next run admitted.
+Next qualify immutable step evaluation/restart bindings and actual-input split
+equality. Two later production halves could avoid two repeated native startups,
+forecast~620s from prior545.6skernelCPU; unmeasured, subject to actual cost/pressure
+and separate admission. No controlled speedup or physical acceptance claimed.

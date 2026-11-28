@@ -1,0 +1,84 @@
+{
+  "inputs_unchanged": true,
+  "terminal_guard_pass": true,
+  "manifest_sha256": "509288fd164d8f59d333dd3b7a433d9589b553dc1632c303f353ba0688ef7341",
+  "recipe": {
+    "schema": "compressed-correction-direction-v1",
+    "step_ry": 5.502435566805578e-10,
+    "direction_infinity": 1.0,
+    "rescaled_correction_max_absolute_difference_ry": 5.169878828456423e-26,
+    "rescaled_correction_relative_difference": 9.395619023046153e-17,
+    "candidate_sha256": "303b379af5a563e82e1a9c54bec0b36fada9ff94cd4622d7e1a83d6df296f3d7",
+    "sha256": {
+      "direction-state.meta": "88c0fbcc9066de6f12d149e4cf6eabbf5739389aa57748e4d768a597c474f957",
+      "direction-state.bin": "be79499c726033c91e8b1ee8fad0431d8b59a400c165cd6e6e03531f59d2a494",
+      "full-map-step.in": "02dbb3b81827cee0358c2ed2f316cbb586bd3dc299d266bb10e6206ef1bede71"
+    },
+    "inverse_manifest": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_inverse_material001_manifest.json",
+      "sha256": "4f07ae5c8ac96bf8f85ec31ec3dc7e8a6b625c5bd642a4b31899c0af9cf13e3f"
+    },
+    "inverse_result": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_inverse_material001_result.json",
+      "sha256": "7c598f4d2dd705b2774fca839246f927201722a097a5b384b8fd8e79c95059c6"
+    },
+    "operator_context_sha256": "6efcf2d527d3c81ae9620e3280916bb6b58db4809e6683cf0795256ed9fcce62",
+    "beta": 19613.355577892344,
+    "counts": [
+      66867,
+      67940,
+      67940
+    ],
+    "source_correction_sha256": "a77c52a8ced11fc4788c96fc55257a6643abf780509e232796dbd32add141ca6"
+  },
+  "recipe_sha256": "8e07ab91f8f0e1503ea1ab839771489f470df30c0c8ff072fb8a3959d1b3c4a5",
+  "conditioned_gap_error_bounded": false,
+  "physical_response_verified": false,
+  "scope": "Certified candidate-bound direction and actual correction scale, observed binary64 rescaling roundoff; no microscopic action/new gap/full-space/physical-response acceptance.",
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "/Users/noahs/Developer/sc-dft-exp/research/prepare_correction_direction.py"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/correction-direction-prepare-001",
+    "wall_s": 46.14212279161438,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 238190592,
+    "sampled_peak_group_rss_bytes": 235618304,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 90.0,
+    "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+  },
+  "verified_input_count": 1486,
+  "readback_sha256": "5f9489e6a5d3c4ca2d4fbca688aff6f027bf3873637498e1b840baff25db674c",
+  "output_files": {
+    "direction-state.meta": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/correction-direction-prepare-001/direction-state.meta",
+      "bytes": 133,
+      "sha256": "88c0fbcc9066de6f12d149e4cf6eabbf5739389aa57748e4d768a597c474f957"
+    },
+    "direction-state.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/correction-direction-prepare-001/direction-state.bin",
+      "bytes": 2174080,
+      "sha256": "be79499c726033c91e8b1ee8fad0431d8b59a400c165cd6e6e03531f59d2a494"
+    },
+    "full-map-step.in": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/correction-direction-prepare-001/full-map-step.in",
+      "bytes": 48,
+      "sha256": "02dbb3b81827cee0358c2ed2f316cbb586bd3dc299d266bb10e6206ef1bede71"
+    },
+    "direction-recipe.json": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/correction-direction-prepare-001/direction-recipe.json",
+      "bytes": 1224,
+      "sha256": "8e07ab91f8f0e1503ea1ab839771489f470df30c0c8ff072fb8a3959d1b3c4a5"
+    },
+    "direction-preparation-result.json": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/correction-direction-prepare-001/direction-preparation-result.json",
+      "bytes": 1824,
+      "sha256": "5f9489e6a5d3c4ca2d4fbca688aff6f027bf3873637498e1b840baff25db674c"
+    }
+  }
+}
