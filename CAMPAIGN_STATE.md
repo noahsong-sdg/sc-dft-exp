@@ -71,8 +71,9 @@ h5.502435566805578e-10Ry; observed maxabs(h*v-c)5.169878828456423e-26Ry.
 Declared-step microscopic qualifier001 terminalPASS36.70167237473652s;
 1533pins/source/correction/evaluation and native split equality certified;
 peakindividual931561472B, independent weight error6.938893903907228e-18.
-[Result](research/portable_full_step_qualify001_result.json). Production first half001 now admitted420s/quiet120/3GiB;1557pins,
-completed64→33408. Only this half; no automatic next launch.
+[Result](research/portable_full_step_qualify001_result.json). Production first half001 terminalPASS311.66590004134923s/913653760B;
+1557pins/source/state/qualification closure certified, completed33408/66867.
+[Result](research/portable_full_step_segment001_result.json). No next run admitted.
 [Manifest](research/portable_full_step_segment001_manifest.json).
 [Prospective manifest](research/portable_full_step_qualify001_manifest.json).
 Preparation certificate, strict step qualifier
@@ -124,8 +125,9 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall20682.219560588095s; ceiling21600s leaves
-917.7804394119048s. Only first production half001 admitted420s; worst remainder497.7804394119048s. No automatic retry or budget increase.
+Actual guarded campaign wall20993.885460629444s; ceiling21600s leaves
+606.1145393705556s. No live owner/next admission; second420s would leave
+186.1145393705556s worst-case reserve. No automatic retry or budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
@@ -150,8 +152,8 @@ Conditional gap-to-response derivative and outward ratio helpers exist, but no
 material gap radius/stiffness intervals are certified. Analytic parabolic/current
 controls do not qualify the Nb functional or fit a physical normalization.
 
-Latest code checks:255tests PASS36.891s including native fixture builds;
-245maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
+Latest code checks:258tests PASS38.008s including native fixture builds;
+247maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
 No separate configured typecheck. Public CI46125471800 on8653ee8 PASS; runner CI46126020760 on4e0fecf PASS; material-result CI46126382268 on2ac1a50 PASS; orientation helper CI46126757526 onf10730c PASS; result CI46126994654 on3997c72 PASS; direction helper CI46127521198 onad67046 PASS; result CI46127763049 on6a12d8c PASS; step helperCI46128222986 on1084b00 PASS; readerCI46128690566 ond839ced PASS; preparation helperCI46129155495 on79344e4 PASS.
 Current docs/results do not replace native or scientific qualification.
 
