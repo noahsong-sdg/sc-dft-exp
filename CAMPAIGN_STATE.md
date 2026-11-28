@@ -6,6 +6,14 @@ research/TWO_WEEK_ACCEPTANCE.md. The actual reliable-response goal is incomplete
 The prior report and its NARROW verdict describe the completed bounded audit;
 they do not terminate or narrow the newly authorized scientific campaign.
 
+## Prospective occupation enrichment
+
+New versioned preparation/staging boundary passes218tests/216compilations/moment.
+Only occupation-prepare001 admitted:1144pins,180s/quiet120/3GiB, fresh48->49basis
+from certified complete image. Publish source/manifest before launch; no automatic
+retry or reduced/full solve admission. Native total18182.12777283633s under21600.
+Full failed stationarity result below remains decisive; physical goal incomplete.
+
 ## Current decisive full-map result
 
 Complete66867rows certified,1130pins/state/ordered chain pass. Segment004
