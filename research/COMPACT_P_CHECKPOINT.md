@@ -147,3 +147,38 @@ charged native total21413.48604350429s/21600 remains unchanged.
 Final gate for this readback source:304testsPASS47.727s,277Python compilations
 PASS, actual native fixture builds/runsPASS via full suite, moment_refinement.py
 exit0, git diff --check PASS. No separate configured typecheck.
+
+## Owning material restart qualification admission001
+
+`compact_p_material.py` connects the strict readback to accepted provenance. The
+prior fixture/readback alone left a real acceptance gap: a valid-looking persisted
+matrix could belong to a different executable or operator, and a self-reported
+replay claim could describe a different partial P. The owner replays the earlier
+selected-material independent controls, validates preparation/build receipts and
+closures, requires the19-compile ordered-P build with902cache controls, recomputes
+the registered dependencies from the actual bound files and verifies registration
+producer/parent identities. It stages fresh copies and exact controls for the
+continuous64 versus checkpoint32+32 native qualifier. No old pinned source changes.
+
+Postread requires exact consumed manifest, parent closure, executable/input copies,
+controls, guard receipt, terminal watcher, native marker and independent streaming
+readback against the previously accepted selected-material P hash. All six produced
+checkpoint/qualification/progress outputs are content-bound for prospective reuse.
+The qualification record is from the validated native executable; the streaming
+reader independently verifies continuous output identity and checkpoint invariants.
+This tests actual cache reset/restart, not a complete P pass or operator norm.
+
+Two new tests check registration/file identity, build gates, fresh control staging,
+accepted receipt and stale over-budget receipt, plus finite persisted-P corruption.
+Targeted2PASS0.030s. Preflight real parents reproduce registered fingerprint
+43be64148f45cab2975254ad80a543945a60423745b226bdbf77a09b8cf79cca.
+Admission001:90s guarded native wall,120continuous normal-pressure seconds before
+launch,3GiB process-group/workspace caps, one owner, original32-row native tiles.
+Before launch21413.48604350429s/21600 leaves186.51395649570986s; worst90s leaves
+96.51395649570986s. The full guarded wall includes both continuous and replay
+work. Parent hashing/independent postread remain separate workflow costs. No
+budget expansion/full-sweep admission. Brave and the separate study stay untouched.
+Final source gate:306testsPASS43.509s;279Python compilationsPASS; actual Fortran
+fixture builds/runsPASS via full suite; moment_refinement.py exit0; diffcheckPASS.
+No separate configured typecheck. Actual staged manifest has1735pins, native
+counts66867/67940/rank51 and exact registered fingerprint.

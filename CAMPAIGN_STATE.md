@@ -136,10 +136,14 @@ in512KiB payload blocks. No complete P arrays allocated by this reader; actual R
 unmeasured. Three new persisted-state/corruption regressions PASS.
 Final304testsPASS47.727s,277Python compilationsPASS; native fixtures/builds PASS.
 Public build/context580a7c7 CI46141345023PASS.
-Next owning material qualifier must pin/recompute context and compare continuous64
-versus checkpoint32+32, including selected material001 P byte identity. No complete material P, full norm,
+Owning material qualifier now validates parent closures/receipts, recomputes context
+and stages continuous64 versus checkpoint32+32 with selected material001 P identity.
+[Admission001](research/compact_p_material001_manifest.json):1735pins,90s cap,
+120quiet seconds,3GiB caps; no full pass/budget expansion.306testsPASS43.509s;
+279Python compilationsPASS; native fixtures and moment refinement PASS. No complete material P, full norm,
 outward certificate, conditioned gap error or physical response accepted.
-All owners terminal; no new material run/full pass or budget expansion admitted.
+Before launch all owners terminal; only material restart qualifier001 admitted.
+No full pass or budget expansion admitted.
 The exact [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md) includes
 same-side blocks and avoids a145GB dense matrix;2.78Tflops is not runtime evidence.
 [Method and interpretation](research/CORRECTION_INVERSE_DIAGNOSTIC.md).

@@ -4966,3 +4966,26 @@ Next: own material qualifier stage with validated receipts/closures/context,
 public prospective admission, guarded continuous64-versus32+32 restart and strict
 readback against selected material001. Full-P/norm/response remain open.
 Brave and unrelated study untouched.
+
+### 2026-11-28 — material P restart qualifier001 admitted
+
+New separate compact_p_material.py traces accepted selected material controls,
+preparation and19-compile ordered-P build receipts/closures to registered actual
+P dependencies. It recomputes the fingerprint and binds producer/result/file
+identities before staging original native inputs, new executable and exact qualifier
+controls. Postread requires terminal guard, consumed manifest, complete parent
+closure, input/executable copies, native record and streaming checkpoint equality
+to accepted selected material001 P hash. Earlier pinned sources unchanged.
+Two new regressions cover stale registration, build gate, consumed staging,
+over-budget receipt and finite persisted-P corruption. Narrow2PASS0.030s;
+full306PASS43.509s,279Python compilationsPASS, actual Fortran fixture build/run
+PASS, moment_refinement.py exit0, diffcheckPASS. No configured separate typecheck.
+
+Real preflight reproduced context43be64148f45cab2975254ad80a543945a60423745b226bdbf77a09b8cf79cca.
+[Admission001](research/compact_p_material001_manifest.json):1735pins,90s cap,
+120continuous normal-pressure seconds,3GiB group/workspace caps, one owner.
+Pressure1 observed before admission. Charge21413.48604350429s/21600 leaves
+186.51395649570986s; worst90s leaves96.51395649570986s. All continuous/replay
+native work charged by actual guarded wall; parent hashing/postread separate.
+No full sweep/budget expansion admitted. No material acceptance yet.
+Brave and separate study untouched.
