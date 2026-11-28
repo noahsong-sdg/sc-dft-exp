@@ -47,3 +47,20 @@ versus persisted32+32 qualification. The old reader hardcodes its old direction
 and must not certify the new action. A full action on the correction can falsify
 its predicted usefulness; it does not bound unmeasured directions or establish a
 full-space gap/physical-response error certificate. No material run admitted.
+
+## Source build result
+
+[Build001 result](portable_full_direction_build001_result.json) terminalPASS
+4.413896750193089s, all556pins,20fresh compiles/2links/902cache controls PASS.
+Individual descendant peak133152768B; ledger20594.58479271302s leaves
+1005.4152072869801s. No microscopic material action admitted. Frozen sources
+remain pinned; any variable-step experiment needs a new explicit version.
+
+A cost-saving proposal is to declare h=maxabs(compressed correction) and use its
+normalized direction. Saved plus/minus images could then provide the actual
+corrected residual as well as the derivative test in one sweep. Existing h=1e-8
+checkpoint/reader policy does not authorize this. Required new work: versioned
+finite positive step, exact source/correction/candidate binding, restart and
+independent plus/minus residual readback. The roundoff difference of h*v from the
+stored correction must be reported. This would test usefulness, not certify the
+full-space gap or physical response error.

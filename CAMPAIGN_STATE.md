@@ -44,12 +44,16 @@ Declared-direction native boundary now fixture-qualified: original direction
 matches frozen output bitwise, arbitrary direction matches independent dense
 nonsymmetric J action, restart equality and changed-state rejection PASS.
 [Method](research/DECLARED_DIRECTION_PROBE.md). Frozen production sources unchanged.
-Only source-build001 admitted:556pins,120s/quiet120/3GiB,20fresh compiles/2links,
-17distinct pinned archives. [Manifest](research/portable_full_direction_build001_manifest.json).
-After terminal build verify plan/inputs/executable/902controls. Before any
-material correction action qualify independent explicit-direction reader,
-normalization/candidate/context closure and microscopic64vs32+32 restart.
-No material action or full-space/physical-response acceptance admitted.
+Source build001 terminalPASS4.413896750193089s;556pins, exact20fresh compiles,
+2links/17distinct archives and902cache controls PASS; peakindividual133152768B.
+[Build result](research/portable_full_direction_build001_result.json).
+No material action or next native job admitted. Before a sweep, evaluate a
+versioned step h=maxabs(correction) with v=correction/h: existing four batches
+could then provide both J(d0)*v and the actual residual at d0+h*v from saved
+plus-image. This avoids assuming linear correction accuracy or buying a second
+sweep, but current source/checkpoint/reader hardcodeh=1e-8 and need explicit new
+step/candidate/direction/scale binding and independent readback. Repeat native
+split qualification. No silent reuse or full-space/physical acceptance.
 Kernel2 source orientation controls showed14.2146% pair asymmetry; positive dk
 alone supplies no accepted symmetric metric. Finite probe agreement cannot
 bound the unmeasured complement. Brave/otherstudy untouched.
@@ -88,8 +92,8 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall20590.170895962827s; ceiling21600s leaves
-1009.8291040371732s. Only120s source build admitted; worst leaves889.8291040371732s. No automatic retry or budget increase.
+Actual guarded campaign wall20594.58479271302s; ceiling21600s leaves
+1005.4152072869801s. No next native job admitted. No automatic retry or budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
@@ -116,7 +120,7 @@ controls do not qualify the Nb functional or fit a physical normalization.
 
 Latest code checks:237tests PASS26.281s including native fixture builds;
 229maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
-No separate configured typecheck. Public CI46125471800 on8653ee8 PASS; runner CI46126020760 on4e0fecf PASS; material-result CI46126382268 on2ac1a50 PASS; orientation helper CI46126757526 onf10730c PASS; result CI46126994654 on3997c72 PASS.
+No separate configured typecheck. Public CI46125471800 on8653ee8 PASS; runner CI46126020760 on4e0fecf PASS; material-result CI46126382268 on2ac1a50 PASS; orientation helper CI46126757526 onf10730c PASS; result CI46126994654 on3997c72 PASS; direction helper CI46127521198 onad67046 PASS.
 Current docs/results do not replace native or scientific qualification.
 
 Chronology remains in RESEARCH_LEDGER.md and immutable public commits. The former
