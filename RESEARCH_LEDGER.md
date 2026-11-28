@@ -4875,3 +4875,29 @@ Charged total21409.829897628948s/21600; remainder190.17010237105205s. No full P/
 conditioned gap error, physical response, seed/inverse promotion or budget expansion.
 All owners terminal; next complete-P coverage/checkpointing and explicit full-pass
 cost admission. Brave/otherstudy untouched.
+
+### 2026-11-28 — complete-P source coverage and checkpoint layer
+
+Previous goal turn classified progress: selected actual Nb tiles/native D and
+21independent saved-kernel contractions accepted, public CI46139920906PASS.
+Traced first-pass state: left columns are written once, right columns accumulate
+all previous left tiles. Persisting only the last tile or unbound context would
+lose/mix that history. Added separate strict checkpoint and ordered native pass
+variant, preserving every frozen producer/result. Metadata binds counts/rank,
+coverage, opaque context and cumulative CPU; validates exact binary shape, finite
+values and zero unvisited columns. Fresh output policy; stale/partial outputs are
+not accepted restart sources. Slash/null numeric tokens rejected explicitly.
+Qualification mode compares every P bit continuous64 versus32+checkpoint+32 with
+cache resets, recording both CPU pairs while full receipt must charge replay.
+Synthetic checkpoint35/39/rank3 tests32+3; pass65/67/rank3 tests64+1. Both
+continuous/restart bits agree; independent exact dense P controls all entries.
+Five focused testsPASS4.700s; final full suite297PASS45.185s;271Python compile
+PASS; actual Fortran fixture compile/executePASS; moment refinement exit0;
+diffcheckPASS. No separate configured typecheck.357Fortran/make lines including
+fixture, one purpose. [Method](research/COMPACT_P_CHECKPOINT.md).
+Read goal prompt resource rule: documented measured scientific-value expansion
+allowed up to16cumulative hours on credible path, absolute100hours. None admitted
+here. Charge remains21409.829897628948s/21600;190.17010237105205s available.
+Next implement P dependency fingerprint and immutable parent admission, source
+build and guarded material restart qualification before any full pass. No material
+complete P/norm/conditioned-error/response acceptance. Brave/otherstudy untouched.

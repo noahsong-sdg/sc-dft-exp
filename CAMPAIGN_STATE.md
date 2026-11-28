@@ -94,61 +94,35 @@ forecast490.89–545.04s versus8.42–9.69s. **No fullnorm/solver speedup claim.
 [Result](research/tile_blas_feasibility001_result.json),
 [method/evidence](research/TILE_BLAS_FEASIBILITY.md). Committed synthetic binaries
 and summaries permit offline arithmetic replay. Current native producer has
-32-row blocks. New separate streamed defect core passes exact dense I-BJ controls
-on actual32-row strided/native-bound layouts, including partial tiles and both
-same-side blocks. [Core](research/STREAMED_DEFECT_CORE.md). Next source-bind the
-compact/padded adapter and native tile producer, then qualify selected actual
-tiles before a full pass. No material norm/timing or outward certificate yet.
-Kernel/IO/radius/rounding work remains open.
-Compact state writer/native reader now pass six regression tests: unequal-band
-padding, bitwise readback, independent dense inverse action and stale/context/
-shape boundaries. Basis columns stream; fixed stored W is checked on both sides.
-[Bridge](research/COMPACT_DEFECT_STATE.md). Material preparation001 terminalPASS24.014388291630894s/102563840B
-(~97.81MiB),1598pins. All102Q/U columns independently bitwise checked after
-compaction; three saved actions calibrate within1.11023e-15/3.61892e-25/
-5.16988e-25 absolute. Stored W two-sided errors2.33952e-14/4.49790e-14.
-[Result](research/compact_defect_prepare001_result.json). No material native
-reader/kernel run or full norm yet. All owners terminal. New native tile probe now source-binds the compact
-state to freshly loaded delta/xi/dk/Z and an independent derivative check before
-building the original first two32-row kernel tiles. Synthetic fixture compiles the
-actual probe/reader/core and checks every partial P entry against exact Fraction
-sums, both orientations and11pre-kernel rejection cases. It releases U/W then Q
-before kernel work; no material memory measurement yet.
-Source trace corrected a new-probe normalization error before material admission:
-stored D differentiates the normalized occupation ratio, while A0 carries
-w=dk*tanh(beta*abs(xi)/2)/(2*abs(xi)), with its xi=0 limit. Fixture D now
-comes from the frozen inverse producer; the prior probe fails this regression.
-Prepared D/W and earlier accepted material artifacts are unchanged.
-[Probe](research/COMPACT_NATIVE_TILE_PROBE.md). New source-only link recipe is
-prospective; next guarded build, then bind accepted preparation/native context
-and independently qualify saved material tiles. No full P/norm acceptance.
-Compact source build001 now staged:576pins,18fresh compiles in checked dry plan,
-explicit SDK library before static archives. New owning runner requires exact
-plan/console, fresh objects/executables,902cache controls and unchanged inputs;
-raw output withholds terminal acceptance.288testsPASS40.777s.
-Build001 now terminalPASS3.6612219577655196s/133087232B (~126.92MiB),
-all576pins,18fresh compiles/35outputs and902bitwise cache controls verified.
-[Build result](research/compact_tile_build001_result.json). Explicit SDK binding
-and console/plan checked independently. All owners terminal; next stage selected
-material tiles from accepted compact preparation and fresh native executable.
-Material001 now staged with1666pins; strict two-parent receipts/output/closure
-and native seed identity checked. Independent chunked saved-kernel readback is
-fixture-qualified (21samples, finite outputs, untouched P columns,30native control
-identities).292testsPASS40.688s.
-[Admission](research/compact_tile_material001_manifest.json),
-[method](research/COMPACT_MATERIAL_TILES.md):90s for selected rows1:64,120quiet
-seconds,3GiB caps. No full-pass admission or budget expansion.
-Material001 now terminalPASS29.737132583279163s/1033355264B (~985.48MiB);
-all1666pins, native state and D maxdifference4.44e-16 checked.30native and
-21independent saved-kernel controls PASS (maxdifference1.11e-16); all kernel/P
-values finite, unvisited left P columns zero.
-[Result](research/compact_tile_material001_result.json). Kernel CPU0.227426/
-0.219171s vs contraction0.017620/0.013659s; selected timer sections only, not
-full-sweep cost or speedup. Postread6.107946s/54394880B separate. All owners
-terminal; next complete-P coverage/checkpoints and explicitly budget any full
-pass. No full norm, conditioned gap error or physical-response acceptance.
-[Build admission](research/compact_tile_build001_manifest.json):60s,120quiet
-seconds,3GiB caps; no kernel admission or budget expansion.
+32-row blocks. The separate streamed defect core passes exact dense I-BJ controls
+on native strided layouts, partial tiles and both same-side blocks.
+[Core](research/STREAMED_DEFECT_CORE.md). Compact preparation001 terminalPASS
+24.014388291630894s/102563840B;1598pins, all102Q/U columns independently
+bitwise checked after padding removal and three saved B actions calibrated.
+[Preparation](research/compact_defect_prepare001_result.json).
+**Normalization invariant:** stored D differentiates the normalized occupation
+ratio; A0 carries finite-T linear weights dk*tanh(beta*abs(xi)/2)/(2*abs(xi)),
+with the xi=0 limit. Fixture D comes from the frozen inverse producer. The first
+new probe convention was corrected before material use; prepared D/W unchanged.
+Compact native build001 terminalPASS3.6612219577655196s/133087232B;576pins,
+18fresh compiles/35outputs/902cache controls and explicit SDK-first link verified.
+[Build](research/compact_tile_build001_result.json).
+Selected material001 terminalPASS29.737132583279163s/1033355264B (~985.48MiB),
+1666pins. Native state and D agree (max4.44e-16);30native and21independent
+saved-kernel controls PASS (max1.11e-16). All P/kernel values finite and unvisited
+left P columns zero. [Result](research/compact_tile_material001_result.json),
+[method](research/COMPACT_MATERIAL_TILES.md). Kernel CPU0.227426/0.219171s
+versus contraction0.017620/0.013659s are selected sections, not full-run speedup.
+Postread6.107946s/54394880B remains separate. Public CI46139920906PASS.
+New ordered-P checkpoint/pass source now passes synthetic continuous/restart
+bitwise controls, final short tiles and independent full-P dense arithmetic.
+[Checkpoint](research/COMPACT_P_CHECKPOINT.md).297testsPASS45.185s. Metadata
+binds exact coverage/dimensions/context, binary shape and untouched columns;
+new pass supports a cache-reset32+32qualification and declared predecessor.
+Actual context fingerprint/parent admission protocol, fresh source material build
+and material restart qualification remain next. No complete material P, full norm,
+outward certificate, conditioned gap error or physical response accepted.
+All owners terminal; no new material run/full pass or budget expansion admitted.
 The exact [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md) includes
 same-side blocks and avoids a145GB dense matrix;2.78Tflops is not runtime evidence.
 [Method and interpretation](research/CORRECTION_INVERSE_DIAGNOSTIC.md).
