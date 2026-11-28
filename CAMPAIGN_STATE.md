@@ -19,8 +19,11 @@ coefficient residual4.2934406030425976e-17, not full stationarity.
 Qualification004 terminalPASS36.531995916739106s/916668416B;1279pins verified,
 continuous64 vs persisted32+32 bitwise, exact active source state and independent
 occupations PASS. [Result](research/portable_full_map_qualify004_result.json).
-Only `portable-full-map-segment-009` admitted, rows65:16704,480s hard limit,
-quiet120/3GiB. [Manifest](research/portable_full_map_segment009_manifest.json).
+Segment009 terminalPASS173.50374833354726s/926318592B; strict1295pins and
+qualification004 lineage PASS. Completed16704/66867leftrows; exact source state,
+independent weights and explicit-sum checks PASS. [Result](research/portable_full_map_segment009_result.json).
+Only `portable-full-map-segment-010` admitted, rows16705:33408,480s hard limit,
+quiet120/3GiB. [Manifest](research/portable_full_map_segment010_manifest.json).
 No later segment/retry admitted. Brave/otherstudy untouched; preserve flux-pinning.
 
 Preparation002 strict1249pin readback passes, inherited Q/U bytes identical;
@@ -69,10 +72,10 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall19098.737427211683s; ceiling21600s leaves
-2501.262572788317s. Segment009 ceiling480 leaves2021.262572788317s.
-Four prospective production ceilings fit with581.262572788317s reserve;
-only segment009 admitted. No automatic budget increase.
+Actual guarded campaign wall19272.24117554523s; ceiling21600s leaves
+2327.7588244547696s. Segment010 ceiling480 leaves1847.7588244547696s.
+Three prospective production ceilings fit with887.7588244547696s reserve;
+only segment010 admitted. No automatic budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
@@ -99,7 +102,7 @@ controls do not qualify the Nb functional or fit a physical normalization.
 
 Latest code checks:220tests PASS22.258s including native fixture builds;
 219maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
-No separate configured typecheck. Public CI46119317325 on7912f8c PASS.
+No separate configured typecheck. Public CI46119583176 ona535b46 PASS.
 Current docs/results do not replace native or scientific qualification.
 
 Chronology remains in RESEARCH_LEDGER.md and immutable public commits. The former
