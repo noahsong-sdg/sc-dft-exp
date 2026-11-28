@@ -9,6 +9,7 @@ import unittest
 
 from compact_defect_state import compact as pack
 import test_compact_p_native_pass as parent_fixture
+from enrichment_action_readback import controls
 
 
 class EnrichmentActionNativeTest(unittest.TestCase):
@@ -51,6 +52,17 @@ class EnrichmentActionNativeTest(unittest.TestCase):
                 right=array.array('d');right.frombytes((root/'enrichment-kernel-right.bin').read_bytes())
                 for k,i in enumerate((1,34,67)):
                     for j in range(65):self.assertEqual(right[65*k+j],((17*i+5*(j+1))%29-14)/32 if j<stop else 0.)
+                checked=controls(root,compact,trialroot,[65,67],3,stop)
+                self.assertEqual(checked['complete_A_and_P'],stop==65)
+                self.assertEqual(checked['bilinear_controls'],9)
+                for filename in ('enrichment-actions.bin','enrichment-p.bin','enrichment-kernel-left.bin'):
+                    path=root/filename;before=path.read_bytes()
+                    with path.open('r+b') as stream:array.array('d',[123.]).tofile(stream)
+                    with self.assertRaises(ValueError):controls(root,compact,trialroot,[65,67],3,stop)
+                    path.write_bytes(before)
+                path=root/'enrichment-action.meta';before=path.read_text();path.write_text(before+'stale\n')
+                with self.assertRaises(ValueError):controls(root,compact,trialroot,[65,67],3,stop)
+                path.write_text(before)
             for name,stop,extra,rank in (('trailing',65,'stale\n',3),('split',63,'',3),('rank',65,'',2)):
                 root,done=launch(name,stop,extra,rank);self.assertNotEqual(done.returncode,0);self.assertFalse((root/'enrichment-action.meta').exists())
             (trialroot/'trial-inputs.bin').write_bytes(b'stale');root,done=launch('shape')

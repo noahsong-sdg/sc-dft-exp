@@ -5269,3 +5269,13 @@ Sourcec888baf CI46148038612PASS. No material kernels executed. Charged
 no material pass/retry/expansion admitted. Next independent material controls
 and selected64-row pilot, preserving partial/full coverage distinction.
 Details research/ENRICHMENT_ACTION_PASS.md; enrichment_action_build001_result.json.
+
+### 2026-11-28 — selected joint-action material pilot admitted
+
+Independent scalar saved-row and nine bilinear controls now fixture-qualified,
+including altered action/P/kernel/metadata and owner stale/pin/console rejection.
+328testsPASS53.222s,303Python compiles/native builds/moment/diffcheck PASS.
+Admit only selected64row pilot001,1921pins,90s/quiet120/3GiB, native plus
+readback inside charge. Parentstage2.815651709213853s separate. Current
+charged22003.157423504013s/25200 unchanged until actual. No full pass/newinverse/
+retry/expansion. Build06cccbc CI46148272267PASS. Method ENRICHMENT_ACTION_PASS.md.

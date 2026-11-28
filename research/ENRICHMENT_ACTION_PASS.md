@@ -74,3 +74,35 @@ bounds, plus state/D/provenance/coverage/finite-output checks. Then stage a
 selected64-row material pilot before considering the separately admitted full
 pass. Partial action/P outputs must remain explicitly partial. Shared-kernel
 bilinear consistency is an arithmetic check, not independent physical evidence.
+
+## Selected material001 prospective admission
+
+New enrichment_action_material.py verifies accepted trial-preparation and source
+build receipts/output identities and their merged closure, preserves copied native
+inputs, and stages exactly64rows in a fresh root. It owns the native subprocess
+with all three thread environment variables set to one, requires exact partial
+console coverage and runs independent readback before final pin checks.
+
+enrichment_action_readback.py enforces versioned metadata, exact state identities,
+finite binary sizes, ordered progress and cumulative CPU, zero unvisited left
+A/P and K2 sample regions. Scalar fsum independently reproduces selected complete
+left A*trial rows and selected right rows over the processed64columns. Nine
+bilinear controls compare Pextra*trial with trial^T*D*(A*trial), using bounds
+scaled by the sum of absolute terms on both sides. Shared kernels mean this is
+an arithmetic consistency check, not an independent physical/operator derivation.
+Native fixtures compare every A/P component against the dense oracle separately.
+Corruption controls alter action/P/kernel payloads and persisted metadata; owner
+controls reject wrong cwd, stale output, changed input pins and console mismatch.
+
+One90s selected pilot in raw/enrichment-action-material-001,1921pins,
+120continuous normal-pressure seconds,3GiB cap. Current charged22003.157423504013s
+of25200 leaves3196.8425764959866s; worst90 leaves3106.8425764959866s. Parent
+validation/stage2.815651709213853s separate workflow cost. Native execution and
+numerical readback are both charged inside owner. Prior selected diagnostic took
+29.40s near1.1GiB; this new combined path's actual runtime/memory are unmeasured.
+Stop on any guard/provenance/coverage/control failure. No automatic retry,
+full pass, new inverse or further budget expansion. Brave/other study untouched.
+
+Pilot source gate328testsPASS53.222s,303Python sources compilePASS, native
+fixture builds/moment_refinement/diffcheck PASS. Build result06cccbc
+CI46148272267PASS. No separate configured typecheck.
