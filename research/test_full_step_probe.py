@@ -11,6 +11,7 @@ import unittest
 from correction_image_readback import corrected_states
 from full_step_summary_analysis import analyze as step_summary
 from full_nonlinear_analysis import analyze as fixed_summary
+from step_checkpoint_analysis import declared, checkpoint as step_checkpoint
 from test_full_map_checkpoint import STUBS, MAIN
 import test_declared_full_direction as direction_fixture
 
@@ -56,6 +57,40 @@ class FullStepProbeTest(unittest.TestCase):
             for side,count in enumerate((67,71)):
                 for j in range(count):z[side*71+j]=.5+(j+1)/100
             result = corrected_states(images,gap,direction,z,[67,71,71],step)
+            xi=array.array('d',[0.])*142;dk=array.array('d',[0.])*142
+            for side,count in enumerate((67,71)):
+                for j in range(count):
+                    xi[side*71+j]=(j+1-17)*.001;dk[side*71+j]=(j+1-5)/1000
+            fields=(array.array('d',gap),xi,dk,array.array('d',z))
+            binding=declared(root,[67,71,71],1000,'a'*64,fields)
+            checked=step_checkpoint(root,[67,71,71],1000,'a'*64,67,fields,binding['direction'],binding['step'])
+            self.assertLessEqual(checked['independent_weights_max_absolute_difference'],1e-14)
+            with self.assertRaisesRegex(ValueError,'state shape/step'):
+                step_checkpoint(root,[67,71,71],1000,'a'*64,67,fields,[float('nan')]*142,step)
+            padded=array.array('d',binding['direction']);padded[67]=.1
+            with self.assertRaisesRegex(ValueError,'padding'):
+                step_checkpoint(root,[67,71,71],1000,'a'*64,67,fields,padded,step)
+            payload=root/'full-map-checkpoint-state.bin';original_payload=payload.read_bytes()
+            mutated=array.array('d');mutated.frombytes(original_payload);mutated[4*142]+=1e-6
+            payload.write_bytes(mutated.tobytes())
+            with self.assertRaisesRegex(ValueError,'occupation/derivative'):
+                step_checkpoint(root,[67,71,71],1000,'a'*64,67,fields,binding['direction'],step)
+            payload.write_bytes(original_payload)
+            overflow_fields=tuple(array.array('d',block) for block in fields)
+            mutated=array.array('d');mutated.frombytes(original_payload)
+            for k in range(3):overflow_fields[k][0]=1e308;mutated[k*142]=1e308
+            payload.write_bytes(mutated.tobytes())
+            with self.assertRaisesRegex(ValueError,'Nonfinite independent'):
+                step_checkpoint(root,[67,71,71],1000,'a'*64,67,overflow_fields,binding['direction'],step)
+            payload.write_bytes(original_payload)
+            with self.assertRaisesRegex(ValueError,'diagnostics'):
+                step_checkpoint(root,[67,71,71],1000,'a'*64,67,fields,binding['direction'],6e-10)
+            direction_payload=root/'direction-state.bin';original_direction=direction_payload.read_bytes()
+            mutated=array.array('d');mutated.frombytes(original_direction);mutated[16]=-0.
+            direction_payload.write_bytes(mutated.tobytes())
+            with self.assertRaisesRegex(ValueError,'bitwise'):
+                declared(root,[67,71,71],1000,'a'*64,fields)
+            direction_payload.write_bytes(original_direction)
             self.assertFalse(result['conditioned_gap_error_bounded'])
             for k,point in enumerate((gap,result['plus_gap'],result['minus_gap'])):
                 weights = [0.]*142

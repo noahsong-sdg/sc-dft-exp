@@ -46,3 +46,19 @@ correction and the actual corrected candidate. Repeat microscopic continuous64
 versus persisted32+32 equality. Only terminal full-row results can support a
 material correction-usefulness claim. Even a successful correction leaves full
 conditioning, response functional/uncertainty and2K/4K work open.
+
+## Source build and checkpoint arithmetic result
+
+[Step-build001](portable_full_step_build001_result.json) terminalPASS
+4.790972708724439s, all566pins/20fresh compiles/2links/902cache controls PASS.
+Individual descendant peak133414912B; ledger20599.375765421744s leaves
+1000.6242345782557s. No microscopic/material action admitted.
+
+step_checkpoint_analysis.py now verifies declared direction/candidate bytes,
+step/schema, source fields/padding and all four independent occupation weights.
+Native fixture and stale/mutated/overflow controls pass. Explicit reconstructed
+value finiteness prevents NaN from disappearing in maximum-error aggregation.
+Final243tests PASS29.099s,235Python compilations and moment replay PASS.
+This is arithmetic readback, not an owning receipt/evaluation-chain certificate.
+Preparation provenance/correction scale and immutable evaluation/restart closure
+remain next, followed by microscopic split qualification.
