@@ -1,0 +1,223 @@
+{
+  "terminal_guard_pass": true,
+  "inputs_unchanged": true,
+  "manifest_sha256": "0c0d782dbe2e853d0bc212ec7aad4f70f23a65677bd01ca075e4675a4d57fcc2",
+  "fresh_compile_count": 19,
+  "build_plan_matches_console": true,
+  "cache_checks": 902,
+  "cache_all_bitwise_equal": true,
+  "explicit_blas": {
+    "path": "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate.tbd",
+    "bytes": 383090,
+    "sha256": "4161871530d7e645898687730207311236fe3cbd46707c158253f4926da206ef"
+  },
+  "historical_custom_objects_used": false,
+  "material_runtime_qualified": false,
+  "outputs": {
+    "build-plan.txt": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/build-plan.txt",
+      "bytes": 53174,
+      "sha256": "65a75c77c1ee51782e3c0a071f5dd1c1a29a49bc219bf262a7ad28d5eb0c0492"
+    },
+    "cache-qualification.x": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/cache-qualification.x",
+      "bytes": 57832,
+      "sha256": "9537a1dcdc37a86a8b0e5339029d5c37f3a2f48aa5d74f586e567583f2b3dc51"
+    },
+    "cache_qualification.o": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/cache_qualification.o",
+      "bytes": 9000,
+      "sha256": "1499f9a920cc74e8fc5c516f4818e7a2cf5448d7c30487919078387aba2a38d3"
+    },
+    "cached_kel.mod": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/cached_kel.mod",
+      "bytes": 1803,
+      "sha256": "33bf7ee73b37e6584cde6f9e708875075e73323b61e0e157ce8033c1de3b3261"
+    },
+    "cached_kel.o": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/cached_kel.o",
+      "bytes": 12344,
+      "sha256": "d09d283e00ac6280573b53cf24b3f8bf21a9b61922ed5d9bf633739ff45eca99"
+    },
+    "cached_phonon.mod": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/cached_phonon.mod",
+      "bytes": 1893,
+      "sha256": "8e8851945e523cc0ba5aa0ae797e785c554ce37e5557afa93ce40746b53a49ef"
+    },
+    "cached_phonon.o": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/cached_phonon.o",
+      "bytes": 5192,
+      "sha256": "36b7a81f720a2dd411c5f40a7d45d391bbc2e0fd88c73219b00748d7fde3bdfd"
+    },
+    "compact_defect_io.mod": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/compact_defect_io.mod",
+      "bytes": 1737,
+      "sha256": "c2d9588ef2be333792b2dbf4ec45129a65e93fbe00cf245e2f4a7c1ab19c51af"
+    },
+    "compact_defect_io.o": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/compact_defect_io.o",
+      "bytes": 13600,
+      "sha256": "6577509ce189b24f3f3da6ef54bd01415205bc24261554bb71983a96b4e4993a"
+    },
+    "compact_p_checkpoint.mod": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/compact_p_checkpoint.mod",
+      "bytes": 1811,
+      "sha256": "7a203bd37b8358346bcc7be36b7cc99e2d78c11fb0a10ebc3344d2dfa250609d"
+    },
+    "compact_p_checkpoint.o": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/compact_p_checkpoint.o",
+      "bytes": 19288,
+      "sha256": "449c028251b05ba18f2b834bc6c7ba8ae8ffac946c52868f6a7c8bbbb89951ef"
+    },
+    "full-gap-check.x": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/full-gap-check.x",
+      "bytes": 7296800,
+      "sha256": "3a553a7144ededda5aa3655ed00d968e85b12e0184ae3b3175412c39ed60fb44"
+    },
+    "full_driver.o": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/full_driver.o",
+      "bytes": 12176,
+      "sha256": "aa8e8a0912033335dcecb4b557af22bb1d3ad475c7858bd2a7742070a5e707e3"
+    },
+    "full_nonlinear_probe.mod": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/full_nonlinear_probe.mod",
+      "bytes": 6614,
+      "sha256": "b3ddf8e6dabcbee43fb575b89469a106c5fdbd69c6c7b75323008bce028270a0"
+    },
+    "full_nonlinear_probe.o": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/full_nonlinear_probe.o",
+      "bytes": 31752,
+      "sha256": "396264e951afe3efe13ae0e6f7d184ad5cbf277d53e8beb3dc2a2c7447a6962f"
+    },
+    "gap_seed_io.mod": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/gap_seed_io.mod",
+      "bytes": 2586,
+      "sha256": "7d6cfcaa0761356c57586c97c94342f71ed0ebe8f19733281bb9c49bbf1dc0ef"
+    },
+    "gap_seed_io.o": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/gap_seed_io.o",
+      "bytes": 10600,
+      "sha256": "1ed7235294f5998b05acbd9cb5899af70269a90fdd6d86677a5da6c1c243ed16"
+    },
+    "hash_pipe.o": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/hash_pipe.o",
+      "bytes": 952,
+      "sha256": "eb9b9c7968baab43ee97bf76c9e68098eb7048b9fa70d6dfa4947dbce3dcbb87"
+    },
+    "hash_stream.o": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/hash_stream.o",
+      "bytes": 1672,
+      "sha256": "b94c34243ce2358e594f2c7dacddcf2b5be85897429f5d53043007e61b3bdf1c"
+    },
+    "native_coefficients.mod": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/native_coefficients.mod",
+      "bytes": 741,
+      "sha256": "82c2e25b9f26099eef38c78b50211cb59952436bda2162f602b6aee9d155e166"
+    },
+    "native_coefficients.o": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/native_coefficients.o",
+      "bytes": 6656,
+      "sha256": "8e347b272c69de6bea5f1da9cb3bab71c405b7b904ce3b5aaeff21c1cc593c21"
+    },
+    "native_rotation.mod": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/native_rotation.mod",
+      "bytes": 530,
+      "sha256": "9849de9baaf41947bac3a6aa01176153ce1ac66346c522a3593012fa80671f78"
+    },
+    "native_rotation.o": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/native_rotation.o",
+      "bytes": 63144,
+      "sha256": "b98591370fe48885a7c31dfc901702a80ec3a8c26e133165dc6d2ca91881db85"
+    },
+    "native_state_io.mod": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/native_state_io.mod",
+      "bytes": 3374,
+      "sha256": "d6d209e851327d7fefc96e1fc9c622ee203bbc8b89f69007ec6211aa5fdef889"
+    },
+    "native_state_io.o": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/native_state_io.o",
+      "bytes": 40152,
+      "sha256": "308b70b2ca7e1245630c97e4e810760dc549580d092612483275355421559b17"
+    },
+    "saved_coulomb.mod": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/saved_coulomb.mod",
+      "bytes": 3311,
+      "sha256": "b48067f2dcae0ab91f6afb288caf747ded8a43cc7dd2b74b69772767b2f178d2"
+    },
+    "saved_coulomb.o": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/saved_coulomb.o",
+      "bytes": 10752,
+      "sha256": "c39d2ead1b7a4600458e26e97490b72ef928cb441ae51d9ed2f96558de78ffb5"
+    },
+    "slab_operator.mod": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/slab_operator.mod",
+      "bytes": 7309,
+      "sha256": "a779db9249c022b87985c8bf7641969216cf6180e2f6bf034f1d6eda137a0a27"
+    },
+    "slab_operator.o": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/slab_operator.o",
+      "bytes": 19856,
+      "sha256": "b4c27ee55f2a9412927a260200850bd0f7747198e8abee67780bb942e4722023"
+    },
+    "streamed_coulomb.mod": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/streamed_coulomb.mod",
+      "bytes": 3185,
+      "sha256": "5f70288596df5149c43650ff6eec13201558780abefdcc7fc87ba50336c8f766"
+    },
+    "streamed_coulomb.o": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/streamed_coulomb.o",
+      "bytes": 18400,
+      "sha256": "9de4446cf1dddd591e3b06380815f8f342166f43516239f0d71253a2cf973958"
+    },
+    "streamed_defect_core.mod": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/streamed_defect_core.mod",
+      "bytes": 2033,
+      "sha256": "d1de07960af0ae1023ecb0ef288f1c96e2fb0fb44716932b102e8ba689d9bb9e"
+    },
+    "streamed_defect_core.o": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/streamed_defect_core.o",
+      "bytes": 29904,
+      "sha256": "653a4231dc89110267a32cf6ae9a9426d6ea6b312ee729b64345ca02d6fa8de3"
+    },
+    "tc_native_oracle.mod": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/tc_native_oracle.mod",
+      "bytes": 6285,
+      "sha256": "83d37fa83fedeeb6534903681cd1cbed1d3e6e41610014515b5a89bbb8454442"
+    },
+    "tc_native_oracle.o": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/tc_native_oracle.o",
+      "bytes": 29352,
+      "sha256": "fcdb2a25491e2e06b67807c9c862637001a80f9365d4e24b4dbd19a1b478e04f"
+    },
+    "tiled_operator.mod": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/tiled_operator.mod",
+      "bytes": 622,
+      "sha256": "72b2932293acb2acae1c3a74f9241e20729a8aa6ba0da96620ba585314be7333"
+    },
+    "tiled_operator.o": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/tiled_operator.o",
+      "bytes": 32736,
+      "sha256": "b4ef0cad66b3f112a85438650d2966599571e5fcd242c1583e9b235aa35b2f97"
+    }
+  },
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "/Users/noahs/Developer/sc-dft-exp/research/compact_p_build.py"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001",
+    "wall_s": 3.6561458753421903,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 133152768,
+    "sampled_peak_group_rss_bytes": 68927488,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 60.0,
+    "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+  },
+  "readback_sha256": "0e704a962a8d7098653aaa0edea5e1f4f91db801cb83ed86f8d5e33f116a108c",
+  "verified_input_count": 577,
+  "console_sha256": "4ceeb4bff89a85f68d0b0cb08d7daf2966db5b46054a788177b757c3d9e95235"
+}

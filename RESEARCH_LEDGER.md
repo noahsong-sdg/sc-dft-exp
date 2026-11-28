@@ -4919,3 +4919,24 @@ build only,120quiet seconds,3GiB caps; pressure1 before admission. Charged befor
 launch21409.829897628948s/21600,190.17010237105205s remain; worst60s leaves
 130.17010237105205s. No budget expansion or material sweep admission.
 [Manifest](research/compact_p_build001_manifest.json). Brave/otherstudy untouched.
+
+### 2026-11-28 — ordered-P source build001 accepted and context registered
+
+Guard terminalPASS3.6561458753421903s, maxindividual133152768B
+(~126.98MiB), sampled group68927488B. All577pins, exact public/consumed
+manifest and terminal receipt/watcher,19fresh object compiles,2expected links,
+37output hashes and902bitwise native cache controls verified. Compiler console
+prefix equals stored plan; SDK precedes static archives. No historical custom
+objects or material runtime accepted. Source/admission77e3c16 CI46141075791PASS.
+[Build result](research/compact_p_build001_result.json).
+Revalidated accepted preparation/build receipts and file identities; registered
+actual P dependency context43be64148f45cab2975254ad80a543945a60423745b226bdbf77a09b8cf79cca.
+[Registration](research/compact_p_context001.json) contains source/helper/result
+and file identities, normalized convention, binary64 beta and platform. U/W and
+paths excluded from mathematical P identity; parent/pin validation still required.
+Preflight hashing is separate from guarded native cost, not a full-workflow cost.
+Charged total21413.48604350429s/21600; remainder186.51395649570986s. All owners terminal.
+No material restart/full P/norm/physical-response acceptance or budget expansion.
+Next owning material qualifier must pin/recompute this context and compare
+continuous64 versus checkpoint32+32, including saved selected-material P identity.
+Brave/otherstudy untouched.

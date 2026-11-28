@@ -1,0 +1,87 @@
+{
+  "schema": "compact-P-context-registration-v1",
+  "fingerprint": "43be64148f45cab2975254ad80a543945a60423745b226bdbf77a09b8cf79cca",
+  "dependencies": {
+    "schema": "compact-P-dependencies-v1",
+    "counts": [
+      66867,
+      67940,
+      67940,
+      51
+    ],
+    "native_grid": [
+      100,
+      10,
+      50
+    ],
+    "beta_binary64_hex": "0x1.32756c1c9c6b3p+14",
+    "operator_sha256": "6efcf2d527d3c81ae9620e3280916bb6b58db4809e6683cf0795256ed9fcce62",
+    "padded_candidate_sha256": "303b379af5a563e82e1a9c54bec0b36fada9ff94cd4622d7e1a83d6df296f3d7",
+    "files": {
+      "Q": {
+        "bytes": 55001256,
+        "sha256": "c7a8aa2efe6a8504a9648aac481c826d06188d1ff1b0d50651d261bc189f3b7a"
+      },
+      "state_gap_xi_dk_Z_D": {
+        "bytes": 5392280,
+        "sha256": "a983162b0df28353ab3d6fed2248d47ed452508ad2422cbca3f337fcea0a028c"
+      },
+      "native_executable": {
+        "bytes": 7296800,
+        "sha256": "3a553a7144ededda5aa3655ed00d968e85b12e0184ae3b3175412c39ed60fb44"
+      },
+      "blas_sdk": {
+        "bytes": 383090,
+        "sha256": "4161871530d7e645898687730207311236fe3cbd46707c158253f4926da206ef"
+      }
+    },
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "normalization": "A0 carries dk*tanh(beta*abs(xi)/2)/(2*abs(xi)); D is normalized occupation derivative; xi=0 limit",
+    "native_tile_width": 32
+  },
+  "context_producer": {
+    "path": "/Users/noahs/Developer/sc-dft-exp/research/compact_p_context.py",
+    "bytes": 1635,
+    "sha256": "e9ec956bfdadae1b25c6b1c09d26964fcf43e35894a797114ce515bd40e9abd2"
+  },
+  "accepted_preparation": {
+    "path": "/Users/noahs/Developer/sc-dft-exp/research/compact_defect_prepare001_result.json",
+    "bytes": 4875,
+    "sha256": "9eb5ec65126e1b7bda72618fe34eae48ec6555781b670a3405f21fec4eaeeee6"
+  },
+  "accepted_build": {
+    "path": "/Users/noahs/Developer/sc-dft-exp/research/compact_p_build001_result.json",
+    "bytes": 10443,
+    "sha256": "8e68ae4268c911d24a50063543b58f24373eda82fd75ffc02319f2c6eec4b3d2"
+  },
+  "file_bindings": {
+    "Q": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-defect-prepare-001/compact-q.bin",
+      "bytes": 55001256,
+      "sha256": "c7a8aa2efe6a8504a9648aac481c826d06188d1ff1b0d50651d261bc189f3b7a"
+    },
+    "state": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-defect-prepare-001/compact-state.bin",
+      "bytes": 5392280,
+      "sha256": "a983162b0df28353ab3d6fed2248d47ed452508ad2422cbca3f337fcea0a028c"
+    },
+    "executable": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-P-build-001/full-gap-check.x",
+      "bytes": 7296800,
+      "sha256": "3a553a7144ededda5aa3655ed00d968e85b12e0184ae3b3175412c39ed60fb44"
+    },
+    "blas": {
+      "path": "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate.tbd",
+      "bytes": 383090,
+      "sha256": "4161871530d7e645898687730207311236fe3cbd46707c158253f4926da206ef"
+    },
+    "native_seed_metadata": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-step-segment-002/gap-seed.meta",
+      "bytes": 217,
+      "sha256": "f457b76039026bb337a424ac7194fe03b0ba1478f576166755b098d27a7d872a"
+    }
+  },
+  "material_restart_qualified": false,
+  "complete_P": false,
+  "full_space_norm_measured": false
+}

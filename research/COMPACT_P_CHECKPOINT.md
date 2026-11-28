@@ -100,3 +100,19 @@ configured typecheck. Source build001 admits60s only,120quiet seconds,3GiB caps,
 no kernels. Before launch21409.829897628948s/21600 leaves190.17010237105205s;
 worst60s leaves130.17010237105205s. No budget increase or full sweep admitted.
 [Manifest](compact_p_build001_manifest.json).
+
+Ordered-P build001 now terminalPASS3.6561458753421903s, maxindividual
+133152768B (~126.98MiB), sampled group68927488B. All577pins,19fresh compiles,
+37outputs, exact source-plan/compiler prefix and902cache controls checked.
+[Build result](compact_p_build001_result.json). Source/admission77e3c16 public
+CI46141075791PASS. No material P-pass or restart accepted by a successful build.
+
+The actual accepted Q/state/executable/SDK files now register P context
+43be64148f45cab2975254ad80a543945a60423745b226bdbf77a09b8cf79cca.
+[Registration](compact_p_context001.json) records exact derivation fields,
+content identities, source helper identity and accepted preparation/build result
+identities. This registration validates both parents and input hashes, not native
+restart behavior; those flags remain false. Registration is preflight hashing
+separate from guarded native cost. A future owning qualification must pin this
+registration, recompute it from accepted inputs and bind the checkpoint outputs.
+Charged total21413.48604350429s/21600;186.51395649570986s remain. No budget expansion.

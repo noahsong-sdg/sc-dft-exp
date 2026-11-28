@@ -124,7 +124,14 @@ candidate/executable/SDK/platform; excludes U/W and relocation. Parent receipt/p
 validation is still required separately. Ordered-P build001 staged with577pins,
 19fresh compiles in checked dry plan;60s,120quiet seconds,3GiB caps.
 [Build admission](research/compact_p_build001_manifest.json).301testsPASS44.966s.
-Actual owning material admission/restart qualification remain next. No complete material P, full norm,
+Ordered-P build001 now terminalPASS3.6561458753421903s/133152768B;
+577pins,19fresh compiles/37outputs/902cache controls and exact plan verified.
+[Build result](research/compact_p_build001_result.json). Actual P dependency
+context43be64148f45cab2975254ad80a543945a60423745b226bdbf77a09b8cf79cca
+is [registered](research/compact_p_context001.json), with accepted parent/file
+identities; material flags remain false. Source CI46141075791PASS.
+Next owning material qualifier must pin/recompute context and compare continuous64
+versus checkpoint32+32, including selected material001 P byte identity. No complete material P, full norm,
 outward certificate, conditioned gap error or physical response accepted.
 All owners terminal; no new material run/full pass or budget expansion admitted.
 The exact [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md) includes
@@ -169,8 +176,8 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall21409.829897628948s; ceiling21600s leaves
-190.17010237105205s. No next run, automatic retry/fullnorm/kernel pass or budget
+Actual guarded campaign wall21413.48604350429s; ceiling21600s leaves
+186.51395649570986s. No next run, automatic retry/fullnorm/kernel pass or budget
 increase admitted.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
