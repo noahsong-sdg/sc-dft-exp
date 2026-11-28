@@ -116,3 +116,34 @@ restart behavior; those flags remain false. Registration is preflight hashing
 separate from guarded native cost. A future owning qualification must pin this
 registration, recompute it from accepted inputs and bind the checkpoint outputs.
 Charged total21413.48604350429s/21600;186.51395649570986s remain. No budget expansion.
+
+## Streaming independent checkpoint readback
+
+`compact_p_readback.py` now checks the persisted native metadata and P payload
+without allocating either complete matrix. It scans binary64 values in blocks of
+at most512KiB, verifies dimensions/rank/coverage/context, timing syntax, finite
+values, exact byte count and zero unvisited left columns. Qualification additionally
+checks the continuous/split records and cumulative timing relationship, and requires
+an externally accepted partial-P SHA256. This last comparison detects finite
+corruption in already visited entries that metadata and finiteness cannot detect.
+The accepted hash must come from a separately validated parent result, never from
+the new checkpoint itself. The split output still needs its owning output hash
+and native replay record; the Python reader cannot independently reconstruct the
+native replay from a32-row payload alone.
+
+This closes a readback component, not material admission: the helper does not
+validate guard receipts, input closures or executable/control provenance, and
+returns no terminal acceptance flag. Its future owning qualifier must perform
+those checks and recompute the registered dependency fingerprint. Keeping these
+responsibilities explicit preserves the immutable earlier native producers and
+avoids loading two55MB P arrays merely to compare them. Actual readback RSS has
+not been measured. Public build/context commit580a7c7 CI46141345023PASS.
+
+Three new regression tests cover stale persisted metadata/schema/shape/context,
+Fortran slash tokens, overflowing timings, nonfinite data, changed unvisited
+columns, initial/final short-tile rules and finite visited-entry corruption against
+an accepted hash. Targeted3PASS0.004s. No material run or budget expansion;
+charged native total21413.48604350429s/21600 remains unchanged.
+Final gate for this readback source:304testsPASS47.727s,277Python compilations
+PASS, actual native fixture builds/runsPASS via full suite, moment_refinement.py
+exit0, git diff --check PASS. No separate configured typecheck.

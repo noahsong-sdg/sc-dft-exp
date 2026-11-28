@@ -130,6 +130,12 @@ Ordered-P build001 now terminalPASS3.6561458753421903s/133152768B;
 context43be64148f45cab2975254ad80a543945a60423745b226bdbf77a09b8cf79cca
 is [registered](research/compact_p_context001.json), with accepted parent/file
 identities; material flags remain false. Source CI46141075791PASS.
+Streaming checkpoint readback now checks metadata, finite payload/unvisited zeros,
+replay timing consistency and equality to an externally accepted partial-P SHA256
+in512KiB payload blocks. No complete P arrays allocated by this reader; actual RSS
+unmeasured. Three new persisted-state/corruption regressions PASS.
+Final304testsPASS47.727s,277Python compilationsPASS; native fixtures/builds PASS.
+Public build/context580a7c7 CI46141345023PASS.
 Next owning material qualifier must pin/recompute context and compare continuous64
 versus checkpoint32+32, including selected material001 P byte identity. No complete material P, full norm,
 outward certificate, conditioned gap error or physical response accepted.

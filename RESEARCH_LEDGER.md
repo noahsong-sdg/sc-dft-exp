@@ -4940,3 +4940,29 @@ No material restart/full P/norm/physical-response acceptance or budget expansion
 Next owning material qualifier must pin/recompute this context and compare
 continuous64 versus checkpoint32+32, including saved selected-material P identity.
 Brave/otherstudy untouched.
+
+### 2026-11-28 — bounded-memory checkpoint readback component
+
+Source path traced from native checkpoint writer/reader and ordered pass qualifier:
+metadata/finiteness alone cannot detect finite corruption in visited P columns.
+New independent `research/compact_p_readback.py` checks strict metadata, context,
+coverage, shape, finite values, untouched zeros and initial/final tile invariants.
+The qualification reader checks both checkpoint records/cumulative timings and
+requires the continuous64 payload SHA256 to equal an independently accepted
+selected-material P hash. Scans use at most512KiB payload blocks; no pair of
+full55MB matrices is loaded. Actual RSS remains unmeasured. Native source and
+all earlier pinned producers unchanged. Receipt/closure validation and material
+restart admission remain unfinished; this reader returns no terminal acceptance.
+
+Three regression tests include stale persisted schema/context/shape, slash/null
+syntax, overflow/nonfinite values, visited corruption, unvisited entries and
+initial/final short tiles. Targeted3PASS0.004s. Final full304testsPASS47.727s,
+277Python source compilationsPASS, actual Fortran fixtures compile/runPASS via
+full suite, moment_refinement.py exit0, git diff --check PASS. No separately
+configured typecheck. Public580a7c7 CI46141345023PASS.
+No material run/owner or budget expansion; guarded charge remains21413.48604350429s,
+remainder186.51395649570986s/21600. Fixtures/postreads are separate costs.
+Next: own material qualifier stage with validated receipts/closures/context,
+public prospective admission, guarded continuous64-versus32+32 restart and strict
+readback against selected material001. Full-P/norm/response remain open.
+Brave and unrelated study untouched.
