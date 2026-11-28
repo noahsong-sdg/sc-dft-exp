@@ -6,6 +6,15 @@ research/TWO_WEEK_ACCEPTANCE.md. The actual reliable-response goal is incomplete
 The prior report and its NARROW verdict describe the completed bounded audit;
 they do not terminate or narrow the newly authorized scientific campaign.
 
+## Current certified production state
+
+Segment002 terminalPASS387.73580245813355s/905297920B. Strict1098pin
+recursive certification PASS;33408/66867rows now durable, no full residual.
+Native total17746.063533918783s;3853.936466081217s remain under21600.
+Only segment003 rows33409:50112 admitted,480s/quiet120/3GiB.
+Publish manifest before guardlaunch. No automatic retry. Older live statements
+below are historical; guard60048/native66898 terminal.
+
 ## Latest production checkpoint
 
 Segment001 terminalPASS385.9410115000792s/908525568B, strict1082pin
