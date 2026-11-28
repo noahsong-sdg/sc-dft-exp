@@ -10,21 +10,24 @@ The earlier twelve-hour audit and NARROW verdict are historical, not completion.
 
 ## Active owner and next action
 
-Only `portable-reduced-gap-003` is admitted:50column reduced candidate,
-60s hard limit after120 continuous normal-pressure seconds,3GiB group/workspace
-caps, unchanged solver/64column mode/geometry/operator/0.15meV initial amplitude.
-Preparation002 guard61855/session94460 terminalPASS25.520065541379154s/228605952B.
-Publish prospective manifest before one launch. No automatic retry/fullvalidation
-admission. Brave and the other study remain untouched; preserve flux-pinning.
+Reduced003 terminalPASS1.4586336254142225s/175128576B; strict1260pins,
+source/receipt/geometry and independent binary readback PASS. Rank50 candidate
+Fermi means0.15354515881748107/0.15263833332369223meV, ~0.49% belowrank49;
+coefficient residual4.2934406030425976e-17, not full stationarity.
+[Result](research/portable_reduced_gap003_result.json).
 
-[Prospective manifest](research/portable_reduced_gap003_manifest.json).
+Only `portable-full-map-qualify-004` admitted: candidate-specific continuous64
+versus persisted32+32,180s hard limit after120 normal-pressure seconds,3GiB caps.
+[Prospective manifest](research/portable_full_map_qualify004_manifest.json),1279pins.
+Unchanged source-built executable, operator and finite-temperature arithmetic.
+No production segment/retry admitted; certify terminal qualification first.
+Brave and the other study remain untouched; preserve flux-pinning.
+
 Preparation002 strict1249pin readback passes, inherited Q/U bytes identical;
 new q norm1, overlap8.300874945971308e-19, independent exponential image error
 4.573977915173222e-19Ry. [Proof](research/portable_occupation_prepare002_result.json).
 Explicit-manifest occupation_prepare_readback.py preserves the frozen001 reader
 and replays all its scientific/receipt/hash fields exactly;220tests/219compilations PASS.
-After terminal solve, check source/receipt/result and gap change before another
-candidate-specific split/full evaluation admission.
 
 Latest full rank49 candidate still fails stationarity: Rinf2.5192548497580036e-9Ry
 and RMSres/gap4.686882888771546e-5; unchanged targets1e-10Ry/1e-5.
@@ -66,10 +69,10 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual new guarded campaign wall19060.74679766953s; recorded six-hour ceiling
-21600s leaves2539.2532023304702s. Reduced003 ceiling60 leaves2479.2532023304702s.
-Only reduced003 admitted; later split/full passes require fresh decisions.
-No automatic budget increase.
+Actual new guarded campaign wall19062.205431294944s; six-hour ceiling21600s
+leaves2537.794568705056s. Qualify004 ceiling180 leaves2357.794568705056s.
+Prospective4*480 production ceilings would fit with437.794568705056s reserve,
+but production requires separate evidence/admission. No automatic budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
@@ -96,7 +99,7 @@ controls do not qualify the Nb functional or fit a physical normalization.
 
 Latest code checks:220tests PASS22.258s including native fixture builds;
 219maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
-No separate configured typecheck. Public CI46116384431 onff1c92b PASS.
+No separate configured typecheck. Public CI46118861940 ona9ad196 PASS.
 Current docs/results do not replace native or scientific qualification.
 
 Chronology remains in RESEARCH_LEDGER.md and immutable public commits. The former
