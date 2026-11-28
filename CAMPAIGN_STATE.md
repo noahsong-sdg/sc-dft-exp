@@ -28,15 +28,13 @@ including the3s query timeout,120s normal gate and3GiB caps. The allocation fix
 is not proof of the preceding query-timeout cause.190tests,197source compilations,
 and moment_refinement passed; see GUARD_STREAMING_MEMORY.md.
 
-Current action: portable-full-gap-002 is running under the versioned guard.
-Observation-health-001 passed603.846979continuous seconds after one early
-latency reset; admission and all1037pins are public. Runtime guard launch gate
-also passed. The identical candidate/checker now has one1200s attempt,3GiB cap,
-unchanged residual thresholds/query timeout; no second solver queued. Terminal
-receipt and full strict readback still required; do not accept partial progress.
-No completion forecast. Add only terminal actual wall time to the14791.909518s
-native ledger. The health observation did not establish the earlier timeout's
-cause, and a lower-memory guard is not proof of future query reliability.
+Current native state: portable-full-gap-002 terminal FAIL at1200.1704385s,
+with59424/66867rows complete, normal pressure and no ps-observation timeout.
+No final map or accepted residual; all inputs unchanged, owned processes exited.
+New native total15992.079956543483s;2007.9200434565173s remain under5h.
+No solver or launch watcher remains. Analytic normalization-control full tests
+are running. A1500s full replay is feasible within the remaining pilot ceiling
+but requires an explicit measured-cost/value admission; do not launch implicitly.
 Brave and the other Docker study remain untouched. The scientific goal is active
 and incomplete: full gap stationarity, conditioning and response gates remain.
 
@@ -1762,3 +1760,10 @@ observation-health-001 terminal PASS:603.8469790420495continuous seconds normal 
 Admit exactly one portable-full-gap-002 attempt with versioned streaming guardSHA65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2; all runtime resource/observation policy unchanged. Identical source-built checker and candidateSHAccb58beb76a09216a4b7ca25c5f7fdb7db071d947e15eeeba2560c5855d0a6ab; fresh directory/control bindings only. All original inputs revalidated. Bound1200s/3GiB after standard120normal seconds, unchanged full residual acceptance. The lower verifier allocation and sustained observation recovery support this explicit attempt, not an automatic retry rule.
 
 Scientific value: resolve whether independently qualified linear seed plus4-step reduced candidate satisfies the full native equation, before further basis/response claims. Native total14791.909518001918s; worst-case15991.909518001918s, leaves2008.090481998082s under5h. No further retry admitted; failure requires a new cause/value assessment.190tests/197Python compilations/moment final checks remain PASS; source unchanged since that gate.
+
+
+## Full-gap002 reached hard deadline; forecast calibrated
+
+Terminal FAIL after1200.170438541565s, solely Native continuous deadline. Guard-owned native/group terminated; PIDs absent. Peak individual/group919617536B; no observation-query failure. All1037pins and public/consumed manifest equality revalidated. Last complete progress59424/66867 at1083.685013kernelCPU seconds; no full-map final output. Partial rows are unaccepted.
+
+New native total15992.079956543483s; remaining2007.9200434565173s under18000s. The historical680–908s forecast underestimates this source-built full checker on the present Mac. Last7tile intervals range16.024–17.289CPU seconds/1024rows, suggesting approximately120–126additional kernelCPU seconds for missing7443rows. A full replay around1320s is an estimate, not a bound. A separately admitted1500s run would stay inside5h with507.920043s reserve; no admission or launch follows solely from this failure. First finish outstanding analytic-control checks and record the explicit cost/value decision.

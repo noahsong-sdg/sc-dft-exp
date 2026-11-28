@@ -4139,3 +4139,10 @@ observation-health-001 terminal PASS:603.8469790420495continuous seconds normal 
 Admit exactly one portable-full-gap-002 attempt with versioned streaming guardSHA65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2; all runtime resource/observation policy unchanged. Identical source-built checker and candidateSHAccb58beb76a09216a4b7ca25c5f7fdb7db071d947e15eeeba2560c5855d0a6ab; fresh directory/control bindings only. All original inputs revalidated. Bound1200s/3GiB after standard120normal seconds, unchanged full residual acceptance. The lower verifier allocation and sustained observation recovery support this explicit attempt, not an automatic retry rule.
 
 Scientific value: resolve whether independently qualified linear seed plus4-step reduced candidate satisfies the full native equation, before further basis/response claims. Native total14791.909518001918s; worst-case15991.909518001918s, leaves2008.090481998082s under5h. No further retry admitted; failure requires a new cause/value assessment.190tests/197Python compilations/moment final checks remain PASS; source unchanged since that gate.
+
+
+## Full-gap002 reached hard deadline; forecast calibrated
+
+Terminal FAIL after1200.170438541565s, solely Native continuous deadline. Guard-owned native/group terminated; PIDs absent. Peak individual/group919617536B; no observation-query failure. All1037pins and public/consumed manifest equality revalidated. Last complete progress59424/66867 at1083.685013kernelCPU seconds; no full-map final output. Partial rows are unaccepted.
+
+New native total15992.079956543483s; remaining2007.9200434565173s under18000s. The historical680–908s forecast underestimates this source-built full checker on the present Mac. Last7tile intervals range16.024–17.289CPU seconds/1024rows, suggesting approximately120–126additional kernelCPU seconds for missing7443rows. A full replay around1320s is an estimate, not a bound. A separately admitted1500s run would stay inside5h with507.920043s reserve; no admission or launch follows solely from this failure. First finish outstanding analytic-control checks and record the explicit cost/value decision.

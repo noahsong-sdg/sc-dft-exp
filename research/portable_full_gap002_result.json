@@ -1,0 +1,30 @@
+{
+  "status": "FAIL",
+  "receipt": {
+    "status": "FAIL",
+    "error": "TimeoutError: Native continuous deadline",
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-gap-002/verify-gap-seed.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-gap-002/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-gap-002",
+    "wall_s": 1200.170438541565,
+    "exit": -15,
+    "max_individual_descendant_rss_bytes": 919617536,
+    "sampled_peak_group_rss_bytes": 919617536,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 1200.0,
+    "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+  },
+  "inputs_unchanged": true,
+  "manifest_sha256": "0665d3acef7702f6b6e680ff4beaa4a7b41b899a613604b5604269fe7ae7f63f",
+  "last_progress": "       59424       66867   1083.6850130000000     ",
+  "full_map_final_exists": false,
+  "new_native_total_s": 15992.079956543483,
+  "remaining_pilot_s": 2007.9200434565173,
+  "full_native_residual_verified": false,
+  "physical_response_verified": false,
+  "scope": "20minute deadline reached with normal pressure and no observation-query failure; partial rows not accepted."
+}
