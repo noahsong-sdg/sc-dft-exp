@@ -178,9 +178,13 @@ projection squared fractions5.23e-6/9.63e-7/5.22e-6; three extras orthonormal an
 reconstruct mapped targets within3.90e-16. No A actions/new inverse adopted.
 [Preparation and fixed holdouts](research/SENSITIVITY_ENRICHMENT.md),
 [result](research/sensitivity_enrichment001_result.json).
-Next build/fixture-qualify a fresh native pass computing A*extras and extra P
-in one pass, then selected material pilot; separately admit full work only after
-those pass. Do not spend a full second sweep on current B.
+Joint A*extras/extra-P variant now fixture-qualified against independent dense
+nonsymmetric full/partial/final-short-tile controls. Fresh source build001
+terminalPASS3.7499855835922062s/133201920B (~127.03MiB),571staged/614closure
+pins/19fresh compiles/37outputs/exact plan/902cache checks PASS. No material kernels.
+[Method](research/ENRICHMENT_ACTION_PASS.md), [build](research/enrichment_action_build001_result.json).
+Next independent material readback and selected64-row pilot, then separately
+admit full work only if those pass. No full second sweep on current B.
 New second-pass native driver and independent coefficient/row readback now pass
 compiled full/partial denseI-BJ controls, both same-side blocks, final short tiles,
 stale predecessor and finite corruption regressions. New owning selected gate
@@ -244,8 +248,8 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall21999.40743792042s; revised local ceiling25200s
-leaves3200.592562079579s. Complete P segment001 is terminalPASS; no native
+Actual guarded campaign wall22003.157423504013s; revised local ceiling25200s
+leaves3196.8425764959866s. Complete P segment001 is terminalPASS; no native
 owner running. No automatic retry/fullnorm pass or further budget
 increase admitted. [Decision and termination plan](research/COMPLETE_P_ADMISSION.md).
 Historical11357.646588s remain separate. Charge terminal actuals, including
@@ -272,10 +276,11 @@ Conditional gap-to-response derivative and outward ratio helpers exist, but no
 material gap radius/stiffness intervals are certified. Analytic parabolic/current
 controls do not qualify the Nb functional or fit a physical normalization.
 
-Latest code checks:324tests PASS50.966s including native fixture builds;
-297maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
+Latest code checks:327tests PASS53.213s including native fixture builds;
+300maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
 Spectrum source/admission5444ebf CI46146669175PASS.
 Enrichment source/admission31bad38 CI46147295398PASS.
+Joint action source/admissionc888baf CI46148038612PASS.
 No separate configured typecheck. Public latest helper/resultCI46131518726 on7e37f98 PASS; prospective final-halfCI46131592238 on1d335c8 PASS. Earlier CI46125471800 on8653ee8 PASS; runner CI46126020760 on4e0fecf PASS; material-result CI46126382268 on2ac1a50 PASS; orientation helper CI46126757526 onf10730c PASS; result CI46126994654 on3997c72 PASS; direction helper CI46127521198 onad67046 PASS; result CI46127763049 on6a12d8c PASS; step helperCI46128222986 on1084b00 PASS; readerCI46128690566 ond839ced PASS; preparation helperCI46129155495 on79344e4 PASS.
 Latest streamed helper CI46132810239 onf7fdd9d PASS; prospective manifest
 CI46132854664 one59e821 PASS. Previous resultCI46133492457 one6aeff2 PASS;

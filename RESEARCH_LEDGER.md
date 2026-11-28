@@ -5258,3 +5258,14 @@ fixture builds/moment/diffcheck PASS. Source/buildcode306lines, frozen producers
 untouched. Admit only build001,571pins,60s/quiet120/3GiB; no material kernels.
 Charged21999.40743792042s/25200 unchanged until terminal actual.
 See research/ENRICHMENT_ACTION_PASS.md and enrichment_action_build001_manifest.json.
+
+### 2026-11-28 — fresh joint-action source build accepted
+
+Build001 terminalPASS3.7499855835922062s/133201920B (~127.03MiB),571staged/
+614accepted closure pins,37outputs and terminal receipt/watcher checked.
+19fresh compiles,2links,exact plan/console,902cache controls PASS.
+Sourcec888baf CI46148038612PASS. No material kernels executed. Charged
+22003.157423504013s/25200 leaves3196.8425764959866s. All owners terminal;
+no material pass/retry/expansion admitted. Next independent material controls
+and selected64-row pilot, preserving partial/full coverage distinction.
+Details research/ENRICHMENT_ACTION_PASS.md; enrichment_action_build001_result.json.

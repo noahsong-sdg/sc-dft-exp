@@ -57,3 +57,20 @@ untouched. Future selected material pilot and independent readback required.
 Final source gate327testsPASS53.213s including actual native fixture builds;
 300maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
 No separately configured typecheck. New non-test executable/build code306lines.
+
+## Accepted source build001
+
+TerminalPASS3.7499855835922062s, maxindividual133201920B (~127.03MiB), sampled
+group46366720B (short compiler peak missed). All571staged/614accepted closure
+pins, exact consumed manifest/receipt/watcher and37output identities checked.
+19fresh compiles,2links,902cache controls PASS, exact build plan equals console.
+[Result](enrichment_action_build001_result.json). Sourcec888baf CI46148038612PASS.
+No material kernel executed. Charged22003.157423504013s/25200 leaves
+3196.8425764959866s. All owners terminal. No retry or material pass admitted.
+
+Next implement independent material checks on complete saved A rows and
+Pextra*trial = trial^T*D*(A*trial), with scalar fsum and cancellation-aware
+bounds, plus state/D/provenance/coverage/finite-output checks. Then stage a
+selected64-row material pilot before considering the separately admitted full
+pass. Partial action/P outputs must remain explicitly partial. Shared-kernel
+bilinear consistency is an arithmetic check, not independent physical evidence.
