@@ -1,0 +1,58 @@
+{
+  "terminal_guard_pass": true,
+  "inputs_unchanged": true,
+  "manifest_sha256": "2cb9be6a8697628a566ab3bf7975dc8c26263c430dea85248080db085e9e2320",
+  "records": [
+    {
+      "mapped_norm": 0.9933431836934138,
+      "old_basis_projection_squared_fraction": 5.231754424102264e-06,
+      "residual_fraction": 0.9999973841193666,
+      "trial_orthogonality_error": 7.062423971075427e-18,
+      "reconstruction_relative_error": 3.4115282156175765e-16
+    },
+    {
+      "mapped_norm": 0.9974991309791799,
+      "old_basis_projection_squared_fraction": 9.631075369431758e-07,
+      "residual_fraction": 0.9999994647472692,
+      "trial_orthogonality_error": 3.6328346226656465e-18,
+      "reconstruction_relative_error": 3.895290212474617e-16
+    },
+    {
+      "mapped_norm": 0.9963174124727667,
+      "old_basis_projection_squared_fraction": 5.2168829687527895e-06,
+      "residual_fraction": 0.9999929608172785,
+      "trial_orthogonality_error": 6.4533462384912346e-18,
+      "reconstruction_relative_error": 3.6706730033922297e-16
+    }
+  ],
+  "order": "largest singular value first; twice reorthogonalized D*v",
+  "extra_columns": 3,
+  "A_actions_available": false,
+  "inverse_adopted": false,
+  "physical_response_verified": false,
+  "outputs": {
+    "trial-inputs.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/sensitivity-enrichment-001/trial-inputs.bin",
+      "bytes": 3235368,
+      "sha256": "f1f90ab4125ee5d907a77768b6dc424191e1762a638e76a69f43e06eedfea3ae"
+    }
+  },
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "/Users/noahs/Developer/sc-dft-exp/research/sensitivity_enrichment.py"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/sensitivity-enrichment-001",
+    "wall_s": 10.18311733333394,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 97304576,
+    "sampled_peak_group_rss_bytes": 97239040,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 90.0,
+    "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+  },
+  "readback_sha256": "c4e88ad21c6366737409a0e0593a67b55d0edaf4e31e529becb1195a05f9303b"
+}

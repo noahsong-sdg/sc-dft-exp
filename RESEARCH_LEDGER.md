@@ -5235,3 +5235,14 @@ inverse adopted.1857pins,90s/quiet120/3GiB. Charged21989.224320587087s unchanged
 until terminal actual. Source324testsPASS50.966s/297Python compiles/native
 fixtures/moment/diffcheck PASS. Parent validation/stage2.669517290778458s separate.
 See research/SENSITIVITY_ENRICHMENT.md and prospective001manifest.
+
+### 2026-11-28 — mapped directions remain outside old interaction-input span
+
+Preparation001 terminalPASS10.18311733333394s/97304576B (~92.80MiB),1857staged/
+1864accepted closure pins and output/receipt/watcher checked. Mapped D*v squared
+Q projections5.23e-6/9.63e-7/5.22e-6, orthogonality7.06e-18, target reconstruction
+<=3.90e-16. Three trial inputs saved, no A actions/new inverse adopted. This
+resolves the derivative-mapping uncertainty in favor of testing enrichment.
+Source31bad38 CI46147295398PASS. Charged21999.40743792042s/25200 leaves
+3200.592562079579s. All owners terminal; no new native pass admitted. Next path
+and prospective held-out rows fixed in research/SENSITIVITY_ENRICHMENT.md.
