@@ -1,0 +1,22 @@
+{
+  "status": "NOT_ADMITTED",
+  "reason": "Normal-pressure reset made ten-minute gate impossible within twenty-minute admission limit; owned watcher stopped early.",
+  "last_observation": {
+    "phase": "waiting",
+    "pressure": "1",
+    "normal_seconds": 30.024232750292867,
+    "elapsed_seconds": 720.908241791185,
+    "required_normal_seconds": 600,
+    "limit_seconds": 1200
+  },
+  "earliest_possible_gate_elapsed_s": 1290.8840090408921,
+  "watcher_pid": 51130,
+  "watcher_terminal": true,
+  "native_launched": false,
+  "native_wall_s": 0,
+  "new_campaign_native_total_s": 13303.773888293505,
+  "initial_pilot_remaining_s": 1096.2261117064954,
+  "automatic_retry": false,
+  "scientific_goal_achieved": false,
+  "external_requirement": "Sustained normal-pressure host window; leave Brave and running Docker study untouched."
+}

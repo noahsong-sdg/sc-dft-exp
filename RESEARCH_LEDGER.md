@@ -3991,3 +3991,21 @@ This decision supersedes the earlier no-admission state only for this bounded
 attempt. No new scientific success threshold, no continuation beyond045.
 Any subsequent nonlinear work requires actual measured cost and a fresh
 scientific-value budget decision. Memory redesign remains an unmeasured proposal.
+
+
+## Sustained-window admission cannot pass; watcher stopped
+
+The normal interval reset after earlier4.25min. Last observed elapsed
+720.908241791185s, normal30.024232750292867s: earliest possible
+completion1290.8840090408921s exceeds1200s admission limit. Verified own PID51130
+command, stopped it with SIGTERM and verified absent.043root absent; no
+native calculation launched, zero added native cost. No unrelated process
+action. resumed_quiet_window001_result.json preserves the actual last sample
+and infeasible-deadline arithmetic; this is an early resource rejection, not
+a solver failure or scientific negative result. Remaining pilot1096.2261117064954s.
+No new watcher/retry admitted. Stable normal-pressure window remains required;
+previous repeated host-pressure stops and reset intervals show current shared
+host availability is insufficient under unchanged guard. Latest qualified48basis
+and033 checkpoint preserved; no accepted64mode/nonlinear gap/response.
+Public progress remains partial. Source/storage proposals and conditional tail
+analysis cannot bypass the missing native scientific evidence.
