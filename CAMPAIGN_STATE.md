@@ -108,8 +108,15 @@ shape boundaries. Basis columns stream; fixed stored W is checked on both sides.
 compaction; three saved actions calibrate within1.11023e-15/3.61892e-25/
 5.16988e-25 absolute. Stored W two-sided errors2.33952e-14/4.49790e-14.
 [Result](research/compact_defect_prepare001_result.json). No material native
-reader/kernel run or full norm yet. All owners terminal; next source-bind native
-producer to this compact state and qualify selected actual tiles.
+reader/kernel run or full norm yet. All owners terminal. New native tile probe now source-binds the compact
+state to freshly loaded delta/xi/dk/Z and an independent derivative check before
+building the original first two32-row kernel tiles. Synthetic fixture compiles the
+actual probe/reader/core and checks every partial P entry against exact Fraction
+sums, both orientations and10pre-kernel rejection cases. It releases U/W then Q
+before kernel work; no material memory measurement yet.
+[Probe](research/COMPACT_NATIVE_TILE_PROBE.md). New source-only link recipe is
+prospective; next guarded build, then bind accepted preparation/native context
+and independently qualify saved material tiles. No full P/norm acceptance.
 The exact [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md) includes
 same-side blocks and avoids a145GB dense matrix;2.78Tflops is not runtime evidence.
 [Method and interpretation](research/CORRECTION_INVERSE_DIAGNOSTIC.md).

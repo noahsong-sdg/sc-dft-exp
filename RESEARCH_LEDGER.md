@@ -4758,3 +4758,22 @@ Charged total21376.431543087903s/21600, remainder223.56845691209674s. No budget 
 Public source991b862 CI46137422272PASS; admissiond11742f CI46137448125PASS.
 [Result](research/compact_defect_prepare001_result.json). Next integrate the native
 producer and qualify selected actual tiles. Brave/otherstudy untouched.
+
+### 2026-11-28 — native/compact selected-tile source bridge
+
+Previous goal turn classified progress: public compact material artifacts/receipt
+and saved-action calibration changed authoritative evidence. Current source traces
+original initialized driver→run_full_map→build_tile→accumulate_p. Added separate
+probe and source link variant; every loaded active gap/xi/dk/Z must match compact
+state and independent native D must agree before kernels. Retains native32-row
+strides and separate K1/K2, samples direct left/right sums and saves kernels plus
+partial P for independent material replay. U/W and then Q released before kernels.
+No change to pinned producers or state; no timing/memory improvement claimed.
+Fixture uses65left/67right/rank3 and2tiles; exact represented Fraction sums check
+all396partial P entries including untouched left column. Ten stale/identity/rank/
+geometry/state/D boundaries reject before a kernel file exists. Full suite285PASS
+45.301s;263Python compilePASS; compiled actual native probe/reader/core fixture
+PASS; moment_refinement.py exit0; diffcheckPASS. No separate configured typecheck.
+[Method](research/COMPACT_NATIVE_TILE_PROBE.md). Actual material link/build and
+tile qualification remain open. No new guarded material time/admission; total
+21376.431543087903s, remaining223.56845691209674s. Brave/otherstudy untouched.
