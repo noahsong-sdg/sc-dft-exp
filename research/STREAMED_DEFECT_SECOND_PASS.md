@@ -70,3 +70,26 @@ moment_refinement.py exit0; diffcheckPASS. No separately configured typecheck.
 New non-test code448lines across driver, make variant, source-build owner,
 material owner and independent readback; all earlier pinned sources unchanged.
 Prior public185d785 CI46143964798PASS. No material result claimed.
+
+Source build001 now terminalPASS3.7740026665851474s, maxindividual134643712B
+(~128.41MiB). Independent acceptance checks all577pins, consumed manifest/receipt/
+terminal watcher,19fresh compiles,37output hashes, explicit SDK and902cache
+controls. [Build result](compact_defect_build001_result.json). Source8e19886
+CI46144804164PASS. Charged total21953.395573628917s/25200 leaves
+3246.604426371083s; no budget expansion. Actual material qualifier still requires
+its own prospective manifest and publication before launch.
+
+## Selected material001 admitted
+
+Actual staging revalidated complete P, unchanged saved-action bindings, accepted
+new build and merged1824pins. [Manifest](compact_defect_material001_manifest.json).
+Only64left/64same-right columns;90s cap,120continuous normal-pressure seconds,
+3GiB caps, one owner. Charge21953.395573628917s/25200 leaves3246.604426371083s;
+worst90s leaves3156.604426371083s. No budget expansion/full second pass admitted.
+This gate produces complete first64left row sums and partial right sums, with
+six independent samples and306coefficient controls. Native resource/coverage
+receipt plus independent arithmetic required. Above-one rows are diagnostic
+evidence against this stored unweighted-contraction route, not an outward proof
+or a statement about superconductivity. A passing selection leaves full rows
+unqualified. On failure the guard terminates its own group; no automatic retry.
+Brave/otherstudy untouched. All owners terminal before prospective publication.

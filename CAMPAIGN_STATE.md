@@ -169,8 +169,14 @@ stale predecessor and finite corruption regressions. New owning selected gate
 checks exact full P/saved-action parents and fresh build; only64/64rows permitted.
 [Method](research/STREAMED_DEFECT_SECOND_PASS.md).318testsPASS49.875s,
 291Python compiles/native fixtures/moment PASS. Source build001 staged577pins,
-60s,120quiet seconds,3GiB caps; no kernels/material gate admitted yet.
-[Build admission](research/compact_defect_build001_manifest.json).
+60s,120quiet seconds,3GiB caps. Build001 now terminalPASS3.7740026665851474s,
+maxindividual134643712B (~128.41MiB);577pins/19fresh compiles/37outputs/902cache
+controls PASS. [Build result](research/compact_defect_build001_result.json).
+Source/admission8e19886 CI46144804164PASS; no native kernels in build.
+Selected material001 now staged1824pins,90s,120quiet seconds,3GiB caps,
+64left/64same-right columns only. [Admission](research/compact_defect_material001_manifest.json).
+No full second sweep or budget expansion admitted; independent row diagnostics
+will determine whether the current inverse route merits a full sweep.
 No full norm, outward/radius bound, conditioned gap error or physical response accepted.
 The exact [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md) includes
 same-side blocks and avoids a145GB dense matrix;2.78Tflops is not runtime evidence.
@@ -214,8 +220,8 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall21949.621570962332s; revised local ceiling25200s
-leaves3250.378429037668s. Complete P segment001 is terminalPASS; no native
+Actual guarded campaign wall21953.395573628917s; revised local ceiling25200s
+leaves3246.604426371083s. Complete P segment001 is terminalPASS; no native
 owner running. No automatic retry/fullnorm pass or further budget
 increase admitted. [Decision and termination plan](research/COMPLETE_P_ADMISSION.md).
 Historical11357.646588s remain separate. Charge terminal actuals, including

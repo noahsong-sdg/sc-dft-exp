@@ -5133,3 +5133,25 @@ PASS, moment_refinement.py exit0, diffcheckPASS. No separate configured typechec
 Pressure1 observed before admission. Charge21949.621570962332s/25200 leaves
 3250.378429037668s; worst60s leaves3190.378429037668s. No material admission,
 full second pass, retry or budget expansion. Brave and other study untouched.
+
+### 2026-11-28 — defect source build001 accepted; selected material gate admitted
+
+Source/admission8e19886 CI46144804164PASS. Guard normal-pressure wait then
+terminalPASS3.7740026665851474s, maxindividual134643712B (~128.41MiB).
+Independent source-build acceptance checked577pins, exact consumed manifest/
+receipt/terminal watcher,19fresh compiles,37output hashes, explicit SDK, console/
+plan and902bitwise cache controls. [Result](research/compact_defect_build001_result.json).
+No kernels in source build. Charge21953.395573628917s/25200;
+3246.604426371083s remain. Earlier318testsPASS49.875s/291compiles/native
+fixtures/moment PASS remain final source gate; no source edits afterward.
+
+Real stage merges full P/saved native-image controls and new accepted build;
+[material001 manifest](research/compact_defect_material001_manifest.json)1824pins.
+Only64left/64same-right columns;90s guard,120continuous normal-pressure seconds,
+3GiB caps, one owner. Worst90s leaves3156.604426371083s. No full second pass,
+retry, new budget expansion or physical result. Complete first64left row sums
+and partial right sums plus independent six rows/306C controls will determine
+whether a full diagnostic merits its cost; a selected pass cannot certify full
+contraction. Above-one stored rows are diagnostic route evidence, not outward
+bounds or material failure. All owners terminal before publication; Brave and
+other study untouched. Parent hashing/staging separate from guarded native cost.
