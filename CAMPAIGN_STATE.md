@@ -6,6 +6,18 @@ research/TWO_WEEK_ACCEPTANCE.md. The actual reliable-response goal is incomplete
 The prior report and its NARROW verdict describe the completed bounded audit;
 they do not terminate or narrow the newly authorized scientific campaign.
 
+## Current candidate and qualification admission
+
+Reduced-gap002 terminalPASS1.6159827504307032s/171884544B;1155pins and strict
+readback pass.49column coefficientresidual4.90059381963448e-17, Fermi means
+0.1542994419693468/0.15339041848184634meV (~9.6% shift), new gapSHA9e0a0140...
+Full residual remains unknown, no physical response acceptance.
+Only qualify003 admitted: continuous64 vs32+32,180s/quiet120/3GiB, unchanged
+checkpoint executable/operator and fresh new-candidate identity. Seed002 is an
+unexecuted inventory, no native attempt. Publish prospective manifests beforelaunch.
+Native ledger18218.153409586605s;3381.8465904133955s remain under21600.
+No production/retryadmission.218tests/217compilations/moment/diffPASS; CI46115728575 PASS.
+
 ## Latest certified enrichment and prospective reduced solve
 
 Occupation preparation001 terminalPASS34.4096539998427s/233996288B;1144pins

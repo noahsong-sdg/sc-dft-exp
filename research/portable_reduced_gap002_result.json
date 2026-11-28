@@ -1,0 +1,56 @@
+{
+  "dimensions": [
+    66867,
+    67940,
+    67940,
+    100,
+    49
+  ],
+  "beta": 19613.355577892344,
+  "initial_amplitude_mev": 0.15,
+  "iterations": 4,
+  "coefficient_residual": 4.90059381963448e-17,
+  "orthogonality_error": 3.597122599785507e-14,
+  "mode_projection_error": 1.0036182822303896e-11,
+  "fermi_averages_mev": [
+    0.1542994419693468,
+    0.15339041848184634
+  ],
+  "min_positive_weight_fermi_gap_mev": 0.11799632874744001,
+  "max_absolute_gap_ry": 2.3784190976498692e-05,
+  "rytoev": 13.605693122994017,
+  "full_native_residual_verified": false,
+  "sha256": {
+    "reduced-result.txt": "9b4c78e5e3f5625254c95dff7a68bef3e1126dc16f45e914e9523dacab41f509",
+    "reduced-gap.bin": "9e0a01407aabce7adef104eb21f14bf992955849ac3817ef91c8f21b072f4521",
+    "native-init.meta": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+    "native-init.bin": "f0873f6a0dd6bbd7f435f9045e2225119b0fae4a0a28f025c2ee90032bda169b"
+  },
+  "scope": "Read a reduced candidate; a separate full native residual is mandatory.",
+  "terminal_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-reduced-gap-002/reduced-nonlinear-solve.x"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-reduced-gap-002",
+    "wall_s": 1.6159827504307032,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 171884544,
+    "sampled_peak_group_rss_bytes": 32768,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 60.0,
+    "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+  },
+  "inputs_unchanged": true,
+  "verified_input_count": 1155,
+  "manifest_sha256": "4857d007776f3994d5fc786f85341a69f49a8e847a26ad541bbad4a5f4330f88",
+  "campaign_native_wall_s": 18218.153409586605,
+  "campaign_native_ceiling_s": 21600,
+  "fermi_mean_relative_change": [
+    0.09631517243357934,
+    0.09635607611623653
+  ],
+  "campaign_native_remaining_s": 3381.8465904133955
+}
