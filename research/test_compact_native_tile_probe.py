@@ -50,8 +50,10 @@ end module
 MAIN='''program test
  use sctk_val
  use full_nonlinear_probe
+ use reduced_nonlinear_core,only:occupation_ratio
  implicit none
- integer::i,g
+ integer::i,g,file
+ real(dp)::value(134),derivative(134)
  character(32)::mode
  call get_command_argument(1,mode)
  delta=0;xi=0;dk=0;z=0
@@ -61,6 +63,15 @@ MAIN='''program test
    dk(i,g)=real(1+mod(i,5),dp)/16;z(i,g)=real(mod(i,7),dp)/16
   end do
  end do
+ xi(1,:)=0;xi(2,:)=0;delta(2,:)=0
+ if(mode=='export')then
+  call occupation_ratio(reshape(xi,[134]),reshape(delta,[134]),beta,value,derivative)
+  derivative(66:67)=0
+  open(newunit=file,file='derivative.bin',status='new',access='stream',form='unformatted')
+  write(file)derivative
+  close(file)
+  stop
+ end if
  if(mode=='state')delta(1,1)=.25_dp
  if(mode=='geometry')ngap(1)=64
  call run_full_map(delta)
@@ -75,16 +86,21 @@ class CompactNativeTileTest(unittest.TestCase):
             (base/'stubs.f90').write_text(STUBS);(base/'main.f90').write_text(MAIN)
             subprocess.run([shutil.which('gfortran'),'-O2','-ffp-contract=off','-fcheck=all','-ffree-line-length-none',
                             'stubs.f90',str(research/'compact_defect_io.f90'),str(research/'streamed_defect_core.f90'),
-                            str(research/'compact_native_tile_probe.f90'),'main.f90','-lblas','-o','probe.x'],
+                            str(research/'compact_native_tile_probe.f90'),str(research/'reduced_nonlinear_core.f90'),'main.f90','-llapack','-lblas','-o','probe.x'],
                            cwd=base,check=True,capture_output=True)
             counts=[65,67,67];n=132;rank=3
             vectors=[[0.]*134 for _ in range(5)]
             for side,count in enumerate(counts[:2]):
                 for i in range(1,count+1):
                     at=side*67+i-1;gap=.125;xi=i/128;dk=(1+i%5)/16;z=(i%7)/16
-                    e=math.hypot(xi,gap);t=math.tanh(1.25*e/2)
-                    d=dk/2*((xi/e)**2*t/e+1.25/2*(gap/e)**2*(1-t*t))
+                    if i==1:xi=0.
+                    if i==2:xi=0.;gap=0.
+                    d=0.
                     for values,v in zip(vectors,[gap,xi,dk,z,d]):values[at]=v
+            # Start from the frozen producer used by the real inverse artifact.
+            subprocess.run([str(base/'probe.x'),'export'],cwd=base,check=True,capture_output=True)
+            with (base/'derivative.bin').open('rb') as stream:
+                vectors[4]=array.array('d');vectors[4].fromfile(stream,134)
             basis=base/'basis.bin'
             q=[[((7*i+3*k)%17-8)/64 for i in range(1,135)] for k in range(1,4)]
             for values in q:
@@ -106,7 +122,8 @@ class CompactNativeTileTest(unittest.TestCase):
             with (root/'compact-partial-p.bin').open('rb') as stream:
                 actual=array.array('d');actual.fromfile(stream,3*n)
             packed=[[F(x) for x in compact(values,counts,True)] for values in q]
-            w=[F(x) for x in compact(vectors[2],counts,False)];z=[F(x) for x in compact(vectors[3],counts,False)]
+            energies=compact(vectors[1],counts,False);dk=compact(vectors[2],counts,False)
+            w=[F(weight/2*(1.25/2 if x==0 else math.tanh(1.25*abs(x)/2)/abs(x))) for weight,x in zip(dk,energies)];z=[F(x) for x in compact(vectors[3],counts,False)]
             d=[F(x) for x in compact(vectors[4],counts,True)]
             expected=[]
             for j in range(n):
@@ -133,6 +150,14 @@ class CompactNativeTileTest(unittest.TestCase):
             changed=array.array('d');changed.frombytes(original);changed[4*n]+=1
             statepath.write_bytes(changed.tobytes())
             bad,done=run('derivative');self.assertNotEqual(done.returncode,0)
+            self.assertIn('derivative',done.stderr)
+            self.assertFalse((bad/'compact-kernel-1.bin').exists())
+            statepath.write_bytes(original)
+            changed=array.array('d');changed.frombytes(original)
+            packed_weights=[float(x) for x in w]
+            for i,weight in enumerate(packed_weights):changed[4*n+i]*=weight
+            statepath.write_bytes(changed.tobytes())
+            bad,done=run('old-weighted-D');self.assertNotEqual(done.returncode,0)
             self.assertIn('derivative',done.stderr)
             self.assertFalse((bad/'compact-kernel-1.bin').exists())
             statepath.write_bytes(original)

@@ -112,8 +112,13 @@ reader/kernel run or full norm yet. All owners terminal. New native tile probe n
 state to freshly loaded delta/xi/dk/Z and an independent derivative check before
 building the original first two32-row kernel tiles. Synthetic fixture compiles the
 actual probe/reader/core and checks every partial P entry against exact Fraction
-sums, both orientations and10pre-kernel rejection cases. It releases U/W then Q
+sums, both orientations and11pre-kernel rejection cases. It releases U/W then Q
 before kernel work; no material memory measurement yet.
+Source trace corrected a new-probe normalization error before material admission:
+stored D differentiates the normalized occupation ratio, while A0 carries
+w=dk*tanh(beta*abs(xi)/2)/(2*abs(xi)), with its xi=0 limit. Fixture D now
+comes from the frozen inverse producer; the prior probe fails this regression.
+Prepared D/W and earlier accepted material artifacts are unchanged.
 [Probe](research/COMPACT_NATIVE_TILE_PROBE.md). New source-only link recipe is
 prospective; next guarded build, then bind accepted preparation/native context
 and independently qualify saved material tiles. No full P/norm acceptance.

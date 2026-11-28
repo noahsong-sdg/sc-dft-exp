@@ -4777,3 +4777,25 @@ PASS; moment_refinement.py exit0; diffcheckPASS. No separate configured typechec
 [Method](research/COMPACT_NATIVE_TILE_PROBE.md). Actual material link/build and
 tile qualification remain open. No new guarded material time/admission; total
 21376.431543087903s, remaining223.56845691209674s. Brave/otherstudy untouched.
+
+### 2026-11-28 — correct new native probe normalization before material use
+
+Deeper trace low_rank_inverse_driver→reduced_nonlinear_core.occupation_ratio
+showed new selected probe used the wrong D convention: saved D differentiates
+normalized g=delta*tanh(beta*E/2)/(E*b), b=tanh(beta*abs(xi)/2)/abs(xi),
+not dk-weighted occupation. A0 input weights must be dk*b/2, not bare dk.
+The first synthetic fixture shared the mistake, so its green tests/CI did not
+prove material compatibility. No material admission/build/run used this probe.
+Prepared D/W and accepted material artifacts unchanged. Minimal consumer fix
+forms the correct weights and independently checks normalized g'; E=0 gives1.
+Fixture now compiles/runs the actual frozen derivative producer, with xi=0/E=0
+boundaries, then independently checks all396P entries as exact represented sums.
+An old weighted-D artifact is explicitly rejected before kernels (11cases total).
+Negative-control execution of prior published probe fails at D as expected;
+correct-D/bare-dk variant fails exact P (first discrepancy0.04933761893385978).
+Corrected full suite285PASS38.911s;263Python compilePASS; real probe/reader/core
+and frozen producer compile/executePASS; moment_refinement.py exit0; diffcheckPASS.
+No separate configured typecheck. Fixing the consumer preserves the original
+scientific operator/inverse, unlike rescaling stored D or refitting W.
+No new material time charged;21376.431543087903s total,223.56845691209674s
+remaining. Next source-bound material build and selected-tile qualification.
