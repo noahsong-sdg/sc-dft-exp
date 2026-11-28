@@ -34,13 +34,14 @@ receipt/console bytes unchanged. [Layout provenance](research/occupation_receipt
 Qualification005 terminalPASS36.779333082959056s/932052992B;1384pins verified,
 continuous64 vs persisted32+32 bitwise, exact active state and independent
 occupations PASS. [Result](research/portable_full_map_qualify005_result.json).
-Segment014 terminalPASS171.67920004203916s/892370944B;1416pins and
-qualification005 lineage verified. Completed33408/66867leftrows; exact source
+Segment015 terminalPASS170.02282962482423s/922992640B;1432pins and
+qualification005 lineage verified. Completed50112/66867leftrows; exact source
 state, independent occupations and explicit-sum checks PASS.
-[Result](research/portable_full_map_segment014_result.json).
-Only `portable-full-map-segment-015` admitted, rows33409:50112,300s hard limit,
-quiet120/3GiB. [Manifest](research/portable_full_map_segment015_manifest.json).
-No later segment/retry admitted. Brave/otherstudy untouched.
+[Result](research/portable_full_map_segment015_result.json).
+Only `portable-full-map-segment-016` admitted, finalrows50113:66867,300s hard
+limit,quiet120/3GiB. [Manifest](research/portable_full_map_segment016_manifest.json).
+Require complete chain, independent normalization and original stationarity targets;
+no automatic correction/retry. Brave/otherstudy untouched.
 
 ## Latest accepted evidence
 
@@ -76,10 +77,9 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall20199.87706912946s; ceiling21600s leaves
-1400.1229308705406s. Segment015 ceiling300 leaves1100.1229308705406s.
-Two prospective production ceilings fit with800.1229308705406s reserve;
-only segment015 admitted. No automatic budget increase.
+Actual guarded campaign wall20369.899898754284s; ceiling21600s leaves
+1230.1001012457164s. Finalsegment016 ceiling300 leaves930.1001012457164s.
+Only segment016 admitted. No automatic budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
@@ -106,7 +106,7 @@ controls do not qualify the Nb functional or fit a physical normalization.
 
 Latest code checks:220tests PASS22.258s including native fixture builds;
 219maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
-No separate configured typecheck. Public CI46122655463 ond15446f PASS.
+No separate configured typecheck. Public CI46123083498 on142c68b PASS.
 Current docs/results do not replace native or scientific qualification.
 
 Chronology remains in RESEARCH_LEDGER.md and immutable public commits. The former
