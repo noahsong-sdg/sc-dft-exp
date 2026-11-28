@@ -6,6 +6,15 @@ research/TWO_WEEK_ACCEPTANCE.md. The actual reliable-response goal is incomplete
 The prior report and its NARROW verdict describe the completed bounded audit;
 they do not terminate or narrow the newly authorized scientific campaign.
 
+## Prospective production continuation
+
+Production stager and owning-root verifier v2 now pass native-backed stale-state,
+separate-process and fabricated-residual controls. See latest RESEARCH_LEDGER.
+A recorded scientific-value decision expands the native ceiling to21600s;
+actual terminal total16972.38671996057s. Only segment001 rows65:16704 is admitted,
+480s hard limit, unchanged120s quiet pressure rule and3GiB cap. No automatic retry.
+The previous compact checkpoint below remains historical evidence.
+
 ## Latest compact checkpoint — actual-input ordered restart qualifies
 
 Fresh linear seed qualifies:64columns, conventional real mode4,
