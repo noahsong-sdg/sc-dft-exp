@@ -28,13 +28,18 @@ including the3s query timeout,120s normal gate and3GiB caps. The allocation fix
 is not proof of the preceding query-timeout cause.190tests,197source compilations,
 and moment_refinement passed; see GUARD_STREAMING_MEMORY.md.
 
-Current native state: portable-full-gap-002 terminal FAIL at1200.1704385s,
-with59424/66867rows complete, normal pressure and no ps-observation timeout.
-No final map or accepted residual; all inputs unchanged, owned processes exited.
-New native total15992.079956543483s;2007.9200434565173s remain under5h.
-No solver or launch watcher remains. Analytic normalization-control full tests
-are running. A1500s full replay is feasible within the remaining pilot ceiling
-but requires an explicit measured-cost/value admission; do not launch implicitly.
+Current execution: portable-full-gap-003 launch watcher is active under v2,
+waiting for120normal-pressure seconds. One1500s full replay is explicitly
+admitted and public; identical source-built executable and candidate, fresh
+root/control bindings. No second job queued. Prior full-gap002 reached the
+1200.1704385s deadline with59424/66867rows, normal pressure and no ps-query
+failure; all inputs unchanged and no final map. Its measured throughput suggests
+a full replay near1320s, not a completion guarantee. New terminal native total
+15992.079956543483s; worst next1500s leaves507.9200434565173s under5h.
+Do not count reserved time as actual or accept partial rows. No further retry
+or pilot expansion is admitted.193tests/198source compilations/moment checks
+pass, and the independent continuum normalization control is public. The new
+run still requires a terminal receipt and independent strict full-residual check.
 Brave and the other Docker study remain untouched. The scientific goal is active
 and incomplete: full gap stationarity, conditioning and response gates remain.
 
