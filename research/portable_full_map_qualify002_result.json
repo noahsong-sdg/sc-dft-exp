@@ -1,0 +1,74 @@
+{
+  "terminal_guard_pass": true,
+  "inputs_unchanged": true,
+  "verified_input_count": 1064,
+  "checkpoint": {
+    "completed_rows": 64,
+    "dimensions": [
+      66867,
+      67940,
+      67940
+    ],
+    "beta": 19613.355577892344,
+    "step_ry": 1e-08,
+    "tile_sum_max_absolute_difference": 2.6020852139652106e-18,
+    "cumulative_kernel_cpu_s": 1.1986380000000025,
+    "partial_image_explicit_sum_bound": 1.140650624332554e-11,
+    "independent_weights_max_absolute_difference": 6.938893903907228e-18,
+    "independent_weights_bound": 1e-14,
+    "state_bitwise_matches_source": true,
+    "sha256": {
+      "linear-image-checkpoint.meta": "24833c7ed2f84920914d3e3ee971ac2344d83256199c4211fd2ad165fd6af9c1",
+      "linear-image-checkpoint.bin": "c662775ffd968428dcb79cd0d6d78e28f776e3e7df2e93c1248fe0687f64612e",
+      "full-map-checkpoint.meta": "efa1e62eb88d64ca617472a40cc99843ef4b3e7c8932151e489f770141e47de0",
+      "full-map-checkpoint-state.bin": "362bf984be77e2cb50e6fbbef1bdbc8d820d750439b40f316578a2ccf9a58336"
+    }
+  },
+  "split_checkpoint": {
+    "completed_rows": 32,
+    "dimensions": [
+      66867,
+      67940,
+      67940
+    ],
+    "beta": 19613.355577892344,
+    "step_ry": 1e-08,
+    "tile_sum_max_absolute_difference": 0.0,
+    "cumulative_kernel_cpu_s": 0.5991870000000006,
+    "partial_image_explicit_sum_bound": 1.140650624332554e-11,
+    "independent_weights_max_absolute_difference": 6.938893903907228e-18,
+    "independent_weights_bound": 1e-14,
+    "state_bitwise_matches_source": true,
+    "sha256": {
+      "linear-image-checkpoint.meta": "37dc778bef6e7a393b3fdfcbec84dfe43f8054757cc1fec95aaad39be02a3f42",
+      "linear-image-checkpoint.bin": "73eb32a82e355635f757e7ba3b20ab9eb01075de8edd72d124fa474d893a07e5",
+      "full-map-checkpoint.meta": "694ac96fa3f6d6ad779de1a7cb75ac868f8d18d26fe69a6e81bacd03f384cfd0",
+      "full-map-checkpoint-state.bin": "362bf984be77e2cb50e6fbbef1bdbc8d820d750439b40f316578a2ccf9a58336"
+    }
+  },
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-map-qualify-002/verify-gap-seed.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-map-qualify-002/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-map-qualify-002",
+    "wall_s": 67.08678966714069,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 902316032,
+    "sampled_peak_group_rss_bytes": 885817344,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 180.0,
+    "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+  },
+  "microscopic_split_qualified": true,
+  "full_native_residual_verified": false,
+  "physical_response_verified": false,
+  "manifest_sha256": "ad09aa5f29daca90dd4f08ab95b4cdaf6b9e34ca37850069f7adbef9182c7a9e",
+  "scope": "Certify ordered partial images and exact state binding, not a physical response.",
+  "new_native_total_s": 16972.38671996057,
+  "remaining_pilot_s": 1027.6132800394298
+}

@@ -75,3 +75,17 @@ sources compile; `python3.13 research/moment_refinement.py` exited0 and
 `git diff --check` passed. No separately configured typecheck.
 All1064prospective pins and public/consumed manifest equality passed before
 publication. No maintained native solver source changed in this slice.
+
+## Terminal actual-input result
+
+Qualification002 PASS67.086789667s with902316032B peak individual RSS.
+All1064inputs unchanged; strict receipt, context, source-state and checkpoint
+readback pass. Continuous64 vs persisted32+32images are bitwise equal. The
+independent weight maximum difference is6.938893903907228e-18; carried explicit
+sum discrepancy2.6020852139652106e-18. Both checkpoints have identical state
+payload hashes. See portable_full_map_qualify002_result.json.
+
+This qualifies the selected-row restart experiment. It is not a completed full
+residual or physical result. New native total16972.38671996057s; no production segment
+or pilot expansion is admitted by this result. The production stager must first
+pin accepted predecessor outputs and preserve the evaluation identity.

@@ -6,7 +6,7 @@ research/TWO_WEEK_ACCEPTANCE.md. The actual reliable-response goal is incomplete
 The prior report and its NARROW verdict describe the completed bounded audit;
 they do not terminate or narrow the newly authorized scientific campaign.
 
-## Latest compact checkpoint — full-gap003 stopped by host pressure
+## Latest compact checkpoint — actual-input ordered restart qualifies
 
 Fresh linear seed qualifies:64columns, conventional real mode4,
 lambda1.0018603316543802, independent residual2.2903598932171266e-10.
@@ -18,8 +18,8 @@ not normal, exit-15. Owned guardPID83328/nativePID86016 are absent. Peak
 individual/group900546560B. Last progress44064/66867 at799.072798kernelCPU
 seconds; no final full-map output. All1041input pins unchanged and public/
 consumed manifests identical. No residual or physical result is accepted.
-Latest native total16905.29993029343s including the7.600565s checkpoint build;
-remaining1094.7000697065705s under5h.
+Latest native total16972.38671996057s including checkpoint build and split qualification;
+remaining1027.6132800394298s under5h.
 Historical189.29minutes remain separate. No new heavy job or watcher is active.
 Do not automatically replay, relax pressure rules, or expand the pilot ceiling.
 
@@ -41,12 +41,27 @@ verified, and902unchanged cache checks bitwise equal. ExecutableSHA90c072eb...
 See FULL_MAP_RESTART_GATE.md and portable_full_checkpoint_build001_result.json.
 GuardPID69069/session26679 terminal; no native owner or watcher remains.
 
-Next qualify actual microscopic continuous64 versus persisted32+32images and
-independent strict readback before production segments. Derive the evaluation
-identity from source/build/operator/candidate content, and pin predecessor output
-hashes. No new microscopic launch or pilot expansion is admitted yet. Keep the
-original full checker and all existing provenance immutable. Bounded coefficient
-residency and tiny work-array reuse remain separate changes, not this fix.
+Actual microscopic split qualification002 now terminalPASS67.086789667s,
+peak902316032B, all1064pins/receipts/public-consumed manifests validated.
+Continuous64 vs persisted32+32images bitwise equal. Exact active gap/xi/dk/Z
+state binding passes; independent exponential weight error6.938893903907228e-18
+<=1e-14; partial-image explicit-sum error2.6020852139652106e-18. State hash
+362bf984be77e2cb50e6fbbef1bdbc8d820d750439b40f316578a2ccf9a58336.
+Only64/66867leftrows are certified partial sums, not a full residual.
+GuardPID92051/session38809 terminal; no native owner or watcher remains.
+See portable_full_map_qualify002_result.json and FULL_MAP_MICROSCOPIC_SPLIT.md.
+205tests/206Python compilations/moment PASS; publicCI46111300046 PASS. The initial geometry-header
+field comparison error was corrected before launch with a real-layout regression.
+
+Next stage a separate process resuming the certified64row checkpoint, pinning
+all predecessor outputs and the same evaluation identity. First implement and
+test that stager; no production segment or pilot expansion is admitted yet.
+Before final certification, version the legacy gap reader to select the owning
+command executable: ancestor inventories now contain multiple legitimate
+verify-gap-seed.x basenames. Keep ancestor pins and old readers unchanged;
+regression-test root/command binding without weakening residual gates.
+Keep original source/old provenance immutable. Bounded coefficient residency
+and tiny work-array reuse remain separate changes, not the restart fix.
 The actual response goal remains active/incomplete: full gap stationarity,
 conditioning, functional/units, grids, additional temperatures and validation.
 
