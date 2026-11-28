@@ -68,7 +68,10 @@ Prepare001 terminalPASS46.14212279161438s;1486pins and independent artifact
 re-read PASS, peakindividual238190592B. Exact candidate preserved; unit direction,
 h5.502435566805578e-10Ry; observed maxabs(h*v-c)5.169878828456423e-26Ry.
 [Result](research/correction_direction_prepare001_result.json).
-No next native job/admission. Preparation certificate, strict step qualifier
+Declared-step microscopic qualifier001 admitted:1533pins,180s/quiet120/3GiB;
+only continuous64vs32+32, no production sweep/retry/budget increase.
+[Prospective manifest](research/portable_full_step_qualify001_manifest.json).
+Preparation certificate, strict step qualifier
 stager and evaluation/restart reader now fixture-qualified; all251tests PASS.
 [Evaluation method](research/CORRECTION_STEP_EVALUATION.md). Actual material
 preparation preflight2.7161237499676645s/33521664B process peak; separate from
@@ -117,7 +120,7 @@ Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
 Actual guarded campaign wall20645.51788821336s; ceiling21600s leaves
-954.4821117866413s. No next native job admitted. No automatic retry or budget increase.
+954.4821117866413s. Only qualifier001 admitted180s; worst-case remainder774.4821117866413s. No automatic retry or budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
