@@ -1,0 +1,28 @@
+{
+  "scope": "Outward propagation of supplied stiffness intervals only",
+  "checks": {
+    "narrow_tests": 3,
+    "decimal_points": 1350,
+    "full_tests": 214,
+    "full_test_seconds": 24.137,
+    "maintained_python_compile": 212,
+    "moment_refinement_exit": 0,
+    "diff_check": "PASS"
+  },
+  "material_stiffness_intervals_verified": false,
+  "physical_response_verified": false,
+  "files": [
+    {
+      "path": "research/response_ratio_bounds.py",
+      "sha256": "418f78faf3131686f3c3feb9cba47d6cf55f5ec09a26bc68acf2c17d32102663"
+    },
+    {
+      "path": "research/test_response_ratio_bounds.py",
+      "sha256": "c303a0ce2960155504866cb18c998e3f3ce96802db9ee6e37dbe47693c7c67d1"
+    },
+    {
+      "path": "research/RESPONSE_RATIO_BOUNDS.md",
+      "sha256": "8eaae2d85e8351f0134faa9ca5a1e1ed004b5412c92e909ab9969381ec894fec"
+    }
+  ]
+}

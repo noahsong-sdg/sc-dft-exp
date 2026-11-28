@@ -113,3 +113,8 @@ for the fixed discrete `linear_response.stiffness` observable and infinity gap
 norm, with independent high-precision finite-perturbation controls. Its helper
 is a floating-point coefficient, not an interval certificate. No justified
 material gap radius has yet been supplied; full conditioning remains open.
+
+`RESPONSE_RATIO_BOUNDS.md` implements the subsequent ratio propagation with
+exact rational corner evaluation and outward binary64 endpoints. It requires
+independently justified numerator/denominator intervals and rejects a reference
+interval containing zero; it supplies none of the missing material bounds.
