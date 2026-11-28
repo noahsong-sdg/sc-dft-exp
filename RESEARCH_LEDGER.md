@@ -5366,3 +5366,13 @@ unchanged. No newAactions/inverse. Sourcec33d133 CI46151286367PASS. Charge
 source/fixture-qualify nine-input joint-action variant and selected material pilot;
 no new kernel pass/retry/expansion admitted by this checkpoint. Fresh holdouts
 fixed in RESOLVED_SENSITIVITY_COMPLETION.md; old validation history preserved.
+
+### 2026-11-28 — nine-input joint-action variant fixture-qualified/build admitted
+
+Native9-column A/P full/partial/final-short-tile outputs match independent dense
+operator; fresh registered kernel indices/corruption and plan/cache/owner tests
+PASS.336testsPASS56.762s/315Python compiles/native builds/moment/diffcheck PASS.
+Admit sourcebuild001 only571pins,60s/quiet120/3GiB, no material kernels.
+Charge22596.58254421208s unchanged untilactual; parentstage/plan0.3315680418163538s
+separate. Trialcount9usesfrozenrank<=13core; original physics/contexts unchanged.
+See RESOLVED_ACTION_PASS.md. Preparation1da2cb0 CI46151611559PASS.
