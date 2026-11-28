@@ -86,8 +86,8 @@ schema, changed active gap/xi/dk/Z/weights/beta, context, discontinuous boundari
 truncation, changed state bits, nonfinite images, invalid diagnostics and trailing
 control/metadata are rejected. Narrow suite:4tests PASS3.634s.
 
-Actual microscopic-input compilation, split equality, strict hash/readback
-certification and production segments remain pending. No full residual is accepted,
+Actual microscopic-input split equality, strict hash/readback certification
+and production segments remain pending. No full residual is accepted,
 no native launch is admitted by this document, and the5h pilot is not expanded.
 
 Final offline gate: `python3.13 -m unittest discover -s research -p 'test_*.py' -v`
@@ -102,3 +102,9 @@ prospective manifest is portable_full_checkpoint_build001_manifest.json.
 It selects full_checkpoint_link.mk explicitly, retaining the public QE/SCTK
 source-only archive/interface inventory and unchanged902cache controls.
 This build admission does not launch the full microscopic solver.
+
+Source-only build001 subsequently PASS7.600565s/137461760B,902unchanged
+cache controls bitwise equal; all538pins and16distinct explicit linked archives
+verified. See portable_full_checkpoint_build001_result.json and the source-bound
+full_map_restart_fixture001_result.json. Actual microscopic split qualification
+remains pending; no new microscopic launch is admitted here.

@@ -1,0 +1,24 @@
+{
+  "scope": "Native rectangular fixture restart equality and stale-state controls; not actual microscopic split or full residual.",
+  "test_command": "python3.13 -m unittest discover -s research -p 'test_*.py' -v",
+  "tests": 202,
+  "seconds": 24.247,
+  "maintained_python_compilations": 203,
+  "moment_refinement_exit": 0,
+  "final_binary_bitwise_equal_to_frozen": true,
+  "fixture_segments": [
+    32,
+    32,
+    3
+  ],
+  "stale_state_rejection": true,
+  "microscopic_split_qualified": false,
+  "physical_response_verified": false,
+  "sha256": {
+    "research/full_map_checkpoint.f90": "931eb84b8ae743db415dca0637c30e212245c9adab969d08be481e20a00d4205",
+    "research/full_nonlinear_checkpoint_probe.f90": "72e84204b2516f30df034eabc78f0d5ec3b47d283743ac9756081c6450e41eb5",
+    "research/full_nonlinear_probe.f90": "c3601b2e13d77c49ae84461ef21027d8eb43e895c0144b3bd8a72adb6cc88d34",
+    "research/portable_gap/linear_image_checkpoint.f90": "2217532eca51beadc4db203342abad544a7b7f795eab2ebe19b967d58c56b01b",
+    "research/test_full_map_checkpoint.py": "3987025f2493e25d81ed6ebf3ef5ac203462ebaddc7b3ec55be60f07326b56c1"
+  }
+}

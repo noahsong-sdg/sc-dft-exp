@@ -18,7 +18,8 @@ not normal, exit-15. Owned guardPID83328/nativePID86016 are absent. Peak
 individual/group900546560B. Last progress44064/66867 at799.072798kernelCPU
 seconds; no final full-map output. All1041input pins unchanged and public/
 consumed manifests identical. No residual or physical result is accepted.
-New native total16897.699364877157s; remaining1102.3006351228432s under5h.
+Latest native total16905.29993029343s including the7.600565s checkpoint build;
+remaining1094.7000697065705s under5h.
 Historical189.29minutes remain separate. No new heavy job or watcher is active.
 Do not automatically replay, relax pressure rules, or expand the pilot ceiling.
 
@@ -30,12 +31,22 @@ See COULOMB_ALLOCATION_PROFILE.md. The largest retained native array remains
 686.6MiB compact Coulomb data; bounded residency requires the reviewable split
 already described in NATIVE_MEMORY_ACCOUNTING.md, not early deallocation.
 
-The immediate reliability issue is that the full checker writes no durable
-partial map. Long-run failure discards all row progress. Trace/qualify ordered
-restart semantics before another long full evaluation; reuse existing checkpoint
-invariants without changing accumulation order or accepting partial results.
-Any actual-input qualification and subsequent run require explicit bounded
-admissions. No further replay or pilot expansion is admitted by this checkpoint.
+The full-map restart variant is now implemented separately, preserving32-row
+arithmetic and exact active-state binding. Continuous and32+32+3process fixtures
+produce byte-identical final outputs versus frozen source; stale state is rejected.
+202tests/203Python compilations/moment PASS. Public CI46110352830 also PASS.
+Source-only portable-full-checkpoint-build-001 terminalPASS7.600565s/137461760B;
+all538pins, public/consumed manifests and16distinct explicit linked archives
+verified, and902unchanged cache checks bitwise equal. ExecutableSHA90c072eb...
+See FULL_MAP_RESTART_GATE.md and portable_full_checkpoint_build001_result.json.
+GuardPID69069/session26679 terminal; no native owner or watcher remains.
+
+Next qualify actual microscopic continuous64 versus persisted32+32images and
+independent strict readback before production segments. Derive the evaluation
+identity from source/build/operator/candidate content, and pin predecessor output
+hashes. No new microscopic launch or pilot expansion is admitted yet. Keep the
+original full checker and all existing provenance immutable. Bounded coefficient
+residency and tiny work-array reuse remain separate changes, not this fix.
 The actual response goal remains active/incomplete: full gap stationarity,
 conditioning, functional/units, grids, additional temperatures and validation.
 

@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_full_checkpoint_build.py",
+      "run",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-checkpoint-build-001"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-checkpoint-build-001",
+    "wall_s": 7.60056541627273,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 137461760,
+    "sampled_peak_group_rss_bytes": 103022592,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 120.0,
+    "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+  },
+  "qualification": {
+    "checks": 902,
+    "all_checks_bitwise_equal": true,
+    "historical_objects_used": false,
+    "full_gap_driver_linked": true,
+    "full_gap_executable_sha256": "90c072ebc2c8df205ddc358155b22bdc29756ae091fefebb81f08fa12f58e3d9",
+    "microscopic_split_qualified": false,
+    "full_gap_runtime_qualified": false,
+    "scope": "Build the ordered full-map variant; does not run microscopic kernel images."
+  },
+  "inputs_unchanged": true,
+  "verified_input_count": 538,
+  "public_consumed_manifest_equal": true,
+  "explicit_link_archives": [
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/libsctk.a",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PP/src/libpp.a",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PHonon/PH/libph.a",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LR_Modules/liblrmod.a",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/PW/src/libpw.a",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/KS_Solvers/libks_solvers.a",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/dft-d3/libdftd3qe.a",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/libqemod.a",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/upflib/libupf.a",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/XClib/xc_lib.a",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/FFTXlib/src/libqefft.a",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/LAXlib/libqela.a",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/UtilXlib/libutil.a",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/MBD/libmbd.a",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/lapack-build/lib/liblapack.a",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/lapack-build/lib/libblas.a",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/lapack-build/lib/libblas.a"
+  ],
+  "manifest_sha256": "60c263cc457dd0d2f6298f7613ac18c8d7b131c47d046fd5e452c4faf6442044",
+  "new_native_total_s": 16905.29993029343,
+  "remaining_pilot_s": 1094.7000697065705,
+  "microscopic_split_qualified": false,
+  "physical_response_verified": false
+}
