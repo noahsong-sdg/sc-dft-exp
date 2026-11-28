@@ -1423,3 +1423,22 @@ inputs and public/consumed manifest equality PASS. Full-image result complete:
 False. Independent residual/mode check still required
 after036. No automatic continuation beyond036; no gap/response acceptance.
 Unchanged sources/thresholds; last187tests/194compilations/moment PASS.
+
+
+## Third-restart64 segment034 host-pressure stop
+
+Terminal FAIL: host memory pressure not normal; guard sent SIGTERM, exit-15.
+Actual wall198.00121666677296s is charged, new guarded total12970.132320626955s
+(216.1689min), historical11357.646588s separate. Own individual peak
+982761472bytes and sampled group
+984940544bytes stayed below3GiB. Later host
+sysctl pressure2; other host workloads observed, no individual causal attribution.
+All prospective pinned inputs unchanged and public/consumed manifest equality PASS.
+No partial scientific output accepted. Controller15347 terminal exit1; its known
+controller/guard/native PIDs absent.035/036 not launched;033 checkpoint preserved.
+No automatic retry. Reassess resource window and bounded retry value before fresh
+admission; do not alter quiet120,3GiB or scientific thresholds. Latest independently
+qualified48-vector seed still fails1e-9; no nonlinear gap or response accepted.
+No maintained source changes; source/build/context handoff29identities and reduced
+executable revalidated unchanged. No new test claim; last required187offline tests,
+194Python compilations and moment refinement passed as recorded previously.

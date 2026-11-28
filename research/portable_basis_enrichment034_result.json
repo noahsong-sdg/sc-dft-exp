@@ -1,0 +1,38 @@
+{
+  "status": "FAIL",
+  "receipt": {
+    "status": "FAIL",
+    "error": "RuntimeError: Host memory pressure not normal",
+    "command": [
+      "/usr/bin/make",
+      "-f",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/basis_enrichment.mk",
+      "RESEARCH=/Users/noahs/Developer/sc-dft-exp/research",
+      "QE_ROOT=/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe",
+      "NATIVE_INPUT=/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-034/native.in",
+      "enrich-basis"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-034",
+    "wall_s": 198.00121666677296,
+    "exit": -15,
+    "max_individual_descendant_rss_bytes": 982761472,
+    "sampled_peak_group_rss_bytes": 984940544,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 420.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "inputs_unchanged": true,
+  "public_and_consumed_manifest_equal": true,
+  "manifest_sha256": "cf7878259f963d4c9aee1d153bb153e9101db787f00c034a7fd1a3c875b20da7",
+  "new_campaign_native_wall_s": 12970.132320626955,
+  "historical_native_wall_s": 11357.646588,
+  "partial_output_accepted": false,
+  "full_images_native_checked": false,
+  "gap_seed_qualified": false,
+  "physical_response_verified": false,
+  "controller_terminal": true,
+  "automatic_retry": false,
+  "diagnosis": "Guard stopped on non-normal host pressure. Own peak remained below3GiB; later sysctl pressure2. Other host workloads observed; causality not attributed to any individual process.",
+  "next_action": "Preserve033 checkpoint. No035/036 launched. Reassess host resources and bounded retry value before any fresh admission; unchanged quiet120 and3GiB policy."
+}
