@@ -254,3 +254,23 @@ This is consistent with enrichment improving the candidate's symmetry, but
 its subsequently completed full check still fails both targets. Its moment-
 averaging response effect is now bounded for the tested discrete observable;
 total gap/response error remains unbounded. See ANISOTROPIC_MOMENT_GATE.md.
+
+
+## Fresh public-source geometry readback
+
+`fresh_response_assignment001_result.json` checks the existing public-source
+response-run001 assignment against fresh-gap-init001. Counts66867/67940,
+xi0/dx0/xi/dk and band/cell indices agree exactly, without interpolation.
+All eight originally published export hashes and all prospective input
+identities revalidate. The original receipt matches the published result.
+The raw staging manifest differs from the richer public launch protocol:
+the latter is a strict superset, with identical common identities and controls;
+both hashes are recorded. Neither historical file was rewritten. The original
+run used its older guard; this is offline readback, not a new current-guard run.
+
+This closes a fresh-layout compatibility check for the full48 tiny-Q selector
+diagnostic. It does not qualify that selector as a physical momentum choice,
+transfer a gap, or close directional moments, symmetry, full-support response,
+conditioning, derivative/grid, normalization or functional gates. A future
+qualified fresh candidate can use this layout for the next explicit mapping
+audit, with exact file/context identities preserved.

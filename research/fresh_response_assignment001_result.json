@@ -1,0 +1,73 @@
+{
+  "dimensions": [
+    66867,
+    67940,
+    67940,
+    100,
+    512,
+    1,
+    26
+  ],
+  "native_counts": [
+    66867,
+    67940,
+    67940,
+    100,
+    512,
+    26,
+    32768
+  ],
+  "shape_matches": true,
+  "mapping_compatible": true,
+  "differences": {
+    "xi0": {
+      "max_absolute_difference": 0.0,
+      "entries_beyond_64eps_relative": 0
+    },
+    "dx0": {
+      "max_absolute_difference": 0.0,
+      "entries_beyond_64eps_relative": 0
+    },
+    "xi": {
+      "max_absolute_difference": 0.0,
+      "entries_beyond_64eps_relative": 0
+    },
+    "dk": {
+      "max_absolute_difference": 0.0,
+      "entries_beyond_64eps_relative": 0
+    },
+    "kindx": {
+      "mismatches": 0
+    },
+    "bindx": {
+      "mismatches": 0
+    }
+  },
+  "qnorm": 1.4213149536207327e-12,
+  "volume": 122.17535992426924,
+  "tolerance": "64eps elementwise relative; zeros exact; indices exact",
+  "gap_transfer_verified": false,
+  "physical_response_verified": false,
+  "sha256": {
+    "research/raw/public-response-run-001/response-assignment.txt": "11059fa33166bf168df8fb5914c334fa5b62876a5804c4db263a2dce39ca9328",
+    "research/raw/public-response-run-001/response-assignment.bin": "829fd98c5f690597edd44a2e211a8c8695a81a743b40c417618499a2d10849ed",
+    "research/raw/fresh-gap-init-001/native-init.meta": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+    "research/raw/fresh-gap-init-001/native-init.bin": "f0873f6a0dd6bbd7f435f9045e2225119b0fae4a0a28f025c2ee90032bda169b"
+  },
+  "scope": "Compare exported response assignment with a gap's initialized native layout.",
+  "status": "PASS",
+  "layout_only": true,
+  "staging_and_prospective_protocol_common_inputs_identical": true,
+  "public_protocol_is_strict_superset": true,
+  "all_prospective_inputs_and_eight_export_hashes_revalidated": true,
+  "original_terminal_receipt_revalidated": true,
+  "provenance_sha256": {
+    "/Users/noahs/Developer/sc-dft-exp/research/public_response_run_manifest.json": "7835df736c69877d01b793322925a1c0e95f37814dd1adc2cf5d52273cfcaf92",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-run-001/run-manifest.json": "d93cb934415ab31b976b94281cf545ad1aaf0447824fb0aff9b925a7f307d91e",
+    "/Users/noahs/Developer/sc-dft-exp/research/public_response_run_result.json": "99af3406116b3c473acb90445a95b6aaee3024093c0c280da95ae8b6d7c9ce19",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-run-001/results/moment/receipt.json": "e0ae302c98af7c64182cd14a6f58af7f9627493c353adba06754cb4bfc6243e7",
+    "/Users/noahs/Developer/sc-dft-exp/research/fresh_gap_initialization_result.json": "c8bb859681f34b660e15f2cf222459afd305280f94d9f7be0c3f784b96b3877a",
+    "/Users/noahs/Developer/sc-dft-exp/research/response_assignment_analysis.py": "5de6b02adc8a0e8df8a947f2e6aa3aa727383ebb2bc106769dad7a1860537a48"
+  },
+  "limitation": "Exact layout agreement for existing public-source full48 tiny-Q selector diagnostic and fresh Q0 geometry. Not a physically valid tiny-Q prescription, gap transfer, directional tensor/moment closure, conditioned gap or response accuracy. Original run used its older pinned guard, not the current campaign guard; no new native work was run."
+}
