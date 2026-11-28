@@ -1624,3 +1624,34 @@ but no native progress instrumentation proves the cause or completion fraction.
 New native total13653.984917376973s, historical11357.646588s separate. Old350s forecast
 is insufficient under this attempt's conditions; do not call this a physics failure.
 Quiet-window and failure receipts public; thresholds/source/033checkpoint unchanged.
+
+
+## Scientific-value decision: raise native pilot ceiling4h to5h
+
+Authorized conditional expansion is exercised for one additional native wall-hour,
+within the full campaign ceiling. New total13653.984917376973s, revised
+ceiling18000s, remaining4346.015082623027s. No historical cost hidden.
+Question: can the frozen8.05K conventional mode meet1e-9 and produce a fresh
+nonlinear candidate that passes the full stationary residual test?48basis measured
+1.0991127847466307e-9 after6.29fold reduction, making one final64application
+a credible gate to the nonlinear test, not proof of success. Latest memory
+admission passed and043ran350s without a recorded pressure stop; time bound
+now limits this attempt. Completion time/cause of slowdown not established.
+
+Admit046–048 only from certified033, three600s ceilings=1800s, unchanged
+10min external quiet window plus native quiet120/3GiB, frozen physics/source.
+No retry after failure and no continuation beyond64. Prospective remaining
+reserve after worst1800s is2546s, enough to consider one reduced60s and
+full-native1200s validation only if independent mode qualification succeeds;
+those are not yet admitted. Recorded full native historical runtimes680–908s
+are estimates, not guaranteed bounds. Independent64mode/residual check first.
+No projected-only cheaper answer supplies missing full images; compressing
+Coulomb residency would require additional architecture/equivalence work.
+
+The extra budget is capped to resolve this near-qualified-to-nonlinear path,
+not to fund indefinite eigenmode iteration. If64mode fails, stop that chain
+and assess the numerical cause/value. If native fails pressure/deadline, record
+terminal actuals and do not automatically expand/retry. Goal-meter spending
+already exceeds1.86million tokens; this is an opportunity cost, not billable
+cost or scientific output. Limit the next action to measured validation rather
+than more speculative analyses. Brave and the other study stay untouched.
