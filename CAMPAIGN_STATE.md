@@ -6,6 +6,20 @@ research/TWO_WEEK_ACCEPTANCE.md. The actual reliable-response goal is incomplete
 The prior report and its NARROW verdict describe the completed bounded audit;
 they do not terminate or narrow the newly authorized scientific campaign.
 
+## Current decisive full-map result
+
+Complete66867rows certified,1130pins/state/ordered chain pass. Segment004
+terminalPASS197.28403741726652s/925990912B. Independent normalization maxdiff0.
+Numerical controls PASS, but candidate stationarity FAIL: Rinf3.6594363917272926e-8Ry
+>1e-10; RMSres/gap0.001451511647600654 >1e-5. No gap or response acceptance.
+All native owners terminal; no watcher active. Actual native total18182.12777283633s,
+3417.872227163669s remain under21600. See segment004_result.json.
+Next version occupation-enrichment preparer for strict complete segmented provenance,
+then qualify a49column candidate using measured omitted occupation action. No new
+preparation/correction/fullpass admitted yet; original source/thresholds immutable.
+214tests/212Python compilations/moment/diffPASS; publicCI46114459779 PASS.
+Older queued/live/unknown statements below are historical. Goal incomplete.
+
 ## Current production state — final coverage admitted
 
 Segment003 terminalPASS238.7802015002817s/902447104B;1114pin recursive

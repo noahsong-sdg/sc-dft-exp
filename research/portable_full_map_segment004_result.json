@@ -1,0 +1,113 @@
+{
+  "terminal_guard_pass": true,
+  "inputs_unchanged": true,
+  "verified_input_count": 1130,
+  "checkpoint": {
+    "completed_rows": 66867,
+    "dimensions": [
+      66867,
+      67940,
+      67940
+    ],
+    "beta": 19613.355577892344,
+    "step_ry": 1e-08,
+    "tile_sum_max_absolute_difference": 3.2638822200503625e-15,
+    "cumulative_kernel_cpu_s": 884.4932070000001,
+    "partial_image_explicit_sum_bound": 1.284149811712783e-11,
+    "independent_weights_max_absolute_difference": 6.938893903907228e-18,
+    "independent_weights_bound": 1e-14,
+    "state_bitwise_matches_source": true,
+    "sha256": {
+      "linear-image-checkpoint.meta": "c541266b83c0987d3473dbcdaf95e2a8bbda4a14b8052d3b3a582c10f6dcf237",
+      "linear-image-checkpoint.bin": "6aa3f191cc6ab44578436cd9c4df469187b514823c5713721701f105bc5d725e",
+      "full-map-checkpoint.meta": "39187ad7eb97fc514428efa2f397838ca81a70ca79efa3ed1bc99ce0cf30ac60",
+      "full-map-checkpoint-state.bin": "362bf984be77e2cb50e6fbbef1bdbc8d820d750439b40f316578a2ccf9a58336"
+    }
+  },
+  "split_checkpoint": null,
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-map-segment-004/verify-gap-seed.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-map-segment-004/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-map-segment-004",
+    "wall_s": 197.28403741726652,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 925990912,
+    "sampled_peak_group_rss_bytes": 925990912,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 480.0,
+    "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+  },
+  "microscopic_split_qualified": false,
+  "full_native_residual_verified": false,
+  "physical_response_verified": false,
+  "manifest_sha256": "821059548756e5da1df4373949b26abf63948b266f7935b829ab07bb4531266c",
+  "scope": "Certify ordered partial images and exact state binding, not a physical response.",
+  "lineage_depth": 4,
+  "lineage_native_wall_s": 1276.8278425429016,
+  "qualification_manifest": "/Users/noahs/Developer/sc-dft-exp/research/portable_full_map_qualify002_manifest.json",
+  "qualification_manifest_sha256": "ad09aa5f29daca90dd4f08ab95b4cdaf6b9e34ca37850069f7adbef9182c7a9e",
+  "complete_left_row_coverage": true,
+  "full_candidate": {
+    "full_readback": {
+      "dimensions": [
+        66867,
+        67940,
+        67940,
+        4
+      ],
+      "beta": 19613.355577892344,
+      "finite_difference_step_ry": 1e-08,
+      "kernel_cpu_s": 884.4932070000001,
+      "tile_sum_max_absolute_difference": 3.2638822200503625e-15,
+      "jacobian_difference": 3.4312446217654724e-09,
+      "jacobian_acceptance_bound": 1.0458695001985128e-05,
+      "sides": [
+        {
+          "side": 1,
+          "max_absolute_residual_ry": 3.5717235800745436e-08,
+          "rms_residual_ry": 1.385529353057101e-08,
+          "max_absolute_jacobian_action": 5.224347500992565
+        },
+        {
+          "side": 2,
+          "max_absolute_residual_ry": 3.6594363917272926e-08,
+          "rms_residual_ry": 1.4695091929051676e-08,
+          "max_absolute_jacobian_action": 4.988899322313355
+        }
+      ],
+      "sha256": {
+        "full-map.txt": "1886fc3ad058f9881da1a090f1634ef850b3b95c045285edf7670c8883391c02",
+        "full-map.bin": "31030bfcfe94e6a1db55770e5ee64e23b0c95851985854806f1c9711d8b43919"
+      },
+      "scope": "Full native Q0 residual at imposed seed; terminal receipt required; no gap convergence or physical response validation"
+    },
+    "terminal_guard_pass": true,
+    "input_gap_bitwise_preserved": true,
+    "wall_s": 197.28403741726652,
+    "peak_individual_rss_bytes": 925990912,
+    "residual_infinity_ry": 3.6594363917272926e-08,
+    "rms_residual_over_gap": 0.001451511647600654,
+    "thresholds": {
+      "residual_infinity_ry": 1e-10,
+      "rms_residual_over_gap": 1e-05
+    },
+    "stationary_residual_targets_met": false,
+    "conditioned_gap_error_bounded": false,
+    "physical_response_verified": false,
+    "manifest_sha256": "821059548756e5da1df4373949b26abf63948b266f7935b829ab07bb4531266c",
+    "scope": "Versioned owning-root residual verifier; numerical acceptance is unchanged."
+  },
+  "normalization_readback": {
+    "max_absolute_difference": 0.0,
+    "acceptance_bound": 1.0448715001985129e-12
+  },
+  "campaign_native_wall_s": 18182.12777283633,
+  "campaign_native_ceiling_s": 21600,
+  "campaign_native_remaining_s": 3417.872227163669
+}
