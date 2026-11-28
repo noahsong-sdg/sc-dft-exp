@@ -55,40 +55,32 @@ frozen sources untouched. New summary reader binds exact step and streams arrays
 Source-step-build001 terminalPASS4.790972708724439s, all566pins, exact20fresh
 compiles/2links/17archives and902cache controls PASS; peakindividual133414912B.
 [Build result](research/portable_full_step_build001_result.json).
-Separate explicit-direction/step checkpoint arithmetic reader now verifies all
-four occupation/Jacobian weight batches and exact source state; native fixture,
-stale/signedzero/padding/step and overflow checks PASS. It has no owning terminal
-or evaluation-chain certificate by itself. Next bind inverse result/candidate/
-normalization scale/direction/step preparation and immutable evaluation/restart
-closure, then microscopic64vs32+32 qualification before a material sweep.
-Separate correction-direction preparation now tested: frozen inverse owner
-validation plus exhaustive arithmetic replay, exact candidate/normalized correction/
-step and explicit roundoff/source recipe. [Method](research/CORRECTION_DIRECTION_PREPARATION.md).
-Prepare001 terminalPASS46.14212279161438s;1486pins and independent artifact
-re-read PASS, peakindividual238190592B. Exact candidate preserved; unit direction,
-h5.502435566805578e-10Ry; observed maxabs(h*v-c)5.169878828456423e-26Ry.
-[Result](research/correction_direction_prepare001_result.json).
-Declared-step microscopic qualifier001 terminalPASS36.70167237473652s;
-1533pins/source/correction/evaluation and native split equality certified;
-peakindividual931561472B, independent weight error6.938893903907228e-18.
-[Result](research/portable_full_step_qualify001_result.json). Production first half001 terminalPASS311.66590004134923s/913653760B;
-1557pins/source/state/qualification closure certified, completed33408/66867.
-[Result](research/portable_full_step_segment001_result.json). Final half002 now
-admitted420s/quiet120/3GiB,1577pins,33408→66867; forecast313s, no retry.
-[Manifest](research/portable_full_step_segment002_manifest.json).
-[Manifest](research/portable_full_step_segment001_manifest.json).
-[Prospective manifest](research/portable_full_step_qualify001_manifest.json).
-Preparation certificate, strict step qualifier
-stager and evaluation/restart reader now fixture-qualified; all251tests PASS.
-[Evaluation method](research/CORRECTION_STEP_EVALUATION.md). Actual material
-preparation preflight2.7161237499676645s/33521664B process peak; separate from
-guarded wall, no controlled memory comparison. Actual microscopic qualification now PASS. Production corrected-residual
-lineage/readback now fixture-qualified:255tests PASS36.891s;245Python compilePASS.
-[Coverage method](research/CORRECTION_STEP_COVERAGE.md).
-Later consider two production halves (~620s forecast from prior545.6skernelCPU
-plus two startups); not measured/admitted. Charge qualifier actual before each
-bounded segment decision. A successful corrected residual still cannot
-bound the unmeasured complement or qualify physical response/other temperatures.
+Declared-step preparation, evaluation and checkpoint readers are now certified.
+Preparation001 terminalPASS46.14212279161438s/238190592B;1486pins and exhaustive
+inverse replay PASS; exact candidate, unit direction and actual correction scale.
+[Preparation](research/correction_direction_prepare001_result.json).
+Qualifier001 terminalPASS36.70167237473652s/931561472B;1533pins and actual native
+continuous64 vs32+32 bitwise equality PASS. Both production halves terminalPASS:
+311.66590004134923s/913653760B and310.0547899999656s/922468352B. Complete66867rows,
+1577pins, recursive source/state/preparation/qualification closure certified.
+[Final result](research/portable_full_step_segment002_result.json),
+[interpretation](research/CORRECTION_ACTION_805K.md).
+
+**Actual plus correction improves full residual:** Rinf1.5375314641797623e-11Ry,
+RMSres/gap2.843395985000644e-7, both original targets PASS; improvement factors
+3.96525/3.62689. Negative step Rinf1.1214212172330003e-10Ry fails original max.
+Original base gap/residual preserved bitwise; d0+h*v equals d0+c bitwise.
+Plus gapSHAc5ad7e2a2d1e18debacd22e4162db2256193b344e29e90cf84e70967d43cc507.
+No seed overwritten, full-space error or physical-response acceptance.
+
+No live owner/next run admitted. Next assess a guarded streamed inverse action
+on the now complete useful direction, then the full-space norm route's validity
+and source-built tile cost before any budget expansion. The latter has an exact
+[streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md), with same-side blocks
+required, avoiding a145GB dense matrix;2.78Tflops estimate is not runtime evidence.
+The inverse helper passes independent rational/finite/stale/allocation controls
+but has not run on material inputs. Full correction postread measured14.195769s
+and75923456B process peak separately from native wall; no controlled memory claim.
 Kernel2 source orientation controls showed14.2146% pair asymmetry; positive dk
 alone supplies no accepted symmetric metric. Finite probe agreement cannot
 bound the unmeasured complement. Brave/otherstudy untouched.
@@ -127,9 +119,8 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall20993.885460629444s; ceiling21600s leaves
-606.1145393705556s. Only final half002 admitted420s, leaving
-186.1145393705556s worst-case reserve. No automatic retry or budget increase.
+Actual guarded campaign wall21303.94025062941s; ceiling21600s leaves
+296.05974937059s. No live owner/next native admission. No automatic retry or budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
@@ -156,7 +147,7 @@ controls do not qualify the Nb functional or fit a physical normalization.
 
 Latest code checks:258tests PASS38.008s including native fixture builds;
 247maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
-No separate configured typecheck. Public CI46125471800 on8653ee8 PASS; runner CI46126020760 on4e0fecf PASS; material-result CI46126382268 on2ac1a50 PASS; orientation helper CI46126757526 onf10730c PASS; result CI46126994654 on3997c72 PASS; direction helper CI46127521198 onad67046 PASS; result CI46127763049 on6a12d8c PASS; step helperCI46128222986 on1084b00 PASS; readerCI46128690566 ond839ced PASS; preparation helperCI46129155495 on79344e4 PASS.
+No separate configured typecheck. Public latest helper/resultCI46131518726 on7e37f98 PASS; prospective final-halfCI46131592238 on1d335c8 PASS. Earlier CI46125471800 on8653ee8 PASS; runner CI46126020760 on4e0fecf PASS; material-result CI46126382268 on2ac1a50 PASS; orientation helper CI46126757526 onf10730c PASS; result CI46126994654 on3997c72 PASS; direction helper CI46127521198 onad67046 PASS; result CI46127763049 on6a12d8c PASS; step helperCI46128222986 on1084b00 PASS; readerCI46128690566 ond839ced PASS; preparation helperCI46129155495 on79344e4 PASS.
 Current docs/results do not replace native or scientific qualification.
 
 Chronology remains in RESEARCH_LEDGER.md and immutable public commits. The former

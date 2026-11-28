@@ -1,0 +1,221 @@
+{
+  "terminal_guard_pass": true,
+  "inputs_unchanged": true,
+  "verified_input_count": 1577,
+  "checkpoint": {
+    "completed_rows": 66867,
+    "dimensions": [
+      66867,
+      67940,
+      67940
+    ],
+    "beta": 19613.355577892344,
+    "step_ry": 5.502435566805578e-10,
+    "tile_sum_max_absolute_difference": 3.294348301097205e-16,
+    "cumulative_kernel_cpu_s": 549.426167,
+    "partial_image_explicit_sum_bound": 6.9621535069987366e-12,
+    "independent_weights_max_absolute_difference": 6.938893903907228e-18,
+    "independent_weights_bound": 1e-14,
+    "state_bitwise_matches_source": true,
+    "sha256": {
+      "linear-image-checkpoint.meta": "71947082eb9948642b26526b588794282b62cfafbc0ed9910c12b76ba7ca3dea",
+      "linear-image-checkpoint.bin": "40116c7bd0e87f1036676b248026ec5344c89b92b5cbe1f7722745fc66a0709d",
+      "full-map-checkpoint.meta": "19149a3e72851987cf9839a25104c17b0bed478f07405609f7c5fd91afc741e7",
+      "full-map-checkpoint-state.bin": "c35061490e26326b28b51071fdbb84b6a4dbc79ca63e369f01aa19622b33fba0"
+    }
+  },
+  "split_checkpoint": null,
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-step-segment-002/verify-gap-seed.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-step-segment-002/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-step-segment-002",
+    "wall_s": 310.0547899999656,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 922468352,
+    "sampled_peak_group_rss_bytes": 922468352,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 420.0,
+    "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+  },
+  "direction_preparation": {
+    "root": "/Users/noahs/Developer/sc-dft-exp/research/raw/correction-direction-prepare-001",
+    "recipe": {
+      "beta": 19613.355577892344,
+      "candidate_sha256": "303b379af5a563e82e1a9c54bec0b36fada9ff94cd4622d7e1a83d6df296f3d7",
+      "counts": [
+        66867,
+        67940,
+        67940
+      ],
+      "direction_infinity": 1.0,
+      "inverse_manifest": {
+        "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_inverse_material001_manifest.json",
+        "sha256": "4f07ae5c8ac96bf8f85ec31ec3dc7e8a6b625c5bd642a4b31899c0af9cf13e3f"
+      },
+      "inverse_result": {
+        "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_inverse_material001_result.json",
+        "sha256": "7c598f4d2dd705b2774fca839246f927201722a097a5b384b8fd8e79c95059c6"
+      },
+      "operator_context_sha256": "6efcf2d527d3c81ae9620e3280916bb6b58db4809e6683cf0795256ed9fcce62",
+      "rescaled_correction_max_absolute_difference_ry": 5.169878828456423e-26,
+      "rescaled_correction_relative_difference": 9.395619023046153e-17,
+      "schema": "compressed-correction-direction-v1",
+      "sha256": {
+        "direction-state.bin": "be79499c726033c91e8b1ee8fad0431d8b59a400c165cd6e6e03531f59d2a494",
+        "direction-state.meta": "88c0fbcc9066de6f12d149e4cf6eabbf5739389aa57748e4d768a597c474f957",
+        "full-map-step.in": "02dbb3b81827cee0358c2ed2f316cbb586bd3dc299d266bb10e6206ef1bede71"
+      },
+      "source_correction_sha256": "a77c52a8ced11fc4788c96fc55257a6643abf780509e232796dbd32add141ca6",
+      "step_ry": 5.502435566805578e-10
+    },
+    "receipt": {
+      "status": "PASS",
+      "error": null,
+      "command": [
+        "/opt/homebrew/opt/python@3.13/bin/python3.13",
+        "/Users/noahs/Developer/sc-dft-exp/research/prepare_correction_direction.py"
+      ],
+      "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/correction-direction-prepare-001",
+      "wall_s": 46.14212279161438,
+      "exit": 0,
+      "max_individual_descendant_rss_bytes": 238190592,
+      "sampled_peak_group_rss_bytes": 235618304,
+      "macos_ru_maxrss_units": "bytes",
+      "rss_sample_interval_s": 2,
+      "continuous_deadline_s": 90.0,
+      "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+    },
+    "manifest_sha256": "509288fd164d8f59d333dd3b7a433d9589b553dc1632c303f353ba0688ef7341",
+    "result_sha256": "ee5ce38d952e73340ca044190a4af1c7d5f3b87df15d0afcd887e1766a66893e",
+    "terminal_guard_pass": true,
+    "inputs_unchanged": true,
+    "conditioned_gap_error_bounded": false,
+    "physical_response_verified": false
+  },
+  "declared_state_sha256": {
+    "direction-state.meta": "88c0fbcc9066de6f12d149e4cf6eabbf5739389aa57748e4d768a597c474f957",
+    "direction-state.bin": "be79499c726033c91e8b1ee8fad0431d8b59a400c165cd6e6e03531f59d2a494",
+    "full-map-step.in": "02dbb3b81827cee0358c2ed2f316cbb586bd3dc299d266bb10e6206ef1bede71"
+  },
+  "microscopic_split_qualified": false,
+  "full_native_residual_verified": true,
+  "physical_response_verified": false,
+  "manifest_sha256": "eb51e37caa239f33534ff47c079862615cdd8cf9da1af72ef45f474b8a26b72a",
+  "scope": "Certify candidate-bound correction-step segments and actual restart equality.",
+  "lineage_depth": 2,
+  "lineage_native_wall_s": 658.4223624160513,
+  "qualification_manifest": "/Users/noahs/Developer/sc-dft-exp/research/portable_full_step_qualify001_manifest.json",
+  "qualification_manifest_sha256": "8cc99ecc8ca8bc67fbf7dd48a4d08b1a5c8d563288a01636830280816cbb4be7",
+  "complete_left_row_coverage": true,
+  "full_candidate": {
+    "full_readback": {
+      "dimensions": [
+        66867,
+        67940,
+        67940,
+        4
+      ],
+      "beta": 19613.355577892344,
+      "finite_difference_step_ry": 5.502435566805578e-10,
+      "kernel_cpu_s": 549.426167,
+      "tile_sum_max_absolute_difference": 3.294348301097205e-16,
+      "jacobian_difference": 7.502186510910391e-10,
+      "jacobian_acceptance_bound": 1.9600885669402079e-07,
+      "sides": [
+        {
+          "side": 1,
+          "max_absolute_residual_ry": 3.674527659415245e-11,
+          "rms_residual_ry": 6.999428852272078e-12,
+          "max_absolute_jacobian_action": 0.07975762483420556
+        },
+        {
+          "side": 2,
+          "max_absolute_residual_ry": 6.09669437161189e-11,
+          "rms_residual_ry": 1.3951648703296969e-11,
+          "max_absolute_jacobian_action": 0.09300442834701039
+        }
+      ],
+      "sha256": {
+        "full-map.txt": "296348b07d06f33297f111051fea8f5a142b5c43fc1b185946438975a14bd423",
+        "full-map.bin": "80eebce248d9416ba0dadcffb0128523e80eb2b8518f435e697a09e1fbffb6da"
+      },
+      "scope": "Full native Q0 residual at imposed seed; terminal receipt required; no gap convergence or physical response validation"
+    },
+    "terminal_guard_pass": true,
+    "input_gap_bitwise_preserved": true,
+    "wall_s": 310.0547899999656,
+    "peak_individual_rss_bytes": 922468352,
+    "residual_infinity_ry": 6.09669437161189e-11,
+    "rms_residual_over_gap": 1.0312693411116765e-06,
+    "thresholds": {
+      "residual_infinity_ry": 1e-10,
+      "rms_residual_over_gap": 1e-05
+    },
+    "stationary_residual_targets_met": true,
+    "conditioned_gap_error_bounded": false,
+    "physical_response_verified": false,
+    "manifest_sha256": "eb51e37caa239f33534ff47c079862615cdd8cf9da1af72ef45f474b8a26b72a",
+    "scope": "Declared-step owning-root residual verifier; original targets unchanged."
+  },
+  "normalization_readback": {
+    "max_absolute_difference": 0.0,
+    "acceptance_bound": 1.860288566940208e-14
+  },
+  "correction_readback": {
+    "base": {
+      "residual_infinity_ry": 6.09669437161189e-11,
+      "residual_over_gap_rms": 1.0312693411116765e-06,
+      "stationary_residual_targets_met": true
+    },
+    "plus": {
+      "residual_infinity_ry": 1.5375314641797623e-11,
+      "residual_over_gap_rms": 2.843395985000644e-07,
+      "stationary_residual_targets_met": true
+    },
+    "minus": {
+      "residual_infinity_ry": 1.1214212172330003e-10,
+      "residual_over_gap_rms": 1.853456444901352e-06,
+      "stationary_residual_targets_met": false
+    },
+    "independent_fd_error": 7.487899536529063e-10,
+    "independent_fd_bound": 1.9600885669402079e-07,
+    "step_ry": 5.502435566805578e-10,
+    "sha256": {
+      "direction-state.meta": "88c0fbcc9066de6f12d149e4cf6eabbf5739389aa57748e4d768a597c474f957",
+      "direction-state.bin": "be79499c726033c91e8b1ee8fad0431d8b59a400c165cd6e6e03531f59d2a494",
+      "full-map-step.in": "02dbb3b81827cee0358c2ed2f316cbb586bd3dc299d266bb10e6206ef1bede71",
+      "images": "40116c7bd0e87f1036676b248026ec5344c89b92b5cbe1f7722745fc66a0709d"
+    },
+    "conditioned_gap_error_bounded": false,
+    "physical_response_verified": false
+  },
+  "base_gap_residual_bitwise_matches_original": true,
+  "original_full_map_reference": {
+    "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-map-segment-016/full-map.bin",
+    "bytes": 4348160,
+    "sha256": "4738cd9dee699dcfff928565bece797ceeb613d25fa432570b6a1fe045d72711"
+  },
+  "postread_wall_s": 14.195769042242318,
+  "postread_process_peak_rss_bytes": 75923456,
+  "conditioned_gap_error_bounded": false,
+  "corrected_point_identity": {
+    "gap_sha256": "c5ad7e2a2d1e18debacd22e4162db2256193b344e29e90cf84e70967d43cc507",
+    "point_bitwise_equal_to_candidate_plus_original_correction": true,
+    "max_absolute_difference_ry": 0.0,
+    "original_inverse": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-inverse-material-001/inverse-result.bin",
+      "bytes": 3282336,
+      "sha256": "a77c52a8ced11fc4788c96fc55257a6643abf780509e232796dbd32add141ca6"
+    }
+  },
+  "observed_residual_improvement": {
+    "infinity_factor": 3.965248525736243,
+    "normalized_rms_factor": 3.6268931466168715
+  }
+}
