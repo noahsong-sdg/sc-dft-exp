@@ -74,3 +74,21 @@ Final source gate:309testsPASS44.719s,281Python compilationsPASS, actual native
 fixture builds/runsPASS via full suite, moment_refinement.py exit0, diffcheckPASS.
 No separate configured typecheck. Staged manifest1756pins; preflight recomputed
 registered context. Pressure1 observed before admission. No owner running yet.
+
+## Actual complete segment001 result
+
+Terminal guardPASS506.08344662515447s, maxindividual1053638656B
+(~1004.83MiB), sampled group1032896512B. All1756pins, exact consumed manifest/
+receipt/watcher/controls/native executable and original inputs checked. All66867rows
+covered with66expected progress records and final19-row tile; restored64-row
+left prefix unchanged bitwise. Full P is55001256B, SHA256
+1bdfce3d4adff9e8d24010565684b014479c315542e0e07dbe98854569517bd3.
+[Result](compact_p_segment001_result.json).
+Cumulative kernel/contraction CPU447.4710989999989/29.65157199999919s include
+prior accepted64-row CPU; actual new guarded wall506.083s is charged separately.
+Postread33.47346162516624s/59834368B (~57.06MiB), separate from native ledger,
+ran concurrently with final unit verification. Source/admissiona2bf7e6
+CI46142793133PASS. Actual guarded charge21949.621570962332s/25200 leaves
+3250.378429037668s. All native owners terminal. No full second pass, retry or
+further expansion admitted. The native full pass is executed/finite/provenance
+qualified; independent saved-image action control is a separate pending artifact.

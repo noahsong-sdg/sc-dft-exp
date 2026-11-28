@@ -146,14 +146,20 @@ Material restart qualifier001 now terminalPASS30.05208083288744s; all1735pins an
 6,875,157partial-P entries match accepted selected material001 bitwise.
 Native peak1076133888B (~1026.28MiB); readback14.913044875022024s/55492608B
 separate from native cost. [Result](research/compact_p_material001_result.json).
-All owners terminal before launch. Complete P segment001 now admitted: rows65–66867,
-900s,1756pins,120quiet seconds,3GiB caps. New owner checks exact predecessor,
-full checkpoint/progress and unchanged completed left prefix.309testsPASS44.719s;
-281Python compiles/native fixtures/moment PASS.
+Complete P segment001 now terminalPASS506.08344662515447s/1053638656B
+(~1004.83MiB). All1756pins,66progress records, final19-row tile, finite checkpoint
+and preserved64-row left prefix PASS. [Result](research/compact_p_segment001_result.json).
+Full P SHA1bdfce3d4adff9e8d24010565684b014479c315542e0e07dbe98854569517bd3;
+cumulative kernel/contraction CPU447.471099/29.651572s include prior64rows.
+Postread33.47346162516624s/59834368B (~57.06MiB), separate from native cost;
+ran concurrently with final unit verification. All native owners terminal.
+New independent saved-image action helper/owner now has exact Fraction controls
+and stale-parent/matrix regression coverage. Material action control pending
+publication and readback. [Method](research/COMPLETE_P_ACTION_CONTROL.md).
 [Scientific-value budget decision](research/COMPLETE_P_ADMISSION.md): local ceiling
-six to seven hours under original authorized4→16h pilot expansion; second pass
-not yet admitted. Next: complete coverage, saved-action controls, second-pass norm.
-No complete P, full norm or physical response accepted.
+seven hours under original authorized4→16h pilot expansion. Next: saved-action
+controls, then separately admitted full second-pass defect diagnostic.
+No full norm, outward/radius bound, conditioned gap error or physical response accepted.
 The exact [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md) includes
 same-side blocks and avoids a145GB dense matrix;2.78Tflops is not runtime evidence.
 [Method and interpretation](research/CORRECTION_INVERSE_DIAGNOSTIC.md).
@@ -196,9 +202,9 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall21443.538124337178s; revised local ceiling25200s
-leaves3756.461875662822s. Complete P segment001 alone admitted900s; worst-case
-leaves2856.461875662822s. No automatic retry/fullnorm pass or further budget
+Actual guarded campaign wall21949.621570962332s; revised local ceiling25200s
+leaves3250.378429037668s. Complete P segment001 is terminalPASS; no native
+owner running. No automatic retry/fullnorm pass or further budget
 increase admitted. [Decision and termination plan](research/COMPLETE_P_ADMISSION.md).
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.

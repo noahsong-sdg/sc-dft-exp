@@ -6,26 +6,23 @@ Read [current state](CAMPAIGN_STATE.md) and
 an actually reliable, reproducible material response on the laptop; it is **not
 yet achieved**. Progress and negative controls will remain public here.
 
-Latest: the fresh Mac source-only path has completed the [8.05 K Z sweep](research/portable_z_sweep009_result.json)
-and [independent uncached sample checks](research/portable_z_oracle001_result.json).
-Fresh full operator images and independent Ritz readbacks now reach 64 vectors.
-That basis did not meet the nonlinear seed gate. A [target-preserving restart](research/portable_basis_restart001_result.json)
-followed by one complete application reduced the tracked candidate residual from
-0.001498 to 0.0002501, with overlap 0.9999987 and a conventional-channel selection;
-see the [independent result](research/restarted_basis001_result.json) and
-[mode tracking](research/restart_mode001_result.json). This is a 5.99-fold residual
-reduction, **not a runtime speedup or an accepted superconducting response**.
-A further [48-vector application](research/restarted_basis002_result.json) lowered
-the residual to 3.719e-5, with [overlap 0.99999996](research/basis_continuity001_result.json)
-and another 6.73-fold reduction. The [completed 64-vector extension](research/restarted_basis003_result.json)
-now gives 4.492e-6, another 8.28-fold reduction, with
-[overlap 0.9999999991](research/basis_continuity002_result.json). It still fails the
-unchanged 1e-9 seed threshold. A second target-preserving restart is staged;
-the dimension cap stays at 64.
-Guarded compute through that completed extension totals 137.77 minutes, separate
-from the historical campaign; subsequent segments are recorded in the current state.
-Converged gaps at all three temperatures, conditioning, response normalization
-and state mapping, and the registered 1% uncertainty target remain unqualified.
+Latest: the fresh source-only8.05K niobium candidate passes both registered full
+stationary-residual thresholds. A separately checked inverse-correction step
+reduces the maximum residual by3.97×; the negative step fails the maximum target.
+See the [stationarity evidence](research/FRESH_STATIONARITY_805K.md) and
+[correction evidence](research/CORRECTION_ACTION_805K.md). These are finite residual
+gates, not a conditioned gap-error bound or an accepted physical response.
+
+The compact streamed route now has a [qualified material restart](research/compact_p_material001_result.json):
+continuous64 and checkpoint32+32 give bitwise-identical partial P, independently
+matching the earlier accepted material output. That test took30.05s with1.00GiB
+peak RSS. The [complete P pass](research/compact_p_segment001_result.json) has now finished
+all66,867left rows in506.08s with1004.83MiB peak RSS. Checkpoint/provenance and
+full progress checks pass. Independent saved-image action controls and the
+full-space inverse-defect diagnostic remain pending. The [budget decision and
+resource limits](research/COMPLETE_P_ADMISSION.md) are public.
+Converged gaps at2K/4K, complete conditioning/error transport, response normalization,
+state mapping and the registered1% uncertainty target remain unqualified.
 
 The earlier bounded campaign and benchmark history follow below. Their passing
 diagnostics do not establish a physical response prediction.

@@ -5045,3 +5045,37 @@ diffcheckPASS; no separate configured typecheck.
 normal-pressure seconds,3GiB group/workspace caps, one owner. Pressure1 observed.
 On interruption, only prior accepted64checkpoint can be reused; partial new output
 is unaccepted. Brave and other study untouched. No owner started before publication.
+
+### 2026-11-28 — complete material P pass001 accepted; action controls ready
+
+Source/admissiona2bf7e6 CI46142793133PASS. One guard observed120continuous
+normal-pressure seconds, then terminalPASS506.08344662515447s. Maxindividual
+1053638656B (~1004.83MiB), sampled group1032896512B. Restored qualified64rows
+and continued65–66867, last19rows, without approximation changes or full kernels.
+Independent readback validated1756pins, exact consumed manifest/receipt/watcher,
+controls/input/executable identities, full finite checkpoint, unchanged64-row left
+prefix and all66native progress endpoints/monotone CPU/final counters.
+[Result](research/compact_p_segment001_result.json):55001256B P, SHA256
+1bdfce3d4adff9e8d24010565684b014479c315542e0e07dbe98854569517bd3.
+Cumulative kernel/contraction CPU447.4710989999989/29.65157199999919s include
+prior64-row counters. New guarded wall506.083s charged in full; no speedup claim.
+Postread33.47346162516624s/59834368B (~57.06MiB) is separate workflow cost;
+ran concurrently with final unit verification after heavy material owner ended.
+Charge21949.621570962332s/25200; remainder3250.378429037668s. All owners terminal.
+
+New compact_p_actions.py streams P chunks and Q columns with independent fsum:
+P(Dv)=Q^T D(ADv). Separate owning readback revalidates complete-P result/closure
+and accepted older full correction/native-image sweep, binds the same source and
+declared direction, obtains ADv=-raw fourth image/(1+Z), removes original padding
+and compares all rank components. Finite diagnostic tolerance is not an outward
+certificate. Helper/input identities checked before/after; no new kernels needed.
+[Method](research/COMPLETE_P_ACTION_CONTROL.md). Exact Fraction fixture for signed
+nonsymmetric A/nonuniformQ/D/v distinguishes wrong action, finite corruption,
+stale/nonfinite matrices; owner rejects stale/incomplete accepted parent.
+Targeted3PASS0.003s; final312testsPASS45.022s,285Python compilationsPASS,
+actual native fixtures/buildsPASS, moment_refinement.py exit0, diffcheckPASS.
+No separate configured typecheck. Source must be public before material action
+readback. No material action/control acceptance yet; full-space norm/radius and
+physical response remain open. No second pass or further expansion admitted.
+README latest snapshot updated from stale basis-restart history to current
+stationarity, restart and complete-P evidence. Brave/otherstudy untouched.
