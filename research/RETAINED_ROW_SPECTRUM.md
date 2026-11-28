@@ -73,8 +73,14 @@ energy. Three exported eigenvalues in ascending order are
 Their squared projections into the current Q span are
 1.3146600193764528e-6,2.4241107806445085e-7,1.3043278544934174e-6.
 Thus the dominant sampled input direction is almost entirely outside that span.
-This establishes a sample input-space mismatch, not a complete causal account
-or evidence that three new basis columns will qualify the full inverse.
+This establishes concentration and small Euclidean overlap only, not a complete
+causal account or evidence that three new columns will qualify the full inverse.
+The original Q approximates A, while this defect acts on gap directions through
+D. A prospective enrichment must therefore use D*v, orthogonalized against Q,
+rather than blindly appending v. In exact arithmetic, with Unew=A*Qnew,
+D*v in span(Qnew) implies (A-Unew*Qnew^T)*D*v=0. This motivates a test;
+the new inverse amplification, rounding and held-out directions remain open.
+The measured Q^T*v overlap is not a measurement of Q^T*D*v.
 
 All64 reconstructed row norms agree with accepted defect output; maximum
 304.37575259990825. Independent A-only maximum6.971243858010709.

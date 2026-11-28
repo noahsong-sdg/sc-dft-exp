@@ -5217,8 +5217,10 @@ Diagnostic001 terminalPASS6.431358041707426s, peak281575424B (~268.53MiB).
 checked. Complete64-row reconstruction matches prior norms; all64 A-only norms,
 Gram/eigenpairs/actions and basis checks pass. Leading direction99.9534216%
 squared sample Frobenius energy, Q projection squared1.3043278544934174e-6;
-three directions99.998419995%. This supports testing input-basis enrichment,
-not an accepted inverse or full-space certificate. No new kernels/adopted basis.
+three directions99.998419995%. This motivates testing input-basis enrichment,
+not an accepted inverse or full-space certificate. Enrich A's input basis with
+orthogonalized D*v, since the measured defect acts on gap-domain v through D;
+measured Q^T*v overlap does not establish Q^T*D*v overlap. No new kernels/adopted basis.
 Details research/RETAINED_ROW_SPECTRUM.md; resultdefect_row_spectrum001_result.json.
 Source5444ebf CI46146669175PASS. Charged21989.224320587087s/25200 leaves
 3210.7756794129127s. All owners terminal. Next a prospective held-out enrichment
