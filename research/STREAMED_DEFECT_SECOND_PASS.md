@@ -93,3 +93,39 @@ evidence against this stored unweighted-contraction route, not an outward proof
 or a statement about superconductivity. A passing selection leaves full rows
 unqualified. On failure the guard terminates its own group; no automatic retry.
 Brave/otherstudy untouched. All owners terminal before prospective publication.
+
+## Material001 result: stop this unweighted-contraction route
+
+[Result](compact_defect_material001_result.json): guard terminalPASS
+29.39738891646266s, maxindividual1143193600B (~1090.23MiB), sampled group
+901971968B. All1824pins/consumed manifest/receipt/terminal watcher, exact native
+copies/controls/fingerprint and four progress records checked. All six output
+identities bound. All306independent coefficient controls PASS, maximum absolute
+difference4.996003610813204e-16. Six row controls PASS, maximum absolute
+difference1.5916157281026244e-12; maximum error/diagnostic-bound4.964146979004047e-5.
+
+Complete left row sums1/32/64 independently equal272.46338330480893,
+205.75858845030228 and123.74123328866376. Selected native maximum304.3757525999094.
+Partial right samples0.27678867630556453/0.2286878171988353/0.17713409477784953
+are not complete right-row sums. Above-one complete left rows decisively fail
+the intended stored unweighted-infinity contraction diagnostic. More rows cannot
+rescue its maximum, so a full second sweep on this B is not justified and will
+not be launched. This is not an outward-rounded mathematical certificate; it is
+strong independently checked finite evidence for rejecting this route. It does
+not reject the stationary niobium solution, all inverse candidates, weighted
+metrics or the full scientific objective. No full norm or conditioned/physical
+error bound is accepted.
+
+C/kernel/cross/same-right CPU0.023023/0.451294/0.055504/0.019086s are individual
+sections, not full workflow or speedup. Actual native wall29.397s charged;
+postread38.610814957879484s, maxRSS62373888B (~59.48MiB) separate workflow
+cost. Source/admission030e972 CI46145105741PASS. Source remains unchanged since
+318testsPASS49.875s/291compiles/native fixtures/moment PASS.
+
+Charge21982.79296254538s/25200;3217.20703745462s remain. All native owners
+terminal. No retry, full second sweep or budget expansion admitted. Next diagnose
+retained A-only versus UC contributions and fixed inverse factors before selecting
+a revised conditioner/metric. These components can be studied from saved original
+kernel rows/C/state, without another kernel sweep. Whether this B amplifies or
+reduces the A-only row sums remains unmeasured; do not infer the cause from the
+large defect alone. Brave and other study untouched.

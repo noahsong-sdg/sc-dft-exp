@@ -161,8 +161,10 @@ Maxdiff1.6431300764452317e-14, maxerror/bound7.641409651929256e-7.
 and final312testsPASS45.022s,285Python compilations/native fixtures/moment PASS.
 [Method](research/COMPLETE_P_ACTION_CONTROL.md).
 [Scientific-value budget decision](research/COMPLETE_P_ADMISSION.md): local ceiling
-seven hours under original authorized4→16h pilot expansion. Next: separately
-admitted full second-pass defect diagnostic, then outward/radius controls if viable.
+seven hours under original authorized4→16h pilot expansion. The selected defect
+diagnostic below now rejects continuing this stored unweighted-contraction route.
+Next: diagnose retained A-only versus UC contributions and inverse factors before
+choosing a different conditioner/norm; do not spend a full second sweep on current B.
 New second-pass native driver and independent coefficient/row readback now pass
 compiled full/partial denseI-BJ controls, both same-side blocks, final short tiles,
 stale predecessor and finite corruption regressions. New owning selected gate
@@ -175,8 +177,14 @@ controls PASS. [Build result](research/compact_defect_build001_result.json).
 Source/admission8e19886 CI46144804164PASS; no native kernels in build.
 Selected material001 now staged1824pins,90s,120quiet seconds,3GiB caps,
 64left/64same-right columns only. [Admission](research/compact_defect_material001_manifest.json).
-No full second sweep or budget expansion admitted; independent row diagnostics
-will determine whether the current inverse route merits a full sweep.
+Material001 now terminalPASS29.39738891646266s/1143193600B (~1090.23MiB).
+All1824pins,306C controls and six independent row checks PASS.
+Complete left rows1/32/64 sum272.463383/205.758588/123.741233; selected maximum
+304.375753. This stored B does not support unweighted infinity contraction;
+no full second sweep will be launched on current B. Other inverses/metrics and
+physical solution remain undecided. No outward certificate or full norm claimed.
+[Result](research/compact_defect_material001_result.json). Postread38.610814957879484s/
+62373888B (~59.48MiB) separate from native cost. All owners terminal.
 No full norm, outward/radius bound, conditioned gap error or physical response accepted.
 The exact [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md) includes
 same-side blocks and avoids a145GB dense matrix;2.78Tflops is not runtime evidence.
@@ -220,8 +228,8 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall21953.395573628917s; revised local ceiling25200s
-leaves3246.604426371083s. Complete P segment001 is terminalPASS; no native
+Actual guarded campaign wall21982.79296254538s; revised local ceiling25200s
+leaves3217.20703745462s. Complete P segment001 is terminalPASS; no native
 owner running. No automatic retry/fullnorm pass or further budget
 increase admitted. [Decision and termination plan](research/COMPLETE_P_ADMISSION.md).
 Historical11357.646588s remain separate. Charge terminal actuals, including

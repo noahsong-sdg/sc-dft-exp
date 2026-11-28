@@ -1,0 +1,112 @@
+{
+  "terminal_guard_pass": true,
+  "inputs_unchanged": true,
+  "manifest_sha256": "78f147e950caeb998ad1fa7fafbaba0314afc75a9378dd8de094c01311238444",
+  "verified_input_count": 1824,
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-defect-material-001/compact-defect-native.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-defect-material-001/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-defect-material-001",
+    "wall_s": 29.39738891646266,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 1143193600,
+    "sampled_peak_group_rss_bytes": 901971968,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 90.0,
+    "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+  },
+  "complete_coverage": false,
+  "diagnostic_max_row_sum": 304.3757525999094,
+  "native_derivative_max_difference": 4.440892098500626e-16,
+  "cpu_s": [
+    0.023023000000002014,
+    0.45129400000000075,
+    0.05550400000000266,
+    0.019085999999994385
+  ],
+  "independent_rows": [
+    1,
+    32,
+    64,
+    66868,
+    100837,
+    134807
+  ],
+  "independent_row_sums": [
+    272.46338330480893,
+    205.75858845030228,
+    123.74123328866376,
+    0.27678867630556453,
+    0.2286878171988353,
+    0.17713409477784953
+  ],
+  "row_absolute_errors": [
+    1.5916157281026244e-12,
+    1.0800249583553523e-12,
+    6.394884621840902e-13,
+    0.0,
+    5.551115123125783e-17,
+    5.551115123125783e-17
+  ],
+  "row_bounds": [
+    1.339557261675908e-07,
+    2.175650646371548e-08,
+    7.387610692786082e-08,
+    1.505994357192122e-10,
+    9.930128454664862e-11,
+    8.116882906181335e-11
+  ],
+  "independent_coefficient_controls": 306,
+  "coefficient_max_error": 4.996003610813204e-16,
+  "coefficient_max_error_over_bound": 6.578309151439674e-06,
+  "row_max_error_over_bound": 4.964146979004047e-05,
+  "independent_sample_rows_above_one": [
+    1,
+    32,
+    64
+  ],
+  "outward_certified": false,
+  "conditioned_gap_error_bounded": false,
+  "physical_response_verified": false,
+  "outputs": {
+    "compact-c.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-defect-material-001/compact-c.bin",
+      "bytes": 55001256,
+      "sha256": "9c7b7258c5364cd74435a13ad907ff62785606a72156a97537370cf66ed0b629"
+    },
+    "compact-defect-rows.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-defect-material-001/compact-defect-rows.bin",
+      "bytes": 1078456,
+      "sha256": "918af4b5575ad7dc1fe8eae21a8bdbec3e464a44bed3ae1ec461bfb4fb29a417"
+    },
+    "defect-kernel-left.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-defect-material-001/defect-kernel-left.bin",
+      "bytes": 1630560,
+      "sha256": "96be6fe78b2c1edd8fe9eab6391211acf5fa55dd79bd310d6a9e33ae48ebf4b8"
+    },
+    "defect-kernel-right.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-defect-material-001/defect-kernel-right.bin",
+      "bytes": 1536,
+      "sha256": "2d02b7eac7aeb5b0c99ec01eb71148cab23f274ee1649fda1d321d939fc04912"
+    },
+    "compact-defect.meta": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-defect-material-001/compact-defect.meta",
+      "bytes": 429,
+      "sha256": "0c9f7218db394aa0c73b8df71680dfec69124647ef2dc978833454174a9b64da"
+    },
+    "compact-defect-progress.txt": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/compact-defect-material-001/compact-defect-progress.txt",
+      "bytes": 564,
+      "sha256": "1002ffe9a4651007f994668cb2e87e864f6a2da202d07486f1411fcf23c6a9ae"
+    }
+  },
+  "full_space_norm_measured": false,
+  "postread_wall_s": 38.610814957879484,
+  "postread_maxrss_bytes": 62373888
+}

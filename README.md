@@ -19,8 +19,11 @@ matching the earlier accepted material output. That test took30.05s with1.00GiB
 peak RSS. The [complete P pass](research/compact_p_segment001_result.json) has now finished
 all66,867left rows in506.08s with1004.83MiB peak RSS. Checkpoint/provenance and
 full progress checks pass. [Independent saved-image controls](research/compact_p_actions001_result.json)
-pass all51rank components (maxdifference1.64e-14); the full-space inverse-defect
-diagnostic remains pending. The [budget decision and
+pass all51rank components (maxdifference1.64e-14). A [selected defect diagnostic](research/compact_defect_material001_result.json)
+then found three independently checked complete row sums123.7–272.5, far above
+the unit-contraction requirement. The current stored inverse does not qualify
+the unweighted infinity-norm route; the full second sweep was not launched.
+This is a numerical-route result, not rejection of the niobium solution. The [budget decision and
 resource limits](research/COMPLETE_P_ADMISSION.md) are public.
 Converged gaps at2K/4K, complete conditioning/error transport, response normalization,
 state mapping and the registered1% uncertainty target remain unqualified.

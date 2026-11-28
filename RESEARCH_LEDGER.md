@@ -5155,3 +5155,33 @@ whether a full diagnostic merits its cost; a selected pass cannot certify full
 contraction. Above-one stored rows are diagnostic route evidence, not outward
 bounds or material failure. All owners terminal before publication; Brave and
 other study untouched. Parent hashing/staging separate from guarded native cost.
+
+### 2026-11-28 — independent selected defect rejects current contraction route
+
+Source/admission030e972 CI46145105741PASS. Guard120normal-pressure seconds then
+terminalPASS29.39738891646266s. Maxindividual1143193600B (~1090.23MiB), sampled
+group901971968B. Independent postread validates1824pins, exact consumed manifest/
+receipt/watcher/control/input/executable/fingerprint, four progress records and
+six output hashes. All306C samples PASS (maxdifference4.996003610813204e-16),
+six independent row sums PASS (maxdifference1.5916157281026244e-12,
+maxerror/diagnostic-bound4.964146979004047e-5).
+[Result](research/compact_defect_material001_result.json).
+
+Complete left rows1/32/64:272.46338330480893/205.75858845030228/
+123.74123328866376. Selected native maximum304.3757525999094. These are far
+above the requiredunit contraction threshold. Right samples0.27679/0.22869/
+0.17713are partial and cannot qualify right rows. The independently checked
+stored complete left rows reject continuing this particular unweighted-infinity
+contraction route; adding more rows cannot reduce its maximum. Do NOT launch
+full second sweep on current B. No outward certificate or full-space norm claimed;
+no conclusion against stationary niobium physics/all inverses/metrics or goal.
+
+C/kernel/cross/same-right CPU0.023023/0.451294/0.055504/0.019086s are section
+costs only. Actual native29.397s charged. Postread38.610814957879484s and
+62373888B (~59.48MiB) separate workflow cost. Source unchanged after
+318testsPASS49.875s/291Python compiles/native fixtures/moment PASS.
+Charge21982.79296254538s/25200;3217.20703745462s remain. All owners terminal.
+Next inspect saved A-only versus UC contributions and inverse factors to identify
+whether original row norms or inverse amplification dominate; not measured yet.
+No new kernels, full second sweep, automatic retry or further expansion admitted.
+README/CAMPAIGN_STATE updated with negative gate. Brave/otherstudy untouched.
