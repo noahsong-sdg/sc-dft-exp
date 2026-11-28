@@ -78,8 +78,9 @@ on the now complete useful direction, then the full-space norm route's validity
 and source-built tile cost before any budget expansion. The latter has an exact
 [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md), with same-side blocks
 required, avoiding a145GB dense matrix;2.78Tflops estimate is not runtime evidence.
-The inverse helper passes independent rational/finite/stale/allocation controls
-but has not run on material inputs. Full correction postread measured14.195769s
+The inverse helper passes independent rational/finite/stale/allocation controls.
+New owning runner and cross-Fortran baseline check now tested; material run still
+not admitted. [Method](research/CORRECTION_INVERSE_DIAGNOSTIC.md). Full correction postread measured14.195769s
 and75923456B process peak separately from native wall; no controlled memory claim.
 Kernel2 source orientation controls showed14.2146% pair asymmetry; positive dk
 alone supplies no accepted symmetric metric. Finite probe agreement cannot
@@ -145,8 +146,8 @@ Conditional gap-to-response derivative and outward ratio helpers exist, but no
 material gap radius/stiffness intervals are certified. Analytic parabolic/current
 controls do not qualify the Nb functional or fit a physical normalization.
 
-Latest code checks:258tests PASS38.008s including native fixture builds;
-247maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
+Latest code checks:262tests PASS38.291s including native fixture builds;
+249maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
 No separate configured typecheck. Public latest helper/resultCI46131518726 on7e37f98 PASS; prospective final-halfCI46131592238 on1d335c8 PASS. Earlier CI46125471800 on8653ee8 PASS; runner CI46126020760 on4e0fecf PASS; material-result CI46126382268 on2ac1a50 PASS; orientation helper CI46126757526 onf10730c PASS; result CI46126994654 on3997c72 PASS; direction helper CI46127521198 onad67046 PASS; result CI46127763049 on6a12d8c PASS; step helperCI46128222986 on1084b00 PASS; readerCI46128690566 ond839ced PASS; preparation helperCI46129155495 on79344e4 PASS.
 Current docs/results do not replace native or scientific qualification.
 
