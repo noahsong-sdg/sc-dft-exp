@@ -71,3 +71,32 @@ Final verification:
 Three Fortran files and the make variant total357lines, including the synthetic
 fixture. P payload remains rank-by-active (55MB at current Nb dimensions), not a
 dense active-by-active matrix. New material runtime/RSS remain unmeasured.
+
+## Ordered-P source build and dependency binding
+
+The new compact_p_build.py is a separate owning source variant: the earlier
+compact_tile_build.py and its pinned selected-tile outputs remain unchanged. It
+requires the checkpoint and ordered-pass sources in addition to reader/core,
+checks the exact dry plan/compiler console, local fresh objects and pinned
+archives, explicit SDK-first link, both executables,902cache controls and final
+input equality. Actual staged plan has19compiles and577pins.
+
+compact_p_context.py hashes the explicit P dependencies: Q and the five compact
+state columns, native grid/counts/beta, operator/candidate identities, executable
+and SDK content identities, platform and normalization convention. Paths are
+excluded from content identity so relocation alone does not invalidate P. Beta
+is encoded as exact binary64 hex. Changed Q/D/state/operator/executable/library
+inputs invalidate the fingerprint; changed U/W do not. The helper is not a parent
+validator: its caller must validate receipts/pins and the relationship between
+those supplied descriptors and the accepted artifacts. No material reuse or
+restart is accepted by a fingerprint alone.
+
+Four new regression tests check missing/duplicate checkpoint compilation, owner,
+stale object, console/cache and final-pin failures; dependency changes, relocation,
+U/W independence and stale shape/context rejection. Narrow P-related suite9PASS
+4.817s; full suite301PASS44.966s;275Python compilationsPASS; actual Fortran
+fixtures compile/executePASS; moment refinement exit0; diffcheckPASS. No separate
+configured typecheck. Source build001 admits60s only,120quiet seconds,3GiB caps,
+no kernels. Before launch21409.829897628948s/21600 leaves190.17010237105205s;
+worst60s leaves130.17010237105205s. No budget increase or full sweep admitted.
+[Manifest](compact_p_build001_manifest.json).

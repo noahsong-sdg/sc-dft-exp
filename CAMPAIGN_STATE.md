@@ -119,8 +119,12 @@ bitwise controls, final short tiles and independent full-P dense arithmetic.
 [Checkpoint](research/COMPACT_P_CHECKPOINT.md).297testsPASS45.185s. Metadata
 binds exact coverage/dimensions/context, binary shape and untouched columns;
 new pass supports a cache-reset32+32qualification and declared predecessor.
-Actual context fingerprint/parent admission protocol, fresh source material build
-and material restart qualification remain next. No complete material P, full norm,
+P dependency fingerprint is now implemented: binds Q/state/grid/beta/operator/
+candidate/executable/SDK/platform; excludes U/W and relocation. Parent receipt/pin
+validation is still required separately. Ordered-P build001 staged with577pins,
+19fresh compiles in checked dry plan;60s,120quiet seconds,3GiB caps.
+[Build admission](research/compact_p_build001_manifest.json).301testsPASS44.966s.
+Actual owning material admission/restart qualification remain next. No complete material P, full norm,
 outward certificate, conditioned gap error or physical response accepted.
 All owners terminal; no new material run/full pass or budget expansion admitted.
 The exact [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md) includes

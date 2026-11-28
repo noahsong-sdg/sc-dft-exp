@@ -4901,3 +4901,21 @@ here. Charge remains21409.829897628948s/21600;190.17010237105205s available.
 Next implement P dependency fingerprint and immutable parent admission, source
 build and guarded material restart qualification before any full pass. No material
 complete P/norm/conditioned-error/response acceptance. Brave/otherstudy untouched.
+
+### 2026-11-28 — ordered-P build001 and dependency identity prospective admission
+
+Previous goal turn classified progress: strict checkpoint/pass source, bitwise
+continuous/restart and dense-P arithmetic, public CI46140683056PASS. Added new
+source build owner without changing pinned selected-tile build: actual dry plan
+19fresh compiles,577pins, explicit SDK-first link; exact compiler/plan,902cache
+controls, fresh outputs and final input equality required. P fingerprint binds
+Q/state/counts/grid/beta/operator/candidate/executable/SDK/platform/normalization
+content, not relocation or U/W (which are not in Q^T D A). Caller must independently
+validate accepted parents and pins; helper is not itself material certification.
+Four new testsPASS; narrow P suite9PASS4.817s; full301PASS44.966s;275Python
+compilePASS; compiled native fixturesPASS; moment refinement exit0; diffcheckPASS.
+No separate configured typecheck. Fresh compact-P-build-001 admits60s source
+build only,120quiet seconds,3GiB caps; pressure1 before admission. Charged before
+launch21409.829897628948s/21600,190.17010237105205s remain; worst60s leaves
+130.17010237105205s. No budget expansion or material sweep admission.
+[Manifest](research/compact_p_build001_manifest.json). Brave/otherstudy untouched.
