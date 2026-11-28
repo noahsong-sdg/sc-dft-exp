@@ -3826,3 +3826,13 @@ records1655371 goal-meter tokens/27330elapsed seconds at00:09:26UTC; separate
 from native cost, not dollars/energy or completed-result cost.
 No maintained production/native source changed. Last187tests/194Python
 compilations/moment PASS; new offline analyses exit0, diffcheckPASS.
+
+
+## Third-restart64 bounded application segment033
+
+Rows1:16384 terminal PASS, guarded wall206.47631120868027s;
+new guarded total12772.131103960182s. Original native certification, all postrun pinned
+inputs and public/consumed manifest equality PASS. Full-image result complete:
+False. Independent residual/mode check still required
+after036. No automatic continuation beyond036; no gap/response acceptance.
+Unchanged sources/thresholds; last187tests/194compilations/moment PASS.
