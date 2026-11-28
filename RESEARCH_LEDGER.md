@@ -5386,3 +5386,16 @@ PASS. Source2a065ba CI46151799590PASS. Charge22600.312827753685s/25200 leaves
 Expected54saved-row/81bilinear controls, no complete A/P or inverse acceptance.
 337testsPASS54.941s/317Python compiles/native builds/moment/diffcheck PASS.
 Parentstage2.1480775829404593s separate. See RESOLVED_ACTION_PASS.md.
+
+### 2026-11-28 — nine-input pilot accepted; complete pass admitted
+
+Pilot001 terminalPASS35.162074375431985s/1019789312B (~972.55MiB),1941closure
+pins,54action/81bilinear checks PASS;64rows only, no complete A/P/inverse.
+Sourcef2f9fac CI46152124120PASS. Charge22635.474902129117s/25200 leaves
+2564.525097870883s. Fresh complete0011950pins/900s/quiet120/3GiB, exactsame
+trial/state/binary; parentstage6.06026658276096s separate. No retry/expansion/
+fullnorm/inverse admission. Method and stop rules in RESOLVED_ACTION_PASS.md.
+
+Complete-owner final gate:338testsPASS56.945s including native fixture builds;
+319Python sources compilePASS; moment_refinement exit0; git diff --check PASS.
+No separate configured typecheck.

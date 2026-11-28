@@ -69,3 +69,32 @@ untouched. Owner regressions cover stale outputs/cwd/console/final pin changes.
 
 Pilot source gate337testsPASS54.941s incl native builds;317Python sources
 compilePASS; moment_refinement exit0; diffcheckPASS. No separate typecheck.
+
+## Selected pilot accepted; complete pass admission
+
+Pilot001 terminalPASS35.162074375431985s, maxindividual1019789312B
+(~972.55MiB), sampledgroup927350784B.1929staged/1941closure pins, exact
+receipt/watcher/output identities checked.54saved-row action and81bilinear
+controls PASS, maxabsoluteerror1.3530843112619095e-16, maxerror/bound
+7.064800253562975e-5; only64rows, complete_A_and_P=false.
+[Result](resolved_action_material001_result.json). Sourcef2f9fac CI46152124120PASS.
+
+A separate resolved_action_complete.py replays the accepted pilot checks,
+requires identical compact state, nine trials, dimensions and binary, then
+promotes a fresh control endpoint64to66867. It keeps the ordered kernel pass,
+scalar readback and final input/manifest checks. Earlier producers stay frozen.
+Owner regressions cover wrong cwd, stale outputs, incomplete console and changed
+input pins; nine-input native fixtures already cover full/partial/final-short tiles.
+
+Admit complete001 only,1950pins,900s/quiet120/3GiB, one heavy owner.
+Charged22635.474902129117s/25200 leaves2564.525097870883s; worst900 leaves
+1664.525097870883s. Separate parent stage6.06026658276096s. Prior3-input full
+pass507.83s/967.67MiB and nine-input pilot35.16s/972.55MiB support this bounded
+run; forecast roughly550s, actual full9runtime/RSS unmeasured. Expect all66867
+left rows and81saved-action/81bilinear controls, no inverse adoption or physical
+response. Stop on guard/provenance/numeric failure; no automatic retry, fullnorm
+pass or budget expansion. Brave/Docker/separate study untouched.
+
+Complete-owner final gate:338testsPASS56.945s including native fixture builds;
+319Python sources compilePASS; moment_refinement exit0; git diff --check PASS.
+No separate configured typecheck.

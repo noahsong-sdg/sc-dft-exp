@@ -1,0 +1,70 @@
+{
+  "terminal_guard_pass": true,
+  "inputs_unchanged": true,
+  "manifest_sha256": "38a39cb1d78860ff8223574c2182289d9a9ee0e535009d606ed435f73582affd",
+  "completed_left_rows": 64,
+  "complete_A_and_P": false,
+  "all_values_finite": true,
+  "unvisited_outputs_zero": true,
+  "action_controls": 54,
+  "bilinear_controls": 81,
+  "max_absolute_error": 1.3530843112619095e-16,
+  "max_error_over_bound": 7.064800253562975e-05,
+  "native_derivative_max_error": 4.440892098500626e-16,
+  "cpu_s": [
+    0.4539570000000026,
+    0.026306999999999192
+  ],
+  "inverse_adopted": false,
+  "physical_response_verified": false,
+  "outputs": {
+    "enrichment-actions.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/resolved-action-material-001/enrichment-actions.bin",
+      "bytes": 9706104,
+      "sha256": "58bbb4f196a157d3246c743679328eb20d0dbadd0c40ea0483357e0f1b02654b"
+    },
+    "enrichment-p.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/resolved-action-material-001/enrichment-p.bin",
+      "bytes": 9706104,
+      "sha256": "43464867230f5cf6af360596106f4cc35e4c6f90efe51007382ffcdb3fd02c0f"
+    },
+    "enrichment-kernel-left.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/resolved-action-material-001/enrichment-kernel-left.bin",
+      "bytes": 3261120,
+      "sha256": "9a73560aed644e26510204e5895307f238e1b9755111d449b258afac373fe003"
+    },
+    "enrichment-kernel-right.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/resolved-action-material-001/enrichment-kernel-right.bin",
+      "bytes": 1604808,
+      "sha256": "b405c8624f67561214cb7ff67200be204e415741fa4ebdac8cbff0dfe379a25e"
+    },
+    "enrichment-action.meta": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/resolved-action-material-001/enrichment-action.meta",
+      "bytes": 507,
+      "sha256": "d97c86902fe05d0413c7e9833c4439707402b1dd36cec7814d810e2c6bcaa5e3"
+    },
+    "enrichment-progress.txt": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/resolved-action-material-001/enrichment-progress.txt",
+      "bytes": 154,
+      "sha256": "ad10c8094206ab1e3bc2052d4adb81d1fb345cddf064c07826fa56e2fe103579"
+    }
+  },
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "/Users/noahs/Developer/sc-dft-exp/research/resolved_action_material.py"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/resolved-action-material-001",
+    "wall_s": 35.162074375431985,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 1019789312,
+    "sampled_peak_group_rss_bytes": 927350784,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 90.0,
+    "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+  },
+  "readback_sha256": "65d79e189f05f271de298b25881a4ce84dbe63e025ff661b2e45bcdce6f828bb"
+}
