@@ -61,7 +61,13 @@ stale/signedzero/padding/step and overflow checks PASS. It has no owning termina
 or evaluation-chain certificate by itself. Next bind inverse result/candidate/
 normalization scale/direction/step preparation and immutable evaluation/restart
 closure, then microscopic64vs32+32 qualification before a material sweep.
-No next native job/admission. A successful corrected residual still cannot
+Separate correction-direction preparation now tested: frozen inverse owner
+validation plus exhaustive arithmetic replay, exact candidate/normalized correction/
+step and explicit roundoff/source recipe. [Method](research/CORRECTION_DIRECTION_PREPARATION.md).
+Only prepare001 admitted:1486pins,90s/quiet120/3GiB, no microscopic images.
+[Manifest](research/correction_direction_prepare001_manifest.json).
+After terminal acceptance bind recipe/candidate/scale in evaluation/restart
+closure and qualify microscopic64vs32+32. A successful corrected residual still cannot
 bound the unmeasured complement or qualify physical response/other temperatures.
 Kernel2 source orientation controls showed14.2146% pair asymmetry; positive dk
 alone supplies no accepted symmetric metric. Finite probe agreement cannot
@@ -102,7 +108,7 @@ Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
 Actual guarded campaign wall20599.375765421744s; ceiling21600s leaves
-1000.6242345782557s. No next native job admitted. No automatic retry or budget increase.
+1000.6242345782557s. Only90s preparation admitted; worst leaves910.6242345782557s. No automatic retry or budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
@@ -127,9 +133,9 @@ Conditional gap-to-response derivative and outward ratio helpers exist, but no
 material gap radius/stiffness intervals are certified. Analytic parabolic/current
 controls do not qualify the Nb functional or fit a physical normalization.
 
-Latest code checks:243tests PASS29.099s including native fixture builds;
-235maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
-No separate configured typecheck. Public CI46125471800 on8653ee8 PASS; runner CI46126020760 on4e0fecf PASS; material-result CI46126382268 on2ac1a50 PASS; orientation helper CI46126757526 onf10730c PASS; result CI46126994654 on3997c72 PASS; direction helper CI46127521198 onad67046 PASS; result CI46127763049 on6a12d8c PASS; step helperCI46128222986 on1084b00 PASS.
+Latest code checks:246tests PASS29.327s including native fixture builds;
+237maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
+No separate configured typecheck. Public CI46125471800 on8653ee8 PASS; runner CI46126020760 on4e0fecf PASS; material-result CI46126382268 on2ac1a50 PASS; orientation helper CI46126757526 onf10730c PASS; result CI46126994654 on3997c72 PASS; direction helper CI46127521198 onad67046 PASS; result CI46127763049 on6a12d8c PASS; step helperCI46128222986 on1084b00 PASS; readerCI46128690566 ond839ced PASS.
 Current docs/results do not replace native or scientific qualification.
 
 Chronology remains in RESEARCH_LEDGER.md and immutable public commits. The former
