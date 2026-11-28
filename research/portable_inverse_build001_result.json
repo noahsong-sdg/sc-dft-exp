@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "manifest_sha256": "c5edc44f49e2605856a5301e45ae1ebe8c60222c85fad054fa9f7ab63776e6aa",
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/usr/bin/make",
+      "-f",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/low_rank_inverse.mk",
+      "QE_ROOT=/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe",
+      "inverse-actions.x"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-inverse-build-001",
+    "wall_s": 1.2207348332740366,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 84475904,
+    "sampled_peak_group_rss_bytes": 1589248,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 120.0,
+    "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+  },
+  "inputs_unchanged": true,
+  "verified_input_count": 31,
+  "build_plan_matches_console": true,
+  "compile_sources": [
+    "/Users/noahs/Developer/sc-dft-exp/research/reduced_nonlinear_core.f90",
+    "/Users/noahs/Developer/sc-dft-exp/research/low_rank_inverse.f90",
+    "/Users/noahs/Developer/sc-dft-exp/research/low_rank_inverse_driver.f90"
+  ],
+  "link_archives": [
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/lapack-build/lib/liblapack.a",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/lapack-build/lib/libblas.a",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/lapack-build/lib/libblas.a"
+  ],
+  "historical_custom_objects_used": false,
+  "executable_sha256": "9ea843ae307520ea4106213af345b11493bb425d9b8ea637c4f1653250a00bc3",
+  "executable_bytes": 221632,
+  "outputs": {
+    "inverse-actions.x": "9ea843ae307520ea4106213af345b11493bb425d9b8ea637c4f1653250a00bc3",
+    "low_rank_inverse.mod": "c54e69b5643c5ed87c7719e25ce5fd3b395b67146ccd734a840bdea0f4317e6f",
+    "low_rank_inverse.o": "04abbbeef04ff2d7b50c38a02623934fc75883c6334cf4e3a737712b4228ddaf",
+    "low_rank_inverse_driver.o": "9899d7a43bbe9ff5bee32f00bfb808291f2d9ca75d1675dd74cfab7f15388242",
+    "reduced_nonlinear_core.mod": "026bf0b5e12abf67a1e20c9a0d6273cb0b89ae26520ca4c32851a51ddfc2501d",
+    "reduced_nonlinear_core.o": "6c1ebcc5e841d3d46b76a010660b7d3e6632397f172502153a0097202c5ba8ab"
+  },
+  "build_only": true,
+  "conditioned_gap_error_bounded": false,
+  "physical_response_verified": false,
+  "scope": "Fresh public-library source build; no material inverse diagnostic executed. Peak sampling may miss the short compiler lifetime; individual descendant maximum is recorded separately."
+}

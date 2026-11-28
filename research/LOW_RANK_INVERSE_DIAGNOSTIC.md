@@ -122,3 +122,23 @@ J*v=-Jnative*v, exclude padding and never overwrite the accepted candidate.
 A full action on a useful correction and its actual nonlinear residual remain
 necessary before interpreting a refined candidate. None of these small-matrix
 or probe checks supply the missing full-space bound in GAP_CONDITIONING_PROTOCOL.md.
+
+## Source build accepted; fresh bounded material pilot
+
+Build001 terminalPASS1.2207348332740366s, all31pins/plan/outputs checked;
+[build result](portable_inverse_build001_result.json). The newer
+[material001 manifest](portable_inverse_material001_manifest.json) supersedes
+the earlier build-only admission above:1478pins,240s/quiet120/3GiB, no retry.
+Guarded ledger20545.044279171005s leaves1054.9557208289953s; worst pilot leaves
+814.9557208289953s under21600. Full-lineage validation and exhaustive Python
+readback runtime are unmeasured; deadline failure would be recorded honestly.
+
+The separate inverse_material_run.py binds full016 recursive acceptance,
+reduced004 gap/control/basis, public source build and unchanged parent closures.
+It refuses stale outputs, runs the binary in its owned group, then independently
+checks every small matrix entry and both actions. No accepted gap is changed.
+Post-execution input and owner-manifest checks precede writing readback; terminal
+guard acceptance remains a separate step. Native/reader fixtures plus owner
+lifecycle/closure regressions pass.229tests/224Python compilations/moment replay
+passed; no separate typecheck. This pilot measures diagnostic sensitivity only;
+full-space conditioning and physical response acceptance remain open.

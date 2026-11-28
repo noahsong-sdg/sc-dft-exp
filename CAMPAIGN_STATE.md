@@ -30,11 +30,16 @@ checks: exponential derivative, every small matrix entry, both inverse actions,
 native signs, singular diagnostics and stale-source/output boundaries. Basis
 columns stream to avoid a second ~106MiB payload copy (allocation, not measured RSS).
 [Method](research/LOW_RANK_INVERSE_DIAGNOSTIC.md).
-Only `portable-inverse-build-001` admitted,120s/quiet120/3GiB;31pins and explicit
-three-source/public-library make plan. [Manifest](research/portable_inverse_build001_manifest.json).
-No material inverse/correction/native full action or response run admitted.
-After build, verify receipt/plan/source/executable before a fresh material
-readback pilot. Reduced singular values/probe agreement cannot supply a full-space
+Inverse source build001 terminalPASS1.2207348332740366s; all31pins and exact
+three-source/public-library console/plan match. Individual descendant maximum
+84475904B;2s group sampling misses the short compiler peak.
+[Build result](research/portable_inverse_build001_result.json).
+Fresh material runner binds accepted full016 lineage, reduced004 candidate,
+source-built executable and immutable parent closures before diagnostics.
+Admit material001 diagnostic only:1478pins,240s/quiet120/3GiB, native and
+independent Python readback sequential in one owned group.
+[Manifest](research/portable_inverse_material001_manifest.json). No correction
+application, further native full action or physical response run admitted. Reduced singular values/probe agreement cannot supply a full-space
 bound. Preserve all frozen sources/inputs; Brave/otherstudy untouched.
 
 ## Latest accepted evidence
@@ -71,10 +76,9 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall20543.82354433773s; ceiling21600s leaves
-1056.1764556622693s. Build001 ceiling120 leaves936.1764556622693s.
-A later material diagnostic240s would still fit with696.1764556622693s reserve,
-but only the build is admitted. No automatic retry or budget increase.
+Actual guarded campaign wall20545.044279171005s; ceiling21600s leaves
+1054.9557208289953s. A material diagnostic240s would leave
+814.9557208289953s reserve; only this bounded diagnostic is admitted. No automatic retry or budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
@@ -99,9 +103,9 @@ Conditional gap-to-response derivative and outward ratio helpers exist, but no
 material gap radius/stiffness intervals are certified. Analytic parabolic/current
 controls do not qualify the Nb functional or fit a physical normalization.
 
-Latest code checks:226tests PASS24.392s including native fixture builds;
-222maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
-No separate configured typecheck. Public CI46124806303 on51e389d PASS.
+Latest code checks:229tests PASS24.818s including native fixture builds;
+224maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
+No separate configured typecheck. Public CI46125471800 on8653ee8 PASS; new runner CI pending publication.
 Current docs/results do not replace native or scientific qualification.
 
 Chronology remains in RESEARCH_LEDGER.md and immutable public commits. The former
