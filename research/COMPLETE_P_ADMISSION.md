@@ -92,3 +92,7 @@ CI46142793133PASS. Actual guarded charge21949.621570962332s/25200 leaves
 3250.378429037668s. All native owners terminal. No full second pass, retry or
 further expansion admitted. The native full pass is executed/finite/provenance
 qualified; independent saved-image action control is a separate pending artifact.
+Independent saved-image action001 now additionally PASS all51rank components,
+maxdifference1.6431300764452317e-14 against original native ADv.
+[Separate result](compact_p_actions001_result.json), [method](COMPLETE_P_ACTION_CONTROL.md).
+No additional kernels or budget expansion; complete-P segment result stays frozen.

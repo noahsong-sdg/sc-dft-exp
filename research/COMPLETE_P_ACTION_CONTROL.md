@@ -45,3 +45,20 @@ fixture builds/runsPASS via full suite; moment_refinement.py exit0; diffcheckPAS
 No separate configured typecheck. These checks ran after the material native
 pass completed, with independent checkpoint postread concurrent with unit tests.
 Complete P segment001 accepted; material saved-image control remains pending.
+
+## Material action001 accepted
+
+[Result](compact_p_actions001_result.json) revalidated complete segment001 plus
+the accepted full native correction sweep, same source/geometry/declared direction
+and all required input bindings. All51rank components PASS. Maximum absolute
+difference1.6431300764452317e-14; maximum error/diagnostic-bound ratio
+7.641409651929256e-7. All16source/input/result bindings rechecked after computation;
+serialized vectors/errors/bounds independently reconstructed and checked before
+publication. Source/full-P commitc32fc62 public CI46143803600PASS.
+Readback47.81856029108167s, peak118603776B (~113.11MiB). This includes parent
+acceptance and independent sums, not a new kernel sweep; cost stays separate
+from native guarded material ledger21949.621570962332s/25200. All owners terminal.
+The earlier statement of pending material controls records the prospective gate;
+this separate accepted artifact now closes that directional control. It does not
+change immutable segment001_result flags or establish full norm/error/response.
+Next gate is the separately admitted full-space inverse-defect diagnostic.

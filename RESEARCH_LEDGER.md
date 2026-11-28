@@ -5079,3 +5079,24 @@ readback. No material action/control acceptance yet; full-space norm/radius and
 physical response remain open. No second pass or further expansion admitted.
 README latest snapshot updated from stale basis-restart history to current
 stationarity, restart and complete-P evidence. Brave/otherstudy untouched.
+
+### 2026-11-28 — full P independently checked against saved native image
+
+Source/full-P commitc32fc62 CI46143803600PASS. New separate owning action
+readback replays accepted full P result/closure and certifies the original full
+native correction-image sweep, same source/geometry and declared direction.
+Using ADv=-raw fourth image/(1+Z), all51components of independent fsum identity
+P(Dv)=Q^T D(ADv) PASS: maxabsoluteerror1.6431300764452317e-14,
+maxerror/diagnostic-bound7.641409651929256e-7. [Result](research/compact_p_actions001_result.json).
+All16helper/input/parent/result identities checked before/after; separately checked
+serialized51left/right/error/bound entries and current binding identities before
+publication. No complete-matrix transpose/allocation or new kernel sweep.
+Readback47.81856029108167s, maxRSS118603776B (~113.11MiB), separate workflow
+cost from guarded material ledger. No source changes after312testsPASS45.022s,
+285Python compilations/native fixture builds/runs/moment refinement PASS.
+Charge remains21949.621570962332s/25200;3250.378429037668s remain.
+All owners terminal. Directional action is not a full norm or outward certificate;
+next separately admitted full-space defect diagnostic must include both orientations
+and same-side blocks. Conditioned gap error, physical response,2/4K, grids and
+public cold-start gates remain open. No second pass or further expansion admitted.
+README current evidence updated. Brave and other study untouched.

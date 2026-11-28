@@ -153,12 +153,16 @@ Full P SHA1bdfce3d4adff9e8d24010565684b014479c315542e0e07dbe98854569517bd3;
 cumulative kernel/contraction CPU447.471099/29.651572s include prior64rows.
 Postread33.47346162516624s/59834368B (~57.06MiB), separate from native cost;
 ran concurrently with final unit verification. All native owners terminal.
-New independent saved-image action helper/owner now has exact Fraction controls
-and stale-parent/matrix regression coverage. Material action control pending
-publication and readback. [Method](research/COMPLETE_P_ACTION_CONTROL.md).
+Independent saved-image action control now PASS all51rank components:
+P(Dv)=Q^T D(ADv), using independently saved original native image.
+Maxdiff1.6431300764452317e-14, maxerror/bound7.641409651929256e-7.
+[Action result](research/compact_p_actions001_result.json). Readback47.81856029108167s/
+118603776B (~113.11MiB), separate workflow cost. Exact Fraction/stale-state tests
+and final312testsPASS45.022s,285Python compilations/native fixtures/moment PASS.
+[Method](research/COMPLETE_P_ACTION_CONTROL.md).
 [Scientific-value budget decision](research/COMPLETE_P_ADMISSION.md): local ceiling
-seven hours under original authorized4→16h pilot expansion. Next: saved-action
-controls, then separately admitted full second-pass defect diagnostic.
+seven hours under original authorized4→16h pilot expansion. Next: separately
+admitted full second-pass defect diagnostic, then outward/radius controls if viable.
 No full norm, outward/radius bound, conditioned gap error or physical response accepted.
 The exact [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md) includes
 same-side blocks and avoids a145GB dense matrix;2.78Tflops is not runtime evidence.
