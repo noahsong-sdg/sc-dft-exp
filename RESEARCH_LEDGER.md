@@ -4098,3 +4098,12 @@ inputs and public/consumed manifest equality PASS. Full-image result complete:
 True. Independent residual/mode check still required
 after048. No automatic continuation beyond048; no gap/response acceptance.
 Unchanged sources/thresholds; last187tests/194compilations/moment PASS.
+
+
+## Independently qualified fresh linear seed; bounded nonlinear admission
+
+Completed64-column third restart independent readback PASS: Gram error2.3425705819590803e-14, projection error5.684341886080802e-14. Tracked conventional real mode4 has lambda1.0018603316543802, full-image residual2.2903598932171266e-10 below unchanged1e-9 seed threshold; overlap1 and reduction4.798864964417339. Positive same-sign Fermi branch. This qualifies the linear seed, not a nonlinear gap or physical response; analysis tools conservatively retain gap_seed_qualified=false. No more linear extensions admitted.
+
+Admit one fresh reduced nonlinear candidate, portable-reduced-gap-001: 60s ceiling,3GiB,120s normal-pressure gate. Use certified48-column Q/AQ with qualified64-column seed and fresh geometry/Z bundle at8.05K. Starting0.15meV is a prospective heuristic, not material evidence. Runtime pins source-only executable/build provenance and all inputs. Full native residual required even if reduced solve passes.
+
+New native total14521.505509126782s; reserve60s leaves3418.494490873218s under18000s. Following reduced success, one separately pinned full1200s check may be admitted; not launched here. Brave and other Docker study untouched. Existing187tests/194source compilations/moment checks passed; no maintained source changed.
