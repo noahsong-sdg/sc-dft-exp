@@ -43,6 +43,10 @@ probe inverse defect0.48070172169141706; no full-space error acceptance.
 No next native owner/job or budget increase admitted. Next trace actual
 correction full action and kernel structure for a justified full-space bound;
 finite probes/refined residuals alone cannot bound unmeasured directions.
+Cheap exhaustive geometry screen found all134807 active dk strictly positive;
+a weighted-metric route is a hypothesis pending kernel reciprocity/normalization
+checks. Existing full probe hardcodes its direction; arbitrary correction would
+require explicit new source/checkpoint qualification, not silent reuse.
  Reduced singular values/probe agreement cannot supply a full-space
 bound. Preserve all frozen sources/inputs; Brave/otherstudy untouched.
 
@@ -108,7 +112,7 @@ controls do not qualify the Nb functional or fit a physical normalization.
 
 Latest code checks:229tests PASS24.818s including native fixture builds;
 224maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
-No separate configured typecheck. Public CI46125471800 on8653ee8 PASS; runner CI46126020760 on4e0fecf PASS.
+No separate configured typecheck. Public CI46125471800 on8653ee8 PASS; runner CI46126020760 on4e0fecf PASS; material-result CI46126382268 on2ac1a50 PASS.
 Current docs/results do not replace native or scientific qualification.
 
 Chronology remains in RESEARCH_LEDGER.md and immutable public commits. The former
