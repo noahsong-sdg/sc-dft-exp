@@ -5200,3 +5200,12 @@ research/STREAMED_DEFECT_SECOND_PASS.md. Small-matrix amplification versus
 input-subspace mismatch remains unproven; next inspect retained factors/directions
 before spending another kernel pass. No new code/native job/budget charge.
 Original318tests/291compiles/native fixtures/moment remain final source gate.
+
+### 2026-11-28 — retained-row spectrum prospective diagnostic
+
+Admit one90s retained-input analysis with no new kernel construction or inverse
+adoption; details research/RETAINED_ROW_SPECTRUM.md and immutable1839-pin
+research/defect_row_spectrum001_manifest.json. Source gate321testsPASS49.854s,
+295Python compiles/native fixtures/moment/diffcheck PASS. Separate parent
+replay/stage42.795815207995474s. Charged21982.79296254538s/25200 unchanged
+until terminal actual. No additional kernel pass or expansion admitted.
