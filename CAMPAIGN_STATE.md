@@ -10,15 +10,12 @@ The earlier twelve-hour audit and NARROW verdict are historical, not completion.
 
 ## Active owner and next action
 
-Reduced003 terminalPASS1.4586336254142225s/175128576B; strict1260pins,
-source/receipt/geometry and independent binary readback PASS. Rank50 candidate
-Fermi means0.15354515881748107/0.15263833332369223meV, ~0.49% belowrank49;
-coefficient residual4.2934406030425976e-17, not full stationarity.
-[Result](research/portable_reduced_gap003_result.json).
+Reduced004 terminalPASS1.473093417007476s/178372608B; strict1365pins,
+source/receipt/geometry and independent binary readback PASS. Rank51 candidate
+Fermi means0.15338589025376448/0.15248045857965492meV, ~0.104% belowrank50;
+coefficient residual6.288372600415926e-17, not full stationarity.
+[Result](research/portable_reduced_gap004_result.json).
 
-Qualification004 terminalPASS36.531995916739106s/916668416B;1279pins verified,
-continuous64 vs persisted32+32 bitwise, exact active source state and independent
-occupations PASS. [Result](research/portable_full_map_qualify004_result.json).
 Rank50 complete full map: all66867leftrows and1343pins certified; exact source,
 seed and qualification004 lineage PASS. Independent normalization maxdiff0,
 explicit-sum and Jacobian finite-difference checks PASS.
@@ -34,10 +31,10 @@ Independent exponential image error4.607859233063394e-19Ry.
 [Readback](research/portable_occupation_prepare003_result.json).
 Launch label prepare was corrected to occupation after terminal completion;
 receipt/console bytes unchanged. [Layout provenance](research/occupation_receipt_layout003_result.json).
-Only `portable-reduced-gap-004` admitted:51columns,60s/quiet120/3GiB, unchanged
-solver/mode/geometry/operator/0.15meV initial amplitude;1365pins.
-[Prospective manifest](research/portable_reduced_gap004_manifest.json).
-No automatic qualification/full pass/retry. Brave/otherstudy untouched.
+Only `portable-full-map-qualify-005` admitted: candidate-specific continuous64
+vs persisted32+32,180s/quiet120/3GiB;1384pins. Same frozen source-built driver,
+operator and arithmetic. [Manifest](research/portable_full_map_qualify005_manifest.json).
+No automatic production/retry. Brave/otherstudy untouched.
 
 ## Latest accepted evidence
 
@@ -73,12 +70,11 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall19816.6937690874s; ceiling21600s leaves
-1783.3062309125999s. Reduced004 ceiling60 leaves1723.3062309125999s.
-Prospective60+180+4*300=1440s fits with343.3062309125999s reserve.
-Later production, if separately justified, would use300s caps; all last four
-measured segments were171.83–173.50s. Only reduced004 admitted.
-No automatic budget increase.
+Actual guarded campaign wall19818.166862504408s; ceiling21600s leaves
+1781.8331374955924s. Qualification005 ceiling180 leaves1601.8331374955924s.
+Prospective180+4*300=1380s fits with401.8331374955924s reserve; later production
+caps300s would be justified by prior171.83–173.50s intervals, not a guarantee.
+Only qualification005 admitted. No automatic budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
@@ -105,7 +101,7 @@ controls do not qualify the Nb functional or fit a physical normalization.
 
 Latest code checks:220tests PASS22.258s including native fixture builds;
 219maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
-No separate configured typecheck. Public CI46121406038 on3b8b5d2 PASS.
+No separate configured typecheck. Public CI46121713514 ond9319ab PASS.
 Current docs/results do not replace native or scientific qualification.
 
 Chronology remains in RESEARCH_LEDGER.md and immutable public commits. The former
