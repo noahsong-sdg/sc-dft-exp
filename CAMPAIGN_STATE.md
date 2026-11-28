@@ -40,12 +40,16 @@ Compressed correction/maxgap2.327317186525163e-5 (0.0023273%), but one native
 probe inverse defect0.48070172169141706; no full-space error acceptance.
 [Result](research/portable_inverse_material001_result.json),
 [interpretation/cost](research/INVERSE_MATERIAL_805K.md).
-No next native owner/job or budget increase admitted. Next trace actual
+Only kernel-orientation001 microprobe admitted:12pins,30s/quiet120/3GiB.
+[Manifest](research/kernel_orientation001_manifest.json). No full sweep or
+budget increase admitted. Next trace actual
 correction full action and kernel structure for a justified full-space bound;
 finite probes/refined residuals alone cannot bound unmeasured directions.
 Cheap exhaustive geometry screen found all134807 active dk strictly positive;
 a weighted-metric route is a hypothesis pending kernel reciprocity/normalization
-checks. Existing full probe hardcodes its direction; arbitrary correction would
+checks. Kernel source trace shows activekernel2, while onlykernel1 explicitly
+canonicalizes swapped energies; standalone exact-source orientation control is
+the next cheap falsification. Existing full probe hardcodes its direction; arbitrary correction would
 require explicit new source/checkpoint qualification, not silent reuse.
  Reduced singular values/probe agreement cannot supply a full-space
 bound. Preserve all frozen sources/inputs; Brave/otherstudy untouched.
@@ -85,7 +89,7 @@ Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
 Actual guarded campaign wall20589.35977421267s; ceiling21600s leaves
-1010.6402257873306s. No next native job is admitted. No automatic retry or budget increase.
+1010.6402257873306s. Only30s microprobe admitted; worst leaves980.6402257873306s. No automatic retry or budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
@@ -110,8 +114,8 @@ Conditional gap-to-response derivative and outward ratio helpers exist, but no
 material gap radius/stiffness intervals are certified. Analytic parabolic/current
 controls do not qualify the Nb functional or fit a physical normalization.
 
-Latest code checks:229tests PASS24.818s including native fixture builds;
-224maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
+Latest code checks:231tests PASS24.086s including native fixture builds;
+226maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
 No separate configured typecheck. Public CI46125471800 on8653ee8 PASS; runner CI46126020760 on4e0fecf PASS; material-result CI46126382268 on2ac1a50 PASS.
 Current docs/results do not replace native or scientific qualification.
 

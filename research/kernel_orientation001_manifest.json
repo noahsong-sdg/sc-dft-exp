@@ -1,0 +1,81 @@
+{
+  "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/kernel-orientation-001",
+  "command": [
+    "/opt/homebrew/opt/python@3.13/bin/python3.13",
+    "/Users/noahs/Developer/sc-dft-exp/research/kernel_orientation_probe.py"
+  ],
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/sctk_kernel_weight.f90",
+      "bytes": 31781,
+      "sha256": "be65635480e03d9e62c4ebffa7b943e040e5e64476ae3e3e4456e33fe58897be"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-001/downloads/sctk.tar.gz",
+      "bytes": 2522323,
+      "sha256": "74b65b6342db6e46b32f7828a4e6a2cd4a0a36f43bd4cbc8ef47bd434189eeda"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_response_sources.json",
+      "bytes": 1975,
+      "sha256": "a61610cec78189e3c7f8c3f00483deb0195f897d0d9699cad57b22211bc2e36d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/kernel_orientation_probe.py",
+      "bytes": 5213,
+      "sha256": "512edae1fcb9ff7055daf132170c57d8e6ef00d1cd4cacc326336968365ba5d4"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/fetch_public_response_inputs.py",
+      "bytes": 4379,
+      "sha256": "ef6c29a14ca6c58abe7be79f3b6ee36f404a69d31e41df8baac651cf9ac1bd53"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/macos_native_guard_v2.py",
+      "bytes": 8403,
+      "sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/kernel-orientation-001/orientation.f90",
+      "bytes": 24395,
+      "sha256": "a44e4eb37f8f5e4a19eb68a6b853b7fddfabad35e5e79dbdfd3b307b4f4f0228"
+    },
+    {
+      "path": "/opt/homebrew/bin/gfortran",
+      "bytes": 3039240,
+      "sha256": "3adab458e780ec0c1d831e84a50214dd52ba0e8c2a9b805e0e40a1f2b0f6ca39"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/gcc/16.2.0/bin/gfortran-16",
+      "bytes": 3039240,
+      "sha256": "3adab458e780ec0c1d831e84a50214dd52ba0e8c2a9b805e0e40a1f2b0f6ca39"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/gcc/16.2.0/libexec/gcc/aarch64-apple-darwin25/16/f951",
+      "bytes": 50469552,
+      "sha256": "ce2e2001e5c4281c9c07d524d3497afc07b3f48a616327ded1cee7a520ba2e2c"
+    },
+    {
+      "path": "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "bytes": 52448,
+      "sha256": "adf39d061c306b4bd72ff4d96a8d475bccbcef12f432bcd2429fcfc5cef26284"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/bin/python3.13",
+      "bytes": 52448,
+      "sha256": "adf39d061c306b4bd72ff4d96a8d475bccbcef12f432bcd2429fcfc5cef26284"
+    }
+  ],
+  "compiler": "/opt/homebrew/bin/gfortran",
+  "kernel_source": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/sctk_kernel_weight.f90",
+  "beta": 19613.355577892344,
+  "guard_seconds": 30,
+  "launch_normal_seconds": 120,
+  "group_rss_cap_bytes": 3221225472,
+  "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2",
+  "public_source_commit": "47c06501da8ffd574c87469ddd6d5a2814171796",
+  "public_source_archive_exact_file_match": true,
+  "new_native_total_before_s": 20589.35977421267,
+  "forecast": "Exact442-line public function standalone compile/run: expected seconds, unmeasured;30s hard deadline. No full material kernel sweep.",
+  "acceptance": "Exact original function body; complete24rows kernel1 symmetric control and kernel2 orientation/cycle diagnostics, allfinite, terminal owning guard/input checks. No full material reciprocity or condition/error acceptance."
+}
