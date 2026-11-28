@@ -5279,3 +5279,16 @@ Admit only selected64row pilot001,1921pins,90s/quiet120/3GiB, native plus
 readback inside charge. Parentstage2.815651709213853s separate. Current
 charged22003.157423504013s/25200 unchanged until actual. No full pass/newinverse/
 retry/expansion. Build06cccbc CI46148272267PASS. Method ENRICHMENT_ACTION_PASS.md.
+
+### 2026-11-28 — selected joint A/P material path passes
+
+Material001 terminalPASS33.78485658345744s/994099200B (~948.05MiB),1921staged/
+1933accepted closure pins, six outputs and terminal receipt/watcher checked.
+18saved-row action/9bilinear projection controls PASS, maxerror7.112366251504909e-17,
+maxerror/bound7.064800253562975e-5. Ddifference4.44e-16; all finite and unvisited
+regions zero. Exactly64rows: complete_A_and_P=false, no adopted inverse or
+physical response. Sourcec080ec4 CI46148570348PASS. Charged22036.94228008747s/
+25200 leaves3163.057719912529s. All owners terminal. Next separately admitted
+full same-context pass, then fixed held-out augmented-inverse test; no full pass/
+retry/budget expansion admitted here. See ENRICHMENT_ACTION_PASS.md and
+research/enrichment_action_material001_result.json. Brave/other study untouched.

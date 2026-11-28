@@ -106,3 +106,27 @@ full pass, new inverse or further budget expansion. Brave/other study untouched.
 Pilot source gate328testsPASS53.222s,303Python sources compilePASS, native
 fixture builds/moment_refinement/diffcheck PASS. Build result06cccbc
 CI46148272267PASS. No separate configured typecheck.
+
+## Accepted selected material001
+
+TerminalPASS33.78485658345744s, individual peak994099200B (~948.05MiB), sampled
+group906903552B. All1921staged/1933accepted closure pins, exact consumed manifest,
+terminal receipt/watcher and six output hashes checked. [Result](enrichment_action_material001_result.json).
+18scalar saved-row A-action controls and9bilinear P controls PASS;
+maxerror7.112366251504909e-17, maxerror/bound7.064800253562975e-5.
+Normalized derivative maxdifference4.440892098500626e-16. Native kernel/
+contraction CPU0.44558999999999926/0.02290400000000048s are partial sections,
+not whole-result timings. Native initialization dominates this64-row pilot.
+All outputs finite; unvisited left actions/P and saved sample suffixes zero.
+Exactly64rows: complete_A_and_P=false. No augmented inverse or physical response.
+Sourcec080ec4 CI46148570348PASS.
+
+Charged campaign22036.94228008747s/25200 leaves3163.057719912529s.
+All owners terminal. Next separately implement/admit a complete ordered pass
+using the same accepted binary, trial inputs and frozen contexts, enforcing all
+66867left rows and fixed held-out kernel rows. Measured original complete P pass
+506.08s supports a bounded900s forecast ceiling; this is not a measured full
+joint-action runtime. A full result must pass all saved-row and bilinear checks,
+finite/coverage/ownership/lineage and unchanged inputs. A later augmented inverse
+must be tested on the fixed held-out rows before considering a full defect pass.
+No full pass, retry or budget expansion admitted by this checkpoint.
