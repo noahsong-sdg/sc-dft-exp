@@ -5100,3 +5100,36 @@ next separately admitted full-space defect diagnostic must include both orientat
 and same-side blocks. Conditioned gap error, physical response,2/4K, grids and
 public cold-start gates remain open. No second pass or further expansion admitted.
 README current evidence updated. Brave and other study untouched.
+
+### 2026-11-28 — second-pass driver/controls and source build001 admission
+
+Previous full P/native-image control was verified progress;185d785
+CI46143964798PASS. Traced (A+UC)D: both cross orientations and both same-side
+UC blocks required. New frozen variant compact_defect_native_pass.f90 reads exact
+complete-P checkpoint/context, rechecks original state/normalizedD, computes C,
+releases P/Q/W, then independently tracks cross-left and same-right coverage.
+Saves C, all partial/full rows, six original kernel rows, progress and metadata.
+Full native fixture65/67 covers final1/3rows; partial64/64 explicitly NOT a norm.
+Every132row checked against independently built denseI-BJ; every396C entry against
+Fraction difference; signed nonuniform state, both orientations/same-side blocks.
+Incomplete/stale P and invalid stops fail before coefficient output.
+
+compact_defect_readback.py streams C1024columns, independently checks six rows
+with fsum/original kernels plus six all-rank C columns. Finite C corruption fails.
+Ordinary finite tolerances are not outward bounds. compact_defect_material.py
+binds accepted full P and unchanged published saved-action evidence, fresh19-compile
+build and merged conflict-free closures, exact controls/receipts/watcher/progress.
+Selected64/64only; no silent full sweep. Can save a full sweep if well-separated
+independent stored-row diagnostics already reject unit contraction. A pass cannot
+establish full contraction; material physics/other metrics remain undecided.
+[Method](research/STREAMED_DEFECT_SECOND_PASS.md).
+
+Narrow native/reader2PASS4.735s, build2PASS0.024s, owner2PASS0.008s. Final
+318testsPASS49.875s,291Python compilationsPASS, compiled native fixtures/builds
+PASS, moment_refinement.py exit0, diffcheckPASS. No separate configured typecheck.
+448new non-test code lines, earlier pinned sources unchanged.
+[Build001 manifest](research/compact_defect_build001_manifest.json):577pins,
+60s cap,120normal-pressure seconds,3GiB caps; build only, no kernels.
+Pressure1 observed before admission. Charge21949.621570962332s/25200 leaves
+3250.378429037668s; worst60s leaves3190.378429037668s. No material admission,
+full second pass, retry or budget expansion. Brave and other study untouched.

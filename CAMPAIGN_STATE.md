@@ -163,6 +163,14 @@ and final312testsPASS45.022s,285Python compilations/native fixtures/moment PASS.
 [Scientific-value budget decision](research/COMPLETE_P_ADMISSION.md): local ceiling
 seven hours under original authorized4→16h pilot expansion. Next: separately
 admitted full second-pass defect diagnostic, then outward/radius controls if viable.
+New second-pass native driver and independent coefficient/row readback now pass
+compiled full/partial denseI-BJ controls, both same-side blocks, final short tiles,
+stale predecessor and finite corruption regressions. New owning selected gate
+checks exact full P/saved-action parents and fresh build; only64/64rows permitted.
+[Method](research/STREAMED_DEFECT_SECOND_PASS.md).318testsPASS49.875s,
+291Python compiles/native fixtures/moment PASS. Source build001 staged577pins,
+60s,120quiet seconds,3GiB caps; no kernels/material gate admitted yet.
+[Build admission](research/compact_defect_build001_manifest.json).
 No full norm, outward/radius bound, conditioned gap error or physical response accepted.
 The exact [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md) includes
 same-side blocks and avoids a145GB dense matrix;2.78Tflops is not runtime evidence.
