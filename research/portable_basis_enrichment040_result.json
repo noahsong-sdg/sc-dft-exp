@@ -1,0 +1,42 @@
+{
+  "status": "FAIL",
+  "receipt": {
+    "status": "FAIL",
+    "error": "RuntimeError: Host memory pressure not normal",
+    "command": [
+      "/usr/bin/make",
+      "-f",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/basis_enrichment.mk",
+      "RESEARCH=/Users/noahs/Developer/sc-dft-exp/research",
+      "QE_ROOT=/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe",
+      "NATIVE_INPUT=/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-040/native.in",
+      "enrich-basis"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-040",
+    "wall_s": 253.38069129176438,
+    "exit": -15,
+    "max_individual_descendant_rss_bytes": 929087488,
+    "sampled_peak_group_rss_bytes": 929742848,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 420.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "inputs_unchanged": true,
+  "public_and_consumed_manifest_equal": true,
+  "manifest_sha256": "bb8945408243d3727a07f6726266a862c7e5a3aa65b1138a6af5a58738604a02",
+  "new_campaign_native_wall_s": 13303.773888293505,
+  "historical_native_wall_s": 11357.646588,
+  "initial_pilot_remaining_s": 1096.2261117064954,
+  "partial_output_accepted": false,
+  "full_images_native_checked": false,
+  "gap_seed_qualified": false,
+  "physical_response_verified": false,
+  "controller_terminal": true,
+  "automatic_retry": false,
+  "diagnosis": "Host pressure stop after quiet120 launch, despite prior one-time Docker clean-cache release. No claim that the VM/cache is the sole cause. Own peak below3GiB.",
+  "required_external_change": "Stable normal-pressure host window; preserve user active browser and running study.",
+  "preserved_checkpoint": "portable-basis-enrichment-033",
+  "latest_complete_basis": "portable-basis-enrichment-032",
+  "latest_independent_mode_residual": 1.0991127847466307e-09
+}

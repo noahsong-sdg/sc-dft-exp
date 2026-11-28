@@ -3934,3 +3934,25 @@ retry or cache-clearing loop. No unrelated workload manipulation. Actual receipt
 charged including failures; independent residual/mode continuity check after042
 required before interpreting success. A temporary pressure1 observation is not
 proof that Docker reclaim has eliminated the resource issue.
+
+
+## Resumed040 terminal pressure stop
+
+040passed quiet120 launch, then guard terminated on non-normal host pressure
+after253.38069129176438s, exit-15. Individual peak929087488bytes;
+sampled group929742848bytes. All prospective inputs unchanged;
+public/consumed manifest equality PASS. Known controller29621/guard30887/native36481
+absent; session94223 terminal exit1.041/042 absent. No partial output accepted.
+Certified033 and complete48basis032 preserved; no new full64 residual.
+New native total13303.773888293505s (221.7296min), historical189.29min separate.
+Initial4h remainder1096.2261117064954s. Three previous420s ceilings no longer fit;
+any future native continuation requires a new resource/value decision, not a
+silent repeat or unrecorded budget expansion. No retry currently admitted.
+
+One-time Docker cache release reduced its observed host RSS during maintenance,
+but did not supply a stable enough window for040. No attribution to a single
+app, no repeated cache flush, no changed guard, no Brave or running-study action.
+Fresh user resumption resets the blocked audit: this is the first terminal
+recurrence after resumption; leave goal active while reassessing rather than
+claiming completion or immediately reusing the previous blocked count.
+No maintained source changes; exact input hash checks and diffcheck PASS.
