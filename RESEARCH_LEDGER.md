@@ -5376,3 +5376,13 @@ Admit sourcebuild001 only571pins,60s/quiet120/3GiB, no material kernels.
 Charge22596.58254421208s unchanged untilactual; parentstage/plan0.3315680418163538s
 separate. Trialcount9usesfrozenrank<=13core; original physics/contexts unchanged.
 See RESOLVED_ACTION_PASS.md. Preparation1da2cb0 CI46151611559PASS.
+
+### 2026-11-28 — nine-input source build accepted/selected pilot admitted
+
+Build001 terminalPASS3.7302835416048765s/133152768B (~126.98MiB),571staged/
+614closure pins/37outputs/exact receipt/watcher/plan/19compiles/902cache checks
+PASS. Source2a065ba CI46151799590PASS. Charge22600.312827753685s/25200 leaves
+2599.6871722463147s. Selectedpilot001 now1929pins,90s/quiet120/3GiB, no fullpass.
+Expected54saved-row/81bilinear controls, no complete A/P or inverse acceptance.
+337testsPASS54.941s/317Python compiles/native builds/moment/diffcheck PASS.
+Parentstage2.1480775829404593s separate. See RESOLVED_ACTION_PASS.md.

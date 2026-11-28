@@ -42,3 +42,30 @@ this is allocation arithmetic, not a measured RSS claim.
 Final336testsPASS56.762s incl native builds;315Python sources compilePASS;
 moment_refinement exit0; diffcheckPASS. No separate configured typecheck.
 Resolved-preparation result1da2cb0 CI46151611559PASS.
+
+## Source build001 accepted; selected pilot prospective admission
+
+Build terminalPASS3.7302835416048765s, maxindividual133152768B (~126.98MiB),
+sampled group70107136B.571staged/614accepted closure pins, exact consumed
+manifest/receipt/watcher and37output identities checked.19fresh compiles,2links,
+exact plan/console and902cache controls PASS. [Build result](resolved_action_build001_result.json).
+Source2a065ba CI46151799590PASS. No material kernels in that build.
+
+New resolved_action_material.py accepts the training-only9-input preparation,
+requires6newcolumns/bitwise oldprefix, validates the fresh build and frozen
+native input lineage, and owns only64rows with explicit partial outputs. It
+runs the9-input reader and final input/manifest checks inside the guard. No
+new inverse, changed physics, altered heldouts or full pass is admitted.
+
+Admit selected material001 only, raw/resolved-action-material-001,1929pins,
+90s/quiet120/3GiB. Currentcharged22600.312827753685s/25200 leaves2599.6871722463147s;
+worst90 leaves2509.6871722463147s. Parentstage2.1480775829404593s separate workflow
+cost. Prior3-input pilot33.78s/948.05MiB supports this bounded pilot; actual
+9-input memory/runtime are unmeasured. Expect54saved-row action controls and
+81bilinear checks at the actual geometry, with zero unvisited regions and no
+complete_A_and_P claim. Stop on guard/provenance/numeric failure; no automatic
+retry, complete pass, inverse adoption or budget expansion. Brave/other study
+untouched. Owner regressions cover stale outputs/cwd/console/final pin changes.
+
+Pilot source gate337testsPASS54.941s incl native builds;317Python sources
+compilePASS; moment_refinement exit0; diffcheckPASS. No separate typecheck.
