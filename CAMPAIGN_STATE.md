@@ -81,7 +81,9 @@ defect0.6410778371097358; frozen B times plus residual/original correction
 0.6410456591853905. Neither is a gap/response error bound or global contraction.
 This reuses saved native images without a kernel sweep or resident basis copy;
 no controlled before/after memory comparison. All owners terminal, no next run
-or budget increase admitted. Assess improving this inverse and the full-space
+or budget increase admitted. A saved-action rank-one secant runner now passes
+exact dense/adversarial/provenance controls; no material invocation yet. See
+[secant diagnostic](research/SECANT_INVERSE_DIAGNOSTIC.md). Assess the full-space
 norm route's validity/source-built tile cost before further material admission.
 The exact [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md) includes
 same-side blocks and avoids a145GB dense matrix;2.78Tflops is not runtime evidence.
@@ -151,8 +153,8 @@ Conditional gap-to-response derivative and outward ratio helpers exist, but no
 material gap radius/stiffness intervals are certified. Analytic parabolic/current
 controls do not qualify the Nb functional or fit a physical normalization.
 
-Latest code checks:262tests PASS38.291s including native fixture builds;
-249maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
+Latest code checks:268tests PASS38.066s including native fixture builds;
+253maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
 No separate configured typecheck. Public latest helper/resultCI46131518726 on7e37f98 PASS; prospective final-halfCI46131592238 on1d335c8 PASS. Earlier CI46125471800 on8653ee8 PASS; runner CI46126020760 on4e0fecf PASS; material-result CI46126382268 on2ac1a50 PASS; orientation helper CI46126757526 onf10730c PASS; result CI46126994654 on3997c72 PASS; direction helper CI46127521198 onad67046 PASS; result CI46127763049 on6a12d8c PASS; step helperCI46128222986 on1084b00 PASS; readerCI46128690566 ond839ced PASS; preparation helperCI46129155495 on79344e4 PASS.
 Latest streamed helper CI46132810239 onf7fdd9d PASS; prospective manifest
 CI46132854664 one59e821 PASS. Current docs/results do not replace scientific qualification.
