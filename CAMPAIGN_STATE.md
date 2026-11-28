@@ -71,7 +71,9 @@ h5.502435566805578e-10Ry; observed maxabs(h*v-c)5.169878828456423e-26Ry.
 Declared-step microscopic qualifier001 terminalPASS36.70167237473652s;
 1533pins/source/correction/evaluation and native split equality certified;
 peakindividual931561472B, independent weight error6.938893903907228e-18.
-[Result](research/portable_full_step_qualify001_result.json). No production run admitted.
+[Result](research/portable_full_step_qualify001_result.json). Production first half001 now admitted420s/quiet120/3GiB;1557pins,
+completed64→33408. Only this half; no automatic next launch.
+[Manifest](research/portable_full_step_segment001_manifest.json).
 [Prospective manifest](research/portable_full_step_qualify001_manifest.json).
 Preparation certificate, strict step qualifier
 stager and evaluation/restart reader now fixture-qualified; all251tests PASS.
@@ -123,7 +125,7 @@ Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
 Actual guarded campaign wall20682.219560588095s; ceiling21600s leaves
-917.7804394119048s. No live owner or next native admission. No automatic retry or budget increase.
+917.7804394119048s. Only first production half001 admitted420s; worst remainder497.7804394119048s. No automatic retry or budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
