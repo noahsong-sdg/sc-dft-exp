@@ -28,13 +28,15 @@ including the3s query timeout,120s normal gate and3GiB caps. The allocation fix
 is not proof of the preceding query-timeout cause.190tests,197source compilations,
 and moment_refinement passed; see GUARD_STREAMING_MEMORY.md.
 
-Current action: read-only observation-health-001 watcher (raw JSON), no native
-solver. Require600continuous seconds pressure1 and ps latency<=0.5s inside a
-1200s bounded watch; no launch is attached. After terminal observation, review
-whether one separately staged/pinned1200s full retry is scientifically worth
-its cost. Original full-gap candidate can be copied byte-exactly to a fresh root;
-use fresh bundle and source-built checker, no historical geometry/Z. A health
-PASS is only readiness evidence, not a guarantee of future performance.
+Current action: portable-full-gap-002 is running under the versioned guard.
+Observation-health-001 passed603.846979continuous seconds after one early
+latency reset; admission and all1037pins are public. Runtime guard launch gate
+also passed. The identical candidate/checker now has one1200s attempt,3GiB cap,
+unchanged residual thresholds/query timeout; no second solver queued. Terminal
+receipt and full strict readback still required; do not accept partial progress.
+No completion forecast. Add only terminal actual wall time to the14791.909518s
+native ledger. The health observation did not establish the earlier timeout's
+cause, and a lower-memory guard is not proof of future query reliability.
 Brave and the other Docker study remain untouched. The scientific goal is active
 and incomplete: full gap stationarity, conditioning and response gates remain.
 
