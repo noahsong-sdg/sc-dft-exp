@@ -6,42 +6,38 @@ research/TWO_WEEK_ACCEPTANCE.md. The actual reliable-response goal is incomplete
 The prior report and its NARROW verdict describe the completed bounded audit;
 they do not terminate or narrow the newly authorized scientific campaign.
 
-## Latest compact checkpoint — fresh seed, full-check monitoring failure
+## Latest compact checkpoint — full-gap003 stopped by host pressure
 
-The linear seed now qualifies independently:64columns, conventional real mode4,
-lambda1.0018603316543802, full-image residual2.2903598932171266e-10
-(threshold1e-9). See restarted_basis009_result and basis_continuity006_result.
-The48-column reduced nonlinear candidate passed4 Newton steps, coefficient
-residual5.3833673629988255e-14, Fermi averages~0.1407/0.1399meV. These are
-candidate values, not an accepted physical gap or response.
+Fresh linear seed qualifies:64columns, conventional real mode4,
+lambda1.0018603316543802, independent residual2.2903598932171266e-10.
+The48-column reduced candidate takes4Newton steps to coefficient residual
+5.3833673629988255e-14. These do not accept the full nonlinear gap.
 
-Full native check portable-full-gap-001 FAIL after268.40038087498397s because
-the guard's process-memory query timed out at3s. Owned child terminated; only
-3104/66867rows completed. No full residual accepted. All inputs unchanged.
-New native total14791.909518001918s; remaining3208.090481998082s under the
-recorded5h pilot ceiling. Do not automatically retry or expand the ceiling.
+Full-gap003 is terminal FAIL after905.6194083336741s: host memory pressure
+not normal, exit-15. Owned guardPID83328/nativePID86016 are absent. Peak
+individual/group900546560B. Last progress44064/66867 at799.072798kernelCPU
+seconds; no final full-map output. All1041input pins unchanged and public/
+consumed manifests identical. No residual or physical result is accepted.
+New native total16897.699364877157s; remaining1102.3006351228432s under5h.
+Historical189.29minutes remain separate. No new heavy job or watcher is active.
+Do not automatically replay, relax pressure rules, or expand the pilot ceiling.
 
-Versioned macos_native_guard_v2.py reduces verifier memory through streaming
-SHA256; actual fresh verifier peak22.61MB versus378.24MB whole-file comparison.
-Original guard/source paths remain immutable. All runtime policy is identical,
-including the3s query timeout,120s normal gate and3GiB caps. The allocation fix
-is not proof of the preceding query-timeout cause.190tests,197source compilations,
-and moment_refinement passed; see GUARD_STREAMING_MEMORY.md.
+The streaming guard reduced verifier allocation; it did not make host availability
+reliable. Brave and the other Docker study remain untouched. Two short owned
+solver profiles identify repeated tiny Coulomb work-array allocations; this is
+potential runtime overhead, not a demonstrated host-pressure cause or speedup.
+See COULOMB_ALLOCATION_PROFILE.md. The largest retained native array remains
+686.6MiB compact Coulomb data; bounded residency requires the reviewable split
+already described in NATIVE_MEMORY_ACCOUNTING.md, not early deallocation.
 
-Current execution: portable-full-gap-003 launch watcher is active under v2,
-waiting for120normal-pressure seconds. One1500s full replay is explicitly
-admitted and public; identical source-built executable and candidate, fresh
-root/control bindings. No second job queued. Prior full-gap002 reached the
-1200.1704385s deadline with59424/66867rows, normal pressure and no ps-query
-failure; all inputs unchanged and no final map. Its measured throughput suggests
-a full replay near1320s, not a completion guarantee. New terminal native total
-15992.079956543483s; worst next1500s leaves507.9200434565173s under5h.
-Do not count reserved time as actual or accept partial rows. No further retry
-or pilot expansion is admitted.193tests/198source compilations/moment checks
-pass, and the independent continuum normalization control is public. The new
-run still requires a terminal receipt and independent strict full-residual check.
-Brave and the other Docker study remain untouched. The scientific goal is active
-and incomplete: full gap stationarity, conditioning and response gates remain.
+The immediate reliability issue is that the full checker writes no durable
+partial map. Long-run failure discards all row progress. Trace/qualify ordered
+restart semantics before another long full evaluation; reuse existing checkpoint
+invariants without changing accumulation order or accepting partial results.
+Any actual-input qualification and subsequent run require explicit bounded
+admissions. No further replay or pilot expansion is admitted by this checkpoint.
+The actual response goal remains active/incomplete: full gap stationarity,
+conditioning, functional/units, grids, additional temperatures and validation.
 
 The following entries preserve the chronological campaign evidence.
 

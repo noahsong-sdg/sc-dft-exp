@@ -1,0 +1,32 @@
+{
+  "status": "FAIL",
+  "receipt": {
+    "status": "FAIL",
+    "error": "RuntimeError: Host memory pressure not normal",
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-gap-003/verify-gap-seed.x",
+      "-in",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-gap-003/native.in"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-gap-003",
+    "wall_s": 905.6194083336741,
+    "exit": -15,
+    "max_individual_descendant_rss_bytes": 900546560,
+    "sampled_peak_group_rss_bytes": 900546560,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 1500.0,
+    "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+  },
+  "inputs_unchanged": true,
+  "verified_input_count": 1041,
+  "public_consumed_manifest_equal": true,
+  "manifest_sha256": "7bd68ea54992def8cfd32b6a506c05c054ca833e30bcc9969510b56cc13e7428",
+  "last_progress": "       44064       66867   799.07279800000003     ",
+  "full_map_final_exists": false,
+  "new_native_total_s": 16897.699364877157,
+  "remaining_pilot_s": 1102.3006351228432,
+  "full_native_residual_verified": false,
+  "physical_response_verified": false,
+  "scope": "Host pressure guard stopped execution; no full residual and no automatic replay admitted."
+}
