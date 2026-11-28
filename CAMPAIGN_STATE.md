@@ -1710,3 +1710,10 @@ New guarded native total14523.509137126934s; worst1200s leaves2276.4908628730664
 portable-full-gap-001 terminal FAIL after268.40038087498397s, exit-15. Guard memory query `/bin/ps -axo pgid=,rss=` exceeded3s and fail-closed termination completed; owned guard/native PIDs no longer present. Sampled peak916963328B, below3GiB; last complete progress3104/66867 at71.853621CPU seconds. This is a monitoring timeout, not demonstrated memory-cap failure or scientific residual failure. Cause of host command latency is unproven. All pinned inputs and public/consumed manifest equality revalidated. No full-map final output or accepted gap.
 
 New native total14791.909518001918s, remaining3208.0904819980824s under5h. No automatic retry or source-policy weakening. Investigate guard memory allocation and host observation costs before any separately justified admission. The fresh linear seed and reduced candidate remain valid evidence, not accepted material results. Brave and other Docker study untouched.
+
+
+## Bounded-memory guard verification qualified
+
+Whole-file manifest hashing measured378241024B peak versus20889600B streaming over identical1031files/3958035445bytes, all sizes/digests matching. Actual versioned guard verifier22609920B peak. This identifies avoidable verification allocation, not cause of the preceding ps timeout or a measured whole-host pressure reduction. New macos_native_guard_v2.py changes only streaming manifest SHA256; original guardSHA274087... remains intact for scientific provenance. All pressure/RSS/disk/deadline/query/termination rules unchanged; AST-policy invariance tested. Future admissions must pin/select v2 explicitly. No native retry admitted here.
+
+Final gate190tests PASS42.742s (including real native fixture compilation),197maintained Python compilations PASS, moment_refinement exit0; no separate configured typecheck. Regression covers same-size stale bytes, truncation, missing input and no whole-input allocation. See research/GUARD_STREAMING_MEMORY.md and guard_hash_memory001_result.json. No accepted nonlinear full residual/conditioning/physical response; campaign remains active and incomplete.

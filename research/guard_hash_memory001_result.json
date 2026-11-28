@@ -1,0 +1,33 @@
+{
+  "method": "Separate fresh Python3.13 processes, identical complete1031-file prospective manifest, all hashes checked; ru_maxrss macOSbytes.Whole first; timing affected by cache/order.",
+  "rows": [
+    {
+      "mode": "whole",
+      "files": 1031,
+      "bytes_verified": 3958035445,
+      "wall_s": 8.717417625244707,
+      "peak_rss_bytes": 378241024,
+      "all_digests_match": true
+    },
+    {
+      "mode": "stream",
+      "files": 1031,
+      "bytes_verified": 3958035445,
+      "wall_s": 8.028405624907464,
+      "peak_rss_bytes": 20889600,
+      "all_digests_match": true
+    }
+  ],
+  "versioned_guard_actual": {
+    "wall_s": 6.677502791862935,
+    "peak_rss_bytes": 22609920,
+    "all_digests_match": true
+  },
+  "sha256": {
+    "research/macos_native_guard.py": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b",
+    "research/macos_native_guard_v2.py": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2",
+    "research/guard_hash_memory001_method.py": "c454e4c04ec192eaa9b2f04872c5eb47b1d4b3bceff83848dc873f456a1b6a1c",
+    "research/portable_full_gap001_manifest.json": "c79f91c599a51032590ea583f6088b7ee74f5f659159e9971bf6f017c63db53e"
+  },
+  "scope": "Observed fresh-process peak RSS for file verification only; not whole-host pressure or proof of ps timeout cause. No scientific result."
+}
