@@ -5292,3 +5292,13 @@ physical response. Sourcec080ec4 CI46148570348PASS. Charged22036.94228008747s/
 full same-context pass, then fixed held-out augmented-inverse test; no full pass/
 retry/budget expansion admitted here. See ENRICHMENT_ACTION_PASS.md and
 research/enrichment_action_material001_result.json. Brave/other study untouched.
+
+### 2026-11-28 — complete joint A/P pass prospectively admitted
+
+Previous turn was verified material-pilot progress. New complete owner replays
+accepted pilot controls, preserves same binary/trials/state, enforces66867rows
+and no partial marker.1942pins,900s/quiet120/3GiB. Currentcharged22036.94228008747s/
+25200; worst900 leaves2263.057719912529s, no expansion. Parentstage5.363193166907877s
+separate.329testsPASS53.835s/305Python compiles/native builds/moment/diffcheck
+PASS. Prior result8c1fd24 CI46148893255PASS. See FULL_ENRICHMENT_ADMISSION.md.
+No new inverse or full defect sweep admitted.
