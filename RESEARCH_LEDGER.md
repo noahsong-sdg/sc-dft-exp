@@ -5342,3 +5342,15 @@ all27 Enew*v components<=3.88e-15. Repair annihilates its three selected directi
 remaining errors are material. Original training threshold resolves9directions,
 only3used. Further candidate must use training-only selection/fresh heldouts;
 no further kernel compute/expansion admitted. Table/recipe ENRICHED_INVERSE_PROTOCOL.md.
+
+### 2026-11-28 — complete original resolved training span preparation admitted
+
+Previous turn verified candidate rejection. Now assess six omitted directions
+under original fixed1e-10 eigenvalue rule, using only original training E/eigenpairs
+and accepted3trial preparation. No held-out residual input, no new kernels.
+New complete holdouts fixed: left66/16717/50150,right2/16985/50955; oldholdouts
+remain validation history.1865pins,120s/quiet120/3GiB, no newinverse/expansion.
+333testsPASS54.039s/311Python compiles/native builds/moment/diffcheck PASS.
+Parentstage4.685455750208348s separate. Charge22575.04157867035s unchangeduntil
+actual. Source scope/algorithm in research/RESOLVED_SENSITIVITY_COMPLETION.md.
+Rejected result5d51a2c CI46150971899PASS.
