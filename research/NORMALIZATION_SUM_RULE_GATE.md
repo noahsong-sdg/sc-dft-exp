@@ -19,6 +19,10 @@ fresh assigned state sums are:
 Every other band has exactly unit weight. The maximum band6 deficit is about
 1.573%; the total electron-count deficit is about0.232%. These are different
 controls, not interchangeable uncertainty estimates.
+The XML labels its occupation convention `fixed`;13 is the nominal input
+electron count. We have not independently replayed its full occupation/chemical
+potential construction on the same dense-grid measure. Thus the reported
+zero-T step-count difference is not a matched DFT occupation error estimate.
 
 ## Traced decomposition
 

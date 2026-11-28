@@ -172,5 +172,8 @@
   "normalization_rescaled": false,
   "response_error_bounded": false,
   "physical_response_verified": false,
-  "limitation": "Finite auxiliary-energy quadrature/support diagnostic. Raw signed DOS already differs from one state per band; symmetry averaging preserves that integral, while positive-DOS assignment drops negative support. No response error follows from these scalar sum defects. Separate energy-range/grid and observable-weighted controls are required."
+  "limitation": "Finite auxiliary-energy quadrature/support diagnostic. Raw signed DOS already differs from one state per band; symmetry averaging preserves that integral, while positive-DOS assignment drops negative support. No response error follows from these scalar sum defects. Separate energy-range/grid and observable-weighted controls are required.",
+  "xml_occupation_kind": "fixed",
+  "electron_reference_is_nominal_input_count": true,
+  "matched_dft_occupation_replay": false
 }
