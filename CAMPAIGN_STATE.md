@@ -73,8 +73,9 @@ Original base gap/residual preserved bitwise; d0+h*v equals d0+c bitwise.
 Plus gapSHAc5ad7e2a2d1e18debacd22e4162db2256193b344e29e90cf84e70967d43cc507.
 No seed overwritten, full-space error or physical-response acceptance.
 
-No live owner/next run admitted. Next assess a guarded streamed inverse action
-on the now complete useful direction, then the full-space norm route's validity
+Streamed inverse-action001 admitted90s/quiet120/3GiB,1589pins, no kernel call.
+[Manifest](research/correction_inverse_action001_manifest.json). Only this action;
+no retry/budgetincrease. After its terminal evidence assess the full-space norm route's validity
 and source-built tile cost before any budget expansion. The latter has an exact
 [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md), with same-side blocks
 required, avoiding a145GB dense matrix;2.78Tflops estimate is not runtime evidence.
@@ -121,7 +122,7 @@ Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
 Actual guarded campaign wall21303.94025062941s; ceiling21600s leaves
-296.05974937059s. No live owner/next native admission. No automatic retry or budget increase.
+296.05974937059s. Only inverse-action001 admitted90s; worst remainder206.05974937059s. No automatic retry or budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
