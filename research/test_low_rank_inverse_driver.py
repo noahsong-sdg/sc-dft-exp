@@ -7,6 +7,8 @@ import subprocess
 import tempfile
 import unittest
 
+from low_rank_inverse_analysis import analyze
+
 
 def pack(values):
     return struct.pack('<'+'d'*len(values), *values)
@@ -59,8 +61,9 @@ class LowRankInverseDriverTest(unittest.TestCase):
         jv = [-direction[i]+sum(a[i][j]*diagonal[j]*direction[j] for j in range(4)) for i in range(4)]
         (full/'gap-seed.bin').write_bytes(pack(gap))
         (full/'full-map.bin').write_bytes(pack(gap+residual+direction+jv))
+        bound = 1e-8+2e-6*max(map(abs, jv))
         lines = ['# full-nonlinear-map-v1; imposed seed; NOT a converged gap',
-                 '1 2 2 4', '1000 1e-8 0 0 0 1e-5']
+                 '1 2 2 4', f'1000 1e-8 0 0 0 {bound:.17g}']
         for side, indices in enumerate(([0], [2, 3]), 1):
             stats = [max(abs(residual[i]) for i in indices),
                      math.sqrt(sum(residual[i]**2 for i in indices)/len(indices)),
@@ -132,6 +135,43 @@ class LowRankInverseDriverTest(unittest.TestCase):
                     self.assertNotEqual(result.returncode, 0)
                     self.assertIn(message, result.stderr)
                     self.assertFalse((run/'inverse-result.txt').exists())
+
+    def test_independent_readback_rejects_changed_outputs_and_stale_inputs(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            basis, _, full, _, *_ = self.fixture(root)
+            subprocess.run([str(self.executable)], cwd=root, check=True, capture_output=True)
+            result = analyze(root)
+            self.assertFalse(result['conditioned_gap_error_bounded'])
+            self.assertFalse(result['physical_response_verified'])
+            self.assertLess(result['independent_matrix_max_error'], 1e-14)
+            self.assertLess(result['independent_action_max_errors'][0], 1e-25)
+            binary = root/'inverse-result.bin'; saved = binary.read_bytes()
+            for index in (0, 4, 8, 12, 16):
+                bad = list(struct.unpack('<18d', saved)); bad[index] += .01
+                binary.write_bytes(pack(bad))
+                with self.subTest(index=index), self.assertRaises(ValueError):
+                    analyze(root)
+            for bad in (saved[:-1], pack([math.nan]+list(struct.unpack('<18d', saved))[1:])):
+                binary.write_bytes(bad)
+                with self.assertRaises(ValueError):
+                    analyze(root)
+            binary.write_bytes(saved)
+            summary = root/'inverse-result.txt'; saved_summary = summary.read_text()
+            lines = saved_summary.splitlines(); fields = lines[2].split(); fields[2] = '1e10'
+            lines[2] = ' '.join(fields); summary.write_text('\n'.join(lines)+'\n')
+            with self.assertRaisesRegex(ValueError, 'Driver inverse residual'):
+                analyze(root)
+            summary.write_text(saved_summary)
+            source = full/'full-map.bin'; saved_source = source.read_bytes()
+            candidate = full/'gap-seed.bin'; saved_candidate = candidate.read_bytes()
+            source.write_bytes(pack([0.]*4)+saved_source[32:]); candidate.write_bytes(pack([0.]*4))
+            with self.assertRaisesRegex(ValueError, 'Zero inverse source gap'):
+                analyze(root)
+            source.write_bytes(saved_source); candidate.write_bytes(saved_candidate)
+            meta = basis/'basis.meta'; before = meta.read_text(); meta.write_text(before.replace('a'*64, 'b'*64))
+            with self.assertRaisesRegex(ValueError, 'Different inverse source context'):
+                analyze(root)
 
 
 if __name__ == '__main__':

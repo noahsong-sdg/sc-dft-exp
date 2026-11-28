@@ -25,17 +25,17 @@ explicit-sum and Jacobian finite-difference checks PASS.
 finite residual gates for this8.05K candidate; conditioned gap error, physical
 response and other temperatures remain unqualified. [Milestone](research/FRESH_STATIONARITY_805K.md).
 
-No native owner/admission. Traced H=d-F=-Rnative and Jnative*v=-J*v. A separate
-low_rank_inverse.f90 core computes M=I-Q^T D U, small singular values, B actions
-and independent Jmodel inverse residuals. Dense nonsymmetric/sign, singular,
-invalid-input and unmeasured-complement controls pass; no material estimate yet.
-[Method and next driver](research/LOW_RANK_INVERSE_DIAGNOSTIC.md).
-File-bound inverse driver and separate Makefile now pass source-built fixture
-checks of derivative/actions/singular values and stale context/candidate/payloads.
-Next implement independent output readback and pin a public-library source build
-plus accepted candidate closure before any material launch. Reduced singular values/probe agreement
-cannot supply a full-space bound. Preserve all frozen sources/inputs; Brave and
-other study untouched.
+Separate inverse core/driver and independent output readback now pass fixture
+checks: exponential derivative, every small matrix entry, both inverse actions,
+native signs, singular diagnostics and stale-source/output boundaries. Basis
+columns stream to avoid a second ~106MiB payload copy (allocation, not measured RSS).
+[Method](research/LOW_RANK_INVERSE_DIAGNOSTIC.md).
+Only `portable-inverse-build-001` admitted,120s/quiet120/3GiB;31pins and explicit
+three-source/public-library make plan. [Manifest](research/portable_inverse_build001_manifest.json).
+No material inverse/correction/native full action or response run admitted.
+After build, verify receipt/plan/source/executable before a fresh material
+readback pilot. Reduced singular values/probe agreement cannot supply a full-space
+bound. Preserve all frozen sources/inputs; Brave/otherstudy untouched.
 
 ## Latest accepted evidence
 
@@ -72,9 +72,9 @@ Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
 Actual guarded campaign wall20543.82354433773s; ceiling21600s leaves
-1056.1764556622693s. No next native job admitted. Any material conditioning or
-response computation requires a bounded value/cost decision and immutable input
-closure. No automatic budget increase.
+1056.1764556622693s. Build001 ceiling120 leaves936.1764556622693s.
+A later material diagnostic240s would still fit with696.1764556622693s reserve,
+but only the build is admitted. No automatic retry or budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
@@ -99,9 +99,9 @@ Conditional gap-to-response derivative and outward ratio helpers exist, but no
 material gap radius/stiffness intervals are certified. Analytic parabolic/current
 controls do not qualify the Nb functional or fit a physical normalization.
 
-Latest code checks:225tests PASS25.296s including native fixture builds;
-221maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
-No separate configured typecheck. Public CI46124350585 onc9661ee PASS.
+Latest code checks:226tests PASS24.392s including native fixture builds;
+222maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
+No separate configured typecheck. Public CI46124806303 on51e389d PASS.
 Current docs/results do not replace native or scientific qualification.
 
 Chronology remains in RESEARCH_LEDGER.md and immutable public commits. The former

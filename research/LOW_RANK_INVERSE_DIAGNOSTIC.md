@@ -76,17 +76,49 @@ Python sources compilePASS; moment_refinement exit0; diffcheckPASS. No separate
 configured typecheck. These fixtures use their declared test libraries; no
 actual public-library material build/run has yet been accepted.
 
-## Next bounded material step
+## Independent output readback
 
-Implement independent file-bound output readback and staging that inherits the
-accepted full-segment016 input closure/result. Source-build against the already
-qualified public BLAS/LAPACK closure, pinning compiler/configuration/libraries
-and excluding historical custom objects. Check derivative and inverse-action
-outputs independently before interpreting material diagnostics. Exclude padding
-from norms; keep the native residual and Jacobian signs explicit.
+low_rank_inverse_analysis.py now checks the declared source context, bitwise
+candidate, original full-map summaries and both original residual gates. It
+recomputes the derivative using an independent exponential formulation, every
+entry of M using math.fsum, and both returned inverse actions using Q/U directly.
+It checks singular-value ordering/positivity, native summary consistency and the
+Frobenius identity, without claiming an independently solved singular spectrum.
+The spectrum remains a native LAPACK diagnostic, not a full Jacobian estimate.
 
-Check the full action on a useful correction and the actual nonlinear residual
-before interpreting a refined candidate. Neither this module nor those probes
-supply the missing full-space contraction/inverse bound in
-GAP_CONDITIONING_PROTOCOL.md. The1056.1764556622693s remaining guarded budget and
-normal-pressure/one-owner/3GiB policy remain in force; no next job is admitted.
+Readback rejects changed derivative/correction/probe/matrix/singular payloads,
+truncation, NaN, excessive reported inverse residual, a stale zero-gap source
+and changed context. Output and input hashes are reported; an owning terminal
+receipt and accepted parent provenance must still be bound separately.
+
+The basis is read one column at a time. This avoids a second full payload copy
+(~106MiB for135880x51 Q/U); it is an allocation reduction, not a measured process
+RSS claim. All2601 small-matrix entries require353423880 scalar dot-product terms
+at the material size. That independent Python work needs a bounded runtime pilot;
+it is not hidden inside the previously measured native residual time.
+
+226tests PASS24.392s incl native builds/execution;222maintained Python sources
+compilePASS; moment_refinement exit0; diffcheckPASS. No separate typecheck.
+Native source targets and accepted candidate/residual thresholds are unchanged.
+
+## Build-only admission
+
+portable_inverse_build001_manifest.json binds31inputs and a checked four-command
+make plan: the three inspected sources, three fresh local objects, qualified
+public liblapack.a/libblas.a and exact compiler/f951 identity. All inherited
+source/configuration/library pins and the prior reduced-build owning receipt,
+manifest and executable were revalidated. No historical custom object is linked.
+This is a prospective build, not a completed public-library qualification.
+
+Admit only that build,120s/quiet120/3GiB. The current guarded ledger remains
+20543.82354433773s, leaving1056.1764556622693s under21600; worst build120 leaves
+936.1764556622693s. Fixture build/run/readback1.369s supports the bounded build,
+not a material timing guarantee. A later exhaustive material diagnostic may need
+240s, leaving696.1764556622693s even after worst build; it is not admitted yet.
+Before it runs, bind the accepted full-segment016 closure/result, source-built
+executable and independent readback in a fresh root. Preserve H=-Rnative and
+J*v=-Jnative*v, exclude padding and never overwrite the accepted candidate.
+
+A full action on a useful correction and its actual nonlinear residual remain
+necessary before interpreting a refined candidate. None of these small-matrix
+or probe checks supply the missing full-space bound in GAP_CONDITIONING_PROTOCOL.md.

@@ -1,0 +1,193 @@
+{
+  "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-inverse-build-001",
+  "command": [
+    "/usr/bin/make",
+    "-f",
+    "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/low_rank_inverse.mk",
+    "QE_ROOT=/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe",
+    "inverse-actions.x"
+  ],
+  "files": [
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/reduced_nonlinear.mk",
+      "bytes": 770,
+      "sha256": "d902957f19e6c13a1c1ab6fabb7acf10b2c99ae777dde22e1d4a259a413ede90"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/reduced_nonlinear_core.f90",
+      "bytes": 3422,
+      "sha256": "6cf26866b97ca441f25af90cdeff3e426a960953c5d7f25431975d975f08d607"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/reduced_nonlinear_driver.f90",
+      "bytes": 7125,
+      "sha256": "a29cc3e883334d5ec92057bcd5e629d54cb4562af377f90f50e0680c3a95f813"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/macos_native_guard.py",
+      "bytes": 8195,
+      "sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/public_response_sources.json",
+      "bytes": 1975,
+      "sha256": "a61610cec78189e3c7f8c3f00483deb0195f897d0d9699cad57b22211bc2e36d"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/build-result.json",
+      "bytes": 4654,
+      "sha256": "bbeedad010efbf5a0a645bdc45786b9e0001719c97a0a0158cd2e56e6589ebb5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/make.inc",
+      "bytes": 6624,
+      "sha256": "1e2b920b258b45d61ee9114938e8622a2302111b0ad460642b33d4dcb29d4c65"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/kinds.mod",
+      "bytes": 1369,
+      "sha256": "87600ad9c2f1ce1f150ad394504dca2adb6690fa4ae62879941afe8235932e2c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/constants.mod",
+      "bytes": 2702,
+      "sha256": "7ee7a51768d03476144e3ae94c79fc1f4cd9823b324972943a3193755b3bb1d2"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/kind.f90",
+      "bytes": 3209,
+      "sha256": "e21d679a4fbd9b115c6f07777dc2a92a0b8c492da9415ba64e18063f7f3ec6b6"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/Modules/constants.f90",
+      "bytes": 5984,
+      "sha256": "56c39e90c6f0592aff13972cd090292024a3d4e9e86d0ce4fdfdb5643f1ac1c0"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/lapack-build/lib/libblas.a",
+      "bytes": 408608,
+      "sha256": "7e9d7deb845da206e72e1c64401d2e86aeb9ad52581c5f6c28237b7bada12569"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/lapack-build/lib/liblapack.a",
+      "bytes": 8463672,
+      "sha256": "fd609240dea1e3a9bcb79fc59db48f0bc3de32fc5159ec8b1b48462bfb82a362"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/gcc/16.2.0/bin/gfortran-16",
+      "bytes": 3039240,
+      "sha256": "3adab458e780ec0c1d831e84a50214dd52ba0e8c2a9b805e0e40a1f2b0f6ca39"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/gcc/16.2.0/libexec/gcc/aarch64-apple-darwin25/16/f951",
+      "bytes": 50469552,
+      "sha256": "ce2e2001e5c4281c9c07d524d3497afc07b3f48a616327ded1cee7a520ba2e2c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_reduced_build001_manifest.json",
+      "bytes": 4190,
+      "sha256": "082e51f2c7271b78763407a8668c97fc657fab40149e1fac8c3339d4c33ef919"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_reduced_build001_result.json",
+      "bytes": 1562,
+      "sha256": "9be067fa7a3537256e7d277f2d3d4340f173f39fbb247b3f3a157ece8ad9fee7"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-reduced-build-001/run-manifest.json",
+      "bytes": 4190,
+      "sha256": "082e51f2c7271b78763407a8668c97fc657fab40149e1fac8c3339d4c33ef919"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-reduced-build-001/results/reducedbuild/receipt.json",
+      "bytes": 715,
+      "sha256": "1180493837399e0a24df1a49845a28a99251be2a00bc36006b650f8c71b48887"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-reduced-build-001/reduced-nonlinear-solve.x",
+      "bytes": 87032,
+      "sha256": "bfa3de4ac98932740b7f948307885128323e32025c64c8878153001b97fa745c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/low_rank_inverse.f90",
+      "bytes": 3089,
+      "sha256": "0db6d59031615f2e75eca4120dacb6ae4b52cf99104891f53bd9d1d8fc1fc4e5"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/low_rank_inverse_driver.f90",
+      "bytes": 7738,
+      "sha256": "cc0ba9eb0954b1be5e965173b3d1b0a35c0afc5a8835a2440d57cdc48889469c"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/low_rank_inverse.mk",
+      "bytes": 821,
+      "sha256": "3f33249d22fbf7c16199839accc32f0344863c41a95191ab6625ef4e60010078"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/low_rank_inverse_analysis.py",
+      "bytes": 9058,
+      "sha256": "2ebf048db725a1fb8271448fbb19a4dd35a914efccee66b4c640e7deab9d28e1"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/macos_native_guard_v2.py",
+      "bytes": 8403,
+      "sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/compare_legacy_gap.py",
+      "bytes": 4321,
+      "sha256": "e56de2f0c9164921952ab214e69c8d7f948154745d53df12ad2f682b108f4f98"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/full_nonlinear_analysis.py",
+      "bytes": 3619,
+      "sha256": "6ac45a9b2b3bed193b30f1645be846158b97945bdaf98b8d59cb17a397cc041b"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/fetch_public_response_inputs.py",
+      "bytes": 4379,
+      "sha256": "ef6c29a14ca6c58abe7be79f3b6ee36f404a69d31e41df8baac651cf9ac1bd53"
+    },
+    {
+      "path": "/usr/bin/make",
+      "bytes": 118640,
+      "sha256": "b8763cf250e607a778bb4603cecb5b90338814d0a3dfcba0d57b1de242f610e9"
+    },
+    {
+      "path": "/opt/homebrew/bin/gfortran",
+      "bytes": 3039240,
+      "sha256": "3adab458e780ec0c1d831e84a50214dd52ba0e8c2a9b805e0e40a1f2b0f6ca39"
+    },
+    {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-inverse-build-001/build-plan.txt",
+      "bytes": 1724,
+      "sha256": "d42e9ef8f99e00ebf10c1ac378a0a1c9d1c19fe4a756535266400d63f3fdf0b4"
+    }
+  ],
+  "guard_seconds": 120,
+  "launch_normal_seconds": 120,
+  "group_rss_cap_bytes": 3221225472,
+  "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2",
+  "public_build": "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004",
+  "historical_custom_objects_used": false,
+  "compile_sources": [
+    "/Users/noahs/Developer/sc-dft-exp/research/reduced_nonlinear_core.f90",
+    "/Users/noahs/Developer/sc-dft-exp/research/low_rank_inverse.f90",
+    "/Users/noahs/Developer/sc-dft-exp/research/low_rank_inverse_driver.f90"
+  ],
+  "link_objects": [
+    "reduced_nonlinear_core.o",
+    "low_rank_inverse.o",
+    "low_rank_inverse_driver.o"
+  ],
+  "link_archives": [
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/lapack-build/lib/liblapack.a",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/lapack-build/lib/libblas.a",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/lapack-build/lib/libblas.a"
+  ],
+  "compiler": "/opt/homebrew/Cellar/gcc/16.2.0/bin/gfortran-16",
+  "new_native_total_before_s": 20543.82354433773,
+  "acceptance": "Fresh three-source inverse diagnostic build using pinned public BLAS/LAPACK; no material inverse or full-space error acceptance.",
+  "forecast": "Source-built fixture build/run/readback1.369s; public-library build estimated1\u20135s, not a bound.120s hard deadline,quiet120,3GiB.",
+  "scope": "Build only; material inverse diagnostics require separate source/state/receipt admission and exhaustive output readback."
+}
