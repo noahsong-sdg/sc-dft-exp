@@ -68,8 +68,12 @@ Prepare001 terminalPASS46.14212279161438s;1486pins and independent artifact
 re-read PASS, peakindividual238190592B. Exact candidate preserved; unit direction,
 h5.502435566805578e-10Ry; observed maxabs(h*v-c)5.169878828456423e-26Ry.
 [Result](research/correction_direction_prepare001_result.json).
-No next native job/admission. Next bind preparation/scale/candidate and source
-build in immutable step evaluation/restart certificate, then microscopic64vs32+32.
+No next native job/admission. Preparation certificate, strict step qualifier
+stager and evaluation/restart reader now fixture-qualified; all251tests PASS.
+[Evaluation method](research/CORRECTION_STEP_EVALUATION.md). Actual material
+preparation preflight2.7161237499676645s/33521664B process peak; separate from
+guarded wall, no controlled memory comparison. Next prospective actual-input
+continuous64vs32+32 qualification; production corrected-residual chain still open.
 Later consider two production halves (~620s forecast from prior545.6skernelCPU
 plus two startups); not measured/admitted. Charge qualifier actual before each
 bounded segment decision. A successful corrected residual still cannot
@@ -138,8 +142,8 @@ Conditional gap-to-response derivative and outward ratio helpers exist, but no
 material gap radius/stiffness intervals are certified. Analytic parabolic/current
 controls do not qualify the Nb functional or fit a physical normalization.
 
-Latest code checks:246tests PASS29.327s including native fixture builds;
-237maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
+Latest code checks:251tests PASS32.932s including native fixture builds;
+242maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
 No separate configured typecheck. Public CI46125471800 on8653ee8 PASS; runner CI46126020760 on4e0fecf PASS; material-result CI46126382268 on2ac1a50 PASS; orientation helper CI46126757526 onf10730c PASS; result CI46126994654 on3997c72 PASS; direction helper CI46127521198 onad67046 PASS; result CI46127763049 on6a12d8c PASS; step helperCI46128222986 on1084b00 PASS; readerCI46128690566 ond839ced PASS; preparation helperCI46129155495 on79344e4 PASS.
 Current docs/results do not replace native or scientific qualification.
 
