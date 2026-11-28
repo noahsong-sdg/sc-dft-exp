@@ -1,0 +1,16 @@
+{
+  "scope": "Conditional real-arithmetic gap-to-fixed-discrete-stiffness bound; no material gap radius or rounding certificate.",
+  "finite_perturbation_controls": 240,
+  "independent_decimal_precision": 70,
+  "full_regression_tests": 196,
+  "full_regression_seconds": 20.967,
+  "maintained_python_compilations": 200,
+  "moment_refinement_exit": 0,
+  "conditioned_gap_error_bounded": false,
+  "physical_response_verified": false,
+  "sha256": {
+    "research/response_gap_transport.py": "888846cd91e699adcc147f1327ce043d78cccecc38b64ac57761ea61f20c054f",
+    "research/test_response_gap_transport.py": "3c17070fe8964d1cd4f214981a15bd1b6abe3883e28217ba20a36015f8cd0a00",
+    "research/linear_response.py": "3329783e2668d0118da635e52aed6cd2f9111c73965364820b89eae557e6ccee"
+  }
+}

@@ -107,3 +107,9 @@ cancelling only after establishing that it is common. Conditioning evidence at
 interpolation and band derivatives remain separate contributions to the1%
 numerical uncertainty target. Functional and experimental mismatch remain
 outside that numerical budget.
+
+`RESPONSE_GAP_TRANSPORT.md` now derives a conservative global derivative bound
+for the fixed discrete `linear_response.stiffness` observable and infinity gap
+norm, with independent high-precision finite-perturbation controls. Its helper
+is a floating-point coefficient, not an interval certificate. No justified
+material gap radius has yet been supplied; full conditioning remains open.
