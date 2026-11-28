@@ -1,0 +1,49 @@
+{
+  "dimensions": [
+    66867,
+    67940,
+    67940,
+    100,
+    48
+  ],
+  "beta": 19613.355577892344,
+  "initial_amplitude_mev": 0.15,
+  "iterations": 4,
+  "coefficient_residual": 5.3833673629988255e-14,
+  "orthogonality_error": 3.597122599785507e-14,
+  "mode_projection_error": 9.661843373975909e-12,
+  "fermi_averages_mev": [
+    0.14074368926851197,
+    0.13990930667819254
+  ],
+  "min_positive_weight_fermi_gap_mev": 0.1076247866587548,
+  "max_absolute_gap_ry": 2.1695132596210235e-05,
+  "rytoev": 13.605693122994017,
+  "full_native_residual_verified": false,
+  "sha256": {
+    "reduced-result.txt": "ee187bb1dd9d45ca6e36b512b351af7a176abff8f7e3ab7b4e381049299df6a9",
+    "reduced-gap.bin": "ccb58beb76a09216a4b7ca25c5f7fdb7db071d947e15eeeba2560c5855d0a6ab",
+    "native-init.meta": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+    "native-init.bin": "f0873f6a0dd6bbd7f435f9045e2225119b0fae4a0a28f025c2ee90032bda169b"
+  },
+  "scope": "Read a reduced candidate; a separate full native residual is mandatory.",
+  "terminal_receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-reduced-gap-001/reduced-nonlinear-solve.x"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-reduced-gap-001",
+    "wall_s": 2.003628000151366,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 168640512,
+    "sampled_peak_group_rss_bytes": 32768,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 60.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "inputs_unchanged": true,
+  "manifest_sha256": "0fd7ec48310e9b8c8616c12e4550619b8dd420c8bf0dc4acaafbbe2b30bd0c2a",
+  "new_native_total_s": 14523.509137126934
+}

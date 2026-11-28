@@ -4107,3 +4107,12 @@ Completed64-column third restart independent readback PASS: Gram error2.34257058
 Admit one fresh reduced nonlinear candidate, portable-reduced-gap-001: 60s ceiling,3GiB,120s normal-pressure gate. Use certified48-column Q/AQ with qualified64-column seed and fresh geometry/Z bundle at8.05K. Starting0.15meV is a prospective heuristic, not material evidence. Runtime pins source-only executable/build provenance and all inputs. Full native residual required even if reduced solve passes.
 
 New native total14521.505509126782s; reserve60s leaves3418.494490873218s under18000s. Following reduced success, one separately pinned full1200s check may be admitted; not launched here. Brave and other Docker study untouched. Existing187tests/194source compilations/moment checks passed; no maintained source changed.
+
+
+## Fresh reduced candidate PASS; one full-native residual admitted
+
+portable-reduced-gap-001 terminal PASS 2.003628000151366s, peak individual168640512B; strict independent summary/binary/Fermi readback and all prospective postrun inputs PASS.48-column candidate converged4 reduced Newton steps, coefficient residual5.3833673629988255e-14. Positive Fermi averages0.14074368926851197/0.13990930667819254meV, minimum positive-weight Fermi gap0.1076247866587548meV. These are candidate values, not accepted material predictions.
+
+Admit portable-full-gap-001, single1200s/3GiB/normal-pressure120s full-native residual with pinned source-built executable, public inputs, fresh geometry/Z, exact copied reduced gap. Original driver checks strict initialized context, positive conventional support, independent occupation formula, explicit tile sums and finite-difference Jacobian action. Require unchanged1e-10Ry infinity and1e-5 RMSratio targets. No automatic correction/retry; conditioning still open even on stationary success.
+
+New guarded native total14523.509137126934s; worst1200s leaves2276.4908628730664s of5h ceiling. This resolves the key missing full-equation check; no new linear enrichment, optional memory source optimization or diagnostic grid campaign before that result. Brave and other study untouched. No maintained source changed.
