@@ -1,0 +1,47 @@
+{
+  "terminal_guard_pass": true,
+  "inputs_unchanged": true,
+  "verified_input_count": 1354,
+  "inherited_columns_bitwise_preserved": true,
+  "new_direction_norm": 1.0,
+  "maximum_old_basis_overlap": 1.0902204203517749e-18,
+  "exponential_occupation_image_reconstruction_error": 4.607859233063394e-19,
+  "reconstruction_bound": 4.9334581833787644e-17,
+  "old_rank": 50,
+  "new_rank": 51,
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "/Users/noahs/Developer/sc-dft-exp/research/prepare_segmented_occupation.py",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-map-segment-012",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_full_map_segment012_manifest.json",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_full_map_segment012_result.json",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-reduced-gap-003",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-occupation-prepare-003/basis"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-occupation-prepare-003",
+    "wall_s": 27.503475583158433,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 231718912,
+    "sampled_peak_group_rss_bytes": 228016128,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 180.0,
+    "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+  },
+  "manifest_sha256": "42e9a1c45d3038aad114d0ab7a80218afaf55096d6ecd558bfd8dc2f5105b922",
+  "enrichment_report_sha256": "2f7f4bfc02346349d95aca36c82b85c00cb9a661d1dec181602f6c6fb18a0857",
+  "outputs_sha256": {
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-occupation-prepare-003/basis/basis.meta": "e41fd924af059fe1954a9b70d22505d1481b7e7112f40c22995e5a1b6b21836b",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-occupation-prepare-003/basis/basis.bin": "b9da2789c1c2430f33cdd372559aef81d9aa5e28a32cd036de694cb8692d0f3b"
+  },
+  "full_candidate_targets_met": false,
+  "conditioned_gap_error_bounded": false,
+  "physical_response_verified": false,
+  "scope": "Independent streaming readback of an explicitly declared occupation preparation.",
+  "campaign_native_wall_s": 19816.6937690874,
+  "campaign_native_ceiling_s": 21600,
+  "campaign_native_remaining_s": 1783.3062309125999
+}

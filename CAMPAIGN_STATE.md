@@ -28,11 +28,16 @@ Rinf3.150982530792019e-10Ry >1e-10: FAIL. RMSres/gap6.950913015827202e-6
 Maximum/RMS-ratio residuals improve7.995x/6.743x fromrank49. Conditioning and
 physical response remain unaccepted. Rank51 full residual unknown.
 
-Only `portable-occupation-prepare-003` admitted: targeted50->51 correction from
-the complete measured image,180s/quiet120/3GiB. Unchanged frozen stager/preparer.
-[Prospective manifest](research/portable_occupation_prepare003_manifest.json).
-No automatic reduced solve/qualification/full pass/retry. Brave/otherstudy untouched.
-After preparation, strict explicit-manifest readback precedes any next admission.
+Preparation003 terminalPASS27.503475583158433s/231718912B. Strict1354pins,
+unchanged inherited Q/U bytes, norm1 and overlap1.0902204203517749e-18 PASS.
+Independent exponential image error4.607859233063394e-19Ry.
+[Readback](research/portable_occupation_prepare003_result.json).
+Launch label prepare was corrected to occupation after terminal completion;
+receipt/console bytes unchanged. [Layout provenance](research/occupation_receipt_layout003_result.json).
+Only `portable-reduced-gap-004` admitted:51columns,60s/quiet120/3GiB, unchanged
+solver/mode/geometry/operator/0.15meV initial amplitude;1365pins.
+[Prospective manifest](research/portable_reduced_gap004_manifest.json).
+No automatic qualification/full pass/retry. Brave/otherstudy untouched.
 
 ## Latest accepted evidence
 
@@ -68,11 +73,11 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall19789.19029350424s; ceiling21600s leaves
-1810.8097064957583s. Preparation003 ceiling180 leaves1630.8097064957583s.
-A prospective180+60+180+4*300=1620s sequence fits with190.8097064957583s
-reserve. Later production, if separately justified, would use300s caps: all last
-four measured segments were171.83–173.50s. Only preparation003 is admitted.
+Actual guarded campaign wall19816.6937690874s; ceiling21600s leaves
+1783.3062309125999s. Reduced004 ceiling60 leaves1723.3062309125999s.
+Prospective60+180+4*300=1440s fits with343.3062309125999s reserve.
+Later production, if separately justified, would use300s caps; all last four
+measured segments were171.83–173.50s. Only reduced004 admitted.
 No automatic budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
@@ -100,7 +105,7 @@ controls do not qualify the Nb functional or fit a physical normalization.
 
 Latest code checks:220tests PASS22.258s including native fixture builds;
 219maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
-No separate configured typecheck. Public CI46120939353 on5c9c4b9 PASS.
+No separate configured typecheck. Public CI46121406038 on3b8b5d2 PASS.
 Current docs/results do not replace native or scientific qualification.
 
 Chronology remains in RESEARCH_LEDGER.md and immutable public commits. The former

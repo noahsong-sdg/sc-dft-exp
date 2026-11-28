@@ -1,0 +1,14 @@
+{
+  "schema": "terminal-artifact-layout-correction-v1",
+  "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-occupation-prepare-003",
+  "original_output_label": "prepare",
+  "corrected_output_label": "occupation",
+  "terminal_phase": "completed",
+  "files_unchanged_sha256": {
+    "receipt.json": "05330df04f86d727ad18f764367adef27d9b6ffef7cf53159cdbb95b314dddb5",
+    "console.log": "2f7f4bfc02346349d95aca36c82b85c00cb9a661d1dec181602f6c6fb18a0857"
+  },
+  "run_manifest_sha256": "42e9a1c45d3038aad114d0ab7a80218afaf55096d6ecd558bfd8dc2f5105b922",
+  "reason": "Operator used prepare instead of established occupation output label; guard label controls only results directory. Terminal receipt and console relocated byte-for-byte; no rerun, input change or numerical change.",
+  "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+}
