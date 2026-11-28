@@ -4715,3 +4715,17 @@ Smallest coherent new path retains existing producer geometry and bounded work r
 Native fixture35/39sides,rank3,real32blocks plus3/7partialtails, native nonunit lower bounds, signed unequalK1/K2, nonuniformZ/weights/Dinclzeros, arbitraryQ/U/W. Separate Fraction oracle constructs full B and J then dense I-BJ, not expectednorm via(A+UC)D. All222P/222C/74rownorm outputs match tight floating controls; both same-side blocks nonzero. Generic BLAS link and explicitMacSDKstub link pass; these are link configurations, not claimed independent Mac implementations. RejectionsPASS: skipped/duplicate/stale P, incomplete C formation, nonfiniteblock/shape/invalidnormalization,width>32,stale/repeatedleftrows,repeatedrightcolumns,omittedrightsamesidecoverage; no output admitted for invalidcase. Own scratch sequence-association syntax probe generated t.mod, moved only that own artifact to/tmp; rejected combined command containing rm-f did not execute and was replaced by safe own-artifact rename/apply_patch. No unrelated files changed.
 
 Checks: narrow3PASS5.468s; complete `/opt/homebrew/opt/python@3.13/bin/python3.13 -m unittest discover -s research -p 'test_*.py'`278PASS42.086s inclnative builds/run;258maintained Python compilationsPASS;gfortran-O2-ffp-contract=off-fcheck=all-ffree-line-length-none-J/tmp-fsyntax-only for new core/fixturePASS;moment_refinement exit0;diffcheckPASS; no separate typecheck. Reviewed compact layout, native offsets/leading dimensions, both kernel signs/weights/Z, complete row/column accounting, finite/zero derivatives, stale/partial coverage and no fullcertificate claims.213non-test Fortran lines. No material run/admission or budgetincrease: guarded total21352.417154796272s/21600 leaves247.58284520372763s, all owners terminal. Next compact/padded source bridge and fresh source-built native selected-tile qualification before fullpass. Brave/otherstudy untouched; full scientific goal active/incomplete.
+
+### 2026-11-28 10:55 UTC — compact state bridge source checkpoint
+
+Traced padded native Q/U/state through the active32-row defect core: inactive
+left-band padding must be removed before right-band indexing. Added a separate
+column-streamed adapter and strict source-bound native reader; frozen producers
+unchanged. Stored W is calibrated on both sides and against saved action fixtures.
+Six new tests include exact dense B and bitwise native readback, nonzero harmless
+padding, stale/schema/shape/context boundaries and source receipt mutations.
+Full discovery284PASS42.456s; compile262Python filesPASS; gfortran -O2
+-ffp-contract=off -fcheck=all -ffree-line-length-none -J /tmp -fsyntax-only
+research/compact_defect_io.f90 PASS; moment_refinement.py exit0; diffcheckPASS.
+No configured separate typecheck. No material time charged at this checkpoint.
+[Method](research/COMPACT_DEFECT_STATE.md). No full norm/error/physical acceptance.

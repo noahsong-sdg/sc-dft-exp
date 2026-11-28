@@ -100,6 +100,10 @@ same-side blocks. [Core](research/STREAMED_DEFECT_CORE.md). Next source-bind the
 compact/padded adapter and native tile producer, then qualify selected actual
 tiles before a full pass. No material norm/timing or outward certificate yet.
 Kernel/IO/radius/rounding work remains open.
+Compact state writer/native reader now pass six regression tests: unequal-band
+padding, bitwise readback, independent dense inverse action and stale/context/
+shape boundaries. Basis columns stream; fixed stored W is checked on both sides.
+[Bridge](research/COMPACT_DEFECT_STATE.md). Material preparation remains pending.
 The exact [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md) includes
 same-side blocks and avoids a145GB dense matrix;2.78Tflops is not runtime evidence.
 [Method and interpretation](research/CORRECTION_INVERSE_DIAGNOSTIC.md).
