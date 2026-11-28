@@ -1596,3 +1596,17 @@ host availability is insufficient under unchanged guard. Latest qualified48basis
 and033 checkpoint preserved; no accepted64mode/nonlinear gap/response.
 Public progress remains partial. Source/storage proposals and conditional tail
 analysis cannot bypass the missing native scientific evidence.
+
+
+## User reports reduced memory use and explicitly continues
+
+Fresh host pressure1; no SCDFT native/controller/watcher owner;043root absent.
+User authorizes continuing after reducing other memory use. Preserve Brave and
+the other running study. Fresh quiet-window002 admission uses the unchanged
+600continuous-normal/1200total limits, then the original native quiet120 gate.
+Only043–045 from certified033 are admitted,350s each/3GiB, total1050s within
+remaining1096.2261117064954s initial pilot. Same question, frozen sources,
+operator, scientific gates and independent post045full-image mode check.
+No stale001watch/controller revival. No cache-clearing loop or automatic retry.
+Stop on any admission/native failure; no further scientific run beyond045
+without measured-result/value decision. Native cost unchanged at admission.
