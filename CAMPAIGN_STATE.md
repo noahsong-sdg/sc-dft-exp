@@ -6,6 +6,17 @@ research/TWO_WEEK_ACCEPTANCE.md. The actual reliable-response goal is incomplete
 The prior report and its NARROW verdict describe the completed bounded audit;
 they do not terminate or narrow the newly authorized scientific campaign.
 
+## Latest certified enrichment and prospective reduced solve
+
+Occupation preparation001 terminalPASS34.4096539998427s/233996288B;1144pins
+and inherited Q/U bytes PASS. Independent exponential image reconstruction error
+4.2012834183813297e-19Ry; new q overlap4.754812029020309e-19, norm1.
+Only reduced-gap002 admitted:49column basis, unchanged solver,60s/quiet120/3GiB,
+1155pins. Publish manifest before launch. No automatic retry/fullvalidationadmission.
+Guarded ledger18216.537426836174s, remaining3383.462573163826s under21600.
+218tests/217Python compilations/moment/diffPASS; publicCI46115314125 PASS.
+No new candidate accepted; full failed result below remains decisive.
+
 ## Prospective occupation enrichment
 
 New versioned preparation/staging boundary passes218tests/216compilations/moment.

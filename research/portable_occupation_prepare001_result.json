@@ -1,0 +1,47 @@
+{
+  "terminal_guard_pass": true,
+  "inputs_unchanged": true,
+  "verified_input_count": 1144,
+  "inherited_columns_bitwise_preserved": true,
+  "new_direction_norm": 0.9999999999999999,
+  "maximum_old_basis_overlap": 4.754812029020309e-19,
+  "exponential_occupation_image_reconstruction_error": 4.2012834183813297e-19,
+  "reconstruction_bound": 4.539416123276439e-17,
+  "old_rank": 48,
+  "new_rank": 49,
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "/Users/noahs/Developer/sc-dft-exp/research/prepare_segmented_occupation.py",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-full-map-segment-004",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_full_map_segment004_manifest.json",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_full_map_segment004_result.json",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-reduced-gap-001",
+      "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-occupation-prepare-001/basis"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-occupation-prepare-001",
+    "wall_s": 34.4096539998427,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 233996288,
+    "sampled_peak_group_rss_bytes": 228769792,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 180.0,
+    "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+  },
+  "manifest_sha256": "888f8329e6d82f78845a64a44bdcbd12c090bf6fa9f67f114a950e59fb4af357",
+  "enrichment_report_sha256": "056c04f274bd045189679cec8e55b66ca80e9f3d3dbc27397cb857902d9f62b6",
+  "outputs_sha256": {
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-occupation-prepare-001/basis/basis.meta": "5edeef37045154c19b36db8b5ec496ef8803b813c02469c309bc8e35a1d1b29b",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-occupation-prepare-001/basis/basis.bin": "1d0a102a6a56207bec5a97b50535c1c764d9ffaea5a25a2e24d3dad3607a4c79"
+  },
+  "full_candidate_targets_met": false,
+  "conditioned_gap_error_bounded": false,
+  "physical_response_verified": false,
+  "scope": "Independent streaming readback of the first fresh occupation enrichment.",
+  "campaign_native_wall_s": 18216.537426836174,
+  "campaign_native_ceiling_s": 21600,
+  "campaign_native_remaining_s": 3383.462573163826
+}

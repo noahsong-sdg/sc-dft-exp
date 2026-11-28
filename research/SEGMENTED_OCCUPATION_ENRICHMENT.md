@@ -46,3 +46,26 @@ The previous full residual now makes targeted preparation scientifically useful;
 expected tens of seconds to roughly two minutes for hashing and orthogonalization
 is a forecast, not a bound. No automatic retry, reduced solve or full evaluation
 is admitted by this preparation. Brave and the other study remain untouched.
+
+## Actual preparation and independent readback
+
+Preparation001 terminalPASS34.4096539998427s, peak233996288B. All1144input
+pins/public-consumed manifest/receipt/source/deadline checks pass. Added direction
+norm0.9999999999999999, old overlap4.754812029020309e-19; every inherited Q/U
+column is byte-identical. Streaming independent expm1 occupation reconstruction
+agrees with the complete measured image to4.2012834183813297e-19Ry, below
+4.539416123276439e-17 algebraic-control bound. This is neither a full operator
+error bound nor a new candidate residual. See occupation_prepare_readback001.py
+and portable_occupation_prepare001_result.json. Relative occupation defect
+0.0013436350567505534 supports the omitted-direction hypothesis but does not
+prove that one direction is enough. Source/report/basis hashes are recorded.
+
+Final gate218tests PASS25.993s incl native builds;217maintained Python sources
+compile PASS; moment_refinement exit0; diffcheckPASS. PublicCI46115314125 on
+7d94584 PASS. No separate configured typecheck.
+
+Admit exactly portable-reduced-gap-002, unchanged source-built solver and fresh
+49column basis; same fresh geometry/Z/operator,64column accepted linear mode,
+0.15meV starting amplitude,60s/quiet120/3GiB.1155prospective pins. Actual guarded
+ledger18216.537426836174s leaves3383.462573163826s under21600; worst next60 leaves
+3323.462573163826s. No automatic retry/newfull evaluation admitted.
