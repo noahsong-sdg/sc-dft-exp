@@ -1477,3 +1477,27 @@ certificate, material uncertainty bound or repair of missing DOS support. No
 cutoff/native/source change. Could qualify truncation of known high-energy
 states only after a qualified gap/envelope and rounding treatment. Recovery
 watcher67620 was verified live at pressure2; no duplicate owner launched.
+
+
+## Recovery037 terminal host-pressure failure; no further retry
+
+037passed120continuous-normal admission, then failed host-pressure guard after
+80.26087637478486s, SIGTERM exit-15. Own peak950386688bytes,
+sampled group951943168bytes, both below3GiB. All pinned
+inputs unchanged, public/consumed manifest equality PASS. Known controller49363,
+guard49761 and native64858 absent; session67620 terminal exit1.038/039 absent.
+Failed partial output not accepted; certified033 checkpoint and complete48basis032
+preserved. New native cost13050.39319700174s (217.5066min), historical189.29min separate.
+Remaining initial4h budget1349.6068029982598s; no budget expansion or next retry.
+
+The same external host-pressure condition has recurred across the original034
+stop, waiting goal turns and this recovery despite satisfying admission. No
+unrelated workload is stopped. No threshold/guard relaxation. The latest full
+independent mode residual1.0991127847466307e-9 still fails1e-9, so a nonlinear
+launch cannot safely bypass this unfinished native dependency. Offline analyses
+including the conditional tail bound do not replace it. Required external change:
+a sustained normal-pressure resource window. On explicit resumption, recheck
+host state and resource/value decision before fresh roots; do not revive a failed
+root/controller or infer completed rows from partial files. Goal remains scientifically
+incomplete; source build and conditional analyses do not meet response acceptance.
+No maintained code changed; diffcheck and all-input revalidation PASS.
