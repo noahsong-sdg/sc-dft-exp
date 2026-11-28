@@ -4832,3 +4832,24 @@ Charged total21380.09276504567s/21600, remainder219.90723495433122s. No budget e
 binds compact preparation001 and the new source-built executable to original
 base-state native initialization, then independently checks saved selected tiles.
 Brave/otherstudy untouched; no live native owner or watcher.
+
+### 2026-11-28 — selected compact/native material001 prospective admission
+
+Previous goal turn classified progress: actual fresh source build001 terminalPASS,
+18compiles/35outputs/902cache controls, public CI46139045561PASS. Current source
+traces both accepted build/preparation parents into original native initialization
+and the selected32-row probe. Strict accepted/raw/receipt/output/closure evidence
+required before directory creation; original gap/grid/temperature/operator checked.
+Independent chunked readback uses saved kernels and normalized A0 weights to
+check21P samples, all output finiteness, zero unvisited columns and exact native
+control multiplicities. Four new regression tests include stale persisted parent
+state, corrupted samples/unvisited columns, bad shape/nonfinite/receipt/coverage.
+Full292testsPASS40.688s;269Python compilePASS; compiled native fixturesPASS;
+moment_refinement.py exit0; diffcheckPASS. No separate configured typecheck.
+Fresh compact-tile-material-001:1666pins,90s selected rows1:64 only,120quiet
+seconds,3GiB group/workspace caps; pressure1 before admission. Charged before
+launch21380.09276504567s/21600,219.90723495433122s remain; worst90s leaves
+129.90723495433122s. No budget expansion/full pass, Brave/otherstudy untouched.
+[Manifest](research/compact_tile_material001_manifest.json),
+[method](research/COMPACT_MATERIAL_TILES.md). No complete P/norm/error/physical
+acceptance; terminal receipt and independent saved tile readback required.

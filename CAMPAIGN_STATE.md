@@ -131,6 +131,13 @@ all576pins,18fresh compiles/35outputs and902bitwise cache controls verified.
 [Build result](research/compact_tile_build001_result.json). Explicit SDK binding
 and console/plan checked independently. All owners terminal; next stage selected
 material tiles from accepted compact preparation and fresh native executable.
+Material001 now staged with1666pins; strict two-parent receipts/output/closure
+and native seed identity checked. Independent chunked saved-kernel readback is
+fixture-qualified (21samples, finite outputs, untouched P columns,30native control
+identities).292testsPASS40.688s.
+[Admission](research/compact_tile_material001_manifest.json),
+[method](research/COMPACT_MATERIAL_TILES.md):90s for selected rows1:64,120quiet
+seconds,3GiB caps. No full-pass admission or budget expansion.
 [Build admission](research/compact_tile_build001_manifest.json):60s,120quiet
 seconds,3GiB caps; no kernel admission or budget expansion.
 The exact [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md) includes
