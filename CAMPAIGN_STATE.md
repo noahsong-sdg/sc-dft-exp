@@ -73,7 +73,9 @@ Declared-step microscopic qualifier001 terminalPASS36.70167237473652s;
 peakindividual931561472B, independent weight error6.938893903907228e-18.
 [Result](research/portable_full_step_qualify001_result.json). Production first half001 terminalPASS311.66590004134923s/913653760B;
 1557pins/source/state/qualification closure certified, completed33408/66867.
-[Result](research/portable_full_step_segment001_result.json). No next run admitted.
+[Result](research/portable_full_step_segment001_result.json). Final half002 now
+admitted420s/quiet120/3GiB,1577pins,33408→66867; forecast313s, no retry.
+[Manifest](research/portable_full_step_segment002_manifest.json).
 [Manifest](research/portable_full_step_segment001_manifest.json).
 [Prospective manifest](research/portable_full_step_qualify001_manifest.json).
 Preparation certificate, strict step qualifier
@@ -126,7 +128,7 @@ Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
 Actual guarded campaign wall20993.885460629444s; ceiling21600s leaves
-606.1145393705556s. No live owner/next admission; second420s would leave
+606.1145393705556s. Only final half002 admitted420s, leaving
 186.1145393705556s worst-case reserve. No automatic retry or budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
