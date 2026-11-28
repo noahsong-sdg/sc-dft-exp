@@ -1,0 +1,76 @@
+Analysis of sampling verify-gap-seed.x (pid 86016) every 10 milliseconds
+Process:         verify-gap-seed.x [86016]
+Path:            /Users/USER/*/verify-gap-seed.x
+Load Address:    0x100d4c000
+Identifier:      verify-gap-seed.x
+Version:         0
+Code Type:       ARM64
+Platform:        macOS
+Parent Process:  Python [83328]
+Target Type:     live task
+
+Date/Time:       2026-11-27 20:43:29.346 -0800
+Launch Time:     2026-11-27 20:37:03.127 -0800
+OS Version:      macOS 26.6.2 (25G83)
+Report Version:  7
+Analysis Tool:   /usr/bin/sample
+
+Physical footprint:         883.2M
+Physical footprint (peak):  883.2M
+Idle exit:                  untracked
+----
+
+Call graph:
+    90 Thread_108044722   DispatchQueue_1: com.apple.main-thread  (serial)
+      90 start  (in dyld) + 6992  [0x1896244e4]
+        90 main  (in verify-gap-seed.x) + 32  [0x1011d5200]
+          90 MAIN__  (in verify-gap-seed.x) + 2140  [0x100d6789c]
+            87 __full_nonlinear_probe_MOD_run_full_map  (in verify-gap-seed.x) + 3040  [0x100d64840]
+            + 52 __tiled_operator_MOD_build_tile  (in verify-gap-seed.x) + 868  [0x100d57984]
+            + ! 35 __cached_kel_MOD_calc_kel_cached  (in verify-gap-seed.x) + 1436,1452,...  [0x100d56a60,0x100d56a70,...]
+            + ! 5 __cached_kel_MOD_calc_kel_cached  (in verify-gap-seed.x) + 776  [0x100d567cc]
+            + ! : 2 ???  (in libsystem_m.dylib)  load address 0x1997a3000 + 0x1154  [0x1997a4154]
+            + ! : 2 cos  (in libsystem_m.dylib) + 28,296  [0x1997a3af0,0x1997a3bfc]
+            + ! : 1 __cached_kel_MOD_calc_kel_cached  (in verify-gap-seed.x) + 776  [0x100d567cc]
+            + ! :   1 ???  (in libsystem_m.dylib)  load address 0x1997a3000 + 0x1098  [0x1997a4098]
+            + ! 4 __cached_kel_MOD_calc_kel_cached  (in verify-gap-seed.x) + 1348  [0x100d56a08]
+            + ! : 2 _free  (in libsystem_malloc.dylib) + 20,64  [0x18981bce4,0x18981bd10]
+            + ! : 1 _xzm_free  (in libsystem_malloc.dylib) + 28  [0x18980c134]
+            + ! : 1 xzm_malloc_zone_try_free_default  (in libsystem_malloc.dylib) + 0  [0x189817170]
+            + ! 3 __cached_kel_MOD_calc_kel_cached  (in verify-gap-seed.x) + 112  [0x100d56534]
+            + ! : 2 <deduplicated_symbol>  (in libsystem_malloc.dylib) + 136,196  [0x18980b1e4,0x18980b220]
+            + ! : 1 xzm_malloc_zone_malloc_type_malloc  (in libsystem_malloc.dylib) + 0  [0x189817184]
+            + ! 3 __cached_kel_MOD_calc_kel_cached  (in verify-gap-seed.x) + 164  [0x100d56568]
+            + ! : 1 <deduplicated_symbol>  (in libsystem_malloc.dylib) + 160  [0x18980b1fc]
+            + ! : 1 _malloc_zone_malloc  (in libsystem_malloc.dylib) + 12  [0x18981b0c8]
+            + ! : 1 _xzm_xzone_malloc  (in libsystem_malloc.dylib) + 140  [0x18980b9dc]
+            + ! 2 __cached_kel_MOD_calc_kel_cached  (in verify-gap-seed.x) + 1356  [0x100d56a10]
+            + !   2 _xzm_free  (in libsystem_malloc.dylib) + 48,564  [0x18980c148,0x18980c34c]
+            + 18 __tiled_operator_MOD_build_tile  (in verify-gap-seed.x) + 604,956,...  [0x100d5787c,0x100d579dc,...]
+            + 9 __tiled_operator_MOD_build_tile  (in verify-gap-seed.x) + 2092  [0x100d57e4c]
+            + ! 5 __cached_phonon_MOD_kweight_cached  (in verify-gap-seed.x) + 100,116,...  [0x100d57304,0x100d57314,...]
+            + ! 4 __cached_phonon_MOD_kweight_cached  (in verify-gap-seed.x) + 200  [0x100d57368]
+            + !   3 __sctk_kernel_weight_MOD_kweight  (in verify-gap-seed.x) + 1504,1260  [0x100d6f740,0x100d6f64c]
+            + !   1 __sctk_kernel_weight_MOD_kweight  (in verify-gap-seed.x) + 712  [0x100d6f428]
+            + !     1 tanh  (in libsystem_m.dylib) + 76  [0x1997a8c7c]
+            + 5 __tiled_operator_MOD_build_tile  (in verify-gap-seed.x) + 2288  [0x100d57f10]
+            + ! 3 __cached_phonon_MOD_kweight_cached  (in verify-gap-seed.x) + 12,112,...  [0x100d572ac,0x100d57310,...]
+            + ! 2 __cached_phonon_MOD_kweight_cached  (in verify-gap-seed.x) + 200  [0x100d57368]
+            + !   1 __sctk_kernel_weight_MOD_kweight  (in verify-gap-seed.x) + 1004  [0x100d6f54c]
+            + !   | 1 tanh  (in libsystem_m.dylib) + 208  [0x1997a8d00]
+            + !   1 __sctk_kernel_weight_MOD_kweight  (in verify-gap-seed.x) + 760  [0x100d6f458]
+            + 3 __tiled_operator_MOD_build_tile  (in verify-gap-seed.x) + 476  [0x100d577fc]
+            +   3 __slab_operator_MOD_ensure_slab  (in verify-gap-seed.x) + 172  [0x100d563ac]
+            +     2 __slab_operator_MOD_expand_slab  (in verify-gap-seed.x) + 1492  [0x100d54bd8]
+            +     : 2 __native_rotation_MOD_k_kplusq_sym  (in verify-gap-seed.x) + 840  [0x100d4cb88]
+            +     1 __slab_operator_MOD_expand_slab  (in verify-gap-seed.x) + 3484  [0x100d553a0]
+            3 __full_nonlinear_probe_MOD_run_full_map  (in verify-gap-seed.x) + 3284  [0x100d64934]
+              3 __nonlinear_tile_apply_MOD_apply_tile  (in verify-gap-seed.x) + 1176  [0x100d63078]
+                3 dgemv_  (in verify-gap-seed.x) + 1076,1072  [0x1011c4054,0x1011c4050]
+
+Total number in stack (recursive counted multiple, when >=5):
+
+Sort by top of stack, same collapsed (when >= 5):
+        __cached_kel_MOD_calc_kel_cached  (in verify-gap-seed.x)        35
+        __tiled_operator_MOD_build_tile  (in verify-gap-seed.x)        18
+        __cached_phonon_MOD_kweight_cached  (in verify-gap-seed.x)        8

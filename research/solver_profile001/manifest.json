@@ -1,0 +1,26 @@
+{
+  "scope": "Two short read-only live-process samples; no whole-run timing fraction or speedup established.",
+  "native_pid": 86016,
+  "native_executable_sha256": "26aeeb8034a2ac34e77d991b46b0990540f926cb3d87f70e15e2502f220df5f3",
+  "native_manifest": "research/portable_full_gap003_manifest.json",
+  "samples": [
+    {
+      "command": "/usr/bin/sample 86016 1 10 -file /tmp/scdft-full003-sample-001.txt",
+      "raw_sha256": "d94c76ccc09851b0748e8916783727642c60f2666f4631c7bd83aaf5dec6fc44",
+      "published_excerpt": "research/solver_profile001/sample-001.txt",
+      "excerpt_sha256": "60ebdc7531f317f70627f093b515ab9ac693ff41dff3be744f152f43379ae86e",
+      "omitted": "Binary Images inventory and trailing blank lines only"
+    },
+    {
+      "command": "/usr/bin/sample 86016 1 10 -file /tmp/scdft-full003-sample-002.txt",
+      "raw_sha256": "f5192aa240d4d3d4bbee6a350fb1d550cb23bf023d97fd86d4d42a1af125c8eb",
+      "published_excerpt": "research/solver_profile001/sample-002.txt",
+      "excerpt_sha256": "a1c2a8866b6a4b256c9ba1c58b6f61a61d20610c0263547c924dca722ec420f9",
+      "omitted": "Binary Images inventory and trailing blank lines only"
+    }
+  ],
+  "assembly_command": "/usr/bin/otool -tvV research/raw/portable-full-gap-003/verify-gap-seed.x",
+  "assembly_excerpt_sha256": "9ab1b25997fffe4d3b0acbc650778366b54cde2dddda04c59439a10e75541c9a",
+  "native_inputs_or_sources_changed": false,
+  "assembly_excerpt_scope": "Function prologue and free call neighborhoods; middle omitted explicitly."
+}

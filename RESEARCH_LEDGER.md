@@ -4162,3 +4162,10 @@ Admit portable-full-gap-003 after full-gap002 terminal deadline and postrun qual
 The smallest coherent next experiment retains the exact source-built checker and candidate, all physics/acceptance/resource rules, and changes only the fresh root/control bindings plus1500s hard deadline. A checkpointed writer would require new ordering/state qualification and additional initializations; that architecture change is not needed to test the measured25minute path. Do not claim the deadline extension is a speedup or a scientific tolerance change. All original pins revalidated. Versioned low-memory guard remains SHA65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2.
 
 Native total15992.079956543483s; worst next1500s gives17492.079956543483s, leaving507.9200434565173s under18000s. No pilot budget expansion, no further replay/correction admitted here. Full strict residual readback determines the next scientific decision.193tests/198Python compilations/moment gate PASS; native sources unchanged. Brave and other Docker study untouched.
+
+
+## Read-only solver profiles identify repeated Coulomb allocations
+
+Two one-second samples of owned full-gap003 nativePID86016 show52/90 and61/91stacks inside cachedKel, including12 and20 in allocation/free descendants. Exact pinned executable disassembly confirms two nmf-sized malloc calls before cache lookup and two free calls on return. At nmf10 the two work arrays total160B; this is allocation overhead, not an identified large memory-pressure source. No whole-run timing fraction, speedup, or solver change is claimed. See research/COULOMB_ALLOCATION_PROFILE.md and solver_profile001 pinned excerpts.
+
+Current native run remains frozen and live; standard guard unchanged. A separately versioned scratch-reuse candidate is proposed only after terminal evaluation, direct/upstream/context/stale-state qualification and bounded actual-tile comparison. No additional native admission or pilot expansion. Existing193tests/198compilations/moment PASS remain applicable; this milestone adds evidence/docs only. Brave and other study untouched.
