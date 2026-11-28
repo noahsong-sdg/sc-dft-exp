@@ -10,18 +10,18 @@ The earlier twelve-hour audit and NARROW verdict are historical, not completion.
 
 ## Active owner and next action
 
-Only `portable-full-map-segment-006` is admitted: new candidate rows16705:33408,
+Only `portable-full-map-segment-007` is admitted: new candidate rows33409:50112,
 480s hard deadline after120 continuous normal-pressure seconds,3GiB group/
-workspace caps. Segment005 guard6462/native9547/session32050 terminalPASS.
+workspace caps. Segment006 guard20927/native23073/session35715 terminalPASS.
 Publish prospective segment manifest before launching one guard. No automatic
 retry or subsequent segment admission. Brave and the other Docker study remain
 untouched; preserve dirty historical flux-pinning checkout.
 
-[Prospective manifest](research/portable_full_map_segment006_manifest.json).
+[Prospective manifest](research/portable_full_map_segment007_manifest.json).
 Candidate evaluation identity c9d5ab380866e40be145ec06959287ab14c3dced27e12f0da4d5ca4c84acb5c2.
-Segment005 terminalPASS198.1404397082515s/927580160B,1190pins. Certified16704/
+Segment006 terminalPASS232.88537691673264s/906887168B,1206pins. Certified33408/
 66867leftrows; no full residual. Source stateSHA46c47400b07ec5fba532fb4762f510036b29af639e5428a39ce86b3374184e82.
-[Accepted checkpoint](research/portable_full_map_segment005_result.json).
+[Accepted checkpoint](research/portable_full_map_segment006_result.json).
 Origin qualify003 continuous64 versus persisted32+32images bitwise equal.
 After segment terminalPASS, certify full predecessor/output continuity, record
 actual guarded wall time and publish checkpoint before next admission. Never
@@ -60,10 +60,10 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual new guarded campaign wall18455.279028919842s; recorded six-hour ceiling
-21600s leaves3144.720971080158s. Segment006 ceiling480 leaves2664.720971080158s.
-Three remaining proposed480s production intervals fit with1704.720971080158s
-reserve, but only006 is currently admitted.
+Actual new guarded campaign wall18688.164405836575s; recorded six-hour ceiling
+21600s leaves2911.8355941634254s. Segment007 ceiling480 leaves2431.8355941634254s.
+Two remaining proposed480s production intervals fit with1951.8355941634254s
+reserve, but only007 is currently admitted.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
