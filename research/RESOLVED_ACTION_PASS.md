@@ -98,3 +98,15 @@ pass or budget expansion. Brave/Docker/separate study untouched.
 Complete-owner final gate:338testsPASS56.945s including native fixture builds;
 319Python sources compilePASS; moment_refinement exit0; git diff --check PASS.
 No separate configured typecheck.
+
+## Complete pass001 accepted
+
+TerminalPASS507.71250912500545s, maxindividual1045757952B (~997.31MiB),
+sampledgroup1053851648B (~1005.03MiB).1950staged/1962accepted closure pins,
+receipt/watcher/exact manifest and all six output identities checked. All66867
+left rows/final19-row tile covered, complete_A_and_P=true.81action/81bilinear
+controls PASS, maxabsoluteerror1.97758476261356e-16, maxerror/bound
+7.635352844779993e-5. Kernel/contraction CPU445.7703519999983/26.174540999999635s.
+[Result](resolved_action_complete001_result.json). Source449248e CI46152668968PASS.
+No inverse, full norm, gap radius or physical response accepted by this pass.
+Charge23143.187411254123s/25200 leaves2056.812588745877s.

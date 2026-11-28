@@ -5399,3 +5399,19 @@ fullnorm/inverse admission. Method and stop rules in RESOLVED_ACTION_PASS.md.
 Complete-owner final gate:338testsPASS56.945s including native fixture builds;
 319Python sources compilePASS; moment_refinement exit0; git diff --check PASS.
 No separate configured typecheck.
+
+### 2026-11-28 — complete nine-input pass accepted; sixty-column diagnostic admitted
+
+Complete001 terminalPASS507.71250912500545s/1045757952B (~997.31MiB),1962closure
+pins/receipt/watcher/outputs checked. All66867left rows,81action/81bilinear checks
+PASS,maxabsoluteerror1.98e-16,complete_A_and_P=true; no inverse/fullnorm/response.
+Source449248e CI46152668968PASS. Charge23143.187411254123s/25200 leaves
+2056.812588745877s. New standalone sixty-column diagnostic source follows
+frozen algebra, fresh registered holdouts and old training-baseline agreement.
+Native toy B*J and owner/stale3-column/header regressions PASS. Admit only
+diagnostic0011966pins/240s/quiet120/3GiB, no retry/fullnorm/adoption/expansion.
+Parentstage4.621996500063688s separate. See RESOLVED_INVERSE_PROTOCOL.md.
+
+Source final gate:340testsPASS58.871s including native fixture builds;323Python
+sources compilePASS; moment_refinement exit0; git diff --check PASS. No separate
+configured typecheck.
