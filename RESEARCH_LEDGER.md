@@ -5317,3 +5317,14 @@ moment source gate remains valid. Charge22544.771201837193s/25200 leaves
 Fixed premeasurement enriched-inverse protocol now public; training and held-out
 rows unchanged, any row>=1 rejects candidate for this contraction route.
 See research/FULL_ENRICHMENT_ADMISSION.md and enrichment_action_complete001_result.json.
+
+### 2026-11-28 — enriched inverse fixed-row diagnostic admitted
+
+Previous turn accepted complete A/P. New standalone54-column M/W/C and nine
+complete old/new row diagnostics match independent dense B/J fixture; reader
+checks all M entries, two-sided inverse, six C columns and every saved row element.
+331testsPASS53.854s/309Python compiles/native builds/moment/diffcheck PASS.
+1958pins,240s/quiet120/3GiB; no new kernels/inverse adoption. Charge22544.771201837193s
+unchanged until actual. Parentreplay/stage3.2256356249563396s separate. Anytested
+row>=1 rejects this candidate for unweighted contraction; no threshold tuning.
+Full-action result6a5ad60 CI46150039062PASS. See ENRICHED_INVERSE_PROTOCOL.md.
