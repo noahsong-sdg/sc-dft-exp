@@ -1,0 +1,176 @@
+{
+  "status": "MEASURED",
+  "native_dimensions": [
+    66867,
+    67940,
+    67940,
+    100,
+    512,
+    26,
+    32768
+  ],
+  "cache_dimensions": [
+    100,
+    6,
+    7,
+    512,
+    2
+  ],
+  "normal_reference_electrons": 13.0,
+  "expected_complete_band_integral": 1.0,
+  "expected_total_bands": 26,
+  "spin_factor": 2,
+  "zero_energy_normal_occupation": 0.5,
+  "state_sums": [
+    {
+      "side": 1,
+      "total_band_weight": 25.985980098684923,
+      "zero_temperature_normal_electrons": 12.969875380903728,
+      "band_weights": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0,
+        "4": 1.0,
+        "5": 1.0,
+        "6": 0.9843046084785172,
+        "7": 1.0016754902064076,
+        "8": 1.0,
+        "9": 1.0,
+        "10": 1.0,
+        "11": 1.0,
+        "12": 1.0,
+        "13": 1.0,
+        "14": 1.0,
+        "15": 1.0,
+        "16": 1.0,
+        "17": 1.0,
+        "18": 1.0,
+        "19": 1.0,
+        "20": 1.0,
+        "21": 1.0,
+        "22": 1.0,
+        "23": 1.0,
+        "24": 1.0,
+        "25": 1.0,
+        "26": 1.0
+      }
+    },
+    {
+      "side": 2,
+      "total_band_weight": 25.98596036754346,
+      "zero_temperature_normal_electrons": 12.969830522176158,
+      "band_weights": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0,
+        "4": 1.0,
+        "5": 1.0,
+        "6": 0.9842732636695746,
+        "7": 1.0016871038738853,
+        "8": 1.0,
+        "9": 1.0,
+        "10": 1.0,
+        "11": 1.0,
+        "12": 1.0,
+        "13": 1.0,
+        "14": 1.0,
+        "15": 1.0,
+        "16": 1.0,
+        "17": 1.0,
+        "18": 1.0,
+        "19": 1.0,
+        "20": 1.0,
+        "21": 1.0,
+        "22": 1.0,
+        "23": 1.0,
+        "24": 1.0,
+        "25": 1.0,
+        "26": 1.0
+      }
+    }
+  ],
+  "cached_dos_integrals": [
+    {
+      "phase": "raw",
+      "side": 1,
+      "band": 6,
+      "signed_integral": 0.9841920571469543,
+      "negative_integral": -0.0004725028538194656,
+      "positive_integral": 0.9846645600007738
+    },
+    {
+      "phase": "raw",
+      "side": 1,
+      "band": 7,
+      "signed_integral": 1.0015601157130984,
+      "negative_integral": -0.0005391401178139075,
+      "positive_integral": 1.0020992558309123
+    },
+    {
+      "phase": "raw",
+      "side": 2,
+      "band": 6,
+      "signed_integral": 0.9841920571469543,
+      "negative_integral": -0.00040899692185794963,
+      "positive_integral": 0.9846010540688124
+    },
+    {
+      "phase": "raw",
+      "side": 2,
+      "band": 7,
+      "signed_integral": 1.0015601157130984,
+      "negative_integral": -0.0005035313185336867,
+      "positive_integral": 1.0020636470316322
+    },
+    {
+      "phase": "averaged",
+      "side": 1,
+      "band": 6,
+      "signed_integral": 0.9841920571469543,
+      "negative_integral": -0.00011255133156286119,
+      "positive_integral": 0.9843046084785172
+    },
+    {
+      "phase": "averaged",
+      "side": 1,
+      "band": 7,
+      "signed_integral": 1.0015601157130984,
+      "negative_integral": -0.00011537449330905595,
+      "positive_integral": 1.0016754902064076
+    },
+    {
+      "phase": "averaged",
+      "side": 2,
+      "band": 6,
+      "signed_integral": 0.9841920571469543,
+      "negative_integral": -8.120652262019135e-05,
+      "positive_integral": 0.9842732636695746
+    },
+    {
+      "phase": "averaged",
+      "side": 2,
+      "band": 7,
+      "signed_integral": 1.0015601157130984,
+      "negative_integral": -0.0001269881607868626,
+      "positive_integral": 1.0016871038738853
+    }
+  ],
+  "averaged_positive_dos_integrals_match_assigned_weights": true,
+  "inputs_sha256": {
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/fresh-gap-init-001/native-init.meta": "964bc708a9a92dcc140bcb376fac8852956a0ca432bcb1c0defa12520ccb1e42",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/fresh-gap-init-001/native-init.bin": "f0873f6a0dd6bbd7f435f9045e2225119b0fae4a0a28f025c2ee90032bda169b",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-gap-check-001/inputs/pwscf.save/data-file-schema.xml": "8576d6aae7a680916ab64bd21fed3ed0f4354f420f4ac2ea681fd3595e540bac",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-run-001/cell-moments-raw.txt": "f2e3ce38fd936ae1884f2eba41f64b798a486cadd2344ee4c4bc9a9217b2f828",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-run-001/cell-moments-raw.bin": "11378f1c63ba6198a2f482e5b2d0b9af08d773b313c03e07d0c72ffceff6d643",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-run-001/cell-moments-averaged.txt": "a5c393b7035bd024d11d3a0ebff520554819f8c2f47339b3cd275771be49dd0d",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-run-001/cell-moments-averaged.bin": "095901131e129193ac1d3b4bb0afebfc056b8cbd81db5cd6c68c4d061709d680",
+    "/Users/noahs/Developer/sc-dft-exp/research/compare_legacy_gap.py": "e56de2f0c9164921952ab214e69c8d7f948154745d53df12ad2f682b108f4f98",
+    "/Users/noahs/Developer/sc-dft-exp/research/cell_moment_cache.py": "0f1b10c2f44ec7bb04850375987b0dd18ae3e1079f50a29dd289dcc65a4067e7",
+    "/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe/SCTK/src/sctk_ini_delta.f90": "db9b4472bc0e1452cb58db009544a6ae77299b2e1ae3b5c4dc2f898503c706fe"
+  },
+  "native_sources_changed": false,
+  "normalization_rescaled": false,
+  "response_error_bounded": false,
+  "physical_response_verified": false,
+  "limitation": "Finite auxiliary-energy quadrature/support diagnostic. Raw signed DOS already differs from one state per band; symmetry averaging preserves that integral, while positive-DOS assignment drops negative support. No response error follows from these scalar sum defects. Separate energy-range/grid and observable-weighted controls are required."
+}
