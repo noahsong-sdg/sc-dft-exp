@@ -19,12 +19,13 @@ coefficient residual4.2934406030425976e-17, not full stationarity.
 Qualification004 terminalPASS36.531995916739106s/916668416B;1279pins verified,
 continuous64 vs persisted32+32 bitwise, exact active source state and independent
 occupations PASS. [Result](research/portable_full_map_qualify004_result.json).
-Segment010 terminalPASS172.0183099587448s/894959616B; strict1311pins and
-qualification004 lineage PASS. Completed33408/66867leftrows; exact source state,
-independent weights and explicit-sum checks PASS. [Result](research/portable_full_map_segment010_result.json).
-Only `portable-full-map-segment-011` admitted, rows33409:50112,480s hard limit,
-quiet120/3GiB. [Manifest](research/portable_full_map_segment011_manifest.json).
-No later segment/retry admitted. Brave/otherstudy untouched; preserve flux-pinning.
+Segment011 terminalPASS171.83193412516266s/894451712B; strict1327pins and
+qualification004 lineage PASS. Completed50112/66867leftrows; exact source state,
+independent weights and explicit-sum checks PASS. [Result](research/portable_full_map_segment011_result.json).
+Only `portable-full-map-segment-012` admitted, finalrows50113:66867,480s hard
+limit,quiet120/3GiB. [Manifest](research/portable_full_map_segment012_manifest.json).
+Require complete chain, independent normalization and original stationarity targets;
+no automatic correction/retry. Brave/otherstudy untouched; preserve flux-pinning.
 
 Preparation002 strict1249pin readback passes, inherited Q/U bytes identical;
 new q norm1, overlap8.300874945971308e-19, independent exponential image error
@@ -72,10 +73,9 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall19444.259485503975s; ceiling21600s leaves
-2155.740514496025s. Segment011 ceiling480 leaves1675.740514496025s.
-Two prospective production ceilings fit with1195.740514496025s reserve;
-only segment011 admitted. No automatic budget increase.
+Actual guarded campaign wall19616.091419629138s; ceiling21600s leaves
+1983.9085803708622s. Finalsegment012 ceiling480 leaves1503.9085803708622s.
+Only segment012 admitted. No automatic budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
@@ -102,7 +102,7 @@ controls do not qualify the Nb functional or fit a physical normalization.
 
 Latest code checks:220tests PASS22.258s including native fixture builds;
 219maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
-No separate configured typecheck. Public CI46120027027 ond9af20d PASS.
+No separate configured typecheck. Public CI46120474500 onee77e3d PASS.
 Current docs/results do not replace native or scientific qualification.
 
 Chronology remains in RESEARCH_LEDGER.md and immutable public commits. The former
