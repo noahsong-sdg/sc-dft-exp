@@ -5225,3 +5225,13 @@ Details research/RETAINED_ROW_SPECTRUM.md; resultdefect_row_spectrum001_result.j
 Source5444ebf CI46146669175PASS. Charged21989.224320587087s/25200 leaves
 3210.7756794129127s. All owners terminal. Next a prospective held-out enrichment
 plan; no automatic new pass or expansion. Brave/other study untouched.
+
+### 2026-11-28 — derivative-weighted enrichment preparation admitted
+
+Previous goal turn yielded verified progress (accepted concentrated spectrum).
+Now prepare three trial A-input columns from D*v, twice reorthogonalized against
+old Q/earlier extras, with independent target reconstruction. No A actions/new
+inverse adopted.1857pins,90s/quiet120/3GiB. Charged21989.224320587087s unchanged
+until terminal actual. Source324testsPASS50.966s/297Python compiles/native
+fixtures/moment/diffcheck PASS. Parent validation/stage2.669517290778458s separate.
+See research/SENSITIVITY_ENRICHMENT.md and prospective001manifest.
