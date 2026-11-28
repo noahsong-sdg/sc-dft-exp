@@ -3875,3 +3875,18 @@ receipts including failures charged. Independent64residual/continuity checks
 required before any nonlinear launch. The large agent-token spend remains an
 opportunity cost; this decision authorizes a bounded measured-information test,
 not continued unbounded linear convergence or a claim of scientific impact.
+
+
+## Conditional discrete response-tail analysis during pressure wait
+
+Derived an exact-arithmetic scalar bound for known states with abs(xi)>0:
+velocity tail <=4*beta*a²*exp(-beta*abs(xi)); curvature tail
+<=4*abs(b)*gap²/[E*(E+abs(xi))]. Triangle inequality preserves signed weights.
+DISCRETE_RESPONSE_TAIL_BOUND.md gives proof, uniform-cutoff form, reproduction
+and scope. discrete_response_tail001_result.json records720 binary64
+falsification controls PASS with explicit rounding comparison slack; maximum
+unadjusted excess1.417619379281939e-16 is retained. This is not an interval
+certificate, material uncertainty bound or repair of missing DOS support. No
+cutoff/native/source change. Could qualify truncation of known high-energy
+states only after a qualified gap/envelope and rounding treatment. Recovery
+watcher67620 was verified live at pressure2; no duplicate owner launched.
