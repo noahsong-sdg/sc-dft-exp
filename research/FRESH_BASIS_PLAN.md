@@ -131,3 +131,28 @@ sufficient local full-space certificate and transport to stiffness/ratios.
 No such bound has been measured yet. A finite set of actions or a compressed
 condition estimate does not control the unmeasured complement. The existing
 stationary thresholds and registered1% response target remain unchanged.
+
+
+## Nonlinear handoff within the existing interfaces
+
+Use `fresh-gap-context-001` as the reduced driver's geometry directory as well
+as the full checker's point directory. Its native-init arrays are byte-exact
+copies of fresh-gap-init001. This matters because subsequent occupation
+enrichment requires the full seed's point path and reduced geometry path to
+be identical, in addition to exact array/context compatibility.
+
+`reduced_nonlinear_driver.f90` already reads `basis_dir` and `mode_dir` separately.
+If48-vector convergence misses the1e-9 seed target but a later64-vector mode
+passes it, a same-operator48-column representation may seed from that64-column
+mode. The driver checks size/beta/config/context, measures its mode projection
+error and solves only a candidate; the full nonlinear residual remains decisive.
+Keeping48 rather than64 columns leaves capacity for measured occupation-defect
+enrichment under the unchanged64-column cap. This is a prospective handoff,
+not acceptance of a mode or nonlinear representation before those results exist.
+
+The existing full checker can be copied as `verify-gap-seed.x` into a fresh
+verification root, retaining its certified executable hash. The strict reader
+expects that basename and the `moment` receipt label. Set exact native seed
+counts/nx/nmf/ne/beta and the shared context-bundle point; pin every copied
+input and original build/source proof before launch. No new driver variant or
+change to frozen linear-source chains is needed for this path.
