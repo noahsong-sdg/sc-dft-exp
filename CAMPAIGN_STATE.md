@@ -40,16 +40,20 @@ Compressed correction/maxgap2.327317186525163e-5 (0.0023273%), but one native
 probe inverse defect0.48070172169141706; no full-space error acceptance.
 [Result](research/portable_inverse_material001_result.json),
 [interpretation/cost](research/INVERSE_MATERIAL_805K.md).
-Only kernel-orientation001 microprobe admitted:12pins,30s/quiet120/3GiB.
-[Manifest](research/kernel_orientation001_manifest.json). No full sweep or
+Kernel-orientation001 terminalPASS0.8111217501573265s, all12pins, exact
+public function generation/24row replay/receipt PASS; individual max49004544B.
+[Result](research/kernel_orientation001_result.json). Kernel1 symmetric controls
+PASS; kernel2 finiteT pair asymmetry up to14.2146%, cycle deviation3.3532e-5.
+These pair diagnostics do not qualify a material diagonal symmetrizer or full
+condition bound. No next native owner/job admitted. No full sweep or
 budget increase admitted. Next trace actual
 correction full action and kernel structure for a justified full-space bound;
 finite probes/refined residuals alone cannot bound unmeasured directions.
 Cheap exhaustive geometry screen found all134807 active dk strictly positive;
 a weighted-metric route is a hypothesis pending kernel reciprocity/normalization
-checks. Kernel source trace shows activekernel2, while onlykernel1 explicitly
-canonicalizes swapped energies; standalone exact-source orientation control is
-the next cheap falsification. Existing full probe hardcodes its direction; arbitrary correction would
+checks. Exact-source activekernel2 orientation control now rejects assuming
+pair symmetry; retain nonsymmetric full-space protocol. FiniteT cycle deviations
+are diagnostics without outward error enclosure, not a proof for the material sum. Existing full probe hardcodes its direction; arbitrary correction would
 require explicit new source/checkpoint qualification, not silent reuse.
  Reduced singular values/probe agreement cannot supply a full-space
 bound. Preserve all frozen sources/inputs; Brave/otherstudy untouched.
@@ -88,8 +92,8 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall20589.35977421267s; ceiling21600s leaves
-1010.6402257873306s. Only30s microprobe admitted; worst leaves980.6402257873306s. No automatic retry or budget increase.
+Actual guarded campaign wall20590.170895962827s; ceiling21600s leaves
+1009.8291040371732s. No next native job admitted. No automatic retry or budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
@@ -116,7 +120,7 @@ controls do not qualify the Nb functional or fit a physical normalization.
 
 Latest code checks:231tests PASS24.086s including native fixture builds;
 226maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
-No separate configured typecheck. Public CI46125471800 on8653ee8 PASS; runner CI46126020760 on4e0fecf PASS; material-result CI46126382268 on2ac1a50 PASS.
+No separate configured typecheck. Public CI46125471800 on8653ee8 PASS; runner CI46126020760 on4e0fecf PASS; material-result CI46126382268 on2ac1a50 PASS; orientation helper CI46126757526 onf10730c PASS.
 Current docs/results do not replace native or scientific qualification.
 
 Chronology remains in RESEARCH_LEDGER.md and immutable public commits. The former

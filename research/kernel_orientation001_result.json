@@ -1,0 +1,370 @@
+{
+  "rows": [
+    {
+      "kernel": 1,
+      "zero_kelvin": false,
+      "point": 1,
+      "x": 0.0001,
+      "y": 0.0007,
+      "z": 0.002,
+      "forward": -705.2905799197667,
+      "reverse": -705.2905799197667,
+      "ratio": 1.0,
+      "relative_asymmetry": 0.0
+    },
+    {
+      "kernel": 1,
+      "zero_kelvin": false,
+      "point": 2,
+      "x": 0.0007,
+      "y": 0.003,
+      "z": 0.002,
+      "forward": -350.8770684637142,
+      "reverse": -350.8770684637142,
+      "ratio": 1.0,
+      "relative_asymmetry": 0.0
+    },
+    {
+      "kernel": 1,
+      "zero_kelvin": false,
+      "point": 3,
+      "x": 0.003,
+      "y": 0.0001,
+      "z": 0.002,
+      "forward": -389.5366487325784,
+      "reverse": -389.5366487325784,
+      "ratio": 1.0,
+      "relative_asymmetry": 0.0
+    },
+    {
+      "kernel": 1,
+      "zero_kelvin": false,
+      "point": 4,
+      "x": 0.0003,
+      "y": 0.004,
+      "z": 0.001,
+      "forward": -377.22402321510214,
+      "reverse": -377.22402321510214,
+      "ratio": 1.0,
+      "relative_asymmetry": 0.0
+    },
+    {
+      "kernel": 1,
+      "zero_kelvin": false,
+      "point": 5,
+      "x": 0.004,
+      "y": 0.012,
+      "z": 0.001,
+      "forward": -117.64705958502554,
+      "reverse": -117.64705958502554,
+      "ratio": 1.0,
+      "relative_asymmetry": 0.0
+    },
+    {
+      "kernel": 1,
+      "zero_kelvin": false,
+      "point": 6,
+      "x": 0.012,
+      "y": 0.0003,
+      "z": 0.001,
+      "forward": -150.3561098321475,
+      "reverse": -150.3561098321475,
+      "ratio": 1.0,
+      "relative_asymmetry": 0.0
+    },
+    {
+      "kernel": 1,
+      "zero_kelvin": true,
+      "point": 1,
+      "x": 0.0001,
+      "y": 0.0007,
+      "z": 0.002,
+      "forward": -714.2857142857143,
+      "reverse": -714.2857142857143,
+      "ratio": 1.0,
+      "relative_asymmetry": 0.0
+    },
+    {
+      "kernel": 1,
+      "zero_kelvin": true,
+      "point": 2,
+      "x": 0.0007,
+      "y": 0.003,
+      "z": 0.002,
+      "forward": -350.8771929824561,
+      "reverse": -350.8771929824561,
+      "ratio": 1.0,
+      "relative_asymmetry": 0.0
+    },
+    {
+      "kernel": 1,
+      "zero_kelvin": true,
+      "point": 3,
+      "x": 0.003,
+      "y": 0.0001,
+      "z": 0.002,
+      "forward": -392.156862745098,
+      "reverse": -392.156862745098,
+      "ratio": 1.0,
+      "relative_asymmetry": 0.0
+    },
+    {
+      "kernel": 1,
+      "zero_kelvin": true,
+      "point": 4,
+      "x": 0.0003,
+      "y": 0.004,
+      "z": 0.001,
+      "forward": -377.35849056603774,
+      "reverse": -377.35849056603774,
+      "ratio": 1.0,
+      "relative_asymmetry": 0.0
+    },
+    {
+      "kernel": 1,
+      "zero_kelvin": true,
+      "point": 5,
+      "x": 0.004,
+      "y": 0.012,
+      "z": 0.001,
+      "forward": -117.6470588235294,
+      "reverse": -117.6470588235294,
+      "ratio": 1.0,
+      "relative_asymmetry": 0.0
+    },
+    {
+      "kernel": 1,
+      "zero_kelvin": true,
+      "point": 6,
+      "x": 0.012,
+      "y": 0.0003,
+      "z": 0.001,
+      "forward": -150.37593984962407,
+      "reverse": -150.37593984962407,
+      "ratio": 1.0,
+      "relative_asymmetry": 0.0
+    },
+    {
+      "kernel": 2,
+      "zero_kelvin": false,
+      "point": 1,
+      "x": 0.0001,
+      "y": 0.0007,
+      "z": 0.002,
+      "forward": -921.2799518447544,
+      "reverse": -933.8415559424782,
+      "ratio": 0.986548463154388,
+      "relative_asymmetry": 0.013451536845611942
+    },
+    {
+      "kernel": 2,
+      "zero_kelvin": false,
+      "point": 2,
+      "x": 0.0007,
+      "y": 0.003,
+      "z": 0.002,
+      "forward": -433.0812987624464,
+      "reverse": -451.53594066968367,
+      "ratio": 0.9591291849772429,
+      "relative_asymmetry": 0.040870815022757086
+    },
+    {
+      "kernel": 2,
+      "zero_kelvin": false,
+      "point": 3,
+      "x": 0.003,
+      "y": 0.0001,
+      "z": 0.002,
+      "forward": -514.6032959925174,
+      "reverse": -486.915423585914,
+      "ratio": 1.0568638228846696,
+      "relative_asymmetry": 0.053804304446207686
+    },
+    {
+      "kernel": 2,
+      "zero_kelvin": false,
+      "point": 4,
+      "x": 0.0003,
+      "y": 0.004,
+      "z": 0.001,
+      "forward": -437.71491451326796,
+      "reverse": -481.29493497512414,
+      "ratio": 0.9094525678644247,
+      "relative_asymmetry": 0.0905474321355753
+    },
+    {
+      "kernel": 2,
+      "zero_kelvin": false,
+      "point": 5,
+      "x": 0.004,
+      "y": 0.012,
+      "z": 0.001,
+      "forward": -89.89415912745325,
+      "reverse": -95.30074117315385,
+      "ratio": 0.9432682056913149,
+      "relative_asymmetry": 0.056731794308685114
+    },
+    {
+      "kernel": 2,
+      "zero_kelvin": false,
+      "point": 6,
+      "x": 0.012,
+      "y": 0.0003,
+      "z": 0.001,
+      "forward": -188.85036410275612,
+      "reverse": -162.0060183526089,
+      "ratio": 1.1656996821668688,
+      "relative_asymmetry": 0.1421461159351583
+    },
+    {
+      "kernel": 2,
+      "zero_kelvin": true,
+      "point": 1,
+      "x": 0.0001,
+      "y": 0.0007,
+      "z": 0.002,
+      "forward": -933.2585271819661,
+      "reverse": -946.8801541313328,
+      "ratio": 0.9856142016601211,
+      "relative_asymmetry": 0.014385798339878804
+    },
+    {
+      "kernel": 2,
+      "zero_kelvin": true,
+      "point": 2,
+      "x": 0.0007,
+      "y": 0.003,
+      "z": 0.002,
+      "forward": -433.0814740049424,
+      "reverse": -451.536148968284,
+      "ratio": 0.9591291306232984,
+      "relative_asymmetry": 0.040870869376701646
+    },
+    {
+      "kernel": 2,
+      "zero_kelvin": true,
+      "point": 3,
+      "x": 0.003,
+      "y": 0.0001,
+      "z": 0.002,
+      "forward": -518.9684185271259,
+      "reverse": -490.597085784554,
+      "ratio": 1.0578302105019661,
+      "relative_asymmetry": 0.0546687076317515
+    },
+    {
+      "kernel": 2,
+      "zero_kelvin": true,
+      "point": 4,
+      "x": 0.0003,
+      "y": 0.004,
+      "z": 0.001,
+      "forward": -437.94966310051075,
+      "reverse": -481.6049325483289,
+      "ratio": 0.9093546047860767,
+      "relative_asymmetry": 0.09064539521392334
+    },
+    {
+      "kernel": 2,
+      "zero_kelvin": true,
+      "point": 5,
+      "x": 0.004,
+      "y": 0.012,
+      "z": 0.001,
+      "forward": -89.89415849395108,
+      "reverse": -95.3007405478611,
+      "ratio": 0.9432682052329407,
+      "relative_asymmetry": 0.05673179476705922
+    },
+    {
+      "kernel": 2,
+      "zero_kelvin": true,
+      "point": 6,
+      "x": 0.012,
+      "y": 0.0003,
+      "z": 0.001,
+      "forward": -188.94532755844807,
+      "reverse": -162.07074292716612,
+      "ratio": 1.1658200866232795,
+      "relative_asymmetry": 0.14223471402312715
+    }
+  ],
+  "cycles": [
+    {
+      "kernel": 1,
+      "zero_kelvin": false,
+      "cycle": 1,
+      "ratio_product": 1.0
+    },
+    {
+      "kernel": 1,
+      "zero_kelvin": false,
+      "cycle": 2,
+      "ratio_product": 1.0
+    },
+    {
+      "kernel": 1,
+      "zero_kelvin": true,
+      "cycle": 1,
+      "ratio_product": 1.0
+    },
+    {
+      "kernel": 1,
+      "zero_kelvin": true,
+      "cycle": 2,
+      "ratio_product": 1.0
+    },
+    {
+      "kernel": 2,
+      "zero_kelvin": false,
+      "cycle": 1,
+      "ratio_product": 1.0000335320189855
+    },
+    {
+      "kernel": 2,
+      "zero_kelvin": false,
+      "cycle": 2,
+      "ratio_product": 1.0000044387349216
+    },
+    {
+      "kernel": 2,
+      "zero_kelvin": true,
+      "cycle": 1,
+      "ratio_product": 0.9999999999999998
+    },
+    {
+      "kernel": 2,
+      "zero_kelvin": true,
+      "cycle": 2,
+      "ratio_product": 0.9999999999999998
+    }
+  ],
+  "full_material_reciprocity_verified": false,
+  "conditioned_gap_error_bounded": false,
+  "scope": "Exact-source pair controls, not exhaustive material tiles or a full-space certificate.",
+  "manifest_sha256": "bdf68b920a102ca6cad90bdaf7bd61a39d89f70f99b390a96a2476d0a5d9bbb3",
+  "inputs_unchanged": true,
+  "output_sha256": "c446e8f4592aff1765dc29c7724da20ccffe2e05b07fef827fe8269dee8803ab",
+  "terminal_guard_pass": true,
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "/Users/noahs/Developer/sc-dft-exp/research/kernel_orientation_probe.py"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/kernel-orientation-001",
+    "wall_s": 0.8111217501573265,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 49004544,
+    "sampled_peak_group_rss_bytes": 1114112,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 30.0,
+    "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+  },
+  "verified_input_count": 12,
+  "readback_sha256": "991dd64f9db46900ae410d14bcc010f567fcbe5b0bd318d1b14cd6b04daaefd8",
+  "generated_source_sha256": "a44e4eb37f8f5e4a19eb68a6b853b7fddfabad35e5e79dbdfd3b307b4f4f0228",
+  "executable_sha256": "3772d14a81f0dcb5c6a4df3d0e99a2afbed667f087fefdca71f2c9d26b150d89"
+}
