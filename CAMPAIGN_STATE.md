@@ -34,12 +34,16 @@ Inverse source build001 terminalPASS1.2207348332740366s; all31pins and exact
 three-source/public-library console/plan match. Individual descendant maximum
 84475904B;2s group sampling misses the short compiler peak.
 [Build result](research/portable_inverse_build001_result.json).
-Fresh material runner binds accepted full016 lineage, reduced004 candidate,
-source-built executable and immutable parent closures before diagnostics.
-Admit material001 diagnostic only:1478pins,240s/quiet120/3GiB, native and
-independent Python readback sequential in one owned group.
-[Manifest](research/portable_inverse_material001_manifest.json). No correction
-application, further native full action or physical response run admitted. Reduced singular values/probe agreement cannot supply a full-space
+Material001 terminalPASS44.31549504166469s, all1478pins/source-lineage and
+independent full matrix/both-action readback PASS; individual peak234225664B.
+Compressed correction/maxgap2.327317186525163e-5 (0.0023273%), but one native
+probe inverse defect0.48070172169141706; no full-space error acceptance.
+[Result](research/portable_inverse_material001_result.json),
+[interpretation/cost](research/INVERSE_MATERIAL_805K.md).
+No next native owner/job or budget increase admitted. Next trace actual
+correction full action and kernel structure for a justified full-space bound;
+finite probes/refined residuals alone cannot bound unmeasured directions.
+ Reduced singular values/probe agreement cannot supply a full-space
 bound. Preserve all frozen sources/inputs; Brave/otherstudy untouched.
 
 ## Latest accepted evidence
@@ -76,9 +80,8 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall20545.044279171005s; ceiling21600s leaves
-1054.9557208289953s. A material diagnostic240s would leave
-814.9557208289953s reserve; only this bounded diagnostic is admitted. No automatic retry or budget increase.
+Actual guarded campaign wall20589.35977421267s; ceiling21600s leaves
+1010.6402257873306s. No next native job is admitted. No automatic retry or budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
@@ -105,7 +108,7 @@ controls do not qualify the Nb functional or fit a physical normalization.
 
 Latest code checks:229tests PASS24.818s including native fixture builds;
 224maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
-No separate configured typecheck. Public CI46125471800 on8653ee8 PASS; new runner CI pending publication.
+No separate configured typecheck. Public CI46125471800 on8653ee8 PASS; runner CI46126020760 on4e0fecf PASS.
 Current docs/results do not replace native or scientific qualification.
 
 Chronology remains in RESEARCH_LEDGER.md and immutable public commits. The former
