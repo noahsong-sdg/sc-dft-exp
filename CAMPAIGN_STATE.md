@@ -94,8 +94,12 @@ forecast490.89–545.04s versus8.42–9.69s. **No fullnorm/solver speedup claim.
 [Result](research/tile_blas_feasibility001_result.json),
 [method/evidence](research/TILE_BLAS_FEASIBILITY.md). Committed synthetic binaries
 and summaries permit offline arithmetic replay. Current native producer has
-32-row blocks; test actual32-row layout or accounted buffering and error controls
-before full integration/admission. Kernel/IO/radius/rounding work remains open.
+32-row blocks. New separate streamed defect core passes exact dense I-BJ controls
+on actual32-row strided/native-bound layouts, including partial tiles and both
+same-side blocks. [Core](research/STREAMED_DEFECT_CORE.md). Next source-bind the
+compact/padded adapter and native tile producer, then qualify selected actual
+tiles before a full pass. No material norm/timing or outward certificate yet.
+Kernel/IO/radius/rounding work remains open.
 The exact [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md) includes
 same-side blocks and avoids a145GB dense matrix;2.78Tflops is not runtime evidence.
 [Method and interpretation](research/CORRECTION_INVERSE_DIAGNOSTIC.md).
@@ -165,14 +169,14 @@ Conditional gap-to-response derivative and outward ratio helpers exist, but no
 material gap radius/stiffness intervals are certified. Analytic parabolic/current
 controls do not qualify the Nb functional or fit a physical normalization.
 
-Latest code checks:275tests PASS38.915s including native fixture builds;
-257maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
+Latest code checks:278tests PASS42.086s including native fixture builds;
+258maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
 No separate configured typecheck. Public latest helper/resultCI46131518726 on7e37f98 PASS; prospective final-halfCI46131592238 on1d335c8 PASS. Earlier CI46125471800 on8653ee8 PASS; runner CI46126020760 on4e0fecf PASS; material-result CI46126382268 on2ac1a50 PASS; orientation helper CI46126757526 onf10730c PASS; result CI46126994654 on3997c72 PASS; direction helper CI46127521198 onad67046 PASS; result CI46127763049 on6a12d8c PASS; step helperCI46128222986 on1084b00 PASS; readerCI46128690566 ond839ced PASS; preparation helperCI46129155495 on79344e4 PASS.
 Latest streamed helper CI46132810239 onf7fdd9d PASS; prospective manifest
 CI46132854664 one59e821 PASS. Previous resultCI46133492457 one6aeff2 PASS;
 secant helperCI46133944602 on285e13e and prospectiveCI46133984159 ona95c65d PASS;
 secant resultCI46134385800 on7f27443 PASS. Tile sourceCI46135078932 on1c44258 and
-prospectiveCI46135120773 onb210279 PASS.
+prospectiveCI46135120773 onb210279 PASS; tile evidenceCI46135532189 onf60eb52 PASS.
 Current docs/results do not replace scientific qualification.
 
 Chronology remains in RESEARCH_LEDGER.md and immutable public commits. The former
