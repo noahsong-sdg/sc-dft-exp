@@ -55,3 +55,28 @@ ordinary binary64 diagnostics, without outward/full-space/physical certification
 Final source gate329testsPASS53.835s incl native fixture builds;305Python sources
 compilePASS; moment_refinement exit0; diffcheckPASS. No separate configured
 typecheck. Prior material result8c1fd24 CI46148893255PASS.
+
+## Accepted complete result001
+
+TerminalPASS507.8289217497222s, maxindividual1014677504B (~967.67MiB), sampled
+group1022738432B (~975.36MiB). All1942staged/1954accepted closure pins, exact
+consumed manifest/receipt/watcher and six output identities checked.
+[Result](enrichment_action_complete001_result.json). All66867left rows executed,
+66ordered progress records including final19-row tile. Complete_A_and_P=true;
+this describes executed finite-dimensional action/P coverage, not a full defect
+norm, conditioned gap error or physical response.
+
+27independent saved-row A-action controls (six left and three right rows, each
+three columns) and9bilinear P controls PASS. Maxabsoluteerror2.5153490401663703e-16,
+maxerror/bound0.00014590863190993718. Ddifference4.440892098500626e-16.
+Native kernel/contraction CPU451.51347599999843/22.361699000000783s are sections,
+not full workflow time. Actual guarded507.829s includes native initialization,
+Python readback and final input checks. Parent replay/staging and quiet wait
+remain separate costs. Sourceba807d7 CI46149069233PASS.
+
+Charge22544.771201837193s/25200 leaves2655.228798162807s; no expansion.
+All owners terminal. Full actions and extra P now enable constructing a54-column
+inverse diagnostic, but no inverse has been adopted. Next follow the fixed
+[augmented-inverse protocol](ENRICHED_INVERSE_PROTOCOL.md), including old/new
+complete training/held-out row comparisons before any full second sweep.
+No new compute is admitted by this result. Brave/other study untouched.

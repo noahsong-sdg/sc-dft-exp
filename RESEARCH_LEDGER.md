@@ -5302,3 +5302,18 @@ and no partial marker.1942pins,900s/quiet120/3GiB. Currentcharged22036.942280087
 separate.329testsPASS53.835s/305Python compiles/native builds/moment/diffcheck
 PASS. Prior result8c1fd24 CI46148893255PASS. See FULL_ENRICHMENT_ADMISSION.md.
 No new inverse or full defect sweep admitted.
+
+### 2026-11-28 — complete new interaction actions and extra projection accepted
+
+Full001 terminalPASS507.8289217497222s, individual peak1014677504B (~967.67MiB),
+sampled group1022738432B.1942staged/1954accepted closure pins and six outputs/
+exact receipt/watcher checked. All66867rows with66progress records/final19rows.
+27saved-row/9bilinear controls PASS, maxerror2.5153490401663703e-16,
+maxerror/bound0.00014590863190993718. Complete_A_and_P=true; no full defect norm,
+new adopted inverse or physical response. Kernel/contraction451.513476/22.361699s
+are sections. Sourceba807d7 CI46149069233PASS;329tests/305Python/native fixtures/
+moment source gate remains valid. Charge22544.771201837193s/25200 leaves
+2655.228798162807s. All owners terminal; no new compute/expansion admitted.
+Fixed premeasurement enriched-inverse protocol now public; training and held-out
+rows unchanged, any row>=1 rejects candidate for this contraction route.
+See research/FULL_ENRICHMENT_ADMISSION.md and enrichment_action_complete001_result.json.
