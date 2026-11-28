@@ -30,8 +30,10 @@ low_rank_inverse.f90 core computes M=I-Q^T D U, small singular values, B actions
 and independent Jmodel inverse residuals. Dense nonsymmetric/sign, singular,
 invalid-input and unmeasured-complement controls pass; no material estimate yet.
 [Method and next driver](research/LOW_RANK_INVERSE_DIAGNOSTIC.md).
-Next implement a file-bound driver/readback and validate exact accepted candidate
-and context before a bounded material run. Reduced singular values/probe agreement
+File-bound inverse driver and separate Makefile now pass source-built fixture
+checks of derivative/actions/singular values and stale context/candidate/payloads.
+Next implement independent output readback and pin a public-library source build
+plus accepted candidate closure before any material launch. Reduced singular values/probe agreement
 cannot supply a full-space bound. Preserve all frozen sources/inputs; Brave and
 other study untouched.
 
@@ -97,9 +99,9 @@ Conditional gap-to-response derivative and outward ratio helpers exist, but no
 material gap radius/stiffness intervals are certified. Analytic parabolic/current
 controls do not qualify the Nb functional or fit a physical normalization.
 
-Latest code checks:223tests PASS22.481s including native fixture builds;
-220maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
-No separate configured typecheck. Public CI46124035342 on57a889f PASS.
+Latest code checks:225tests PASS25.296s including native fixture builds;
+221maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
+No separate configured typecheck. Public CI46124350585 onc9661ee PASS.
 Current docs/results do not replace native or scientific qualification.
 
 Chronology remains in RESEARCH_LEDGER.md and immutable public commits. The former

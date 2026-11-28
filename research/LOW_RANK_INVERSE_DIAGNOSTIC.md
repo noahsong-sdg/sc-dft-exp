@@ -46,15 +46,44 @@ bound. Its scientific limitation is structural, not a tolerance to relax.
 No separate configured typecheck. This tests the core, not an actual material
 inverse estimate or response uncertainty.
 
+## File-bound driver controls
+
+low_rank_inverse_driver.f90 now reads an explicit versioned control, retained
+basis metadata/payload, initialized geometry, seed metadata/binary and full-map
+summary/binary. It requires matching beta/operator/configuration, dimensions,
+bitwise seed preservation, orthonormal basis and zero inactive padding. It
+recomputes both residual statistics and requires the original passing targets
+before using the state for inverse diagnostics. It does not rerun the kernel or
+independently certify a fabricated full-map input; the prospective staging and
+readback must bind these files to the accepted full-segment016 certificate.
+
+The driver reuses the unchanged occupation_ratio derivative and inverse_actions
+core. It computes B*Rnative and B*(-Jnative*v)-v, without overwriting the accepted
+candidate. The separate low_rank_inverse.mk builds only these three inspected
+sources against the configured BLAS/LAPACK libraries; production targets remain
+unchanged. Diagnostic output retains D, correction, probe defect, small matrix
+and singular values, with explicit NO full-space bound text.
+
+Actual source-built fixture readback independently checks the exponential
+occupation derivative, the returned inverse action, every small-matrix entry,
+analytic2x2 singular values and zero padding. Rejection controls cover stale
+operator/beta/configuration/geometry, truncated payloads, bitwise candidate
+changes (including signed zero), nonfinite state, nonzero padding and trailing
+metadata. No diagnostic output is accepted in these stale cases.
+
+225 offline tests PASS25.296s including native builds/execution;221maintained
+Python sources compilePASS; moment_refinement exit0; diffcheckPASS. No separate
+configured typecheck. These fixtures use their declared test libraries; no
+actual public-library material build/run has yet been accepted.
+
 ## Next bounded material step
 
-Add a separate driver and strict file-bound tests before launch. Bind Q/U,
-geometry, beta, operator, full candidate, Rnative, direction and Jnative to the
-accepted full-segment016 manifest/result. Recompute the occupation derivative;
-exclude padding from reported norms. Save the small matrix/singular values,
-correction and probe defect with independent readback. Source-build against the
-already-qualified public BLAS/LAPACK closure; never reuse historical custom
-objects or change the accepted residual candidate in place.
+Implement independent file-bound output readback and staging that inherits the
+accepted full-segment016 input closure/result. Source-build against the already
+qualified public BLAS/LAPACK closure, pinning compiler/configuration/libraries
+and excluding historical custom objects. Check derivative and inverse-action
+outputs independently before interpreting material diagnostics. Exclude padding
+from norms; keep the native residual and Jacobian signs explicit.
 
 Check the full action on a useful correction and the actual nonlinear residual
 before interpreting a refined candidate. Neither this module nor those probes
