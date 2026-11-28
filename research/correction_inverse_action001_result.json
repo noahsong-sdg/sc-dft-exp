@@ -1,0 +1,52 @@
+{
+  "independent_action_max_errors": [
+    5.801782665404431e-14,
+    1.1026735598502754e-23,
+    2.0691632217329887e-23
+  ],
+  "independent_action_bounds": [
+    1.639649808478768e-10,
+    3.5273124351480193e-20,
+    5.502435566905601e-20
+  ],
+  "conditioned_gap_error_bounded": false,
+  "physical_response_verified": false,
+  "inputs_unchanged": true,
+  "terminal_guard_pass": true,
+  "manifest_sha256": "473c5424ddec077d9fccd9b6a6be44d8ce4ec91a6a27fa556116f920581473df",
+  "correction_direction_inverse_defect_ratio": 0.6410778371097358,
+  "frozen_inverse_plus_residual_infinity_ry": 3.5273124350480197e-10,
+  "frozen_inverse_plus_residual_over_original_correction": 0.6410456591853905,
+  "original_native_correction_max_difference_ry": 2.481541837659083e-24,
+  "original_native_correction_bound_ry": 5.502435566905601e-20,
+  "outputs_sha256": {
+    "inverse-actions.bin": "d4f985e1ea7ef1fc865c03c338c2e43f0a2b4bf7123bbd44a9b8e40e78e5b288"
+  },
+  "scope": "Frozen base-point B on J(base)*v and R(base+c); finite diagnostics, no full-space error bound or new-point inverse.",
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "/Users/noahs/Developer/sc-dft-exp/research/correction_inverse_run.py"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/correction-inverse-action-001",
+    "wall_s": 23.520716750063002,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 105431040,
+    "sampled_peak_group_rss_bytes": 105431040,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 90.0,
+    "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+  },
+  "verified_input_count": 1589,
+  "readback_sha256": "36bd37c71d8910c663efc896038a9fb9cb95824d7c8a70dd7edab53ac4e68c07",
+  "output_files": {
+    "inverse-actions.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/correction-inverse-action-001/inverse-actions.bin",
+      "bytes": 3261120,
+      "sha256": "d4f985e1ea7ef1fc865c03c338c2e43f0a2b4bf7123bbd44a9b8e40e78e5b288"
+    }
+  }
+}

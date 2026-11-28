@@ -73,16 +73,20 @@ Original base gap/residual preserved bitwise; d0+h*v equals d0+c bitwise.
 Plus gapSHAc5ad7e2a2d1e18debacd22e4162db2256193b344e29e90cf84e70967d43cc507.
 No seed overwritten, full-space error or physical-response acceptance.
 
-Streamed inverse-action001 admitted90s/quiet120/3GiB,1589pins, no kernel call.
-[Manifest](research/correction_inverse_action001_manifest.json). Only this action;
-no retry/budgetincrease. After its terminal evidence assess the full-space norm route's validity
-and source-built tile cost before any budget expansion. The latter has an exact
-[streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md), with same-side blocks
-required, avoiding a145GB dense matrix;2.78Tflops estimate is not runtime evidence.
-The inverse helper passes independent rational/finite/stale/allocation controls.
-New owning runner and cross-Fortran baseline check now tested; material run still
-not admitted. [Method](research/CORRECTION_INVERSE_DIAGNOSTIC.md). Full correction postread measured14.195769s
-and75923456B process peak separately from native wall; no controlled memory claim.
+Streamed inverse-action001 terminalPASS23.520716750063002s, peak105431040B
+(~100.55MiB); all1589pins and three independent equation controls PASS.
+[Result](research/correction_inverse_action001_result.json). Original native
+correction reproduced within2.481541837659083e-24Ry. Useful-direction inverse
+defect0.6410778371097358; frozen B times plus residual/original correction
+0.6410456591853905. Neither is a gap/response error bound or global contraction.
+This reuses saved native images without a kernel sweep or resident basis copy;
+no controlled before/after memory comparison. All owners terminal, no next run
+or budget increase admitted. Assess improving this inverse and the full-space
+norm route's validity/source-built tile cost before further material admission.
+The exact [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md) includes
+same-side blocks and avoids a145GB dense matrix;2.78Tflops is not runtime evidence.
+[Method and interpretation](research/CORRECTION_INVERSE_DIAGNOSTIC.md).
+Full correction postread14.195769s/75923456B remains separate from native wall.
 Kernel2 source orientation controls showed14.2146% pair asymmetry; positive dk
 alone supplies no accepted symmetric metric. Finite probe agreement cannot
 bound the unmeasured complement. Brave/otherstudy untouched.
@@ -121,8 +125,8 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall21303.94025062941s; ceiling21600s leaves
-296.05974937059s. Only inverse-action001 admitted90s; worst remainder206.05974937059s. No automatic retry or budget increase.
+Actual guarded campaign wall21327.460967379473s; ceiling21600s leaves
+272.539032620527s. No next run, automatic retry or budget increase admitted.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
@@ -150,7 +154,8 @@ controls do not qualify the Nb functional or fit a physical normalization.
 Latest code checks:262tests PASS38.291s including native fixture builds;
 249maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
 No separate configured typecheck. Public latest helper/resultCI46131518726 on7e37f98 PASS; prospective final-halfCI46131592238 on1d335c8 PASS. Earlier CI46125471800 on8653ee8 PASS; runner CI46126020760 on4e0fecf PASS; material-result CI46126382268 on2ac1a50 PASS; orientation helper CI46126757526 onf10730c PASS; result CI46126994654 on3997c72 PASS; direction helper CI46127521198 onad67046 PASS; result CI46127763049 on6a12d8c PASS; step helperCI46128222986 on1084b00 PASS; readerCI46128690566 ond839ced PASS; preparation helperCI46129155495 on79344e4 PASS.
-Current docs/results do not replace native or scientific qualification.
+Latest streamed helper CI46132810239 onf7fdd9d PASS; prospective manifest
+CI46132854664 one59e821 PASS. Current docs/results do not replace scientific qualification.
 
 Chronology remains in RESEARCH_LEDGER.md and immutable public commits. The former
 1897line status page is preserved at
