@@ -4729,3 +4729,15 @@ Full discovery284PASS42.456s; compile262Python filesPASS; gfortran -O2
 research/compact_defect_io.f90 PASS; moment_refinement.py exit0; diffcheckPASS.
 No configured separate typecheck. No material time charged at this checkpoint.
 [Method](research/COMPACT_DEFECT_STATE.md). No full norm/error/physical acceptance.
+
+### 2026-11-28 — prospective compact preparation001 admission
+
+Public source991b862;1598input pins, accepted correction-inverse-action001 parent.
+Fresh raw/compact-defect-prepare-001; own90s deadline,120continuous normal-pressure
+seconds before launch,3GiB group/workspace caps. Source/basis preparation and
+three saved-action calibrations only; no native kernel pass or seed promotion.
+Charged total before launch21352.417154796272s/21600, remainder247.58284520372763s.
+Worst90s leaves157.58284520372763s; no budget expansion. Pressure1 and no own
+live solver/watcher observed before admission. Brave and other study untouched.
+[Manifest](research/compact_defect_prepare001_manifest.json). All terminal
+receipts and output hashes must be checked before any result acceptance.
