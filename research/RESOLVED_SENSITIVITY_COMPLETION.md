@@ -64,3 +64,21 @@ Staged1865pins; parent validation/stage4.685455750208348s separate workflow cost
 Final333testsPASS54.039s incl native fixture builds;311Python sources compile
 PASS; moment_refinement exit0; diffcheckPASS. No separate configured typecheck.
 Rejected candidate result5d51a2c CI46150971899PASS.
+
+## Accepted preparation001
+
+TerminalPASS21.540965541731566s, maxindividual/sampled group119046144B
+(~113.53MiB).1865staged/1872accepted closure pins, terminal receipt/watcher,
+exact manifest and trial output hash checked. [Result](resolved_sensitivity_prepare001_result.json).
+Six omitted vectors reconstruct with Gram error2.5807085046736233e-7 and action
+error1.3411674757591717e-10. Mapped targets have old54-column squared projections
+6.78e-6–5.12e-5; all six remain outside that span. After reorthogonalization,
+maxorthogonality1.5912384906882327e-17 and maxreconstruction4.0780352630996467e-16.
+Combined trial count9, original3prefix bitwise unchanged. No A actions/new inverse.
+Sourcec33d133 CI46151286367PASS.
+
+Charge22596.58254421208s/25200 leaves2603.4174557879196s. All owners terminal.
+Next source/fixture-qualify a nine-input joint-action variant with the fresh
+held-out rows above, then a selected material pilot. Only after those pass may
+a separate complete pass be admitted. All original kernel contexts/physics and
+old producer artifacts remain unchanged. No new kernel run admitted here.

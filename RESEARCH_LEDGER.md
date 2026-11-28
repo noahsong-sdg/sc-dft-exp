@@ -5354,3 +5354,15 @@ remain validation history.1865pins,120s/quiet120/3GiB, no newinverse/expansion.
 Parentstage4.685455750208348s separate. Charge22575.04157867035s unchangeduntil
 actual. Source scope/algorithm in research/RESOLVED_SENSITIVITY_COMPLETION.md.
 Rejected result5d51a2c CI46150971899PASS.
+
+### 2026-11-28 — all original resolved trial inputs prepared
+
+Preparation001 terminalPASS21.540965541731566s/119046144B (~113.53MiB),1865staged/
+1872accepted closure pins/receipt/watcher/trial hash checked. Six omitted vectors
+Gramerror2.58e-7/actionerror1.34e-10; mappedtargets outsideold54span. Orthogonality
+<=1.60e-17/reconstruction<=4.08e-16. Nine combinedinputs with old3prefix bitwise
+unchanged. No newAactions/inverse. Sourcec33d133 CI46151286367PASS. Charge
+22596.58254421208s/25200 leaves2603.4174557879196s. All owners terminal. Next
+source/fixture-qualify nine-input joint-action variant and selected material pilot;
+no new kernel pass/retry/expansion admitted by this checkpoint. Fresh holdouts
+fixed in RESOLVED_SENSITIVITY_COMPLETION.md; old validation history preserved.

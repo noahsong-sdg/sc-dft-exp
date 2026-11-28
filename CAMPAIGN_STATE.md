@@ -203,8 +203,15 @@ REJECTED for unweighted contraction; no full sweep or adopted inverse.
 Read-only E*v postread shows all27 selected-direction components<=3.88e-15;
 repair captured its three directions but remaining errors matter. Original
 training spectrum resolves9directions under its preexisting threshold, only3used.
-Next assess six omitted training-derived directions before spending new kernels;
-any future candidate needs fresh held-out rows and prospective admission.
+Original resolved-span preparation001 now terminalPASS21.540965541731566s/
+119046144B (~113.53MiB),1865staged/1872closure pins and trial hash checked.
+Six omitted mapped directions remain outsideold54span; reorthogonalized targets
+reconstruct<=4.08e-16, old3prefix bitwise unchanged, totaltrial9. No new A actions.
+[Preparation/fresh holdouts](research/RESOLVED_SENSITIVITY_COMPLETION.md),
+[result](research/resolved_sensitivity_prepare001_result.json).
+Next source/fixture-qualify nine-input joint-action variant, selected pilot,
+then separately admit complete pass. Fresh heldouts left66/16717/50150,
+right2/16985/50955 fixed before new results; oldholdouts remain validation history.
 New second-pass native driver and independent coefficient/row readback now pass
 compiled full/partial denseI-BJ controls, both same-side blocks, final short tiles,
 stale predecessor and finite corruption regressions. New owning selected gate
@@ -268,8 +275,8 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall22575.04157867035s; revised local ceiling25200s
-leaves2624.958421329651s. Complete P segment001 is terminalPASS; no native
+Actual guarded campaign wall22596.58254421208s; revised local ceiling25200s
+leaves2603.4174557879196s. Complete P segment001 is terminalPASS; no native
 owner running. No automatic retry/fullnorm pass or further budget
 increase admitted. [Decision and termination plan](research/COMPLETE_P_ADMISSION.md).
 Historical11357.646588s remain separate. Charge terminal actuals, including
@@ -296,14 +303,15 @@ Conditional gap-to-response derivative and outward ratio helpers exist, but no
 material gap radius/stiffness intervals are certified. Analytic parabolic/current
 controls do not qualify the Nb functional or fit a physical normalization.
 
-Latest code checks:331tests PASS53.854s including native fixture builds;
-309maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
+Latest code checks:333tests PASS54.039s including native fixture builds;
+311maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
 Spectrum source/admission5444ebf CI46146669175PASS.
 Enrichment source/admission31bad38 CI46147295398PASS.
 Joint action source/admissionc888baf CI46148038612PASS.
 Selected material source/admissionc080ec4 CI46148570348PASS.
 Full action source/admissionba807d7 CI46149069233PASS.
 Enriched diagnostic source/admissionb93c140 CI46150551746PASS.
+Resolved preparation source/admissionc33d133 CI46151286367PASS.
 No separate configured typecheck. Public latest helper/resultCI46131518726 on7e37f98 PASS; prospective final-halfCI46131592238 on1d335c8 PASS. Earlier CI46125471800 on8653ee8 PASS; runner CI46126020760 on4e0fecf PASS; material-result CI46126382268 on2ac1a50 PASS; orientation helper CI46126757526 onf10730c PASS; result CI46126994654 on3997c72 PASS; direction helper CI46127521198 onad67046 PASS; result CI46127763049 on6a12d8c PASS; step helperCI46128222986 on1084b00 PASS; readerCI46128690566 ond839ced PASS; preparation helperCI46129155495 on79344e4 PASS.
 Latest streamed helper CI46132810239 onf7fdd9d PASS; prospective manifest
 CI46132854664 one59e821 PASS. Previous resultCI46133492457 one6aeff2 PASS;

@@ -1,0 +1,92 @@
+{
+  "terminal_guard_pass": true,
+  "inputs_unchanged": true,
+  "manifest_sha256": "c88572727afe458c9189e4588dae1979232ba60a7270250bca7880a17fbdf3f7",
+  "omitted_eigenvalues": [
+    1.0317514107683268e-08,
+    1.2984068340699909e-07,
+    9.848768616486228e-06,
+    7.28303085197516e-05,
+    8.343675451265973e-05,
+    0.0005188154134183294
+  ],
+  "relative_eigenvalue_threshold": 1e-10,
+  "reconstructed_gram_error": 2.5807085046736233e-07,
+  "reconstructed_action_max_error": 1.3411674757591717e-10,
+  "records": [
+    {
+      "mapped_norm": 0.999006699591856,
+      "old_basis_projection_squared_fraction": 1.400423303694916e-05,
+      "residual_fraction": 0.9999929978589666,
+      "trial_orthogonality_error": 9.659482227234714e-18,
+      "reconstruction_relative_error": 3.457452952522185e-16
+    },
+    {
+      "mapped_norm": 0.99895241756406,
+      "old_basis_projection_squared_fraction": 1.1115931209578971e-05,
+      "residual_fraction": 0.999994141664041,
+      "trial_orthogonality_error": 4.716595632023157e-18,
+      "reconstruction_relative_error": 3.1097163269384566e-16
+    },
+    {
+      "mapped_norm": 0.9957174475721295,
+      "old_basis_projection_squared_fraction": 5.116237427270164e-05,
+      "residual_fraction": 0.9999655277891297,
+      "trial_orthogonality_error": 6.212920778004624e-18,
+      "reconstruction_relative_error": 3.6687977751068453e-16
+    },
+    {
+      "mapped_norm": 0.994934881356956,
+      "old_basis_projection_squared_fraction": 4.342275929741529e-05,
+      "residual_fraction": 0.9999535138270575,
+      "trial_orthogonality_error": 5.890636425500515e-18,
+      "reconstruction_relative_error": 4.0780352630996467e-16
+    },
+    {
+      "mapped_norm": 0.9970532416559093,
+      "old_basis_projection_squared_fraction": 6.778185638652249e-06,
+      "residual_fraction": 0.9999849061816604,
+      "trial_orthogonality_error": 2.8568805821698628e-18,
+      "reconstruction_relative_error": 3.795368002008894e-16
+    },
+    {
+      "mapped_norm": 0.9980907683935324,
+      "old_basis_projection_squared_fraction": 1.0856675708760801e-05,
+      "residual_fraction": 0.9999858292550706,
+      "trial_orthogonality_error": 1.5912384906882327e-17,
+      "reconstruction_relative_error": 3.760247937159445e-16
+    }
+  ],
+  "original_trial_prefix_bitwise_equal": true,
+  "new_columns": 6,
+  "total_trial_columns": 9,
+  "training_only": true,
+  "A_actions_available": false,
+  "inverse_adopted": false,
+  "physical_response_verified": false,
+  "outputs": {
+    "trial-inputs.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/resolved-sensitivity-prepare-001/trial-inputs.bin",
+      "bytes": 9706104,
+      "sha256": "c83c88bb32d1ca764b6dedf231f0e1128fe94bf47b9aba41a9e1b8b6e1d347bb"
+    }
+  },
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "/Users/noahs/Developer/sc-dft-exp/research/resolved_sensitivity_prepare.py"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/resolved-sensitivity-prepare-001",
+    "wall_s": 21.540965541731566,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 119046144,
+    "sampled_peak_group_rss_bytes": 119046144,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 120.0,
+    "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+  },
+  "readback_sha256": "50154ae378ed174cfc634685bb6faca5340ef183f907986bad97ce5ffd20a791"
+}
