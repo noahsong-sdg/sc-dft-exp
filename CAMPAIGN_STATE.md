@@ -1442,3 +1442,23 @@ qualified48-vector seed still fails1e-9; no nonlinear gap or response accepted.
 No maintained source changes; source/build/context handoff29identities and reduced
 executable revalidated unchanged. No new test claim; last required187offline tests,
 194Python compilations and moment refinement passed as recorded previously.
+
+
+## Explicit one-attempt recovery decision after034
+
+Host pressure remains2 at second observation; no other processes are modified.
+The preserved certified033 checkpoint covers rows1:16384; failed034 supplies no
+accepted rows. A fresh037–039 chain may attempt the remaining three intervals
+only after the unchanged120continuous-normal launch gate. Three420s ceilings
+(1260s) fit remaining1429.867679373045s of the initial4h native pilot; no budget
+expansion. Expected native work10–12min based on preceding measured segments,
+not a bound. Scientific value: the final64-vector residual tests whether the
+conventional mode qualifies for a fresh nonlinear candidate, following measured
+6.29fold residual reduction at48. No projected-only cheaper calculation can
+replace these missing full images. No changes to operator, source, gates or64cap.
+Bounded20min normal-pressure watcher; failure terminates this recovery with no
+automatic retry.037uses033 only;038/039require certified predecessors. Native
+receipts including failures charged. Independent64residual/continuity checks
+required before any nonlinear launch. The large agent-token spend remains an
+opportunity cost; this decision authorizes a bounded measured-information test,
+not continued unbounded linear convergence or a claim of scientific impact.
