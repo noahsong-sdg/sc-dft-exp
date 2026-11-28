@@ -16,12 +16,12 @@ Fermi means0.15354515881748107/0.15263833332369223meV, ~0.49% belowrank49;
 coefficient residual4.2934406030425976e-17, not full stationarity.
 [Result](research/portable_reduced_gap003_result.json).
 
-Only `portable-full-map-qualify-004` admitted: candidate-specific continuous64
-versus persisted32+32,180s hard limit after120 normal-pressure seconds,3GiB caps.
-[Prospective manifest](research/portable_full_map_qualify004_manifest.json),1279pins.
-Unchanged source-built executable, operator and finite-temperature arithmetic.
-No production segment/retry admitted; certify terminal qualification first.
-Brave and the other study remain untouched; preserve flux-pinning.
+Qualification004 terminalPASS36.531995916739106s/916668416B;1279pins verified,
+continuous64 vs persisted32+32 bitwise, exact active source state and independent
+occupations PASS. [Result](research/portable_full_map_qualify004_result.json).
+Only `portable-full-map-segment-009` admitted, rows65:16704,480s hard limit,
+quiet120/3GiB. [Manifest](research/portable_full_map_segment009_manifest.json).
+No later segment/retry admitted. Brave/otherstudy untouched; preserve flux-pinning.
 
 Preparation002 strict1249pin readback passes, inherited Q/U bytes identical;
 new q norm1, overlap8.300874945971308e-19, independent exponential image error
@@ -69,10 +69,10 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual new guarded campaign wall19062.205431294944s; six-hour ceiling21600s
-leaves2537.794568705056s. Qualify004 ceiling180 leaves2357.794568705056s.
-Prospective4*480 production ceilings would fit with437.794568705056s reserve,
-but production requires separate evidence/admission. No automatic budget increase.
+Actual guarded campaign wall19098.737427211683s; ceiling21600s leaves
+2501.262572788317s. Segment009 ceiling480 leaves2021.262572788317s.
+Four prospective production ceilings fit with581.262572788317s reserve;
+only segment009 admitted. No automatic budget increase.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
@@ -99,7 +99,7 @@ controls do not qualify the Nb functional or fit a physical normalization.
 
 Latest code checks:220tests PASS22.258s including native fixture builds;
 219maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
-No separate configured typecheck. Public CI46118861940 ona9ad196 PASS.
+No separate configured typecheck. Public CI46119317325 on7912f8c PASS.
 Current docs/results do not replace native or scientific qualification.
 
 Chronology remains in RESEARCH_LEDGER.md and immutable public commits. The former
