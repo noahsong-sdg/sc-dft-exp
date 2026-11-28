@@ -4231,3 +4231,10 @@ Admit exactly portable-full-map-segment-001, rows65:16704, under unchanged guard
 Final gate: python3.13 -m unittest discover -s research -p test_*.py PASS211tests; compile() of210maintained Python sources PASS; python3.13 research/moment_refinement.py exit0; git diff --check PASS. Native fixtures compile and execute in the regression suite. No separate configured typecheck.
 
 Public CI46112365502 on4f10b0d973eaefc90e5091ba6b91f720ec9b433e PASS. Local211tests PASS34.063s. Segment001 quiet120 admitted; guardPID23038/nativePID35518/session8132 live. No numerical result claimed before terminal certification.
+
+
+## First production checkpoint certified; second segment admission
+
+portable-full-map-segment-001 terminalPASS385.9410115000792s, peakindividual/group908525568B. Guard23038/native35518/session8132 terminal. Strict recursive certification verifies1082input pins, exact receipt/public-consumed manifest, contiguous lineage and unchanged active state SHA362bf984be77e2cb50e6fbbef1bdbc8d820d750439b40f316578a2ccf9a58336. Completed16704/66867rows; cumulativekernelCPU296.370858s. Explicit-sum maxdifference1.0462550964485118e-15 <=partialbound1.2841496811515525e-11; independentweightsmaxdiff6.938893903907228e-18 <=1e-14. ImagesSHAe216cfc91646a2e940f6c30298b8f9c1af79fc317cc37b359dc68942bc5a9ef3. No full output/residual or physicalresponse accepted.
+
+New terminal native total17358.32773146065s, remaining4241.67226853935s under21600. Admit only segment002 rows16705:33408, same480s/quiet120/3GiB, immutable state/operator/exe/candidate and arithmetic. Measured segment001 cost385.94s supports this similarly sized interval, not a guaranteed bound. Worst next480 leaves3761.67226853935s. No automatic retry or later segment admission. No owner remains before newlaunch. Existing211tests/210compilations/moment/diffPASS and publicCI46112365502 remain applicable; no code changed. Brave and other study untouched.
