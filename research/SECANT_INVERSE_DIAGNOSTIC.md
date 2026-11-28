@@ -58,3 +58,44 @@ Final source gate:268offline tests PASS38.066s including native compilation/run;
 No separate configured typecheck. Initial attempt used macOS system Python3.9,
 which lacks contextlib.chdir used by existing owning fixtures; rerun with the
 project Python3.13 passed. No runtime/source compatibility change was needed.
+
+## Material result: reject this update
+
+[Secant001](secant_inverse_action001_result.json) passed its owning execution
+guard in21.248003708198667s, individual peak92323840B (~88.05MiB), sampled group
+peak89849856B. All1597pins/source/receipt/public-consumed manifest checks passed.
+This is a small saved-data diagnostic, not a controlled memory comparison.
+
+| Diagnostic | Original B | Rank-one updated B |
+|---|---:|---:|
+| Fitted direction inverse defect |0.6410778371097358|1.1102230246251565e-16|
+| Separate original probe inverse defect |0.48070172169141706|15.233333612168108|
+| Base residual inverse action, Ry |5.502435566805601e-10|1.438905105618171e-10|
+| Plus residual inverse action, Ry |3.5273124350480197e-10|4.2587019897976185e-10|
+
+The apparent training success is imposed by the update. The separate probe
+worsens by about32x and its defect exceeds1, while the plus residual action also
+worsens. Reject this update for the intended unweighted infinity-norm contraction
+route; do not promote its smaller base correction as a gap-error estimate. A
+single measured direction above1 already fails the necessary directional test
+for a global norm below1 on these saved actions. This is an algorithmic rejection,
+not an impossibility result for superconducting response or the original inverse.
+The global scientific gate still needs a genuine full-space/radius certificate.
+
+Independent70digit Decimal readback reconstructed u and w from the saved v,Jv,BJv
+and checked every entry of all four updated actions against a separately
+computed dot product and update. Maximum absolute action errors were1.11e-16,
+1.78e-15,5.17e-26,5.17e-26, below3.28e-13,3.04e-12,1.10e-22,8.52e-23 controls.
+Maximum w relative difference4.45e-16; u agrees exactly. Binary shapes/finiteness,
+output hashes, original/current base gap and residual equality, all diagnostic
+norms and strict terminal receipt also checked. This arithmetic check is
+independent of the update helper, but shares saved native inputs and is not a
+kernel/physical validation. Postread4.7563805831596255s/93552640B process peak
+observed separately, excluded from guarded wall; whole-workflow cost remains open.
+
+Original inverse and seed remain unchanged. All owners terminal. Charged guarded
+total21348.708971087672s/21600 leaves251.291028912328s; no next run, retry or budget
+increase admitted. The next feasible conditioning experiment is a bounded
+source-built tile-throughput/error-control test for the original fixed inverse's
+full streamed norm route, rather than another fitted-direction update. That
+experiment requires its own source qualification, forecast and admission.

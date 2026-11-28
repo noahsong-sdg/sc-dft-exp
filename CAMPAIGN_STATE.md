@@ -80,11 +80,15 @@ correction reproduced within2.481541837659083e-24Ry. Useful-direction inverse
 defect0.6410778371097358; frozen B times plus residual/original correction
 0.6410456591853905. Neither is a gap/response error bound or global contraction.
 This reuses saved native images without a kernel sweep or resident basis copy;
-no controlled before/after memory comparison. Only saved-action secant001 admitted60s/quiet120/3GiB,1597pins, no kernel or
-basis solve; no retry/budgetincrease. Exact dense/adversarial/provenance controls
-PASS; material terminal evidence pending. See
-[secant diagnostic](research/SECANT_INVERSE_DIAGNOSTIC.md). Assess the full-space
-norm route's validity/source-built tile cost before further material admission.
+no controlled before/after memory comparison. Saved-action secant001 terminalPASS21.248003708198667s/92323840B (~88.05MiB),
+all1597pins. Training defect improves to1.11e-16 by construction, but separate
+probe worsens0.4807017→15.2333336; plus residual action also worsens. **Reject
+this rank-one update for the unweighted infinity-contraction route.** No seed or
+inverse adopted. Independent70digit Decimal replay checks every action entry.
+[Result](research/secant_inverse_action001_result.json),
+[interpretation](research/SECANT_INVERSE_DIAGNOSTIC.md). All owners terminal;
+no next run/retry/budgetincrease. Next qualify bounded source-built tile cost and
+error controls for the original inverse's full-space norm route.
 The exact [streamed identity](research/STREAMED_FULL_DEFECT_ROUTE.md) includes
 same-side blocks and avoids a145GB dense matrix;2.78Tflops is not runtime evidence.
 [Method and interpretation](research/CORRECTION_INVERSE_DIAGNOSTIC.md).
@@ -127,9 +131,8 @@ FullZSHA4fb37410679421519e6dbae552f800ba197ca4db8c9303ffabf4781cec486426.
 Fresh native geometry and full Z source/oracle checks are in the ledger; six
 uncached Z samples are controls, not exhaustive equality. Do not import old Z/AQ.
 
-Actual guarded campaign wall21327.460967379473s; ceiling21600s leaves
-272.539032620527s. Only secant001 admitted60s, worst remainder212.539032620527s.
-No automatic retry or budget increase.
+Actual guarded campaign wall21348.708971087672s; ceiling21600s leaves
+251.291028912328s. No next run, automatic retry or budget increase admitted.
 Historical11357.646588s remain separate. Charge terminal actuals, including
 Python preparation, before any next admission. No automatic budget expansion.
 One heavy job OR quiet watcher. No paid/cloud compute, outreach or subagents.
@@ -158,7 +161,9 @@ Latest code checks:268tests PASS38.066s including native fixture builds;
 253maintained Python sources compilePASS; moment_refinement exit0; diffcheckPASS.
 No separate configured typecheck. Public latest helper/resultCI46131518726 on7e37f98 PASS; prospective final-halfCI46131592238 on1d335c8 PASS. Earlier CI46125471800 on8653ee8 PASS; runner CI46126020760 on4e0fecf PASS; material-result CI46126382268 on2ac1a50 PASS; orientation helper CI46126757526 onf10730c PASS; result CI46126994654 on3997c72 PASS; direction helper CI46127521198 onad67046 PASS; result CI46127763049 on6a12d8c PASS; step helperCI46128222986 on1084b00 PASS; readerCI46128690566 ond839ced PASS; preparation helperCI46129155495 on79344e4 PASS.
 Latest streamed helper CI46132810239 onf7fdd9d PASS; prospective manifest
-CI46132854664 one59e821 PASS. Current docs/results do not replace scientific qualification.
+CI46132854664 one59e821 PASS. Previous resultCI46133492457 one6aeff2 PASS;
+secant helperCI46133944602 on285e13e and prospectiveCI46133984159 ona95c65d PASS.
+Current docs/results do not replace scientific qualification.
 
 Chronology remains in RESEARCH_LEDGER.md and immutable public commits. The former
 1897line status page is preserved at

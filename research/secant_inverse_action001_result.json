@@ -1,0 +1,63 @@
+{
+  "training_defect_before": 0.6410778371097358,
+  "training_defect_after": 1.1102230246251565e-16,
+  "separate_probe_defect_before": 0.48070172169141706,
+  "separate_probe_defect_after": 15.233333612168108,
+  "base_correction_before_ry": 5.502435566805601e-10,
+  "base_correction_after_ry": 1.438905105618171e-10,
+  "plus_correction_before_ry": 3.5273124350480197e-10,
+  "plus_correction_after_ry": 4.2587019897976185e-10,
+  "inputs_unchanged": true,
+  "terminal_guard_pass": true,
+  "manifest_sha256": "20b66977970286fcfd481150519e1201aacc79cc753194dfc255e0f905d5ff45",
+  "outputs_sha256": {
+    "secant-actions.bin": "49cae69eb6b61c54c60bb34e80c41e4763f84d60c0e4dcdd0ef0f55d7c74c59e"
+  },
+  "conditioned_gap_error_bounded": false,
+  "physical_response_verified": false,
+  "scope": "One fitted secant direction and one pre-existing separate probe; no full-space bound or updated nonlinear sweep.",
+  "receipt": {
+    "status": "PASS",
+    "error": null,
+    "command": [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "/Users/noahs/Developer/sc-dft-exp/research/secant_inverse_run.py"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/secant-inverse-action-001",
+    "wall_s": 21.248003708198667,
+    "exit": 0,
+    "max_individual_descendant_rss_bytes": 92323840,
+    "sampled_peak_group_rss_bytes": 89849856,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 60.0,
+    "guard_source_sha256": "65cd5743a1129f8cdb1a2bb3bc56ce5f5a55e8127065f165ff59434df1322ef2"
+  },
+  "verified_input_count": 1597,
+  "readback_sha256": "2e0c95e1b092f8e6bf7799838c10b1730797207c4989c1a9aa78d646aea37d1f",
+  "output_files": {
+    "secant-actions.bin": {
+      "path": "/Users/noahs/Developer/sc-dft-exp/research/raw/secant-inverse-action-001/secant-actions.bin",
+      "bytes": 6522240,
+      "sha256": "49cae69eb6b61c54c60bb34e80c41e4763f84d60c0e4dcdd0ef0f55d7c74c59e"
+    }
+  },
+  "independent_decimal_precision": 70,
+  "independent_factor_u_max_error": 0.0,
+  "independent_factor_w_max_relative_error": 4.449549327964603e-16,
+  "independent_decimal_action_max_errors": [
+    1.1102230246251565e-16,
+    1.7763568394002505e-15,
+    5.169878828456423e-26,
+    5.169878828456423e-26
+  ],
+  "independent_decimal_action_bounds": [
+    3.2792996169575363e-13,
+    3.0407053536766805e-12,
+    1.1004871233611203e-22,
+    8.517404079595238e-23
+  ],
+  "decision": "Reject this rank-one update for the intended unweighted infinity-norm contraction route: separate-probe defect worsens above one. No new seed or inverse adopted.",
+  "postread_wall_s": 4.7563805831596255,
+  "postread_process_peak_rss_bytes": 93552640
+}
