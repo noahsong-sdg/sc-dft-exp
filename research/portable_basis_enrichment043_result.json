@@ -1,0 +1,43 @@
+{
+  "status": "FAIL",
+  "receipt": {
+    "status": "FAIL",
+    "error": "TimeoutError: Native continuous deadline",
+    "command": [
+      "/usr/bin/make",
+      "-f",
+      "/Users/noahs/Developer/sc-dft-exp/research/portable_gap/basis_enrichment.mk",
+      "RESEARCH=/Users/noahs/Developer/sc-dft-exp/research",
+      "QE_ROOT=/Users/noahs/Developer/sc-dft-exp/research/raw/public-response-build-004/qe",
+      "NATIVE_INPUT=/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-043/native.in",
+      "enrich-basis"
+    ],
+    "cwd": "/Users/noahs/Developer/sc-dft-exp/research/raw/portable-basis-enrichment-043",
+    "wall_s": 350.211029083468,
+    "exit": -15,
+    "max_individual_descendant_rss_bytes": 956350464,
+    "sampled_peak_group_rss_bytes": 958529536,
+    "macos_ru_maxrss_units": "bytes",
+    "rss_sample_interval_s": 2,
+    "continuous_deadline_s": 350.0,
+    "guard_source_sha256": "2740874650a93797646622838dc00ccb1226538a45feb32dc5c301c2d9f0127b"
+  },
+  "inputs_unchanged": true,
+  "public_and_consumed_manifest_equal": true,
+  "quiet_admission": {
+    "phase": "passed",
+    "pressure": "1",
+    "normal_seconds": 600.541618166957,
+    "elapsed_seconds": 600.5416309996508,
+    "required_normal_seconds": 600,
+    "limit_seconds": 1200
+  },
+  "new_campaign_native_wall_s": 13653.984917376973,
+  "historical_native_wall_s": 11357.646588,
+  "partial_output_accepted": false,
+  "gap_seed_qualified": false,
+  "physical_response_verified": false,
+  "controller_terminal": true,
+  "automatic_retry": false,
+  "diagnosis": "Native350s deadline, not a recorded host-pressure stop. No completed checkpoint. Current competing CPU workloads observed, but causal attribution/progress fraction unknown."
+}

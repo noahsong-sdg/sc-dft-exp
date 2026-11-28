@@ -1610,3 +1610,17 @@ operator, scientific gates and independent post045full-image mode check.
 No stale001watch/controller revival. No cache-clearing loop or automatic retry.
 Stop on any admission/native failure; no further scientific run beyond045
 without measured-result/value decision. Native cost unchanged at admission.
+
+
+##043deadline failure after successful sustained admission
+
+Quiet-window002PASS600.541618normal seconds.043guard failed native350s
+deadline after350.211029083468s, exit-15; no pressure failure recorded. Peak
+956350464bytes below3GiB. All prospective
+input identities unchanged and public/consumed manifest equality PASS. Session53148
+terminal exit1; known controller49306/guard62278 absent. No completed checkpoint
+or partial image accepted.044/045 not launched. Current CPU competition observed
+but no native progress instrumentation proves the cause or completion fraction.
+New native total13653.984917376973s, historical11357.646588s separate. Old350s forecast
+is insufficient under this attempt's conditions; do not call this a physics failure.
+Quiet-window and failure receipts public; thresholds/source/033checkpoint unchanged.

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "observation": {
+    "phase": "passed",
+    "pressure": "1",
+    "normal_seconds": 600.541618166957,
+    "elapsed_seconds": 600.5416309996508,
+    "required_normal_seconds": 600,
+    "limit_seconds": 1200
+  },
+  "native_scientific_acceptance": false
+}
