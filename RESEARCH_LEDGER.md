@@ -3914,3 +3914,23 @@ host state and resource/value decision before fresh roots; do not revive a faile
 root/controller or infer completed rows from partial files. Goal remains scientifically
 incomplete; source build and conditional analyses do not meet response acceptance.
 No maintained code changed; diffcheck and all-input revalidation PASS.
+
+
+## Explicit user resumption after Docker cache reclaim
+
+User reactivated the goal after a one-time clean Docker guest-cache release.
+Brave remains untouched; running Docker study was verified active without restart.
+Current host pressure1 and no SCDFT native/controller/watcher owner found. This
+is a new admission decision after explicit resumption, not revival of failed037.
+Fresh040–042 may attempt the remaining intervals from certified033; neither034
+nor037 supplies accepted work. Three420s ceilings1260s fit remaining
+1349.6068029982598s initial4h pilot, with no budget expansion. Expected10–12min
+native, not a bound. Same scientific value: independent64mode test after48
+residual1.0991127847466307e-9, followed by nonlinear candidate only if qualified.
+No cheaper projected arithmetic supplies the missing full images. Same sources,
+operator,32rowtile,64cap and scientific thresholds. Normal-pressure120 admission,
+3GiB cap and bounded20min watcher unchanged. Stop on any failure, no automatic
+retry or cache-clearing loop. No unrelated workload manipulation. Actual receipts
+charged including failures; independent residual/mode continuity check after042
+required before interpreting success. A temporary pressure1 observation is not
+proof that Docker reclaim has eliminated the resource issue.
